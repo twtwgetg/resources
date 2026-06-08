@@ -1,0 +1,92 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EquipPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<e:Label text="锻 造" y="51" fontFamily="Microsoft YaHei" horizontalCenter="-1" textColor="0x2E120A" size="26"/>
+	<ns1:PropBase width="20" height="20" x="151" y="343" visible="false"/>
+	<e:Group id="viewGroup" x="73" y="47">
+		<ns1:EquipUpStar id="upstarView" width="640" height="950" name="upstarView" y="14" skinName="skin.EquipUpStarSkin" anchorOffsetY="0" touchEnabled="false" x="0" visible="false"/>
+		<ns1:EquipGemstone id="gemView" width="640" height="950" name="gemView" y="14" skinName="skin.EquipGemstoneSkin" anchorOffsetY="0" touchEnabled="false" x="0" visible="false"/>
+		<ns1:QiangHuaView id="qiangHuaView" width="640" height="960" name="qiangHuaView" x="0" y="0" skinName="skin.qianghua" visible="false"/>
+		<ns1:ZhuLing id="zhuLingView" width="640" height="960" name="zhuLingView" x="0" y="0" skinName="zhulingSkin"/>
+	</e:Group>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="116" y="1028">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton id="qiangHuaBtn" x="0" y="0" width="86" height="86" name="qiangHuaView" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width.up="86" height.up="86" width="86" height="86">
+					<e:Image width="68" height="69" x="9" y="13" source="com_back01" scaleX="1" scaleY="1" includeIn="disabled"/>
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" source.down="duanzao_strcheck" source="duanzao_strcheck" source.up="duanzao_strcheck" source.disabled="duanzao_strcheck" y="0" y.down="0" y.disabled="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="gemBtn" x="87" y="0" width="86" height="86" name="gemView" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" source="beibao_gem" source.up="beibao_gem" source.down="beibao_gem" source.disabled="beibao_gem" y="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="upstarBtn" x="261" y="0" width="86" height="86" name="upstarView" scaleX="1" scaleY="1">
+							currentState="up"
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" source="duanzao_startcheck" source.up="duanzao_startcheck" source.down="duanzao_startcheck" source.disabled="duanzao_startcheck" y="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="zhulingBtn" x="174" y="0" width="86" height="86" name="zhuLingView" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" source="duanzao_zhuling" y="0" x="0" source.up="duanzao_zhuling" source.down="duanzao_zhuling" x.up="0" y.up="0" x.down="0" y.down="0" source.disabled="duanzao_zhuling"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="closeBtn" label="" x="656" width="56" height="56" y="48" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

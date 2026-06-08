@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="item_pofilerSkin" width="419" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16436681ec0" ></w:Config>
+	<e:Button id="btn" label="Button" x="0" y="-1.5" anchorOffsetX="0" width="317" anchorOffsetY="0" height="42"/>
+	<e:ToggleButton id="vis" label="V" x="326" y="4" anchorOffsetX="0" width="83" anchorOffsetY="0" height="34"/>
+</e:Skin>

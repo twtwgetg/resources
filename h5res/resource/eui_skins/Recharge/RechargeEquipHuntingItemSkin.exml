@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeEquipHuntingItemSkin" width="90" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="90" height="12" x="0" anchorOffsetX="0" fillMode="scale" verticalCenter="49" scale9Grid="2,2,1,1" source="factionbossbloodbg" visible="false"/>
+	<e:Image id="thumb" height="12" width="90" anchorOffsetX="0" anchorOffsetY="0" x="0" verticalCenter="49" fillMode="clip" scale9Grid="5,1,48,1" source="factionbossblood" visible="false"/>
+	<e:Label id="score" text="500" size="14" width="90" horizontalCenter="0" verticalCenter="63" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Image width="76.87" height="84" y="12" source="Faction_29" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Image width="112.87" height="123.34" y="-6.34" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" source="faction_57"/>
+	<e:Image width="76" height="76" x="7" y="16" source="Faction_34"/>
+	<e:Image width="3" height="15" y="97" source="Faction_33" horizontalCenter="0.5"/>
+	<e:Image id="right" width="33" height="14" x="69" y="112" source="factionsinglebosspic" visible="false"/>
+	<e:Image id="left" width="33" height="14" x="16" y="112" source="factionsinglebosspic" scaleX="-1" visible="false"/>
+	<ns1:ItemBase2 id="item" width="88" height="88" y="19" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2" scaleX="0.8" scaleY="0.8" horizontalCenter="0" visible="false"/>
+	<e:Image id="getState" width="120" height="58" x="-1.11" y="51.72" scaleX="0.7" scaleY="0.7" source="OpensysUIPic_4" rotation="336.67"/>
+</e:Skin>

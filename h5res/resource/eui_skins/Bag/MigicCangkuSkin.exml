@@ -1,0 +1,113 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MigicCangkuSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="wuqi">
+			<tween:TweenItem target="{image}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{242}" y="{148}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{239}" y="{167}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+
+
+	<e:Image width="606" height="508" y="88" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/magic_bg.png" horizontalCenter="1"/>
+
+	<e:Label text="神 炉" y="52" size="26" strokeColor="0x14181B" textColor="0x2E120A" fontFamily="Microsoft YaHei" horizontalCenter="-1"/>
+	<e:Image width="305" height="120" x="90.97" y="684" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/com_back_interval.png" touchEnabled="false"/>
+	<e:Image width="305" height="133" x="700.68" y="684" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/com_back_interval.png" scaleX="-1" touchEnabled="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Button id="receive" width="174" height="59" x="306" y="807" anchorOffsetX="0" anchorOffsetY="0" label="领 取">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" y.down="-2" source="com_button02"/>
+	<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" x="174" y="0" scaleX="-1" y.down="-2" source="com_button02"/>
+			<e:Label id="labelDisplay" text="领 取" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2" verticalCenter="0"/>
+
+
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+	<e:Group id="equipnum" x="335" y="770">
+		<e:Label id="lbl_currnum" text="99" y="1" anchorOffsetX="0" width="38" fontFamily="Microsoft YaHei" size="20" textAlign="right" anchorOffsetY="0" height="23" x="77" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+		<e:Label text="当前装备:" x="0" y="0" anchorOffsetX="0" width="101" size="20" strokeColor="0x14181b" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="21" textColor="0xc2c3e2" stroke="1"/>
+	</e:Group>
+	<e:Group id="baocang" x="230" y="950">
+		<e:Label text="当前装备累计超过20件，已进入" x="-20" y="-19" anchorOffsetX="0" width="287" size="18" strokeColor="0x14181b" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="21" textColor="0xc2c3e2" stroke="1"/>
+		<e:Label text="爆仓状态" x="240" y="-19" anchorOffsetX="0" width="85" size="18" strokeColor="0x14181B" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="22" textColor="0xf11d40" stroke="1"/>
+		<e:Label text="爆仓后在遭遇战中被挑战战败会损失装备和主宰晶石" x="-57" y="8" anchorOffsetX="0" width="477" size="18" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xc2c3e2" stroke="1"/>
+	</e:Group>
+	<e:Group id="weibaocang" x="230" y="951">
+		<e:Label text="装备累计20件" x="-19" y="-20" anchorOffsetX="0" width="127" size="18" strokeColor="0x14181B" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="23" textColor="0xc2c3e2" stroke="1"/>
+		<e:Label text="后进入" x="219" y="-20" anchorOffsetX="0" width="63" size="18" strokeColor="0x14181B" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="23" textColor="0xc2c3e2" stroke="1"/>
+		<e:Label id="time" text="(约3小时59分)" x="99" y="-20" anchorOffsetX="0" width="116" size="18" strokeColor="0x14181B" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="22" textColor="0xfdff00" stroke="1"/>
+		<e:Label text="爆仓状态" x="273" y="-20" anchorOffsetX="0" width="85" size="18" strokeColor="0x14181B" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="22" textColor="0xF11D40" stroke="1"/>
+		<e:Label text="爆仓时遭遇战中被挑战败会损失仓库装备和主宰晶石" x="-57" y="7" anchorOffsetX="0" width="432" size="18" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0xc2c3e2" stroke="1" anchorOffsetY="0" height="30"/>
+	</e:Group>
+
+
+
+
+
+	<e:Group id="des" x="150" y="578">
+		<e:Label text="神炉可将炉内真灵炼化为" x="74" y="38" anchorOffsetX="0" width="278" size="20" textAlign="center" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0xc2c3e2" stroke="1" anchorOffsetY="0" height="20"/>
+
+		<e:Label text="装备" x="325" y="38" anchorOffsetX="0" width="106" size="20" textAlign="left" strokeColor="0x14181b" anchorOffsetY="0" height="21" verticalAlign="justify" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1"/>
+		<e:Label text="3转以上领取装备有几率获得" x="53" y="68" anchorOffsetX="0" width="271" size="20" textAlign="right" strokeColor="0x14181B" anchorOffsetY="0" height="20" verticalAlign="justify" fontFamily="Microsoft YaHei" textColor="0xC2C3E2" stroke="1"/>
+
+		<e:Label text="主宰晶石" x="326" y="68" anchorOffsetX="0" width="105" size="20" textAlign="left" strokeColor="0x14181B" anchorOffsetY="0" height="20" verticalAlign="justify" fontFamily="Microsoft YaHei" stroke="1" textColor="0xff974b"/>
+	</e:Group>
+
+
+	<ns1:MagicCangkuProgress id="progress" width="631" height="48" y="716" skinName="MagicCangkuProgressSkin" horizontalCenter="28.5" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label text="0" x="137" y="707" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="bc" text="20" x="298" y="707" size="20" fontFamily="Microsoft YaHei" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="zd" text="60" x="629" y="707" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Image width="2" height="15" x="309" y="733" source="progressline"/>
+	<ns1:MovieClipCtrl id="effect_upstarcg" width="20" height="20" name="9058" skinName="MovieClipCtrlSkin" horizontalCenter="13" verticalCenter="-227"/>
+
+
+
+ 
+</e:Skin>

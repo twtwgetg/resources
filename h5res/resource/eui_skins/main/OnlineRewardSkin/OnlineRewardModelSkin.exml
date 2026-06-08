@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineRewardModelSkin" width="575" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="162fcb2e852" ></w:Config>
+	<e:Image x="0" y="0" width="287.5" height="170" source="fuli_2" scale9Grid="9,7,205,92"/>
+	<e:Image x="575" y="0" source="fuli_2" width="287.5" height="170" scaleX="-1" scale9Grid="7,7,208,87"/>
+	<e:Image source="fuli_1" left="2" top="2"/>
+	<e:Group x="0" y="1.34" height="100%" width="100%">
+		<e:Group horizontalCenter="28.5" verticalCenter="36.5" scaleX="0.5" scaleY="0.5">
+			<e:Image id="RewardType" y="0" x="1" source=""/>
+		</e:Group>
+		<e:Group x="12" y="13">
+			<e:Label text="倒计时:" x="397.77" y="0" size="20" anchorOffsetY="0" height="20" anchorOffsetX="0" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0xfbcc90"/>
+			<e:Label id="Time" text="59:59:59" x="467.97" y="1" size="18" fontFamily="Microsoft YaHei" stroke="1" textColor="0xed5e5e" textAlign="left" width="80" strokeColor="0x14181b"/>
+			<e:Label id="Condition" text="在线XX分钟可领取" x="17" y="0" size="20" textAlign="left" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group y="39" horizontalCenter="0.5">
+			<e:Scroller id="scrollerReward" height="96" anchorOffsetX="0" y="10" width="180" anchorOffsetY="0" left="4">
+				<e:List id="rewardList0" width="286" height="0" y="2" anchorOffsetX="0">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Button id="btnRecieve" label="" y="27" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="401">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="68" height="48" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+					<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label text="领  取" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+					<e:Label text="领  取" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="Received" x="428" y="0" visible="false">
+				<e:Image width="116" height="97" x="0" y="0" source="youjian_pic7"/>
+			</e:Group>
+			<e:Group id="teQuanReward" anchorOffsetX="0" width="132" left="292" anchorOffsetY="0" height="38" verticalCenter="34">
+				<e:Image x="-103" y="0" source="fulix2"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

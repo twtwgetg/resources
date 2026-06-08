@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerDetailsFetterSkin" width="550" height="246" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg1" width="550" height="246" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="51,47,57,50"/>
+		<e:Image width="86" height="14" x="331.35" y="21" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+		<e:Image width="86" height="14" x="221.35" y="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="com_title_line"/>
+		<e:Label text="英雄羁绊" y="12" anchorOffsetX="0" width="99" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xFBCC90" strokeColor="0x14181B" x="228" fontFamily="Microsoft YaHei" stroke="1"/>
+	</e:Group>
+	<e:Group x="30" y="50" anchorOffsetX="0" width="490" anchorOffsetY="0" height="121">
+		<e:Label id="linkDesc" text="一飞冲天：同时梵蒂冈烦得很公分厚放工会放工会风格和官方拥的dfgdfgdfgdfgdfgdfgdfgdfgdfgdfgdfgdfgdfgdfg梵蒂冈梵蒂冈电饭锅电饭锅大范甘迪发发郭德纲电饭锅电饭锅的非官方的鬼地方个电饭锅电饭锅电饭锅电饭锅电饭锅电饭锅电饭锅电饭锅电饭锅电饭锅大范甘迪发有黑炎之主和冰主，攻击+10%" x="0" y="0" size="20" width="490" anchorOffsetX="0" anchorOffsetY="0" height="182" fontFamily="Microsoft YaHei" textColor="0x878581" strokeColor="0x14181b" stroke="1" lineSpacing="10"/>
+		<e:Label text="二龙戏珠：同时拥有黑炎之主、冰主和黑暗之主，\n防御+15%" x="0" y="31" size="18" visible="false"/>
+	</e:Group>
+</e:Skin>

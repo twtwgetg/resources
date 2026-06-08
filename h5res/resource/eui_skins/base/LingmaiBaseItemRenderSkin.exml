@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LingmaiBaseItemRenderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1628a3c87f6" ></w:Config>
+	<ns1:LingmaiBase id="lingMaiBase" skinName="LingmaiBaseSkin"/>
+</e:Skin>

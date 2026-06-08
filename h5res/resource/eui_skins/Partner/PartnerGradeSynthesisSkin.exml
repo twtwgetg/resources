@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerGradeSynthesisSkin" width="525" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="525" height="398" x="0" y="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	 <e:Group x="17" y="52" width="490" height="270" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group> 
+	<e:Group x="75" y="80" width="134" height="134">
+		<e:Image width="50%" height="131" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" left="0" top="0"/>
+		<e:Image width="50%" height="131" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" right="0" top="0" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="318" y="80" width="134" height="134">
+		<e:Image width="50%" height="131" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" left="0" top="0"/>
+		<e:Image width="50%" height="131" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" right="0" top="0" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="0" y="0" width="100%">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Label text="材料合成" x="208" y="9.67" size="26" textColor="0xf2f2e9" strokeColor="0x14181b"/>
+	<ns1:ItemBase3 id="curItem" width="114" height="111" y="102" skinName="skin.ItemBaseSkin3" horizontalCenter="121.5"/>
+	<ns1:ItemBase3 id="needItem" width="114" height="111" y="101" horizontalCenter="-122.5">
+		<ns1:skinName>
+			<e:Skin width="114" height="150">
+			<e:Group id="bg" width="84" height="84" y="2" x="15">
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+			</e:Group>
+			<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+			<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+			<e:Label id="label" text="%t" x="3" y="60" size="18" height="21" anchorOffsetX="0" width="91" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+			<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+			<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+			<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+			<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+			<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+			<e:Image id="duihao" width="64" height="45" verticalCenter="-14" anchorOffsetX="0" anchorOffsetY="0" source="partner_checkpic" horizontalCenter="1" visible="false"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:ItemBase3>
+	<e:Button id="startBtn" label="" x="195" y="330" width="134" height="48">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+	<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="合  成" includeIn="down" size="24" horizontalCenter="0" y="10" textColor="0xf2f2e9"/>
+			<e:Label text="合  成" includeIn="up" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="getWay" text="获取途径" x="107" y="267" size="20" textColor="0xbbb7a9" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	<e:Button id="closeBtn" label="" x="483" width="56" height="56" y="4" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

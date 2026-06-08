@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WordArtShowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="142.58">
+	<w:Config id="161d0fa9dd5" ></w:Config>
+	<e:Image id="plusSign" width="20" height="20" x="67" source="lv_plus" y="16"/>
+	<e:Image id="hb" x="35" source="hb" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="11"/>
+	<e:Image id="ftSign" x="28" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="9" source="ft"/>
+	<e:Image id="bg" source="bg" x="0" y="2"/>
+	<e:Group id="numGroup" x="95" y="12">
+		<e:Image id="Number" width="20" height="26" x="0" y="0" source="hong_0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-1" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="dodgeSign" width="75" height="38" x="12" y="5" source="shanbi"/>
+	<e:Image id="together" x="-1" y="4.33" source="HJ"/>
+</e:Skin>

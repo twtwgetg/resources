@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeContinuousSkin" width="675" height="1070" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group anchorOffsetY="0" height="1070" horizontalCenter="0" verticalCenter="0">
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+			<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+			<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+			<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+			<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png"/>
+			<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scaleX="-1"/>
+		</e:Group>
+		<e:Label text="连充豪礼" y="15.02" fontFamily="Microsoft YaHei" size="26" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" textAlign="left" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" y="112" source="resource/assets/data/ui/bgs/lianchong2.png" horizontalCenter="0"/>
+	<e:Group x="39" y="107" width="598" height="942" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Image y="107" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="partner_select" width="598" scale9Grid="17,17,106,106" height="942" horizontalCenter="0"/>
+	<e:Group id="viewGroup" y="399" anchorOffsetY="0" horizontalCenter="0">
+		<e:Scroller id="scroller1" y="-58" anchorOffsetY="0" scaleX="1" scaleY="1" width="590" height="700" name="oneView" anchorOffsetX="0" horizontalCenter="0">
+			<e:List id="itemList1" width="0" height="0" anchorOffsetY="0">
+				<e:layout>
+					<e:TileLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="scroller2" y="-58" anchorOffsetY="0" scaleX="1" scaleY="1" width="590" height="700" name="twoView" horizontalCenter="0" visible="false">
+			<e:List id="itemList2" width="0" height="0">
+				<e:layout>
+					<e:TileLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="scroller3" y="-58" anchorOffsetY="0" scaleX="1" scaleY="1" width="590" height="700" name="threeView" horizontalCenter="0" visible="false">
+			<e:List id="itemList3" width="0" height="0">
+				<e:layout>
+					<e:TileLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<ns1:RechargeContinuousModel width="588" height="165" y="341" skinName="RechargeContinuousModelSkin" anchorOffsetY="0" horizontalCenter="0" visible="false"/>
+	<ns1:ScrollPage id="scrollPage" width="602" height="155" x="35.34" y="52" anchorOffsetY="0" anchorOffsetX="0">
+		<ns1:skinName>
+		<e:Skin width="605" height="178">
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="178" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="18.67" y="-8">
+				<e:ToggleButton label="" y="3" width="117" height="52" name="oneView" x="59">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" width="114" height="52">
+						<e:Image width.down="57" height.down="52" y.down="1" x.down="0" width="57" height="43" x="0" source.down="sign_select" source="sign_unselect" scale9Grid="7,14,1,3" source.up="sign_unselect" y="9"/>
+	<e:Image width="57" height="43" x="114" scaleX="-1" height.down="52" source="sign_unselect" scale9Grid="7,14,1,3" y="9" source.down="sign_select" y.down="1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label text="30元" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" y.up="21" size.down="22" x.down="35" size="22" fontFamily="Microsoft YaHei" horizontalCenter.disabled="0" horizontalCenter.down="0" x.up="26" verticalCenter.disabled="4" horizontalCenter="0" text.up="30元" text.down="30元" text.disabled="30元" textColor.up="0xfbcc90" textColor.down="0xf2f2e9" verticalCenter.down="0.5" y="21"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton label="" y="3" width="117" height="52" name="twoView" x="184">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" width="114" height="52">
+						<e:Image width.down="57" height.down="52" y.down="1" x.down="0" width="57" height="43" x="0" source.down="sign_select" source="sign_unselect" scale9Grid="7,14,1,3" source.up="sign_unselect" y="9"/>
+						<e:Image width="57" height="43" x="114" scaleX="-1" height.down="52" source="sign_unselect" scale9Grid="7,14,1,3" y="9" source.down="sign_select" y.down="1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label text="98元" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" y.up="21" size.down="22" x.down="35" size="22" fontFamily="Microsoft YaHei" horizontalCenter.disabled="0" horizontalCenter.down="0" x.up="26" verticalCenter.disabled="4" horizontalCenter="0" text.up="98元" text.down="98元" text.disabled="98元" textColor.up="0xfbcc90" textColor.down="0xf2f2e9" verticalCenter.down="0.5" y="21"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton label="" y="3" width="117" height="52" name="threeView" x="309">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" width="114" height="52">
+						<e:Image width.down="57" height.down="52" y.down="1" x.down="0" width="57" height="43" x="0" source.down="sign_select" source="sign_unselect" scale9Grid="7,14,1,3" source.up="sign_unselect" y="9"/>
+						<e:Image width="57" height="43" x="114" scaleX="-1" height.down="52" source="sign_unselect" scale9Grid="7,14,1,3" y="9" source.down="sign_select" y.down="1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label text="488元" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" y.up="21" size.down="22" x.down="35" size="22" fontFamily="Microsoft YaHei" horizontalCenter.disabled="0" horizontalCenter.down="0" x.up="26" verticalCenter.disabled="4" horizontalCenter="0" text.up="488元" text.down="488元" text.disabled="488元" textColor.up="0xfbcc90" textColor.down="0xf2f2e9" verticalCenter.down="0.5" y="21"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="137" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="0.5">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Group x="72" y="180.36">
+		<e:Image x="11" y="-16" source="lc_1"/>
+		<e:Image id="perMoney" x="173" y="-13" source="lc_2"/>
+	</e:Group>
+	<e:Group y="154.99" x="334">
+		<e:Image x="140.36" y="93.01" source="com_back_power" anchorOffsetY="0" height="30" anchorOffsetX="0" width="106" scale9Grid="55,5,80,34"/>
+	</e:Group>
+	<e:Group x="66.64" y="300.38">
+		<e:Label text="活动剩余时间:" y="1" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181b" x="4" touchEnabled="false" textColor="0x1ce17d"/>
+		<e:Label id="time" text="xx天xx小时xx分" y="1" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181b" x="124" touchEnabled="false" textColor="0x1CE17D"/>
+	</e:Group>
+	<e:Group x="463.95" y="302.73">
+		<e:Label text="本日已充值:" y="-3" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181b" x="0" touchEnabled="false" textColor="0xfbcc90"/>
+		<e:Label id="money" text="0元" y="-3" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="102.71" touchEnabled="false" textColor="0xfbcc90"/>
+	</e:Group>
+	<ns1:ItemBase3 id="showItem" width="114" height="111" x="470" y="166">
+		<ns1:skinName>
+		<e:Skin width="114" height="111">
+			<e:Group id="bg" x="15" top="0">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+			</e:Group>
+			<ns1:QualityBase id="quality" width="84" height="84" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15" top="0"/>
+			<e:Image id="icon" height="74" width="74" x="20" y="5"/>
+			<e:Label id="label" text="%t" x="24" y="57" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+			<e:Label id="itemName" text="%t" y="87" size="18" anchorOffsetX="0" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" horizontalCenter="0.5"/>
+			<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+			<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+			<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ItemBase3>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="23" top="8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

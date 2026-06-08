@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConsumerGiftSkin" width="640" height="830" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="604" height="728" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" source="fulihuidi" scale9Grid="15,14,30,32"/>
+	<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" source="resource/assets/data/ui/bgs/chongzhibg_02.png"/>
+	<e:Group y="135" horizontalCenter="0">
+		<e:Image height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="viptitle_pic" width="300"/>
+		<e:Image height="43" y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" source="viptitle_pic" x="600" width="300"/>
+		<e:Label text="排 名" y="8" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="138" touchEnabled="false" textColor="0xfff5a5"/>
+		<e:Label text="奖 励" y="8" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="428" touchEnabled="false" textColor="0xfff5a5"/>
+	</e:Group>
+	<e:Scroller id="scroller" y="176" anchorOffsetY="0" scaleX="1" scaleY="1" name="oneView" width="596" height="536" horizontalCenter="0">
+		<e:List id="itemList" width="0" height="0">
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="67" y="84">
+		<e:Label text="活动剩余时间:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label text="奖励通过邮件形式发放" y="24" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label id="timerm" text="06:50:21" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="120" touchEnabled="false" textColor="0x1CE17D"/>
+	</e:Group>
+	<e:Group y="736" x="51">
+		<e:Label text="◆" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0xe4bf54"/>
+		<e:Label text="排名:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="24" touchEnabled="false" textColor="0xd1ba7e"/>
+		<e:Label id="last" text="50" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="72" touchEnabled="false" textAlign="left" textColor="0xd1ba7e"/>
+		<e:Label text="消耗元宝:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="339" touchEnabled="false" width="97" anchorOffsetX="0" textColor="0xffea00"/>
+		<e:Label id="lastjf" text="57000" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="425" touchEnabled="false" textAlign="left" textColor="0xffea00"/>
+		<e:Label id="othername" text="玩家名字" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="170" touchEnabled="false" width="153" textAlign="left" textColor="0xd1ba7e"/>
+	</e:Group>
+	<e:Group y="773" x="51">
+		<e:Label text="◆" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0xE4BF54"/>
+		<e:Label text="排名:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="24" touchEnabled="false" textColor="0xd1ba7e"/>
+		<e:Label id="mysort" text="50" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="72" touchEnabled="false" textAlign="left" textColor="0xd1ba7e"/>
+		<e:Label text="消耗元宝:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="339" touchEnabled="false" width="99" anchorOffsetX="0" textColor="0xffea00"/>
+		<e:Label id="myjf" text="57000" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="425" touchEnabled="false" textAlign="left" textColor="0xffea00"/>
+		<e:Label id="myname" text="玩家名字" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="170" touchEnabled="false" textAlign="left" textColor="0x1ce17d"/>
+	</e:Group>
+	<e:Label text="排行榜上榜条件，满足消耗元宝：" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="74" touchEnabled="false" textColor="0xD1BA7E" bottom="11"/>
+	<e:Label text="10000" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="342" touchEnabled="false" bottom="11" textColor="0x1ce17d"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EffectUISkin" width="746" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<e:Label id="levelupEffectpos" text="" y="240" horizontalCenter="44"/>
+	<e:Label id="equipStrengpos" text="" left="336" y="546"/>
+	<e:Label id="bosscoming" text="" y="450" x="373"/>
+	<e:Label id="succEff" text="" y="622" x="373"/>
+	<e:Label id="failEff" text="" y="622" x="353"/>
+	<e:Group id="middlePos" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/> 
+	
+	
+</e:Skin>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillViewSkin" width="646" height="1084" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="101" height="31" x="278" y="85" source="resource/assets/data/charactor/UI/h5_demo/wuxue/wuxuejineng/jineng_meishuzi.png"/>
+	<e:Image width="580" height="799" x="33" y="142.5" source="resource/assets/data/charactor/UI/h5_demo/wuxue/wuxuejineng/wuxuejineng_ditu.png"/>
+	<e:Label text="选中下面的技能可以与上面正在使用的技能对调" y="285" anchorOffsetX="0" width="430" size="20" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+	<ogre_ui:SkillCell id="skill0" width="140" height="141" x="38" y="340" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ogre_ui:SkillCell id="skill1" width="140" height="141" x="181.33333333333334" y="340" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ogre_ui:SkillCell id="skill2" width="140" height="141" x="323.6666666666667" y="340" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ogre_ui:SkillCell id="skill3" width="140" height="141" x="467" y="340" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ogre_ui:SkillCell width="140" height="141" x="32.83" y="485" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill4"/>
+	<ogre_ui:SkillCell width="140" height="141" x="186.17" y="495" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill5"/>
+	<ogre_ui:SkillCell width="140" height="141" x="328.5" y="495" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill6"/>
+	<ogre_ui:SkillCell width="140" height="141" x="471.83" y="495" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill7"/>
+	<ogre_ui:SkillCell width="140" height="141" x="24.67" y="626" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill8"/>
+	<ogre_ui:SkillCell width="140" height="141" x="178" y="636" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill9"/>
+	<ogre_ui:SkillCell width="140" height="141" x="320.33" y="636" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill10"/>
+	<ogre_ui:SkillCell width="140" height="141" x="463.67" y="636" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill11"/>
+	<ogre_ui:SkillCell width="140" height="141" x="22.34" y="777" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill12"/>
+	<ogre_ui:SkillCell width="140" height="141" x="168.00333333333333" y="777" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill13"/>
+	<ogre_ui:SkillCell width="140" height="141" x="314.6666666666667" y="777" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill14"/>
+	<ogre_ui:SkillCell width="140" height="141" x="461.34" y="777" skinName="SkillCellSkin" anchorOffsetX="0" anchorOffsetY="0" id="skill15"/>
+	<ogre_ui:SkillItem id="curSkill0" width="63" height="63" x="146.5" y="193" skinName="ogre_ui.skillitem" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ogre_ui:SkillItem width="63" height="63" x="264.1666666666667" y="193" skinName="ogre_ui.skillitem" anchorOffsetX="0" anchorOffsetY="0" id="curSkill1"/>
+	<ogre_ui:SkillItem width="63" height="63" x="381.83333333333337" y="193" skinName="ogre_ui.skillitem" anchorOffsetX="0" anchorOffsetY="0" id="curSkill2"/>
+	<ogre_ui:SkillItem width="63" height="63" x="496" y="193" skinName="ogre_ui.skillitem" anchorOffsetX="0" anchorOffsetY="0" id="curSkill3"/>
+	<ogre_ui:SkillUpgradeView id="upgradeView" width="20" height="20" x="29" y="244" skinName="skin.SkillUpgradeSkin" visible="false"/>
+
+</e:Skin>

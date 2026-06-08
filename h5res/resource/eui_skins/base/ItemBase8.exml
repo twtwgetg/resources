@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemBase8Skin" width="116" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16619dd5cda" ></w:Config>
+	<e:Group id="bg" width="84" height="84" y="12" x="17">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+	</e:Group>
+	<ns1:QualityBase id="quality" width="84" height="84" x="17" y="12" skinName="skin.QualityBase"/>
+
+
+	<e:Image id="icon" height="74" y="16" width="74" x="22"/>
+	<e:Label id="label" text="%t" x="26" y="70" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+	<e:Label id="itemName" text="%t" y="93" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="2"/>
+	<e:Image id="selectSign" width="116" height="122" y="0" source="jineng_pic17" x="0" scale9Grid="10,12,20,18" visible="false"/>
+	<e:Image id="getSignle" y="10" scale9Grid="10,12,20,18" source="wk_41" horizontalCenter="0" visible="false"/>
+	<e:Group x="22" y="13" width="75">
+		<e:Image width="25" height="25" x="0" y="0" source="partnerfont_suipic" id="jiaobiao1"/>
+		<e:Image y="0" source="partnerfont_yingpic" id="jiaobiao2" right="0"/>
+	</e:Group>
+	<e:Image width="53" height="38" y="32" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="2.5" visible="false"/>
+	<e:Image id="duihao" width="64" height="45" verticalCenter="-3.5" anchorOffsetX="0" anchorOffsetY="0" source="partner_checkpic" horizontalCenter="3" visible="false"/>
+	<e:Group id="qualityfont" x="38" y="12" width="62" height="23" visible="false">
+		<e:Image id="qualitytitle1" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" y="0" right="0" source="qualityfont_12"/>
+	</e:Group>
+
+</e:Skin>

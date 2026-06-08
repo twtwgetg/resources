@@ -1,0 +1,482 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,PreLoadingBarBg_png,PreLoadingBar_png,LOGO_png,ShoppicAtlas_json,BOSSxuetiao_png,BOSSxuetiaokuang_png,BOSSxuetiaotouxiang_png,hongdian_png,Item09_01_035[1]_png,LOGO2_png,PreLoadingBar2_png,PreLoadingBarBg2_png,AchievementPicAtlas_json,input_png,commonAtlas_json,newParticle_json,newParticle_png,VipPicAtlas_json,huoban_fragment33_png,white_fnt,mingziheise_png,KloadPicAtlas_json,shouchong_png,ggpic_png",
+			"name": "preload"
+		},
+		{
+			"keys": "PreLoadingBar_png,PreLoadingBarBg_png,LOGO_png,Animation_png,Animationcenter_png",
+			"name": "login"
+		},
+		{
+			"keys": "LOGO_png",
+			"name": "main"
+		},
+		{
+			"keys": "createroleAtlas_json",
+			"name": "CreateRoleUISkinGroup"
+		},
+		{
+			"keys": "LOGO_png",
+			"name": "taskPanel"
+		},
+		{
+			"keys": "shenbingPanelAtlas_json,partnerUIAtlas_json,BagPanelAtlas_json,DuanzaoPanelAtlas_json,juesePanelAtlas_json,WordArtAtlas_json,BossPicAtlas_json,LiaotianPicAtlas_json,YoujianPicAtlas_json,ShoppicAtlas_json,HorsePicAtlas_json,lingmaiPicAtlas_json,wakuangPicAtlas_json,NocompressAtlas_json,npctalkAtlas_json,mapinfoAtlas_json,newParticle_json,newParticle_png,FactionPicAtlas_json,RankPicAtlas_json,qiandaoAtlas_json,OpenSysPicAtlas_json,DaZuoAtlas_json,YunBiaoPicAtlas_json,XianMoDaZhanPicAtlas_json",
+			"name": "ui"
+		},
+		{
+			"keys": "wakuangPicAtlas_json",
+			"name": "dig_treasure"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "ui/prepare/PreLoadingBar.png",
+			"type": "image",
+			"name": "PreLoadingBar_png"
+		},
+		{
+			"url": "ui/prepare/PreLoadingBarBg.png",
+			"type": "image",
+			"name": "PreLoadingBarBg_png"
+		},
+		{
+			"url": "ui/prepare/LOGO.png",
+			"type": "image",
+			"name": "LOGO_png"
+		},
+		{
+			"url": "atlas/shenbingPanelAtlas.json",
+			"type": "sheet",
+			"name": "shenbingPanelAtlas_json",
+			"subkeys": "shenbing_btn1,shenbing_btn2,shenbing_btn3,shenbing_btn4,shenbing_btn5,shenbing_check,shenzhuang_btn1,shenzhuang_check"
+		},
+		{
+			"url": "atlas/partnerUIAtlas.json",
+			"type": "sheet",
+			"name": "partnerUIAtlas_json",
+			"subkeys": "HJ_01,HJ_02,HJ_03,HJ_04,HJ_05,HJ_06,HJ_07,HJ_08,huoban_pic23,huoban_pic25,jointskill_boy,jointskill_girl,partner_bgpic,partner_check3,partner_check4,partner_checkpic,partner_expbar,partner_linepic,partner_luckytitle,partner_maxgradepic,partner_occupation1,partner_occupation2,partner_occupation3,partner_occupation4,partner_occupation5,partner_occupation6,partner_page_in,partner_page_out,partner_prop_bg,partner_select,partner_star,partner_tobattle,partner_yuanbtn,partnerbtn_pic,partnerexpbar,partnerexpbg,partnerfont_suipic,partnerfont_yingpic,partnerhointatk,partneritemtitle,partnerjoinsklbg2,partnerlock,partnernamebg,partnerpropbtn,partnerskillbg,partnerskillborder,partnersklbtn,partnerskllevel,partnerstarbg,partnerstarup,partnerstep,partnerstepbg,partneryuanbtn,partneryuanyijihuo,qualityfont_1,qualityfont_10,qualityfont_11,qualityfont_12,qualityfont_3,qualityfont_5,qualityfont_6,qualityfont_7,qualityfont_8,qualityfont_9"
+		},
+		{
+			"url": "atlas/DuanzaoPanelAtlas.json",
+			"type": "sheet",
+			"name": "DuanzaoPanelAtlas_json",
+			"subkeys": "duanzao_1,duanzao_10,duanzao_2,duanzao_29,duanzao_3,duanzao_30,duanzao_31,duanzao_32,duanzao_33,duanzao_4,duanzao_5,duanzao_6,duanzao_7,duanzao_8,duanzao_9,duanzao_pic17,duanzao_pic20,duanzao_pic21,duanzao_pic22,duanzao_pic23,duanzao_pic27,duanzao_pic28,duanzao_upstarbg,gemquality_0,gemquality_1,gemquality_3,gemquality_5,gemquality_7,gemquality_9,gemselectpic,upstar_lv0,upstar_lv1,upstar_lv2,upstar_lv3,upstar_lv4,upstar_lv5,zhuansheng01"
+		},
+		{
+			"url": "atlas/BagPanelAtlas.json",
+			"type": "sheet",
+			"name": "BagPanelAtlas_json",
+			"subkeys": "beibao_equip,beibao_item,beibao_pic11,beibao_pic7,melting_add,progressline"
+		},
+		{
+			"url": "atlas/juesePanelAtlas.json",
+			"type": "sheet",
+			"name": "juesePanelAtlas_json",
+			"subkeys": "EquipOrange_itemicon,chengh1,chengh2,chenghao,chengzhang_check,chengzhuang_pic1,daojuicon_pic33,dingzhicheng,hongzhang_check,huodongcheng,jiericheng,juese_btn1,juese_btn3,juese_btn6,juese_btn7,juese_btn8,juese_btn9,lingmai_pic6,longhun,longling,longmai,longwen,paimingcheng,zhuanicon,zhusheng_01,zhushengh_03,zhushengj_02,zhuzai_04,zhuzai_05"
+		},
+		{
+			"url": "atlas/WordArtAtlas.json",
+			"type": "sheet",
+			"name": "WordArtAtlas_json",
+			"subkeys": "HJ,HJ_0,HJ_1,HJ_2,HJ_3,HJ_4,HJ_5,HJ_6,HJ_7,HJ_8,HJ_9,bg,bighuang_0,bighuang_1,bighuang_2,bighuang_3,bighuang_4,bighuang_5,bighuang_6,bighuang_7,bighuang_8,bighuang_9,ft,hb,hb_0,hb_1,hb_2,hb_3,hb_4,hb_5,hb_6,hb_7,hb_8,hb_9,hong_0,hong_1,hong_2,hong_3,hong_4,hong_5,hong_6,hong_7,hong_8,hong_9,hong_reduce,huang_0,huang_1,huang_2,huang_3,huang_4,huang_5,huang_6,huang_7,huang_8,huang_9,lv_0,lv_1,lv_2,lv_3,lv_4,lv_5,lv_6,lv_7,lv_8,lv_9,lv_plus,shanbi,shuzi_0,shuzi_1,shuzi_2,shuzi_3,shuzi_4,shuzi_5,shuzi_6,shuzi_7,shuzi_8,shuzi_9"
+		},
+		{
+			"url": "atlas/BossPicAtlas.json",
+			"type": "sheet",
+			"name": "BossPicAtlas_json",
+			"subkeys": "AllPeopleBoss_pic01,AllPeopleBoss_pic02,AllPeopleBoss_pic03,AllPeopleBoss_pic04,AllPeopleBoss_pic05,AllPeopleBoss_pic06,AllPeopleBoss_pic07,boss_bg1,boss_bg2,boss_close,boss_newbg1,boss_newpic2,boss_newpic3,boss_newpic4,boss_newpic5,boss_newpic6,boss_newpic7,boss_personal,boss_pic5,boss_pic6,boss_pic8,boss_pic9,boss_world,gerenboss2,guaji_pic1,guaji_pic2,select_01,select_02,select_03,select_04,shenglid,shenglidg,shibaid,shibaidg,zh_01,zh_02,zh_03,zh_04,zh_05,zh_06,zhuicon,zhuxianboss_pic13,zhuxianboss_pic15,zhuxianboss_pic16,zhuxianboss_pic17"
+		},
+		{
+			"url": "atlas/LiaotianPicAtlas.json",
+			"type": "sheet",
+			"name": "LiaotianPicAtlas_json",
+			"subkeys": "biaoqing001,biaoqing002,biaoqing003,biaoqing004,biaoqing005,biaoqing006,biaoqing007,biaoqing008,biaoqing009,biaoqing010,biaoqing011,biaoqing012,biaoqing013,biaoqing014,biaoqing015,biaoqing016,biaoqing017,biaoqing018,biaoqing019,biaoqing020,biaoqing021,biaoqing022,biaoqing023,biaoqing024,biaoqing025,biaoqing026,biaoqing027,biaoqing028,biaoqing029,biaoqing030,biaoqing031,biaoqing032,biaoqing051,biaoqing052,biaoqing100,biaoqing101,biaoqing102,biaoqing103,biaoqing104,biaoqing105,biaoqing106,biaoqing107,biaoqing108,biaoqing109,gonggaopic,liaotian_btn1,liaotian_check1,liaotian_check2,liaotian_check3,liaotian_pic14,liaotian_pic15,liaotian_pic17,liaotian_pic18,liaotian_pic19,liaotian_pic21,xitongpic"
+		},
+		{
+			"url": "atlas/YoujianPicAtlas.json",
+			"type": "sheet",
+			"name": "YoujianPicAtlas_json",
+			"subkeys": "youjian_pic1,youjian_pic2,youjian_pic3,youjian_pic4,youjian_pic5,youjian_pic7,youjian_pic8"
+		},
+		{
+			"url": "atlas/ShoppicAtlas.json",
+			"type": "sheet",
+			"name": "ShoppicAtlas_json",
+			"subkeys": "daojuicon_pic12,shangcheng_pic1,shangcheng_pic3,shangcheng_pic4,shangcheng_pic5,shangcheng_pic9,shop_check,shop_line,shop_qiankun,shop_shenmi,shop_vip,shoppic7"
+		},
+		{
+			"url": "ui/linshi/BOSSxuetiao.png",
+			"type": "image",
+			"name": "BOSSxuetiao_png"
+		},
+		{
+			"url": "ui/linshi/BOSSxuetiaokuang.png",
+			"type": "image",
+			"name": "BOSSxuetiaokuang_png"
+		},
+		{
+			"url": "ui/linshi/BOSSxuetiaotouxiang.png",
+			"type": "image",
+			"name": "BOSSxuetiaotouxiang_png"
+		},
+		{
+			"url": "ui/linshi/hongdian.png",
+			"type": "image",
+			"name": "hongdian_png"
+		},
+		{
+			"url": "ui/linshi/Item09_01_035[1].png",
+			"type": "image",
+			"name": "Item09_01_035[1]_png"
+		},
+		{
+			"url": "ui/prepare/LOGO.png",
+			"type": "image",
+			"name": "LOGO2_png"
+		},
+		{
+			"url": "ui/prepare/PreLoadingBar.png",
+			"type": "image",
+			"name": "PreLoadingBar2_png"
+		},
+		{
+			"url": "ui/prepare/PreLoadingBarBg.png",
+			"type": "image",
+			"name": "PreLoadingBarBg2_png"
+		},
+		{
+			"url": "atlas/HorsePicAtlas.json",
+			"type": "sheet",
+			"name": "HorsePicAtlas_json",
+			"subkeys": "blueprogressBar,blueprogressBarbg,blueprogressBarbgbord,daojuicon_pic8,daojuicon_pic9,shengong_01,shengong_02,shengong_03,shengong_04,shengong_05,shengong_06,shengong_07,shengong_08,win_01,win_02,win_03,win_04,win_05,win_culture,win_skin,zuoqi_01,zuoqi_02,zuoqi_03,zuoqi_04,zuoqi_05,zuoqi_culture,zuoqi_skin"
+		},
+		{
+			"url": "atlas/lingmaiPicAtlas.json",
+			"type": "sheet",
+			"name": "lingmaiPicAtlas_json",
+			"subkeys": "lingmai_10_1,lingmai_10_2,lingmai_1_1,lingmai_1_2,lingmai_2_1,lingmai_2_2,lingmai_3_1,lingmai_3_2,lingmai_4_1,lingmai_4_2,lingmai_5_1,lingmai_5_2,lingmai_6_1,lingmai_6_2,lingmai_7_1,lingmai_7_2,lingmai_8_1,lingmai_8_2,lingmai_9_1,lingmai_9_2,lingmai_Lv_1,lingmai_Lv_10,lingmai_Lv_2,lingmai_Lv_3,lingmai_Lv_4,lingmai_Lv_5,lingmai_Lv_6,lingmai_Lv_7,lingmai_Lv_8,lingmai_Lv_9,lingmai_pic10,lingmai_pic11,lingmai_pic13,lingmai_pic7,lingmai_pic8,lingmai_pic9"
+		},
+		{
+			"url": "atlas/LilianPicAtlas.json",
+			"type": "sheet",
+			"name": "LilianPicAtlas_json",
+			"subkeys": "cailiaofbfont_pic1,cailiaofbfont_pic2,cailiaofbfont_pic3,cailiaofbfont_pic4,cailiaofbfont_pic5,cailiaofbicon_FB,cailiaofbicon_nameline,cailiaofbicon_pic1,cailiaofbicon_pic2,cailiaofbicon_pic3,cailiaofbicon_pic4,cailiaofbicon_pic5,cailiaofbname_pic1,cailiaofbname_pic2,cailiaofbname_pic3,cailiaofbname_pic4,cailiaofbname_pic5,cailiaofuben_pic6,fushitaicon_01,fushitaicon_02,fushitaicon_03,fushitaicon_05,fushitaicon_06,fushitaicon_07,fushitaicon_08,fushitaicon_09,fushitaicon_10,fushitaicon_11,fushitaicon_12,fushitaicon_13,fushitaicon_14,fushitaicon_15,fushitaicon_16,fushitaicon_17,fushitaicon_18,fushitaicon_19,fushitaicon_20,fushitaicon_21,lilian_biaoqiansuo,lilian_biaoqianw,lilian_cailiaok,lilian_cailiaow,lilian_honghuangk,lilian_honghuangw,lilian_mijingk,lilian_mijingw,lilian_paiqiank,lilian_paiqianw,lilian_zhengtuk,lilian_zhengtuw,paiqianicon_01,paiqianicon_02,paiqianicon_03,paiqianicon_04,paiqianicon_05,paiqianicon_06,paiqianicon_07,paiqianicon_08,sao_1,sao_2,sao_3,sao_4,sao_5,wakuang_1,wakuang_4,wakuang_5,wakuang_6"
+		},
+		{
+			"url": "atlas/SkillPicAtlas.json",
+			"type": "sheet",
+			"name": "SkillPicAtlas_json",
+			"subkeys": "XunBao_01,XunBao_02,XunBao_03,XunBao_04,fabao_01,fabao_02,fabao_03,fabao_04,fabao_B_01,fabao_B_02,fabao_B_03,fabao_O_01,fabao_O_02,fabao_O_03,fabao_P_01,fabao_P_02,fabao_P_03,fabao_R_01,fabao_R_02,fabao_R_03,jinengshengji_pic3,skill01,skill02,skill03,skill04,skill_backline,skill_check,skill_enter,skill_iconback"
+		},
+		{
+			"url": "atlas/AchievementPicAtlas.json",
+			"type": "sheet",
+			"name": "AchievementPicAtlas_json",
+			"subkeys": "chengjiu_num_0,chengjiu_num_1,chengjiu_num_2,chengjiu_num_3,chengjiu_num_4,chengjiu_num_5,chengjiu_num_6,chengjiu_num_7,chengjiu_num_8,chengjiu_num_9,chengjiu_pic4,chengjiu_pic5,chengjiu_pic6,chengjiu_pic7,chengjiu_pic8,chengjiu_pic9"
+		},
+		{
+			"url": "atlas/wakuangPicAtlas.json",
+			"type": "sheet",
+			"name": "wakuangPicAtlas_json",
+			"subkeys": "wk_1,wk_10,wk_11,wk_12,wk_13,wk_14,wk_15,wk_16,wk_17,wk_18,wk_19,wk_2,wk_20,wk_21,wk_22,wk_23,wk_24,wk_25,wk_26,wk_27,wk_28,wk_29,wk_3,wk_30,wk_31,wk_32,wk_33,wk_34,wk_35,wk_36,wk_37,wk_38,wk_39,wk_4,wk_40,wk_41,wk_42,wk_5,wk_6,wk_7,wk_8,wk_9"
+		},
+		{
+			"url": "atlas/commonAtlas.json",
+			"type": "sheet",
+			"name": "commonAtlas_json",
+			"subkeys": "EquipOrange_namebg,FactionPVP,Faction_04,Faction_05,Faction_06,Faction_08,Faction_20,Head_1,Head_2,Head_36,PartnerSkill,RankingListS_check,RoleItem1,RoleItem2,UIIcon_1,UIIcon_11,UIIcon_12,UIIcon_13,UIIcon_14,UIIcon_15,UIIcon_16,UIIcon_17,UIIcon_18,UIIcon_19,UIIcon_2,UIIcon_20,UIIcon_3,UIIcon_4,UIIcon_5,UIIcon_6,UIIcon_7,UIIcon_8,UIIcon_9,UIPic_0,UIPic_1,UIPic_10,UIPic_11,UIPic_12,UIPic_13,UIPic_14,UIPic_15,UIPic_16,UIPic_17,UIPic_18,UIPic_19,UIPic_2,UIPic_20,UIPic_21,UIPic_22,UIPic_23,UIPic_24,UIPic_25,UIPic_26,UIPic_27,UIPic_28,UIPic_29,UIPic_3,UIPic_33,UIPic_34,UIPic_35,UIPic_36,UIPic_37,UIPic_39,UIPic_4,UIPic_40,UIPic_41,UIPic_42,UIPic_43,UIPic_44,UIPic_45,UIPic_46,UIPic_47,UIPic_48,UIPic_50,UIPic_51,UIPic_52,UIPic_53,UIPic_54,UIPic_55,UIPic_6,UIPic_7,UIPic_8,UIPic_9,UIPic_downback,Word_0,Word_1,Word_2,Word_3,Word_4,Word_5,Word_6,Word_7,Word_8,Word_9,baihubiaoshi,baocangstate,beibao_gem,beibao_pic5,beibao_shenlu,chengjiudianfeng,chengjiudianfeng_pic1,chengjiudianfeng_pic2,chuanshuocard,com_back01,com_back02,com_back_down,com_back_name,com_back_num,com_barback,com_button01,com_button02,com_button03,com_button04,com_button05,com_button06,com_button07,com_button08,com_check,com_check01,com_check02,com_checkback,com_checkbox_check,com_close,com_downbg,com_help_head,com_infobg,com_mask,com_num_enter,com_pag,com_pag_circular01,com_pag_circular02,com_pic1,com_red,com_return,com_shadow,com_skill_close,com_star01,com_star02,com_titletop,com_twobg,com_twobg2,com_twobg3,com_twotitlebg1,dingshihuodong,downline_B,downline_W,duanzao_startcheck,duanzao_strcheck,duanzao_zhuling,fabao_check,fight_0,fight_1,fight_2,fight_3,fight_4,fight_5,fight_6,fight_7,fight_8,fight_9,fight_add,fight_zl,fighthuang_0,fighthuang_1,fighthuang_2,fighthuang_3,fighthuang_4,fighthuang_5,fighthuang_6,fighthuang_7,fighthuang_8,fighthuang_9,fuliicon03,fuliicon04,ggicon,giftbag_1yuan,gndicon_1,gndicon_2,gongnengtishi1,gongnengtishi10,gongnengtishi11,gongnengtishi12,gongnengtishi13,gongnengtishi14,gongnengtishi15,gongnengtishi16,gongnengtishi2,gongnengtishi3,gongnengtishi4,gongnengtishi5,gongnengtishi6,gongnengtishi7,gongnengtishi8,gongnengtishi9,itemdropbg,jhmicon,jineng_pic17,lianchonghaoli,mask,meirichong,n01,n02,n03,partner_luckybtn,partner_synbg,qiankunbang_pic,qinglongbiaoshi,qiri01,qiri02,qiri03,qiri04,qiri05,qirifabao,qiriguanqia,qirishenyi,qiriyingxiong,qirizhanli,qirizhuangbei,qirizuoqi,quality_0,quality_1,quality_11,quality_3,quality_5,quality_7,quality_9,quality_bg,rank_06,ranking_1,ranking_2,ranking_3,sc01,sc02,shousuoicon,sign_lselect,sign_select,sign_unselect,sixianggbtn,taozhuang_pic01,taozhuang_pic02,taozhuang_pic03,taozhuang_pic04,taozhuang_pic05,taozhuang_pic06,taozhuang_pic07,taozhuang_pic08,taozhuang_pic09,taozhuang_pic10,task_anxian,task_dian,task_effect,task_xian,tequankapic,tongyong_btn1,tongyong_btn12,tongyong_pic39,tongyong_pic40,tongyong_pic43,tongyong_pic46,tongyong_pic47,tongyong_pic48,tongyong_pic49,tongyong_pic50,tongyong_pic53,tongyong_pic58,tongyong_pic59,tongyong_pic60,tongyong_pic61,tongyong_pic7,tongyong_pic8,touzifanlipic,vip_00,vip_01,vip_02,vip_03,vip_04,vip_05,vip_06,vip_07,vip_08,vip_09,vipfontlt,x01,x02,x03,xiaolaba,xuanwubiaoshi,yg01,yg02,yindaokuang,yindaokuang01,zhizuncard,zhujiemian_btn15,zhuquebiaoshi,zs_1,zs_10,zs_11,zs_12,zs_13,zs_2,zs_3,zs_4,zs_5,zs_6,zs_7,zs_8,zs_9"
+		},
+		{
+			"url": "atlas/NocompressAtlas.json",
+			"type": "sheet",
+			"name": "NocompressAtlas_json",
+			"subkeys": "EquipOrange_Arrow,UIPic_30,UIPic_31,UIPic_32,com_arrow,com_back_power,com_back_title,com_bar,com_bar2,com_barbg,com_barbg1,com_title_line"
+		},
+		{
+			"url": "atlas/npctalkAtlas.json",
+			"type": "sheet",
+			"name": "npctalkAtlas_json",
+			"subkeys": "Npc_Question,Npc_aperture"
+		},
+		{
+			"url": "assets/utils/light.png",
+			"type": "image",
+			"name": "light_png"
+		},
+		{
+			"url": "ui/common/input.png",
+			"type": "image",
+			"name": "input_png"
+		},
+		{
+			"url": "atlas/mapinfoAtlas.json",
+			"type": "sheet",
+			"name": "mapinfoAtlas_json",
+			"subkeys": "door_01,door_02,map01,map02,map03,map04,map_close,map_namebg"
+		},
+		{
+			"url": "atlas/newParticle.json",
+			"type": "json",
+			"name": "newParticle_json"
+		},
+		{
+			"url": "atlas/newParticle.png",
+			"type": "image",
+			"name": "newParticle_png"
+		},
+		{
+			"url": "atlas/FactionPicAtlas.json",
+			"type": "sheet",
+			"name": "FactionPicAtlas_json",
+			"subkeys": "Faction_01,Faction_02,Faction_03,Faction_07,Faction_21,Faction_22,Faction_24,Faction_25,Faction_26,Faction_27,Faction_29,Faction_30,Faction_31,Faction_32,Faction_33,Faction_34,Faction_35,Faction_36,Faction_37,Faction_38,Faction_39,Faction_40,Faction_41,Faction_42,Faction_58,Faction_59,baihuzhiling_icon,bangsjdzbtn,bangzcdzbtn,faction_43,faction_44,faction_45,faction_46,faction_47,faction_48,faction_49,faction_50,faction_51,faction_52,faction_53,faction_54,faction_55,faction_56,faction_57,factionblooddown,factionbossblood,factionbossbloodbg,factionbossnamebg,factionsinglebosspic,qilinzhiling_icon,qinglongzhiling_icon,shenzhilibtn,sixiangbtn,treasurebox_close,treasurebox_open,xuanwuzhiling_icon,zhuquezhiling_icon"
+		},
+		{
+			"url": "atlas/RankPicAtlas.json",
+			"type": "sheet",
+			"name": "RankPicAtlas_json",
+			"subkeys": "RankPic_lingpo,dangwei_1,dangwei_2,dangwei_3,fccgpic,jgcgpic,jgsbpic,pkrecordpic,rankpic001,rankpic002,rankpic003,rankpic004"
+		},
+		{
+			"url": "atlas/qiandaoAtlas.json",
+			"type": "sheet",
+			"name": "qiandaoAtlas_json",
+			"subkeys": "baojinum_3,baojinum_4,baojinum_5,check_bg,chongzhi_01,chongzhi_02,chongzhi_03,chongzhi_04,chongzhi_05,chongzhi_check01,chongzhi_check02,chongzhi_check03,chongzhi_check04,daojinum_1,daojinum_2,daojinum_3,euqhunt_font,fuli_1,fuli_2,fulifendi,fulihuidi,fuliwendi,fulix2,giftbag_check01,giftbag_close,giftbag_open,giftbag_yigoumai,grow_fanli,grow_font,progressbar_shu1,qiandao_check01,qiandao_check02,qiandao_check_04,qiandoa_01,qiandoa_02,qiandoa_03,qiandoa_04,qiandoa_05,qiandoa_06,qiandoa_07,qiandoa_08,qiandoa_09,qiandoa_11,redcircle_bg,redexplain_btn,showrewards_goldborder,zizhao_01,zizhao_02,zizhao_03,zizhao_04,zizhao_05,zizhao_08,zizhao_09,zizhao_13,zizhao_14"
+		},
+		{
+			"url": "atlas/OpenSysPicAtlas.json",
+			"type": "sheet",
+			"name": "OpenSysPicAtlas_json",
+			"subkeys": "OpensysUIPic_1,OpensysUIPic_3,OpensysUIPic_4"
+		},
+		{
+			"url": "atlas/SpecialCardPicAtlas.json",
+			"type": "sheet",
+			"name": "SpecialCardPicAtlas_json",
+			"subkeys": "ggao,shouchong01,shouchong02,soecard_select,specard_pic1,specard_pic10,specard_pic11,specard_pic12,specard_pic13,specard_pic14,specard_pic15,specard_pic16,specard_pic2,specard_pic3,specard_pic4,specard_pic5,specard_pic7,specard_pic8,specard_pic9,zhuanpanj,zhuanpank,zpicon,zzspecard"
+		},
+		{
+			"url": "atlas/VipPicAtlas.json",
+			"type": "sheet",
+			"name": "VipPicAtlas_json",
+			"subkeys": "gongxianglibaofont,titleicon,titleicon1,vip10_speciallibao,vip10_zhuanshulibao,vipfont,viplevel_0,viplevel_1,viplevel_2,viplevel_3,viplevel_4,viplevel_5,viplevel_6,viplevel_7,viplevel_8,viplevel_9,vipnum_0,vipnum_1,vipnum_2,vipnum_3,vipnum_4,vipnum_5,vipnum_6,vipnum_7,vipnum_8,vipnum_9,vippic_bg1,viptitle_pic,zhanlibiaoshengfont"
+		},
+		{
+			"url": "atlas/DaZuoAtlas.json",
+			"type": "sheet",
+			"name": "DaZuoAtlas_json",
+			"subkeys": "DaZuo_Pic01,DaZuo_Pic02,DaZuo_but01,DaZuo_but02,Dazuo_ingpic"
+		},
+		{
+			"url": "atlas/YunBiaoPicAtlas.json",
+			"type": "sheet",
+			"name": "YunBiaoPicAtlas_json",
+			"subkeys": "YunBiaoPic_01,YunBiaoPic_02,YunBiaoPic_03,YunBiaoPic_04,YunBiaoPic_05,YunBiaoPic_06,YunBiaoPic_07,YunBiaoPic_08,YunBiaoPic_09"
+		},
+		{
+			"url": "assets/huoban_fragment33.png",
+			"type": "image",
+			"name": "huoban_fragment33_png"
+		},
+		{
+			"url": "assets/font/white.fnt",
+			"type": "font",
+			"name": "white_fnt"
+		},
+		{
+			"url": "assets/mingziheise.png",
+			"type": "image",
+			"name": "mingziheise_png"
+		},
+		{
+			"url": "atlas/chongzhiPicAtlas.json",
+			"type": "sheet",
+			"name": "chongzhiPicAtlas_json",
+			"subkeys": "Ic_30,Ic_488,Ic_98,cz_02,cz_05,cz_1,cz_2,cz_3,cz_4,cz_5,cz_6,cz_7,cz_8,cz_9,lc_1,qkb_0,qkb_01,qkb_02,qkb_03,qkb_04,qkb_05,qkb_06,qkb_07,qkb_1,qkb_17,qkb_18,qkb_2,qkb_3,qkb_4,qkb_5,qkb_6,qkb_7,qkb_9"
+		},
+		{
+			"url": "atlas/createroleAtlas.json",
+			"type": "sheet",
+			"name": "createroleAtlas_json",
+			"subkeys": "chuangjue_back1,chuangjue_btn1,chuangjue_btn2,chuangjue_btn3,chuangjue_btn4,chuangjue_btn5,chuangjue_btn6,chuangjue_btn7,chuangjue_btn8,chuangjue_btn9,chuangjue_line,chuangjue_minfo,chuangjue_pic5,chuangjue_pic6,chuangjue_winfo,tongyong_logo"
+		},
+		{
+			"url": "atlas/Offline1v1PicAtlas.json",
+			"type": "sheet",
+			"name": "Offline1v1PicAtlas_json",
+			"subkeys": "1v1_Headback,1v1_boxbg,1v1_checkone,1v1_chenctwo,1v1_ciconbg,1v1_first,1v1_line,1v1_peoplebg,1v1_pic1,1v1_pic18,1v1_pic2,1v1_pic3,1v1_picback,wangzhe_01,wangzhe_02,wangzhe_03,wangzhe_04,wangzhe_05,wangzhe_06,wangzhe_07,wangzhe_08,wangzhe_09,wangzhe_10,wangzhe_11"
+		},
+		{
+			"url": "atlas/KloadPicAtlas.json",
+			"type": "sheet",
+			"name": "KloadPicAtlas_json",
+			"subkeys": "UIPic_511,XunBao_011,XunBao_021,com_back_power1,kaichang01,kaichang02,kaichang03,kaichang04,kaichang05,kaichang06,kaichang07,kaichang08"
+		},
+		{
+			"url": "assets/data/charactor/ui/itemicon/daoju_linghu.png",
+			"type": "image",
+			"name": "daoju_linghu_png"
+		},
+		{
+			"url": "assets/data/charactor/ui/itemicon/daoju_chibang2.png",
+			"type": "image",
+			"name": "daoju_chibang2_png"
+		},
+		{
+			"url": "assets/data/charactor/ui/itemicon/daoju_chibang3.png",
+			"type": "image",
+			"name": "daoju_chibang3_png"
+		},
+		{
+			"url": "assets/data/charactor/ui/itemicon/daojuicon_pic34.png",
+			"type": "image",
+			"name": "daojuicon_pic34_png"
+		},
+		{
+			"url": "assets/data/charactor/ui/itemicon/daojuicon_pic35.png",
+			"type": "image",
+			"name": "daojuicon_pic35_png"
+		},
+		{
+			"url": "atlas/XianMoDaZhanPicAtlas.json",
+			"type": "sheet",
+			"name": "XianMoDaZhanPicAtlas_json",
+			"subkeys": "XMPic_01,XMPic_02,XMPic_03,XMPic_04,XMPic_05,XMPic_06,XMPic_07,XMPic_08,XMPic_09,XMPic_10,XMPic_11,XMPic_12,XMPic_13,XMPic_14,XMPic_15,XMPic_16,XMPic_17,XMPic_18,XMPic_19,XMPic_TG,XMPic_WJ,XMPic_WS"
+		},
+		{
+			"url": "assets/data/ui/bgs/shouchong.png",
+			"type": "image",
+			"name": "shouchong_png"
+		},
+		{
+			"url": "assets/data/ui/bgs/ggpic.png",
+			"type": "image",
+			"name": "ggpic_png"
+		},
+		{
+			"url": "ui/prepare/Animation.png",
+			"type": "image",
+			"name": "Animation_png"
+		},
+		{
+			"url": "ui/prepare/Animationcenter.png",
+			"type": "image",
+			"name": "Animationcenter_png"
+		}
+	]
+}

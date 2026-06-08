@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="preparepbSkin" width="595" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="2,2,111,11" source="kaichang07" x="0" y="0" width="285"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="kaichang07" scale9Grid="2,2,111,11" scaleX="-1" x="570" y="0" width="285"/>
+		<e:Image id="thumb" y="6" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scale9Grid="2,0,82,17" source="kaichang06" width="560" horizontalCenter="0"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="kaichang08" y="-2" right="-15"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="kaichang08" y="34" rotation="180" left="-13"/>
+	</e:Group>
+	<e:Label id="labelDisplay" text="999991" textAlign="center" size="16" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Label id="text" text="99999" textAlign="center" size="18" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:MovieClipCtrl width="20" height="20" x="104" id="effect" name="9010" verticalCenter="0" visible="false"/>
+</e:Skin>

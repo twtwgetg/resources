@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionbaseSkin" width="622" height="1026" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+		<e:Image width="50%" height="50%" x="622" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+		<e:Image width="50%" height="50%" x="622" y="1026" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" x="0" y="1026" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0">
+		<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+		<e:Image width="50%" height="63" x="622" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+	</e:Group>
+	<e:Image width="518" height="43" y="2" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="-1"/>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="622" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+		</e:Group>
+		<e:Label text="基础信息" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" y="9" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="base" height="22" y="93" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="70">
+		<e:Group x="0" y="0">
+			<e:Label text="所属门派:" size="22" scaleX="1" scaleY="1" x="0" y="0" height="20" width="100" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xc6d5df"/>
+			<e:Label id="factionName" text="仙界" size="22" scaleX="1" scaleY="1" textAlign="left" width="80" x="98" y="0" height="20" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0xf0e6cd"/>
+		</e:Group>
+		<e:Group x="222" y="0">
+			<e:Label id="masterTitle" text="掌门:" size="22" scaleX="1" scaleY="1" x="0" y="0" height="20" width="100" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="right" textColor="0xc6d5df"/>
+			<e:Label id="masterName" text="s9999名字要六个字" size="22" scaleX="1" scaleY="1" textAlign="left" width="170" x="100" y="0" height="20" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xf0e6cd"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="600" height="836" y="165" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="1">
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="600" scaleX="-1"/>
+			<e:Image width="50%" height="50%" y="836" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="600" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" y="836" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+		</e:Group>
+		<e:Image width="585" height="43" y="2" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="0.5"/>
+		<e:Group x="56" y="10">
+			<e:Label text="职 位" size="20" scaleX="1" scaleY="1" x="0" y="0" height="20" width="70" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" textColor="0xfbcc90"/>
+			<e:Label text="角色名" size="20" scaleX="1" scaleY="1" x="194" y="0" height="20" width="70" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" textColor="0xfbcc90"/>
+			<e:Label text="战斗力" size="20" scaleX="1" scaleY="1" x="379" y="0" height="20" width="88" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" textColor="0xfbcc90"/>
+		</e:Group>
+		<e:Scroller id="menber" anchorOffsetX="0" anchorOffsetY="0" height="786" width="588" y="42" x="6">
+			<e:viewport>
+			<e:List id="memberList" anchorOffsetX="0" x="25" anchorOffsetY="0" y="-187" width="0" height="789" itemRendererSkinName="MemberinfoSkin">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<e:Group x="11" y="94" anchorOffsetY="0" height="113" visible="false">
+			<ns1:Memberinfo width="580" height="40" x="0" y="0" skinName="MemberinfoSkin"/>
+			<ns1:Memberinfo width="580" height="40" x="0" y="40" skinName="MemberinfoSkin"/>
+			<ns1:Memberinfo width="580" height="40" x="0" y="80" skinName="MemberinfoSkin"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="3" top="4" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

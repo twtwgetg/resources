@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BlockEditor" width="147" height="521" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="BG" width="146" x="0" anchorOffsetX="0" anchorOffsetY="0" source="input_png" scale9Grid="2,2,2,2" bottom="0" verticalCenter="0" height="519"/>
+	<e:Button id="btn_save" label="保存" x="17" y="446" anchorOffsetX="0" width="113" anchorOffsetY="0" height="32">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_clear" label="清除" x="17" y="80" anchorOffsetX="0" width="113" anchorOffsetY="0" height="33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:ToggleButton id="btn_min" label="-" x="12.5" y="3" anchorOffsetX="0" width="34" anchorOffsetY="0" height="32">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Button id="btn_back" label="返回" x="17" y="401.5" anchorOffsetX="0" width="113" anchorOffsetY="0" height="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_diff" label="-" x="17" y="186" anchorOffsetX="0" width="97" anchorOffsetY="0" height="32">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_add" label="+" x="14.5" y="151" anchorOffsetX="0" width="99" anchorOffsetY="0" height="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:ToggleButton id="btn_beginedit" label="开始" x="19" y="46" anchorOffsetX="0" width="109" anchorOffsetY="0" height="34">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button05" source.down="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:CheckBox id="blockCheck" label="刷障碍点" x="14.5" y="292.5" enabled="true"/>
+</e:Skin>

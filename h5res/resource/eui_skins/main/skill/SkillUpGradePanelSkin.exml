@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillUpGradePanelSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1644fc47a19"/>
+	<e:Label text="技 能" y="3" horizontalCenter="0" fontFamily="Microsoft YaHei" size="26" textColor="0x2e120a" strokeColor="0x14181a"/>
+	<e:Group y="170" horizontalCenter="0">
+		<e:Image width="305" height="281" y="0" source="resource/assets/data/ui/bgs/skill_topback.png" x="0"/>
+		<e:Image width="305" height="281" y="0" source="resource/assets/data/ui/bgs/skill_topback.png" x="596" scaleX="-1"/>
+	</e:Group>
+	<e:Group y="120" horizontalCenter="0">
+		<e:Image width="118" height="195" y="0" source="skill_iconback" x="0"/>
+		<e:Image width="118" height="195" y="0" source="skill_iconback" x="236" scaleX="-1"/>
+		<e:Image id="skillicon" width="119" height="119" y="38" horizontalCenter="0" source="skill02"/>
+		<e:Image width="165" height="38" y="165" scaleX="-1" source="com_back_name" horizontalCenter="0"/>
+		<e:Label id="skillName" text="龙爪功" y="170" size="24" rotation="359.99" horizontalCenter="0" textColor="0x0c0c0c" fontFamily="Microsoft YaHei" verticalAlign="middle" stroke="0" strokeColor="0x14181a"/>
+	</e:Group>
+	<e:Group y="50" horizontalCenter="0">
+		<e:Image width="360" height="50" x="0" source="com_back_power" verticalCenter="0"/>
+		<ns1:powerzlcomp id="power" width="360" height="50" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="1" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group y="753" horizontalCenter="0" height="32">
+		<e:Group x="303" y="0">
+			<e:Image width="150" height="32" y="1" anchorOffsetX="0" anchorOffsetY="0" x="63" source="com_num_enter" scale9Grid="7,7,42,18"/>
+			<e:Label id="needNum" text="3243243" x="105" size="20" anchorOffsetX="0" width="100" textAlign="right" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9" y="7"/>
+			<e:Image id="icon1" width="31" height="34" x="69" source="UIPic_38" y="0"/>
+			<e:Label text="消耗：" x="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" y="7"/>
+		</e:Group>
+		<e:Group x="-1" y="0">
+			<e:Image width="150" height="32" y="1" anchorOffsetX="0" anchorOffsetY="0" x="63" source="com_num_enter" scale9Grid="7,7,42,18"/>
+			<e:Label id="needNumall" text="3243243" x="105" size="20" anchorOffsetX="0" width="100" textAlign="right" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" y="7"/>
+			<e:Image id="icon" width="31" height="34" x="69" source="UIPic_38" y="0"/>
+			<e:Label text="消耗：" x="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="7"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="upgradeAllBtn" label="升一级" y="807" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="80">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" width.down="86" height.down="59" source="com_button01" source.up="com_button01" source.down="com_button01"/>
+			<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" x.down="172" width.down="86" height.down="59" source="com_button01" source.up="com_button01" source.down="com_button01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="upgradeBtn" label="升五级" y="807" width="172" height="60" x="380" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="172" height="60">
+			<e:Image width="86" height="59" y.down="-2" source="com_button02" source.down="com_button02"/>
+			<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source="com_button02" source.up="com_button02" source.down="com_button02"/>
+			<e:Label id="labelDisplay" text="" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" y.up="15"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="0" y="450">
+		<e:Group x="0" y="7" anchorOffsetX="0" width="641">
+			<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="16"/>
+			<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="626" scaleX="-1"/>
+			<e:Image width="2" height="186" y="8" source="skill_backline" x="171.6"/>
+			<e:Image width="2" height="186" y="8" source="skill_backline" horizontalCenter="0"/>
+			<e:Image width="2" height="186" y="8" source="skill_backline" x="469.4"/>
+		</e:Group>
+		<e:Group id="skillGroup" y="1" width="640" x="0">
+			<ns1:SkillBaseFetish1 width="150" height="290" y="0" x="22">
+				<ns1:skinName>
+					<e:Skin width="160" height="290" currentState="normal" states="down,normal">
+					<e:Group id="selectSign" x="0" y="0">
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="0"/>
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="150" scaleX="-1"/>
+					</e:Group>
+					<e:Image id="icon" width="107" height="107" x.normal="1" y.normal="7" x.down="1" y.down="5" verticalCenter="-47.5" source="skill01" horizontalCenter="0"/>
+	<e:Image width="24" height="24" verticalCenter="-91" horizontalCenter="35" source="com_red" name="redpoint"/>
+					<e:Label id="label" text="9999级" size="18" touchEnabled="false" horizontalCenter="0.5" bottom="74" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					<e:Label id="nameLabel" text="技能名称" y="168" size="20" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseFetish1>
+			<ns1:SkillBaseFetish1 width="150" height="290" y="0" x="171.34">
+				<ns1:skinName>
+					<e:Skin width="160" height="290" currentState="normal" states="down,normal">
+					<e:Group id="selectSign" x="0" y="0">
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="0"/>
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="150" scaleX="-1"/>
+					</e:Group>
+					<e:Image id="icon" width="107" height="107" x.normal="1" y.normal="7" x.down="1" y.down="5" verticalCenter="-47.5" horizontalCenter="0" source="skill02"/>
+	<e:Image width="24" height="24" verticalCenter="-91" horizontalCenter="35" source="com_red" name="redpoint"/>
+					<e:Label id="label" text="9999级" size="18" touchEnabled="false" horizontalCenter="0.5" bottom="74" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					<e:Label id="nameLabel" text="技能名称" y="168" size="20" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseFetish1>
+			<ns1:SkillBaseFetish1 width="150" height="290" y="0" x="320.65">
+				<ns1:skinName>
+					<e:Skin width="160" height="290" currentState="normal" states="down,normal">
+					<e:Group id="selectSign" x="0" y="0">
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="0"/>
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="150" scaleX="-1"/>
+					</e:Group>
+					<e:Image id="icon" width="107" height="107" x.normal="1" y.normal="7" x.down="1" y.down="5" verticalCenter="-47.5" horizontalCenter="0" source="skill03"/>
+	<e:Image width="24" height="24" verticalCenter="-91" horizontalCenter="35" source="com_red" name="redpoint"/>
+					<e:Label id="label" text="9999级" size="18" touchEnabled="false" horizontalCenter="0.5" bottom="74" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					<e:Label id="nameLabel" text="技能名称" y="168" size="20" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseFetish1>
+			<ns1:SkillBaseFetish1 width="150" height="290" y="0" x="470.31">
+				<ns1:skinName>
+					<e:Skin width="160" height="290" currentState="normal" states="down,normal">
+					<e:Group id="selectSign" x="0" y="0">
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="0"/>
+						<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="150" scaleX="-1"/>
+					</e:Group>
+					<e:Image id="icon" width="107" height="107" x.normal="1" y.normal="7" x.down="1" y.down="5" verticalCenter="-47.5" horizontalCenter="0" source="skill04"/>
+	<e:Image width="24" height="24" verticalCenter="-91" horizontalCenter="35" source="com_red" name="redpoint"/>
+					<e:Label id="label" text="9999级" size="18" touchEnabled="false" horizontalCenter="0.5" bottom="74" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					<e:Label id="nameLabel" text="技能名称" y="168" size="20" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseFetish1>
+		</e:Group>
+	</e:Group>
+	<e:Group y="335" horizontalCenter="0">
+		<e:Image width="388" height="96" x="0" y="0" source="com_back_power" scale9Grid="0,8,212,28"/>
+		<e:Label id="skillDesc" text="技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述" anchorOffsetX="0" width="327" anchorOffsetY="0" height="90" size="20" verticalAlign="middle" textAlign="left" horizontalCenter="0.5" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181a" textColor="0xf2f2e9"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiBossHurtSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbl" text="" x="0" y="0" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.CheckBoxSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" currentState="disabled" xmlns:e="http://ns.egret.com/eui" width.down="59" height.down="59" width.up="59" height.up="59" width.disabled="59" height.disabled="59" width.downAndSelected="59" width.disabledAndSelected="59" width.upAndSelected="59" height.upAndSelected="59" height.downAndSelected="59" height.disabledAndSelected="59">
+	<e:Image fillMode="scale" alpha="1" source="com_checkback" width="40" height="40" y.down="10" y.up="10" y.disabled="10" y.upAndSelected="10" y.downAndSelected="10" y.disabledAndSelected="10"/>
+    <e:Group width="100%" height="100%" width.down="59" height.down="59" width.disabled="59" height.disabled="59" width.upAndSelected="53" height.upAndSelected="38" width.downAndSelected="53" height.downAndSelected="40" width.disabledAndSelected="53" height.disabledAndSelected="40" y.upAndSelected="8" y.downAndSelected="8" y.disabledAndSelected="8">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+        <e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7"
+                
+                
+                
+                 source.up="com_checkback" source.disabled="com_checkback" source.downAndSelected="com_check" source.down="com_checkback" source.upAndSelected="com_check" source.disabledAndSelected="com_check" source="com_checkback" width.up="40" height.up="40" width.down="40" height.down="40" width.disabled="40" height.disabled="40" fillMode.upAndSelected="clip" fillMode.downAndSelected="clip" fillMode.disabledAndSelected="clip"/>
+        <e:Label id="labelDisplay" size="20" textColor="0x707070"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma" text.down=""/>
+    </e:Group>
+</e:Skin>

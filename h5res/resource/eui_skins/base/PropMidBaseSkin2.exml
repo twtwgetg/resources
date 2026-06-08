@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.PropMidBase2" width="160" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+
+	
+
+	<e:Label id="propName" text="攻击" size="18" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%" touchEnabled="false" textAlign="left" x="2" fontFamily="Microsoft YaHei" verticalCenter="0" verticalAlign="middle" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+	<e:Label id="propValue" text="" size="18" anchorOffsetX="0" width="86" anchorOffsetY="0" height="18" touchEnabled="false" verticalAlign="middle" textAlign="right" x="74" fontFamily="Microsoft YaHei" verticalCenter="0" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerSelectListSkin" width="610" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="guideObj" width="78" height="72" x="64" y="310" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Label id="partnerNum" text="X/Y" x="125" y="247" size="20" textColor="0xf2f2e9" anchorOffsetX="0" width="93" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textAlign="left" stroke="1"/>
+	<e:Label text="我的英雄:" x="32" y="247" size="20" textColor="0xFBCC90" anchorOffsetX="0" width="106" strokeColor="0x14181b" fontFamily="Microsoft YaHei" stroke="1"/>
+	<e:Button id="leftBtn" label="" x="4" y="319" width="50" height="50">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="tongyong_pic59"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="rightBtn" label="" x="608" y="316" width="50" height="54" anchorOffsetX="0" scaleX="-1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="tongyong_pic59"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="506" height="90" horizontalCenter="0" y="301">
+		<e:Group id="partnerGroup" anchorOffsetX="0" anchorOffsetY="0" x="-1" width="506" height="90">
+		</e:Group>
+	</e:Scroller>
+	<ns1:PartnerScreenQuality id="qulity" width="130" height="364" x="443" y="-84" anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerScreenQualitySkin"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonsterPointItemSkin" width="192" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:RadioButton id="radioItem" x="31" y="14" anchorOffsetX="0" width="130" label="内容"/>
+</e:Skin>

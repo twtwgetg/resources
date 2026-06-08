@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionSingleFBfightingoSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="161f9433112" ></w:Config>
+	<e:Button id="skipBtn" label="" x="553" y="808" width="80" height="80" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="80" height="80" source="tongyong_btn15"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="70" height="70" x="5.6" source="pvp_btn1" y.down="4" y="4.8"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="timeGroup" x="97" y="463" anchorOffsetX="0" width="409" anchorOffsetY="0" height="61" visible="false">
+		<e:Image id="timeImg" scaleX="2" scaleY="2" source="fighthuang_0" x="264" y="-1"/>
+		<e:Label id="labelDisplay" size="25" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" text="开始倒计时：" x="0" y="13"/>
+	</e:Group>
+	<e:Group id="factionsinglefb" x="540" y="154" touchEnabled="false" anchorOffsetX="0" width="160" anchorOffsetY="0" height="161">
+		<e:Group x="0" y="0" visible="false">
+			<e:Image width="80" height="160" touchEnabled="false" fillMode="scale" alpha="1" anchorOffsetY="0" source="Faction_35" y="0" x="0"/>
+			<e:Image width="80" height="160" touchEnabled="false" fillMode="scale" alpha="1" anchorOffsetY="0" source="Faction_35" y="0" scaleX="-1" x="160"/>
+			<e:Label id="levelName" text="第tt%关" y="107" anchorOffsetX="0" width="96" anchorOffsetY="0" height="20" size="20" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" x="32"/>
+			<ns1:ItemBase2 id="item" width="88" height="88" y="13" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2" x="36"/>
+		</e:Group>
+		<e:Group id="daojishi" x="-235.33" y="609.33" scaleX="1" scaleY="1" visible="false">
+			<e:Label text="本关剩余时间" x="0" y="0.67" anchorOffsetX="0" width="183.33" anchorOffsetY="0" height="22" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label text="00:00:60" x="146" y="0" anchorOffsetX="0" width="183.33" anchorOffsetY="0" height="22" size="20" fontFamily="Microsoft YaHei" textColor="0xff0000"/>
+		</e:Group>
+		<e:Group x="-396" y="406" scaleX="1" scaleY="1" visible="false">
+			<e:Group width="586" height="96" y="0" x="0" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5"  top="0" right="0"/>
+		<e:Image width="50%" height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5"  bottom="0" right="0"/>
+	</e:Group>
+			<e:Label text="下一波 t%秒后到来" x="140" y="33" anchorOffsetX="0" width="317" anchorOffsetY="0" height="61"/>
+		</e:Group>
+		<ns1:FuBenSkillBar id="skillBar" width="522" height="220" y="611" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="FactionSingleFbFigheSkin" x="-435">
+		</ns1:FuBenSkillBar>
+	</e:Group>
+	<e:Group id="hp" x="46" y="660.61">
+		<e:Image width="493" height="26" x="108" y="75.35" anchorOffsetX="0" anchorOffsetY="0" source="factionbossbloodbg"/>
+		<e:Image width="91" height="32" x="60" y="46" source="factionbossnamebg" scaleX="1" scaleY="1"/>
+		<e:Image width="91" height="32" x="242" y="46" source="factionbossnamebg" scaleX="-1" scaleY="1"/>
+		<e:Image id="bossHpBar" width="493" height="26" x="108" y="75.35" anchorOffsetX="0" anchorOffsetY="0" source="factionbossblood"/>
+		<e:Image width="99" height="98" x="33.19" y="37.39" anchorOffsetX="0" anchorOffsetY="0" source="factionblooddown" scaleX="1" scaleY="1"/>
+		<e:Label id="curHp" text="80%" y="78.99" anchorOffsetX="0" width="120.67" anchorOffsetY="0" height="24.67" size="18" fontFamily="Microsoft YaHei" textAlign="center" strokeColor="0x14181b" stroke="1" x="299"/>
+		<e:Label text="鸿蒙法器" x="115.93" y="50.86" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Image width="33" height="30" x="583.59" y="73.35" anchorOffsetX="0" anchorOffsetY="0" source="factionsinglebosspic" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group y="697" scaleX="0.8" scaleY="0.8" horizontalCenter="4">
+		<e:Image width="330" height="50" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_back_num" x="0"/>
+		<e:Image width="172" height="47" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Faction_30" scaleX="1" scaleY="1" scale9Grid="43,0,52,47" horizontalCenter="0"/>
+		<ns1:NumListComp id="levelComp0" y="4" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin>
+			<w:Config id="161d0fa9dd5"/>
+			<e:Group id="group">
+				<e:layout>
+				<e:TileLayout horizontalGap="-8" requestedRowCount="1"/>
+				</e:layout>
+			</e:Group>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:NumListComp>
+	</e:Group>
+	<ns1:FactionSingleFbSkilDes id="skillDescView" width="527" height="349" y="316" anchorOffsetX="0" anchorOffsetY="0" skinName="FactionSingleFbSkilDesSkin" horizontalCenter="0.5" visible="false"/>
+</e:Skin>

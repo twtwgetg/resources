@@ -1,0 +1,22 @@
+{"mc":{
+	"moban":{
+		"frameRate":8,
+		"labels":[
+			{"name":"stand_0","frame":1,"end":1}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"jianshi",
+			"x":-1,
+			"y":-17
+			}
+			]
+}},
+	"res":{
+		"jianshi":{"x":1,"y":1,"w":3,"h":52}
+	}}

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuzaiUpGreadViewSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   >
+	<w:Config id="164bc99174e" ></w:Config>
+	<e:Image source="resource/assets/data/ui/bgs/zhuzai01.png" horizontalCenter="0.5" top="80"/>
+	<e:Group x="102" y="357" width="582" height="506">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Group y="97" horizontalCenter="0">
+		<e:Image width="360" height="45" source="com_back_power" verticalCenter="1" horizontalCenter="0"/>
+		<ns1:powerzlcomp  id="zhanDouLi2" width="223" height="30" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="75.96" scaleX="1" scaleY="1" verticalCenter="-0.5"/>
+	</e:Group>
+	<e:Group id="notActiveGroup" width="637" height="709" x="99" y="132.49" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Label text="激活后才可以进行进阶" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" size="24" verticalCenter="124.5" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="maxLevel1" x="347" y="735" width="0" height="0">
+		<e:Label text="已满级" x="16.879999999999995" y="166.67999999999995" stroke="1" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181b" scaleX="1" scaleY="1"/>
+		<e:Label text="已满阶" x="134.97" y="-260.01" stroke="1" fontFamily="Microsoft YaHei" size="24"/>
+	</e:Group>
+	<e:Group id="activeGroup" y="358" horizontalCenter="0" width="786">
+		<ns1:PropertyList id="propView" width="553" height="189" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="130">
+			<ns1:skinName>
+				<e:Skin width="553">
+				<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" scale9Grid="41,5,153,30" width="563" top="0" horizontalCenter="0"/>
+				<e:Image id="propArrow" width="66" height="102" source="com_arrow" horizontalCenter="-11.5" verticalCenter="32.5"/>
+				<e:List id="leftList" width="200" height="140" x="21" y="49" anchorOffsetY="0"/>
+				<e:List id="rightList" width="221" height="140" x="332" y="49" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+				<e:Label id="rightTitle" text="下一阶属性" x="330" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:PropertyList>
+		<e:Group id="upgradeGroup1" y="327.33" scaleX="1" scaleY="1" anchorOffsetX="0" width="547.66" x="118" anchorOffsetY="0" height="158">
+			<e:Image width="200" y="3" height="32" source="com_num_enter" scale9Grid="3,2,51,28" horizontalCenter="0"/>
+			<e:Image width="200" y="53" height="32" source="com_num_enter" scale9Grid="3,2,51,28" horizontalCenter="0"/>
+			<e:Label id="consumeName1" text="消耗%t:" y="5" size="20" x="36" textAlign="right" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="成功几率:" y="58" size="20" x="36" textAlign="right" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="probability1" text="100%" y="60.08" size="20" textAlign="center" border="false" background="false" backgroundColor="0x000000" borderColor="0x6D5513" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+			<e:Label id="needItem1" text="0/1" y="10.23" size="20" textAlign="center" border="false" background="false" backgroundColor="0x000000" borderColor="0x6D5513" textColor="0x1ce17d" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+			<e:Group x="432" y="54" scaleX="1" scaleY="1">
+				<e:Label id="getway2" text="获取材料" y="3" size="20" x="0" textAlign="right" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+				<e:Image width="80" x="0" scale9Grid="1,0,1,4" y="26" anchorOffsetY="0" source="downline_B"/>
+			</e:Group>
+		</e:Group>
+		<e:Group y="232.99" width="570" horizontalCenter="0">
+			<e:Image x="0" y="0" source="zhuzai_04" scaleX="1" scaleY="1"/>
+			<e:Image x="570" y="0" source="zhuzai_04" scaleX="-1" scaleY="1"/>
+			<e:Label id="greadNum" text="99阶" textAlign="center" size="24" textColor="0xFBCC90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" scaleX="1" scaleY="1" horizontalCenter="0.5" verticalCenter="-5"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="127" y="171">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85"/>
+		<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="269" y="171">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85"/>
+		<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="410" y="171">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85"/>
+		<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="546" y="171">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85"/>
+		<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85" scaleX="-1"/>
+	</e:Group>
+	<e:Group y="278" x="108">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XunBao_02" x="0"/>
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" source="XunBao_02" x="152"/>
+	</e:Group>
+	<e:Group y="278" x="249">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XunBao_02" x="0"/>
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" source="XunBao_02" x="152"/>
+	</e:Group>
+	<e:Group y="278" x="391">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XunBao_02" x="0"/>
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" source="XunBao_02" x="152"/>
+	</e:Group>
+	<e:Group y="278" x="531">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XunBao_02" x="0"/>
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" source="XunBao_02" x="152"/>
+	</e:Group>
+	<e:Group y="191" anchorOffsetX="0" width="526.12" x="130">
+		<e:Group x="-16" y="-29">
+			<e:Image id="select1" x="0" y="0" source="zhuzai_05"/>
+			<ns1:ItemBase3 id="pos_1" skinName="skin.ItemBaseSkin3" y="31" x="16"/>
+		</e:Group>
+		<e:Group x="128" y="-29">
+			<e:Image x="0" y="0" source="zhuzai_05" id="select2"/>
+			<ns1:ItemBase3 id="pos_2" x="13" y="31" skinName="skin.ItemBaseSkin3"/>
+		</e:Group>
+		<e:Group x="266" y="-29">
+			<e:Image x="0" y="0" source="zhuzai_05" id="select3"/>
+			<ns1:ItemBase3 id="pos_3" x="12" y="31" skinName="skin.ItemBaseSkin3"/>
+		</e:Group>
+		<e:Group x="405" y="-29">
+			<e:Image x="0" y="0" source="zhuzai_05" id="select4"/>
+			<ns1:ItemBase3 id="pos_4" x="13" y="31" skinName="skin.ItemBaseSkin3"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="upBtn1" label="" y="886" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="进 阶" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="进 阶" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

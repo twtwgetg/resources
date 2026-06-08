@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YunBiaoSkin" width="620" height="1046" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Label text="押镖护送" y="53" fontFamily="Microsoft YaHei" horizontalCenter="2" textColor="0x2E120A" size="26"/>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Group x="0" y="0" width="608" height="1046">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="608">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="608">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+		<e:Label text="西天取经" y="9" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	</e:Group>
+	<e:Image id="img_yb" width="592" height="776" y="42" source="resource/assets/data/ui/bgs/YunBiao_bg.png" horizontalCenter="-1" anchorOffsetY="0"/>
+	<e:Group y="107" horizontalCenter="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" source="YunBiaoPic_09" width="295" x="0"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" source="YunBiaoPic_09" width="295" x="590" scaleX="-1"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="555" y="3" width="56" height="56" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="goods" width="576" height="690" y="109" anchorOffsetX="0" anchorOffsetY="0" bounces="false" scrollPolicyH="off" horizontalCenter="0">
+		<e:Group id="sGroup">
+		</e:Group>
+	</e:Scroller>
+	<e:Group y="834" horizontalCenter="0">
+		<e:Group y="0" width="580" height="140" horizontalCenter="0">
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" left="0" top="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" right="0" top="0" scaleX="-1"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" left="0" bottom="0" scaleY="-1"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group x="42" y="16">
+			<e:Label text="今日可取经次数:" x="0" y="0" size="20" scaleX="1" scaleY="1" textAlign="right" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xc6d5df"/>
+			<e:Label id="protectNum" text="3" x="150" y="0" size="20" textAlign="left" scaleX="1" scaleY="1" width="40" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+		<e:Group x="337" y="16">
+			<e:Label text="今日可掠夺次数:" x="0" y="0" size="20" scaleX="1" scaleY="1" textAlign="right" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xc6d5df"/>
+			<e:Label id="robNum" text="3" x="150" y="0" size="20" textAlign="left" scaleX="1" scaleY="1" width="40" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+		<e:Button id="open" label="开始取经" y="60" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="342">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+				<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+				<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="record" label="取经记录" y="60" width="172" height="60" x="42" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="172" height="60" xmlns:ogre="ogre.*">
+				<e:Image width="86" height="59" y.down="-2" source="com_button01" source.down="com_button01"/>
+				<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source.up="com_button01" source="com_button01" source.down="com_button01"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" y.up="15"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="grp_time" y="994" horizontalCenter="0">
+		<e:Label id="lbl_timedesc" text="取经剩余时间:" x="0" y="0" size="20" scaleX="1" scaleY="1" textAlign="right" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xf11d40"/>
+		<e:Label id="time" text="3" x="130" y="0" size="20" textAlign="left" scaleX="1" scaleY="1" width="121" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xf11d40" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

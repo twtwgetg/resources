@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankNearFightRewardPreItemSkin" width="115" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="4">
+		<e:Image id="exp" width="26" height="27" x="0" y="0" source="Head_36"/>
+	</e:Group>
+	<e:Label id="value" text="9999999" x="31" y="7" size="20" anchorOffsetX="0" width="85" textAlign="left" textColor="0xf2f2e9" strokeColor="0x14181b" fontFamily="Microsoft YaHei" stroke="1"/>
+</e:Skin>

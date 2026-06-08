@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankRewardItemRenderSkin" width="546" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="164">
+	<e:Image width="546" height="164" x="0" y="0" source="com_twobg2" scale9Grid="26,27,101,97"/>
+	<e:Group x="15" y="9">
+		<e:Image id="icon1" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.4" scaleY="0.4" horizontalCenter="0" source=""/>
+		<e:Image id="icon2" y="70" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source=""/>
+		<e:Label id="integral" text="" y="121.59" size="20" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="0" textColor="0xfbcc90"/>
+	</e:Group>
+	<e:List id="list" width="360" height="88" x="182" anchorOffsetX="0" anchorOffsetY="0" y="38">
+		<e:layout>
+			<e:HorizontalLayout gap="2"/>
+		</e:layout>
+	</e:List>
+    
+</e:Skin>

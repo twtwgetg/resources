@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SysMsgSkin" width="640" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="4" y="2">
+		<e:Image width="640" height="45" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power" horizontalCenter="0" scale9Grid="0,5,212,34"/>
+	</e:Group>
+	<e:Image width="29" height="33" x="9" y="8" anchorOffsetX="0" anchorOffsetY="0" rotation="359.34" source="xiaolaba"/>
+	<e:Group id="maskGroup" width="586" height="30" x="48" y="9">
+		<e:Label id="lbl" text="" x="0" y="4" anchorOffsetX="0" height="30" scaleX="1" scaleY="1" size="24" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

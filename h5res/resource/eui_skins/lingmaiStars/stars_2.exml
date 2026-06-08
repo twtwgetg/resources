@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="stars_2" width="595" height="587" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:lingmaiStar id="star_0" width="103.99" x="369.58" y="95.1" anchorOffsetX="0" anchorOffsetY="0" rotation="117.14" skinName="lingmaiStarSkin" name="star_001"/>
+	<ns1:lingmaiStar id="star_1" width="107.17" x="330.04" y="189.81" anchorOffsetX="0" anchorOffsetY="0" rotation="158.11" skinName="lingmaiStarSkin" name="star_002"/>
+	<ns1:lingmaiStar id="star_2" width="107.64" height="40" x="251.8" y="205.99" anchorOffsetX="0" anchorOffsetY="0" rotation="126.96" skinName="lingmaiStarSkin" name="star_003"/>
+	<ns1:lingmaiStar id="star_3" width="115.66" x="147.73" y="261.74" anchorOffsetX="0" anchorOffsetY="0" rotation="354.5" skinName="lingmaiStarSkin" name="star_004"/>
+	<ns1:lingmaiStar id="star_4" width="103.78" x="238.35" y="265" anchorOffsetX="0" anchorOffsetY="0" rotation="327.81" skinName="lingmaiStarSkin" name="star_005"/>
+	<ns1:lingmaiStar id="star_5" width="104.86" x="345.06" y="199.72" anchorOffsetX="0" anchorOffsetY="0" rotation="56.4" skinName="lingmaiStarSkin" name="star_006"/>
+	<ns1:lingmaiStar id="star_6" width="100" x="412.4" y="305.09" anchorOffsetX="0" anchorOffsetY="0" rotation="149.48" skinName="lingmaiStarSkin" name="star_007"/>
+	<ns1:lingmaiStar id="star_7" width="100" x="339.07" y="325.05" anchorOffsetX="0" anchorOffsetY="0" rotation="101.4" skinName="lingmaiStarSkin" name="star_008"/>
+	<ns1:lingmaiStar id="star_8" width="5" x="323" y="413.45" anchorOffsetX="0" anchorOffsetY="0" rotation="103.54" skinName="lingmaiStarSkin" name="star_009"/>
+</e:Skin>

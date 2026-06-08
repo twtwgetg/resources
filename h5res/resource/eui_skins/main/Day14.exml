@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Day14Skin" width="900" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="1" verticalCenter="1"/>
+	<e:Group y="28" anchorOffsetY="0" height="1080" x="97">
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+			<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+			<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+			<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+			<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png"/>
+			<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scaleX="-1"/>
+		</e:Group>
+		<e:Image height="271" y="51.37" anchorOffsetX="0" anchorOffsetY="0" width="612" source="resource/assets/data/ui/bgs/14denglu.jpg" horizontalCenter="0"/>
+	</e:Group>
+	<e:Label text="登录奖励" fontFamily="Microsoft YaHei" size="26" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="398" y="45"/>
+	<e:Group y="346.37" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group  width="598" height="352" y="4" x="0" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Scroller id="scroller" height="334.66" width="584" x="7" y="13.67" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="itemList" height="334.66" width="0" anchorOffsetY="0" x="0" y="14.67">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalGap="8" verticalGap="10"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Scroller id="scrollerReward" y="739.69" height="113" anchorOffsetX="0" width="488" horizontalCenter="0">
+		<e:List id="rewardList" y="-1" width="0" height="0">
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ns1:TeQuanBar id="teQuanBar" y="883.08" skinName="SpecialCardJihuozhiyinSkin" horizontalCenter="0"/>
+	<e:Group y="898.96" width="305" x="171">
+		<e:Label text="已累计登录:" size="22" scaleX="1" scaleY="1" textAlign="center" fontFamily="Microsoft YaHei" y="0" x="0" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="Day" text="14天" size="22" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" x="121.36" width="50" textAlign="left" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+	<e:Button id="SigninBtn" label="" y="1010" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" x="363">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="87" height="59" y.down="-2" source="com_button02" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button04" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="签到领奖" includeIn="down" size="20" horizontalCenter="0" y="18" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="签到领奖" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="doneBtn" label="" y="1010" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" x="363">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="87" height="59" y.down="-2" source="com_button08" source.up="com_button01" source.down="com_button01" source.disabled="com_button01"/>
+			<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button01" source.down="com_button01" source.disabled="com_button01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei"/>
+			<e:Label text="已签到" includeIn="down" size="20" horizontalCenter="0" y="18" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="已签到" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

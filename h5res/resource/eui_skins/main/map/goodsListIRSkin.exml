@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="goodsListIRSkin" width="443" height="104" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" height="100%" width="100%" x="0" y="0" source="listItemBkgd_png"/>
+	<e:Label id="lbl_id" fontFamily="Microsoft YaHei" x="149.5" y="64" size="20" width="144" textAlign="center" verticalAlign="middle" textColor="0xFFFF00" anchorOffsetX="0" anchorOffsetY="0" height="26" text="{data.id}" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="lbl_caption" fontFamily="Microsoft YaHei" x="143" y="22" size="20" width="144" textAlign="center" verticalAlign="middle" textColor="0xFFFF00" anchorOffsetX="0" text="{data.name}" anchorOffsetY="0" height="26" stroke="1" strokeColor="0x14181b"/>
+	<e:Button id="gotoBtn" label="传送" x="330" y="29"/>
+</e:Skin>

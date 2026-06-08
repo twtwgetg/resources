@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExpMsgSkin" width="150" height="30" xmlns:e="http://ns.egret.com/eui">
+	<e:Label id="msgText" text="经验=999999" multiline="false" anchorOffsetX="0" size="16" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" width="150" verticalCenter="0" textAlign="left" horizontalCenter="0"/>
+</e:Skin>

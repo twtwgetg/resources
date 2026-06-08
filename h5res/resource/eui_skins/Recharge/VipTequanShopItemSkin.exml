@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipTequanShopItemSkin" width="580" height="142" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="0" width="580" height="142">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Button id="buyBtn" label="兑换" y="55" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" x="415">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="134" height="48" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+			<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="兑换" size="24" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="yuanjia" x="175" y="53">
+		<e:Image width="174" height="28" y="-2" anchorOffsetX="0" anchorOffsetY="0" x="-2" source="com_num_enter" scale9Grid="18,11,21,11" scaleX="1" scaleY="1"/>
+		<e:Label text="原价:" x="0" y="0" size="20" fontFamily="Microsoft YaHei" alpha="1" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="yuanJiaLbl" text="99万" x="100" y="2" size="20" fontFamily="Microsoft YaHei" alpha="1" anchorOffsetX="0" width="66" textAlign="right" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Image id="itemIcon" width="76" height="76" x="50" y="-5" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45" source=""/>
+	</e:Group>
+	<e:Group id="xianjia" x="175" y="91">
+		<e:Image width="174" height="28" y="-2" anchorOffsetX="0" anchorOffsetY="0" x="-3" source="com_num_enter" scale9Grid="18,11,21,11" scaleX="1" scaleY="1"/>
+		<e:Label text="现价:" x="0" y="1" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Image id="itemIcon0" width="76" height="76" x="51" y="-5" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45" source=""/>
+		<e:Label id="xianJiaLbl" text="99万" x="100" y="1" size="20" fontFamily="Microsoft YaHei" alpha="1" anchorOffsetX="0" width="65" textAlign="right" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+	<e:Image width="170" height="3" x="178" y="64" anchorOffsetX="0" anchorOffsetY="0" source="shoppic7" scale9Grid="6,0,40,1"/>
+	<e:Image x="23" y="5" source="partner_synbg"/>
+	<e:Image x="157" y="5" source="partner_synbg" scaleX="-1"/>
+	<ns1:ItemBase2 id="item" width="89" height="89" x="47" y="29" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+	<e:Group x="-1" y="-2">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="38" height="108" source="shangcheng_pic5"/>
+		<e:Image id="discount0" x="7" y="39" anchorOffsetX="0" anchorOffsetY="0" width="22" height="26" scaleX="1" scaleY="1" source="fight_9"/>
+	</e:Group>
+	<e:Image x="270" y="14" anchorOffsetX="0" anchorOffsetY="0" width="81" height="24" source="gongxianglibaofont"/>
+	<e:Group x="228" y="9" anchorOffsetX="0" width="37" anchorOffsetY="0" height="29" scaleX="1" scaleY="1">
+		<ns1:NumListComp id="tarLevel1" y="0" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin>
+			<w:Config id="161d0fa9dd5"/>
+			<e:Group id="group" horizontalCenter="0">
+				<e:layout>
+				<e:HorizontalLayout gap="-4"/>
+				</e:layout>
+			</e:Group>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:NumListComp>
+	</e:Group>
+	<e:Label id="limitTimes" text="每日(0/3)" x="436" y="15" fontFamily="Microsoft YaHei" size="20" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+	<e:Image id="soldOut" width="105" height="62" x="437" y="53" anchorOffsetX="0" anchorOffsetY="0" source="shangcheng_pic9" visible="false"/>
+	<e:Image width="64" height="32" x="163" y="9" source="vipfont"/>
+</e:Skin>

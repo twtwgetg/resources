@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonthSignInSkin" width="640" height="810" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Group width="594" height="424" y="3" horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Scroller id="scroller" height="400" width="580" y="13" anchorOffsetY="0" x="30">
+		<e:List id="itemList" width="0" height="0">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5" horizontalGap="34" verticalGap="22"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="btnGroup" y="446" anchorOffsetY="0" height="209" anchorOffsetX="0" width="597" touchEnabled="false" x="21">
+		<e:Image width="596" height="160" y="49" anchorOffsetX="0" anchorOffsetY="0" source="partner_select" x="0" scale9Grid="24,19,94,108"/>
+		<e:Image width="590" height="154" y="52" scaleX="1" scaleY="1" horizontalCenter="-0.5" anchorOffsetY="0" anchorOffsetX="0" source="fuliwendi" scale9Grid="42,42,34,27"/>
+		<e:Group id="btns" x="57" y="-3.34">
+		<e:ToggleButton id="signIn1" label="" x="120" y="0" width="117" height="52" name="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="115" height="43" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1" source="fuliicon03" scale9Grid="14,5,87,33" source.down="fuliicon04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="累计7天" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" y.up="21" size.down="22" textColor.down="0xf2f2e9" x.down="35" size="22" fontFamily="Microsoft YaHei" horizontalCenter.disabled="0" horizontalCenter.down="0" y.disabled="21" verticalCenter.down="-0.5" y="21" horizontalCenter.up="1" horizontalCenter="1"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn2" label="" x="240" y="0" width="117" height="52" name="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="115" height="43" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1" source="fuliicon03" scale9Grid="14,5,87,33" source.down="fuliicon04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="累计15天" y="21" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" horizontalCenter.up="0.5" y.up="21" size.down="22" textColor.down="0xf2f2e9" x.down="35" y.down="17" size="22" fontFamily="Microsoft YaHei" horizontalCenter="0.5"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn3" label="" x="360" y="0" width="117" height="52" name="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="115" height="43" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1" source="fuliicon03" scale9Grid="14,5,87,33" source.down="fuliicon04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="累计25天" y="21" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" horizontalCenter.up="0.5" y.up="21" size.down="22" textColor.down="0xf2f2e9" x.down="35" y.down="17" size="22" fontFamily="Microsoft YaHei" horizontalCenter="0.5"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+			<e:ToggleButton id="signIn0" label="" x="0" y="3" width="117" height="52" name="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width.down="117" height.down="52" y.down="1" x.down="1" source="fuliicon04" scale9Grid="14,6,89,42" width="115" height="43" verticalCenter="0" horizontalCenter="0" source.up="fuliicon03" source.down="fuliicon04"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label text="签到3天" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" size.up="22" y.up="17" size.down="22" textColor.down="0xf2f2e9" x.down="35" y.down="15" size="22" fontFamily="Microsoft YaHei" horizontalCenter.disabled="0" horizontalCenter.down="0" x.up="26" verticalCenter.up="4" verticalCenter.disabled="4" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+		</e:Group>
+	</e:Group>
+	<e:Group y="502" x="27" anchorOffsetY="0" height="144" anchorOffsetX="0" width="584">
+		<e:Scroller id="scrollerReward" height="112" anchorOffsetX="0" y="18" x="0" width="442">
+		<e:List id="rewardList" width="0" height="0">
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="-4"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Button id="do" label="" y="49.65" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="445">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" currentState="disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button03"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="已领取" includeIn="up,down,disabled" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="dose" label="" y="49.65" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="445">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="领取奖励" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="领取领奖" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" text.up="领取奖励" text.disabled="领取奖励"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group y="674" width="591" horizontalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Label text="本月累计签到:" size="20" scaleX="1" scaleY="1" textAlign="center" fontFamily="Microsoft YaHei" y="0" x="0" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="Day" text="30天" size="20" scaleX="1" scaleY="1" textAlign="left" fontFamily="Microsoft YaHei" y="1.33" x="130" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group x="257" y="0" width="307">
+		<e:Label text="本月补签次数:" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" textColor="0xf0e6cd" strokeColor="0x14181b" stroke="1" textAlign="left" left="0"/>
+		<e:Label id="Supplement" text="5" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" width="28" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b" textAlign="left" left="131"/>
+		<e:Label id="nextvip" text="(会员5可获得5次)" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" stroke="1" strokeColor="0x14181b" left="159" textAlign="left" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Button id="doneBtn" label="" y="40" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="87" height="59" y.down="-2" source="com_button01" source.up="com_button01" source.down="com_button01" source.disabled="com_button01"/>
+				<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button01" source.up="com_button01" source.down="com_button01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="已签到" includeIn="down" size="20" horizontalCenter="0" y="18" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label text="已签到" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="SigninBtn" label="" y="40" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="87" height="59" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="签到领奖" includeIn="down" size="20" horizontalCenter="0" y="18" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="签到领奖" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

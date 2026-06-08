@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.PropertyListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="553">
+	<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" scale9Grid="41,5,153,30" width="563" top="0" horizontalCenter="0"/>
+	<e:Image id="propArrow" width="66" height="102" source="com_arrow" horizontalCenter="-11.5" verticalCenter="32.5"/>
+	<e:List id="leftList" width="200" height="140" x="21" y="49" anchorOffsetY="0"/>
+	<e:List id="rightList" width="221" height="140" x="332" y="49" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="rightTitle" text="属性预览" x="330" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

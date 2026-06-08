@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MagicBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="70" height="99">
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle"
+			 size="15" fontFamily="Tahoma" textColor="0x707070"
+			 horizontalCenter="0" verticalCenter="0" strokeColor="0x14181b" stroke="1"/>
+	<e:Image width="38" height="70" x="16" y="8" source="zhujiemian_pic28" scale9Grid="18,22,2,2"/>
+	<e:Image id="magicBar" width="34" height="67" x="18" y="9" source="zhujiemian_pic27" scale9Grid="17,12,1,1" anchorOffsetY="0"/>
+	<e:Label id="magicValue" text="100/100" size="18" horizontalCenter="0" bottom="3" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

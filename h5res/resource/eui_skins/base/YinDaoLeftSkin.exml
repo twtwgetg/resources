@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YinDaoLeftSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" width="350">
+	<w:Declarations>
+		<tween:TweenGroup id="zuoyou1">
+			<tween:TweenItem target="{group}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{42}" y="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object x="{0}" y="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object x="{42}" y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="group" x="42" y="0">
+		<e:Image y="0" x="0" source="yindaokuang01"/>
+		<e:Label id="text" text="前往挑战世界首领" size="20" height="57" anchorOffsetX="0" width="221" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" x="33" y="4"/>
+	</e:Group>
+</e:Skin>

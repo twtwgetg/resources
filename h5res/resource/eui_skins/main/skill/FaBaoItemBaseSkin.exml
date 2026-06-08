@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="FaBaoItemBaseSkin" width="152" height="146" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image width="58" height="126" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="XunBao_01"/>
+		<e:Image width="58" height="126" anchorOffsetX="0" anchorOffsetY="0" x="116" y="0" scaleX="-1" source="XunBao_01"/>
+	</e:Group>
+	<e:Group y="120" x="0">
+		<e:Image width="76" height="27" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="XunBao_02"/>
+		<e:Image width="76" height="27" anchorOffsetX="0" anchorOffsetY="0" x="152" y="0" scaleX="-1" source="XunBao_02"/>
+	</e:Group>
+	<ns1:ItemBase3 id="item" width="114" height="111" horizontalCenter="0" verticalCenter="0">
+		<ns1:skinName>
+			<e:Skin width="114" height="111">
+			<e:Group id="bg" width="84" height="84" y="2" x="15">
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+			</e:Group>
+			<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+			<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+			<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+			<e:Label id="itemName" text="%t" y="102" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+			<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+			<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+			<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+			<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+			<e:Image id="duihao" width="64" height="45" verticalCenter="-14" anchorOffsetX="0" anchorOffsetY="0" source="partner_checkpic" horizontalCenter="1" visible="false"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:ItemBase3>
+
+
+
+
+
+
+</e:Skin>

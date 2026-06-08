@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YunBiaoPlunderSkin" width="604" height="1034" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group y="62" width="584" height="806" horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Scroller id="scroller" height="792" width="580" y="68" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="PlayerList" width="0" height="0">
+		<e:layout>
+			<e:TileLayout horizontalGap="34" verticalGap="22" orientation="rows"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="取经护送" y="10" fontFamily="Microsoft YaHei" size="26" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+	<e:Image id="p1" width="131" height="14" x="227" y="17" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Image id="p2" width="131" height="14" x="372.03" y="17" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Button id="closeBtn" label="" x="544" y="3" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre="ogre.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="876" height="36" horizontalCenter="0">
+		<e:Image width="120" height="31" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_num_enter" scale9Grid="16,10,18,11" x="78" verticalCenter="0.5"/>
+		<e:Image id="yuanbao" width="76" height="76" x="81" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45" y="1" source=""/>
+		<e:Label text="刷新消耗:" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="0" verticalCenter="0"/>
+		<e:Label id="needMoney" text=" %t" anchorOffsetX="0" width="80" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" y="5" x="120"/>
+	</e:Group>
+	<e:Button id="refrush" label="刷 新" y="926" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+			<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+			<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="每次随机抽取门派前30名玩家中的5名" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" verticalCenter="487" horizontalCenter="0.5" textColor="0xc6d5df"/>
+</e:Skin>

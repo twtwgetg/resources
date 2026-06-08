@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="CommonBlessPromptSkin" width="485" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="-1"/>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0">
+			<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+			<e:Image width="50%" height="50%" x="486" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+			<e:Image width="50%" height="50%" x="486" y="602" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" x="0" y="602" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+		</e:Group>
+		<e:Group y="0" horizontalCenter="0">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="242"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" x="484" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="242"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0">
+			<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+			<e:Image width="50%" height="63" x="466" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+		</e:Group>
+		<e:Group x="14" y="60">
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="456" scaleX="-1"/>
+			<e:Image width="50%" height="50%" y="412" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="456" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" y="412" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+		</e:Group>
+		<e:Label text="提 示" y="11" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-3" textColor="0xF2F2E9"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="4" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="进阶祝福值" size="20" horizontalCenter="0.5" y="91" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181B"/>
+	<e:Group y="142.18" horizontalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Image width="350" height="15" x="0" source="com_barbg" scale9Grid="14,1,87,13" verticalCenter="0"/>
+			<e:Image id="progressBar" width="350" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" source="UIPic_31" height="15" verticalCenter="0" scale9Grid="3,2,80,13"/>
+			<e:Label id="curRate" text="9999" textAlign="right" verticalAlign="middle" size="18" x="88" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" width="80" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="maxRate" text="9999" textAlign="left" verticalAlign="middle" size="18" x="178" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" width="80" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="/" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="170" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group x="21" y="40">
+			<e:Label text="祝福值被清空倒计时:" y="0" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181B"/>
+			<e:Label id="zhuFuTips" text="23小时59分59秒" y="0" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="174" fontFamily="Microsoft YaHei" textColor="0xf11d40" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="243" x="91">
+		<e:Label text="什么是祝福值？" y="0" textAlign="left" verticalAlign="middle" size="20" scaleX="1" scaleY="1" x="0" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181B"/>
+		<e:Label text="1.每次进阶失败可获得祝福值" y="37" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181B"/>
+		<e:Label text="2.祝福值越高，下次成功进阶几率越大" y="67" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181B"/>
+	</e:Group>
+	<e:Group y="355" x="91">
+		<e:Label text="祝福值清空" y="0" textAlign="left" verticalAlign="middle" size="20" scaleX="1" scaleY="1" x="0" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181B"/>
+		<e:Label text="1.祝福值会在每天0点清空，请及时进阶" y="32" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181B"/>
+	</e:Group>
+	<e:Group y="515" horizontalCenter="0.5">
+		<e:Button id="continueBtn" label="继续培养" y="0" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="stopBtn" label="稍后再说" y="0" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="200">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="66" height="48" y.down="-2" source="com_button03" source.down="com_button03"/>
+				<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+				<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

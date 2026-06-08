@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossRemindItemSkin" width="424" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bossmsg" x="0" y="0" anchorOffsetX="0" width="424" anchorOffsetY="0" height="50">
+		<e:Image width="2" height="424" y="48" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="skill_backline" rotation="90" horizontalCenter="-1"/>
+		<e:Label id="tname" text="狠人大帝之魂" x="8" anchorOffsetX="0" width="120" anchorOffsetY="0" height="20" size="18" textAlign="left" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="level" text="999级" x="149" anchorOffsetX="0" width="90" anchorOffsetY="0" height="17.5" size="18" textAlign="center" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d"/>
+		<e:Group x="260" y="0" height="50" anchorOffsetX="0" width="164">
+			<e:CheckBox id="value" x="0" y="-5">
+			</e:CheckBox>
+			<e:Label text="复活时间提醒" x="42" size="20" verticalCenter="-1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="item_bagSkin" width="114" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16276750242" ></w:Config>
+	<ns1:ItemBase3 id="item" width="114" height="111" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" touchChildren="false" x="0" skinName="skin.ItemBaseSkin3"/>
+
+
+</e:Skin>

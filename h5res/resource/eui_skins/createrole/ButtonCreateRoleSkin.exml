@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonCreateRoleSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image width="100%" height="100%" alpha.disabled="0.5"
+            
+             source.down="resource/images/main/btn_create_press.png" includeIn="up,down" source="btn_create_normal_png"/>
+</e:Skin>

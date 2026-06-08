@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionFourShengfightingoSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="161f9433112" ></w:Config>
+	<e:Image width="217" height="120" x="325" y="810" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,36,34"/>
+	<e:Image width="217" height="120" x="325" y="810" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,36,34" scaleX="-1"/>
+	<e:Group id="factionsinglefb" x="442" y="194" touchEnabled="false" anchorOffsetX="0" width="185" anchorOffsetY="0" height="36">
+		<e:Label id="levelName" text="玄武宫" x="4" y="6" anchorOffsetX="0" width="161" anchorOffsetY="0" height="24" size="20" textColor="0xFC7507" textAlign="center" visible="false"/>
+		<e:Group id="daojishi" x="-235.33" y="609.33" scaleX="1" scaleY="1" visible="false">
+			<e:Label text="本关剩余时间" x="0" y="0.67" anchorOffsetX="0" width="183.33" anchorOffsetY="0" height="22" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label text="00:00:60" x="146" y="0" anchorOffsetX="0" width="183.33" anchorOffsetY="0" height="22" size="20" fontFamily="Microsoft YaHei" textColor="0xff0000"/>
+		</e:Group>
+		<e:Group x="-396" y="406" scaleX="1" scaleY="1" visible="false">
+				<e:Group width="586" height="96" y="0" x="0" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5"  top="0" right="0"/>
+		<e:Image width="50%" height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5"  bottom="0" right="0"/>
+	</e:Group>
+			<e:Label text="下一波 t%秒后到来" x="140" y="33" anchorOffsetX="0" width="317" anchorOffsetY="0" height="61"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="hurtGroup" x="47" y="620">
+		<e:Group x="-41" y="11" scaleX="1" scaleY="1">
+			<e:Image width="160" height="163" x="145" y="0" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,36,34"/>
+			<e:Image width="160" height="163" x="145" y="0" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,36,34" scaleX="-1"/>
+			<e:Image width="146" height="45" x="0" y="3" anchorOffsetX="0" anchorOffsetY="0" source="fushitaicon_15"/>
+			<e:Image width="146" height="45" x="292" y="3" anchorOffsetX="0" anchorOffsetY="0" source="fushitaicon_15" scaleX="-1"/>
+			<e:Image width="164" height="32" x="63" y="11" source="faction_55"/>
+		</e:Group>
+		<e:Group id="factionGroup0" x="0" y="75">
+			<e:Label id="rank0" text="1" x="0" y="2" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="factName0" text="太古门" x="45" y="1" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="hurtNum0" text="9999999" x="125" y="1" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+		</e:Group>
+		<e:Group id="factionGroup1" x="1" y="109">
+			<e:Label id="rank1" text="2" x="0" y="1" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="factName1" text="往生阁" x="44" y="1" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="hurtNum1" text="9999999" x="125" y="2" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		</e:Group>
+		<e:Group id="factionGroup2" x="2" y="153">
+			<e:Label id="rank2" text="3" x="0" y="-9" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="factName2" text="无极宫" x="43" y="-10" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="hurtNum2" text="9999999" x="124" y="-10" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="fightGroup" x="190" y="803">
+		<e:ToggleButton x="-67" y="25" width="86" height="86" name="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+				<e:Image width="112.37" height="121.46" includeIn="down" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1.5" verticalCenter="-2" x="10" y="10" source="faction_57" scaleX="1.2" scaleY="1.2"/>
+				<e:Image width="86" height="86" scaleX="1.1" scaleY="1.1" x="-4" y="-9" source="faction_56" includeIn="down,disabled" scaleX.down="1.2" scaleY.down="1.2" x.down="-9" y.down="-11"/>
+				<e:Image height="86" alpha.disabled="0.5" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" width.up="86" width="86" scaleX="0.95" scaleY="0.95" horizontalCenter="0" verticalCenter="-5" source="faction_44" source.up="faction_44" source.down="faction_44" source.disabled="faction_44" horizontalCenter.down="0" verticalCenter.down="-4" scaleX.down="1.05" scaleY.down="1.05"/>
+				<e:Image width="86" height="86" scaleX="1" scaleY="1" x="0" y="0" source="faction_47" includeIn="up,disabled"/>
+				<e:Image height="86" width="86" scaleX="0.95" scaleY="0.95" source="faction_44" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton x="41" y="25" width="86" height="86" name="1" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+				<e:Image width="112.37" height="121.46" includeIn="down" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1.5" verticalCenter="-2" x="10" y="10" source="faction_57" scaleX="1.2" scaleY="1.2"/>
+				<e:Image width="86" height="86" scaleX="1.1" scaleY="1.1" x="-4" y="-9" source="faction_56" includeIn="down,disabled" scaleX.down="1.2" scaleY.down="1.2" x.down="-9" y.down="-11"/>
+				<e:Image height="86" alpha.disabled="0.5" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" width.up="86" width="86" scaleX="0.95" scaleY="0.95" horizontalCenter="0" verticalCenter="-5" source="faction_43" source.up="faction_43" source.down="faction_43" source.disabled="faction_43" horizontalCenter.down="0" verticalCenter.down="-4" scaleX.down="1.05" scaleY.down="1.05"/>
+				<e:Image width="86" height="86" scaleX="1" scaleY="1" x="0" y="0" source="faction_47" includeIn="up,disabled"/>
+				<e:Image height="86" width="86" scaleX="0.95" scaleY="0.95" source="faction_43" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton x="148" y="25" width="86" height="86" name="2" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+	<e:Image width="112.37" height="121.46" includeIn="down" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1.5" verticalCenter="-2" x="10" y="10" source="faction_57" scaleX="1.2" scaleY="1.2"/>
+				<e:Image width="86" height="86" scaleX="1.1" scaleY="1.1" x="-4" y="-9" source="faction_56" includeIn="down,disabled" scaleX.down="1.2" scaleY.down="1.2" x.down="-9" y.down="-11"/>
+				<e:Image height="86" alpha.disabled="0.5" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" width.up="86" width="86" scaleX="0.95" scaleY="0.95" horizontalCenter="0" verticalCenter="-5" source="faction_45" source.up="faction_45" source.down="faction_45" source.disabled="faction_45" horizontalCenter.down="0" verticalCenter.down="-4" scaleX.down="1.05" scaleY.down="1.05"/>
+	<e:Image width="86" height="86" scaleX="1" scaleY="1" x="0" y="0" source="faction_47" includeIn="up,disabled"/>
+	<e:Image height="86" width="86" scaleX="0.95" scaleY="0.95" source="faction_45" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton x="255" y="25" width="86" height="86" name="3" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+				<e:Image width="112.37" height="121.46" includeIn="down" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1.5" verticalCenter="-2" x="10" y="10" source="faction_57" scaleX="1.2" scaleY="1.2"/>
+				<e:Image width="86" height="86" scaleX="1.1" scaleY="1.1" x="-4" y="-9" source="faction_56" includeIn="down,disabled" scaleX.down="1.2" scaleY.down="1.2" x.down="-9" y.down="-11"/>
+				<e:Image height="86" alpha.disabled="0.5" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" width.up="86" width="86" scaleX="0.95" scaleY="0.95" horizontalCenter="0" verticalCenter="-5" source="faction_46" source.up="faction_46" source.down="faction_46" source.disabled="faction_46" horizontalCenter.down="0" verticalCenter.down="-4" scaleX.down="1.05" scaleY.down="1.05"/>
+				<e:Image width="86" height="86" scaleX="1" scaleY="1" x="0" y="0" source="faction_47" includeIn="up,disabled"/>
+				<e:Image height="86" width="86" scaleX="0.95" scaleY="0.95" source="faction_46" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Image width="47" height="47" y="634" source="UIPic_15" alpha="1" x="18" scaleX="0.95" scaleY="0.95"/>
+	<e:Button id="btnToggle" label="" x="40" y="655" scaleX="1" anchorOffsetX="29" width="58" height="58" anchorOffsetY="29" rotation="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" y.down="-1" source="UIPic_25" scaleX="-1" x="59" source.down="UIPic_25"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="descBtn" label="" x="64" y="812" width="60" height="60">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_pic1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:FactionFourShengDes id="descView" width="522" height="348" x="72" y="443" anchorOffsetX="0" anchorOffsetY="0" skinName="FactionFourShengDesSkin" visible="false"/>
+</e:Skin>

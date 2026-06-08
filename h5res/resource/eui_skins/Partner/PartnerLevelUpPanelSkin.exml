@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerLevelUpPanelSkin" width="586" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="2560" height="2560" anchorOffsetX="0" anchorOffsetY="0" source="mask" horizontalCenter="1" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Image id="guideObj" width="96" height="32" x="455" y="314" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	  <e:Group x="12" y="244" width="560" height="630" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Group y="0" width="510" horizontalCenter="0">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group> 
+	<e:Image width="510" height="78" x="35" y="-2" source="com_twotitlebg"/>
+	<e:Label text="升级" y="5" anchorOffsetX="0" width="152" anchorOffsetY="0" height="29" size="24" textAlign="center" verticalAlign="middle" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" strokeColor="0x14181b" horizontalCenter="0" stroke="1"/>
+	<e:Image width="86" height="14" x="396.35" y="60" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+	<e:Image width="86" height="14" x="190.35" y="60" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="com_title_line"/>
+	<e:Label text="选择经验丹进行升级" y="52" anchorOffsetX="0" width="181" anchorOffsetY="0" height="28" size="20" textAlign="center" verticalAlign="middle" strokeColor="0x14181B" x="203" fontFamily="Microsoft YaHei" stroke="1" textColor="0xfbcc90"/>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="0" top="2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="564" height="626" horizontalCenter="4" y="245">
+		<e:List id="partnerList" width="558" height="622" x="2" y="3" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Scroller>
+	<e:Group id="partnerGroup" anchorOffsetX="0" anchorOffsetY="0" x="-1" width="506" height="628" visible="false">
+		</e:Group>
+	<ns1:PartnerLevelUpItem width="550" height="165" x="9" y="258" anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerLevelUpItemSkin" visible="false"/>
+	<e:Scroller id="photoParent" anchorOffsetX="0" anchorOffsetY="0" x="36" width="516" y="100" height="124.9" scaleY="1" visible="false">
+		<e:Group/>
+	</e:Scroller>
+	<e:Group id="itemGroup" width="515" height="128" x="36" y="99" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:PartnerExpItem anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerExpWaterItemSkin" scaleX="1" scaleY="1" y="0" x="-29"/>
+		<ns1:PartnerExpItem anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerExpWaterItemSkin" scaleX="1" scaleY="1" x="77.5" y="0"/>
+		<ns1:PartnerExpItem anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerExpWaterItemSkin" scaleX="1" scaleY="1" x="183" y="0"/>
+		<ns1:PartnerExpItem anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerExpWaterItemSkin" scaleX="1" scaleY="1" x="289.5" y="0"/>
+		<ns1:PartnerExpItem anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerExpWaterItemSkin" scaleX="1" scaleY="1" x="396" y="0"/>
+	</e:Group>
+</e:Skin>

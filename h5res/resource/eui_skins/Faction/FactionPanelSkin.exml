@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionPanelSkin" width="640" height="890" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="29" y="0" width="580" height="876">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Image width="84" height="14" y="17" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="144" x="10" source="com_title_line"/>
+	<e:Image width="84" height="14" y="17" scaleX="-1" scaleY="1" anchorOffsetX="0" x="218" source="com_title_line"/>
+	<e:Label id="huifujishi" text="请选择要加入的门派" y="13" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-1" textColor="0xfbcc90"/>
+	<e:Group x="37" y="47">
+		<e:Group id="faction1" x="0" y="0">
+			<e:Image width="184" height="594" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="resource/assets/data/ui/bgs/Factionin_TG.png" anchorOffsetY="0"/>
+			<e:Image id="selectSign1" width="184" height="594" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="Faction_39" scale9Grid="28,26,20,25"/>
+			<e:Group id="rewardGroup1" x="19" y="558">
+			<e:Label text="推荐奖励:" x="0" y="4" size="18" anchorOffsetX="0" width="81" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+			<e:Label id="rewardNum1" text="100" x="120" y="4" size="18" anchorOffsetX="0" width="40" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+			<e:Image id="yuanbao1" x="82" y="-5" anchorOffsetX="0" anchorOffsetY="0" width="76" height="76" scaleX="0.45" scaleY="0.45" source=""/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="faction2" x="190" y="0">
+			<e:Image width="184" height="594" y="1" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="resource/assets/data/ui/bgs/Factionin_WS.png"/>
+			<e:Image id="selectSign2" width="184" height="594" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="Faction_39" scale9Grid="28,26,20,25"/>
+			<e:Group id="rewardGroup2" x="19" y="558">
+			<e:Label text="推荐奖励:" x="0" y="4" size="18" anchorOffsetX="0" width="90" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+			<e:Label id="rewardNum2" text="999" x="120" y="4" size="18" anchorOffsetX="0" width="40" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+			<e:Image id="yuanbao2" x="82" y="-5" anchorOffsetX="0" anchorOffsetY="0" source="" height="76" width="76" scaleX="0.45" scaleY="0.45"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="faction3" x="380" y="0">
+			<e:Image width="184" height="594" y="1" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="resource/assets/data/ui/bgs/Factionin_WJ.png"/>
+			<e:Image id="selectSign3" width="184" height="594" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="Faction_39" scale9Grid="28,26,20,25"/>
+			<e:Group id="rewardGroup3" x="19" y="558">
+			<e:Label text="推荐奖励:" x="0" y="4" size="18" anchorOffsetX="0" width="90" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+			<e:Label id="rewardNum3" text="100" x="120" y="4" size="18" anchorOffsetX="0" width="40" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+			<e:Image id="yuanbao3" x="82" y="-5" anchorOffsetX="0" anchorOffsetY="0" source="" width="76" height="76" scaleX="0.45" scaleY="0.45"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group x="36" y="667">
+		<e:Group x="199" y="0">
+		<e:Label id="masterTitle" text="掌教:" x="0" y="0" size="18" anchorOffsetX="0" width="50" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9"/>
+		<e:Label id="masterName" text="S9999千面郎君" x="47" y="1" anchorOffsetX="0" width="200" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x5EABFB"/>
+		</e:Group>
+		<e:Label id="desc" text="门派包装，对应描述" x="0" y="31" size="20" anchorOffsetX="0" width="568" fontFamily="Microsoft YaHei" height="88" stroke="1" strokeColor="0x14181B" anchorOffsetY="0" textColor="0xc6d5df"/>
+	</e:Group>
+	<e:Button id="joinBtn" label="" x="232" width="172" height="59" y="799">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="86" height="59" y.down="-2" source="com_button01"/>
+			<e:Image width="86" height="59" source="com_button01" x="172" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="加入门派" includeIn="down" size="22" horizontalCenter="0" y="17" fontFamily="Microsoft YaHei" stroke="1"/>
+			<e:Label text="加入门派" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

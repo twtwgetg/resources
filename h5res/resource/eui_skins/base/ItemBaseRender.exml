@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemBaseRender" width="86" height="86" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:ItemBase2 id="item" width="86" height="86" x="0" y="0" skinName="skin.ItemBaseSkin2"/>
+
+
+</e:Skin>

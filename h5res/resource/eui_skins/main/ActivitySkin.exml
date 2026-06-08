@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.ActivitySkin" width="600" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image x="3" y="9" source="UIPic_12"/>
+	<e:Button id="btnToggle" label="" x="32" y="38" scaleX="1" anchorOffsetX="29" width="58" height="58" anchorOffsetY="29">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+
+			<e:Image width="100%" height="100%" y.down="-1" source="UIPic_25" scaleX="-1" x="59" source.down="UIPic_25"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+	<e:Group id="group" x="65" y="0" anchorOffsetX="0" width="535">
+		<e:Button id="shopBtn" x="0" y="-8" width="79" height="90" anchorOffsetY="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="UIIcon_9" source.down="UIIcon_9"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="fabao" x="81.85000000000001" y="0" width="77" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="74" height="74" y.down="-2" source="UIIcon_16" source.down="UIIcon_16"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="玄天寻宝" y="53" size="18" fontFamily="Microsoft YaHei" textAlign="center" width="86" verticalAlign="top" stroke="1" strokeColor="0x14181B" x="76" textColor="0xfbcc90" touchEnabled="false"/>
+
+
+		<e:Button id="lotteryBtn" x="162.04999999999998" y="0" width="77" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_14" source.down="UIIcon_14"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Button id="Day14Btn" x="242.89999999999998" y="0" label="14日" width="77" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_15" source.up="UIIcon_15" source.down="UIIcon_15"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="TeQuan" x="472.9" y="0" label="14日" width="77" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_15" source.up="UIIcon_15" source.down="UIIcon_15"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+	<e:Label text="特权卡" x="8" y="39" size="20" textColor="0x02ffbe" bold="true"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="month30Btn" x="322.74999999999994" y="0" width="77" height="77">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_13" source.up="UIIcon_13" source.down="UIIcon_13"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Button id="paiHangBang" label="" x="403" y="0" width="69" height="74" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="68" height="69" y.down="-2" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_15" source.up="UIPic_15" source.down="UIPic_15"/>
+	<e:Image width="77" height="84" source="RankingListS_check" anchorOffsetX="0" anchorOffsetY="0" x="-4" y="-6" y.down="-8"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="system1" x="0" y="85">
+			<e:Group x="0" y="0" name="104">
+			<e:Button id="paiHangBang0" label="" x="3" y="0" width="69" height="74" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="68" height="69" y.down="-2" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_15" source.up="UIPic_15" source.down="UIPic_15"/>
+					<e:Image width="77" height="84" source="RankingListS_check" anchorOffsetX="0" anchorOffsetY="0" x="-4" y="-6" y.down="-8"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="乾坤榜" y="54" size="18" fontFamily="Microsoft YaHei" textAlign="center" width="86" verticalAlign="top" stroke="1" strokeColor="0x14181B" x="-7" textColor="0xFBCC90" touchEnabled="false"/>
+			</e:Group>
+			<e:Group x="82" y="0" name="102">
+			<e:Button id="huodong" x="0" y="0" width="77" height="77">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_13" source.up="UIIcon_13" source.down="UIIcon_13"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="活 动" y="55" size="18" fontFamily="Microsoft YaHei" textAlign="center" width="86" verticalAlign="top" stroke="1" strokeColor="0x14181B" x="-7" textColor="0xFBCC90" touchEnabled="false" bold="true"/>
+			</e:Group>
+			<e:Group x="167" y="0" name="103">
+			<e:Button id="touzifanli" x="0" y="0" width="77" height="77">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_13" source.up="UIIcon_13" source.down="UIIcon_13"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="投资返利" y="54" size="18" fontFamily="Microsoft YaHei" textAlign="center" width="86" verticalAlign="top" stroke="1" strokeColor="0x14181B" x="-7" textColor="0xFBCC90" touchEnabled="false" bold="true"/>
+			</e:Group>
+			<e:Group x="248" y="0" name="101">
+			<e:Button id="rechargeContinuous" x="0" y="0" width="77" height="77">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" y.down="-2" source="UIIcon_13" source.up="UIIcon_13" source.down="UIIcon_13"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="连冲豪礼" y="54" size="18" fontFamily="Microsoft YaHei" textAlign="center" width="86" verticalAlign="top" stroke="1" strokeColor="0x14181B" x="-6" textColor="0xFBCC90" touchEnabled="false" bold="true"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout gap="4"/>
+			</e:layout>
+		</e:Group>
+
+
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

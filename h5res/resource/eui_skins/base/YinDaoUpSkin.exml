@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YinDaoUpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" height="120">
+	<w:Declarations>
+		<tween:TweenGroup id="shangxia">
+			<tween:TweenItem target="{group}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{0}" y="{24}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object x="{0}" y="{-1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{0}" y="{24}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="group" x="0" y="24">
+		<e:Image y="0" x="0" source="yindaokuang"/>
+		<e:Label id="text" text="点击熔炼，熔炼多余装" x="3" y="35" size="20" height="57" anchorOffsetX="0" width="221" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	</e:Group>
+</e:Skin>

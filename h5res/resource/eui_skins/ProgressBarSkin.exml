@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ProgressBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" width="188" height="48">
+	<e:Image scale9Grid="0,-1,0,0" width="188"
+			 height="48" anchorOffsetX="-0.5" anchorOffsetY="-0.43" x="-0.5" y="-0.43" source="resource/ui/linshi/BOSSxuetiaokuang.png"/>
+	<e:Image scale9Grid="0,-1,0,0" width="37" height="37" anchorOffsetX="-0.5" anchorOffsetY="-0.43" x="4.86" y="2.58" source="resource/ui/linshi/BOSSxuetiaotouxiang.png"/>
+	<e:Image id="thumb" height="8" width="140.33" y="18" anchorOffsetX="0" anchorOffsetY="0" x="43.99" source="resource/ui/linshi/BOSSxuetiao.png"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle"
+			 size="15" fontFamily="Tahoma" textColor="0x707070"
+			 horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

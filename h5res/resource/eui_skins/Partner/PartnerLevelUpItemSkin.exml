@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerLevelUpItemSkin" width="550" height="165" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="165" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="33,34,88,87"/>
+		<e:Group x="18" y="10" width="134" height="134">
+			<e:Image width="50%" height="100%" x="0" y="0" source="partner_synbg"/>
+			<e:Image width="50%" height="100%" y="0" source="partner_synbg" scaleX="-1" right="0"/>
+		</e:Group>
+		<ns1:ItemBasePartner id="item" width="81" height="82" x="42" y="35" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBasePartner">
+		</ns1:ItemBasePartner>
+	</e:Group>
+	<e:Group id="zhiye" x="38.35" y="36" anchorOffsetX="0" width="32" anchorOffsetY="0" height="36">
+		<e:Image width="34" height="31" x="7" y="2" source="partnermod_bg" scaleX="1" scaleY="1"/>
+		<e:Image id="typeSign" width="34" height="31" x="6.65" y="0" source="partner_occupation2" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label id="partnerName" text="少年林动" x="29" y="124" size="20" fontFamily="Microsoft YaHei" textAlign="center" width="110" strokeColor="0x14181b" stroke="1"/>
+	<ns1:powerzlcomp id="power" width="230" height="39" x="162.35" y="18" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiSkin"/>
+	<ns1:PartnerExpProgress id="expBar" width="291" height="24" x="143" y="75" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:skinName>
+			<e:Skin minWidth="30" minHeight="18" width="293" height="30">
+			<e:Image width="230" height="15" anchorOffsetX="0" fillMode="scale" scale9Grid="2,2,82,13" x="29" source="com_barbg" verticalCenter="0.5"/>
+			<e:Image id="thumb" height="15" width="230" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scale9Grid="43,1,1,15" x="29" source="com_bar" verticalCenter="0.5"/>
+			<e:Label id="expLabel" text="111" size="18" width="250" textAlign="center" anchorOffsetY="0" height="21" horizontalCenter="-2" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" verticalCenter="0.5" stroke="1" strokeColor="0x14181b" anchorOffsetX="0"/>
+			<e:Image width="49" height="15" x="58" source="com_barbg1" scaleX="-1" verticalCenter="0.5"/>
+			<e:Image width="49" height="15" x="231" source="com_barbg1" verticalCenter="0.5"/>
+			<ns1:MovieClipCtrl id="effect" width="20" height="20" x="0" y="0" name="9010" skinName="MovieClipCtrlSkin" visible="false"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:PartnerExpProgress>
+	<e:Button id="levelBtn" label="升 级" x="433" y="69" width="104" height="35" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" source="com_button06"/>
+			<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-1.5" text="升 级" size="20" fontFamily="Microsoft YaHei" strokeColor="0x61451a" stroke="1" verticalCenter.down="-3.5" horizontalCenter.down="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="propList" width="372" height="34" x="162" y="121" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:TileLayout requestedColumnCount="3" requestedRowCount="1" columnWidth="120"/>
+		</e:layout>
+	</e:List>
+	<e:Group x="21" y="13">
+		<e:Label text="等级:" x="0" y="0" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="curLevel" text="200/300" x="47" y="0" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="93" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="effect_uplevel" width="20" height="20" name="9046" skinName="MovieClipCtrlSkin" horizontalCenter="25" verticalCenter="3.5" visible="false"/>
+</e:Skin>

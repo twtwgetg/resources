@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionCaseRankItemSkin" width="248" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="rank" text="1" anchorOffsetX="0" width="222" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" top="0" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="playerName" text="玩家名" anchorOffsetX="0" width="222" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" top="0" x="81" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="level" text="888关" anchorOffsetX="0" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" top="0" x="177" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" width="80" textAlign="left"/>
+</e:Skin>

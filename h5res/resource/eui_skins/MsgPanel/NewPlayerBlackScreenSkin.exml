@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewPlayerBlackScreenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" width="695" height="1136">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="695" source="resource/assets/data/ui/preloading/xinshouyidao_bg.jpg"/>
+	<e:Group id="lblGroup" horizontalCenter="14.5" verticalCenter="-190" anchorOffsetX="0" width="470">
+		<e:Image x="409" y="0" anchorOffsetX="0" anchorOffsetY="0" source="map01"/>
+		<e:Image x="273.66666666666663" y="0" anchorOffsetX="0" anchorOffsetY="0" source="map02"/>
+		<e:Image x="138.33333333333331" y="0" anchorOffsetX="0" anchorOffsetY="0" source="map03"/>
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="map04"/>
+	</e:Group>
+	<e:Image id="crossBtn" x="484" y="1072" anchorOffsetX="0" anchorOffsetY="0" source="map_close"/>
+	<e:Group id="timeGroup" right="44" bottom="68">
+		<e:Label id="timeLbl" text="" size="24" y="0" x="-92" width="122" textAlign="right" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" height="30"/>
+		<e:Label text="秒后自动跳过" size="24" y="0" x="33" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+	</e:Group>
+</e:Skin>

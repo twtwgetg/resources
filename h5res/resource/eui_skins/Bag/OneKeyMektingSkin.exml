@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OneKeyMektingSkin" width="137" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="resolveBtn" width="137" height="74" y="0" x="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="137" height="74" anchorOffsetX="0" anchorOffsetY="0" y.down="-2" source="beibao_pic11"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="一键熔炼" includeIn="down" horizontalCenter="0" size="20" y="16" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="一键熔炼" includeIn="up" size="20" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" y="18" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="normalBtn" width="137" height="74">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="137" height="74" anchorOffsetX="0" anchorOffsetY="0" y.down="-2" source="beibao_pic11"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="熔  炼" includeIn="down" horizontalCenter="0" size="20" y="16" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="熔  炼" includeIn="up" size="20" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" y="18" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

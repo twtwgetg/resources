@@ -1,0 +1,145 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" width="795">
+	<w:Declarations>
+		<tween:TweenGroup id="skillNameTween">
+			<tween:TweenItem target="{skillNameGroup}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}" x="{254}" y="{529}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{50.5}" y="{385.5}" scaleX="{1.2}" scaleY="{1.2}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{-10.4}" y="{316.8}" scaleX="{1.2}" scaleY="{1.2}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object alpha="{1}" x="{-51}" y="{271}" scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="buttonmove">
+			<tween:TweenItem target="{btnQingQiu}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" x="{290}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object alpha="{1}" x="{290}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="450" ease="quartIn">
+					<tween:props>
+						<e:Object x="{185}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group horizontalCenter="0" top="0">
+		<ogre_ui:RoleInfoBar id="roleinfo" skinName="RoleInfoSkin" anchorOffsetX="0" anchorOffsetY="0" y="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="0" top="172">
+		<ogre_ui:Activty id="activtyBar" x="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.Activity" y="0"/>
+	</e:Group>
+	<ogre_ui:CopyPanel id="copypanel" width="640" height="1037" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="CopyPanel" visible="false"/>
+	
+	<ns1:RightBar id="rightBar" y="336" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.RightBarSkin" right="0" width="160"/> 
+	
+	<e:TextInput id="b" width="177.98" height="33" x="496.53" y="274.26" anchorOffsetX="0" anchorOffsetY="0" rotation="0.07"/>
+	<e:ProgressBar width="640" height="16" skinName="skins.ExpProgress" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="0" visible="false"/>
+	<ns1:ChatBar id="chatBar" width="626" height="66" skinName="skin.ChatBarSkin" anchorOffsetX="0" anchorOffsetY="0" left="13" bottom="122"/>
+	<ns1:SkillBar id="skillBar" width="514" height="99" x="85" y="899" skinName="SkillBarSkin" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Group horizontalCenter="0" bottom="-2">
+		<e:Group id="bottomGroup" y="0" horizontalCenter="0">
+			<ogre_ui:FunctionBar id="functionBar" anchorOffsetX="0" width="762" height="122" skinName="tFunctionBarSkin" y="0" anchorOffsetY="122" horizontalCenter="0"/>
+			<ns1:ExpProgress id="expBar" skinName="skins.ExpProgress" anchorOffsetX="0" anchorOffsetY="0" width="420" x="171" y="-18"/>
+		</e:Group>
+	</e:Group>
+	<ns1:JoyStick id="joystick" x="169" y="449" skinName="ControlrodSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:TextInput id="a" width="179" height="39" x="495" y="219" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:TextInput id="light_wid" width="179" height="31" y="363.02" anchorOffsetX="0" anchorOffsetY="0" skinName="TTextInputSkin" left="13"/>
+	<e:TextInput id="light_bright" width="179" height="31" y="405.06" anchorOffsetX="0" anchorOffsetY="0" skinName="TTextInputSkin" left="15"/>
+	<e:TextInput id="light_bl" width="179" height="31" y="449.56" anchorOffsetX="0" anchorOffsetY="0" skinName="TTextInputSkin" left="15"/>
+	<e:TextInput id="c" width="181" height="34" x="496.49" y="318.52" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.TextInputSkin"/>
+	<e:TextInput id="speed" width="181" height="31" x="495" y="378.52" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:TextInput id="maxdis" width="181" height="31" x="498.01" y="427.67" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="collecionUI" y="834" horizontalCenter="1" width="316">
+		<e:Image width="260" height="15" y="0" x="17" source="com_barbg" scale9Grid="7,0,99,15"/>
+		<e:Image id="foreg" scaleX="1" scaleY="1" width="256" fillMode="clip" x="17" source="com_bar2"/>
+		<e:Image width="49" height="15" y="0" x="47" source="com_barbg1" scaleX="-1"/>
+		<e:Image width="49" height="15" y="0" x="244" source="com_barbg1"/>
+		<e:Label id="collectName" text="唤醒中" x="17" y="-22" size="18" stroke="1" width="260" anchorOffsetY="0" height="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" textAlign="center"/>
+		<e:Label id="timeLbl" text="0%" size="16" stroke="1" textAlign="center" width="52" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" y="-2" x="123"/>
+	</e:Group>
+	<e:Group id="dazuo" x="175" y="616" touchEnabled="false" anchorOffsetY="0" height="230" anchorOffsetX="0" width="450">
+		<e:Group x="40" y="0" touchEnabled="false">
+			<e:Button id="btnYaoQing" label="" x="54" y="2" width="119" height="119">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="100%" height="100%" y.down="-1" source="DaZuo_but01" source.up="DaZuo_but01" source.down="DaZuo_but01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" text="双修" size="30" y="67" fontFamily="Microsoft YaHei" y.down="65" textColor="0xd37fdb"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnQingQiu" label="" x="185" y="2" width="119" height="119">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="100%" height="100%" y.down="-1" source="DaZuo_but02" source.up="DaZuo_but02" source.down="DaZuo_but02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" text="邀请" size="30" y="69" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter.up="0" y.up="67" y.down="65" textColor="0xd37fdb"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="daZuoGroup" y="-6" horizontalCenter="44.5" touchEnabled="false">
+			<e:Image y="0" x="0" scale9Grid="7,0,99,15" source="DaZuo_Pic01"/>
+			<e:Image width="83" height="33" x="134" y="3" source="Dazuo_ingpic" scaleX="1" scaleY="1"/>
+			<e:Label text="(10秒)" x="221" y="10" size="18" stroke="1" width="90" anchorOffsetY="0" height="19" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textAlign="left" anchorOffsetX="0" textColor="0xf11d40" visible="false"/>
+			<e:Group x="122" y="41">
+				<e:Label text="获得经验:" x="21" size="18" stroke="1" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" y="0"/>
+				<e:Label id="shuangXiuExp" text="0" size="18" stroke="1" textAlign="left" width="90" fontFamily="Microsoft YaHei" strokeColor="0x14181B" x="103" y="0" textColor="0x1ce17d"/>
+			</e:Group>
+			<e:Group x="122" y="67" height="25">
+				<e:Label text="获得真气:" x="21" size="18" stroke="1" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" y="0"/>
+				<e:Label id="shuangXiuZhenQi" text="0" size="18" stroke="1" textAlign="left" width="133" fontFamily="Microsoft YaHei" strokeColor="0x14181B" x="103" y="0" anchorOffsetX="0" anchorOffsetY="0" height="18" textColor="0x1ce17d"/>
+			</e:Group>
+			<e:Group x="143" y="92" anchorOffsetX="0" width="181" anchorOffsetY="0" height="19">
+				<e:Label text="今日剩余次数:" x="0" size="18" stroke="1" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" y="-2"/>
+				<e:Label id="shuangXiuRemainTimes" text="9" size="18" stroke="1" textAlign="left" width="101" fontFamily="Microsoft YaHei" strokeColor="0x14181B" x="120" y="-2" anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0x1ce17d"/>
+			</e:Group>
+			<e:Image id="shuangXiuCircle" scaleX="1" scaleY="1" fillMode="clip" x="14" source="DaZuo_Pic02" width="104" height="104" y="8"/>
+			<e:Label id="remainTimesLbl" text="" y="8" size="24" stroke="1" width="85" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" strokeColor="0x14181B" textAlign="left" anchorOffsetX="0" textColor="0xf11d40" horizontalCenter="80.5"/>
+		</e:Group>
+	</e:Group>
+	<ogre_ui:BlockEditor id="blockeditor" height="500" anchorOffsetX="0" anchorOffsetY="0" skinName="BlockEditor" bottom="628" left="6" right="609" visible="false"/>
+	<e:Group id="skillNameGroup" x="203" y="487" touchEnabled="false" touchChildren="false" visible="false">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="mingziheise_png"/>
+		<e:Image id="skillNameIcon" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source=""/>
+	</e:Group>
+
+	<ns1:LeftBarComp id="leftBar" width="91" height="206.64" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.LeftBarSkin" left="0" verticalCenter="-47.5"/>
+	<e:Group id="skillMsgParent" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.5" scaleY="1.5" x="351" y="249" touchEnabled="false" touchChildren="false" visible="false">
+		<e:Image width="2560" height="2560" source="com_mask" scaleX="0.6666666666666667" scaleY="0.6666666666666667" horizontalCenter="0" verticalCenter="0" touchEnabled="false" alpha="0.3"/>
+	</e:Group>
+	<ns1:PartnerJointSkillPanel id="partnerJoint" width="693" height="500" y="517.5" skinName="PartnerJointSkillSkin" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" touchEnabled="false" touchChildren="false" visible="false"/>
+	<ns1:MapLoginPanel id="mapTips" anchorOffsetX="0" anchorOffsetY="0" skinName="MapLoginSkin" x="77" y="324"/>
+</e:Skin>

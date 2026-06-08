@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.LeftBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<w:Config id="165cb977ed9"/>
+
+
+
+
+	<e:Button id="SysIcon" x="0" y="0" width="90" height="110" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+	<e:Image id="BG" x="0" y="0" width="90" height="90" source="UIPic_19"/>
+	<e:Image id="BG0" x="-21.66" y="85.97" width="66.67" source="UIPic_3" anchorOffsetY="0" height="25.67" anchorOffsetX="0" scale9Grid="51,15,23,5"/>
+	<e:Image id="BG1" x="111.36" y="85.98" width="66.67" source="UIPic_3" anchorOffsetY="0" height="25.67" scale9Grid="51,15,23,5" anchorOffsetX="0" scaleX="-1"/>
+	<ns1:MovieClipCtrl width="0" height="0" x="45" y="45" skinName="MovieClipCtrlSkin" name="9047"/>
+			<e:Image id="SysIcon" width="86" height="86" y.down="-2" source="UIIcon_14" x="3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="" text.down="" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" size.down="26" size.up="26" textColor.up="0x0ef70c" textColor.down="0x0ef70c"/>
+	<e:Label id="OpenStage" text="第99" y="90.99" size="16" stroke="1" textColor="0xefeaea" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="20" textAlign="center" horizontalCenter="0" width="112"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="FirstFlush" y="124" width="86" height="86" anchorOffsetY="0" left="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="UIIcon_18" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="superRecharge" y="124" width="86" height="86" anchorOffsetY="0" x="4" touchEnabled="false" alpha="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiudianfeng" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Group id="FirstFlushTist" x="107" y="22" visible="false">
+		<e:Image id="Arrow" x="16" y="95" source="UIPic_51"/>
+		<e:Group id="tips" x="0" y="1">
+			<e:Image x="28.67" y="8" source="resource/assets/data/ui/bgs/FirstFlush_Pic2.png" width="250" height="382"/>
+			<e:Group id="photoParent" scaleX="0.6" scaleY="0.6" x="-160" y="-160">
+				<ns1:MovieClipCtrl name="40391" scaleX="1.5" scaleY="1.5" x="520" y="788"/>
+			</e:Group>
+			<e:Image width="240" height="46" x="31.01" source="com_back_power" y="327" scaleX="1" scaleY="1" anchorOffsetX="0" visible="false"/>
+			<e:Image x="129.64" y="337.35" scaleX="0.75" scaleY="0.75" anchorOffsetX="0" source="fight_2" visible="false"/>
+			<e:Image x="150.21" y="337.35" scaleX="0.75" scaleY="0.75" anchorOffsetX="0" source="fight_7" visible="false"/>
+			<e:Image x="167.75" y="337.35" scaleX="0.75" scaleY="0.75" anchorOffsetX="0" source="fight_3" visible="false"/>
+			<e:Image x="189.05" y="337.35" scaleX="0.75" scaleY="0.75" anchorOffsetX="0" source="fight_8" visible="false"/>
+			<e:Image x="209.64" y="337.35" scaleX="0.75" scaleY="0.75" anchorOffsetX="0" source="fight_0" visible="false"/>
+			<e:Image width="80" height="38" source="tongyong_pic8" x="56" y="332" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image x="19" y="-2" source="UIPic_50"/>
+			<e:Image x="53" y="61" source="shouchong01"/>
+			<e:Image x="221" y="64" source="shouchong02"/>
+
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.PartnerExpProgressSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="320" height="30">
+	<e:Image width="260" height="27" anchorOffsetX="0" fillMode="scale" scale9Grid="2,2,82,13" x="28" source="com_barbg" verticalCenter="0.5"/>
+	<e:Image id="thumb" height="27" width="260" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scale9Grid="43,1,1,15" x="28" verticalCenter="0.5" source="partnerexpbar" fillMode="clip"/>
+	<e:Label id="expLabel" text="升级还需9999经验" size="18" width="283" textAlign="center" anchorOffsetY="0" height="21" horizontalCenter="-2.5" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" verticalCenter="-0.5" stroke="1" strokeColor="0x14181b" anchorOffsetX="0" verticalAlign="middle"/>
+	<e:Image width="34" height="31" x="305" scaleX="-1" verticalCenter="0.5" source="partnerexpbg"/>
+	<e:Image width="34" height="31" x="11" verticalCenter="0.5" source="partnerexpbg"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="0" y="0" name="9010" skinName="MovieClipCtrlSkin" visible="false"/>
+</e:Skin>

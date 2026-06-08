@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionSingleFubenSkin" width="600" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="10" y="35" width="582">
+		<e:Image width="291" height="595" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/singlefbbg.png" left="0" top="0"/>
+		<e:Image width="291" height="595" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/singlefbbg.png" right="0" top="0" scaleX="-1"/>
+	</e:Group>
+	<e:Label text="全民守卫" y="1" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2"/>
+	<e:Group x="-0.18" y="47" anchorOffsetY="0" height="139">
+		<e:Image width="232.73" height="141.3" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="com_back_power" scale9Grid="0,11,212,23"/>
+		<e:Group x="10" y="2">
+			<e:Image width="112" height="45" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="fushitaicon_15"/>
+			<e:Image width="112" height="45" x="214" y="0" anchorOffsetY="0" anchorOffsetX="0" source="fushitaicon_15" scaleX="-1"/>
+		</e:Group>
+		<e:Label text="关卡排名" x="74" y="12" anchorOffsetX="0" width="90" anchorOffsetY="0" height="23" size="22" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Scroller id="partnerScroller0" anchorOffsetX="0" anchorOffsetY="0" width="249" height="89" y="46" x="4.18" scaleX="1" scaleY="1">
+			<e:List id="rankList" x="153" y="126" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		</e:Scroller>
+		<ns1:FactionCaseRankItem width="250" height="20" x="1" y="54" anchorOffsetX="0" anchorOffsetY="0" skinName="FactionCaseRankItemSkin" visible="false"/>
+	</e:Group>
+	<e:Group x="493" y="57">
+		<e:Label text="首通奖励" x="4" y="0" anchorOffsetX="0" width="85" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		<ns1:ItemBase2 id="firstReward" width="88" height="88" x="0" y="31" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+	</e:Group>
+	<e:Group y="45" horizontalCenter="0" scaleX="0.9" scaleY="0.9">
+		<e:Image width="172" height="47" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="Faction_30" scale9Grid="37,0,62,47"/>
+		<ns1:NumListComp id="levelComp" y="2" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin>
+				<w:Config id="161d0fa9dd5"/>
+				<e:Group id="group">
+					<e:layout>
+						<e:TileLayout horizontalGap="-8" requestedRowCount="1"/>
+					</e:layout>
+				</e:Group>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:NumListComp>
+	</e:Group>
+	<e:Group x="148" y="273">
+		<e:Group x="150" y="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="70" alpha="1" source="UIPic_4" fillMode="scale" scaleX="-1" y="0" x="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" height="70" alpha="1" source="UIPic_4" fillMode="scale" y="0" width="150" x="0"/>
+		</e:Group>
+		<e:Group x="48" y="10">
+			<e:Label text="本关通关人数:" x="0" y="0" anchorOffsetX="0" width="140" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="finishNum" text="t%" x="180" y="0" anchorOffsetX="0" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" width="50" textAlign="left" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group x="48" y="40">
+			<e:Label text="本关怪物属性:" x="0" y="0" anchorOffsetX="0" width="140" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="propDown" text="-t%" x="180" anchorOffsetX="0" anchorOffsetY="0" height="20" size="20" width="50" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Label id="maxSign" text="当前已达最高关卡" x="73" y="95" anchorOffsetX="0" width="168" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" size="20" scaleX="1" scaleY="1" textColor="0xf11d40" stroke="1" strokeColor="0x14181b"/>
+		<e:Button id="startBtn" label="" y="83" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" x="86">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+			<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="挑战" includeIn="down" size="24" stroke="1" strokeColor="0x61451a" textColor="0xf2f2e9" horizontalCenter="0" verticalCenter="-2" fontFamily="Microsoft YaHei"/>
+			<e:Label text="挑战" includeIn="up" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="5" y="425">
+		<e:Image width="580" height="206" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power" scale9Grid="26,5,160,34" x="0"/>
+		<e:Image width="2" height="186" y="11" source="skill_backline" x="227"/>
+	</e:Group>
+	<e:Group x="34" y="443">
+		<e:Label text="我的通关信息" x="16" y="1" anchorOffsetX="0" width="127" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90"/>
+		<e:Group x="16" y="54">
+			<e:Label text="记录关数:" x="0" y="0" anchorOffsetX="0" width="80" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="recordNum" text="第t%关" x="80" y="0" anchorOffsetX="0" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" width="70" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group x="16" y="87">
+			<e:Label text="每日扫荡:" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" width="80" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="autoTimes" text="0/1" x="80" y="2" anchorOffsetX="0" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" width="70" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Button id="autoBtn" label="" width="134" height="48" y="126" horizontalCenter="-1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image y.down="-2" width="67" height="48" source="com_button03"/>
+				<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="扫 荡" includeIn="down" size="22" horizontalCenter="0" y="11" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x071E39"/>
+				<e:Label text="扫 荡" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x071E39"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="344.59" y="479.83" anchorOffsetX="73.59" anchorOffsetY="38.83" width="299" height="176">
+		<e:Label text="昨日最高通关" x="5" y="3" anchorOffsetX="0" width="124" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		<e:Group x="0" y="32" width="92" height="92">
+			<e:Image id="headbg" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="92" height="92" source="1v1_Headback"/>
+			<e:Image id="headIcon" x="57" y="57" anchorOffsetX="53" anchorOffsetY="53" width="84" height="84" source="Head_3"/>
+		</e:Group>
+		<e:Label id="playerName" text="名字" x="99" y="45" anchorOffsetX="0" width="177" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		<e:Group x="100" y="70">
+			<e:Label text="通关记录:" x="0" y="0" anchorOffsetX="0" width="80" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="maxRecord" text="第0关" x="83" y="1" anchorOffsetX="0" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" width="100" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group x="100" y="97">
+			<e:Label text="助威效果:" x="0" y="0" anchorOffsetX="0" width="80" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="propUp" text="攻血+0%" x="82" y="1" anchorOffsetX="0" width="100" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Button id="helpBtn" label="" width="134" height="48" y="127" horizontalCenter="-4.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image y.down="-2" width="67" height="48" source="com_button03"/>
+				<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="助 威" includeIn="down" size="22" horizontalCenter="0" y="11" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x071E39"/>
+				<e:Label text="助 威" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x071E39"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="9" y="641">
+		<e:Group x="0" y="0" width="580" height="276" scaleX="1" scaleY="1">
+			<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+			<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+			<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+		</e:Group>
+		<e:Image width="90" height="14" y="18" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="136" x="10" source="com_title_line" scale9Grid="22,0,64,14"/>
+		<e:Image width="90" height="14" y="18" scaleX="-1" scaleY="1" anchorOffsetX="0" x="198" source="com_title_line" scale9Grid="22,0,64,14"/>
+		<e:Label text="全民通关每日福利" x="210" y="14" anchorOffsetX="0" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="580" height="4" x="0" y="155" anchorOffsetX="0" anchorOffsetY="0" source="n01"/>
+		<e:Scroller id="rewardScroller" anchorOffsetX="0" anchorOffsetY="0" width="580" height="132" y="52" x="0" scaleX="1" scaleY="1">
+			<e:List id="rewardList" x="86" y="126" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="500">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image width="84" height="270" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="-1" scale9Grid="22,0,64,14" source="Faction_36" touchEnabled="false"/>
+		<e:Image width="84" height="270" y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="580" scale9Grid="22,0,64,14" source="Faction_36" touchEnabled="false"/>
+		<e:Button id="rewardBtn" label="" width="134" height="48" y="212" horizontalCenter="-1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image y.down="-2" source="com_button04" width="67" height="48"/>
+				<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="一键领取" includeIn="down" size="22" horizontalCenter="0" y="11" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+				<e:Label text="一键领取" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<ns1:FactionSingFbOneGetItem width="98" height="130" x="53" y="696" skinName="FactionSingFbOneGetItemSkin" visible="false"/>
+	<ns1:FactionSingleFbReward id="rewardView" width="540" height="540" y="366" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" skinName="FactionSingleFbRewardSkin" visible="false"/>
+</e:Skin>

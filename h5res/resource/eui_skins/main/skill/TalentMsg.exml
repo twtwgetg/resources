@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TalentMsg" width="543" height="741" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" x="0" y="0" source="tongyong_pic23" scale9Grid="40,129,9,9"/>
+	<e:Button id="confirmBtn" label="" x="122" y="681">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="tongyong_btn13" source.down="tongyong_btn13" y.down="-2"/>
+			<e:Label id="labelDisplay" text="" x="0" y="0" size="18" width="105" height="41" verticalAlign="middle" textAlign="center" y.down="-4" fontFamily="Microsoft YaHei"/>
+	<e:Label text="获取天赋" x="0" y="0" size="18" verticalAlign="middle" textAlign="center" width="100%" height="100%" y.down="-2" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="confirmBtn0" label="" x="313.2" y="681" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn14" source.down="tongyong_btn14" y.down="-2"/>
+			<e:Label id="labelDisplay" text="" x="0" y="0" size="18" width="105" height="41" verticalAlign="middle" textAlign="center" y.down="-4" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing"/>
+	<e:Label text="激 活" x="0" y="0" size="18" verticalAlign="middle" textAlign="center" width="100%" height="100%" y.down="-2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="confirmBtn1" label="" x="313.2" y="681">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn14" source.down="tongyong_btn14" y.down="-2"/>
+			<e:Label id="labelDisplay" text="" x="0" y="0" size="18" width="105" height="41" verticalAlign="middle" textAlign="center" y.down="-4" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" fontFamily="Microsoft YaHei"/>
+	<e:Label text="升 级" x="0" y="0" size="18" verticalAlign="middle" textAlign="center" width="100%" height="100%" y.down="-2" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="498.5" y="0" width="43" height="43">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" source.down="tongyong_btn6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter.disabled="0" verticalCenter.up="0" horizontalCenter.down="2" y.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="92" height="92" y="42" anchorOffsetY="0" source="jineng_pic4" x="28" scaleX="1" scaleY="1"/>
+	<e:Label id="SkillName" text="寒冰之力" x="147" y="45" size="18" textColor="0xF6B434" width="80" bold="true" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" x="148" y="103" size="18" textColor="0xFFFFFF" id="skilllevel0" anchorOffsetX="0" width="341" anchorOffsetY="0" height="50" textAlign="left" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="下级:" x="268" y="155" size="18" id="skilllevel1" anchorOffsetX="0" width="54" anchorOffsetY="0" height="23" textColor="0x2ee526" fontFamily="Microsoft YaHei"/>
+	<e:Label text="下级:" x="268" y="178" size="18" textColor="0x2EE526" id="skilllevel2" anchorOffsetX="0" width="54" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei"/>
+	<e:Label text="下级:" x="268" y="201" size="18" textColor="0x2EE526" id="skilllevel3" anchorOffsetX="0" width="54" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei"/>
+	<e:Image width="488" height="428" y="240" source="tongyong_btn4" scale9Grid="2,2,16,16" horizontalCenter="0"/>
+	<ns1:PropMidBaseSkin2 width="120" height="20" x="150" y="153.6" skinName="skin.PropMidBase2"/>
+	<ns1:PropMidBaseSkin2 width="120" height="20" x="150" y="177.6" skinName="skin.PropMidBase2"/>
+	<ns1:PropMidBaseSkin2 width="120" height="20" x="150" y="200.6" skinName="skin.PropMidBase2"/>
+	<ns1:PropMidBaseSkin2 width="120" height="20" x="313.2" y="153.4" skinName="skin.PropMidBase2"/>
+	<ns1:PropMidBaseSkin2 width="120" height="20" x="313.2" y="177.4" skinName="skin.PropMidBase2"/>
+	<ns1:PropMidBaseSkin2 width="120" height="20" x="313.2" y="200.4" skinName="skin.PropMidBase2"/>
+	<e:Group width="470" height="417" x="37" y="246" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:TalentSkillAction width="465" height="103" x="39.5" y="249"/>
+	<ns1:TalentSkillAction width="465" height="103" x="39.5" y="352"/>
+	<ns1:TalentSkillAction width="465" height="103" x="39.5" y="454"/>
+	<ns1:TalentSkillAction width="465" height="103" x="39" y="557"/>
+</e:Skin>

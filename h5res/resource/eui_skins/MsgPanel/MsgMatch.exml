@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgMatchSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" >
+	<w:Config id="1621f3f1474" ></w:Config>
+	<e:Image width="790" height="1136" y="0" anchorOffsetY="0" horizontalCenter="0" source="resource/assets/data/ui/bgs/wangzhe_bg03.png"/>
+	<e:Group id="EnemyGroup" width="640" height="568" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="enemyRace2" width="451" height="518" x="189" y="36" scaleX="1" scaleY="1" source="resource/assets/data/ui/bgs/wangzhe_bg02.png"/>
+		<e:Image id="enemyRace1" width="443" height="531" x="189" y="36" scaleX="1" scaleY="1" source="resource/assets/data/ui/bgs/wangzhe_bg01.png"/>
+		<e:Group x="0" y="195">
+			<e:Image width="330" height="132" scaleX="1" scaleY="1" source="com_back_power" scale9Grid="0,5,212,34" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0"/>
+			<ns1:RoleGroupInfo id="battleConfigOther" width="332" height="90" x="2" y="25" skinName="RoleGroupInfoSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group x="5" y="125">
+			<e:Label id="enemyName" text="%t" y="0" textAlign="left" size="24" x="0" scaleX="1" scaleY="1" width="200" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b"/>
+			<ns1:powerzlcomp id="enemyPower" width="223" height="30" y="31" skinName="skin.ZhanDouLiJueSe" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="-1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="MyselfGroup" width="640" height="568" x="0" y="568" anchorOffsetY="0">
+		<e:Image id="selfRace1" width="443" height="531" x="0" y="0" scaleX="1" scaleY="1" source="resource/assets/data/ui/bgs/wangzhe_bg01.png"/>
+		<e:Image id="selfRace2" width="451" height="518" x="0" y="0" scaleX="1" scaleY="1" source="resource/assets/data/ui/bgs/wangzhe_bg02.png"/>
+		<e:Group x="305" y="314">
+			<e:Image width="330" height="132" scaleX="1" scaleY="1" source="com_back_power" scale9Grid="0,5,212,34" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0"/>
+			<ns1:RoleGroupInfo id="battleConfigSelf" height="90" x="-55" y="20" anchorOffsetX="0" anchorOffsetY="0" width="332">
+				<ns1:skinName>
+					<e:Skin height="90" width="390">
+					<w:Config id="1621e2a611e"/>
+					<e:Image id="headIcon" y="0" source="" x="0" visible="false"/>
+					<e:Image id="bg" width="640" height="65" x="640" y="0" anchorOffsetX="0" scaleX="-1" anchorOffsetY="0" source="" visible="false"/>
+					<e:Image id="Skill1bg" width="55" height="55" x="9.95" y="0" anchorOffsetX="0" scaleX="1" anchorOffsetY="0" source="" visible="false"/>
+					<e:Image id="Skill2bg" width="55" height="55" x="65.95" y="0" anchorOffsetX="0" scaleX="1" anchorOffsetY="0" source="" visible="false"/>
+					<e:Image id="Skill3bg" width="55" height="55" x="121.95" y="0" anchorOffsetX="0" scaleX="1" anchorOffsetY="0" source="" visible="false"/>
+					<e:Group id="skillGroup" x="0" y="0" visible="false">
+						<ns1:ItemBaseFetish id="Skill0" width="86" height="86" x="-5" y="-5" scaleX="0.75" scaleY="0.75" skinName="skin.ItemBaseFetish"/>
+						<ns1:ItemBaseFetish id="Skill1" width="86" height="86" x="50" y="-5" scaleX="0.75" scaleY="0.75" skinName="skin.ItemBaseFetish"/>
+						<ns1:ItemBaseFetish id="Skill2" width="86" height="86" x="107" y="-5" scaleX="0.75" scaleY="0.75" skinName="skin.ItemBaseFetish"/>
+					</e:Group>
+					<e:Group id="partnerGroup" x="0" y="0" anchorOffsetY="0" height="90" anchorOffsetX="0" width="390">
+						<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="100"/>
+						<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="202" y="0"/>
+						<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="304" y="0"/>
+						<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="5" y="0" visible="false"/>
+					</e:Group>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:RoleGroupInfo>
+		</e:Group>
+		<e:Group y="245" anchorOffsetX="0" right="0" width="248">
+			<e:Label id="selfName" text="%t" y="0" textAlign="right" size="24" scaleX="1" scaleY="1" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b" right="0"/>
+			<ns1:powerzlcomp id="selfPower" height="30" y="30" skinName="skin.ZhanDouLiJueSe" anchorOffsetX="0" anchorOffsetY="0" width="247" left="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="vsGroup" y="393" x="198">
+		<e:Image id="VS" width="245" height="351" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="resource/assets/data/ui/bgs/VS.png"/>
+	</e:Group>
+	<e:Group id="waitGroup" y="483" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Image width="50%" height="173" x="0" y="0" rotation="360" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="wangzhe_05"/>
+			<e:Image width="50%" height="173" x="174" y="0" rotation="360" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" source="wangzhe_05"/>
+		</e:Group>
+		<e:Label text="匹配等待" y="22" textAlign="center" size="20" x="46" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<ns1:NumListComp id="time" horizontalCenter="0" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin>
+				<w:Config id="161d0fa9dd5"/>
+				<e:Group id="group">
+				<e:layout>
+					<e:TileLayout horizontalGap="6"/>
+				</e:layout>
+				</e:Group>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:NumListComp>
+		<e:Button id="closeBtn" label="" width="150" height="54" anchorOffsetX="0" anchorOffsetY="0" y="111" scaleX="1" scaleY="1" x="12">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="236" height="87">
+				<e:Image width="100%" height="100%" source="wangzhe_01" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:NumListComp id="timeNum" y="52" skinName="NumListSkin" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

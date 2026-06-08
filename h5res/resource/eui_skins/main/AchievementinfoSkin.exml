@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.AchievementinfoSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="606" height="324" y="46" scaleX="1" scaleY="1" horizontalCenter="0" touchEnabled="false" source="resource/assets/data/ui/bgs/jingjie_bg.png"/>
+	<e:Image id="guideObj" width="109" height="44" x="421" y="439" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="personal" y="370" horizontalCenter="0" width="580" height="570">
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" bottom="0" left="0"/>
+	</e:Group>
+	<e:Group x="116" y="51.67">
+		<e:Image width="410" height="42" source="com_back_power" y="2.33" x="0" anchorOffsetY="0"/>
+		<ns1:powerzlcomp id="zhanLi" width="360" height="50" y="-1" anchorOffsetX="0" anchorOffsetY="0" skinName= "skin.ZhanDouLiJueSe" x="104"/>
+	</e:Group>
+	<e:Label text="境 界" y="0" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="0"/>
+	<e:Image id="Tips" x="70.2" y="133.37" anchorOffsetX="0" anchorOffsetY="0" source="" visible="false"/>
+	<e:Image y="114.79" anchorOffsetX="0" anchorOffsetY="0" source="chengjiu_pic2" x="245"/>
+	<e:Group y="209" horizontalCenter="10.5">
+		<ns1:MovieClipCtrl id="footEffect" x="0" y="0"/>
+	</e:Group>
+	<e:Scroller id="scroller" width="574" height="554.34" y="373.66" anchorOffsetY="0" anchorOffsetX="0" x="30">
+		<e:List id="listItems" width="100%" height="100%" x="0" y="73.33" anchorOffsetY="0" scaleX="1" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout verticalGap="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="333" height="21" anchorOffsetX="0" anchorOffsetY="0" x="45">
+		<e:Image scaleX="1" x="0" source="chengjiu_pic9" y="0"/>
+		<e:Image width="434" height="14" x="96" source="com_barbg" scale9Grid="7,0,99,15" anchorOffsetX="0" anchorOffsetY="0" bottom="0"/>
+		<e:Image id="progressBar" width="434" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" x="96" source="com_bar" fillMode="clip" bottom="0"/>
+		<e:Image width="49" height="15" source="com_barbg1" scaleX="-1" x="125" bottom="0"/>
+		<e:Image width="49" height="15" x="501" source="com_barbg1" bottom="0"/>
+		<ns1:MovieClipCtrl id="effect" x="272" name="9010" y="13"/>
+		<e:Group y="4" scaleX="1" scaleY="1" x="182">
+			<e:Label id="maxLevel" text="已满级" y="0" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0x1ce17d" horizontalCenter="0" strokeColor="0x14181b"/>
+			<e:Group id="progressLblGroup" x="-1" y="0">
+			<e:Label id="curPoint" text="9999" y="0" textAlign="right" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="0" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" width="120" strokeColor="0x14181b"/>
+			<e:Label id="NeedNumber" text="9999" y="0" textAlign="left" verticalAlign="middle" size="18" x="131.66" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xf2f2e9" width="120" strokeColor="0x14181b"/>
+			<e:Label text="/" y="0" textAlign="left" verticalAlign="middle" size="18" x="121.66" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xf2f2e9"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group x="54" y="76.25">
+		<e:Image x="0" y="0" source="chengjiu_pic7"/>
+		<e:Image id="stageImg" x="8" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="propbutt" label="" x="515" y="211">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu_pic8" source.down="chengjiu_pic8" y.down="-2"/>
+			<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ogre_ui:HeroPropLook id="propView" width="390" height="210" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-107" horizontalCenter="25" visible="false">
+		<ogre_ui:skinName>
+			<e:Skin width="390" height="210">
+			<e:Group x="0" y="0">
+					<e:Group x="0" width="390" height="210" y="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+			</e:Group>
+			<e:Label text="属性奖励" y="12.5" width="120" height="24" size="20" verticalAlign="middle" textAlign="center" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+	<e:Image width="84" height="14" y="18" scaleX="-1" scaleY="1" anchorOffsetX="0" x="145" source="com_title_line"/>
+	<e:Image width="84" height="14" y="18" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="92" x="10" source="com_title_line"/>
+			<e:Scroller id="scroller" width="300" height="146" x="38" y="48" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group anchorOffsetY="0" height="147"/>
+			</e:Scroller>
+			<e:Group id="propGroup" x="37" y="48" anchorOffsetY="0" height="136" scaleX="1" scaleY="1" width="300">
+			</e:Group>
+			<e:Button id="closeBtn" label="" x="343" y="8" width="56" height="56" scaleX="0.7" scaleY="0.7">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Skin>
+		</ogre_ui:skinName>
+	</ogre_ui:HeroPropLook>
+</e:Skin>

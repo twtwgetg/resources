@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TitleSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+		<e:Group x="101" y="91" width="584" height="898" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label text="称 号" y="52" fontFamily="Microsoft YaHei" size="26" textColor="0x2e120a" horizontalCenter="0"/>
+	<e:Group bottom="150" horizontalCenter="0">
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="select_03" x="0"/>
+		<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="select_03" x="566"/>
+	</e:Group>
+	<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="340" height="825" y="99" x="115">
+		<e:viewport>
+		<e:List id="itemList" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="0" touchEnabled="true" touchChildren="true" width="0" height="825">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Image width="223" height="829" y="99" scaleX="1" scaleY="1" anchorOffsetX="0" x="461" source="com_twobg2" scale9Grid="50,60,50,50" anchorOffsetY="0"/>
+	<e:Group x="469" y="103">
+		<e:Group x="0" y="0" anchorOffsetX="0" width="212">
+		<e:Image width="210" height="41" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" anchorOffsetY="0" x="0"/>
+		<e:Image width="60" height="14" y="12" scaleX="1" scaleY="1" anchorOffsetX="0" x="148" source="com_title_line"/>
+		<e:Image width="60" height="14" y="12" scaleX="-1" scaleY="1" anchorOffsetX="0" x="62" source="com_title_line" scale9Grid="1,1,55,12"/>
+		<e:Label text="增加属性" size="20" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="8" x="66" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="200" height="222" y="47" horizontalCenter="0">
+		<e:viewport>
+			<e:List id="propList" anchorOffsetX="0" x="1" anchorOffsetY="0" y="0" touchEnabled="true" touchChildren="true" width="0" height="0">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+		</e:Scroller>
+	</e:Group>
+	<e:Group x="467" y="386">
+		<e:Group y="0" anchorOffsetX="0" x="0">
+		<e:Image width="210" height="41" y="11" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0" anchorOffsetY="0"/>
+		<e:Image width="60" height="14" y="20" scaleX="1" scaleY="1" anchorOffsetX="0" x="150" source="com_title_line"/>
+		<e:Image width="60" height="14" y="21" scaleX="-1" scaleY="1" anchorOffsetX="0" x="59" source="com_title_line"/>
+		<e:Label text="获取途径" size="20" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="18" x="64" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Label id="getway" text="" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="13" y="83" width="190" height="42"/>
+	</e:Group>
+	<e:Group y="559" x="467">
+		<e:Group y="0" x="0">
+		<e:Image width="210" height="41" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" anchorOffsetY="0"/>
+		<e:Image width="60" height="14" y="8" scaleX="1" scaleY="1" anchorOffsetX="0" x="156" source="com_title_line"/>
+		<e:Image width="60" height="14" y="7" scaleX="-1" scaleY="1" anchorOffsetX="0" x="67" source="com_title_line"/>
+		<e:Label text="累计属性" size="20" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="3" x="71" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="200" height="225" y="42" horizontalCenter="0.5">
+		<e:viewport>
+			<e:List id="propTotalList" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="1" touchEnabled="true" touchChildren="true" width="0" height="0">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="dressBtn" label="激 活" y="837" width="132" height="48" x="495">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="66" height="48" y.down="-2" source.up="com_button04" source.down="com_button04" source="com_button04"/>
+			<e:Image width="66" height="48" x="132" y="0" scaleX="-1" source.up="com_button04" source.down="com_button04" y.down="-2" source="com_button04"/>
+			<e:Label id="labelDisplay" text.up="佩 戴" size.up="30" text.down="佩 戴" size.down="30" text="佩 戴" size="30" x.disabled="21" y.disabled="11" y.down="7" textAlign="center" horizontalCenter="0" horizontalCenter.down="0" verticalCenter.up="0" horizontalCenter.up="0" stroke="1" verticalCenter="0" textColor="0xf2f2e9" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="dressDownBtn" label="激 活" y="837" width="132" height="48" x="495">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="66" height="48" y.down="-2" source.up="com_button04" source.down="com_button04" source="com_button04"/>
+			<e:Image width="66" height="48" x="132" y="0" scaleX="-1" source.up="com_button04" source.down="com_button04" y.down="-2" source="com_button04"/>
+			<e:Label id="labelDisplay" text.up="卸 下" size.up="30" text.down="卸 下" size.down="30" text="卸 下" size="30" x.disabled="21" y.disabled="11" y.down="7" textAlign="center" horizontalCenter="0" horizontalCenter.down="0" verticalCenter.up="0" horizontalCenter.up="0" stroke="1" verticalCenter="0" textColor="0xf2f2e9" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="称号获得后属性累加，但同时只能佩戴一个" size="22" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="944" stroke="1" strokeColor="0x14181b" horizontalCenter="-4"/>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="116" y="1028">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton x="0" y="0" width="86" height="86" scaleX="1" scaleY="1" name="PaiMing">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="100%" height="100%" alpha.disabled="0.5" width.up="100%" height.up="100%" width.down="100%" height.down="100%" width.disabled="100%" height.disabled="100%" y.up="0" source.up="paimingcheng" source.down="paimingcheng" source.disabled="paimingcheng" source="paimingcheng" y="0" y.down="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="87" y="0" width="86" height="86" scaleX="1" scaleY="1" name="Activity">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="100%" height.up="100%" width.down="100%" height.down="100%" width.disabled="100%" height.disabled="100%" y.up="0" source.up="huodongcheng" source.down="huodongcheng" source.disabled="huodongcheng" source="huodongcheng" y="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="174" y="0" width="86" height="86" scaleX="1" scaleY="1" name="JieRi">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image alpha.disabled="0.5" y.up="0" source.up="jiericheng" source.down="jiericheng" source.disabled="jiericheng" source="jiericheng" y="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="261" y="0" width="86" height="86" scaleX="1" scaleY="1" name="DingZhi">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height.up="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image alpha.disabled="0.5" y.up="0" source.up="dingzhicheng" source.down="dingzhicheng" source.disabled="dingzhicheng" source="dingzhicheng" y="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="closeBtn" label="" x="656" width="56" height="56" y="48" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

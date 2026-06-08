@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ScrollPageSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="759" height="110">
+	<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="682" horizontalCenter="3.5">
+		<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5">
+	</e:Group>
+	</e:Scroller>
+	
+	<e:List id="pointList" width="90" height="21" y="78.5" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="25.5">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	
+	
+</e:Skin>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillPanelSkin" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="786">
+	<ns1:Commonback id="commonBack" width="786" height="1136" x="0" y="0" skinName="CommonbackSkin"/>
+	<e:Button id="closeBtn" label="" x="655" y="49" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="56" height="56" source="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:ScrollPage id="scrollPage" width="490" height="100" x="116" y="1028">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="482" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton id="roleSkillBtn" x="0" y="0" width="86" height="86" name="roleSkillView">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86">
+					<e:Image width="80" height="80" scale9Grid="1,3,8,8" alpha.disabled="0.5" width.up="70" height.up="70" width.down="76" height.down="76" width.disabled="86" height.disabled="98" source.disabled="skill_enter" source="com_checkbox_check" source.up="com_back01" x.up="8" y.up="14" y="0" source.down="com_checkbox_check" includeIn="down" x="3"/>
+					<e:Image verticalCenter="0" source.up="skill_enter" source="skill_enter" y.down="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="fabaoBtn" x="87" y="0" width="86" height="86" name="FaBaoView" scaleX="1" scaleY="1">
+							currentState="up"
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86" height="86" width.up="86" height.up="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" x="3" y="0"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" anchorOffsetX="0" anchorOffsetY="0" y="0" source="fabao_04" source.up="fabao_04" source.down="fabao_04" horizontalCenter.down="0" y.down="0" horizontalCenter.up="0" y.up="0" x="0" source.disabled="fabao_04"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Group id="viewGroup" x="71" y="49" height="960" touchEnabled="false">
+		<ns1:RoleSkillView id="roleSkillView" x="0" y="0" skinName="SkillUpGradePanelSkin" name="roleSkillView" scaleX="1" scaleY="1" height="960"/>
+		<ns1:Fabao id="faBaoView" width="640" height="960" y="0" skinName="FabaoSkin" name="FaBaoView" horizontalCenter="0" touchEnabled="false" visible="false"/>
+	</e:Group>
+</e:Skin>

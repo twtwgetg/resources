@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossKilledRecordSkin" width="383" height="370" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="-1"/>
+	<e:Group id="bg" x="0" anchorOffsetX="0" width="383" anchorOffsetY="0" height="370">
+		<e:Group y="0">
+			<e:Image width="190" height="185" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+			<e:Image width="190" height="185" x="380" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+			<e:Image width="190" height="185" x="380" y="370" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+			<e:Image width="190" height="185" x="0" y="370" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+		</e:Group>
+		<e:Group x="0" bottom="4">
+			<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+			<e:Image width="50%" height="63" x="382" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+		</e:Group>
+		<e:Image width="372" height="43" y="7" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="3"/>
+		<e:Group x="20" y="76">
+			<e:Image width="175" height="138" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+			<e:Image width="175" height="138" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="350" scaleX="-1"/>
+			<e:Image width="175" height="138" y="276" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="350" scaleX="-1" scaleY="-1"/>
+			<e:Image width="175" height="138" y="276" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+		</e:Group>
+		<e:Group y="50" horizontalCenter="-5">
+			<e:Label text="击退时间" x="0" y="0" size="18" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="名称" x="135" y="0" size="18" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="战力" x="251" y="0" size="18" textColor="0xfbcc90" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Label text="挑战记录" y="16" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" horizontalCenter="0.5"/>
+		<e:List id="list_boss" width="330" height="270" x="30" y="78" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Button id="closeBtn" label="" y="4" x="338">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close" width.up="40" height.up="40" width.down="40" height.down="40" width.disabled="40" height.disabled="40"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

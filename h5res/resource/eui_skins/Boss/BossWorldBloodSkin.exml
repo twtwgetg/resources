@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossWorldBloodSkin" width="610" height="338" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="456" height="66" x="107" y="58" anchorOffsetX="0" anchorOffsetY="0" source="boss_newpic2" scale9Grid="18,18,26,16"/>
+ 
+	<e:Image id="bg" width="579" height="119" x="0" y="3" source="boss_newbg1"/>
+	<e:Image id="BossIcon" width="106" height="106" x="44" y="10" anchorOffsetX="0" anchorOffsetY="0" source="gerenboss2"/>
+	<e:Group x="153" y="58">
+		<e:Image id="bloodbg" width="427" height="23" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="25,0,1,15" source=""/>
+		<e:Image id="bloodBottom" width="427" height="23" y="1" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" x="0" source="boss_pic9" scale9Grid="1,1,10,13"/>
+		<e:Image id="blood" width="427" height="23" y="1" anchorOffsetX="0" anchorOffsetY="0" source="boss_newpic7" x="0" fillMode="clip"/>
+		<e:Label id="hp" text="99.99%" size="16" textAlign="center" width="330" horizontalCenter="0.5" verticalCenter="-1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" verticalAlign="middle"/>
+	</e:Group>
+	<e:Image width="79" height="23" x="532" y="58" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="25,0,1,15" source="boss_newpic3"/>
+	<e:Label id="lbl_name" text="鱼找鱼虾找虾" x="155" y="31.5" size="20" fontFamily="Microsoft YaHei" width="138" stroke="1" strokeColor="0x14181b" textColor="0xf11d40"/>
+	<e:Group x="122" y="67">
+		<e:Image id="levelbg" width="41" height="41" x="0" y="0" source="boss_pic6"/>
+		<e:Label id="level" text="999" size="16" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="zhankai" x="524" y="89" width="37" height="37">
+		<e:Image width="37" height="37" x="0" y="32" rotation="270.79" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" source="boss_newpic4"/>
+		<e:Image width="25" height="27" x="32" y="0" rotation="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="boss_newpic5"/>
+	</e:Group>
+	<e:Group id="shouqi" x="524" y="89" width="37" height="37">
+		<e:Image width="37" height="37" x="0" y="32" rotation="270.79" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" source="boss_newpic4"/>
+		<e:Image width="25" height="27" x="6.5" y="28" rotation="180" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="boss_newpic5"/>
+	</e:Group>
+	<e:Group x="549" y="112">
+	</e:Group>
+	<e:Group id="dataGroup" x="310" y="121" width="215" height="172">
+		<e:Image id="bgImg" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" source="boss_newpic6" scale9Grid="18,18,104,16"/>
+		<e:DataGroup anchorOffsetY="0" width="100%" height="100%" visible="false">
+			<e:layout>
+			<e:TileLayout paddingLeft="6" paddingTop="6" paddingRight="6" paddingBottom="6" columnAlign="left" rowAlign="top"/>
+			</e:layout>
+		</e:DataGroup>
+		<e:List id="list" y="1">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group id="posSelf" x="185" y="94"/>
+	<e:Group id="posFirst" x="315" y="94"/>
+	<ns1:SimpleProgressBar id="stateBar" width="423.34" height="6" x="155.33" y="52.69" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<ns1:skinName>
+		<e:Skin width="222" height="14">
+			<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_barbg" scale9Grid="2,2,111,11"/>
+			<e:Image id="thumb" width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scale9Grid="2,0,82,17" source="com_bar"/>
+			<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" visible="false"/>
+			<e:Label id="text" text="无敌时刻：99秒" textAlign="center" verticalCenter="-15" size="18" stroke="1" fontFamily="Microsoft YaHei" horizontalCenter="146" width="130" strokeColor="0x14181b" textColor="0xf5f33f"/>
+			<ns1:MovieClipCtrl width="20" height="20" x="104" id="effect" name="9010" y="10" visible="false"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:SimpleProgressBar>
+ 
+</e:Skin>

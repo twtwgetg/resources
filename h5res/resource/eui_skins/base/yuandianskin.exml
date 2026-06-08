@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="yuandianskin" width="20" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162a3258796" ></w:Config>
+	<e:Image width="19" height="19" horizontalCenter="0" verticalCenter="0" source="com_pag_circular01"/>
+	<e:Image id="light" width="19" height="19" horizontalCenter="0" verticalCenter="0" source="com_pag_circular02"/>
+</e:Skin>

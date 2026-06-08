@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneInfoSkin" width="795" height="1128" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Group horizontalCenter="0" bottom="194">
+		<e:Group y="0" width="632" horizontalCenter="0" height="140">
+			<e:Image width="50%" height="100%" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scaleX="-1" top="0" left="0" scale9Grid="16,5,48,34"/>
+			<e:Image width="50%" height="100%" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" right="0" top="0" scale9Grid="16,5,48,34"/>
+		</e:Group>
+		<e:Image width="82" height="18" y="-7" source="com_titletop" horizontalCenter="0"/>
+		<e:Group x="109" y="48">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0" source="XMPic_15"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="120.33" y="0" source="XMPic_15"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="241.67" y="0" source="XMPic_15"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="365" y="0" source="XMPic_15"/>
+		</e:Group>
+		<e:Group id="defendGroup" x="0" verticalCenter="-4">
+			<ns1:SanJieSpriteHud y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="SanJieSpriteHudSkin" x="0"/>
+			<ns1:SanJieSpriteHud anchorOffsetX="0" anchorOffsetY="0" x="131.25">
+				<ns1:skinName>
+					<e:Skin>
+					<w:Config id="162f18719d0"/>
+					<e:Group height="130" x="0" y="0" width="114">
+						<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XMPic_10" horizontalCenter="0" verticalCenter="0"/>
+						<ns1:BarBase id="hpBar" width="104" height="12" y="114" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+						<ns1:skinName>
+							<e:Skin minWidth="30" minHeight="18">
+							<e:Image height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_barbg"/>
+							<e:Image id="thumb" height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="UIPic_30"/>
+							<e:Label id="rateText" text="80%" size="18" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+							</e:Skin>
+						</ns1:skinName>
+						</ns1:BarBase>
+					</e:Group>
+					<e:Image id="deadSign" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="17" source="XMPic_16"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SanJieSpriteHud>
+			<ns1:SanJieSpriteHud y="0" anchorOffsetX="0" anchorOffsetY="0" x="255.5">
+				<ns1:skinName>
+					<e:Skin>
+					<w:Config id="162f18719d0"/>
+					<e:Group height="130" x="0" y="0" width="114">
+						<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XMPic_10" horizontalCenter="0" verticalCenter="0"/>
+						<ns1:BarBase id="hpBar" width="104" height="12" y="114" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+						<ns1:skinName>
+							<e:Skin minWidth="30" minHeight="18">
+							<e:Image height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_barbg"/>
+							<e:Image id="thumb" height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="UIPic_30"/>
+							<e:Label id="rateText" text="80%" size="18" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+							</e:Skin>
+						</ns1:skinName>
+						</ns1:BarBase>
+					</e:Group>
+					<e:Image id="deadSign" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="17" source="XMPic_16" visible="false"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SanJieSpriteHud>
+			<ns1:SanJieSpriteHud y="0" anchorOffsetX="0" anchorOffsetY="0" x="378.75">
+				<ns1:skinName>
+					<e:Skin>
+					<w:Config id="162f18719d0"/>
+					<e:Group height="130" x="0" y="0" width="114">
+						<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XMPic_10" horizontalCenter="0" verticalCenter="0"/>
+						<ns1:BarBase id="hpBar" width="104" height="12" y="114" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+						<ns1:skinName>
+							<e:Skin minWidth="30" minHeight="18">
+							<e:Image height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_barbg"/>
+							<e:Image id="thumb" height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="UIPic_30"/>
+							<e:Label id="rateText" text="80%" size="18" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+							</e:Skin>
+						</ns1:skinName>
+						</ns1:BarBase>
+					</e:Group>
+					<e:Image id="deadSign" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="17" source="XMPic_16" visible="false"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SanJieSpriteHud>
+			<ns1:SanJieSpriteHud y="0" anchorOffsetX="0" anchorOffsetY="0" x="516">
+				<ns1:skinName>
+					<e:Skin>
+					<w:Config id="162f18719d0"/>
+					<e:Group height="130" x="0" y="0" width="114">
+						<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="0" source="XMPic_09" horizontalCenter="0"/>
+						<ns1:BarBase id="hpBar" width="104" height="12" y="114" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+						<ns1:skinName>
+							<e:Skin minWidth="30" minHeight="18">
+							<e:Image height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_barbg"/>
+							<e:Image id="thumb" height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="UIPic_30"/>
+							<e:Label id="rateText" text="80%" size="18" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+							</e:Skin>
+						</ns1:skinName>
+						</ns1:BarBase>
+					</e:Group>
+					<e:Image id="deadSign" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="17" source="XMPic_16" visible="false"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:SanJieSpriteHud>
+		</e:Group>
+	</e:Group>
+	<e:Group left="0" top="196" height="90">
+		<e:Group id="topGroup" x="0" y="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="318" height="90" x="0" y="0" source="XMPic_12" scale9Grid="6,4,10,14"/>
+		<e:Image width="2" height="80" source="skill_backline" x="74" verticalCenter="0"/>
+		<e:Group x="86" y="10">
+			<e:Label text="名字:" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0" textColor="0xfff5a5"/>
+			<e:Label id="factionName" text="门派名" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="45" y="0"/>
+			<e:Label id="topPlayerName" text="名字六个文字" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="105" y="0" width="122"/>
+		</e:Group>
+		<e:Group x="86" y="36.5">
+			<e:Label text="击杀人数:" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0" textColor="0xfff5a5"/>
+			<e:Label id="killNum" text="999" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="82" y="0"/>
+		</e:Group>
+		<e:Group x="86" y="63">
+			<e:Label text="积分:" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0" textColor="0xfff5a5"/>
+			<e:Label id="score" text="99999" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="52" y="0"/>
+		</e:Group>
+		</e:Group>
+		<e:Button id="showTopBtn" label="" scaleX="1" scaleY="1" x="0" height="83" verticalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image y.down="-2" source="XMPic_06"/>
+			<e:Label id="labelDisplay" text="" height="18" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="18" x.up="0" height.down="18" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="68" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071e39" y.up="70" stroke.down="1" strokeColor.down="0x071e39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="70" stroke="1" strokeColor="0x071e39"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group right="30" top="50">
+		<e:Group x="0" y="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="12,40,84,60" height="60" source="XMPic_13"/>
+		<e:Image x="192" y="0" anchorOffsetX="0" scaleX="-1" anchorOffsetY="0" height="60" scale9Grid="12,40,84,60" source="XMPic_13"/>
+		<e:Label text="战场倒计时:" y="9" fontFamily="Microsoft YaHei" stroke="1" size="18" x="67" textColor="0xc6d5df"/>
+		<e:Label id="remainTime" text="00:00" y="32" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="16" textColor="0x1ce17d"/>
+		<e:Button id="helpBtn" label="" x="0" y="0" width="60" height="60">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_pic1" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group x="0" y="61">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="192" height="42" x="0" y="0" source="XMPic_12" scale9Grid="6,4,10,14"/>
+		<e:Label text="选择目标" fontFamily="Microsoft YaHei" stroke="1" textColor="0xF2F2E9" size="18" x="65" verticalCenter="0.5"/>
+		<e:Button id="showPlayerBtn" label="" height="39" scaleX="1" scaleY="1" width="39" x="152" y="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image y.down="-2" x="0" y="0" source="XMPic_18" source.down="XMPic_18"/>
+				<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="hidePlayerBtn" label="" height="39" scaleX="1" scaleY="1" width="39" x="152" y="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image y.down="-2" x="0" y="0" source="XMPic_17" source.down="XMPic_17"/>
+				<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group x="0" y="102">
+			<e:Group id="playerView" x="0" y="0">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="192" height="290" x="0" y="0" scale9Grid="6,4,10,14" source="XMPic_14"/>
+				<e:Group id="playerGroup" x="0" y="0">
+					<ns1:PlayerModel id="player0" width="192" height="70" x="0" y="0" skinName="PlayerModelSkin"/>
+					<ns1:PlayerModel width="192" height="70" x="0" y="73" skinName="PlayerModelSkin" id="player1"/>
+					<ns1:PlayerModel width="192" height="70" x="0" y="146" skinName="PlayerModelSkin" id="player2"/>
+					<ns1:PlayerModel width="192" height="70" x="0" y="219" skinName="PlayerModelSkin" id="player3"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="exitBtn" label="" width="98" height="90" left="0" bottom="360" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="98" height="90" y.down="-4" source="Faction_20" x.up="0" y.up="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="attackBtn" label="" height="74" scaleX="1" scaleY="1" right="0" bottom="360" width="80">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image y.down="-2" x="0" y="0" source="XMPic_01" source.down="XMPic_01"/>
+			<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="defendBtn" label="" height="74" scaleX="1" scaleY="1" right="0" bottom="350" width="80" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image y.down="-2" x="0" y="0" source="XMPic_02" source.down="XMPic_02"/>
+			<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="totalBtn" label="" scaleX="1" scaleY="1" left="0" top="296" height="83">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image y.down="-2" source="XMPic_07"/>
+			<e:Label id="labelDisplay" text="" height="18" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="18" x.up="0" height.down="18" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="68" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071e39" y.up="70" stroke.down="1" strokeColor.down="0x071e39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="70" stroke="1" strokeColor="0x071e39"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="rewardBtn" label="" scaleX="1" scaleY="1" left="0" top="384" height="83">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image y.down="-2" source="XMPic_04"/>
+			<e:Label id="labelDisplay" text="" height="18" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="18" x.up="0" height.down="18" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="68" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071e39" y.up="70" stroke.down="1" strokeColor.down="0x071e39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="70" stroke="1" strokeColor="0x071e39"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="descGroup" width="486" height="250" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group x="0" y="0">
+			<e:Group x="0" y="0">
+			<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+			<e:Image width="50%" height="50%" x="486" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+			<e:Image width="50%" height="50%" x="486" y="250" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" x="0" y="250" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+			</e:Group>
+			<e:Group y="0" horizontalCenter="0">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="242"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" x="484" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="242"/>
+			</e:Group>
+			<e:Group bottom="4" horizontalCenter="0">
+			<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+			<e:Image width="50%" height="63" x="466" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+			</e:Group>
+			<e:Group x="15" y="60">
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="456" scaleX="-1"/>
+			<e:Image width="50%" height="50%" y="110" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="456" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" y="110" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="descCloseBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="3" top="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="confirmBtn" label="确 定" y="190" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="52" y.up="0" y.down="-2" source="com_button06" height="35"/>
+				<e:Image height="35" source="com_button06" x="104" y="0" width="52" scaleX="-1" y.down="-2"/>
+				<e:Label id="labelDisplay" text="" size="20" stroke="1" strokeColor="0x61451a" horizontalCenter.up="0" fontFamily="Microsoft YaHei" y.down="16" verticalCenter.down="0" x.up="52" y.up="18" x.down="52" x.disabled="52" y.disabled="18" verticalCenter="0" horizontalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="1.仙魔大战的奖励将通过邮件形式发放 \n2.进攻方按顺序击破防守据点后才可以继续进攻 \n3.点击驻守将可以停留在已击破的据点上" y="72" anchorOffsetX="0" width="436" anchorOffsetY="0" height="86" size="20" lineSpacing="5" textAlign="left" verticalAlign="middle" horizontalCenter="0"/>
+		<e:Label text="玩法说明" y="11" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-3" textColor="0xF2F2E9" x="192"/>
+	</e:Group>
+</e:Skin>

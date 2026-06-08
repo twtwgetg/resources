@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerinfoSkin" width="424" height="134" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<ns1:RoloHeadBase id="roleHead" x="84" y="20">
+		<ns1:skinName>
+			<e:Skin xmlns:ogre_ui="ogre_ui.*" height="92">
+			<w:Config id="161f9f46237"/>
+			<e:Image id="bg" width="92" height="92" scaleX="1" scaleY="1" source="1v1_Headback" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="headIcon" width="88" height="88" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<ns1:BarBase id="hpBar" width="90" height="5" x="3" y="97" skinName="skins.RoleBlood" visible="false"/>
+			<ns1:BarBase id="mpBar" width="90" height="5" x="3" y="105" skinName="skins.RoleMage" visible="false"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:RoloHeadBase>
+	<e:Image id="title" anchorOffsetY="0" source="" horizontalCenter="-69.5" top="3"/>
+	<e:Group id="vipGroup" x="78" y="95">
+		<e:Image width="100" height="31" x="1" y="-1" source="UIPic_22"/>
+		<e:Image width="39" height="20" x="19" source="liaotian_pic14" y="5"/>
+		<ns1:NumListComp id="myvipLevel1" x="60" y="5"/>
+	</e:Group>
+	<e:Group x="1" y="38">
+		<e:Image width="62" height="63" anchorOffsetY="0" source="rank_06" x="12" y="0"/>
+		<e:Label id="posLabel" text="1233" x="0" size="24" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="87" height="25" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="center" y="20" textColor="0xf2f2e9"/>
+	</e:Group>
+	<e:Group id="posGroup" x="1" y="21" width="90" height="90">
+		<e:Image id="ranklist" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="ranking_2"/>
+	</e:Group>
+	<e:Group x="176" y="22">
+		<e:Label id="playerName" text="玩家名六个字发发的啊啊啊" x="1.5" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+	<e:Group id="levelGroup" x="178" y="60">
+		<e:Label text="等级:" x="1" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xc6d5df"/>
+		<e:Label id="playerlevel" text="一转9999" x="46" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+	<e:Group id="moBaiGroup" x="178" y="60" visible="false">
+		<e:Label text="被膜拜次数:" x="0" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xc6d5df"/>
+		<e:Label id="moBaiTimes" text="0" x="110" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	</e:Group>
+	<e:Group x="178" y="94">
+		<e:Label id="playerPower" text="99999999" x="46.5" y="0" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0xfbcc90"/>
+		<e:Label id="lbl_type" text="战力:" x="1" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0xfbcc90"/>
+	</e:Group>
+	<e:Group id="pkmodel" x="178" y="60" visible="false">
+		<e:Group x="0" y="0">
+			<e:Label text="荣誉:" x="0" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xc6d5df"/>
+			<e:Label id="pknum" text="一转9999" x="51" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+		</e:Group>
+		<e:Group id="reward" x="0" y="27">
+			<e:Label text="结算:" x="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" verticalCenter="0" textColor="0xc6d5df"/>
+			<ns1:RankNearFightRewardPreItem width="115" height="30" x="48" y="0" skinName="RankNearFightRewardPreItemSkin"/>
+			<ns1:RankNearFightRewardPreItem width="115" height="30" x="168" y="1" skinName="RankNearFightRewardPreItemSkin"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

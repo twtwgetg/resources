@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpSkin" width="580" height="580" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0" x="-985" y="-880"/>
+	<e:Group x="0" y="0" width="580" height="580">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" width="556" height="498" y="52" x="17">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label text="玩法说明" y="12" fontFamily="Microsoft YaHei" stroke="1" textColor="0xF2F2E9" size="26" horizontalCenter="0"/>
+	<e:Image width="131" height="14" x="216" y="21" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Image width="131" height="14" x="362" y="21" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Label text="1.每轮掌门争夺战结束后，次日20:00开启仙魔大战 \n2.三大门派分为攻守2个阵营进行战斗，2个门派结成盟军进攻另1个门派 \n3.取胜的门派获得丰厚奖励，积分第1的胜方将在下一轮大战中担任守方 \n4.击杀敌对玩家、据点、驻旗均可获得积分，积分越高奖励越丰厚 \n5.仙魔大战胜利条件： \n攻方:依次击破守方据点及大本营 \n守方:活动时间内守住大本营，或者击破进攻方大本营" y="60" anchorOffsetY="0" size="20" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFFFFFF" width="530" horizontalCenter="0" lineSpacing="10"/>
+	<e:Label text="6.奖励： \n(1) 积分排名奖励 \n(2) 门派参与奖励 \n(3) 获胜门派的掌门奖励特殊神兵及称号 \n(4 获胜门派的成员每日可领取胜者奖励" y="389" anchorOffsetY="0" size="20" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF" width="530" horizontalCenter="0" lineSpacing="10"/>
+	<e:Button id="closeBtn" label="" x="536" y="5" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

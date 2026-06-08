@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuzaiBossMainViewSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164bce06792" ></w:Config>
+	<e:Group horizontalCenter="0" width="592" height="786" y="141">
+		<e:Image width="50%" height="50%" source="com_back_down" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" scale9Grid="40,40,5,5" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" scale9Grid="40,40,5,5" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" scale9Grid="40,40,5,5" scaleY="-1" left="0" bottom="0"/>
+	</e:Group>
+	<e:Scroller id="scroller" width="586" height="776" y="144.96" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="1">
+		<e:List id="itemList" width="100%" height="100%" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="2" horizontalGap="1.5" columnWidth="290" verticalGap="1.5" paddingTop="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	
+	<e:Group y="92.32" horizontalCenter="2">
+		<e:Image width="484" height="44" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power" scale9Grid="0,5,212,34"/>
+		<e:Label text="每天10:00-10:10  15:00-15:10  21:00-21:10开放" y="13.51" size="20" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" x="42.13" textColor="0xfbcc90"/>
+	</e:Group>
+	<e:Label id="viewReward" text="查看奖励" y="962.82" size="20" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d" x="501.48"/>
+	<e:Image width="82" x="502" scale9Grid="1,0,1,4" y="985" anchorOffsetY="0" source="downline_B"/>
+	<e:Button id="btn_fight" label="" y="944.51" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button05" width.up="85" height.up="55" width.down="85" height.down="55" width.disabled="85" height.disabled="55" source.up="com_button01" source.down="com_button01" source.disabled="com_button01"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button05" width.up="85" height.up="55" x.up="170" width.down="85" height.down="55" x.down="170" width.disabled="85" height.disabled="55" x.disabled="170" source.up="com_button01" source.down="com_button01" source.disabled="com_button01"/>
+			<e:Label text="挑 战" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" height.up="29" height.down="29" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071E39" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" size.up="22" size.down="22" size.disabled="22" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter.up="0" verticalCenter.up="0" horizontalCenter.disabled="0" verticalCenter.disabled="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:ZhuzaiBossRewardList id="rewardList" skinName="ZhuzaiBossRewardListSkin" horizontalCenter="0" y="42.08" visible="false"/>
+	<ns1:BossKilledRecord id="record" skinName="ZhuZaiBossKilledRecordSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiBossKilledRecordItem" width="540" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="skill_backline" rotation="90" height="467" top="34" horizontalCenter="0" scale9Grid="0,23,2,140"/>
+	<e:Group width="540" horizontalCenter="0" height="38" verticalCenter="0">
+		<e:Label id="index" text="999" x="55.32" stroke="1" size="20" textAlign="center" fontFamily="Microsoft YaHei" strokeColor="0x14181b" verticalCenter="0"/>
+		<e:Label id="playerName" text="xxxxx" x="164" stroke="1" size="22" textAlign="center" strokeColor="0x14181b" fontFamily="Microsoft YaHei" verticalCenter="0"/>
+		<e:Label id="hurt" text="999999" x="395.03" stroke="1" size="20" textAlign="center" fontFamily="Microsoft YaHei" strokeColor="0x14181b" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

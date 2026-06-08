@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankArena" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="960">
+	<w:Config id="1621ee83b1b"/>
+	<e:Group id="bgGroup" x="0" width="640" height="960" y="0" touchEnabled="false">
+		<e:Label text="王者争霸" y="0" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="24" horizontalCenter="-1" strokeColor="0x000000"/>
+		<e:Group y="466" anchorOffsetX="0" horizontalCenter="0">
+			<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="0"/>
+			<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="610" scaleX="-1"/>
+		</e:Group>
+		<e:Image width="606" height="430" y="40" scaleX="1" scaleY="1" anchorOffsetY="0" source="resource/assets/data/ui/bgs/wangzhe_bg04.png" horizontalCenter="0"/>
+		<e:Group x="17" y="46" width="606" height="437">
+			<e:Image id="RankImage" anchorOffsetX="0" source="" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group y="332.91" horizontalCenter="0.5">
+			<e:Image width="213" height="43" x="0" y="0" anchorOffsetX="0" scale9Grid="27,16,11,2" source="com_back_power" anchorOffsetY="0"/>
+			<e:Image id="rankNameIcon" source="pvp_pic9" y="-10" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="45" y="719" anchorOffsetY="0" height="121">
+			<e:Group horizontalCenter="0" width="546" height="120" y="-11.31">
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" right="0" top="0"/>
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+			</e:Group>
+			<e:Button id="configBtn" label="布 阵" y="25" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="388">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="66" height="48" y.down="-2" source.down="com_button03" source="com_button03"/>
+					<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+					<e:Label id="labelDisplay" text="寻宝一次" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" stroke.up="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x071E39" stroke="1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<ns1:RoleGroupInfo id="battleConfig" width="340" height="90" x="60" y="725" skinName="RoleGroupInfoSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Button id="helpBtn" label="" x="45" y="60.03" width="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.down="89" height.down="90" width.up="89" height.up="90" width="89" height="90">
+				<e:Image width="89" height="90" alpha.disabled="0.5" scale9Grid="23,8,17,11" source="wangzhe_08" source.down="wangzhe_08" y.down="-2"/>
+				<e:Label id="labelDisplay" size="20" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" left.disabled="8" right.disabled="8" top.disabled="1" bottom.disabled="15" left.down="8" right.down="8" top.down="7" bottom.down="9" height.down="20" height="20" y="0" y.up="8" width.up="88" x.up="8" fontFamily.up="Microsoft YaHei" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+				<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="RankList" label="" x="500" y="60.03" width="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="wangzhe_07" source.down="wangzhe_07"/>
+				<e:Label id="labelDisplay" size="20" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" left.disabled="8" right.disabled="8" top.disabled="1" bottom.disabled="15" left.down="8" right.down="8" top.down="7" bottom.down="9" height.down="20" height="20" y="0" y.up="8" width.up="88" x.up="8" fontFamily.up="Microsoft YaHei" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="863.5" horizontalCenter="0">
+			<e:Button id="matchBtn" label="开始匹配" y="-3" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+					<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="剩余参与次数:" x="1.32" y="63.83" size="24" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="remainTimes" text="999" x="152.32" y="63.83" size="24" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group y="880" horizontalCenter="0">
+			<e:Label text="下一轮王者争霸将于" y="0" x="0" size="26" stroke="1" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+			<e:Label id="leftTime" text="00:00:00" y="0" x="239" size="26" fontFamily="Microsoft YaHei" stroke="1" textColor="0x1ce17d"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="43.68" y="361.3" height="91">
+		<e:Image x="0" source="wangzhe_10" verticalCenter="0"/>
+		<ns1:SimpleProgressBar id="pointProgress" width="360" height="15" x="90" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0">
+			<ns1:skinName>
+				<e:Skin width="360" height="15">
+				<e:Image width="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_barbg" scale9Grid="2,2,111,11" height="100%"/>
+				<e:Image id="thumb" width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scale9Grid="2,0,82,17" source="wangzhe_11"/>
+				<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" visible="false"/>
+				<e:Label id="text" text="99999" textAlign="center" verticalCenter="0" size="18" stroke="1" fontFamily="Microsoft YaHei" horizontalCenter="0" width="130" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:SimpleProgressBar>
+		<e:Button id="RankRewardBtn" label="" x="463.82" y="-7.98">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="wangzhe_06" source.down="wangzhe_06" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group x="455" y="59.02">
+			<e:Image x="0" source="com_back_num" width="106" y="0"/>
+			<e:Label text="段位奖励" y="0.59" size="18" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="497" horizontalCenter="44.5">
+		<e:Image width="84" height="14" y="-7.64" scaleX="1" scaleY="1" anchorOffsetX="0" x="111" source="com_title_line"/>
+		<e:Image width="84" height="14" y="-6.64" scaleX="-1" scaleY="1" anchorOffsetX="0" x="-5" source="com_title_line"/>
+		<e:Label text="每日参与" size="22" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="-10.64" x="9"/>
+	</e:Group>
+	<e:Group id="ItemGroup" x="55" y="530" anchorOffsetX="0">
+		<ns1:RankArenaReward x="18" y="0" scaleX="1" scaleY="1" skinName="RankArenaRewardSkin"/>
+		<ns1:RankArenaReward x="150" y="0" scaleX="1" scaleY="1" skinName="RankArenaRewardSkin"/>
+		<ns1:RankArenaReward x="281.53" y="0" scaleX="1" scaleY="1" skinName="RankArenaRewardSkin"/>
+		<ns1:RankArenaReward x="410.84" y="0" scaleX="1" scaleY="1" skinName="RankArenaRewardSkin"/>
+	</e:Group>
+	<ns1:SimpleProgressBar id="timesProgress" width="540" height="18" y="645" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin width="540" height="18">
+	<e:Image width="506" height="14" x="20" source="com_barbg" scale9Grid="7,0,99,15" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="thumb" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" x="20" source="com_bar" fillMode="clip"/>
+	<e:Image width="49" height="15" y="0" source="com_barbg1" scaleX="-1" x="49"/>
+	<e:Image width="49" height="15" y="0" x="488" source="com_barbg1"/>
+			<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" visible="false"/>
+			<e:Label id="text" text="99999" textAlign="center" verticalCenter="-3" size="18" stroke="1" fontFamily="Microsoft YaHei" horizontalCenter="0" width="130" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:SimpleProgressBar>
+	<e:Label id="bossName" text="" x="190" y="57.59" size="18" textColor="0xC1A76E" width="260" height="36.67" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Group id="helpGroup" width="590" height="801.34" y="114" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group x="0" y="0" width="590" height="824">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+		
+		<e:Image width="510" height="78" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg" horizontalCenter="0"/>
+			<e:Group horizontalCenter="0" width="556" height="750" y="52" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Label text="帮助内容" y="10" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" textColor="0xf2f2e9"/>
+		<e:Image width="131" height="14" x="224" y="21" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+		<e:Image width="131" height="14" x="369.03" y="21" source="com_title_line" scale9Grid="21,0,65,14"/>
+		<e:Label text="1.参与条件：" y="60" anchorOffsetY="0" size="24" anchorOffsetX="0" left="50" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xffffff"/>
+		<e:Group x="50" y="91">
+			<e:Label text="玩家通过" y="0" anchorOffsetY="0" size="24" anchorOffsetX="0" stroke="1" fontFamily="Microsoft YaHei" x="0" strokeColor="0x14181b" textColor="0xffffff"/>
+			<e:Label text="关后开启" y="0" anchorOffsetY="0" size="24" anchorOffsetX="0" stroke="1" fontFamily="Microsoft YaHei" x="128" strokeColor="0x14181b" textColor="0xffffff"/>
+			<e:Label text="60" y="0" anchorOffsetY="0" strokeColor="0x14181b" size="24" anchorOffsetX="0" stroke="1" fontFamily="Microsoft YaHei" x="97" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Label text="2.开启时间：" y="129" anchorOffsetY="0" strokeColor="0x14181b" size="24" anchorOffsetX="0" left="50" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+		<e:Group x="50" y="159">
+			<e:Label text="王者争霸玩法将在每日的" y="0" anchorOffsetY="0" strokeColor="0x14181b" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="开启" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" x="399.98" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+			<e:Label text="20:30-21:30" y="0" anchorOffsetY="0" strokeColor="0x14181b" size="24" anchorOffsetX="0" x="264.16" fontFamily="Microsoft YaHei" stroke="1" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Group x="50" y="189">
+			<e:Label text="每" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="将在" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="151" textColor="0xffffff"/>
+			<e:Label text="额外开启" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="341" textColor="0xffffff"/>
+			<e:Label text="周六，周日" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="27.5" textColor="0x1ce17d"/>
+			<e:Label text="12:30-13:30" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="202.5" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Label text="3.挑战规则：" y="229" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" left="50" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+		<e:Group x="50" y="260">
+			<e:Label text="每日将获得" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="挑战次数，最多储存" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="177" textColor="0xffffff"/>
+			<e:Label text="10次" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="123" textColor="0x1ce17d"/>
+			<e:Label text="10次" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="397" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Group x="50" y="290">
+			<e:Label text="战斗使用独立阵容，可以点击" y="1" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="用的英雄阵容用的英雄阵容" y="27" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="查看该玩法使" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="361" textColor="0xffffff"/>
+			<e:Label text="布阵" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="312" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Label text="无论输赢均获得积分，战斗胜利将获得更多的积分" y="344" width="517" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+		<e:Group x="50" y="398">
+			<e:Label text="段位将通过积分将逐步提升至" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="5个段位，段位每周重置" y="27" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="120" textColor="0xffffff"/>
+			<e:Label text="铂金、钻石" y="27" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0x1ce17d"/>
+			<e:Label text="青铜、白银、黄金、" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="313" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Label text="战斗将消耗挑战次数，匹配与自己段位相同实力相近的敌人" y="454" width="506" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+		<e:Label text="4.奖励：" y="520" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+		<e:Group x="50" y="550" anchorOffsetY="0" height="50">
+			<e:Label text="每日参与" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="无论输赢均可获得每日奖励，" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="199" textColor="0xffffff"/>
+			<e:Label text="通过点击面板上的" y="26" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="按钮领取。" y="26" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="246" textColor="0xffffff"/>
+			<e:Label text="领取" y="26" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="195" textColor="0x1ce17d"/>
+			<e:Label text="1,3,5,7次" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="99" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Label text="每日参与奖励每日重置，未领取的奖励不会补偿，请及时领取" y="605" width="535" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+		<e:Group x="50" y="660">
+			<e:Label text="当积分达到段位上限时将提升段位并发放段位奖励，段位奖励通过" y="0" width="517" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="发放" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="244" textColor="0xc6d5df"/>
+			<e:Label text="邮件" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="194" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Group x="49" y="715">
+			<e:Label text="积分段位将于" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="重置清零" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="295" textColor="0xffffff"/>
+			<e:Label text="每周日晚24时" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="146" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Group x="49" y="745">
+			<e:Label text="奖励中的" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xffffff"/>
+			<e:Label text="可以在" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="170" textColor="0xffffff"/>
+			<e:Label text="内兑换道具" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="366" textColor="0xffffff"/>
+			<e:Label text="乾坤令商城" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="244" textColor="0x1ce17d"/>
+			<e:Label text="乾坤令" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181b" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="98" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Button id="closeBtn" label="" x="543" y="8" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<ns1:MsgReeadItemTip id="itemTips" x="129" y="317" skinName="MsgReeardItemTipsSkin" visible="false"/>
+	<ns1:MsgMatch id="rewardWindow" skinName="RankReward" x="39" y="0" visible="false"/>
+	<ns1:SoloPaiHang id="soloPaiHang" skinName="RankPaiMingJiangliSkin" x="21" y="18" visible="false"/>
+	<ns1:SoloLastPaiHang id="soloLastPaiHang" skinName="LastRankList" x="21" y="18" visible="false"/>
+</e:Skin>

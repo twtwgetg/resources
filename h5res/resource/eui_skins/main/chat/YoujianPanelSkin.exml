@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YoujianPanelSkin" width="786" height="1032" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group y="93" horizontalCenter="0">
+		<e:Group x="0" y="0" width="584" height="942">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="584">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group x="0" y="0">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="582" source="com_twotitlebg1" scale9Grid="7,0,126,78"/>
+		</e:Group>
+	</e:Group>
+	<e:Label text="邮 件" y="103" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Group y="144" horizontalCenter="0" width="558" height="764">
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" right="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label id="zanwuxinhan" text="暂无信函" y="452" fontFamily="Microsoft YaHei" size="26" textColor="0x1ce17d" horizontalCenter="0" visible="false"/>
+
+
+	<e:Scroller id="scrListChat" anchorOffsetX="0" anchorOffsetY="0" height="736" y="150" width="556" horizontalCenter="0">
+		<e:viewport>
+		<e:List id="list_mail" height="0" anchorOffsetX="0" width="0" x="0" anchorOffsetY="0" y="1">
+			<e:layout>
+			<e:VerticalLayout paddingTop="2" paddingLeft="1"/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Button id="btn_close" label="" width="56" height="56" right="104" top="96" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_recive" label="" y="937" anchorOffsetX="0" width="172" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" x="177">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="86" height="59" y.down="-2" source.up="com_button02" width.up="86" height.up="59" width.down="86" height.down="59" width.disabled="86" height.disabled="59" source.down="com_button02" source.disabled="com_button02" source="com_button02"/>
+			<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" x.up="172" width.up="86" height.up="59" width.down="86" height.down="59" x.down="172" width.disabled="86" height.disabled="59" x.disabled="172" source.up="com_button02" source.down="com_button02" source.disabled="com_button02" source="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily.disabled="Microsoft YaHei" size.up="26" fontFamily.up="Microsoft YaHei"/>
+			<e:Label text="一件收取" includeIn="down" size="26" horizontalCenter="0" y="10" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x61451a"/>
+			<e:Label text="一件收取" size="26" horizontalCenter="0" includeIn="up" y="12" verticalCenter.up="0" stroke="1" size.disabled="26" fontFamily.disabled="Microsoft YaHei" fontFamily="Microsoft YaHei" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_delete" label="" y="939" anchorOffsetX="0" width="172" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" x="436">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="172" height="59">
+			<e:Image width="86" height="59" y.down="-2" source="com_button01" source.down="com_button01"/>
+			<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source="com_button03" source.up="com_button01" source.down="com_button01" source.disabled="com_button01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" stroke="1" text.down="" text.up=""/>
+			<e:Label text="一键删除" includeIn="down" y="12" horizontalCenter="0" size="26" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x071e39"/>
+			<e:Label text="一键删除" includeIn="up" verticalCenter="0" size="26" horizontalCenter="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x071e39"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button> 
+	<ogre_ui:Deletetishi id="deleteall" width="524" height="342" skinName="DeletetishiSkin" anchorOffsetX="0" verticalCenter="0.5" horizontalCenter="0" visible="false"/>
+	<ogre_ui:Letter id="letter" width="584" height="786" y="186" skinName="LetterSkin" horizontalCenter="0" visible="false"/>
+</e:Skin>

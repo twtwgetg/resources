@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankPaiMingJiangliSkin" width="610" height="998" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16657654460" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="610" height="998">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="580">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group y="0" width="580" horizontalCenter="0">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Group y="48.01" horizontalCenter="0" width="582" height="750">
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" right="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+		<e:Group y="689.33" width="572" height="54" horizontalCenter="0">
+			<e:Image source="select_03" left="0" top="0" width="50%"/>
+			<e:Image source="select_03" scaleX="-1" top="0" width="50%" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Label text="段位奖励" y="10" size="24" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="排名        段位" y="61.02" size="20" horizontalCenter="-204" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="王者称号" y="61.02" size="20" horizontalCenter="206" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="积分" y="61.02" size="20" horizontalCenter="-37" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="排名奖励" y="60.71" size="20" horizontalCenter="74" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B"/>
+	<ns1:RankPaiMingItem y="97.68" horizontalCenter="0" visible="false"/>
+	<e:Scroller id="scroller" width="572" height="632" y="95" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="list" x="0">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="我的段位:" x="335" y="758" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0xffffff" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="我的段位:" x="42" y="758" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0xffffff" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="myPos" text="未上榜" x="140" y="758" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+	<e:Image id="icon" y="735" source="" horizontalCenter="186"/>
+	<e:Label text="每周一0点重置段位并发送至邮件" y="829.01" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="43.05" textColor="0xffffff"/>
+	<e:Label text="本服排名第一且达到钻石段位可获得王者称号" y="859.68" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="43.05" textColor="0xffffff"/>
+	<e:Button id="closeBtn" label="" y="5" width="56" height="56" scaleX="0.7" scaleY="0.7" right="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="lastPaihang" label="上 届" y="901" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+			<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

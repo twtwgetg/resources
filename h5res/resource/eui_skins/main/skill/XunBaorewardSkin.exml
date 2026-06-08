@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XunBaorewardSkin" width="528" height="388" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0" width="528" height="388">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="528">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" top="0" left="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+			<e:Group x="20" y="59" width="490" height="250" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Label id="title" text="获得奖励" y="11" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-3" textColor="0xF2F2E9"/>
+	</e:Group>
+	<e:Group id="ten" x="10" y="68">
+		<ns1:ItemBase3 width="114" height="111" x="0" y="0" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="99" y="0" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="198" y="0" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="297" y="0" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="396" y="0" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="0" y="127" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="99" y="127" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="198" y="127" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="297" y="127" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:ItemBase3 width="114" height="111" x="396" y="127" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group id="one" horizontalCenter="0" verticalCenter="0" visible="false">
+		<ns1:ItemBase3 width="114" height="111" y="0" skinName="skin.ItemBaseSkin3" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="display" name="9039" x="264" y="194"/>
+	<e:Button id="btnRecieve" label="" y="319" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="确 定" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="确 定" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

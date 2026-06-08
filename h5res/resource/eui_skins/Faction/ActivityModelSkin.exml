@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.ActivityModelSkin" width="570" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image width="489" height="135" y="2" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/factionback_04.png" x="2"/>
+	<e:Button id="goto" label="" x="408" width="134" height="48" scaleX="1" scaleY="1" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="67" height="48" y.down="-2" x="0" y="0" source="com_button04" source.down="com_button04"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04" source.down="com_button04"/>
+			<e:Label text="前 往" width="100%" height="29" size="22" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="8" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="10" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x61451a" y="10"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="timesStr" text="6/6" size="20" scaleX="1" scaleY="1" textColor="0xF2F2E9" x="447" y="31" height="20" width="50" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" visible="false"/>
+	<e:Label id="dailyName" text="活动名称" size="22" scaleX="1" scaleY="1" x="121" y="11" height="22" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xfbcc90"/>
+	<e:Group x="164" y="48">
+		<e:Label text="◆  每日     点刷新" size="20" scaleX="1" scaleY="1" x="0" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xc6d5df"/>
+		<e:Label id="dailyTime" text="24" size="20" scaleX="1" scaleY="1" x="66" y="0" height="23" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" width="26" textColor="0x1ce17d" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group x="164" y="78">
+		<e:Label text="◆  奖励:" size="20" scaleX="1" scaleY="1" x="0" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xc6d5df"/>
+		<e:Label id="reward" text="门派贡献" size="20" scaleX="1" scaleY="1" x="71" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1ce17d" width="110"/>
+	</e:Group>
+	<e:Group x="164" y="109">
+		<e:Label text="◆  今日剩余强盗:" size="20" scaleX="1" scaleY="1" x="0" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xc6d5df"/>
+		<e:Label id="times" text="" size="20" scaleX="1" scaleY="1" x="149" y="0" height="21" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1ce17d" width="33" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

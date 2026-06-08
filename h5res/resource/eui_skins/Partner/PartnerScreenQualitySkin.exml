@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerScreenQualitySkin" width="130" height="364" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="grp_q" x="0" y="95" width="130">
+		<e:Image id="bg" width="130" height="45" x="1" y="223" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_a" width="130" height="45" x="1" y="179" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_1" width="130" height="45" x="1" y="133" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_3" width="130" height="45" x="1" y="88" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_5" width="130" height="45" x="0" y="43" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_7" width="130" height="45" x="0" y="-2.5" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_9" width="130" height="45" x="0" y="-47" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Image id="q_11" width="130" height="45" x="0" y="-93" anchorOffsetX="0" anchorOffsetY="0" source="partner_check3"/>
+		<e:Label id="text_9" text="红色品质" y="-38" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" stroke="1" textAlign="center"/>
+		<e:Label id="text_11" text="金色品质" y="-81" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" stroke="1" textAlign="center"/>
+		<e:Label id="text_7" text="橙色品质" y="8" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" skewY="1" textAlign="center"/>
+		<e:Label id="text_5" text="紫色品质" y="54" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" stroke="1" textAlign="center"/>
+		<e:Label id="text_3" text="蓝色品质" y="100" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" stroke="1" textAlign="center"/>
+		<e:Label id="text_1" text="绿色品质" y="145" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" stroke="1" textAlign="center"/>
+		<e:Label id="text_a" text="全部品质" y="190" anchorOffsetX="0" width="80" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" fontFamily="Microsoft YaHei" touchEnabled="false" horizontalCenter="0" stroke="1" textAlign="center"/>
+	</e:Group>
+	<e:Label id="pzsel" text="筛选英雄" y="329" anchorOffsetX="0" width="80" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" fontFamily="Microsoft YaHei" touchEnabled="false" x="25" stroke="1"/>
+	<e:Group id="pselect" x="25" y="329" width="82" height="26">
+		<e:Image width="82" x="0" source="downline_W" scale9Grid="1,0,1,4" y="22" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

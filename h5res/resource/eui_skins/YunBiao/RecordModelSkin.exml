@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecordModelSkin" width="448" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="time" text="2018/8/18(18:10:49)" x="12" y="9" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Label id="content" text="名字六个文字抢夺了你的孙悟空" x="12" y="38" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Label id="sucess" text="【失败】" x="340" y="38" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xf2f2e9"/>
+	<e:Image width="2" height="448" y="69" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" horizontalCenter="0"/>
+</e:Skin>

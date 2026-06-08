@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="wakuang_yindaochatskin" width="400" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="biaoqingditu" anchorOffsetY="0" touchThrough="false" touchEnabled="false" touchChildren="false" x="27" y="5">
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" x="0" y="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" alpha="1" scale9Grid="15,12,37,10" source="yindaokuang" x="0" y="0"/>
+			<e:Label id="desc" text="通过点击石板进行挖掘，挖掘将消萨达所大大大所大所大大大所多耗体力" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="20" strokeColor="0x000000" verticalAlign="middle" textAlign="left" width="270" horizontalCenter="7" textColor="0x2e120a" height="80" bottom="8"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.PropBaseWhiteGreenSkin" width="200" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+
+	
+
+	<e:Label id="propName" text="属性属性:  +" size="18" anchorOffsetX="0" anchorOffsetY="0" height="100%" touchEnabled="false" textAlign="left" verticalAlign="middle" width="100%" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="propValue" text="999" size="18" anchorOffsetX="0" anchorOffsetY="0" height="20" touchEnabled="false" verticalAlign="middle" verticalCenter="1.5" x="101" textAlign="left" textColor="0x1ce17d" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="+" x="88" size="18" verticalCenter="0.5" textColor="0x1ce17d" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+</e:Skin>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionRoleSkin" width="270" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="376">
+	<w:Config id="162f18719d0" ></w:Config>
+	<e:Image y="265" anchorOffsetX="0" anchorOffsetY="0" width="204" height="67" source="1v1_peoplebg" horizontalCenter="0"/>
+	<e:Group id="photoParent" y="305" scaleX="0.5" scaleY="0.5" x="135"/>
+	<e:Group id="noSign" x="0" y="12" touchEnabled="false">
+		<e:Image width="182" height="278" y="28" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/blackshadow1.png" touchEnabled="false" x="54"/>
+		<e:Image y="298" anchorOffsetX="0" anchorOffsetY="0" width="270" height="68" source="com_back_power" scale9Grid="0,5,212,34" x="0"/>
+		<e:Label text="虚位以待" y="322" size="24" textAlign="center" fontFamily="Microsoft YaHei" width="163" height="24" scaleX="1" scaleY="1" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="rankGroup" x="0" y="258" visible="false">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" width="270" height="119" source="com_back_power" scale9Grid="0,5,212,34" x="0" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName" text="玩家名六个字" y="6" size="18" textAlign="center" fontFamily="Microsoft YaHei" width="120" height="18" x="77" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Group y="29.92" horizontalCenter="29.5">
+			<e:Group x="0" y="0">
+				<e:Label text="战力：" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="54" height="18" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+				<e:Label id="playerPower" text="9999.9万" x="51" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="114" height="18" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+			</e:Group>
+			<e:Group x="0" y="23">
+				<e:Label text="膜拜次数：" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" height="18" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+				<e:Label id="worshipTimes" text="1" x="87" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" height="18" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="worshipBtn" label="" y="76" width="102" height="35" scaleX="1" scaleY="1" x="84">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="52" height="35" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+				<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+				<e:Label text="膜 拜" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="winGroup" x="0" y="318" visible="false">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" width="270" height="59" source="com_back_power" scale9Grid="0,5,212,34" x="0" scaleX="1" scaleY="1"/>
+		<e:Group x="51" y="7">
+			<e:Label text="候选人:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="60" height="18" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="playerName2" text="玩家名六个字" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="150" height="18" x="65" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group y="33.92" x="51">
+		<e:Label text="净胜场:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="60" height="18" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="winTimes" text="999" x="65" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="114" height="18" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+	</e:Group>
+	<ns1:MovieClipCtrl id="chenghao" width="20" height="20" skinName="MovieClipCtrlSkin" horizontalCenter="9" verticalCenter="-166" scaleX="1" scaleY="1"/>
+</e:Skin>

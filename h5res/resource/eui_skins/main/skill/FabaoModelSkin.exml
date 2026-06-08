@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="FabaoModelSkin" width="138" height="178" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,normal" >
+
+
+
+
+
+
+
+
+
+	<e:Group x="0" y="0">
+		<e:Image id="BG" width="138" height="178" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="fabao_B_02"/>
+		<e:Image id="icon" x.normal="1" y.normal="7" x.down="1" y.down="5" verticalCenter="0" horizontalCenter="0" source=""/>
+
+
+
+		<e:Group y="156.3" height="9" width="106" horizontalCenter="0">
+			<e:Image id="taskRateBg" width="106" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" height="10" source="fabao_01" scale9Grid="3,3,5,4"/>
+			<e:Image id="taskRate" width="106" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" height="8" source="fabao_02" fillMode="clip"/>
+			<e:Group id="progressLblGroup" y="-2" horizontalCenter="0.5">
+			<e:Label id="curPoint" text="9999" y="0" textAlign="right" verticalAlign="middle" size="14" scaleX="1" scaleY="1" x="2" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" width="50"/>
+			<e:Label id="NeedNumber" text="9999" y="0" verticalAlign="middle" size="14" x="62.66" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xf2f2e9" strokeColor="0x14181b" width="50"/>
+			<e:Label text="/" y="0" textAlign="left" verticalAlign="middle" size="14" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xf2f2e9" strokeColor="0x14181b" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Label id="level" text="9999级" size="18" touchEnabled="false" textAlign="right" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" x="70" y="8" width="61" textColor="0xfff5a5"/>
+		<e:Label id="mxa" text="已满级" size="18" touchEnabled="false" textAlign="right" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="45" y="151" textColor="0x1ce17d"/>
+		<e:Group x="0" y="2">
+			<e:Image id="namebg" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="fabao_B_03"/>
+			<e:Label id="nameLabel" text="法宝名称" y="3" size="18" fontFamily="Microsoft YaHei" textAlign="center" width="26" verticalAlign="top" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" x="1"/>
+		</e:Group>
+		<e:Image id="close" width="138" height="178" y="0" anchorOffsetX="0" anchorOffsetY="0" source="qiandoa_09" scale9Grid="9,10,18,15" x="0"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerUpgradePanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<w:Config id="1633eaaf4d7"/>
+	<e:Image id="partnerbg" width="604" height="536" y="97.64" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="92" source="resource/assets/data/ui/bgs/PartnerUpgradePanelbg1.png"/>
+
+
+	<e:Group x="72.65" y="113" touchEnabled="false" anchorOffsetY="0" height="1">
+		<e:Image width="490" height="42" source="com_back_power" x="76" y="-13" anchorOffsetY="0"/>
+		<e:Group id="photoParent" x="316.35" y="387" scaleX="1" scaleY="1"/>
+		<ns1:powerzlcomp id="power" width="230" height="39" x="215.35" y="-12" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiSkin"/>
+		<e:Group id="starsParent" y="36.3" anchorOffsetX="0" width="500" horizontalCenter="43">
+			<ns1:StarBase width="30" height="30" x="14" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="59" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="106" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="150" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="196" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="241.34" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="287" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="332" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="378" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase width="30" height="30" x="422" y="0" skinName="StarBaseSkin"/>
+		</e:Group>
+		<e:Group x="167.68" y="37" visible="false">
+			<e:Image width="27" height="31" x="57.67" y="0" source="partnermod_bg" scaleX="1" scaleY="1"/>
+			<e:Image id="typeSign" width="34" height="31" x="27.67" y="2" source="partner_occupation2" scaleX="1" scaleY="1"/>
+			<e:Label id="partnerLevel" text="lv9999" x="63.32" y="3" size="24" textColor="0xf2f2e9" strokeColor="0x14181b" anchorOffsetX="0" width="88" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Image width="58" height="177" x="47" y="100" anchorOffsetX="0" anchorOffsetY="0" source="partnernamebg"/>
+	</e:Group>
+	<e:Label id="partnerName" text="少年林动是" x="133.5" y="235" size="26" anchorOffsetX="0" width="30" scaleX="1" scaleY="1" anchorOffsetY="0" height="122" fontFamily="Microsoft YaHei" style="word-spacing:3px;" textColor="0xf2f2e9" stroke="1" lineSpacing="5" textAlign="center" verticalAlign="middle"/>
+	<e:Label text="英 雄" y="52" size="26" strokeColor="0x14181b" textColor="0x2E120A" scaleX="1" scaleY="1" anchorOffsetX="0" width="77" anchorOffsetY="0" height="28" horizontalCenter="7.5" fontFamily="Microsoft YaHei"/>
+	<e:Group id="descGroup" x="112" y="402" anchorOffsetX="0" width="108" anchorOffsetY="0" height="110">
+		<e:Label text="法   师" y="1" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181b" textColor="0xfefe95" stroke="1" x="9" textAlign="center"/>
+		<e:Label text="远   程" y="35" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181b" textColor="0xfefe95" stroke="1" x="9" textAlign="center"/>
+		<e:Label text="高爆伤" y="70" fontFamily="Microsoft YaHei" size="20" horizontalCenter="-15" strokeColor="0x14181b" textColor="0xfefe95" stroke="1" textAlign="center"/>
+	</e:Group>
+	<e:Group id="checkGroup" x="134" y="540" anchorOffsetY="0" height="95" anchorOffsetX="0" width="503" touchEnabled="false">
+		<e:Image width="585" height="226" y="49" anchorOffsetX="0" anchorOffsetY="0" source="partner_select" scale9Grid="70,70,2,2" horizontalCenter="8"/>
+		<e:ToggleButton id="levelCheck" label="升级" x="0" y="-2.34" width="117" height="52">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="115" height="43" source="partner_page_out" source.down="partner_page_in" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升级" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" size="24" verticalCenter.up="2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="gradeCheck" label="进阶" x="123" y="-2.34" width="117" height="52">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="115" height="43" source="partner_page_out" source.down="partner_page_in" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="进阶" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" size="24" verticalCenter.up="2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="starCheck" label="升星" x="249" y="-2.6" width="117" height="52">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="115" height="43" source="partner_page_out" source.down="partner_page_in" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升星" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" size="24" verticalCenter.up="2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="equip" label="装备" x="373" y="-2.6" width="117" height="52" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="115" height="43" source="partner_page_out" source.down="partner_page_in" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="装备" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" size="24" verticalCenter.up="2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Image id="heixian" width="113" height="4" x="250" y="48" anchorOffsetX="0" anchorOffsetY="0" source="com_barbg" scale9Grid="0,0,3,3" visible="false"/>
+	</e:Group>
+	<e:Group id="levelGroup" x="90" y="313" anchorOffsetX="0" width="613" touchEnabled="false">
+		<e:Image width="572" height="115" y="283" scaleX="1" scaleY="1" source="com_twobg2" scale9Grid="21,23,109,109" x="19"/>
+		<ns1:PropertyList id="levelPropComp" width="493" height="100" x="58" y="293" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin height="100" width="520">
+				<e:Image id="propArrow" width="66" height="102" source="com_arrow" x="217" y="-3"/>
+				<e:List id="leftList" width="200" height="92" x="7" y="3" anchorOffsetY="0">
+					<e:layout>
+						<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+					</e:layout>
+				</e:List>
+				<e:List id="rightList" width="231" height="92" x="318" y="3" anchorOffsetX="0" anchorOffsetY="0">
+					<e:layout>
+						<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+					</e:layout>
+				</e:List>
+				<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+				<e:Label id="rightTitle" text="属性预览" x="330" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:PropertyList>
+		<e:Group id="levelItemGroup" x="37" y="537" height="112" visible="false">
+			<ns1:ItemBase3 width="114" height="111" x="-21" y="-1" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3"/>
+			<ns1:ItemBase3 width="114" height="111" x="94" y="-1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin3"/>
+			<ns1:ItemBase3 width="114" height="111" x="208" y="-1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin3"/>
+			<ns1:ItemBase3 width="114" height="111" x="323" y="-1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin3"/>
+			<ns1:ItemBase3 width="114" height="111" x="438" y="-1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin3"/>
+		</e:Group>
+		<e:Group x="23" y="402" anchorOffsetX="0" width="565" anchorOffsetY="0" height="87">
+			<e:Label text="等级:" x="85" y="8" size="20" textColor="0xfbcc90" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label id="curLevel" text="300" x="131" y="8" anchorOffsetX="0" width="44" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" anchorOffsetY="0" height="19" fontFamily="Microsoft YaHei"/>
+			<ns1:PartnerExpProgress id="expBar" width="320" height="24" x="168" y="6" skinName="skins.PartnerExpProgressSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="levelBtn" label="升一级" x="129" y="42" width="99" height="33" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="52" height="35" y.down="-2" source="com_button06"/>
+	<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" y.down="-2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升  级" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" verticalCenter.down="-2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="levelBtn0" label="升五级" x="355.5" y="43.5" width="99" height="33" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="52" height="35" y.down="-2" source="com_button06"/>
+					<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" y.down="-2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升  级" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" verticalCenter.down="-2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="maxLevelSign" text="当前已达最高等级" x="365" y="333" anchorOffsetX="0" width="188" size="18" scaleX="1" scaleY="1" textColor="0xf11d40" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+	<e:Group id="gradeGroup" x="90" y="313" touchEnabled="false" visible="false">
+		<e:Image width="572" height="115" y="283" scaleX="1" scaleY="1" source="com_twobg2" x="19" scale9Grid="20,18,113,109"/>
+		<e:Group id="gradeLimitGroup" x="263.65" y="511">
+			<e:Button id="showLevelBtn" label="去升级" x="-31" y="-79" width="135" height="46" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="134" height="49">
+					<e:Image width="67" height="49" y.down="-2" source="com_button03"/>
+	<e:Image width="67" height="49" x="134" y="0" scaleX="-1" y.down="-2" source="com_button03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="去升级" size="24" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" verticalCenter.down="-2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="gradeLimit" text="需要等级%t" x="116.35" y="-73" anchorOffsetX="0" width="106" textColor="0xff0000" size="18" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="20"/>
+		</e:Group>
+		<e:Button id="gradeBtn" label="升阶" x="231.65" y="431" width="135" height="46" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" >
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="66" height="47" y.down="-2" source="com_button04"/>
+	<e:Image width="66" height="47" x="132" y="0" scaleX="-1" y.down="-2" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升阶" size="26" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" verticalCenter.down="-2" strokeColor="0x61451a" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label text="当前已达最高阶" x="365" y="359" anchorOffsetX="0" width="188" textColor="0xFF0000" size="18" visible="false"/>
+		<e:Group x="251.64999999999998" y="467" scaleX="1" scaleY="1" visible="false">
+			<e:Image width="150" height="25" y="0" anchorOffsetX="0" anchorOffsetY="0" source="beibao_pic5" scale9Grid="7,7,1,1" x="0"/>
+			<e:Label id="gradeNeed" text="3243243" x="42" y="2" size="20" anchorOffsetX="0" width="100" textAlign="right"/>
+			<e:Image width="21" height="21" x="6" y="2" source="UIPic_38"/>
+			<e:Label text="消耗：" x="-63" y="2" size="20" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="gradeItemGroup" y="-148" anchorOffsetY="0" height="360" anchorOffsetX="0" width="582" horizontalCenter="8" scaleX="0.95" scaleY="0.95">
+			<ns1:PartnerItemBase id="gem1" width="86" height="86" x="427" y="102" skinName="skin.PartnerItemBaseSkin" scaleX="0.85" scaleY="0.85"/>
+			<ns1:PartnerItemBase id="gem3" width="86" height="86" x="427" y="179" skinName="skin.PartnerItemBaseSkin" scaleX="0.85" scaleY="0.85"/>
+			<ns1:PartnerItemBase id="gem5" width="86" height="86" x="427" y="256" skinName="skin.PartnerItemBaseSkin" scaleX="0.85" scaleY="0.85"/>
+			<ns1:PartnerItemBase id="gem2" width="86" height="86" x="506" y="102" skinName="skin.PartnerItemBaseSkin" scaleX="0.85" scaleY="0.85"/>
+			<ns1:PartnerItemBase id="gem4" width="86" height="86" x="506" y="179" skinName="skin.PartnerItemBaseSkin" scaleX="0.85" scaleY="0.85"/>
+			<ns1:PartnerItemBase id="gem6" width="86" height="86" x="506" y="256" skinName="skin.PartnerItemBaseSkin" scaleX="0.85" scaleY="0.85"/>
+			<ns1:MovieClipCtrl id="center" width="20" height="20" y="229" name="9024" skinName="MovieClipCtrlSkin" scaleX="1" scaleY="1" x="281" visible="false"/>
+			<ns1:MovieClipCtrl id="effectUpgrade" width="20" height="20" x="281" y="229" name="9024" skinName="MovieClipCtrlSkin" visible="false"/>
+			<e:Image width="187" height="34.8" x="412" y="60.8" source="partnerstepbg" anchorOffsetY="0"/>
+			<e:Image width="37" height="36" x="505.6" y="59.4" anchorOffsetX="0" anchorOffsetY="0" source="partnerstep"/>
+			<e:Group x="452.8" y="63.8">
+				<e:Image id="gradeNum2" width="26" height="29.2" x="8.8" y="-1.2" anchorOffsetX="0" anchorOffsetY="0" source="fight_9"/>
+				<e:Image id="gradeNum1" width="26" height="29.2" x="30.4" y="-1.2" anchorOffsetX="0" anchorOffsetY="0" source="fight_9"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="syntheticBtn" label="一键合成" y="431" width="135" height="46" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="2.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48">
+				<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+				<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="一键合成" size="24" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="maxGradeSign" text="当前已达最高阶" x="375.67" y="331" size="18" width="150" textAlign="center" textColor="0xFF0000" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+		<ns1:PropertyList id="gradePropList" width="493" height="100" x="58" y="293" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin width="520" height="100">
+				<e:Image id="propArrow" width="66" height="102" source="com_arrow" x="217" y="-3"/>
+				<e:List id="leftList" width="200" height="92" x="7" y="3" anchorOffsetY="0">
+					<e:layout>
+						<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+					</e:layout>
+				</e:List>
+				<e:List id="rightList" width="231" height="92" x="318" y="3" anchorOffsetX="0" anchorOffsetY="0">
+					<e:layout>
+						<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+					</e:layout>
+				</e:List>
+				<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+				<e:Label id="rightTitle" text="属性预览" x="330" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:PropertyList>
+	</e:Group>
+	<e:Group id="equipgroup" x="90" y="313" touchEnabled="false" visible="false">
+		<e:Image width="572" height="115" y="283" scaleX="1" scaleY="1" source="com_twobg2" x="19" scale9Grid="20,18,113,109"/>
+		<e:Button id="gradeBtn0" label="升阶" x="231.65" y="431" width="135" height="46" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="66" height="47" y.down="-2" source="com_button04"/>
+			<e:Image width="66" height="47" x="132" y="0" scaleX="-1" y.down="-2" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升阶" size="26" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" verticalCenter.down="-2" strokeColor="0x61451a" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label text="当前已达最高阶" x="365" y="359" anchorOffsetX="0" width="188" textColor="0xFF0000" size="18" visible="false"/>
+		<e:Group id="equipItemGroup" y="-148" anchorOffsetY="0" height="360" anchorOffsetX="0" width="582" horizontalCenter="8" scaleX="1" scaleY="1">
+		<ns1:ItemBase3 id="eq1" width="114" height="111" x="8" y="27" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 id="eq2" width="114" height="111" x="8" y="143" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 id="eq3" width="114" height="111" x="8" y="258" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 id="eq4" width="114" height="111" x="451" y="27" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 id="eq5" width="114" height="111" x="451" y="143" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 id="eq6" width="114" height="111" x="451" y="258" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Button id="onekeyequip" label="一键穿戴" y="431" width="135" height="46" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="2.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+			<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="一键合成" size="24" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="maxGradeSign0" text="当前已达最高阶" x="375.67" y="331" size="18" width="150" textAlign="center" textColor="0xFF0000" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1"/>
+		<ns1:PropertyList id="equipPropList" width="493" height="100" x="58" y="293" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin width="520" height="100">
+			<e:Image id="propArrow" width="66" height="102" source="com_arrow" x="217" y="-3" visible="false"/>
+			<e:List id="leftList" width="200" height="92" x="7" y="3" anchorOffsetY="0">
+				<e:layout>
+				<e:TileLayout requestedRowCount="3" rowHeight="25" columnWidth="203" requestedColumnCount="2" horizontalGap="107"/>
+				</e:layout>
+			</e:List>
+			<e:List id="rightList" width="231" height="92" x="318" y="3" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:layout>
+				<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+				</e:layout>
+			</e:List>
+			<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+			<e:Label id="rightTitle" text="属性预览" x="330" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:PropertyList>
+	</e:Group>
+	<e:Group id="starGroup" x="90" y="313" touchEnabled="false" visible="false">
+		<e:Image width="572" height="115" y="283" scaleX="1" scaleY="1" source="com_twobg2" x="19" anchorOffsetY="0" scale9Grid="36,33,82,90"/>
+		<e:Label text="当前已达最高阶" x="365" y="359" anchorOffsetX="0" width="188" textColor="0xFF0000" size="18" visible="false"/>
+		<ns1:PropertyList id="starPropList" width="493" height="100" x="58" y="293" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin width="520" height="100">
+				<e:Image id="propArrow" width="66" height="102" source="com_arrow" verticalCenter="-2" x="217"/>
+				<e:List id="leftList" width="200" height="92" x="7" anchorOffsetY="0" y="3">
+					<e:layout>
+						<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+					</e:layout>
+				</e:List>
+				<e:List id="rightList" width="231" height="92" x="318" y="3" anchorOffsetX="0" anchorOffsetY="0">
+					<e:layout>
+						<e:TileLayout requestedRowCount="3" rowHeight="25"/>
+					</e:layout>
+				</e:List>
+				<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+				<e:Label id="rightTitle" text="属性预览" x="330" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:PropertyList>
+		<ns1:PartnerExpStarProgress id="starExpBar" width="450" height="20" x="28" y="451.99" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.PartnerExpStarProgressSkin"/>
+		<e:Group id="needGroup" x="57.98" y="460.65" anchorOffsetX="0" width="546" anchorOffsetY="0" height="116">
+			<e:Label id="starNeedName" text="九王殿碎片" x="170.33" y="-46" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181b" anchorOffsetX="0" width="110.67" anchorOffsetY="0" height="18.67" textAlign="right" textColor="0xf11d40" stroke="1"/>
+			<e:Label id="starNeedNum" text="（Y/M）" x="282.36" y="-54.33" size="18" fontFamily="Microsoft YaHei" visible="false"/>
+			<e:Button id="starBtn" label="升 星" y="-12" width="104" height="35" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="429.02">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="94" height="39">
+					<e:Image width="52" height="39" y.down="-2" source="com_button06"/>
+	<e:Image width="52" height="39" source="com_button06" x="104" y="0" scaleX="-1" y.down="-2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升 星" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1"  verticalCenter.down="-2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="maxStarSign" text="当前已达最大星" x="218.65" y="461.33" size="24"  textColor="0xf11d40" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" visible="false"/>
+	</e:Group>
+	<e:Group id="activeGroup" x="141" y="642" anchorOffsetX="0" width="444" touchEnabled="false" visible="false">
+		<e:Group x="-40" y="-52" width="584" height="226" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group> 
+		<e:Button id="activeBtn" label="激    活" y="102" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="28" >
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48">
+				<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+	<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="激    活" fontFamily="Microsoft YaHei" size="22" strokeColor="0x14181b" stroke="1" textColor="0xf2f2e9" verticalCenter.down="-2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="lotteryBtn" label="前往招募" y="102" width="134" height="48"  anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="28">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48">
+				<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+				<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="前往招募" strokeColor="0x61451a" stroke="1" size="22" fontFamily="Microsoft YaHei" verticalCenter.down="-2" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="330" y="102" visible="false">
+			<e:Label text="_____" x="0" size="32" fontFamily="KaiTi_GB2312" anchorOffsetX="0" width="91" textColor="0xF2F2E9" height="36" stroke="1" strokeColor="0x14181B" verticalAlign="middle" y="0" anchorOffsetY="0"/>
+			<e:Label id="getway" text="获取方式" x="0" y="13" anchorOffsetX="0" width="87" size="20" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Label id="itemName" text="伙伴碎片" x="161" y="29" anchorOffsetX="0" width="150" textColor="0xe51616" size="20" textAlign="right" fontFamily="Microsoft YaHei" stroke="1"/>
+		<e:Label id="needNum" text="(y/m)" x="346" y="28" anchorOffsetX="0" width="93" textColor="0x51fc05" size="20" textAlign="left" fontFamily="Microsoft YaHei" stroke="1" anchorOffsetY="0" height="22"/>
+		<ns1:ItemBase2 id="activeItem" width="86" height="86" y="-5" anchorOffsetX="0" anchorOffsetY="0" x="73" skinName="skin.ItemBaseSkin2"/>
+		<e:Label text="英雄激活消耗" y="-41.31" anchorOffsetX="0" width="142" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xECC275" x="180.69" scaleX="1" scaleY="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" stroke="1"/>
+		<e:Image width="86" height="14" x="326" y="-33" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_title_line"/>
+		<e:Image width="86" height="14" x="176" y="-33" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" source="com_title_line"/>
+	</e:Group>
+	<e:Group id="skillGroup1" x="523" y="254" anchorOffsetY="0" height="244" visible="false">
+		<e:Image width="74" height="74" touchEnabled="false" source="partner_bgpic" x="4" y="25"/>
+		<e:Image width="74" height="74" touchEnabled="false" source="partner_bgpic" x="76" y="-38"/>
+		<e:Image width="74" height="74" touchEnabled="false" source="partner_bgpic" x="4" y="142"/>
+		<e:Image width="74" height="74" touchEnabled="false" source="partner_bgpic" x="75" y="82"/>
+	</e:Group>
+	<e:Group id="btnGroup" x="586" y="215">
+		<e:Button id="detailBtn" label="" x="12" y="3" width="87" height="94" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partnerpropbtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="skillViewBtn" label="" x="11" y="104" width="87" height="94" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partnersklbtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="linkViewBtn" label="" x="12" y="205" width="87" height="94" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partneryuanbtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="skillGroup" x="523" y="254" scaleX="1" scaleY="1" anchorOffsetX="0" width="142" anchorOffsetY="0" height="244" touchEnabled="false" visible="false">
+		<ns1:SkillBaseUpgrade width="74" height="74" x="76" y="-38" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseUpgradeSkin"/>
+		<ns1:SkillBaseUpgrade width="74" height="74" x="4" y="25" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseUpgradeSkin"/>
+		<ns1:SkillBaseUpgrade width="74" height="74" x="75" y="82" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseUpgradeSkin"/>
+		<ns1:SkillBaseUpgrade width="74" height="74" x="3" y="141" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseUpgradeSkin"/>
+	</e:Group>
+	<ns1:PartnerDetailsPanel width="600" height="900" x="98" y="40" skinName="PartnerDetailsPanelSkin" visible="false"/>
+	<ns1:PartnerGradeSynthesis id="synthesisView" width="525" height="350" x="134" y="142" anchorOffsetX="0" anchorOffsetY="0" skinName="PartnerGradeSynthesisSkin" visible="false"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="267.01" y="251.98" skinName="MovieClipCtrlSkin" visible="false"/>
+	<ns1:MovieClipCtrl id="effect1" width="20" height="20" x="395" y="323" name="9016" skinName="MovieClipCtrlSkin" visible="false"/>
+	<ns1:PartnerSelectList id="selectComp" width="610" height="400" y="591.33" skinName="PartnerSelectListSkin" horizontalCenter="1"/>
+	<ns1:PartnerSkillPanel id="skillView" width="586" height="705" x="100" y="216" skinName="PartnerSkillPanelSkin" visible="false"/>
+	<ns1:PartnerYuanPanel id="linkView" width="586" height="785" horizontalCenter="0" verticalCenter="0" skinName="PartnerYuanPanelSkin" visible="false"/>
+	<ns1:PartnerLevelUpPanel id="levelView" width="586" height="900" skinName="PartnerLevelUpPanelSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:MovieClipCtrl id="effect_upstarcg" width="20" height="20" name="9036" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:MovieClipCtrl id="effect_radecg" width="20" height="20" name="9050" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:MovieClipCtrl id="effect_uplevel" width="20" height="20" name="9046" skinName="MovieClipCtrlSkin" horizontalCenter="25" verticalCenter="3.5" visible="false"/>
+</e:Skin>

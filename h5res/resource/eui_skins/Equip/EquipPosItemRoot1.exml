@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipPosItemRoot1" width="610" height="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:EquipPosItem id="item1" width="84" height="84" x="22" y="60" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item2" width="84" height="84" x="505" y="60" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item3" width="84" height="84" x="22" y="186.5" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item4" width="84" height="84" x="505" y="186.5" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item5" width="84" height="84" x="22" y="312" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item6" width="84" height="84" x="504" y="312" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item7" width="84" height="84" x="22" y="438.5" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item8" width="84" height="84" x="504" y="438.5" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item9" width="84" height="84" x="22" y="565" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="item10" width="84" height="84" x="503" y="565" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem"/>
+	<ns1:EquipPosItem id="centeritem" width="84" height="84" y="114" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.EquipPosItem" horizontalCenter="0"/>
+</e:Skin>

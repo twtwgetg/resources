@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DropItemNameSkin" width="115" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1628a2b1f45" ></w:Config>
+	<e:Label text="" y="0" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" alpha="0.3" background="false" border="true" backgroundColor="0x000000" borderColor="0x896723" x="0"/>
+	<e:Label id="itemName" text="" y="0" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" alpha="1" background="false" border="false" backgroundColor="0x000000" x="0" fontFamily="Microsoft YaHei" bold="true"/>
+</e:Skin>

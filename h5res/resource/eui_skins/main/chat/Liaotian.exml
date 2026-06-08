@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Liaotian" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<w:Config id="164df75ba04"/>
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<e:Label text="聊 天" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2"/>
+	<e:Group width="578" height="808" y="105" horizontalCenter="0" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5"  top="0" right="0"/>
+		<e:Image width="50%" height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5"  bottom="0" right="0"/>
+	</e:Group>
+	<e:Scroller id="scrListChat" anchorOffsetX="0" anchorOffsetY="0" width="576" x="103" height="787" y="114">
+		<e:viewport>
+			<e:List id="list_chat" height="0" anchorOffsetX="0" width="0" x="0" anchorOffsetY="0" y="-37">
+				<e:layout> 
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+		<e:Skin>
+			<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+				<e:Skin>
+					<e:Image id="thumb" width="8" source="hScrollBar02_png"  scale9Grid="1,1,4,4"/>
+				</e:Skin>
+			</e:VScrollBar>
+		</e:Skin>
+	</e:Scroller>
+
+
+	<e:Button id="btn_close" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="systemForbidden" y="935" horizontalCenter="0" visible="false">
+		<e:Image id="sysmsggroup" width="578" height="53" source="com_back_power" horizontalCenter="0" scale9Grid="0,5,212,34" verticalCenter="-0.5"/>
+		<e:Label text="系统频道不能发言，请切换其他频道发言" y="15" size="22" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xfbcc90"/>
+	</e:Group>
+	<e:Group id="inputGroup" x="104" y="939">
+		<e:TextInput id="txt_content" width="374" height="44" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" enabled="true" skinName="skins.LiaotianTextInputSkin"/>
+		<e:Button id="expressionBtn" label="" x="387" y="1" width="44" height="44">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="liaotian_btn1" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btu_send" label="" y="-2" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="444">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="68" height="48" y.down="-2" source="com_button03" source.up="com_button03" source.down="com_button03"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.up="com_button03" source.down="com_button03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="发 送" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071e39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label text="发 送" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x071e39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="checkGroup" x="109" y="1028">
+		<e:ToggleButton name="0" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width.up="80" height.up="91" width.disabled="80" height.disabled="91" height="91" width="80">
+	<e:Image width="68" height="69" includeIn="up" source="com_back01" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="68" height="69" includeIn="down" source="com_back01" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="65" height="83" source="liaotian_check1" source.down="liaotian_check1" width.up="68" height.up="84" width.down="68" height.down="84" horizontalCenter.down="0" y.up="7" y.down="7" x="8" y="7" x.up="6"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton name="3" x="91">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width.up="80" height.up="84">
+				<e:Image width="68" height="69" includeIn="up" source="com_back01" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="68" height="69" includeIn="down" source="com_back01" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="69" height="79" width.up="69" height.up="79" width.down="69" height.down="79" horizontalCenter.up="0.5" verticalCenter.up="7.5" horizontalCenter.disabled="3.5" source="liaotian_check2" source.down="liaotian_check2" y="10" y.down="10" x.down="6" x="6"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton name="7" x="182">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width.up="80" height.up="84">
+				<e:Image width="68" height="69" includeIn="up" source="com_back01" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="68" height="69" includeIn="down" source="com_back01" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="63" height="78" width.up="63" height.up="78" width.down="63" height.down="78" horizontalCenter.disabled="0.5" top.disabled="10" source="liaotian_check3" source.down="liaotian_check3" x.up="9" y.up="10" x="9" y="10" x.down="9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Group x="388" y="1036">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group x="479" y="1036">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="expressionGroup" y="724" horizontalCenter="0">
+		<e:Group id="biaoqingditu0" y="3" horizontalCenter="0">
+			<e:Image width="287" height="186" source="resource/assets/data/ui/bgs/liaotian_pic16.png" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="8,7,7,8"/>
+			<e:Image width="287" height="186" source="resource/assets/data/ui/bgs/liaotian_pic16.png" x="574" y="0" scaleX="-1" scaleY="1" scale9Grid="8,7,7,8"/>
+		</e:Group>
+		<e:Group id="expressionParent" width="548" height="27" anchorOffsetX="0" y="12" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="38" verticalGap="12" requestedColumnCount="8"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

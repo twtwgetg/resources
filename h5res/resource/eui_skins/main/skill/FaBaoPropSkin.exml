@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="FaBaoPropSkin" width="400" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:PropMidBaseSkin3 id="prop" width="192" height="25" x="3" y="0" skinName="skin.PropMidBase3"/>
+	<e:Label id="level" text="5级激活" size="18" anchorOffsetX="0" anchorOffsetY="0" height="100%" touchEnabled="false" textAlign="left" x="295" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" y="0" width="90" textColor="0xf11d40"/>
+	
+
+	
+
+
+
+
+</e:Skin>

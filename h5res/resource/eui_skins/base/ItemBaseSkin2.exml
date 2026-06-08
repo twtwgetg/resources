@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemBaseSkin2" width="88" height="88" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="bg" width="86" height="86" y="2" x="2">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+	</e:Group>
+	<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="2"/>
+
+
+
+
+
+	<e:Image id="icon" width="74" height="74" y="6" x="6"/>
+	<e:Label id="label" text="%t" x="3" y="59" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Image id="selectSign" width="88" height="88" y="0" source="jineng_pic17" x="0" scale9Grid="12,11,18,19" visible="false"/>
+
+	<e:Group x="6" y="3" width="75">
+		<e:Image width="25" height="25" x="0" y="0" source="partnerfont_suipic" id="jiaobiao1"/>
+		<e:Image y="0" source="partnerfont_yingpic" id="jiaobiao2" right="0"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="48" y="43" name="9014" skinName="MovieClipCtrlSkin" visible="false"/>
+	<e:Group id="qualityfont" x="23" y="4" width="62" height="23" visible="false">
+		<e:Image id="qualitytitle1" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" y="0" right="0" source="qualityfont_12"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

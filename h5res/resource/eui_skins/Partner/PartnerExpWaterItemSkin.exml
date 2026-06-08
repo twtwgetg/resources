@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerExpWaterItemSkin" width="141" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="86" height="26" x="33" y="89" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="2,2,127,41" source="partner_prop_bg"/>
+	<ns1:ItemBase2 id="item" width="86" height="86" x="30" y="2" skinName="skin.ItemBaseSkin2" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="tname" text="经验神水" x="141" y="18" anchorOffsetX="0" width="161" anchorOffsetY="0" height="34" size="24" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label text="英雄经验" x="140" y="70" anchorOffsetX="0" width="105" anchorOffsetY="0" height="24" size="24" textColor="0xf2f2e9" strokeColor="0x14181b" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label id="addexpnum" text="+999999" x="10" y="90" anchorOffsetX="0" width="131" anchorOffsetY="0" height="27" size="24" strokeColor="0x14181b" textColor="0x1ce17d" fontFamily="Microsoft YaHei" textAlign="center" stroke="1"/>
+	<e:Image width="24" height="24" verticalCenter="-48" horizontalCenter="41.5" source="com_red" name="redpoint"/>
+</e:Skin>

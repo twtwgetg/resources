@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskPanelSkin" width="795" height="1128" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="aniGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{10}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="taskIconAni">
+			<tween:TweenItem target="{img1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1.75}" scaleY="{1.75}" alpha="{0.2}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="600">
+					<tween:props>
+						<e:Object alpha="{0}" scaleX="{2.32}" scaleY="{2.32}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0.2}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object scaleX="{1.6}" scaleY="{1.6}" alpha="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0}" scaleX="{1.8}" scaleY="{1.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="100"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" scaleX="{1.8}" scaleY="{1.8}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0.1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="100"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0.8}" scaleX="{1.3}" scaleY="{1.3}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1.33}" scaleY="{1.33}" alpha="{0.75}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object alpha="{0}" scaleX="{1.5}" scaleY="{1.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="450"/>
+				<tween:Set/>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16002b4d7b1" ></w:Config>
+	<e:Group id="taskGroup" width="150" height="115" anchorOffsetX="0" anchorOffsetY="0" left="12" bottom="249">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="74.32" x="80" height="85" width="80" source="UIPic_6" scale9Grid="16,5,99,34" scaleX="1" scaleY="1"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="74.32" x="80" source="UIPic_6" height="85" width="80" scale9Grid="16,5,99,34" scaleX="-1" scaleY="1"/>
+		<e:Group id="iconAniGroup" width="146" height="105" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false">
+			<e:Image id="img1" y="39" scaleX="1" scaleY="1" source="UIPic_42" x="75" width="96" height="84" anchorOffsetX="48" anchorOffsetY="42"/>
+			<e:Image id="img2" anchorOffsetX="48" anchorOffsetY="42" y="39" scaleX="1" scaleY="1" source="UIPic_42" x="75" height="84" width="96"/>
+			<e:Image id="img3" anchorOffsetX="48" anchorOffsetY="42" y="39" scaleX="1" scaleY="1" source="UIPic_42" x="75" height="84" width="96"/>
+			<e:Image width="24" height="24" verticalCenter="-44.5" horizontalCenter="40" source="com_red" name="redpoint"/>
+		</e:Group>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="-2" scaleX="1" scaleY="1" source="UIPic_42" x="27"/>
+		<e:Button id="StageBtn" label="" x="0" anchorOffsetY="0" alpha="0" height="117.67" y="-0.33" anchorOffsetX="0" width="150">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Group  width="100%" height="100%" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<ns1:MovieClipCtrl id="effect" width="0" height="0" name="9030" skinName="MovieClipCtrlSkin" anchorOffsetX="0" anchorOffsetY="0" x="74.68" y="39"/>
+		<e:Label id="levelName" text="第12345关" y="80.3" size="18" stroke="1" fontFamily="Microsoft YaHei" anchorOffsetX="0" touchEnabled="false" scaleX="1" scaleY="1" strokeColor="0x14181b" horizontalCenter="0.5" textColor="0xf2f2e9"/>
+		<e:Group y="103.3" height="9" width="130" horizontalCenter="0">
+			<e:Image id="taskRateBg" width="130" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="UIPic_39" scale9Grid="3,3,38,3" x="0"/>
+			<e:Image id="taskRate" width="130" y="0.4" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="UIPic_40" x="0"/>
+			<e:Image id="node" y="1.51" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="3,3,38,3" source="UIPic_45" x="65"/>
+		</e:Group>
+		<e:Label id="taskRateLabel" text="3/3" y="101.3" size="16" stroke="1" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0" visible="false"/>
+	</e:Group>
+	<e:Group id="autoGroup" anchorOffsetX="0" width="150" left="12" bottom="211">
+		<e:Button id="autoSign" label="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="UIPic_44"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="Stop" label="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="UIPic_43" x="92" y="-0.67" anchorOffsetX="0"  y.down="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="1" verticalCenter.down="2"/>
+	<e:Label text="自动中···" x="26.78" size="16" textColor="0xffc88a" fontFamily="Microsoft YaHei" y="1.49" stroke="1" strokeColor="000000"  y.down="0.66"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="questGroup" width="276" height="111" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="10.5" bottom="207">
+		<e:Group x="138" y="38">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" height="74" width="138" source="UIPic_6" scaleX="1" scaleY="1" scale9Grid="0,5,131,34"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" source="UIPic_6" height="74" width="138" scaleX="-1" scaleY="1" scale9Grid="0,5,131,34"/>
+		</e:Group>
+		<e:Image y="12.8" source="UIPic_41" horizontalCenter="0.33499999999999375"/>
+		<e:Button id="TaskBtn" label="" y="0" anchorOffsetY="0" alpha="0" scaleX="1" scaleY="1" height="95" anchorOffsetX="0" width="263.34" horizontalCenter="0"/>
+		<e:Label id="taskName" text="装备强化到19级" y="50" anchorOffsetX="0" size="20" anchorOffsetY="0" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textAlign="center" scaleX="1" scaleY="1" textColor="0xe0d28c" width="280" horizontalCenter="0" strokeColor="0x14181b"/>
+		<e:List id="rewardList" useVirtualLayout="false" scaleX="1" scaleY="1" y="74" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		</e:List>
+		<ns1:MovieClipCtrl id="tishi" width="0" height="0" name="9052" skinName="MovieClipCtrlSkin" x="138" y="74"/>
+		<ns1:MovieClipCtrl width="0" height="0" name="9059" skinName="MovieClipCtrlSkin" x="138" y="75"/>
+		<e:Group id="questHelp" width="66" height="46" x="146" y="50" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<ns1:MovieClipCtrl id="circleEffect" width="20" height="20" name="50103"/>
+		<e:Image id="image" source="com_help_head"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

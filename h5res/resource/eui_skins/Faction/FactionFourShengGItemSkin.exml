@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionFourShengGItemSkin" width="586" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="900" height="1136" horizontalCenter="0" verticalCenter="23" source="resource/ui/bgs/S-%E5%9B%9B%E8%B1%A103.jpg" visible="false"/>
+	<e:Group x="156" y="49" anchorOffsetX="0" width="276" anchorOffsetY="0" height="364">
+		<ns1:MovieClipCtrl name="9066" skinName="MovieClipCtrlSkin" scaleX="1" scaleY="1" horizontalCenter="-1" verticalCenter="0"/>
+		<ns1:MovieClipCtrl name="9066" skinName="MovieClipCtrlSkin" scaleX="-1" horizontalCenter="0" x="127" scaleY="1" verticalCenter="0"/>
+	</e:Group>
+	<e:Group x="4" y="5">
+		<e:Image width="453" height="46" source="com_back_power" horizontalCenter="34.5" x="84" y="-5" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+		<e:Image id="bossModel" width="279" height="368" x="150.61" y="44.5" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/bgs/linshizhuque_icon.png"/>
+		<e:Label id="modelName" text="朱雀" x="259" y="7" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="37" visible="false"/>
+		<e:Label id="bossLevel" text="3" x="340" y="8" size="20" textAlign="left" anchorOffsetX="0" width="59" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" strokeColor="0x071e39" stroke="1" textColor="0xf5eb9f"/>
+		<e:Label text="守护者等级" x="218" y="8" size="20" anchorOffsetX="0" width="111" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei" textAlign="center" strokeColor="0x071e39" stroke="1" textColor="0xf5eb9f"/>
+	</e:Group>
+	<e:Group id="hpGroup" x="107.92" y="478" anchorOffsetX="0" width="460" anchorOffsetY="0" height="17">
+		<e:Image id="thumb_bg" width="460" height="19" x="0" y="0" anchorOffsetX="0" source="com_barbg" scale9Grid="35,6,42,4" anchorOffsetY="0"/>
+		<e:Image id="thumb" width="460" height="19" x="0" y="0" source="UIPic_30" scale9Grid="10,2,9,13"/>
+		<ns1:BarBase id="bloodBar" width="456" height="19" x="0" y="0" skinName="skins.RoleBlood" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:Label id="hpRate" text="100%" x="195.08" y="-1" anchorOffsetY="0" height="19" size="18" fontFamily="Microsoft YaHei" italic="true" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label text="当前血量" x="-91.92" y="-1" fontFamily="Microsoft YaHei" size="20" scaleX="1" scaleY="1" textColor="0xbccad4" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="openGroup" x="25" y="682" anchorOffsetY="0" height="90" anchorOffsetX="0" width="319">
+		<e:Label text="活动开启:" x="134" y="39" anchorOffsetX="0" width="168" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0xf2f2e9"/>
+		<e:Label id="unOpenSign" text="活动未开启" x="172" y="78" size="24" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" anchorOffsetX="0" width="185" anchorOffsetY="0" height="28" strokeColor="0x14181b" stroke="1" textColor="0xf11d40" textAlign="center"/>
+		<e:Label id="remainTime" text="22:22:22" x="228" y="41" anchorOffsetX="0" width="248" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" textAlign="left" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="ingGroup" x="22" y="680">
+		<e:Label text="结束计时:" x="189" y="41" anchorOffsetX="0" width="109" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="ingSign" text="活动进行中 ···" x="177" y="80" size="24" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" anchorOffsetX="0" width="185" anchorOffsetY="0" height="28" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d" textAlign="center"/>
+		<e:Label id="remainTime0" text="22:22:22" x="279" y="42" anchorOffsetX="0" width="193" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" textAlign="left" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

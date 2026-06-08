@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyBaseSkin" width="568" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1630bb48c82" ></w:Config>
+	<e:Group id="bg" x="0" y="0" width="100%" height="100%">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="19,19,115,115" width="568" height="130"/>
+		<e:Group x="16" scaleX="0.8" scaleY="0.8" verticalCenter="-0.5" width="134">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" height="134" y="0" left="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" height="134" y="0" scaleX="-1" right="0"/>
+			<e:Image id="stageImg" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.2499999999999998" scaleY="1.2499999999999998" source="partner_tobattle" verticalCenter="0" horizontalCenter="0" x="12.5" y="13.749999999999998"/>
+		</e:Group>
+		<e:Group x="133" y="60">
+			<e:Label text="◆" x="0" y="2" size="18" anchorOffsetY="0" anchorOffsetX="0" width="20" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="活跃值奖励:" x="19" y="2" size="18" anchorOffsetY="0" height="20" anchorOffsetX="0" width="104" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="point" text="5" x="121" y="0" size="18" anchorOffsetY="0" height="24" anchorOffsetX="0" width="54" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="133" y="23">
+		<e:Label id="desc" text="进行1次个人boss " x="22" y="0" size="18" anchorOffsetY="0" anchorOffsetX="0" width="252" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xc6d5df"/>
+		<e:Label text="◆" x="0" y="0" size="18" anchorOffsetY="0" anchorOffsetX="0" width="20" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<ns1:SimpleProgressBar id="progressBar" width="222" height="14" x="153.5" y="90" skinName="skin.SimpleProgressBar" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group x="403" y="17">
+		<e:Label id="opendata" text="通过xxx关开启" x="0" size="20" anchorOffsetY="0" height="18" anchorOffsetX="0" width="145.33" textColor="0xf11d40" fontFamily="Microsoft YaHei" y="39" stroke="1" strokeColor="0x14181b" visible="false"/>
+		<e:Image id="complete" x="28" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="youjian_pic7" y="0"/>
+		<e:Button id="btnRecieve" label="" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" verticalCenter="0.5" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="领 取" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label text="领 取" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnGoto" label="" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" verticalCenter="0.5" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="66" height="48" y.down="-2" source="com_button03" source.down="com_button03"/>
+				<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="前 往" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label text="前 往" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" stroke.up="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x071E39"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionFourShengRewardItemSkin" width="550" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="119" x="-1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="49,48,60,61"/>
+		<e:Label id="pm" text="伤害第一名奖励" x="24" y="47" size="20" bold="true" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<ns1:ItemBase2 id="r1" width="86" height="86" x="191" y="14" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r2" width="86" height="86" x="296" y="14" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r3" width="86" height="86" x="401" y="15" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<e:List width="328" height="100" x="185" y="8" anchorOffsetY="0" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

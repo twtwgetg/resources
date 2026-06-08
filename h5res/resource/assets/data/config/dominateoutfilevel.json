@@ -1,0 +1,992 @@
+[{
+   "id":-1,
+   "reincarnation":3,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:0,0:0,2:0",
+   "needitem":"1036:1"
+},
+{
+   "id":-1,
+   "reincarnation":7,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:0,0:0,2:0",
+   "needitem":"1037:1"
+},
+{
+   "id":-1,
+   "reincarnation":11,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:0,0:0,2:0",
+   "needitem":"1038:1"
+},
+{
+   "id":-1,
+   "reincarnation":15,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:0,0:0,2:0",
+   "needitem":"1039:1"
+},
+{
+   "id":0,
+   "reincarnation":3,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":0,
+   "reincarnation":7,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":0,
+   "reincarnation":11,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":0,
+   "reincarnation":15,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":1,
+   "reincarnation":3,
+   "partid":1,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":1,
+   "reincarnation":7,
+   "partid":2,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":1,
+   "reincarnation":11,
+   "partid":3,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":1,
+   "reincarnation":15,
+   "partid":4,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":2,
+   "reincarnation":3,
+   "partid":1,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":2,
+   "reincarnation":7,
+   "partid":2,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":2,
+   "reincarnation":11,
+   "partid":3,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":2,
+   "reincarnation":15,
+   "partid":4,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":3,
+   "reincarnation":3,
+   "partid":1,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":3,
+   "reincarnation":7,
+   "partid":2,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":3,
+   "reincarnation":11,
+   "partid":3,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":3,
+   "reincarnation":15,
+   "partid":4,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":4,
+   "reincarnation":3,
+   "partid":1,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":4,
+   "reincarnation":7,
+   "partid":2,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":4,
+   "reincarnation":11,
+   "partid":3,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":4,
+   "reincarnation":15,
+   "partid":4,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:45"
+},
+{
+   "id":5,
+   "reincarnation":3,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":5,
+   "reincarnation":7,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":5,
+   "reincarnation":11,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":5,
+   "reincarnation":15,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":6,
+   "reincarnation":6,
+   "partid":1,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":6,
+   "reincarnation":10,
+   "partid":2,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":6,
+   "reincarnation":14,
+   "partid":3,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":6,
+   "reincarnation":18,
+   "partid":4,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":7,
+   "reincarnation":6,
+   "partid":1,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":7,
+   "reincarnation":10,
+   "partid":2,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":7,
+   "reincarnation":14,
+   "partid":3,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":7,
+   "reincarnation":18,
+   "partid":4,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":8,
+   "reincarnation":6,
+   "partid":1,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":8,
+   "reincarnation":10,
+   "partid":2,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":8,
+   "reincarnation":14,
+   "partid":3,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":8,
+   "reincarnation":18,
+   "partid":4,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":9,
+   "reincarnation":6,
+   "partid":1,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":9,
+   "reincarnation":10,
+   "partid":2,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":9,
+   "reincarnation":14,
+   "partid":3,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":9,
+   "reincarnation":18,
+   "partid":4,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":10,
+   "reincarnation":6,
+   "partid":1,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":10,
+   "reincarnation":10,
+   "partid":2,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":10,
+   "reincarnation":14,
+   "partid":3,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":10,
+   "reincarnation":18,
+   "partid":4,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:90"
+},
+{
+   "id":11,
+   "reincarnation":6,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":11,
+   "reincarnation":10,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":11,
+   "reincarnation":14,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":11,
+   "reincarnation":18,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":12,
+   "reincarnation":9,
+   "partid":1,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":12,
+   "reincarnation":13,
+   "partid":2,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":12,
+   "reincarnation":17,
+   "partid":3,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":12,
+   "reincarnation":21,
+   "partid":4,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":13,
+   "reincarnation":9,
+   "partid":1,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":13,
+   "reincarnation":13,
+   "partid":2,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":13,
+   "reincarnation":17,
+   "partid":3,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":13,
+   "reincarnation":21,
+   "partid":4,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":14,
+   "reincarnation":9,
+   "partid":1,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":14,
+   "reincarnation":13,
+   "partid":2,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":14,
+   "reincarnation":17,
+   "partid":3,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":14,
+   "reincarnation":21,
+   "partid":4,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":15,
+   "reincarnation":9,
+   "partid":1,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":15,
+   "reincarnation":13,
+   "partid":2,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":15,
+   "reincarnation":17,
+   "partid":3,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":15,
+   "reincarnation":21,
+   "partid":4,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":16,
+   "reincarnation":9,
+   "partid":1,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":16,
+   "reincarnation":13,
+   "partid":2,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":16,
+   "reincarnation":17,
+   "partid":3,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":16,
+   "reincarnation":21,
+   "partid":4,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:135"
+},
+{
+   "id":17,
+   "reincarnation":9,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":17,
+   "reincarnation":13,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":17,
+   "reincarnation":17,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":17,
+   "reincarnation":21,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":18,
+   "reincarnation":12,
+   "partid":1,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":18,
+   "reincarnation":16,
+   "partid":2,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":18,
+   "reincarnation":20,
+   "partid":3,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":18,
+   "reincarnation":24,
+   "partid":4,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":19,
+   "reincarnation":12,
+   "partid":1,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":19,
+   "reincarnation":16,
+   "partid":2,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":19,
+   "reincarnation":20,
+   "partid":3,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":19,
+   "reincarnation":24,
+   "partid":4,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":20,
+   "reincarnation":12,
+   "partid":1,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":20,
+   "reincarnation":16,
+   "partid":2,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":20,
+   "reincarnation":20,
+   "partid":3,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":20,
+   "reincarnation":24,
+   "partid":4,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":21,
+   "reincarnation":12,
+   "partid":1,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":21,
+   "reincarnation":16,
+   "partid":2,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":21,
+   "reincarnation":20,
+   "partid":3,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":21,
+   "reincarnation":24,
+   "partid":4,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":22,
+   "reincarnation":12,
+   "partid":1,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":22,
+   "reincarnation":16,
+   "partid":2,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":22,
+   "reincarnation":20,
+   "partid":3,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":22,
+   "reincarnation":24,
+   "partid":4,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:180"
+},
+{
+   "id":23,
+   "reincarnation":12,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":23,
+   "reincarnation":16,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":23,
+   "reincarnation":20,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":23,
+   "reincarnation":24,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":24,
+   "reincarnation":15,
+   "partid":1,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":24,
+   "reincarnation":19,
+   "partid":2,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":24,
+   "reincarnation":23,
+   "partid":3,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":24,
+   "reincarnation":27,
+   "partid":4,
+   "rate":9000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":25,
+   "reincarnation":15,
+   "partid":1,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":25,
+   "reincarnation":19,
+   "partid":2,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":25,
+   "reincarnation":23,
+   "partid":3,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":25,
+   "reincarnation":27,
+   "partid":4,
+   "rate":8000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":26,
+   "reincarnation":15,
+   "partid":1,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":26,
+   "reincarnation":19,
+   "partid":2,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":26,
+   "reincarnation":23,
+   "partid":3,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":26,
+   "reincarnation":27,
+   "partid":4,
+   "rate":7000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":27,
+   "reincarnation":15,
+   "partid":1,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":27,
+   "reincarnation":19,
+   "partid":2,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":27,
+   "reincarnation":23,
+   "partid":3,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":27,
+   "reincarnation":27,
+   "partid":4,
+   "rate":6000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":28,
+   "reincarnation":15,
+   "partid":1,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":28,
+   "reincarnation":19,
+   "partid":2,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":28,
+   "reincarnation":23,
+   "partid":3,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":28,
+   "reincarnation":27,
+   "partid":4,
+   "rate":5000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":"1040:270"
+},
+{
+   "id":29,
+   "reincarnation":15,
+   "partid":1,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":29,
+   "reincarnation":19,
+   "partid":2,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":29,
+   "reincarnation":23,
+   "partid":3,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+},
+{
+   "id":29,
+   "reincarnation":27,
+   "partid":4,
+   "rate":10000,
+   "prop":"6:25447,0:2174,2:870,8:200",
+   "needitem":""
+}]

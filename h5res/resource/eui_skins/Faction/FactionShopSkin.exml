@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionShopSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="-1" skinName="CommonbackSkin" horizontalCenter="-1"/>
+	<e:Image width="596" height="635" y="86" scaleX="1" scaleY="1" anchorOffsetX="0" scale9Grid="50,12,100,82" horizontalCenter="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/factionback_01.png"/>
+	<e:Label text="门派商店" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2"/>
+	<e:Group y="717" horizontalCenter="0">
+		<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" width="400" height="70" source="com_back_power" scale9Grid="0,5,212,34" x="0"/>
+		<e:Group y="39.92" x="101">
+			<e:Label text="消耗贡献:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="80" height="18" stroke="1" strokeColor="0x14181b" textColor="0xc6d5df"/>
+			<e:Label id="needContribution" text="9999" x="85" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="114" height="18" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group y="12.92" x="101">
+			<e:Label id="haveTitle" text="可用贡献:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="80" height="18" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="haveContribution" text="9999" x="85" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="114" height="18" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="itemGroup" x="126" y="122" width="550">
+		<ns1:ItemBase3 id="item1" width="114" height="111" y="38" anchorOffsetX="0" anchorOffsetY="0" x="214">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 id="item2" width="114" height="111" y="142" anchorOffsetX="0" anchorOffsetY="0" x="31">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 id="item3" width="114" height="111" y="351" anchorOffsetX="0" anchorOffsetY="0" x="31">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 id="item4" width="114" height="111" y="142" anchorOffsetX="0" anchorOffsetY="0" x="395">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 id="item5" width="114" height="111" y="351" anchorOffsetX="0" anchorOffsetY="0" x="395">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 id="item6" width="114" height="111" y="459" anchorOffsetX="0" anchorOffsetY="0" x="214">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+	</e:Group>
+	<e:Group x="296.5" y="308" width="200" height="200">
+		<e:Image id="closeImg" width="155" height="158" anchorOffsetX="0" anchorOffsetY="0" source="treasurebox_close" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="openImg" width="155" height="158" anchorOffsetX="0" anchorOffsetY="0" source="treasurebox_open" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:ItemBase3 id="centerItem" width="114" height="111" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Image width="25" height="25" x="20" y="3" source="partnerfont_suipic" id="jiaobiao1" visible="false"/>
+				<e:Image width="25" height="25" x="70" y="3" source="partnerfont_yingpic" id="jiaobiao2" visible="false"/>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+	</e:Group>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="116" y="1028">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19" x="113" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton x="0" y="0" width="86" height="86" name="MainView" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+	<e:Image width="86" height="86" x="0" y="0" source="Faction_07"/>
+	<e:Label text="" x="21" y="42" size="20" anchorOffsetX="0" width="42" fontFamily="Microsoft YaHei" height="43" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" textAlign="center"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="openBtn" label="" x="293" width="172" height="59" y="808">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="86" height="59" y.down="-2" source="com_button02"/>
+			<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="开启宝箱" includeIn="down" size="22" horizontalCenter="0" y="17" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+			<e:Label text="开启宝箱" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="885" x="290">
+		<e:Label id="buyTitle" text="今日剩余次数:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="114" height="18" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="openTimes" text="20/20" x="123" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="54" height="18" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

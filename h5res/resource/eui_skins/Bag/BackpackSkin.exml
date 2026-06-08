@@ -1,0 +1,176 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BackpackSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+
+	<e:Label id="title" text="背 包" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2"/>
+
+
+
+	<e:Group id="equipBg" x="102" y="111">
+		<e:Image width="290" height="432" y="0" source="com_back_down" x="0" scale9Grid="40,40,5,5"/>
+		<e:Image width="290" height="432" y="864" source="com_back_down" scale9Grid="40,40,5,5" x="0" scaleY="-1"/>
+		<e:Image width="290" height="432" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1"/>
+		<e:Image width="290" height="432" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1" scaleY="-1" y="864"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ns1:ItemCanUseTips id="item_canuse" width="398" height="550" x="112" y="182" skinName="skin.ItemCanUseTips" visible="false"/>
+	<e:Group id="grp_kongjian" y="112" anchorOffsetY="0" height="756" width="580" horizontalCenter="0" visible="false">
+
+		<e:Image width="184" height="32" x="109" source="com_num_enter" scale9Grid="7,7,44,21" verticalCenter="446"/>
+		<e:Group>
+			<e:Image width="290" height="432" y="0" source="com_back_down" scale9Grid="40,40,5,5" x="0"/>
+			<e:Image width="290" height="432" y="864" source="com_back_down" scale9Grid="40,40,5,5" x="0" scaleY="-1"/>
+			<e:Image width="290" height="432" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1"/>
+			<e:Image width="290" height="432" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1" scaleY="-1" y="864"/>
+		</e:Group>
+
+		<e:Button id="resolveBtn" label="" x="436" width="132" verticalCenter="443" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="67" height="48" y.down="-2" source="com_button03"/>
+	<e:Image width="67" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="熔  炼" includeIn="down" size="22" horizontalCenter="0" y="11" fontFamily="Microsoft YaHei" stroke="1"/>
+			<e:Label text="熔  炼" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+
+		<e:Label text="背包空间" x="21" size="20" verticalCenter="446" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="lbl_backbagsize" text="199/200" x="111" size="22" anchorOffsetX="0" width="172" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="right" verticalCenter="446" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Button label="" x="294" y="812" width="26" height="26" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="26" height="26" width.up="26" height.up="26" width.down="26" height.down="26" horizontalCenter.down="0" verticalCenter.up="0" horizontalCenter.up="0" horizontalCenter="0" y="0" y.down="-2" source="tongyong_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrListChatequip" anchorOffsetX="0" anchorOffsetY="0" width="582" height="720" y="25" scaleX="1" scaleY="1" horizontalCenter="6.5">
+			<e:viewport>
+			<e:List id="list_items0" height="0" anchorOffsetX="1" width="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+	</e:Group>
+	<e:Scroller id="scrollerEquip" anchorOffsetX="0" anchorOffsetY="0" width="582" height="720" y="137" horizontalCenter="0">
+		<e:viewport>
+		<e:List id="list_itemsEquip" height="0" anchorOffsetX="1" width="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true">
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Scroller id="scrollerOther" anchorOffsetX="0" anchorOffsetY="0" width="582" height="831" y="137" horizontalCenter="0">
+		<e:viewport>
+		<e:List id="list_itemsOther" height="0" anchorOffsetX="1" width="0" x="-1" anchorOffsetY="0" y="1" touchEnabled="true" touchChildren="true">
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+
+
+	<e:Group x="110" y="1028" anchorOffsetX="0" width="481">
+		<e:Group x="0" y="0" scaleX="1" scaleY="1">
+			<e:Group x="0" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			</e:Group>
+			<e:Group x="87" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group x="174" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			</e:Group>
+			<e:Group x="261" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+			</e:Group>
+			<e:Group x="348" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+			</e:Group>
+		</e:Group>
+
+
+
+		<e:Group id="checkGroup" x="0" y="0" anchorOffsetX="0" width="480">
+			<e:ToggleButton y="0" id="page1" anchorOffsetX="0" width="86" anchorOffsetY="0" height="86" scaleX="1" scaleY="1" enabled="true" currentState="up" x="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="100%" height="100%" source="beibao_equip" source.down="beibao_equip"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+			<e:ToggleButton id="page0" x="87" y="0" anchorOffsetX="0" width="86" anchorOffsetY="0" height="86" scaleX="1" scaleY="1" enabled="true" currentState="down">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" height="86">
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+
+
+					<e:Image width="100%" height="100%" source="beibao_item" source.down="beibao_item"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+
+			<e:ToggleButton x="174" y="0" id="page2" anchorOffsetX="0" width="86" anchorOffsetY="0" height="86" scaleX="1" scaleY="1" enabled="true" currentState="up">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width.up="86" height.up="86" width.down="86" height.down="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" horizontalCenter="-1" y="0"/>
+					<e:Image source="beibao_shenlu" y="0" x="0" source.up="beibao_shenlu" source.down="beibao_shenlu"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+
+		</e:Group>
+
+
+
+	</e:Group>
+
+
+
+
+
+	<ns1:panel_Cornucopia id="Magic" width="786" height="1136" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="MigicCangkuSkin" visible="false"/>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+ 
+</e:Skin>

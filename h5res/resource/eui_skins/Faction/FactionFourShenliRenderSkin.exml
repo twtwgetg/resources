@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.FactionFourSuperPowerRender" width="550" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:FactionFourShengShenliItem id="item" skinName="FactionFourShengShenliItemSkin"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SanJieSpriteHudSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="162f18719d0" ></w:Config>
+	<e:Group height="130" x="0" y="0" width="114">
+		<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="XMPic_08" x="0" y="0"/>
+		<ns1:BarBase id="hpBar" width="104" height="12" y="114" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin minWidth="30" minHeight="18">
+			<e:Image height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_barbg"/>
+			<e:Image id="thumb" height="100%" width="100%" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="UIPic_30"/>
+			<e:Label id="rateText" text="80%" size="18" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:BarBase>
+	</e:Group>
+	<e:Image id="deadSign" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="17" source="XMPic_16" visible="false"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelcomeSkin" width="714" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="com_mask" scale9Grid="1,1,1,1"/>
+	<e:Image id="controlbg" width="717" height="408" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="resource/assets/data/ui/bgs/Welcome.png"/>
+	<e:Button id="doneBtn" label="" y="453" anchorOffsetX="0" width="198" anchorOffsetY="0" height="65" x="258">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="198" height="65" xmlns:game="game.*">
+			<e:Image width="99" height="65" anchorOffsetX="0" anchorOffsetY="0" x="0" y="-2" y.down="-5" source="chuangjue_btn9" x.up="0" x.down="0" x.disabled="0"/>
+			<e:Image width="99" height="65" x="198" y="-2" scaleX="-1" anchorOffsetX="0" anchorOffsetY="0" y.down="-5" source="chuangjue_btn9" width.up="99" height.up="65" x.up="198" x.down="198" width.down="99" height.down="65" width.disabled="99" height.disabled="65" x.disabled="198"/>
+			<e:Label text="踏入乾坤" includeIn="down" y="18" horizontalCenter="0" size="26" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+			<e:Label text="踏入乾坤" includeIn="up" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" strokeColor="0x61451a" stroke="1" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="icon" left="-60" bottom="7"/>
+</e:Skin>

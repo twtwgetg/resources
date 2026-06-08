@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipProgressBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="560" height="20">
+	<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="17" verticalCenter="2.5" size="16" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" visible="false"/>
+	<e:Group y="4" horizontalCenter="0">
+		<e:Image width="510" height="15" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="2,2,111,11" source="com_barbg"/>
+		<e:Image id="thumb" width="510" height="15" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" source="com_bar"/>
+		<e:Image width="49" height="15" x="30" source="com_barbg1" scaleX="-1" y="0"/>
+		<e:Image width="49" height="15" x="478" source="com_barbg1" y="0"/>
+	</e:Group>
+	<e:Label id="text" text="99999" textAlign="center" verticalCenter="2.5" size="16" stroke="1" horizontalCenter="0" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+</e:Skin>

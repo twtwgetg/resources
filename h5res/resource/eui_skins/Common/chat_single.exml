@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chat_single" width="545" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelPrefab" text="" x="80.67" size="22" fontFamily="Microsoft YaHei" verticalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" textAlign="center" verticalAlign="middle"/>
+	<e:Group id="container" x="0" width="539" verticalCenter="-0.5">
+		<e:Group id="content" width="485" height="36" anchorOffsetX="0" anchorOffsetY="0" y="0" x="54"/>
+		<e:Label id="prefix" text="" x="0" y="6" size="22" textColor="0xFFFFFF" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

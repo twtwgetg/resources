@@ -1,0 +1,68 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MessageBox" width="580" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="510">
+	<w:Config id="16145ac810a"/>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0" x="-970" y="-787" scaleX="1" scaleY="1"/>
+	<e:Group id="BgGroup" width="580" height="510" y="0" anchorOffsetY="0" anchorOffsetX="0" x="0">
+		<e:Group x="0" y="0" width="100%" height="100%">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="580">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="582" source="com_twotitlebg1" scale9Grid="7,0,126,78"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="580">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group id="bg2" y="50" horizontalCenter="0" width="560" height="436">
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<ns1:ItemBuyBaseSkin id="itemBuy" width="425" height="125" y="210" skinName="skin.ItemBuyBaseSkin" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Button id="btn_ext" label="" x="406.5" y="-1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="62" horizontalCenter="0">
+		<e:Group x="0" y="0" width="134">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" width="50%" left="0" top="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" width="50%" right="0" top="0" scaleX="-1"/>
+		</e:Group>
+		<ns1:ItemBase2 id="item" width="86" height="86" skinName="skin.ItemBaseSkin2" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="title" text="获取物品" y="9" size="22" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Group width="554" y="354" id="GetInfoGroup" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" height="126">
+		<e:Image width="560" height="43" y="1" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+		<e:Image id="p1" width="131" height="14" x="205" y="15" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+		<e:Image id="p2" width="131" height="14" x="350.03" y="15" source="com_title_line" scale9Grid="21,0,65,14"/>
+		<e:Label id="uppower" text="获取途径" y="10" size="22" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		<e:Group id="grp_items" width="554" y="42" anchorOffsetX="0" horizontalCenter="0">
+			<ns1:ItemGetInfoBaseSkin width="86" height="86" y="0" skinName="skin.ItemGetInfoBaseSkin" scaleX="1" scaleY="1"/>
+			<ns1:ItemGetInfoBaseSkin width="86" height="86" y="90" skinName="skin.ItemGetInfoBaseSkin" scaleX="1" scaleY="1"/>
+			<ns1:ItemGetInfoBaseSkin width="86" height="86" y="180" skinName="skin.ItemGetInfoBaseSkin" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="50" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="3" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+</e:Skin>

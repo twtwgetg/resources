@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerLuckRewardsMShowSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<w:Declarations>
+		<tween:TweenGroup id="panelTween">
+			<tween:TweenItem target="{photoParent}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1.5}" scaleY="{1.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="2560" height="2560" alpha="1" anchorOffsetX="0" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:MovieClipCtrl id="jiaodi" width="20" height="20" x="375" y="607" name="9055" skinName="MovieClipCtrlSkin"/>
+	<ns1:MovieClipCtrl id="beijing" width="20" height="20" x="374" y="412" name="9054" skinName="MovieClipCtrlSkin" scaleX="1.5" scaleY="1.5"/>
+	<e:Group id="group" x="133.67" y="398">
+		<e:Group id="photoParent" x="234.68" y="200" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Group id="starsParent" y="326.67" x="40.33">
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="0" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="43" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="86" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="129" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="171.34" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="214.34" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="257.34" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="300.34" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="343" y="0" skinName="StarBaseSkin"/>
+			<ns1:StarBase xmlns:ns1="*" width="40" height="40" x="386" y="0" skinName="StarBaseSkin"/>
+		</e:Group>
+		<e:Image width="111" height="49.66" x="255" y="259" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,99,34" scaleX="-1"/>
+		<e:Image width="111" height="49.66" x="254" y="259" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,99,34"/>
+		<e:Label id="partnerName" text="炎哈哈哈" x="179" y="267" textAlign="center" size="30" width="170" anchorOffsetX="0" anchorOffsetY="0" height="31" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image id="typeSign" width="34" height="31" x="168" y="268" source="partner_occupation2" scaleX="1" scaleY="1"/>
+		<e:Image width="82" height="18" x="208" y="250" source="com_titletop"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="xiongqian" width="20" height="20" x="373" y="431" skinName="MovieClipCtrlSkin" visible="false"/>
+	<ns1:MovieClipCtrl id="baoguang" width="20" height="20" x="374" y="399" name="9056" skinName="MovieClipCtrlSkin"/>
+	<e:Button id="confirmBtn" label="领取新英雄" y="798" width="185" height="61" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_button07" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="领取新英雄" size="26" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="66" y="457" anchorOffsetX="0" width="606" anchorOffsetY="0" height="417" visible="false">
+		<e:Image id="image" width="311" height="207" anchorOffsetX="-1" anchorOffsetY="-1" source="resource/ui/bgs/partnerjiuwangdianshow.png" scaleX="1.5" scaleY="1.5" x="0" y="0"/>
+		<e:Image id="image0" width="311" height="207" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/bgs/partnerjiuwangdianshow.png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

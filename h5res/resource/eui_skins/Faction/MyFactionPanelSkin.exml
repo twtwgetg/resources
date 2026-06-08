@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyFactionPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="163da63819c"/>
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<e:Label text="门 派" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="0"/>
+	<e:Image width="604" height="920" y="88" anchorOffsetY="0" source="resource/assets/data/ui/bgs/factionback.png" anchorOffsetX="0" touchEnabled="false" x="91"/>
+	<e:Group id="monsterGroup" x="142" y="358" touchEnabled="false" touchChildren="true" touchThrough="true" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="photoParent1" y="539" scaleX="0.5" scaleY="0.5" x="460"/>
+		<e:Group id="photoParent2" y="394" scaleX="0.5" scaleY="0.5" x="332"/>
+		<e:Group id="photoParent3" y="291" scaleX="0.5" scaleY="0.5" x="64"/>
+		<e:Group id="photoParent4" y="79" scaleX="0.5" scaleY="0.5" x="105"/>
+		<e:Group id="photoParent5" y="194" scaleX="0.5" scaleY="0.5" x="318"/>
+		<e:Group id="photoParent6" y="105" scaleX="0.5" scaleY="0.5" x="458"/>
+		<e:Button id="monsterBtn1" label="" x="409" y="401" width="128" height="34" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="128" height="34" y.down="-2" x="0" y="0" source="Faction_27" source.down="Faction_27"/>
+			<e:Label text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="monsterBtn2" label="" x="282" y="254" width="128" height="34" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="128" height="34" y.down="-2" x="0" y="0" source="Faction_27" source.down="Faction_27"/>
+			<e:Label text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="monsterBtn3" label="" x="13" y="154" width="128" height="34" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="128" height="34" y.down="-2" x="0" y="0" source="Faction_27" source.down="Faction_27"/>
+			<e:Label text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="monsterBtn4" label="" x="49" y="-80" width="128" height="34" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="128" height="34" y.down="-2" x="0" y="0" source="Faction_27" source.down="Faction_27"/>
+			<e:Label text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="monsterBtn5" label="" x="267" y="54" width="128" height="34" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="128" height="34" y.down="-2" x="0" y="0" source="Faction_27" source.down="Faction_27"/>
+			<e:Label text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="monsterBtn6" label="" x="406" y="-26" width="128" height="34" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="128" height="34" y.down="-2" x="0" y="0" source="Faction_27" source.down="Faction_27"/>
+			<e:Label text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="91" y="98" touchEnabled="false" touchThrough="true" anchorOffsetX="0" width="602">
+		<e:Button id="memberBtn" label="Button" x="517" y="11" width="71" height="82">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="71" height="82">
+				<e:Image width="71" height="82" alpha.disabled="0.5" y.down="-2" source="Faction_03" source.down="Faction_03"/>
+				<e:Label text="" y="6" fontFamily="Microsoft YaHei" width="56" size="26" textAlign="center" x="6" height="56" y.down="4" textColor="0xea10bd"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="donateBtn" label="Button" x="517" y="107" width="71" height="82">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="68" width.down="71" height.down="82" width.up="71" height.up="82">
+				<e:Image width="71" height="82" alpha.disabled="0.5" y.down="-2" source="Faction_01" source.down="Faction_01"/>
+				<e:Label text="" y="6" fontFamily="Microsoft YaHei" width="56" size="26" textAlign="center" x="6" height="56" y.down="4" textColor="0xea10bd"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shopBtn" label="" x="266" y="642.5" width="78" height="150">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="78" height="150" y.down="-2" x="0" y="0" width.up="78" height.up="150" width.down="78" height.down="150" source="Faction_24" source.up="Faction_24" source.down="Faction_24"/>
+				<e:Label text="" width="31" height="120" size="26" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="118" x.up="3" height.down="118" x.down="3" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.disabled="3" width.up="31" text.up="" y.up="0" textAlign.up="center" size.up="26" width.down="31" size.down="26" text.down="" text.disabled="商店" x="3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="fxBtn" label="" x="55" y="669.5" width="78" height="150">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="78" height="150" y.down="-2" x="0" y="0" width.up="78" height.up="150" width.down="78" height.down="150" source="Faction_25" source.up="Faction_25" source.down="Faction_25"/>
+				<e:Label text="" width="31" height="120" size="26" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="118" x.up="3" height.down="118" x.down="3" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.disabled="3" width.up="31" text.up="" y.up="0" textAlign.up="center" size.up="26" width.down="31" size.down="26" text.down="" text.disabled="商店" x="3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="fightBtn" label="" x="473.5" y="406" width="78" height="150">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="78" height="150" y.down="-2" x="0" y="0" width.up="78" height.up="150" width.down="78" height.down="150" source="Faction_26" source.up="Faction_26" source.down="Faction_26"/>
+				<e:Label text="" width="31" height="120" size="26" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="118" x.up="3" height.down="118" x.down="3" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.disabled="3" width.up="31" text.up="" y.up="0" textAlign.up="center" size.up="26" width.down="31" size.down="26" text.down="" text.disabled="商店" x="3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="activityBtn" label="" x="52.5" y="28.5" width="78" height="150">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="78" height="150" y.down="-2" x="0" y="0" width.up="78" height.up="150" width.down="78" height.down="150" source="Faction_22" source.up="Faction_22" source.down="Faction_22"/>
+				<e:Label text="" width="31" height="120" size="26" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="118" x.up="3" height.down="118" x.down="3" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.disabled="3" width.up="31" text.up="" y.up="0" textAlign.up="center" size.up="26" width.down="31" size.down="26" text.down="" text.disabled="商店" x="3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="factionPvP" label="" x="330" y="47" width="78" height="150">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Faction_59" source.down="Faction_59" y.down="-2"/>
+				<e:Label text="" width="31" height="120" size="26" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="118" x.up="3" height.down="118" x.down="3" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.disabled="3" width.up="31" text.up="" y.up="0" textAlign.up="center" size.up="26" width.down="31" size.down="26" text.down="" text.disabled="商店" x="3"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="117" y="1035">
+		<e:Group x="0" y="0">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="91" y="0">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="182" y="0">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="273" y="1">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="364" y="1">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:FactionDonate id="donateView" width="540" height="460" x="134" skinName="FactionDonateSkin" y="338" visible="false"/>
+	<ns1:Factionbase id="memberView" width="622" height="1026" y="48" skinName="FactionbaseSkin" x="78" anchorOffsetY="0" anchorOffsetX="0" visible="false"/>
+</e:Skin>

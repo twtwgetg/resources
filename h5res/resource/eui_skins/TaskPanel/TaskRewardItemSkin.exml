@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskRewardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="info" text="99999" stroke="1" size="24" textColor="0xf2f2e9" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+</e:Skin>

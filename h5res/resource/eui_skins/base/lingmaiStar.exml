@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="lingmaiStarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="40" height="40">
+	<w:Config id="1628baded0b" ></w:Config>
+	<e:Image id="blueLine" source="lingmai_pic11" scale9Grid="1,0,1,27" height="27" x="24" width="75%" verticalCenter="0"/>
+	<e:Image id="grayLine" height="3" source="lingmai_pic13" x="22" width="78%" scale9Grid="1,0,1,3" verticalCenter="0"/>
+	<e:Image id="blueStar" width="40" height="40" source="lingmai_pic7" x="0" y="0"/>
+	<e:Image id="grayStar" width="76" height="77" source="lingmai_pic10" x="-18" y="-18"/>
+	<ns1:MovieClipCtrl id="effup" width="20" height="20" skinName="MovieClipCtrlSkin" y="20" x="20" name="9040" visible="false"/>
+	<ns1:MovieClipCtrl id="effxh" width="20" height="20" skinName="MovieClipCtrlSkin" y="20" x="20" name="9041"/>
+</e:Skin>

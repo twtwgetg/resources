@@ -1,0 +1,172 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WaiGuan" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+
+
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<e:Image width="636" height="494" y="230" anchorOffsetY="0" source="resource/assets/data/ui/bgs/shenbing_shenzhuan_bg.png" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" x="656" width="56" height="56" top="49">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width.down="56" height.down="56">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="viewGroup" x="73" y="48" touchEnabled="false">
+		<ns1:WeaponSystemPanel id="weaponView" width="640" height="960" y="0" skinName="SuperWeapons" x="0" name="WeaponView" touchEnabled="false"/>
+		<ns1:DressPanel id="dressView" width="640" height="960" y="0" skinName="DressSkin" x="0" name="DressView" touchEnabled="false" visible="false"/>
+
+	</e:Group>
+
+
+	<e:Group x="116" y="1028">
+		<e:Group x="0" y="0" scaleX="1" scaleY="1">
+			<e:Group x="0" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			</e:Group>
+			<e:Group x="87" y="0" width="86" height="86">
+				<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group x="174" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+			</e:Group>
+			<e:Group x="261" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+			</e:Group>
+			<e:Group x="348" y="0" width="86" height="86">
+			<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+			</e:Group>
+		</e:Group>
+
+
+		<e:Group id="checkGroup" x="0" y="0" anchorOffsetX="0" width="463">
+			<e:ToggleButton id="btnWeapon" label="" x="0" y="0" name="WeaponView" height="86" width="86">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" height="86">
+
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" source="shenbing_check" source.down="shenbing_check" y.down="0" y="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+			<e:ToggleButton id="btnSkin" label="" x="87" y="0" name="DressView">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="86" height="86">
+
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" x="3" y="0"/>
+					<e:Image width="86" height="86" source="shenzhuang_check" source.down="shenzhuang_check" y.down="-5" height.up="86" height.down="86" height.disabled="86" y="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+		</e:Group>
+
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

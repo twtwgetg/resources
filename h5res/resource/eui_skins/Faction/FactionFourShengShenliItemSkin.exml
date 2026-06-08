@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionFourShengShenliItemSkin" width="550" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="249" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="49,48,60,61"/>
+		<e:Image width="386" height="41" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="partneritemtitle"/>
+		<e:Label id="itemName" text="青龙之力" y="3" anchorOffsetX="0" width="99" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xFBCC90" strokeColor="0x14181b" x="32" fontFamily="Microsoft YaHei" stroke="1"/>
+	</e:Group>
+	<e:Label id="partnerdes" text="发光红光禾嘉股份回个话放工会返回风格化返回风格化" x="30" y="50" anchorOffsetX="0" width="490" anchorOffsetY="0" height="86" size="20" textColor="0xc2c3e2" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:List id="PropList" width="244" height="166" x="23" y="63" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:TileLayout requestedColumnCount="1" horizontalGap="2" columnWidth="125"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="complete" x="372" y="188" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="16,50,1,1" source="jineng_pic18" rotation="342.97" scaleX="1" scaleY="1"/>
+	<e:Button id="activeBtn" label="" x="361" y="180" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button05" source.down="com_button05"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button05" source.down="com_button05"/>
+			<e:Label text="激 活" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071E39" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="limit" text="全部四象之力达到{0}阶" x="267" y="46" anchorOffsetX="0" width="251" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" size="18" textColor="0xff9300" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="青龙" x="268" y="76" anchorOffsetX="0" width="50" anchorOffsetY="0" height="19" fontFamily="Microsoft YaHei" size="18" textColor="0x48ff00" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="白虎" x="332" y="76" anchorOffsetX="0" width="50" anchorOffsetY="0" height="19" fontFamily="Microsoft YaHei" size="18" textColor="0x67ff05" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="朱雀" x="389" y="76" anchorOffsetX="0" width="50" anchorOffsetY="0" height="19" fontFamily="Microsoft YaHei" size="18" textColor="0x43ff00" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="玄武" x="449" y="76" anchorOffsetX="0" width="50" anchorOffsetY="0" height="19" fontFamily="Microsoft YaHei" size="18" textColor="0x67ff05" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

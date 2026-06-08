@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="npctalkSkin" width="640" height="153" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="ani">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{85}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{75}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{85}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="controlbg" width="1046" height="154" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/npc_talkbg.png" horizontalCenter="0"/>
+	<e:Label id="npcname" text="NPC名字" anchorOffsetX="0" width="160" anchorOffsetY="0" height="29" size="22" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0x2e120a" x="303" y="16"/>
+	<e:Group id="timerGroup" x="435" y="22">
+		<e:Label text="秒后自动关闭" y="0" anchorOffsetX="0" width="128" anchorOffsetY="0" height="20" size="20" textAlign="right" verticalAlign="middle" fontFamily="Microsoft YaHei" x="55" strokeColor="0x14181b" stroke="1" textColor="0x4edd55"/>
+		<e:Label id="timeCount" text="10" y="0" anchorOffsetX="0" width="55" anchorOffsetY="0" height="20" size="20" textAlign="right" verticalAlign="middle" fontFamily="Microsoft YaHei" x="0" stroke="1" strokeColor="0x14181b" textColor="0x4edd55"/>
+	</e:Group>
+	<e:Label id="content" text="对白文字: 同时拥有黑炎之主和冰主，攻击+10%" size="18" fontFamily="Microsoft YaHei" textColor="0x2e120a" anchorOffsetX="0" anchorOffsetY="0" width="357" height="72" x="268" y="63"/>
+	<ns1:MovieClipCtrl id="circleEffect" width="20" height="20" x="574" y="87" name="50103" skinName="MovieClipCtrlSkin"/>
+	<e:Image id="image" source="com_help_head" height="66" width="55" x="574" y="86"/>
+	<e:Group id="iconGroup" bottom="7" right="400">
+		<e:Image id="icon" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

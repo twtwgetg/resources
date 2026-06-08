@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skin.ActivityBtnModelSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+             source.down="button_down_png" source="qiandoa_11" includeIn="down"/>
+	<e:Image source="qiandao_check01" x="12" y="18"/>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" y="23" x="82"/>
+</e:Skin>

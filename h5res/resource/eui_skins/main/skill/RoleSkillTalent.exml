@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFile" width="640" height="1013" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="titletop" x="25" y="7.5">
+		<e:Image width="320" height="57" x="-25" y="-7.5" source="tongyong_pic45" scale9Grid="18,5,1,1" scaleX="1" scaleY="1"/>
+		<e:Image width="320" height="57" x="615" y="-7.5" source="tongyong_pic45" scale9Grid="18,5,1,1" scaleX="-1" scaleY="1"/>
+		<ns1:powerzlcomp xmlns:ogre_ui="ogre_ui.*" width="223" height="30" x="0" y="0.5" skinName="skin.ZhanDouLiJueSe" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image width="120" height="28" x="335" y="1.5" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/main/zhujiemian_pic11"/>
+		<e:Image width="120" height="28" x="465" y="1.5" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/main/zhujiemian_pic11"/>
+		<e:Button label="" x="558" y="2.5" width="26" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="428" y="2.5" width="26" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image width="32" height="19" x="468" y="5.5" source="Head_37"/>
+		<e:Image width="22" height="30" x="333.5" y="0" source="UIPic_38"/>
+		<e:Label text="1234万" x="365" y="4.5" width="57" height="22" size="16" verticalAlign="middle" textAlign="right"/>
+		<e:Label text="1234万" x="500" y="4.5" width="57" height="22" size="16" verticalAlign="middle" textAlign="right"/>
+	</e:Group>
+	<e:Image width="320" height="970" x="0" y="43" scaleX="1" scaleY="1" scale9Grid="0,60,0,0" anchorOffsetY="0" source="tongyong_pic21"/>
+	<e:Image width="320" height="970" x="639" y="43" scaleX="-1" scaleY="1" scale9Grid="0,60,0,0" anchorOffsetY="0" source="tongyong_pic21"/>
+	<e:Image width="640" height="903" x="0" y="96.98" source="jineng_pic1" anchorOffsetY="0"/>
+	<e:Image width="216" height="45" x="104" y="121" source="juese_pic2"/>
+	<e:Image width="216" height="45" x="536" y="121" source="juese_pic2" scaleX="-1"/>
+	<e:Image width="55" height="24" x="291.5" y="59.5" anchorOffsetX="0" anchorOffsetY="0" source="jineng_pic10"/>
+	<ns1:powerzlcomp width="223" height="30" x="207.5" y="130" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe"/>
+	<e:Group id="SkillGroup" width="640" height="378" x="0" y="175" anchorOffsetX="0">
+		<e:Image width="50%" height="100%" x="0" y="0" source="zhujiemian_pic25" scale9Grid="32,10,225,82"/>
+		<e:Image width="92" height="92" y="26" anchorOffsetY="0" source="jineng_pic4" x="58" scaleX="1" scaleY="1"/>
+		<e:Image width="50%" height="100%" x="640" y="0" source="zhujiemian_pic25" scaleX="-1" anchorOffsetX="0" scale9Grid="32,12,225,75"/>
+		<ns1:RoleSkillTalentBase id="Talent1" width="155" height="214" x="11" y="159" skinName="RoleSkillTalentBaseSkin"/>
+		<ns1:RoleSkillTalentBase id="Talent2" width="155" height="214" y="159" horizontalCenter="-76.5" skinName="RoleSkillTalentBaseSkin"/>
+		<ns1:RoleSkillTalentBase width="155" height="214" y="159" skinName="RoleSkillTalentBaseSkin" id="Talent0" horizontalCenter="78.5"/>
+		<ns1:RoleSkillTalentBase id="Talent4" width="155" height="214" x="475.68" y="159" skinName="RoleSkillTalentBaseSkin"/>
+		<e:Label id="SkillName" text="寒冰之力" x="177" y="27" size="18" textColor="0xf6b434" width="80" bold="true" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="skilllevel" text="%t级" x="263.5" y="27" size="18" textColor="0xffffff" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" x="178" y="62" size="18" textColor="0xFFFFFF" id="skilllevel0" anchorOffsetX="0" width="341" anchorOffsetY="0" height="76" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="SkillGroup1" width="640" height="378" x="0" y="553" anchorOffsetX="0">
+		<e:Image width="50%" height="100%" x="0" y="0" source="zhujiemian_pic25" scale9Grid="32,10,225,82"/>
+		<e:Image width="92" height="92" y="26" anchorOffsetY="0" source="jineng_pic4" x="58" scaleX="1" scaleY="1"/>
+		<e:Image width="50%" height="100%" x="640" y="0" source="zhujiemian_pic25" scaleX="-1" anchorOffsetX="0" scale9Grid="32,12,225,75"/>
+		<ns1:RoleSkillTalentBase id="Talent3" width="155" height="214" x="11" y="159" skinName="RoleSkillTalentBaseSkin"/>
+		<ns1:RoleSkillTalentBase id="Talent5" width="155" height="214" y="159" skinName="RoleSkillTalentBaseSkin" horizontalCenter="-76.5"/>
+		<ns1:RoleSkillTalentBase width="155" height="214" y="159" skinName="RoleSkillTalentBaseSkin" id="Talent6" horizontalCenter="78.5"/>
+		<ns1:RoleSkillTalentBase id="Talent7" width="155" height="214" x="475.68" y="159" skinName="RoleSkillTalentBaseSkin"/>
+		<e:Label id="SkillName0" text="寒冰之力" x="177" y="27" size="18" textColor="0xF6B434" width="80" bold="true" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label id="skilllevel1" text="%t级" x="263.5" y="27" size="18" textColor="0xFFFFFF" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" x="178" y="62" size="18" textColor="0xFFFFFF" id="skilllevel2" anchorOffsetX="0" width="341" anchorOffsetY="0" height="76" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Image width="640" height="95" x="0" y="905" scaleX="1" scaleY="1" anchorOffsetY="0" source="zhuxianboss_pic5" anchorOffsetX="0" fillMode="clip" scale9Grid="43,30,555,190"/>
+	<e:Button id="closeBtn" label="" x="597" y="58.22" width="43" height="43">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" source.down="tongyong_btn6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter.disabled="0" verticalCenter.up="0" horizontalCenter.down="2" y.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="Shop1Btn" label="" y="952.5" anchorOffsetX="0" width="136" anchorOffsetY="0" height="47" x="36" scaleY="-1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn7" source.down="tongyong_btn8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text=""/>
+			<e:Label id="Shop1Name" text="神力升级" x="0" y="48" scaleY="-1" width="100%" height="100%" verticalAlign="middle" textAlign="center" size="18" bold="true"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="Shop2Btn" label="" y="952.5" anchorOffsetX="0" width="136" anchorOffsetY="0" height="47" x="182" scaleY="-1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn7" source.down="tongyong_btn8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="Shop1Name" text="神力天赋" x="0" y="48" scaleY="-1" width="100%" height="100%" verticalAlign="middle" textAlign="center" size="18" bold="true"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:MsgMatch width="534" height="741" x="58" y="143.5" skinName="TalentMsg" visible="false"/>
+</e:Skin>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionFourGExplainSkin" width="550" height="377" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+		<e:Image width="50%" height="50%" x="550" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+		<e:Image width="50%" height="50%" x="550" y="378" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" x="0" y="378" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+	</e:Group>
+	<e:Group x="0" y="0">
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+		<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="550" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0">
+		<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+		<e:Image width="50%" height="63" x="550" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+	</e:Group>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image width="556" height="78" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg" scale9Grid="220,0,70,78" x="0"/>
+		<e:Label text="四象宫玩法说明" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="9" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="508" y="3" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="60" horizontalCenter="0">
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="494" scaleX="-1"/>
+		<e:Image width="50%" height="50%" y="286" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="494" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" y="286" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+	</e:Group>
+	<e:Label text="2.每次活动开启只出现一只守护者，守护者被击杀后下次会出现更强的守护者" x="51" y="227" anchorOffsetX="0" width="437" anchorOffsetY="0" height="49" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" lineSpacing="5"/>
+	<e:Label text="3.四象宫内玩家可以攻击其他门派的玩家" x="51" y="279" anchorOffsetX="0" width="437" anchorOffsetY="0" height="25" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	<e:Label text="4.奖励会通过邮件发放，请注意查收" x="51" y="307" anchorOffsetX="0" width="437" anchorOffsetY="0" height="24" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	<e:Group x="51" y="95">
+		<e:Label text="1.活动开启时间为每周六:" x="0" y="0" anchorOffsetX="0" width="437" anchorOffsetY="0" height="21" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label text="青龙宫:" x="35" y="29" anchorOffsetX="0" width="84" anchorOffsetY="0" height="25" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+		<e:Label id="qinglongstime" text="10:00-10:10" x="110" y="30" anchorOffsetX="0" width="129" anchorOffsetY="0" height="21" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x1ce17d"/>
+		<e:Label id="baihustime" text="14:00-14:10" x="110" y="54" anchorOffsetX="0" width="129" anchorOffsetY="0" height="21" size="20" fontFamily="Microsoft YaHei" textColor="0x1CE17D" strokeColor="0x14181B" stroke="1"/>
+		<e:Label id="zhuquestime" text="18:00-18:10" x="111" y="79" anchorOffsetX="0" width="129" anchorOffsetY="0" height="21" size="20" fontFamily="Microsoft YaHei" textColor="0x1CE17D" strokeColor="0x14181B" stroke="1"/>
+		<e:Label id="xuanwustime" text="22:00-22:10" x="111" y="103" anchorOffsetX="0" width="129" anchorOffsetY="0" height="21" size="20" fontFamily="Microsoft YaHei" textColor="0x1CE17D" strokeColor="0x14181B" stroke="1"/>
+		<e:Label text="白虎宫:" x="36" y="54" anchorOffsetX="0" width="84" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+		<e:Label text="朱雀宫:" x="36" y="78" anchorOffsetX="0" width="84" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+		<e:Label text="玄武宫:" x="36" y="102" anchorOffsetX="0" width="84" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	</e:Group>
+</e:Skin>

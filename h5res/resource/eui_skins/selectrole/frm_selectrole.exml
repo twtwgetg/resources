@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SelectRoleUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="loginbg_jpg" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" verticalCenter="0" bottom="0" horizontalCenter="0" right="0"/>
+	<e:Label id="lbl_msg" text="" y="622.5" width="458" height="49" horizontalCenter="-6.5" backgroundColor="0x000000" background="false" verticalAlign="middle" textAlign="left" type="label" anchorOffsetX="0" anchorOffsetY="0" blendMode="add"/>
+	<e:Button id="btu_entergame" label="" x="175" y="1032" anchorOffsetY="0" height="64" anchorOffsetX="0" width="278">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/ui/selectrole/entergame.png" source.down="resource/ui/selectrole/entergame_press.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="339" height="68" x="150.5" y="33" anchorOffsetX="0" anchorOffsetY="0" source="selectrolebg_png"/>
+</e:Skin>

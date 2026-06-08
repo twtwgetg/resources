@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GongGaoSkin" width="640" height="850" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166d889317b" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" width="325" y="0"/>
+			<e:Image x="649" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1" width="325"/>
+			<e:Label text="最新公告" fontFamily="Microsoft YaHei" size="24" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" textAlign="left" y="17" x="279"/>
+		</e:Group>
+		<e:Group x="15" y="311">
+			<e:Image y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="292" height="500" x="18" scaleX="1"/>
+			<e:Image x="600" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="292" height="500" scaleX="-1"/>
+			<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scale9Grid="8,1,1,1" width="310" y="374"/>
+			<e:Image x="618" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scale9Grid="8,1,1,1" scaleX="-1" width="310" y="374"/>
+		</e:Group>
+		<e:Group x="22" y="0">
+			<e:Image scale9Grid="21,0,65,14" source="resource/assets/data/ui/bgs/ggpic.png" x="0" y="50"/>
+			<e:Label id="content" name="content" text="        公告描述配置在数据表的风蚀风蚀发斯蒂芬斯蒂芬归属感杀怪杀怪色调格调上古大神故事大纲打手改动上古大神高大身高三大高手大V给的深V测试大V从深V的深V个 " y="113.04" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" textColor="0xF2F2E9" width="480" height="490" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Button id="closeBtn" name="closeBtn" label="" width="56" height="56" scaleX="1" scaleY="1" y="7" x="565">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

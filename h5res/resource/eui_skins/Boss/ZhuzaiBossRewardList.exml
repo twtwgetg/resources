@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuzaiBossRewardListSkin" width="585" height="1006" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164bcf3ae85" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="1" verticalCenter="0"/>
+	<e:Group id="bg" x="0" y="0">
+		<e:Group verticalCenter="-34" horizontalCenter="0">
+			<e:Image width="293" height="503" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+			<e:Image width="293" height="503" x="586" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+			<e:Image width="293" height="503" x="586" y="1006" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+			<e:Image width="293" height="503" x="0" y="1006" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" y="938">
+			<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+			<e:Image width="50%" height="63" x="586" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+		</e:Group>
+		<e:Group y="52" horizontalCenter="0">
+			<e:Image width="280" height="342" y="0" source="com_back_down" x="0" scale9Grid="40,40,5,5"/>
+			<e:Image width="280" height="342" source="com_back_down" scale9Grid="40,40,5,5" x="560" scaleX="-1"/>
+			<e:Image width="280" height="342" source="com_back_down" scale9Grid="40,40,5,5" x="560" scaleX="-1" scaleY="-1" y="684"/>
+			<e:Image width="280" height="342" y="684" source="com_back_down" scale9Grid="40,40,5,5" x="0" scaleY="-1"/>
+		</e:Group>
+		<e:Image width="585" height="78" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg" top="0" horizontalCenter="0"/>
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" scale9Grid="41,5,153,30" width="563" top="97" horizontalCenter="0"/>
+		<e:Image width="84" height="14" y="111" scaleX="-1" scaleY="1" anchorOffsetX="0" x="228" source="com_title_line"/>
+		<e:Image width="84" height="14" y="111" scaleX="1" scaleY="1" anchorOffsetX="0" x="359" source="com_title_line"/>
+		<e:Label text="奖 励" y="10.98" size="24" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181b" horizontalCenter="-0.5"/>
+		<e:Label id="BossName" text="地孽冥蝠(1转-2转)" y="64.09" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xf6ec9f" horizontalCenter="4"/>
+		<e:Label text="挑战排名奖励" y="110.14" size="18" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" horizontalCenter="0.5"/>
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" scale9Grid="41,5,153,30" width="563" horizontalCenter="0" y="744"/>
+		<e:Image width="84" height="14" y="754.64" scaleX="-1" scaleY="1" anchorOffsetX="0" x="228" source="com_title_line"/>
+		<e:Image width="84" height="14" y="754.64" scaleX="1" scaleY="1" anchorOffsetX="0" x="359" source="com_title_line"/>
+		<e:Label text="其他奖励" y="751.79" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+		<e:Image width="559.66" height="177.66" y="741" anchorOffsetX="0" anchorOffsetY="0" source="partner_select" scale9Grid="70,70,2,2" horizontalCenter="0.5"/>
+		<e:Group y="134.33" anchorOffsetY="0" height="608" anchorOffsetX="0" width="556" horizontalCenter="1.5">
+			<e:Group x="0" y="5">
+				<e:Group width="552" height="144" y="0" x="0">
+					<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15"/>
+					<e:Image width="50%" height="50%" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg"/>
+					<e:Image width="50%" height="50%" x="552" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg"/>
+					<e:Image width="50%" height="50%" x="0" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg"/>
+				</e:Group>
+				<e:Group bottom="4" horizontalCenter="0">
+					<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+					<e:Image width="50%" height="63" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+				</e:Group>
+			</e:Group>
+			<e:Group y="154">
+				<e:Group width="552" height="144" y="0" x="0">
+				<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15"/>
+				<e:Image width="50%" height="50%" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg"/>
+				<e:Image width="50%" height="50%" x="552" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg"/>
+				<e:Image width="50%" height="50%" x="0" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg"/>
+				</e:Group>
+				<e:Group bottom="4" horizontalCenter="0">
+				<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+				<e:Image width="50%" height="63" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+				</e:Group>
+			</e:Group>
+			<e:Group y="303">
+				<e:Group width="552" height="144" y="0" x="0">
+				<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15"/>
+				<e:Image width="50%" height="50%" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg"/>
+				<e:Image width="50%" height="50%" x="552" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg"/>
+				<e:Image width="50%" height="50%" x="0" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg"/>
+				</e:Group>
+				<e:Group bottom="4" horizontalCenter="0">
+				<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+				<e:Image width="50%" height="63" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+				</e:Group>
+			</e:Group>
+			<e:Group y="452">
+				<e:Group width="552" height="144" y="0" x="0">
+				<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15"/>
+				<e:Image width="50%" height="50%" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg"/>
+				<e:Image width="50%" height="50%" x="552" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg"/>
+				<e:Image width="50%" height="50%" x="0" y="144" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg"/>
+				</e:Group>
+				<e:Group bottom="4" horizontalCenter="0">
+				<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+				<e:Image width="50%" height="63" x="552" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:List id="ItemList0" width="440" height="110" y="161" horizontalCenter="36.5" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+		<e:List id="ItemList1" width="440" height="110" x="109" y="309.72">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		<e:List id="ItemList2" width="440" height="110" x="109" y="458.67">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		<e:List id="ItemList3" width="440" height="110" x="109" y="607.08" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+		<ns1:ItemBase3 id="KillReward" x="139.64" y="800" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 id="LuckReward" x="425.95" y="800" skinName="skin.ItemBaseSkin3"/>
+	</e:Group>
+	<e:Image x="54" y="201.25" source="vip_01" scaleX="1.2" scaleY="1.2"/>
+	<e:Image x="54" y="351.25" source="vip_02" scaleX="1.2" scaleY="1.2"/>
+	<e:Image x="34.01" y="500" scaleX="1.2" scaleY="1.2" source="vip_03"/>
+	<e:Image x="69.33" y="500" scaleX="1.2" scaleY="1.2" source="vip_05"/>
+	<e:Image x="53.33" y="512" scaleX="0.4" scaleY="0.4" source="UIPic_40" scale9Grid="5,2,34,5"/>
+	<e:Image x="34" y="631" source="zh_05"/>
+	<e:Image x="61" y="823" source="zh_04"/>
+	<e:Image x="347" y="823" source="zh_06"/>
+	<e:Button id="closeBtn2" label="" width="56" height="56" scaleX="0.8" scaleY="0.8" right="1" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="btnGroup" y="919" anchorOffsetX="0" width="490.67" anchorOffsetY="0" height="55.33" x="45.35">
+		<e:ToggleButton label="3-6转" name="1" scaleY="1" width="117" height="52" x="-1.33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="117" height="53" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="53" y.down="51"/>
+			<e:Label id="labelDisplay" text="狭路高手" fontFamily="Microsoft YaHei" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" y="14" x="11" textColor="0xf2f2e9" strokeColor="0x14181B" stroke="1" text.up="3-6转" size.up="20" horizontalCenter.up="0" verticalCenter.up="0" text.down="3-6转" size.down="20" horizontalCenter.down="0" verticalCenter.down="0" text.disabled="3-6转" size.disabled="20" horizontalCenter.disabled="0" verticalCenter.disabled="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="7-10转" name="2" scaleY="1" width="117" height="52" x="124">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="117" height="53" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="53" y.down="51"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="战斗记录" fontFamily="Microsoft YaHei" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9" text.up="7-10转" size.up="20" text.down="7-10转" size.down="20" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter.up="0" verticalCenter.up="0" text.disabled="7-10转" size.disabled="20" horizontalCenter.disabled="0" verticalCenter.disabled="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="11-14转" name="3" scaleY="1" width="117" height="52" x="247">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="117" height="52" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="52" y.down="51" height.down="53"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="排名奖励" fontFamily="Microsoft YaHei" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9" size.up="20" text.up="11-14转" horizontalCenter.up="0" verticalCenter.up="0" text.down="11-14转" size.down="20" horizontalCenter.down="0" verticalCenter.down="0" text.disabled="11-14转" size.disabled="20" horizontalCenter.disabled="0" verticalCenter.disabled="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="15-21转" name="4" scaleY="1" width="117" height="52" x="372" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="117" height="52" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="52" y.down="51" height.down="53"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="野外玩家" fontFamily="Microsoft YaHei" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9" text.up="15-21转" size.up="20" text.down="15-21转" size.down="20" horizontalCenter.down="0" verticalCenter.down="0" text.disabled="15-21转" size.disabled="20" horizontalCenter.disabled="0" verticalCenter.disabled="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkill" width="640" height="1013" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<w:Config id="16242e23b46"/>
+	<e:Group id="titletop" x="25" y="7.5">
+		<e:Image width="320" height="57" x="-25" y="-7.5" source="tongyong_pic45" scale9Grid="18,5,1,1" scaleX="1" scaleY="1"/>
+		<e:Image width="320" height="57" x="615" y="-7.5" source="tongyong_pic45" scale9Grid="18,5,1,1" scaleX="-1" scaleY="1"/>
+		<ns1:powerzlcomp xmlns:ogre_ui="ogre_ui.*" width="223" height="30" x="0" y="0.5" skinName="skin.ZhanDouLiJueSe" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image width="120" height="28" x="335" y="1.5" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/main/zhujiemian_pic11"/>
+		<e:Image width="120" height="28" x="465" y="1.5" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/main/zhujiemian_pic11"/>
+		<e:Button label="" x="558" y="2.5" width="26" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button label="" x="428" y="2.5" width="26" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image width="39" height="27" x="468" y="5.5" source="Head_37"/>
+		<e:Image width="22" height="30" x="333.5" y="0" source="UIPic_38"/>
+		<e:Label text="1234万" x="365" y="4.5" width="57" height="22" size="16" verticalAlign="middle" textAlign="right"/>
+		<e:Label text="1234万" x="500" y="4.5" width="57" height="22" size="16" verticalAlign="middle" textAlign="right"/>
+	</e:Group>
+	<e:Image width="320" height="970" x="0" y="43" scaleX="1" scaleY="1" scale9Grid="0,60,0,0" anchorOffsetY="0" source="tongyong_pic21" visible="false"/>
+	<e:Image width="320" height="970" x="639" y="43" scaleX="-1" scaleY="1" scale9Grid="0,60,0,0" anchorOffsetY="0" source="tongyong_pic21" visible="false"/>
+	<e:Image width="640" height="903" x="0" y="96.98" source="jineng_pic1" anchorOffsetY="0" visible="false"/>
+	<e:Image width="216" height="45" x="104" y="121" source="juese_pic2"/>
+	<e:Image width="216" height="45" x="536" y="121" source="juese_pic2" scaleX="-1"/>
+	<e:Label id="ItemNumber" text="%t / %t" x="267" y="688.5" anchorOffsetX="0" width="168" textColor="0xD1CDB4" verticalAlign="middle" textAlign="center" height="27" anchorOffsetY="0" size="18" background="true" border="true" backgroundColor="0x05131E" borderColor="0x4F4333" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image width="257" height="99" x="63" y="805.68" source="zhujiemian_pic25"/>
+	<e:Image width="257" height="99" x="577" y="805.68" source="zhujiemian_pic25" scaleX="-1"/>
+	<ns1:SkillBaseFetish id="skill_1" width="92" height="92" x="172" y="809" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseFetish" scaleX="0.75" scaleY="0.75"/>
+	<ns1:SkillBaseFetish id="skill_2" width="92" height="92" y="809" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseFetish" horizontalCenter="0.5" scaleX="0.75" scaleY="0.75"/>
+	<ns1:SkillBaseFetish id="skill_3" width="92" height="92" x="394" y="809" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseFetish" scaleX="0.75" scaleY="0.75"/>
+	<e:Image width="258" height="258" y="178" anchorOffsetY="0" source="jineng_pic8" horizontalCenter="-1"/>
+	<e:Image width="302" height="220" y="436" anchorOffsetY="0" source="jineng_pic6" horizontalCenter="0" scale9Grid="14,9,85,61" anchorOffsetX="0"/>
+	<e:Button id="startBtn" label="" x="508.5" y="836.18" width="100" height="38">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn13" source.down="tongyong_btn13" y.down="-2"/>
+			<e:Label id="txt" text="一键配招" x="0" y="0" width="100" height="38" textAlign="center" size="18" verticalAlign="middle" y.down="-2" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="55" height="24" x="289.5" y="57.5" anchorOffsetX="0" anchorOffsetY="0" source="jineng_pic10"/>
+	<e:Button id="MatchBtn" label="" y="730.67" width="160" height="60" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="160" height="60" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="50%" height="100%" source="tongyong_btn5" source.down="tongyong_btn5" y.down="1.34"/>
+			<e:Image width="50%" height="100%" source="tongyong_btn5" x="160" y="0" scaleX="-1" y.down="1.34"/>
+			<e:Image width="44" height="20" scaleX="1" y.down="23.31" source="jineng_pic11" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="596" y="53.22" width="43" height="43">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" source.down="tongyong_btn6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter.disabled="0" verticalCenter.up="0" horizontalCenter.down="2" y.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="640" height="95" x="0" y="910" scaleX="1" scaleY="1" anchorOffsetY="0" source="zhuxianboss_pic5" anchorOffsetX="0" fillMode="clip" scale9Grid="43,30,555,190"/>
+	<e:Button id="Shop1Btn" label="" y="961.5" anchorOffsetX="0" width="136" anchorOffsetY="0" height="47" x="33" scaleY="-1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" source="tongyong_btn7" source.down="tongyong_btn8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" fontFamily="Microsoft YaHei"/>
+			<e:Label id="Shop1Name" text="神力升级" x="0" y="48" scaleY="-1" width="100%" height="100%" verticalAlign="middle" textAlign="center" size="18" bold="true" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="Shop2Btn" label="" y="960.5" anchorOffsetX="0" width="136" anchorOffsetY="0" height="47" x="180" scaleY="-1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" source="tongyong_btn7" source.down="tongyong_btn8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei"/>
+			<e:Label id="Shop1Name" text="神力天赋" x="0" y="48" scaleY="-1" width="100%" height="100%" verticalAlign="middle" textAlign="center" size="18" bold="true" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="IconGroup0" width="562" height="492" x="38" y="205" anchorOffsetX="0">
+		<e:Image width="92" height="92" y="0" anchorOffsetY="0" source="jineng_pic4" x="0" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="0" y="94" width="92" size="20" textColor="0xcdb57f" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="125" source="jineng_pic4" anchorOffsetY="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="0" y="218" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="251" source="jineng_pic4" anchorOffsetY="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="0" y="345" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="374" source="jineng_pic4" anchorOffsetY="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="0" y="468" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="-1" anchorOffsetY="0" source="jineng_pic4" x="470" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="470" y="91" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="125" source="jineng_pic4" anchorOffsetY="0" x="470" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="470" y="218" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="250" source="jineng_pic4" anchorOffsetY="0" x="470" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="470" y="344" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Image width="92" height="92" y="373" source="jineng_pic4" anchorOffsetY="0" x="470" scaleX="1" scaleY="1"/>
+		<e:Label text="Label" x="470" y="467" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<ns1:powerzlcomp width="223" height="30" x="207.5" y="130" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe"/>
+	<e:Image width="92" height="92" y="269.98" anchorOffsetY="0" source="jineng_pic4" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	<e:Label text="Label" y="449" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" horizontalCenter="0" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	<e:Label text="Label" y="480" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" horizontalCenter="-99" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="Label" y="510" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" horizontalCenter="-99" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="Label" y="540" width="92" size="20" textColor="0xCDB57F" textAlign="center" verticalAlign="middle" horizontalCenter="-99" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="Label" y="480" width="92" size="18" textAlign="center" verticalAlign="middle" horizontalCenter="-14" textColor="0x47d125" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="Label" y="510" width="92" size="18" textAlign="center" verticalAlign="middle" horizontalCenter="-14" textColor="0x47d125" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="Label" y="540" width="92" size="18" textAlign="center" verticalAlign="middle" horizontalCenter="-14" textColor="0x47d125" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="消耗:" y="692" width="92" size="20" textAlign="center" verticalAlign="middle" x="193" textColor="0xc6c6c6" bold="true" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	<e:Label text="LabelLabelLabelLabelLaLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" y="569" width="273.5" size="18" textColor="0xCDB57F" textAlign="left" verticalAlign="top" x="185.5" anchorOffsetX="0" anchorOffsetY="0" height="70.5" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

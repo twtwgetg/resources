@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerLuckDraszhizunPanelSkin" width="593" height="319" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<e:Image id="controlbg0" width="593" height="319" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/zhizunlucky_bg.png"/>
+	<e:Group x="203" y="4" anchorOffsetX="0" width="386" height="310" touchEnabled="false">
+		<e:Image id="controlbg1" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="49,48,60,61" source="resource/ui/bgs/zhizunlucky_bg1.png" right="0" bottom="0"/>
+	</e:Group>
+	<e:Button id="rewardBtn" label="" x="423" y="255" width="110" height="29" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="110" height="22">
+			<e:Image width="110" height="22" x="4" y="1" source="EquipOrange_namebg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="招将预览" y="0" size="18" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" width="93" horizontalCenter="0" textAlign="center" strokeColor="0x14181B" stroke="1"/>
+	<e:Label text="_____" x="19" size="32" fontFamily="KaiTi_GB2312" anchorOffsetX="0" width="83" textColor="0xF2F2E9" height="36" stroke="1" strokeColor="0x14181B" verticalAlign="middle" y="-16"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+	<e:Group id="grp_reminder" x="42" y="264">
+	</e:Group>
+	<e:Group id="djs" x="14" y="178">
+		<e:Label text="再招" x="-8.65" y="0" anchorOffsetX="0" width="48" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="18" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="英雄" x="104" y="0" anchorOffsetX="0" width="48" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="18" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="次必出" x="49" y="0" anchorOffsetX="0" width="60" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei" size="18" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="num" text="90" x="26" y="1" size="18" fontFamily="Microsoft YaHei" textColor="0x1ce17d" anchorOffsetX="0" width="24" anchorOffsetY="0" height="21" textAlign="center" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="itemGroup" x="-30" y="205">
+		<e:Image width="133" height="30" x="41" y="1" scale9Grid="7,7,1,1" anchorOffsetX="0" anchorOffsetY="0" source="com_num_enter"/>
+		<e:Image id="itemIcon1" width="74" height="74" x="46" y="1" source="gold_key" scaleX="0.4" scaleY="0.4"/>
+		<e:Label id="onceNeed" text="300/1" x="7" y="1" size="20" anchorOffsetX="0" width="160" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="right" strokeColor="0x14181b" stroke="1" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group x="125" y="205">
+		<e:Image width="138" height="30" x="39" y="0" scale9Grid="7,7,1,1" source="com_num_enter" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="itemIcon2" width="74" height="74" x="46" y="1" source="gold_key" scaleX="0.4" scaleY="0.4"/>
+		<e:Label id="moreNeed" text="300/10" x="11" y="1" size="20" anchorOffsetX="0" width="160" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="right" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Button id="onceBtn" label="招募一次" x="13" y="237" width="134" height="48">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="67" height="48" y.down="-2" source="com_button03"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="招募一次" size="20" fontFamily="Microsoft YaHei" strokeColor="0x071E39" stroke="1" textColor="0xf2f2e9" verticalCenter.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="moreBtn" label="招募十次" x="171" y="237" width="134" height="48">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="134" height="48">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="招募十次" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" size="20" strokeColor="0x61451a" stroke="1"  verticalCenter.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="383" y="284">
+		<e:Label text="今日剩余招募次数" x="10" y="3" size="18" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="todayTimes" text="50" x="156" y="4" fontFamily="Microsoft YaHei" size="18" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1" textAlign="left"/>
+	</e:Group>
+	<e:Group id="open" x="125" y="289">
+		<e:Label text="会员" x="0" y="0" anchorOffsetX="0" width="40" anchorOffsetY="0" height="20" size="18" fontFamily="Microsoft YaHei" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+		<e:Label text="4" x="38" y="0" anchorOffsetX="0" width="19" anchorOffsetY="0" height="20" size="18" fontFamily="Microsoft YaHei" textColor="0x1CE17D" strokeColor="0x14181b" stroke="1"/>
+		<e:Label text="开启" x="51" y="0" anchorOffsetX="0" width="40" anchorOffsetY="0" height="20" size="18" fontFamily="Microsoft YaHei" textColor="0x1CE17D" strokeColor="0x14181b" stroke="1"/>
+	</e:Group>
+</e:Skin>

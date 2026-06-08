@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="352" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" width="352" height="108" x="0" y="0" source="zhuxianboss_pic6"/>
+	<e:Image id="Head" width="96" height="96" x="5.5" y="6" source="zhuxianboss_pic8"/>
+	<e:Image id="Hp" width="247" height="20" x="98.61" y="56" source="zhuxianboss_pic7"/>
+	<e:Label id="hptxt" text="%t%%" x="183" y="57" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

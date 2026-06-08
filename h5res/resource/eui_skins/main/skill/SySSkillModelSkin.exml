@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SySSkillModelSkin" width="548" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="144" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" right="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg" right="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" left="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" x="0" y="82" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Image id="icon" width="107" height="107" verticalCenter="0" source="skill02" x="12"/>
+	<e:Label id="skillname" text="技能名字" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="123" y="10"/>
+	<e:Label id="open" text="已激活/坐骑几阶激活" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="264" y="10"/>
+	<e:Label id="info" text="" anchorOffsetX="0" verticalAlign="top" textAlign="left" height="92" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="123" y="41" width="310" lineSpacing="6"/>
+	<e:Button label="激 活" x="436" width="102" height="35" scaleX="1" scaleY="1" verticalCenter="0.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button06" source.down="com_button06"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button06" source.down="com_button06"/>
+			<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

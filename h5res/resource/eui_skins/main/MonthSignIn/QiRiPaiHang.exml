@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiRiPaiHangSkin" width="525" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166d22f69cb" ></w:Config>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" width="2560" height="2560" source="com_mask" scale9Grid="1,1,1,1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Group y="0" horizontalCenter="0" height="800">
+		<e:Image x="-3" y="0" source="zizhao_02" scale9Grid="24,14,148,86" height="800" width="262"/>
+		<e:Image x="521" y="0" source="zizhao_02" scale9Grid="24,14,148,86" scaleX="-1" height="800" width="262"/>
+		<e:Image width="113" height="14" x="97" y="22" source="titleicon1"/>
+		<e:Image width="113" height="14" x="432" y="22" source="titleicon1" scaleX="-1"/>
+		<e:Label text="排行榜" y="17" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group y="57" width="490" height="705" horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="-1"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="-1" right="0"/>
+		</e:Group>
+		<e:Scroller anchorOffsetY="0" scaleX="1" scaleY="1" width="485" height="690" name="oneView" verticalCenter="8" horizontalCenter="0">
+			<e:List id="itemList" width="0" height="0" x="-32" y="163">
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.8" scaleY="0.8" top="3" right="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

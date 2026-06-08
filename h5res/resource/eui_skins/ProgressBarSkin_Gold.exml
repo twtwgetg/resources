@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ProgressBarSkinGold"  width="400" height="29" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="tongyong_pic54" scale9Grid="20,9,84,13"/>
+	<e:Image id="thumb" width="368" height="15" x="15" y="7.5" anchorOffsetX="0" anchorOffsetY="0" source="tongyong_pic55" fillMode="scale" scale9Grid="7,1,44,12"/>
+	<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	 
+</e:Skin>

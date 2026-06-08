@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonPromptSkin" width="485" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0">
+			<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+			<e:Image width="50%" height="50%" x="486" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+			<e:Image width="50%" height="50%" x="486" y="250" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" x="0" y="250" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+		</e:Group>
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="242"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" x="484" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="242"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0">
+			<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+			<e:Image width="50%" height="63" x="466" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+		</e:Group>
+		<e:Group x="15" y="60">
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="456" scaleX="-1"/>
+			<e:Image width="50%" height="50%" y="110" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="456" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" y="110" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+		</e:Group>
+		<e:Label id="title" text="提 示" y="11" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-3" textColor="0xF2F2E9"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" top="3" right="2">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="cancel" label="取  消" x="280" y="190" width="104" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image width="52" y.up="0" y.down="-2" source="com_button06" height="35"/>
+			<e:Image height="35" source="com_button06" x="104" y="0" width="52" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" text="取 消" size="20" y.down="5" stroke="1" strokeColor="0x61451a" horizontalCenter.down="0" text.up="取 消" text.down="取 消" y="8" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ok" label="确 定" x="99" y="190" width="104" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image width="52" y.up="0" y.down="-2" height="35" source="com_button05"/>
+			<e:Image height="35" x="104" y="0" width="52" scaleX="-1" y.down="-2" source="com_button05"/>
+			<e:Label id="labelDisplay" text="确 定" size="20" y.down="5" stroke="1" strokeColor="0x071E39" horizontalCenter.down="0" text.up="确 定" text.down="确 定" y="8" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt" text="是否花费50元宝兑换1次挑战次数？\n今日剩余兑换次数(4/4)" x="40" y="72" anchorOffsetX="0" width="410" anchorOffsetY="0" height="86" size="20" textAlign="center" verticalAlign="middle" lineSpacing="5" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

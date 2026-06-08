@@ -1,0 +1,71 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BossRewardSkin" width="640" height="786" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1603fb8754b"/>
+	<e:Image id="bg" width="640" height="786" x="0" y="0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,10,10,15" source="resource/ui/bgs/zhuxianboss_pic1.png"/>
+	<e:Group id="itemGroup" x="84" y="174" width="476" height="456.33" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="itemList" width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+
+
+
+
+
+
+	</e:Group>
+
+	<e:Button id="confirmBtn" label="" x="267.5" y="682">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn13" source.down="tongyong_btn13"/>
+			<e:Label id="labelDisplay" text="确定(%t秒)" x="0" y="0" size="18" width="105" height="41" verticalAlign="middle" textAlign="center" y.down="-2"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Label id="tishi" text="你的伤害最高,获得首领奖励" x="95" y="145" anchorOffsetX="0" width="442" textAlign="left" size="18" textColor="0xecc275" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

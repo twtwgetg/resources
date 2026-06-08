@@ -1,0 +1,11 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skin.ZhanDouLiSkin" width="203.5" height="38" xmlns:e="http://ns.egret.com/eui"  xmlns:ogre="ogre_ui.*">
+	<e:Image x="3" y="0" source="UIPic_35"/>
+	<e:Group id="powerGroup" x="83" scaleX="1" scaleY="1" verticalCenter="1.5">
+		<e:Image scaleX="1" scaleY="1" x="0" y="0" source=""/>
+		<e:layout>
+			<e:HorizontalLayout gap="-1" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+ 
+</e:Skin>

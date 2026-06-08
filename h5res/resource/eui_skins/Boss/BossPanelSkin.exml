@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="guideObj" width="108" height="43" x="569" y="208" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Image id="guideObj0" width="108" height="43" x="570" y="240" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" x="0"/>
+	<e:Group id="personal" y="102" horizontalCenter="0">
+		<e:Image width="290" height="429" y="0" source="com_back_down" x="0" scale9Grid="40,40,5,5"/>
+		<e:Image width="290" height="429" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1"/>
+		<e:Image width="290" height="429" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1" scaleY="-1" y="858"/>
+		<e:Image width="290" height="429" y="858" source="com_back_down" scale9Grid="40,40,5,5" x="0" scaleY="-1"/>
+	</e:Group>
+	<e:Label text="首 领" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="-1"/>
+	<ns1:ScrollPage id="scrollPage" width="490" height="97" x="116" y="1028" anchorOffsetY="0">
+		<ns1:skinName>
+		<e:Skin width="490" height="110" xmlns:ogre_ui="ogre_ui.*">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton id="page3" x="0" y="0" width="86" height="86" name="MainView" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" y="0" source="boss_personal" source.up="boss_personal" source.down="boss_personal" source.disabled="boss_personal"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="page0" x="87" y="0" width="86" height="86" name="MainView" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" y="0" source="boss_world" source.up="boss_world" source.down="boss_world" source.disabled="boss_world"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="page1" name="MainView" scaleX="1" scaleY="1" height="86" x="174" y="0">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Image alpha.disabled="0.5" source="boss_world" source.up="zhuicon" source.down="zhuicon" source.disabled="zhuicon" verticalCenter.up="0" horizontalCenter.up="0" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter.disabled="0" verticalCenter.disabled="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:ZhuzaiBossMainView id="zhuZai" skinName="ZhuzaiBossMainViewSkin" x="0" y="0" visible="false"/>
+	<e:Group id="bossGroup" y="103" width="579" horizontalCenter="0">
+		<e:Group id="WorldBOSSbg" y="0" x="0" width="579">
+			<e:Group y="0" horizontalCenter="0">
+				<e:Image width="290" height="423" y="0" source="com_back_down" x="0" scale9Grid="40,40,5,5"/>
+				<e:Image width="290" height="423" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1"/>
+				<e:Image width="290" height="423" source="com_back_down" scale9Grid="40,40,5,5" x="580" scaleX="-1" scaleY="-1" y="846"/>
+				<e:Image width="290" height="423" y="846" source="com_back_down" scale9Grid="40,40,5,5" x="0" scaleY="-1"/>
+			</e:Group>
+			<e:Label text="挑战次数:" x="10" y="13" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="times" text="10/10" x="113" y="13" size="20" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="huifujishi" text="回复计时:" x="199" y="13" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="huifu" text="28:59" x="304" y="13" size="20" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="bossrmsetup" text="世界首领提醒" x="433" y="13" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Image width="120" x="435" source="downline_W" scale9Grid="1,0,1,4" y="35"/>
+			<e:Image width="396" height="44" x="107" y="851" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power" scale9Grid="0,5,212,34"/>
+			<e:Label text="参与挑战世界首领即可获得注灵石" y="863" size="20" textAlign="center" fontFamily="Microsoft YaHei" x="139" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90"/>
+		</e:Group>
+		<e:Scroller id="panelgroup" anchorOffsetX="0" anchorOffsetY="0" height="845" width="570" y="5" horizontalCenter="0">
+			<e:viewport>
+			<e:List id="list_boss" anchorOffsetX="0" x="0" anchorOffsetY="0" y="-37" width="0" height="0">
+				<e:layout>
+				<e:VerticalLayout paddingTop="2"/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<e:Scroller id="group_wb" anchorOffsetX="0" anchorOffsetY="0" height="798.33" width="570" y="42" horizontalCenter="0.5">
+			<e:viewport>
+			<e:List id="list_wdboss" height="0" anchorOffsetX="0" width="0" x="0" anchorOffsetY="0" y="-37">
+				<e:layout>
+				<e:VerticalLayout paddingTop="2"/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<ns1:VipLevelBar id="vipLevelBar" y="861.92" skinName="VipQainwangSkin" horizontalCenter="0.5" visible="false"/>
+		<ns1:BossRemind width="480" height="615" anchorOffsetX="0" anchorOffsetY="0" skinName="BossRemindSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

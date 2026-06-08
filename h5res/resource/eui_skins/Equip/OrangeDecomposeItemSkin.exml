@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OrangeDecomposeItemSkin" width="550" height="154" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<ns1:ItemBase6 id="item" width="114" height="111" x="5" skinName="skin.ItemBaseSkin6" y="24"/>
+	<e:Group x="115" y="35">
+		<e:Label id="tname" text="名字是六个字" x="0" y="0" size="20" fontFamily="Microsoft YaHei" width="120" textAlign="left" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="lbl_tj" text="(推荐分解)" x="125" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d"/>
+	</e:Group>
+	<e:Group x="114" y="76">
+		<e:Label id="have" text="分解获得:" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="get" text="橙装碎片  x%t" x="90" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xff974b"/>
+	</e:Group>
+	<e:Button id="btn_fj" label="" y="48" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="196">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="66" height="48" y.down="-2" source="com_button03" source.down="com_button03"/>
+			<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="分 解" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="分 解" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" stroke.up="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x071E39"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

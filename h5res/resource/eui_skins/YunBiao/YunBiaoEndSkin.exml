@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YunBiaoEndSkin" width="290" height="248" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Group x="0" y="0" height="100%" width="100%">
+		<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="20,17,17,19" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="20,17,17,19" right="0" top="0" scaleX="-1"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="20,17,17,19" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="20,17,17,19" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group y="45" width="268" height="136" horizontalCenter="0">
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" right="0" top="0" scaleX="-1"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" left="0" bottom="0" scaleY="-1"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image width="60" height="14" x="199" y="20" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line" scale9Grid="23,1,63,12"/>
+	<e:Image height="14" x="93" y="20" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line" scaleX="-1" scale9Grid="23,0,63,14" width="60"/>
+	<e:Label text="取经奖励" y="14" textColor="0xfbcc90" size="24" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" horizontalCenter="0"/>
+	<e:Group y="56" horizontalCenter="0">
+		<e:Label text="你护送的           已达到," y="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" x="0" textColor="0xf2f2e9"/>
+		<e:Label text="被劫   次" y="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" x="192" textColor="0xf2f2e9"/>
+		<e:Label id="biaoche" text="猪八戒" y="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" x="75" textColor="0xf2f2e9"/>
+		<e:Label id="num" text="3" y="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" x="230" textColor="0x1ce17d"/>
+	</e:Group>
+	<e:Group y="88" horizontalCenter="0">
+		<ns1:ItemBase2 id="item1" width="86" height="86" x="0" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item2" width="86" height="86" x="112" y="0" skinName="skin.ItemBaseSkin2"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="28"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn" label="领取(10秒)" anchorOffsetX="0" width="134" anchorOffsetY="0" height="48" y="186" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="134" height="48">
+			<e:Image width="67" height="48" x="0" y="0" source="com_button04"/>
+			<e:Image width="67" height="48" x="134" y="0" source="com_button04" scaleX="-1"/>
+			<e:Label id="labelDisplay" text="asdads" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

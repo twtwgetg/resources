@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ExpProgress" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="420" height="14">
+	<e:Image width="420" height="12" x="0" anchorOffsetX="0" fillMode="scale" source="UIPic_10" scale9Grid="2,2,82,13" verticalCenter="0"/>
+	<e:Image id="thumb" height="12" width="420" anchorOffsetX="0" anchorOffsetY="0" x="0" source="UIPic_31" scale9Grid="5,1,48,15" verticalCenter="0"/>
+	<e:Label id="expLabel" text="999999/999999999" size="14" width="100%" horizontalCenter="0" verticalCenter="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

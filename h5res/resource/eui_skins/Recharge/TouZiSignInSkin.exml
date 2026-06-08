@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TouZiSignInSkin" width="605" height="826" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Group x="0" y="0" width="606" height="100%" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Scroller id="scroller" y="185" anchorOffsetY="0" scaleX="1" scaleY="1" width="598" height="637" name="oneView" horizontalCenter="0">
+		<e:List id="itemList" width="0" height="0" x="-1" y="-1.33">
+		<e:layout>
+			<e:TileLayout verticalGap="3" verticalAlign="middle" horizontalAlign="center" paddingLeft="3" horizontalGap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="resource/assets/data/ui/bgs/touzi_1.png" horizontalCenter="0" fillMode="clip"/>
+		<e:Label text="会员3可兑换" x="457" y="104" size="16" fontFamily="Microsoft YaHei" stroke="1" textColor="0x1ce17d" strokeColor="0x14181b"/>
+		<e:Button id="one" label="88元" x="449" y="122" width="102" height="35">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*">
+				<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button08" source.down="com_button08"/>
+				<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button08" source.down="com_button08"/>
+	<e:Label id="labelDisplay" text="88元" size="20" horizontalCenter="0" stroke="1" strokeColor="0x61451A" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" verticalCenter="0" verticalCenter.down="-2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="投资 88 元" x="225" y="85" textColor="0xfce056" size="20" fontFamily="Microsoft YaHei" stroke="1"/>
+		<e:Label text="共计返还 8888 元宝" x="223" y="117" textColor="0xFCE056" size="20" fontFamily="Microsoft YaHei" stroke="1"/>
+	</e:Group>
+</e:Skin>

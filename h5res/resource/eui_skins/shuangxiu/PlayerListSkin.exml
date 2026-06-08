@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerListSkin" width="505" height="535" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group x="0" y="0" width="100%">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Group y="9" horizontalCenter="0">
+		<e:Label text="玩家列表" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="0" x="0"/>
+	</e:Group>
+	<e:Group height="413" y="54" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="1" width="486">
+		<e:Group x="0" y="-2" width="486" height="414" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Scroller id="menber" anchorOffsetX="0" anchorOffsetY="0" height="413" width="486" y="0" x="3">
+		<e:viewport>
+			<e:List id="memberList" anchorOffsetX="0" x="25" anchorOffsetY="0" y="-187" width="471" height="415" itemRendererSkinName="MemberinfoSkin">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:viewport>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="Refresh" label="" width="134" height="48" y="471" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image y.down="-2" source="com_button04" width="67" height="48"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="刷 新" includeIn="down" size="22" horizontalCenter="0" y="11" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+			<e:Label text="刷 新" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="cdBtn" label="" width="134" height="48" y="471" horizontalCenter="0" touchEnabled="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image y.down="-2" width="67" height="48" source="com_button03"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="463" y="4" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

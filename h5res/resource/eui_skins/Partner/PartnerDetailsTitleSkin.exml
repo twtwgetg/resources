@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerDetailsTitleSkin" width="560" height="185" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="9" y="36" width="134" height="134">
+		<e:Image width="50%" height="100%" x="0" y="0" source="partner_synbg"/>
+		<e:Image width="50%" height="100%" y="0" source="partner_synbg" scaleX="-1" right="0"/>
+	</e:Group>
+<ns1:ItemBasePartner id="item" width="86" height="86" x="35" y="60" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBasePartner"/>
+		<e:Label id="partnerName" text="伙伴名称六字" x="137" y="59" anchorOffsetX="0" width="127" size="20" fontFamily="Microsoft YaHei" textColor="0x4EDD55" strokeColor="0x14181B" stroke="1"/>
+		<e:Label id="partnerGrade" text="99" x="31" y="144" anchorOffsetX="0" width="62" size="20" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" textColor="0xF0E6CD" strokeColor="0x14181B" visible="false"/>
+		<e:Label id="partnerStar" text="999" x="322" y="150" anchorOffsetX="0" width="116" size="20" anchorOffsetY="0" height="17" fontFamily="Microsoft YaHei" textColor="0xF0E6CD" strokeColor="0x14181B" visible="false"/>
+		<e:Group id="zhiye" x="28.35" y="65" anchorOffsetX="0" width="32" anchorOffsetY="0" height="36">
+			<e:Image width="34" height="31" x="7" y="2" source="partnermod_bg" scaleX="1" scaleY="1"/>
+			<e:Image id="typeSign" width="34" height="31" x="6.65" y="48" source="partner_occupation2" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<ns1:powerzlcomp id="power" width="230" height="38" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiSkin" x="134"/>
+	<e:Group id="starsParent" y="103" anchorOffsetX="0" width="423" horizontalCenter="66.5">
+		<ns1:StarBase width="40" height="40" x="0" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="42" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="84" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="126" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="168" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="210" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="252" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="294" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="336" y="0" skinName="StarBaseSkin"/>
+		<ns1:StarBase width="40" height="40" x="378" y="0" skinName="StarBaseSkin"/>
+	</e:Group>
+	<e:Group id="gradeGroup" x="44" y="146" scaleX="0.7" scaleY="0.7">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="fight_9" scaleX="1" scaleY="1" x="0"/>
+	</e:Group>
+	<e:Image id="gradeTitle" width="27" height="28" x="71" anchorOffsetX="0" anchorOffsetY="0" source="partnerstep" y="145"/>
+</e:Skin>

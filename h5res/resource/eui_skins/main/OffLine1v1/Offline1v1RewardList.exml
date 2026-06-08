@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Offline1v1RewardList" width="584" height="790" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162f1f273bb"/>
+	<e:Image width="2560" height="2560" source="com_mask" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0" width="586" height="792">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="100%">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="586">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Label text="奖励预览" y="8" size="24" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Group y="53" horizontalCenter="0" anchorOffsetY="0" height="623">
+		<e:Group horizontalCenter="0" width="560" height="624">
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" right="0" top="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+		</e:Group>
+		<e:Image width="556" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0" scale9Grid="0,5,250,31"/>
+		<e:Image width="2" height="30" y="6" scaleX="1" scaleY="1" anchorOffsetX="0" x="224" source="skill_backline"/>
+		<e:Label text="排 名" y="9" size="22" x="95" fontFamily="Microsoft YaHei" textColor="0xfbcc90"/>
+		<e:Label text="奖 励" y="8.69" size="22" x="369" fontFamily="Microsoft YaHei" textColor="0xfbcc90"/>
+	</e:Group>
+	<e:Group id="group_1" width="470" height="114" x="85" y="97" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image x="0" source="1v1_pic1" y="34"/>
+		<e:Image x="40.5" y="38" source="fighthuang_1"/>
+		<e:Image x="71" y="36" source="1v1_pic2"/>
+		<e:Image width="2" height="538" y="110" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" x="476"/>
+		<e:Group id="ItemList1" width="276" height="84" x="178" y="11" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:ItemBase2 x="2" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="98" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="194" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_2" width="470" height="114" x="85" y="215" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image x="-27" y="37" source="1v1_pic1"/>
+		<e:Image x="13.5" y="37" source="fighthuang_2"/>
+		<e:Image x="36.5" y="48" source="1v1_pic3"/>
+		<e:Image x="57.5" y="37" source="fighthuang_3"/>
+		<e:Image x="90" y="37" source="1v1_pic2"/>
+		<e:Image width="2" height="538" y="110" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" x="476"/>
+		<e:Group id="ItemList2" width="276" height="84" x="178" y="11" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:ItemBase2 x="2" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="99" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="196" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_3" width="470" height="114" x="85" y="332" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image x="-37" y="37" source="1v1_pic1"/>
+		<e:Image x="97" y="37" source="1v1_pic2"/>
+		<e:Image x="1.5" y="39" source="fighthuang_4"/>
+		<e:Image x="29.5" y="48" source="1v1_pic3"/>
+		<e:Image x="48.5" y="39" source="fighthuang_1"/>
+		<e:Image x="65.5" y="39" source="fighthuang_0"/>
+		<e:Image width="2" height="538" y="110" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" x="476"/>
+		<e:Group id="ItemList3" width="276" height="84" x="178" y="11" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:ItemBase2 x="2" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="91" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="195" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_4" width="470" height="114" x="85" y="448" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image x="-48" y="37" source="1v1_pic1"/>
+		<e:Image x="105" y="37" source="1v1_pic2"/>
+		<e:Image x="-6.5" y="36" source="fighthuang_1"/>
+		<e:Image x="11.5" y="36" source="fighthuang_1"/>
+		<e:Image x="54.5" y="36" source="fighthuang_5"/>
+		<e:Image x="73.5" y="36" source="fighthuang_0"/>
+		<e:Image x="30.5" y="48" source="1v1_pic3"/>
+		<e:Image width="2" height="538" y="110" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" x="476"/>
+		<e:Group id="ItemList4" width="276" height="84" x="178" y="11" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:ItemBase2 x="2" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="98.5" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="195" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="470" height="114" x="86" y="565" anchorOffsetY="0" anchorOffsetX="0" id="group_5">
+		<e:Image x="-59.01" y="37" source="1v1_pic1"/>
+		<e:Image x="112.34" y="37" source="1v1_pic2"/>
+		<e:Image x="-10.18" y="38" rotation="359.02" source="fighthuang_5"/>
+		<e:Image x="9.15" y="38" source="fighthuang_1"/>
+		<e:Image x="44" y="38" source="fighthuang_9"/>
+		<e:Image x="63" y="38" source="fighthuang_9"/>
+		<e:Image x="82" y="38" source="fighthuang_9"/>
+		<e:Image x="25.14" y="48" source="1v1_pic3"/>
+		<e:Group id="ItemList5" width="278" height="84" x="178" y="11" anchorOffsetY="0" anchorOffsetX="0">
+			<ns1:ItemBase2 x="2" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="98.5" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 x="195" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="681.65" horizontalCenter="0">
+		<e:Group y="0" x="0">
+			<e:Image width="282" height="58" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" alpha="0.4" x="0" source="select_03" scale9Grid="46,22,29,14"/>
+			<e:Image width="282" height="58" y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" source="select_03" scale9Grid="46,22,29,14" anchorOffsetY="0" alpha="0.4" x="564"/>
+		</e:Group>
+		<e:Label text="我的排名:" x="24" y="20" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="MyRank" text="999" x="105" y="20" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1"/>
+	</e:Group>
+	<e:Label text="每日0点结算奖励" y="746.66" size="20" horizontalCenter="5" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="0" top="4" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

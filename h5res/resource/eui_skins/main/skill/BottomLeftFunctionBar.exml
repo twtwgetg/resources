@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.BottomLeftFunctionBar" width="500" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="banghui" label="" x="0" y="0" width="86" height="98">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhujiemian_btn15" source.down="zhujiemian_btn15" y.down="-1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_daily" label="" x="84.00333333333333" y="2" width="86" height="98" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhujiemian_btn20" source.down="zhujiemian_btn20" y.down="-1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+    <e:Button id="zhuansheng" label="" x="168.99666666666667" y="2" width="86" height="98">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhujiemian_btn21" source.down="zhujiemian_btn21" y.down="-1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+	<e:Button id="paiHangBang" label="" x="253" y="2" width="86" height="98">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" y.down="-1" source="RankingListS_check" source.up="RankingListS_check" source.down="RankingListS_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

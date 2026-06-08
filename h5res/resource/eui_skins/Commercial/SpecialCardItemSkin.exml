@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpecialCardItemSkin" width="585" height="840" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="zhizun" x="0" y="0" width="585" height="840">
+		<e:Group id="zhiZunTop" x="186" y="81">
+			<e:Image width="213" height="303" source="specard_pic1" x="0" y="0"/>
+			<ns1:MovieClipCtrl id="effect_zhizun" width="20" height="20" name="9033" skinName="MovieClipCtrlSkin" x="111" y="143" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="zhiZunBottom" x="103.65" y="15.66">
+			<e:Label text="400元宝" x="142" y="476.03" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181b" stroke="1" textColor="0xffea00"/>
+			<e:Label text="+20%" x="240.01" y="509.68" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xffea00" strokeColor="0x14181b" stroke="1"/>
+			<e:Label text="双倍领取" x="246.32" y="542.96" anchorOffsetX="0" width="80" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" size="20" textColor="0xffea00" strokeColor="0x14181b" stroke="1"/>
+			<e:Image width="24" height="24" x="1" y="476.03" source="specard_pic14"/>
+			<e:Label text="每日领取" x="42" y="476.03" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label text="加速令x10" x="142.02" y="577.32" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xffea00" strokeColor="0x14181b" stroke="1"/>
+			<e:Image width="24" height="24" x="1" y="577.32" source="specard_pic14"/>
+			<e:Label text="每日领取" x="42" y="577.32" anchorOffsetX="0" width="144.67" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label text="+2" x="264.68" y="610.68" anchorOffsetX="0" width="44.67" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xFFEA00" strokeColor="0x14181b" stroke="1"/>
+			<e:Image width="24" height="24" x="1" y="610.68" source="specard_pic14"/>
+			<e:Label text="世界首领挑战次数上限" x="42.67" y="610.68" anchorOffsetX="0" width="204.67" anchorOffsetY="0" height="25.67" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+			<e:Image width="24" height="24" x="1" y="509.68" source="specard_pic14"/>
+			<e:Label text="挂机真气、经验收益" x="42" y="509.68" anchorOffsetX="0" width="208" anchorOffsetY="0" height="25" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Image width="24" height="24" x="1" y="542.98" source="specard_pic14"/>
+			<e:Label text="登录奖励、在线奖励" x="42" y="542.98" anchorOffsetX="0" width="185.67" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Button id="getZhIZun" label="领取" y="746.34" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="102.35">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+					<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="领取" size="26" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" strokeColor="0x61451a" stroke="1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="zhiZunBtn" label="" y="746.34" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="102.35">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+					<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" verticalCenter.down="-2" strokeColor="0x61451a" stroke="1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image width="126" height="44" y="0" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic12" x="126.35"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bojin" width="585" height="840" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Group id="boJinTop" x="192" y="86">
+			<e:Image width="203" height="291" source="specard_pic3" x="0" y="0"/>
+			<ns1:MovieClipCtrl id="effect_bojin" width="20" height="20" name="9035" skinName="MovieClipCtrlSkin" x="104" y="140" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="boJinBottom" x="104.3" y="15">
+			<e:Label text="140元宝" x="136" y="493.68" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xFFEA00" strokeColor="0x14181B" stroke="1"/>
+			<e:Label text="+10%" x="239.01" y="527.33" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xFFEA00" strokeColor="0x14181b" stroke="1"/>
+			<e:Label text="双倍领取" x="223.98" y="560.61" anchorOffsetX="0" width="80" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" size="20" textColor="0xFFEA00" strokeColor="0x14181b" stroke="1"/>
+			<e:Image width="24" height="24" x="0" y="493.68" source="specard_pic14"/>
+			<e:Label text="每日领取" x="41" y="493.68" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+			<e:Label text="双倍找回" x="204.35" y="594.97" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xFFEA00" strokeColor="0x000000" stroke="1"/>
+			<e:Image width="24" height="24" x="0" y="594.97" source="specard_pic14"/>
+			<e:Label text="资源找回可使用" x="41" y="594.97" anchorOffsetX="0" width="144.67" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+			<e:Image width="24" height="24" x="0" y="527.33" source="specard_pic14"/>
+			<e:Label text="挂机真气、经验收益" x="41" y="527.33" anchorOffsetX="0" width="208" anchorOffsetY="0" height="25" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+			<e:Image width="24" height="24" x="0" y="560.63" source="specard_pic14"/>
+			<e:Label text="每日门派任务奖励" x="41" y="560.63" anchorOffsetX="0" width="167.67" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+			<e:Button id="getBoJin" label="领取" y="748" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="101.7">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+					<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="领取" fontFamily="Microsoft YaHei" size="26" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="bojinbtn" label="" y="748" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="101.7">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+					<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" verticalCenter.down="-2" strokeColor="0x61451a" stroke="1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image width="126" height="44" y="0" anchorOffsetX="0" anchorOffsetY="0" x="125.7" scaleX="1" scaleY="1" source="specard_pic16"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="huangjin" x="0" y="0" width="585" height="840" visible="false">
+		<e:Group id="huangJinTop" x="192" y="86">
+			<e:Image width="202" height="294" source="specard_pic2" x="0" y="0"/>
+			<ns1:MovieClipCtrl id="effect_huangjin" width="20" height="20" name="9034" skinName="MovieClipCtrlSkin" y="144" scaleX="1" scaleY="1" x="101"/>
+		</e:Group>
+		<e:Group id="huangJinBottom" x="102.99" y="15">
+			<e:Image width="24" height="24" x="2" y="544.01" source="specard_pic14"/>
+			<e:Label text="每日领取" x="42" y="545.01" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+			<e:Label text="20元宝" x="158" y="545.01" anchorOffsetX="0" width="100" anchorOffsetY="0" height="27" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181b" stroke="1" textColor="0xffea00"/>
+			<e:Button id="getHuangJin" label="领取" y="747" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="103.01">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+					<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="领取" fontFamily="Microsoft YaHei" size="26" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="huangijnbtn" label="6" y="747" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="103.01" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+					<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2" verticalCenter.up="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image width="126" height="44" y="0" anchorOffsetX="0" anchorOffsetY="0" x="127.01" scaleX="1" scaleY="1" source="specard_pic13"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="recieved" width="116" height="97" x="235" y="733.33" source="youjian_pic7" visible="false"/>
+</e:Skin>

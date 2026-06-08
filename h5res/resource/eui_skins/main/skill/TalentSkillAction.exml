@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TalentSkillActionSkin" width="465" height="103" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16247ec59cc" ></w:Config>
+	<e:Image id="bg" width="50%" height="100%" x="0" y="0" source="youjian_pic1" scale9Grid="16,13,2,69"/>
+	<e:Image width="50%" height="100%" x="465" y="0" id="bg0" source="youjian_pic1" scale9Grid="16,13,2,69" scaleX="-1"/>
+	<e:Image width="120" height="100" x="0" y="3" source="jineng_pic12"/>
+	<e:Image width="89" height="34" x="350.5" y="60.14" source="jineng_pic18" rotation="325.71"/>
+	<e:Label text="Label" x="17.5" y="44" size="18" textColor="0xefc379" width="85" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="15级激活" x="352.5" y="40.12" size="18" width="85" textAlign="center" verticalAlign="middle" bold="true" textColor="0xc9473e" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="Label" x="135.5" y="26" size="18" width="200" textAlign="left" textColor="0x2fe627" anchorOffsetX="0" anchorOffsetY="0" height="53" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

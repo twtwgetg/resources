@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.RechargeEquHuntComSkin" width="527" height="349" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="-0.5" verticalCenter="-2.5"/>
+	<e:Group x="0" y="0">
+		<e:Image width="50%" height="348" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="zizhao_02" scale9Grid="23,21,12,15"/>
+		<e:Image width="50%" height="348" x="526" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="zizhao_02"/>
+		<e:Label text="提 示" x="205" y="13.67" size="24" strokeColor="0x071E39" anchorOffsetX="0" width="117" textAlign="center" textColor="0xF2F2E9" fontFamily="Microsoft YaHei" stroke="1" scaleX="1" scaleY="1"/>
+		<e:Image width="113" height="14" x="93" y="20" source="titleicon1" scaleX="1" scaleY="1"/>
+		<e:Image width="113" height="14" x="437" y="20" source="titleicon1" scaleX="-1" scaleY="1"/>
+	</e:Group>
+	<e:Image width="468" height="201" y="54" anchorOffsetY="0" anchorOffsetX="0" source="fulihuidi" scale9Grid="17,16,28,21" horizontalCenter="1.5"/>
+	<e:Group x="56" y="64" width="134" height="134">
+		<e:Image width="50%" height="131" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" left="0" top="0"/>
+		<e:Image width="50%" height="131" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" right="0" top="0" scaleX="-1"/>
+	</e:Group>
+	<ns1:ItemBase2 id="item" width="86" height="86" x="79" y="86" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+	<e:Label id="desc1" text="兑换数量:" x="255" y="87" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="消耗元宝:" x="255" y="119" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="赠送令牌:" x="256" y="151" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+	<e:Group x="344" y="80">
+		<e:Image width="136" height="30" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,7,42,18"/>
+		<e:Image id="buyIcon" width="26" height="26" x="2" y="2" source="tongyong_pic5"/>
+		<e:Label id="itemNum" text="9999" x="45" y="5" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+	</e:Group>
+	<e:Group x="344" y="114">
+		<e:Image width="136" height="30" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,7,42,18"/>
+		<e:Image id="moneyType" width="26" height="26" x="2" y="2" source="Head_37"/>
+		<e:Label id="needNum" text="9999" x="45" y="6" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" width="86"/>
+	</e:Group>
+	<e:Group x="344" y="148">
+		<e:Image width="136" height="30" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,7,42,18"/>
+		<e:Image id="itemIcon" width="26" height="26" x="2" y="2" source="gold_key"/>
+		<e:Label id="giveNum" text="9999" x="45" y="6" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+	</e:Group>
+	<e:Group x="123" y="208">
+		<e:Image width="97" height="28" x="96" y="0" scale9Grid="7,7,1,1" source="com_num_enter" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="buyNum" text="%t / %t" x="96" y="0" anchorOffsetX="0" width="98" textColor="0xD1CDB4" verticalAlign="middle" textAlign="center" height="27" anchorOffsetY="0" size="18" background="false" border="true" backgroundColor="0x05131E" borderColor="0x4F4333" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+		<e:Button id="rightBtn" label="" x="238" y="0" width="56" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partner_luckybtn"/>
+			<e:Label text="+10" width="56" height="26" size="18" verticalAlign="middle" textAlign="center" textColor="0xd1cdb4" y="1" x="5" y.up="0" x.up="0" x.down="0" y.down="-2" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="upBtn" label="" x="208" y="0" width="26" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn1"/>
+			<e:Label text="+" width="26" height="26" size="20" verticalAlign="middle" textAlign="center" textColor="0xd1cdb4" horizontalCenter.down="-1.5" verticalCenter.down="-3" width.down="26" height.down="26" width.up="26" height.up="26" x="0" y="0" text.down="" text.up="" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="downBtn" label="" x="60" y="0" width="26" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn12" y.down="-2"/>
+			<e:Label text="" y.disabled="-5.83" y.up="-5.83" x="5.67" anchorOffsetY="0" height="26.33" verticalAlign="top" textColor="0xd1cdb4" y.down="-8" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="leftBtn" label="" x="0" y="0" width="56" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partner_luckybtn"/>
+			<e:Label text="-10" width="56" height="26" size="18" verticalAlign="middle" textAlign="center" textColor="0xd1cdb4" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" x.down="0" y.down="-2" height.down="26" x.up="0" y.up="0" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0">
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="6" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="buyBtn" label="兑 换" y="268.5" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+			<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" text="确  定" size="24" strokeColor="0x61451a" stroke="1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

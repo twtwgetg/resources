@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeJiSkillModelSkin" width="152" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="104" height="90" anchorOffsetX="0" anchorOffsetY="0" y="6" horizontalCenter="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetY="0" source="HJ_08" left="0" top="0"/>
+		<e:Image height="50%" source="HJ_08" anchorOffsetY="0" width="50%" top="0" scaleX="-1" right="0"/>
+		<e:Image source="HJ_08" anchorOffsetY="0" width="50%" scaleX="-1" scaleY="-1" right="0" height="50%" bottom="0"/>
+		<e:Image source="HJ_08" anchorOffsetY="0" width="50%" scaleY="-1" height="50%" left="0" bottom="0"/>
+	</e:Group>
+	<e:Group id="selectGroup" x="25" y="0">
+		<e:Image anchorOffsetY="0" y="140" source="UIPic_51" rotation="270" x="8"/>
+		<e:Image anchorOffsetY="0" source="HJ_07" y="0" x="0"/>
+	</e:Group>
+	<e:Image anchorOffsetY="0" source="HJ_05" y="14" x="39"/>
+	<e:Group y="64" x="44">
+		<e:Image anchorOffsetY="0" y="0" x="0" source="partnerskllevel"/>
+		<e:Label id="level" text="1" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="0" y="91">
+		<e:Group y="0" x="0">
+		<e:Image width="76" height="27" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="XunBao_02"/>
+		<e:Image width="76" height="27" anchorOffsetX="0" anchorOffsetY="0" x="152" y="0" scaleX="-1" source="XunBao_02"/>
+		</e:Group>
+		<e:Label text="合击技能" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="3" x="36"/>
+	</e:Group>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" x="104" y="2"/>
+	<ns1:MovieClipCtrl id="effect" name="9018" skinName="MovieClipCtrlSkin" scaleX="1.2" scaleY="1.2" x="76" y="51" visible="false"/>
+</e:Skin>

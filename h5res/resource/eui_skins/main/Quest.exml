@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.Quest" width="287" height="130.4" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="287" height="99" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/charactor/UI/h5_demo/quest/renwukuang_di.png" bottom="0.4000000000000057" left="0"/>
+	<e:Image width="109" height="30.4" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/charactor/UI/h5_demo/quest/zidongrenwu_kuang.png" left="0" top="1"/>
+	<e:Image width="26" height="26" anchorOffsetX="0" anchorOffsetY="0" left="39" top="98" source="resource/assets/data/charactor/UI/h5_demo/quest/jingyan.png"/>
+	<e:Button label="" x="2.25" y="0.7" anchorOffsetX="0" width="26" anchorOffsetY="0" height="28">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/data/charactor/UI/h5_demo/quest/zidongrenwu_duigou.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="101.67" height="15.42" x="128.08" y="43.25" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/charactor/UI/h5_demo/quest/renwukuang_jindutiao.png"/>
+	<e:Label text="任务名" x="39.02" y="37.21" anchorOffsetX="0" width="80.66" size="26" fontFamily="KaiTi" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="第3关" x="2.25" y="33.21" anchorOffsetX="0" width="28" anchorOffsetY="0" height="94" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="任务最多七个字" x="39" y="73" anchorOffsetX="0" width="206" size="18" anchorOffsetY="0" height="20.67" verticalAlign="middle" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+	<e:Label text="(完成)" x="170" y="73" anchorOffsetX="0" size="18" anchorOffsetY="0" verticalAlign="middle" textColor="0x31fc16" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="3/3" x="167.75" y="43.85" size="15" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="999999" x="68.33" y="104" size="15" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image width="26" height="26" anchorOffsetX="0" anchorOffsetY="0" left="132" y="98" source="resource/assets/data/charactor/UI/h5_demo/quest/tongbi.png"/>
+	<e:Label text="999999" x="162.21" y="104.21" size="15" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image width="33" height="38" x="216.28" y="33.02" source="resource/assets/data/charactor/UI/h5_demo/quest/renwukuang_kuloutou.png"/>
+
+</e:Skin>

@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SkillBarSkin" width="514" height="99" currentState="down" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" states="down" >
+	<w:Config id="162471a5d0d"/>
+	<e:Image width="257" height="99" x="0" y="0" source="zhujiemian_pic25"/>
+	<e:Image width="257" height="99" x="514" y="0" source="zhujiemian_pic25" scaleX="-1" anchorOffsetX="0"/>
+	<e:Image width="92" height="92" source="zhujiemian_pic24" y.down="6" y="3" horizontalCenter="-102"/>
+	<e:Image width="92" height="92" source="zhujiemian_pic24" y="3" y.down="5" horizontalCenter="98"/>
+	<e:Image width="92" height="92" source="zhujiemian_pic24" y="3" y.down="5" horizontalCenter="0"/>
+	<ns1:SkillBaseFetish id="skill_1" width="92" height="92" anchorOffsetX="0" anchorOffsetY="0" y.down="0" width.down="75" x.down="130" skinName="skin.SkillBaseFetish" horizontalCenter="-103" verticalCenter="-0.5"/>
+	<ns1:SkillBaseFetish id="skill_2" width="92" height="92" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseFetish" y.down="0" width.down="73" x.down="213" horizontalCenter="0" verticalCenter="-0.5"/>
+	<ns1:SkillBaseFetish id="skill_3" width="92" height="92" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.SkillBaseFetish" y.down="0" width.down="73" x.down="299" horizontalCenter="98" verticalCenter="-0.5"/>
+	<ns1:MagicBar id="magicBar" width="70" height="99" y="0" skinName="skins.MagicBarSkin" horizontalCenter="178"/>
+	<e:Image width="73" height="73" x="28" source="zhujiemian_pic24" y.down="2" verticalCenter="0"/>
+	<e:Button id="autoFightBtn" label="" x="26.5" width="76" height="62" verticalCenter="0.5" y.down="7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhujiemian_btn19" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="autoSign" width="41" height="42" anchorOffsetX="0" anchorOffsetY="0" source="tongyong_pic46" y.down="18" verticalCenter="-0.5" horizontalCenter="-192.5"/>
+	<e:Label text="自动" size="16" verticalCenter="36.5" horizontalCenter="-192" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+ 
+</e:Skin>

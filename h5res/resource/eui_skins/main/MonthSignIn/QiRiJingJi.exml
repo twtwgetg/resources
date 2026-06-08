@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiRiJingJiSkin" width="605" height="825" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166be9b9ffa" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group y="0" width="610" height="825" horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" right="0" y="825"/>
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/qiri1.png" top="6" horizontalCenter="0"/>
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/qiri4.png" bottom="3" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Group x="28" y="24">
+		<e:Label text="剩余时间:" y="0" size="19" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" textColor="0xFBCC90" x="0"/>
+		<e:Label text="活动结算后奖励通过邮件派送" y="0" size="19" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D" textAlign="center" x="292"/>
+		<e:Label id="remainTimes" text="" y="0" size="19" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D" textAlign="center" x="88"/>
+		<e:Label text="活动说明:" y="32" size="19" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFBCC90" textAlign="center" x="0"/>
+		<e:Label id="des" text="" y="34" size="18" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="86" width="472" height="57" textColor="0xFFEA00"/>
+		</e:Group>
+		<e:Group y="1.34" width="620" x="2">
+		<e:Group x="5" y="124">
+			<e:Group x="5" y="15">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="530" y="0" source="fuli_2" scale9Grid="9,11,198,84" x="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="530" source="fuli_2" y="0" x="298" scaleX="-1" scale9Grid="19,7,191,88"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" y="2" x="4" source="resource/assets/data/ui/bgs/qiri3.png"/>
+			</e:Group>
+			<e:Group x="7" y="20">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" source="qiri01"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" source="qiri01" x="292" scaleX="-1"/>
+			</e:Group>
+			<e:Group x="0" y="0">
+				<e:Group id="firstGroup" x="20" y="82" visible="false">
+					<e:Label text="战力进度:" x="0" y="32" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFFEA00"/>
+					<e:Label id="firstPower" text="9999999" x="86" y="32" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFFEA00"/>
+					<e:Label id="firstName" text="111" x="0" y="0" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFBCC90"/>
+				</e:Group>
+			<e:Image x="0" y="0" source="ranking_1" scaleX="0.7" scaleY="0.7"/>
+			<e:Image x="101" y="25" scaleX="1" scaleY="1" source="1v1_pic1"/>
+			<e:Image x="174" y="25" scaleX="1" scaleY="1" source="1v1_pic2"/>
+			<e:Image x="142" y="27" source="vip_01" scaleX="1.3" scaleY="1.3"/>
+			</e:Group>
+			<e:Group x="140" y="220" scaleX="1.5" scaleY="1.5">
+			<e:Image id="title0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="46,42,151,160" source="" x="0" y="0"/>
+			<e:Image id="mcPos0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="46,42,151,160" source="" y="10" x="10"/>
+			</e:Group>
+			<e:Scroller height="90" width="275" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="15" y="403">
+			<e:List id="firstItemList" width="275" height="90" anchorOffsetX="0" x="-13.33" y="-2.67">
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group x="309" y="139.67">
+			<e:Group x="0" y="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="190" y="0" source="fuli_2" x="0" scale9Grid="25,11,182,84"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="190" source="fuli_2" y="0" x="300" scaleX="-1" scale9Grid="19,18,184,69"/>
+			</e:Group>
+			<e:Group y="7" scaleX="0.5" scaleY="0.5" width="580" x="6" height="60">
+			<e:Image width="290" height="60" x="0" y="-2" source="viptitle_pic" anchorOffsetX="0"/>
+			<e:Image width="290" height="60" x="580" y="-2" source="viptitle_pic" anchorOffsetX="0" scaleX="-1"/>
+			</e:Group>
+			<e:Group x="18" y="40">
+				<e:Group id="secondGroup" x="0" y="0" visible="false">
+					<e:Label id="secondName" text="111" x="0" y="0" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFBCC90"/>
+					<e:Label text="战力进度:" x="0" y="23" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFFEA00"/>
+					<e:Label id="secondPower" text="99999" x="86" y="23" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFFEA00"/>
+				</e:Group>
+			<e:Image x="-3" y="-33" source="1v1_pic1" scaleX="0.8" scaleY="0.8" scale9Grid="12,6,14,20"/>
+			<e:Image x="49" y="-33" source="1v1_pic2" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="27" y="-31" scaleY="1" source="vip_02"/>
+			</e:Group>
+			<e:Scroller height="90" width="275" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" y="90" x="14">
+			<e:List id="secondItemList" width="275" height="90" anchorOffsetX="0" x="1" y="0" anchorOffsetY="0">
+				<e:layout>
+				<e:TileLayout/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group x="310" y="330">
+			<e:Group x="0" y="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="190" y="0" source="fuli_2" scale9Grid="9,11,198,84" x="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="190" source="fuli_2" y="0" x="300" scaleX="-1" scale9Grid="19,7,191,88"/>
+			</e:Group>
+			<e:Group y="6" scaleX="0.5" scaleY="0.5" width="580" x="5" height="60">
+			<e:Image width="290" height="60" x="0" y="0" source="viptitle_pic" anchorOffsetX="0"/>
+			<e:Image width="290" height="60" x="580" y="0" source="viptitle_pic" anchorOffsetX="0" scaleX="-1"/>
+			</e:Group>
+			<e:Group x="17" y="40">
+				<e:Group id="thirdGroup" x="0" y="0" visible="false">
+					<e:Label text="战力进度:" x="0" y="24" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFFEA00"/>
+					<e:Label id="thirdPower" text="9999999" x="89" y="24" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFFEA00"/>
+					<e:Label id="thirdName" text="111" x="0" y="0" anchorOffsetX="0" size="19" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFBCC90"/>
+				</e:Group>
+			<e:Image x="-3" y="-33" source="1v1_pic1" scaleX="0.8" scaleY="0.8" scale9Grid="12,6,14,20"/>
+			<e:Image x="49" y="-33" source="1v1_pic2" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="27" y="-31" scaleY="1" source="vip_03"/>
+			</e:Group>
+			<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" y="90" x="13">
+			<e:List id="thirdItemList" width="275" height="90" anchorOffsetX="0" x="2" y="-1.33">
+				<e:layout>
+				<e:TileLayout/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group x="310" y="520">
+			<e:Group x="0" y="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="150" y="0" source="fuli_2" scale9Grid="9,11,198,84" x="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="150" height="150" source="fuli_2" y="0" x="300" scaleX="-1" scale9Grid="19,7,191,88"/>
+			</e:Group>
+			<e:Group y="7" scaleX="0.5" scaleY="0.5" width="580" x="5" height="60">
+			<e:Image width="290" height="60" x="0" y="0" source="viptitle_pic" anchorOffsetX="0"/>
+			<e:Image width="290" height="60" x="580" y="0" source="viptitle_pic" anchorOffsetX="0" scaleX="-1"/>
+			</e:Group>
+			<e:Group x="204" y="10">
+			<e:Label id="seeOther" text="查看排名" x="1" y="0" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1CE17D"/>
+			<e:Image width="76" x="0" source="downline_W" scale9Grid="1,0,1,4" y="19" anchorOffsetY="0"/>
+			<e:Image x="-190" y="-2" source="1v1_pic1" scaleX="0.8" scaleY="0.8" scale9Grid="12,6,14,20"/>
+			<e:Image x="-96" y="-2" source="1v1_pic2" scaleX="0.8" scaleY="0.8"/>
+			<e:Image x="-160" y="1" scaleY="1" source="vip_04"/>
+			<e:Image x="-131" y="1" scaleY="1" source="vip_01"/>
+			<e:Image x="-118" y="1" scaleY="1" source="vip_00"/>
+			<e:Image x="-143" y="11" scaleY="0.3" source="UIPic_40" scaleX="0.3"/>
+			</e:Group>
+			<e:Scroller anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" y="45" x="13" width="277">
+			<e:List id="otherItemList" width="275" height="90" anchorOffsetX="0" x="-20" y="0">
+				<e:layout>
+				<e:TileLayout/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		</e:Group>
+		<e:Group x="24" y="691.74">
+		<e:Label id="myPower" text="0" y="81" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="116" textColor="0xFFEA00"/>
+		<e:Label text="我的进度:" x="20" y="82" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181B" textAlign="left"/>
+		<e:Label id="myPos" text="" y="42" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="116" textColor="0xFBCC90"/>
+		<e:Label text="我的排名:" x="20" y="42" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFBCC90"/>
+		<e:Label text="战力达到" y="1" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="116" textColor="0xffea00"/>
+			<e:Label id="needPower" text="0" y="1" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="201" textColor="0xFFEA00"/>
+		<e:Label text="上榜条件:" x="20" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xf11d40"/>
+		<e:Image x="0" y="8" source="titleicon"/>
+		<e:Image x="0" y="48" source="titleicon"/>
+		<e:Image x="0" y="88" source="titleicon"/>
+		</e:Group>
+		<e:Group id="noFirstGroup" x="22" y="220">
+			<e:Label text="排名条件" x="5" y="-13" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xf11d40"/>
+			<e:Label text="战力达到:" y="18" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="5" textColor="0xffea00"/>
+			<e:Label id="noFirstPower" text="0" y="18" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="92" textColor="0xffea00"/>
+		</e:Group>
+		<e:Group id="noSecondGroup" x="327" y="192">
+			<e:Label text="排名条件" x="1" y="-11" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xf11d40"/>
+			<e:Label text="战力达到:" y="10" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="1" textColor="0xffea00"/>
+			<e:Label id="noSecondPower" text="0" y="10" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="88" textColor="0xffea00"/>
+		</e:Group>
+		<e:Group id="noThirdGroup" x="327" y="382">
+			<e:Label text="排名条件" x="1" y="-10" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xf11d40"/>
+			<e:Label text="战力达到:" y="12" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="1" textColor="0xffea00"/>
+			<e:Label id="noThirdPower" text="0" y="12" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" x="88" textColor="0xffea00"/>
+		</e:Group>
+		<e:Button id="chongZhiBtn" label="立即冲榜" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="435" y="717">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+			<e:Image y.down="-2" source="com_button08" width="68" height="48" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<ns1:QiRiPaiHang id="paiHangBang" horizontalCenter="0" skinName="QiRiPaiHangSkin" y="-57" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DalyFbBaseitemSkin" width="596" height="154" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image width="203" height="144" x="6" y="5" source="cailiaofuben_pic6"/>
+	<e:Group x="4" y="12">
+		<e:Image width="178" height="24" x="289.5" y="25" source="cailiaofbicon_nameline"/>
+		<e:Image id="cailiaofbicon_pic1" width="106" height="103" x="0" y="15" source="cailiaofbicon_pic1"/>
+		<e:Image id="cailiaofbfont_pic1" width="74" height="46" x="292" y="-3" source="cailiaofbfont_pic1"/>
+		<e:Image width="71" height="47" x="364" y="-3" source="cailiaofbicon_FB"/>
+		<e:Group x="213.5" y="54.5" anchorOffsetY="0" height="24" anchorOffsetX="0" width="346">
+			<e:Label id="level_need" text="第4层" x="0" y="0" anchorOffsetX="0" width="73" size="20" anchorOffsetY="0" height="20" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="tiaojian" text="等级50开启第5层" x="114" y="1" anchorOffsetX="0" width="230" size="20" anchorOffsetY="0" height="20" fontFamily="Microsoft YaHei" textColor="0xf11d40" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group id="grp_tz" x="218" y="91">
+			<e:Label text="挑战次数:" x="6" size="20" fontFamily="Microsoft YaHei" y="8" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="times" text="2" x="109" size="20" fontFamily="Microsoft YaHei" y="8" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+			<e:Button id="btn_addtimes" label="" x="142" y="0" width="39" height="39">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="39" height="39" width.up="39" height.up="39" width.down="39" height.down="39" horizontalCenter.down="0" verticalCenter.up="0" horizontalCenter.up="0" horizontalCenter="0" y="0" y.down="-2" source="tongyong_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="btn_fight" label="" x="244" y="2" width="102" height="35" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ns1="*">
+					<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button05" source.down="com_button05"/>
+					<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button05" source.down="com_button05"/>
+					<e:Label text="挑 战" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071E39" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

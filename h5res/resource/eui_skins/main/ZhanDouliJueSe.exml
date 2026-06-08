@@ -1,0 +1,10 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skin.ZhanDouLiJueSe" width="360" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="80" height="38" left="0" source="tongyong_pic8" verticalCenter="0"/>
+	<e:Group id="powerGroup" x="84" verticalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="-1" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+ 
+</e:Skin>

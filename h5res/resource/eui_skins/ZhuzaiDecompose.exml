@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuzaiDecomposeSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164bc9bb876" ></w:Config>
+			<e:Group x="101" y="237" width="586" height="636" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Image anchorOffsetY="0" source="resource/assets/data/ui/bgs/zhuzai02.png" x="91" y="80"/>
+	<e:Button id="resolveSinglePageBtn" width="174" height="59" y="894.91" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" y.down="-2" source="com_button01" source.up="com_button02" source.down="com_button02" source.disabled="com_button02"/>
+			<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" source="com_button01" x="174" y="0" scaleX="-1" y.down="-2" source.up="com_button02" source.down="com_button02" source.disabled="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="一键回收" includeIn="down" horizontalCenter="0" size="24" y="16" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="一键回收" includeIn="up" size="24" verticalAlign="middle" horizontalCenter="0" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" verticalCenter="0" stroke="1" strokeColor="0x14181b"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="scroller1" width="570" height="620" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-15" horizontalCenter="0">
+		<e:List id="itemList1" y="-3.03" x="-3.03">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

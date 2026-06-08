@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeEquipHuntingSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="38" horizontalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+		<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+		<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+		<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+		<e:Image width="604" height="421" y="57" anchorOffsetX="0" anchorOffsetY="0" source="fulihuidi" scale9Grid="7,7,46,46" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image width="604" height="154" y="527" anchorOffsetX="0" anchorOffsetY="0" source="fulihuidi" scale9Grid="7,7,46,46" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image width="77" height="126" x="160" y="67" source="showrewards_goldborder"/>
+		<e:Image width="77" height="126" x="312" y="67" source="showrewards_goldborder" scaleX="-1"/>
+		<e:Image width="77" height="126" x="391" y="67" source="showrewards_goldborder"/>
+		<e:Image width="77" height="126" x="543" y="67" source="showrewards_goldborder" scaleX="-1"/>
+		<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png"/>
+		<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scaleX="-1"/>
+		<e:Group x="54" y="481">
+			<e:Image width="296" height="48" x="1" y="0" source="viptitle_pic" anchorOffsetX="0"/>
+			<e:Image width="296" height="48" x="592" y="0" source="viptitle_pic" anchorOffsetX="0" scaleX="-1" anchorOffsetY="0"/>
+			<e:Image width="113" height="14" x="115" y="15" source="titleicon1"/>
+			<e:Image width="113" height="14" x="475" y="16" source="titleicon1" scaleX="-1"/>
+		</e:Group>
+	</e:Group>
+	<e:Label text="抽奖记录" y="528" fontFamily="Microsoft YaHei" size="24" horizontalCenter="-3" strokeColor="0x14181b" stroke="1" textColor="0xf0e6cd"/>
+	<e:Label id="title" text="装备抽奖" y="54" fontFamily="Microsoft YaHei" size="24" horizontalCenter="-1" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	<e:Group x="139" y="687">
+		<e:Button id="onceBtn" label="兑换1个" y="86.33" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="87" height="59" y.down="-2" source="com_button02"/>
+				<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" text="兑换1个" size="26" strokeColor="0x61451a" stroke="1"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="moreBtn" label="兑换10个" y="86.33" width="174" height="59" anchorOffsetX="0" anchorOffsetY="0" x="318">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="174" height="59" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="87" height="59" y.down="-2" source="com_button08"/>
+				<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" text="兑换10个" size="26" strokeColor="0x61451a" stroke="1"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="必出橙装" x="368" y="150" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="20" textColor="0xffb849" strokeColor="0x14181b" stroke="1"/>
+		<e:Group x="15" y="48" scaleX="1" scaleY="1">
+			<e:Image width="166" height="28" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,7,43,18"/>
+			<e:Label id="onceNeed" text="999/999" x="22" size="20" anchorOffsetX="0" width="139.83" textAlign="right" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" y="4"/>
+			<e:Image id="itemIcon" width="30" height="30" x="0" y="0" source="duanzao_pic28" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group x="326" y="48" scaleX="1" scaleY="1">
+			<e:Image width="166" height="28" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,7,43,18"/>
+			<e:Label id="moreNeed" text="999/999" x="22" size="20" anchorOffsetX="0" width="139.83" textAlign="right" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" y="4"/>
+			<e:Image id="itemIcon0" width="30" height="30" x="0" y="0" source="duanzao_pic28" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="515.66" horizontalCenter="0.5">
+		<e:Scroller width="540" height="127" x="3.67" y="59" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="recordList" anchorOffsetY="0" height="120" width="530" anchorOffsetX="0"/>
+		</e:Scroller>
+		<e:Label text="某某某    获得   至尊神器" x="16" y="56" anchorOffsetX="0" width="282" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181B" stroke="1" textColor="0xF2F2E9" visible="false"/>
+	</e:Group>
+	<e:Group id="itemGroup" y="110" anchorOffsetX="0" width="593" anchorOffsetY="0" height="405" x="100">
+		<ns1:ItemBase3 id="shenbing" width="114" height="111" x="120.74" y="22" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="97" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Group id="get" x="0" y="-10" visible="false">
+					<e:Image y="10" scale9Grid="10,12,20,18" source="wk_41" horizontalCenter="0"/>
+					<e:Image height="122" y="0" source="jineng_pic17" x="0" scale9Grid="10,12,20,18" width="114"/>
+				</e:Group>
+				<e:Group x="20" y="3" width="75">
+					<e:Image width="25" height="25" x="0" y="0" source="partnerfont_suipic" id="jiaobiao1"/>
+					<e:Image y="0" source="partnerfont_yingpic" id="jiaobiao2" right="0"/>
+				</e:Group>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				<e:Image id="duihao" width="64" height="45" verticalCenter="-14" anchorOffsetX="0" anchorOffsetY="0" source="partner_checkpic" horizontalCenter="1" visible="false"/>
+				<e:Group id="qualityfont" x="35" y="1" width="62" height="23" visible="false">
+					<e:Image id="qualitytitle0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" y="0" right="0" source="qualityfont_12"/>
+				</e:Group>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 id="shenjia" width="114" height="111" x="352.24" y="23" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin width="114" height="111">
+				<e:Group id="bg" width="84" height="84" y="2" x="15">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+				</e:Group>
+				<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+				<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+				<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+				<e:Label id="itemName" text="%t" y="97" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+				<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+				<e:Group id="get" x="0" y="-10" visible="false">
+					<e:Image y="10" scale9Grid="10,12,20,18" source="wk_41" horizontalCenter="0"/>
+					<e:Image height="122" y="0" source="jineng_pic17" x="0" scale9Grid="10,12,20,18" width="114"/>
+				</e:Group>
+				<e:Group x="20" y="3" width="75">
+					<e:Image width="25" height="25" x="0" y="0" source="partnerfont_suipic" id="jiaobiao1"/>
+					<e:Image y="0" source="partnerfont_yingpic" id="jiaobiao2" right="0"/>
+				</e:Group>
+				<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+				<e:Image id="duihao" width="64" height="45" verticalCenter="-14" anchorOffsetX="0" anchorOffsetY="0" source="partner_checkpic" horizontalCenter="1" visible="false"/>
+				<e:Group id="qualityfont" x="35" y="1" width="62" height="23" visible="false">
+					<e:Image id="qualitytitle0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" y="0" right="0" source="qualityfont_12"/>
+				</e:Group>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ItemBase3>
+		<ns1:ItemBase3 width="114" height="111" x="4.74" y="151" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="121" y="151" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="236" y="151" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="352" y="151" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="467" y="151" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="4.74" y="284" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="121" y="284" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="236" y="284" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="352" y="284" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase3 width="114" height="111" x="467" y="284" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="652" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="descBtn" label="" x="76" y="48" width="56" height="56" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="redexplain_btn" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="94" y="868">
+		<e:Image width="297" height="158" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="fulifendi"/>
+		<e:Image width="297" height="158" x="594" y="0" anchorOffsetX="0" anchorOffsetY="0" source="fulifendi" scaleX="-1"/>
+		<ns1:SimpleProgressBar id="progress" height="25" y="113" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="479" x="15">
+		<ns1:skinName>
+			<e:Skin minWidth="30" minHeight="18" height="28" width="536" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image id="img_bg" width="450" height="15" y="11" x="11" source="com_barbg" scale9Grid="7,0,99,15"/>
+			<e:Image id="thumb" width="450" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" x="11" y="11" source="com_bar" fillMode="clip"/>
+			<e:Image width="49" height="15" y="10" x="41" source="com_barbg1" scaleX="-1"/>
+			<e:Image width="49" height="15" y="10" x="432" source="com_barbg1"/>
+			<e:Label id="text" textAlign="center" verticalAlign="middle" size="16" fontFamily="Tahoma" horizontalCenter="-15.5" verticalCenter="4" text="31232132131" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" visible="false"/>
+			<ns1:MovieClipCtrl id="effect" width="20" height="20" x="50" y="16" name="9010" visible="false"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:SimpleProgressBar>
+		<e:List width="582" height="176" x="12" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:Group id="rewardGroup" x="72" y="13">
+		<ns1:RechargeEquipHuntingItem width="90" height="140" x="0" y="0" skinName="RechargeEquipHuntingItemSkin"/>
+		<ns1:RechargeEquipHuntingItem width="90" height="140" x="85.5" y="0" skinName="RechargeEquipHuntingItemSkin"/>
+		<ns1:RechargeEquipHuntingItem width="90" height="140" x="175.5" y="0" skinName="RechargeEquipHuntingItemSkin"/>
+		<ns1:RechargeEquipHuntingItem width="90" height="140" x="265.5" y="0" skinName="RechargeEquipHuntingItemSkin"/>
+		<ns1:RechargeEquipHuntingItem width="90" height="140" x="355.58" y="0" skinName="RechargeEquipHuntingItemSkin"/>
+		</e:Group>
+		<e:Image id="leftBtn" width="59" height="59" x="69" y="38" anchorOffsetX="0" anchorOffsetY="0" source="com_pag" scaleX="-1"/>
+		<e:Image id="rightBtn" width="59" height="59" x="525" y="38" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" source="com_pag"/>
+		<e:Label text="积分" x="7" y="135.5" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" size="20" scaleX="1" scaleY="1" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label text="我的积分" x="146" y="178" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" size="20" scaleX="1" scaleY="1" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="curScore" text="999" size="20" anchorOffsetX="0" width="139.83" textAlign="right" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" scaleX="1" scaleY="1" x="188" y="178" textColor="0xf2f2e9"/>
+	</e:Group>
+	<ns1:RechargeEquHuntDes id="descView" width="527" height="349" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.RechargeEquHuntDesSkin" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	<ns1:RechargeEquHuntCom id="itemTips" width="525" height="345" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.RechargeEquHuntComSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:RechargeEquHuntResult id="resultView" anchorOffsetX="0" anchorOffsetY="0" skinName="RechargeEquHuntrewardSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:RechargEquipJFReward id="rewardView" width="526" height="350" skinName="RechargEquipJFRewardSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

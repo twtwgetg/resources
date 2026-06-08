@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerDetailsDesSkin" width="550" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="152" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="49,48,60,61"/>
+		<e:Image width="86" height="14" x="331.35" y="21" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+		<e:Image width="86" height="14" x="221.35" y="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="com_title_line"/>
+		<e:Label text="英雄简介" y="12" anchorOffsetX="0" width="99" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xFBCC90" strokeColor="0x14181B" x="228" fontFamily="Microsoft YaHei" stroke="1"/>
+	</e:Group>
+	<e:Label id="partnerdes" text="发光红光禾嘉股份回个话放工会返回风格化返回风格化" x="30" y="50" anchorOffsetX="0" width="490" anchorOffsetY="0" height="86" size="20" textColor="0xc2c3e2" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Group id="descGroup" x="59" y="51" anchorOffsetX="0" width="433">
+		<e:Label text="法   师" y="20" fontFamily="Microsoft YaHei" size="20" horizontalCenter="-107.5" textColor="0xFEFE95" strokeColor="0x14181B" stroke="1"/>
+		<e:Label text="远   程" y="20" fontFamily="Microsoft YaHei" size="20" textColor="0xFEFE95" strokeColor="0x14181B" horizontalCenter="0" stroke="1"/>
+		<e:Label text="高爆伤" y="20" fontFamily="Microsoft YaHei" size="20" horizontalCenter="106.5" textColor="0xFEFE95" strokeColor="0x14181B" stroke="1"/>
+	</e:Group>
+</e:Skin>

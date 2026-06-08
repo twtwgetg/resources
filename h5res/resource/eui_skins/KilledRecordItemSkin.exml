@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KilledRecordItemSkinSkin" width="322" height="26" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162f6e52c28" ></w:Config>
+	<e:Group id="record" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="shijian" text="15:12:12" x="0" y="0" anchorOffsetX="0" width="75" anchorOffsetY="0" height="17.5" size="16" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="tname" text="玩家的姓名" x="124" y="0" anchorOffsetX="0" width="75" anchorOffsetY="0" height="17.5" size="16" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="zhanli" text="321321312" x="240" y="0" anchorOffsetX="0" width="75" anchorOffsetY="0" height="17.5" size="16" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

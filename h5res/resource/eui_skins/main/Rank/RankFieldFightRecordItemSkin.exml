@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankFieldFightRecordItemSkin" width="575" height="207" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Group x="0" y="0" width="100%" height="100%">
+			<e:Group width="100%" height="100%" y="0" x="0">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+			</e:Group>
+			<e:Group bottom="4" horizontalCenter="0" width="100%">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="controlbg0" width="571" height="203" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="49,48,60,61" source="resource/assets/data/ui/bgs/rankitembg.png"/>
+		<e:Image width="260" height="38" y="54" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power" scale9Grid="26,5,160,34" horizontalCenter="0"/>
+		<e:Label text="遭遇玩家:" x="175" y="63" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<ns1:ItemBase2 id="r1" width="86" height="86" x="40" y="101" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r2" width="86" height="86" x="140" y="100" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r3" width="86" height="86" x="240" y="100" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r4" width="86" height="86" x="340" y="101" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r5" width="86" height="86" x="440" y="100" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<e:Image width="82" height="18" y="46" source="com_titletop" scaleX="1" scaleY="1" horizontalCenter="-0.5"/>
+	</e:Group>
+	<e:Group id="chengbai" x="32" y="-2">
+		<e:Image id="sucess" width="128" height="38" x="0" y="0" source="jgcgpic"/>
+		<e:Image id="sucessfuchou" width="128" height="38" x="2" y="1" source="fccgpic"/>
+		<e:Image id="faild" width="128" height="38" x="1" y="1" source="jgsbpic"/>
+	</e:Group>
+	<e:Label id="time" text="2018/3/20  (18:17:15)" x="331" y="6" anchorOffsetX="0" width="228" anchorOffsetY="0" height="23" size="20" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" textAlign="right" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="tname" text="玩家名六个字" x="265" y="63" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+</e:Skin>

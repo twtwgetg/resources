@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FabaoSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="606" height="520" y="55" scale9Grid="49,43,150,153" horizontalCenter="0" source="resource/assets/data/ui/bgs/fabao_bg.png"/>
+	<e:Label text="法 宝" y="4" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="0"/>
+	<e:Group y="63.67" horizontalCenter="0">
+		<e:Image width="410" height="46" source="com_back_power" y="2.33" x="0"/>
+		<ns1:powerzlcomp id="zhanLi" width="360" height="50" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="66"/>
+		<e:Group x="307" y="-1">
+		<e:Label id="allprop" text="属性总览" x="0" y="7" width="86" height="32" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" size="20" verticalAlign="middle"/>
+			<e:Image width="82" x="-1" source="downline_W" scale9Grid="1,0,1,4" y="36" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="59" y="176.25">
+		<e:Image x="0" y="0" source="chengjiu_pic7"/>
+		<e:Image id="stageImg" y="27" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="449.61" y="294.83">
+		<e:Label text="特殊属性加成" y="0" textAlign="right" verticalAlign="middle" size="20" scaleX="1" scaleY="1" x="0" stroke="1" fontFamily="Microsoft YaHei" textColor="0xfbcc90"/>
+		<e:List id="propList" width="171" height="90" x="4.39" y="29.17" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group y="438" x="57">
+		<e:Group y="6.61" height="17" anchorOffsetX="0" x="44.06">
+		<e:Image width="450" height="14" y="0.75" x="20" source="com_barbg" scale9Grid="7,0,99,15" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="progressBar" width="450" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" x="20" y="0.4" source="com_bar" fillMode="clip"/>
+		<e:Image width="49" height="15" y="0" source="com_barbg1" scaleX="-1" x="49"/>
+		<e:Image width="49" height="15" y="0" x="440" source="com_barbg1"/>
+		<ns1:MovieClipCtrl id="effect" x="209" y="7.5" name="9010" visible="false"/>
+		</e:Group>
+		<e:Label id="maxLevel" text="已满级" y="5" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="238" textColor="0xf2f2e9"/>
+		<e:Label text="收集或升级法宝提高修为值" y="29" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="155" textColor="0xbac6e0"/>
+		<e:Image x="0" y="0" source="fabao_03"/>
+		<e:Group id="progressLblGroup" y="5" horizontalCenter="0">
+		<e:Label id="curPoint" text="9999" textAlign="right" verticalAlign="middle" size="18" scaleX="1" scaleY="1" x="-1" stroke="1" fontFamily="Microsoft YaHei" width="50" textColor="0xf2f2e9"/>
+		<e:Label id="NeedNumber" text="9999" y="0" textAlign="left" verticalAlign="middle" size="18" x="60.66" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" width="50" textColor="0xf2f2e9"/>
+		<e:Label text="/" y="0" textAlign="left" verticalAlign="middle" size="18" x="50.66" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xf2f2e9"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="btnGroup" y="522" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" horizontalCenter="0" height="377">
+		<e:Image width="584" height="376" y="49" anchorOffsetX="0" anchorOffsetY="0" source="partner_select" x="0" scale9Grid="24,19,94,108"/>
+			<e:Group x="0" y="49"  width="584" height="376" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Group id="btns" x="57" y="-3">
+		<e:ToggleButton id="signIn0" label="灵 品" x="0" y="0" width="117" height="52" name="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="115" height="43" source="partner_page_out" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="0" source.down="fabao_check"/>
+	<e:Image x="12" source="fabao_B_01" y="13" y.down="10"/>
+				<e:Label id="labelDisplay" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" text="灵 品" size="22" fontFamily="Microsoft YaHei" x="50" y="18" y.down="16"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn1" label="圣 品" x="120" y="0" width="117" height="52" name="5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="115" height="43" source="partner_page_out" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="0" source.down="fabao_check"/>
+	<e:Image x="12" y="13" source="fabao_P_01" y.down="10"/>
+	<e:Label id="labelDisplay" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" text="仙 品" size="22" fontFamily="Microsoft YaHei" x="50" y="18"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn2" label="仙 品" x="240" y="0" width="117" height="52" name="7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="115" height="43" source="partner_page_out" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="0" source.down="fabao_check"/>
+	<e:Image x="12" y="13" source="fabao_O_01"/>
+	<e:Label id="labelDisplay" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" text="神 品" size="22" fontFamily="Microsoft YaHei" x="50" y="18"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn3" label="神 品" x="360" y="0" width="117" height="52" name="9">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="115" height="43" source="partner_page_out" y="9" x="0" width.down="117" height.down="52" y.down="1" x.down="0" source.down="fabao_check"/>
+	<e:Image x="12" y="13" source="fabao_R_01"/>
+	<e:Label id="labelDisplay" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" text="圣 品" size="22" fontFamily="Microsoft YaHei" x="50" y="18"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		</e:Group>
+		<ns1:FabaoModel width="140" height="200" x="23" y="74" skinName="FabaoModelSkin" visible="false"/>
+	</e:Group>
+	<e:Scroller id="scroller" width="574" height="356" y="580" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="2">
+		<e:List id="listItems" height="0" x="-2" y="73.33" anchorOffsetY="0" scaleX="1" anchorOffsetX="0" width="0">
+		<e:layout>
+			<e:TileLayout horizontalGap="6" verticalGap="10"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ogre_ui:HeroPropLook id="propView" width="350" height="480" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-50" horizontalCenter="0" visible="false">
+		<ogre_ui:skinName>
+			<e:Skin width="350" height="480">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group x="0" y="0" height="480">
+				<e:Group x="0" y="0" width="100%" height="100%">
+					<e:Group width="100%" height="100%" y="0" x="0">
+					<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+					<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+					<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+					<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+					</e:Group>
+					<e:Group bottom="4" horizontalCenter="0" width="100%">
+					<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+					<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+					</e:Group>
+				</e:Group>
+				<e:Image width="346" height="42" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_back_title"/>
+					<e:Group horizontalCenter="0" y="44"  width="322" height="414" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+			</e:Group>
+			<e:Label text="属性详情" x="117" y="6.5" width="120" height="24" size="20" verticalAlign="middle" textAlign="center"/>
+			<e:Scroller id="scroller" width="300" height="390" x="21" y="56" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group/>
+			</e:Scroller>
+			<e:Group id="propGroup" x="28" y="56" anchorOffsetY="0" height="376" scaleX="1" scaleY="1" width="300">
+				<ns1:PropBase height="25" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="359.91" skinName="skin.PropMidBaseSkin"/>
+			</e:Group>
+			<e:Button id="closeBtn" label="" x="284" y="4" width="56" height="56">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Skin>
+		</ogre_ui:skinName>
+	</ogre_ui:HeroPropLook>
+	<ns1:FabaoLevelUp id="levelUpPanel" width="430" height="750" horizontalCenter="0" verticalCenter="0" skinName="FabaoLevelUpSkin" visible="false"/>
+</e:Skin>

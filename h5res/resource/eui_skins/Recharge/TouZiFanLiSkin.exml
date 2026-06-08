@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TouZiFanLiSkin" height="1082" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="706">
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="150%" height="2000" source="com_mask" horizontalCenter="0" verticalCenter="0" anchorOffsetX="0" visible="false"/>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+		<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+		<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+		<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+		<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png"/>
+		<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scaleX="-1"/>
+	</e:Group>
+	<e:Label text="投资返利" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" top="17"/>
+	<e:Group id="viewGroup" y="220" anchorOffsetY="0" horizontalCenter="0.5">
+		<ns1:TouZiSignIn name="signinView" skinName="TouZiSignInSkin"/>
+		<ns1:TouZiLevelUp y="0" skinName="TouZiLevelUpSkin" name="twoView" horizontalCenter="0" visible="false"/>
+	</e:Group>
+	<e:Group y="53" horizontalCenter="0">
+		<e:Image x="0" y="0" source="fulifendi" scale9Grid="131,19,129,120"/>
+		<e:Image x="594" y="0" source="fulifendi" scale9Grid="131,19,129,120" scaleX="-1"/>
+		<ns1:ScrollPage id="scrollPage" width="602" height="162" anchorOffsetY="0" anchorOffsetX="0" y="4">
+			<ns1:skinName>
+			<e:Skin width="605" height="178">
+				<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="185" y="0" x="0">
+				<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8" height="199">
+					<e:ToggleButton x="24.5" y="6" width="124" height="178" name="signinView" scaleX="1" scaleY="1">
+						<e:skinName>
+						<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="124" height.up="178" width.disabled="86" height.disabled="98">
+							<e:Image width="124" height="178" includeIn="down" y="-9" x="0" source="qiandoa_11"/>
+							<e:Image y="17" scaleX="1" scaleY="1" source="UIPic_53" horizontalCenter="0.5"/>
+							<e:Image width="24" height="24" source="com_red" name="redpoint" y="23" x="82" visible="false"/>
+						</e:Skin>
+						</e:skinName>
+					</e:ToggleButton>
+					<e:ToggleButton x="148.5" y="6" width="124" height="178" name="twoView" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="124" height.up="178" width.disabled="86" height.disabled="98">
+						<e:Image width="124" height="178" includeIn="down" y="-9" x="0" source="qiandoa_11"/>
+						<e:Image y="17" scaleX="1" scaleY="1" source="UIPic_52" horizontalCenter="0.5"/>
+						<e:Image width="24" height="24" source="com_red" name="redpoint" y="23" x="82" visible="false"/>
+						</e:Skin>
+					</e:skinName>
+					</e:ToggleButton>
+				</e:Group>
+				</e:Scroller>
+				<e:List id="pointList" width="90" height="21" y="137" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="0.5">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				</e:List>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:ScrollPage>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="37" top="10">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

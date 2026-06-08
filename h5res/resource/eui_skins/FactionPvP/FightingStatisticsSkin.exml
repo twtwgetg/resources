@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightingStatisticsSkin" width="584" height="766" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0" x="-985" y="-880"/>
+	<e:Group x="0" y="0" width="100%" height="766">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group x="0" y="0" width="100%">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Image width="566" height="638" y="106" anchorOffsetX="0" anchorOffsetY="0" source="partner_select" scale9Grid="24,19,94,108" horizontalCenter="0"/>
+	<e:Label text="战场统计" y="10" fontFamily="Microsoft YaHei" stroke="1" textColor="0xF2F2E9" size="26" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" x="540" y="5" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="viewGroup" horizontalCenter="0" width="556" height="630" y="108" x="27">
+		<ns1:IntegralInfo id="totalView" width="556" height="630" x="0" y="0" skinName="IntegralInfoSkin" name="totalView"/>
+		<ns1:PersonalReward id="rankView" width="556" height="630" skinName="PersonalRewardSkin" name="rankView" visible="false"/>
+	</e:Group>
+	<ns1:ScrollPage id="scrollPage" y="55" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" height="54">
+		<ns1:skinName>
+		<e:Skin width="490" height="54">
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" x="0" y="0" height="54">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5">
+				<e:ToggleButton label="战场统计" x="0" y="0" width="117" height="52" name="totalView">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="partner_page_out" source.down="partner_page_in" y.down="0" y.up="8" height.up="43" width.up="117" height.down="52" width.down="117" y="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre="ogre.*" fontFamily.up="Microsoft YaHei" text="" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" size="22" horizontalCenter.up="0" verticalCenter.up="6"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton label="个人奖励" x="126" y="0" width="117" height="52" name="rankView">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="partner_page_out" source.down="partner_page_in" y.down="0" y.up="8" height.up="43" width.up="117" height.down="52" width.down="117" y="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre="ogre.*" fontFamily.up="Microsoft YaHei" text="" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" size="22" horizontalCenter.up="0" verticalCenter.up="6"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="34" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="47">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+</e:Skin>

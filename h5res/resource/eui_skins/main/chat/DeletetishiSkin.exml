@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DeletetishiSkin" width="524" height="342" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="524">
+		<e:Group x="0" y="0" width="524" height="342">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="262"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="524" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="262"/>
+		</e:Group>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="524">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group y="54" horizontalCenter="0" width="488" height="200">
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" right="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label text="提   示" y="11.5" size="22" fontFamily="Microsoft YaHei" horizontalCenter="0" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="是否删除所有已读信函？" y="110" anchorOffsetX="0" width="256" anchorOffsetY="0" height="22" size="20" textAlign="center" fontFamily="Microsoft YaHei" horizontalCenter="0" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Label text="（不删除含有附件的信函）" y="140" anchorOffsetX="0" width="256" anchorOffsetY="0" height="22" size="20" textAlign="center" fontFamily="Microsoft YaHei" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Button id="btn_ok" label="" y="270" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="311">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="确 定" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="确 定" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_cancel" label="取 消" y="271" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="81">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="68" height="48" y.down="-2" source="com_button03" source.up="com_button03" source.down="com_button03"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.up="com_button03" source.down="com_button03"/>
+			<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="3" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

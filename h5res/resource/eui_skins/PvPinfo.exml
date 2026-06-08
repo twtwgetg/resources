@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PvPinfoSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="161f9433112" ></w:Config>
+	<e:Group id="Myself" width="640" height="130" y="1006" visible="false">
+		<e:Image id="Myselfbg" width="640" height="85" x="0" y="45" source="zhujiemian_pic19" scaleX="1" scaleY="1"/>
+		<e:Group id="MyselfHpbar" width="135" height="130" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image width="109" height="109" x="15" y="0" scaleX="1" source="pvp_pic1" scaleY="1"/>
+			<ns1:BarBase id="selfAllHpBar" width="103" height="103" x="18" y="3" skinName="AllHpBaseSkin"/>
+			<e:Image width="109" height="109" x="15" y="0" scaleX="1" source="pvp_pic3" scaleY="1"/>
+			<e:Image width="64" height="63" x="5" y="64" source="pvp_pic5" scaleX="1" scaleY="1"/>
+			<e:Image width="64" height="63" x="133" y="64" source="pvp_pic5" scaleX="-1" scaleY="1"/>
+		</e:Group>
+		<ns1:RoloHeadBase id="selfPlayer" width="96" height="113" x="145" y="17" scaleX="1" scaleY="1" skinName="RoloHeadBaseSkin"/>
+		<e:Group id="selfPartnerGroup" x="254" y="22">
+			<ns1:ItemBasePartner width="86" height="105" x="0" y="3" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+			<ns1:ItemBasePartner width="86" height="105" x="97" y="3" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+			<ns1:ItemBasePartner width="86" height="105" x="194" y="0" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+			<ns1:ItemBasePartner width="86" height="105" x="291" y="0" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="Enemy" width="640" height="130" y="0" visible="false">
+		<e:Image id="Enemybg" width="640" height="85" x="0" y="85" source="zhujiemian_pic19" scaleX="1" scaleY="-1"/>
+		<e:Group id="EnemyHpbar" width="135" height="130" x="640" y="130" scaleX="1" scaleY="1" rotation="180">
+			<e:Image width="109" height="109" x="15" y="0" scaleX="1" source="pvp_pic1" scaleY="1"/>
+			<ns1:BarBase id="enemyAllHpBar" width="103" height="103" x="18" y="3" skinName="AllHpBaseSkin"/>
+		<e:Image width="109" height="109" x="15" y="0" scaleX="1" source="pvp_pic3" scaleY="1"/>
+		<e:Image width="64" height="63" x="5" y="64" source="pvp_pic5" scaleX="1" scaleY="1"/>
+		<e:Image width="64" height="63" x="133" y="64" source="pvp_pic5" scaleX="-1" scaleY="1"/>
+		</e:Group>
+		<ns1:RoloHeadBase id="enemyPlayer" width="96" height="113" x="399" y="14" scaleX="1" scaleY="1" skinName="RoloHeadBaseSkin"/>
+		<e:Group id="enemyPartnerGroup" x="6" y="25">
+			<ns1:PartnerHeadBase id="EnemyP1" width="86" height="105" x="297" y="0" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+			<ns1:PartnerHeadBase id="EnemyP2" width="86" height="105" x="198" y="0" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+			<ns1:PartnerHeadBase id="EnemyP3" width="86" height="105" x="99" y="0" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+			<ns1:PartnerHeadBase id="EnemyP4" width="86" height="105" x="0" y="0" scaleX="1" scaleY="1" skinName="PartnerHeadBaseSkin"/>
+		</e:Group>
+	</e:Group>
+	<ns1:SkillBar width="514" height="99" x="85" y="899" skinName="SkillBarSkin" visible="false"/>
+	<e:Button id="skipBtn" label="" y="807" width="98" height="90" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="98" height="90" y.down="-4" source="Faction_20" x.up="0" y.up="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="timeGroup" x="124" y="261">
+		<e:Image scaleX="1" scaleY="1" x="0" y="0" source="Faction_28"/>
+		<e:Image id="timeImg" scaleX="1" scaleY="1" x="293" y="32" source="chengjiu_num_9"/>
+		<e:Label id="labelDisplay" size="26" verticalAlign="middle" textAlign="right" text="开始倒计时：" x="60" y="55" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x70310e" anchorOffsetX="0" width="206"/>
+	</e:Group>
+	<e:Group id="factionsinglefb" x="423" y="19" touchEnabled="false" anchorOffsetX="0" width="185" visible="false">
+		<e:Label text="第tt%关   守护女神" x="4" y="0" anchorOffsetX="0" width="225" anchorOffsetY="0" height="23" size="20" textColor="0xFC7507"/>
+		<ns1:ItemBase2 width="88" height="88" x="42" y="26" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<e:Group id="daojishi" x="-235.33" y="609.33" scaleX="1" scaleY="1">
+			<e:Label text="本关剩余时间" x="0" y="0.67" anchorOffsetX="0" width="183.33" anchorOffsetY="0" height="22" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label text="00:00:60" x="146" y="0" anchorOffsetX="0" width="183.33" anchorOffsetY="0" height="22" size="20" fontFamily="Microsoft YaHei" textColor="0xff0000"/>
+		</e:Group>
+		<e:Group x="-396" y="406" scaleX="1" scaleY="1">
+				<e:Group x="0" y="0" width="586" height="94" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+			<e:Label text="下一波 t%秒后到来" x="140" y="33" anchorOffsetX="0" width="317" anchorOffsetY="0" height="61"/>
+		</e:Group>
+		<ns1:SkillBar width="528" height="102" x="-359" y="888" anchorOffsetX="0" anchorOffsetY="0" skinName="SkillBarSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

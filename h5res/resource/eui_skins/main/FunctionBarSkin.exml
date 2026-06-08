@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="tFunctionBarSkin" width="760" height="133" xmlns:e="http://ns.egret.com/eui"  xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<e:Image width="381" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_downback" x="378" y="0" scale9Grid="6,0,10,119"/>
+	<e:Image width="381" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_downback" scaleX="-1" x="378" y="0" scale9Grid="6,0,10,119"/>
+	<e:Button id="partnerBtn" label="" x="293.67" y="12" width="86" height="86">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="UIIcon_6" source.down="UIIcon_6" y.down="-1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="roleBtn" label="" x="210" y="12" width="86" height="86">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="UIIcon_7" source.down="UIIcon_7" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="achieveBtn" label="" x="69" y="-2" width="117" height="117">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="117" height="117" x="0" y="0" source="UIIcon_4" y.down="-2"/>
+	        <ns1:MovieClipCtrl width="0" height="0" name="9072" horizontalCenter="0" verticalCenter="0" verticalCenter.down="-2"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" touchEnabled="false" width="117" height="117" source="UIPic_47" y.down="-2"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" y="74" touchEnabled="false" scaleX="0.9" scaleY="0.9" source="UIPic_54" x="30" y.down="72"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="equipBtn" label="" x="380.33" width="86" height="86" y="12">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="UIIcon_5" source.down="UIIcon_5" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="bagBtn" label="" x="465" y="12" width="86" height="86">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="86" height="86" width.down="86" height.down="86">
+			<e:Image width="86" height="86" source="UIIcon_3" source.down="UIIcon_3" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button> 
+	<e:Button id="longmaiBtn" label="" x="577" y="-2">
+ 
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="117" height="117" x="0" y="0" source="UIIcon_4" y.down="-2"/>
+	<e:Group id="moneyGroup" x="0" y="0" width="117" height="117" y.down="-2">
+		<e:Image id="longmai" y.down="47" source="UIPic_46" source.down="UIPic_46" y="47" x="10" scaleX="1" scaleY="1"/>
+		<ns1:MovieClipCtrl width="0" height="0" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" name="9028" x="59" y="59" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="fullEffect" width="0" height="0" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" name="9029"/>
+	<e:Group x="12" y="7" id="close" y.down="5">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="UIPic_55"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" x="92" y="0" source="UIPic_55" scaleX="-1"/>
+	</e:Group>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" touchEnabled="false" width="117" height="117" y.down="-2" source="UIPic_47"/>
+	<e:Image id="NaPic" anchorOffsetX="0" anchorOffsetY="0" x="30" y="74" touchEnabled="false" source="UIPic_37" scaleX="0.9" scaleY="0.9" y.down="72"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>		
+</e:Skin>

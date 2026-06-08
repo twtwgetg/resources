@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="VipQainwangSkin" width="500" height="60" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,normal" >
+
+
+
+	<e:Group id="notVipGroup" x="47" verticalCenter="0">
+		<e:Button id="getVipBtn" label="前往充值" y="0" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" x="302">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="67" height="48" y.down="-2" source="com_button04" y="2"/>
+				<e:Image width="67" height="48" source="com_button04" x="134" y="2" scaleX="-1" y.down="-2"/>
+				<e:Label id="labelDisplay" text="前往充值" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" verticalCenter="0" horizontalCenter="4" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+
+
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="197" height="36" x="0" y="8" anchorOffsetX="0" anchorOffsetY="0" source="com_back_num" scale9Grid="8,2,50,18"/>
+		<e:Group x="25" y="14">
+			<e:Label text="会员" y="0" anchorOffsetX="0" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" size="20" x="0" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="numLbl" text="1" x="40" y="0" anchorOffsetX="0" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" size="20" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="rightLbl" text="可一键扫荡" x="55" y="0" anchorOffsetX="0" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" size="20" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="fastFightBtn" label="一键扫荡" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" x="183" verticalCenter="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="67" height="48" source="com_button03" y.down="-2"/>
+			<e:Image width="67" height="48" source="com_button03" x="134" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="一键扫荡" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x071e39" stroke="1" verticalCenter.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

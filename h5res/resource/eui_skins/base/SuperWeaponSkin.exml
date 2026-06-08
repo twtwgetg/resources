@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.SuperWeaponSkin" width="86" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0" width="84" height="112">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+		<e:Image id="icon" width="74" height="74" x="5" y="5" fillMode="scale" scaleX="1" scaleY="1" source="" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="lockSign" width="84" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" scaleX="1" scaleY="1" source=""/>
+		<e:Label id="itemName" text="%t" x="4" y="82" size="18" height="28" anchorOffsetX="0" width="71" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei"/>
+		<e:Label id="label" text="%t" x="8" y="59" size="18" height="20" anchorOffsetX="0" width="66" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

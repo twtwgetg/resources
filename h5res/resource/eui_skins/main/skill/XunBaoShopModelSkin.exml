@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XunBaoShopModelSkin" width="194" height="270" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0" width="100%">
+		<e:Image width="50%" height="270" source="shangcheng_pic1" left="0" top="0" scale9Grid="0,116,95,35"/>
+		<e:Image width="50%" height="270" source="shangcheng_pic1" scaleX="-1" top="0" right="0" scale9Grid="0,104,95,40"/>
+	</e:Group>
+	<e:Label id="tname" text="坐骑培养丹啊" x="35.69" y="3" size="18" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="124" anchorOffsetY="0" height="24" bold="false" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Label id="ItemLevel" text="等级:%t" x="58.33" y="147.15" anchorOffsetX="0" width="99.33" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0xF2F2E9" visible="false"/>
+	<e:Group x="13" y="172" height="30" width="170">
+		<e:Image width="170" height="30" x="0" y="0" source="com_num_enter" scale9Grid="7,4,42,24"/>
+		<e:Label id="txt" text="价格：" x="6" y="5" anchorOffsetX="0" width="48" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" rotation="0.8" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei"/>
+		<e:Label id="DiscountPrice" text="999.9" x="85" y="5" anchorOffsetX="0" width="80" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" fontFamily="Microsoft YaHei"/>
+		<e:Image id="DIsMoneyType" width="76" height="76" x="45" anchorOffsetY="0" y="0" scaleX="0.4" scaleY="0.4" source="XunBao_04"/>
+	</e:Group>
+	<ns1:ItemBase2 id="item" width="86" height="86" y="45" x="55.5" skinName="skin.ItemBaseSkin2"/>
+	<e:Button id="Buy" label="" x="46.5" y="221" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="52" height="35" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+			<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+			<e:Label text="兑 换" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

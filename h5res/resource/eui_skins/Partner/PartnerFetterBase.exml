@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerFetterBaseSkin" width="570" height="195" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="164cc384b15" ></w:Config>
+	<e:Group y="0" height="100%" width="100%" x="0">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg" right="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" left="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" x="0" y="63" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image width="566" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" source="com_back_title"/>
+	<e:Group x="19.67" y="10">
+		<e:Label id="Fettername" text="羁绊名称" x="0" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left"/>
+		<e:Label id="unactiveSign" text="(未激活)" x="88" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" width="80" height="20" textColor="0xf11d40"/>
+		<e:Label id="curLv" text="(0级)" x="88" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" width="80" height="20" textColor="0x1ce17d"/>
+	</e:Group>
+	<e:Group id="limitGroup" x="304.67" y="10">
+		<e:Label text="所属英雄都达到" x="0" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left"/>
+		<e:Label id="need" text="99级" x="147" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" width="49" height="20" textColor="0xfff5a5"/>
+		<e:Label id="rate" text="(3/3)" x="200" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" height="20"/>
+	</e:Group>
+	<e:List id="PartnerList" width="270" height="110" x="10" y="64">
+		<e:layout>
+			<e:TileLayout requestedRowCount="1"/>
+		</e:layout>
+	</e:List>
+	<e:Group x="284" y="60">
+		<e:Label text="获得属性" x="1" y="0" anchorOffsetX="0" width="85" size="18" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181B"/>
+		<e:List id="PropList" width="200" height="100" x="0" y="28" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group id="complete" x="450" y="106">
+		<e:Label text="已满级" y="0" anchorOffsetX="0" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" height="20" textColor="0x1CE17D" x="20"/>
+		<e:Label text="◆             ◆" anchorOffsetX="0" size="22" fontFamily="Microsoft YaHei" strokeColor="0x14181B" y="0" x="0" textColor="0x8c8c8c"/>
+	</e:Group>
+	<e:Button id="activeBtn" label="激 活" x="455" width="102" height="35" scaleX="1" scaleY="1" y="99">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button06" source.down="com_button06"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button06" source.down="com_button06"/>
+			<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

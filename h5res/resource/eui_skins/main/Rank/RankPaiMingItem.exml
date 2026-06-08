@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankPaiMingItemSkin" width="572" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1665798ce4a" ></w:Config>
+	<e:Image width="572" height="140" x="0" y="0" source="com_twobg2" scale9Grid="26,27,101,97"/>
+	<e:Label id="integration" text="9999" size="20" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-35.5" textColor="0xFFCF7F" x="10" verticalCenter="0"/>
+	<e:Group x="15" y="9">
+		<e:Image id="icon" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.4" scaleY="0.4" horizontalCenter="0" source=""/>
+		<e:Image id="iconName" y="50" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source=""/>
+		<e:Label id="PlayName" text="s9999.玩家名字是啥" y="94.59" size="20" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="0" textColor="0xffffff"/>
+		<e:Label id="Rank" text="50" size="20" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-73.5" x="10" textColor="0xffcf7f" verticalCenter="0"/>
+	</e:Group>
+	<ns1:ItemBase3 id="item" x="305" y="18" skinName="skin.ItemBaseSkin3"/>
+	<e:Image id="title"  horizontalCenter="204" verticalCenter="-16" source=""/>
+	<e:Image id="mcPos" horizontalCenter="204" verticalCenter="-16" source=""/>
+</e:Skin>

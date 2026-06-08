@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZiYuanZhaoHuirewardSkin" width="590" height="430" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" verticalCenter="0" y="-787" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Image width="295" height="430" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="zizhao_02" scale9Grid="24,14,148,86"/>
+		<e:Image width="295" height="430" y="0" anchorOffsetX="0" anchorOffsetY="0" x="590" source="zizhao_02" scale9Grid="24,14,148,86" scaleX="-1"/>
+			<e:Group y="102" width="550" height="218" horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="zizhao_01" x="0"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" source="zizhao_01" x="582"/>
+		</e:Group>
+		<e:Label id="title" text="元宝找回/双倍找回" y="11" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group y="53" horizontalCenter="0">
+		<e:Group y="0" width="446" height="44" horizontalCenter="0">
+			<e:Image width="50%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="zizhao_04" scale9Grid="0,5,51,34" left="0" top="0"/>
+			<e:Image width="50%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" scale9Grid="0,5,51,34" source="zizhao_04" top="0" right="0"/>
+		</e:Group>
+		<e:Label text="可找回对应当前等级         的资源" verticalAlign="middle" size="21" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181b" y="10" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="num" text="100%" textAlign="center" size="20" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" x="259" y="11" textColor="0x1ce17d"/>
+	</e:Group>
+	<e:Scroller id="scrollerReward" height="210" anchorOffsetX="0" y="106" width="540" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="rewardList" width="0" height="0" x="-10">
+			<e:layout>
+				<e:TileLayout horizontalGap="-2" verticalGap="4"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="333" height="26" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Label text="消耗:" anchorOffsetX="0" verticalAlign="middle" textAlign="left" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="0" y="0" stroke="1" strokeColor="0x14181b"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="-4" source="com_barback" scale9Grid="10,2,66,13" horizontalCenter="21.5" height="29" width="132"/>
+		<e:Image id="moneyIcon" x="47" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45" y="-6" width="76" height="76" source=""/>
+		<e:Label id="moneynum" text=" %t" anchorOffsetX="0" verticalAlign="middle" textAlign="left" anchorOffsetY="0" size="20" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="98" y="2" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Button id="btnRecieve" label="" y="363" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="领 取" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="确 定" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="vip" x="229" y="363" visible="false">
+		<e:Button id="activation" label="" y="0" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*">
+				<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="前往激活" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label text="前往激活" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="会员XX可使用" anchorOffsetX="0" width="146" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" x="138" y="11" textColor="0xf11d40"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="3" top="4" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

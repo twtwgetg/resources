@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BossFailedPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1603fb8754b"/>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group y="324" width="530" height="596" horizontalCenter="0">
+		<e:Image width="265" height="298" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shibaid" scale9Grid="53,62,19,10"/>
+		<e:Image width="265" height="298" x="530" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="shibaid" scale9Grid="57,67,16,6"/>
+		<e:Image width="265" height="298" x="530" y="596" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="-1" source="shibaid" scale9Grid="60,65,13,8"/>
+		<e:Image width="265" height="298" x="0" y="596" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" source="shibaid" scale9Grid="58,63,14,11"/>
+	</e:Group>
+	<e:Group y="850" width="530" horizontalCenter="0">
+		<e:Image width="265" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="6,6,80,42" source="shibaidg"/>
+		<e:Image width="265" height="63" x="530" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scale9Grid="6,16,82,32" source="shibaidg"/>
+	</e:Group>
+
+	<e:Image id="bg" y="105" fillMode="scale" source="resource/assets/data/ui/bgs/pic_fail.png" x="10"/>
+
+
+
+
+
+	<e:Image id="failTips" width="397" height="229" y="367" source="resource/assets/data/ui/bgs/pic_fail2.png" horizontalCenter="0.5"/>
+	<e:Image id="p1" width="131" height="14" x="257" y="648" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Image id="p2" width="131" height="14" x="386" y="648" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Image y="638.14" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="0" width="432" scale9Grid="83,5,89,26"/>
+
+	<e:Label id="uppower" text="提升战力" size="20" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="646" stroke="1" strokeColor="0x14181b" horizontalCenter="2"/>
+
+
+
+	<e:Group id="functionGroup" y="707.98" horizontalCenter="0">
+		<e:Button id="uppower0" label="" x="0" y="0" name="18">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duanzao_strcheck" source.down="duanzao_strcheck" source.disabled="duanzao_strcheck" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="uppower1" label="" x="100" y="0" name="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhujiemian_btn8" source.up="UIIcon_6" source.down="UIIcon_6" source.disabled="UIIcon_6" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="uppower2" label="" x="200" y="0" name="17">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhujiemian_btn9" source.up="juese_btn6" source.down="juese_btn6" source.disabled="juese_btn6" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="uppower3" label="" x="300" y="0" name="100">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhujiemian_btn10" source.up="gongnengtishi14" source.down="gongnengtishi14" source.disabled="gongnengtishi14" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group y="341" horizontalCenter="0">
+		<e:Group id="itemlistback" x="0" y="16">
+
+
+
+
+		</e:Group>
+		<e:Scroller id="itemGroup" anchorOffsetX="0" anchorOffsetY="0" width="414" height="275" y="16" horizontalCenter="0">
+			<e:viewport>
+			<e:List id="itemList" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="0" height="0">
+				<e:layout>
+					<e:TileLayout horizontalGap="20" verticalGap="20"/>
+				</e:layout>
+
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="confirmBtn" label="离开" y="827" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image width="67" height="48" source="com_button03" source.down="com_button03" y.down="-2"/>
+			<e:Image width="67" height="48" source="com_button03" x="134" y="0" scaleX="-1" source.down="com_button03" y.down="-2"/>
+			<e:Label id="labelDisplay" text="确定(%t秒)" y="3" size="18" width="105" height="41" verticalAlign="middle" y.down="-2" textAlign="center" horizontalCenter="0.5" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x071e39" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+</e:Skin>

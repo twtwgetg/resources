@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="CreateName" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" height="87" width="626">
+	<e:Image width="350" height="35" scale9Grid="1,1,1,1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0" source="chuangjue_pic6"/>
+	<e:Label id="input" text="的公司发光的啥" backgroundColor="0x000000" background="false" verticalAlign="middle" textAlign="center" type="input" anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x14181b" alpha="1" blendMode="normal" size="18" width="350" height="35" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1"/>
+</e:Skin>

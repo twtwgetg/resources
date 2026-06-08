@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossHeadSkin" width="160" height="236" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166beda4dfb" ></w:Config>
+	<e:Image width="50%" height="100%" source="AllPeopleBoss_pic02" scale9Grid="10,13,62,121" left="0"/>
+	<e:Image width="50%" height="100%" source="AllPeopleBoss_pic02" scale9Grid="10,13,62,121" y="0" scaleX="-1" right="0"/>
+	<e:Image id="selectedSignle" width="164.4" height="240" anchorOffsetX="0" y="-1.2" source="zhuxianboss_pic16" anchorOffsetY="0" x="-2" scale9Grid="25,19,1,1"/>
+	<e:Group y="23" width="130" height="130" horizontalCenter="0">
+		<e:Image width="112" height="112" anchorOffsetX="0" source="boss_bg1" scale9Grid="9,9,93,93" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="icon_boss" width="110" height="110" anchorOffsetX="0" anchorOffsetY="0" source="tongyong_pic24" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image width="128" height="126" scale9Grid="25,19,1,1" anchorOffsetX="0" source="boss_bg2" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="BossName" text="超级牛魔王" size="20" fontFamily="Microsoft YaHei" stroke="1" y="156" horizontalCenter="0" textColor="0xf5eda5"/>
+	<e:Label id="BossLv" text="999级" size="20" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0" y="183" textColor="0xf5eda5"/>
+	<e:Group id="isKill" x="0" y="0">
+		<e:Image scale9Grid="25,19,1,1" anchorOffsetX="0" anchorOffsetY="0" source="zhuxianboss_pic15" x="22" y="43" scaleX="1" scaleY="1"/>
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="fulihuidi" scale9Grid="15,14,30,32" x="0" width="161" height="237"/>
+	</e:Group>
+	<e:Label id="RepeatTime" text="99:99:99后重生" size="18" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0" y="209" textColor="0x1ce17d"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="enemy.blood" width="224.8" height="81.6" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:ProgressBar id="pb_enemyblood" width="222" height="43.6" x="12.4" y="32.4" anchorOffsetX="0" anchorOffsetY="0" value="20"/>
+	<e:Label id="lbl_name" text="Label" x="53.8" y="19.4" anchorOffsetX="0" width="98.6" stroke="1" size="22" fontFamily="Microsoft YaHei" strokeColor="0x14181b"/>
+	<e:Label id="hpLabel" text="1000/1000" x="80.8" y="44.4" anchorOffsetX="0" stroke="1" size="19" strokeColor="0x14181b"/>
+</e:Skin>

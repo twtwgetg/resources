@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZiYuanZhaoHuiModelSkin" width="580" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="162fcb2e852" ></w:Config>
+	<e:Group x="0" y="1" height="100%" width="100%">
+		<e:Image x="0" y="0" width="290" height="180" source="fuli_2" scale9Grid="9,7,205,92"/>
+		<e:Image x="580" y="0" source="fuli_2" width="290" height="180" scaleX="-1" scale9Grid="7,7,208,87"/>
+		<e:Image x="2" y="1" source="fuli_1"/>
+		<e:Group horizontalCenter="28.5" verticalCenter="36.5" scaleX="0.5" scaleY="0.5">
+			<e:Image id="RewardType" y="0" x="1" source=""/>
+		</e:Group>
+		<e:Image id="copyName" x="37" y="2" source="zizhao_06"/>
+		<e:Group width="250" verticalCenter="18" left="26" anchorOffsetX="0">
+			<e:Scroller id="scrollerReward" height="112" anchorOffsetX="0" y="0" x="0" width="250" anchorOffsetY="0">
+				<e:List id="rewardList0" width="0" height="0" x="-1">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="one" label="" x="432" y="90" width="130" height="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="65" height="45" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+				<e:Image width="65" height="45" source="com_button06" x="130" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+				<e:Label text="元宝找回" width="100%" height="45" size="20" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="45" x.up="0" height.down="45" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0" stroke="1" strokeColor="0x14181b"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="double" label="" x="288.5" y="90" width="130" height="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="65" height="40" y.down="-2" x="0" y="0" source.up="com_button01" source.down="com_button01" source.disabled="com_button01" width.up="65" width.down="65" width.disabled="65" source="com_button01" height.up="45" height.down="45" height.disabled="45"/>
+				<e:Image width="65" height="40" x="130" y="0" scaleX="-1" y.down="-2" source.up="com_button01" source.down="com_button01" source.disabled="com_button01" width.up="65" x.up="130" width.down="65" x.down="130" width.disabled="65" x.disabled="130" source="com_button01" height.up="45" height.down="45" height.disabled="45"/>
+				<e:Label text="双倍找回" width="100%" height="40" size="20" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="45" x.up="0" height.down="45" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x14181b" y.up="0" stroke.down="1" strokeColor.down="0x14181b" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0" stroke="1" strokeColor="0x14181b" height.disabled="45" strokeColor.disabled="0x14181b"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

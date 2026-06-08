@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerHeadBaseSkin" width="86" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="161f9d9e29e" ></w:Config>
+	<e:Image id="bg" width="83" height="83" x="1.5" y="1.5" source="pvp_pic4" scaleX="1" scaleY="1"/>
+	<e:Image id="icon" width="80" height="80" x="3" y="3" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source="" scaleX="1" scaleY="1"/>
+	<ns1:BarBase id="hpBar" width="80" height="9" x="3" y="86" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.PartnerBlood" scaleX="1" scaleY="1"/>
+	<ns1:BarBase id="spBar" width="80" height="9" x="3" y="96" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.PartnerAnger" scaleX="1" scaleY="1"/>
+	<e:Label id="Open1" text="VIP20开启" y="16" size="16" horizontalCenter="0" textColor="0xf20000" visible="false"/>
+	<e:Label id="Open2" text="或" y="36" size="16" horizontalCenter="0" textColor="0xf20000" visible="false"/>
+	<e:Label id="Open3" text="20关开启" y="58" size="16" horizontalCenter="0" textColor="0xf20000" visible="false"/>
+
+
+
+</e:Skin>

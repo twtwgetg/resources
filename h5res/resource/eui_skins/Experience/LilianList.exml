@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LilianList" width="786" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:Commonback id="commonBack" width="786" height="1136" skinName="CommonbackSkin" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/lilianlistbg.png" scaleX="1" verticalCenter="-28" scaleY="1" horizontalCenter="0"/>
+	<e:Label text="历 练" y="49" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" textColor="0x2e120a"/>
+	<e:Group x="117" y="1036">
+		<e:Group x="0" y="0">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="91" y="0">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="182" y="0">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="273" y="1">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="364" y="1">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="41" height="54" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="86" y="26">
+		<e:Group x="298.33" y="267.67">
+			<e:Group id="dispatchBtn" x="0" y="0" width="201" height="218">
+				<e:Button id="dispatchBtn1" label="派遣任务" x="0" y="0" width="201" height="218">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source.disabled="lilian_paiqianw" source="lilian_paiqiank" source.up="lilian_paiqiank" source.down="lilian_paiqiank"/>
+						<e:Image y.down="71" x="144" y="73" scale9Grid="0,51,43,18" source="wakuang_5" source.up="wakuang_5" source.down="wakuang_5" source.disabled="wakuang_5"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="78" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="157" y="80" x.up="157" x.down="157" y.up="80" y.disabled="80" x.disabled="157"/>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" y="78" x="175" y.down="76"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="dispatchBtn0" label="派遣任务" x="0" y="0" width="201" height="218">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_paiqianw" source.down="lilian_paiqianw" source.disabled="lilian_paiqianw"/>
+						<e:Image y.down="71" x="144" y="73" scale9Grid="0,51,43,18" source.up="lilian_biaoqianw" source.down="lilian_biaoqianw" source.disabled="lilian_biaoqianw" source="lilian_biaoqianw"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="78" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="157" y="80" x.up="157" x.down="157" y.up="80" y.disabled="80" x.disabled="157"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="dispatchLimitGroup" x="53" y="206.31">
+				<e:Image x="3" y="5" source="lilian_biaoqiansuo"/>
+				<e:Label id="dispatchLimitLab" text="99关开启" x="85" y="17" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="124" y="494">
+			<e:Group id="btn_digtreasure" x="216" y="226" width="233" height="207">
+				<e:Button id="digtreasureBtn1" label="秘境挖宝" x="0" y="0" width="233" height="207">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_mijingk" source.up="lilian_mijingk"/>
+						<e:Image y.down="-13" x="128" y="-11" scale9Grid="0,51,43,18" x.up="128" y.up="-11" y.disabled="-11" x.disabled="128" source="wakuang_5" source.up="wakuang_5" source.down="wakuang_5" source.disabled="wakuang_5"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="-6" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="141" y="-4" x.up="141" x.down="141" y.up="-4" y.disabled="-4" x.disabled="141"/>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" y="-7" x="158" x.up="158" y.down="-9"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="digtreasureBtn0" label="秘境挖宝" x="0" y="0" width="233" height="207">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_mijingw" source.up="lilian_mijingw"/>
+						<e:Image y.down="-13" x="128" y="-11" scale9Grid="0,51,43,18" source.up="lilian_biaoqianw" source.down="lilian_biaoqianw" source.disabled="lilian_biaoqianw" source="lilian_biaoqianw" x.up="128" y.up="-11" y.disabled="-11" x.disabled="128"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="-6" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="141" y="-4" x.up="141" x.down="141" y.up="-4" y.disabled="-4" x.disabled="141"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="digtreasureLimitGroup" x="255" y="342">
+				<e:Image x="-6.62" y="-3.99" source="lilian_biaoqiansuo"/>
+				<e:Label id="digtreasureLimitLab" text="999关开启" x="73.34" y="7.99" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="0" y="209">
+			<e:Group id="richang" x="28" y="268" width="249" height="220">
+				<e:Button id="richangBtn1" label="材料副本" x="0" y="0" width="249" height="220">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_cailiaok" source.up="lilian_cailiaok" source.down="lilian_cailiaok" source.disabled="lilian_cailiaok"/>
+						<e:Image y.down="77" x="171" y="79" scale9Grid="0,51,43,18" x.up="171" y.up="79" source="wakuang_5" source.up="wakuang_5" source.down="wakuang_5" source.disabled="wakuang_5"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="84" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="184" y="86" x.up="184" x.down="184" y.disabled="86" x.disabled="184" y.up="86"/>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" y="82" x="202" y.down="80"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="richangBtn0" label="材料副本" x="0" y="0" width="249" height="220">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_cailiaow" source.up="lilian_cailiaow" source.down="lilian_cailiaow" source.disabled="lilian_cailiaow"/>
+						<e:Image y.down="77" x="171" y="79" scale9Grid="0,51,43,18" source.up="lilian_biaoqianw" source.down="lilian_biaoqianw" source.disabled="lilian_biaoqianw" source="lilian_biaoqianw" x.up="171" y.up="79"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="84" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="184" y="86" x.up="184" x.down="184" y.disabled="86" x.disabled="184" y.up="86"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="richangLimitGroup" x="82" y="482">
+				<e:Image x="32" y="-3.99" source="lilian_biaoqiansuo"/>
+				<e:Label id="richangLimitLab" text="79关开启" x="114.64" y="6.66" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="0" y="0">
+			<e:Group id="fuShiTaBtn" x="370" y="65" width="162" height="250">
+				<e:Button id="fuShiTaBtn1" label="洪荒试炼" x="0" y="0" width="162" height="250">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_honghuangk" source.up="lilian_honghuangk" source.down="lilian_honghuangk" source.disabled="lilian_honghuangk"/>
+						<e:Image y.down="74" x="105" y="76" scale9Grid="0,51,43,18" x.up="105" y.up="76" x.down="105" x.disabled="105" y.disabled="76" source="wakuang_5" source.up="wakuang_5" source.down="wakuang_5" source.disabled="wakuang_5"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="80" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="118" y="82" x.up="118" x.down="118" x.disabled="118" y.disabled="82" y.up="82"/>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" y="80" x="135" y.up="80" y.down="78"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="fuShiTaBtn0" label="洪荒试炼" x="0" y="0" width="162" height="250">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_honghuangw" source.up="lilian_honghuangw" source.down="lilian_honghuangw" source.disabled="lilian_honghuangw"/>
+						<e:Image y.down="74" x="105" y="76" scale9Grid="0,51,43,18" source.up="lilian_biaoqianw" source.down="lilian_biaoqianw" source.disabled="lilian_biaoqianw" source="lilian_biaoqianw" x.up="105" y.up="76" x.down="105" x.disabled="105" y.disabled="76"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" y.down="80" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="118" y="82" x.up="118" x.down="118" x.disabled="118" y.disabled="82" y.up="82"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="fuShiTaLimitGroup" x="384.69" y="270.32">
+			<e:Image x="5" y="0" source="lilian_biaoqiansuo"/>
+			<e:Label id="fuShiTaLimitLab" text="9关开启" x="86" y="12" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="79" y="220" visible="false">
+			<e:Group x="-1" y="-2" width="214">
+				<e:Button label="无尽征途" x="0" y="0" width="214">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" y.down="-2" source="lilian_zhengtuk"/>
+						<e:Image y.down="1" x="144" y="3" scale9Grid="0,51,43,18" source.up="lilian_biaoqianw" source.down="lilian_biaoqianw" source.disabled="lilian_biaoqianw" source="lilian_biaoqianw"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" verticalCenter.up="-2.5" size.disabled="20" horizontalCenter.disabled="0.5" verticalCenter.disabled="-2.5" y.down="7" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="157" y="3.33" x.up="157" x.down="157"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="无尽征途" x="0" y="0" width="214">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image x="0" y="0" scale9Grid="0,51,43,18" source="lilian_zhengtuw" y.down="-2"/>
+						<e:Image y.down="1" x="144" y="3" scale9Grid="0,51,43,18" source.up="lilian_biaoqianw" source.down="lilian_biaoqianw" source.disabled="lilian_biaoqianw" source="lilian_biaoqianw"/>
+						<e:Label id="labelDisplay" text="" width="32" height="120" size="20" verticalAlign="middle" textAlign.disabled="center" textAlign.down="center" height.up="118" height.down="118" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" stroke.up="0" strokeColor.up="0x14181B" strokeColor.down="0x000000" fontFamily="Microsoft YaHei" width.up="32" textAlign.up="center" size.up="20" width.down="32" size.down="20" textAlign="center" size.disabled="20" horizontalCenter.disabled="0.5" verticalCenter.disabled="-2.5" y.down="9" textColor.disabled="0x2e120a" textColor="0x2e120a" textColor.up="0x2e120a" textColor.down="0x2e120a" x="157" y="11" x.up="157" x.down="157" y.up="11"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group x="20" y="116.33">
+				<e:Image x="0" y="0" source="lilian_biaoqiansuo"/>
+				<e:Label id="limitLab2" text="99关开启" x="80" y="11" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

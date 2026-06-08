@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleGroupInfoSkin" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="299">
+	<w:Config id="1621e2a611e" ></w:Config>
+	<e:Image id="headIcon" y="0" source="" x="0" visible="false"/>
+	<e:Image id="bg" width="640" height="65" x="640" y="0" anchorOffsetX="0" scaleX="-1" anchorOffsetY="0" source="" visible="false"/>
+	<e:Image id="Skill1bg" width="55" height="55" x="9.95" y="0" anchorOffsetX="0" scaleX="1" anchorOffsetY="0" source="" visible="false"/>
+	<e:Image id="Skill2bg" width="55" height="55" x="65.95" y="0" anchorOffsetX="0" scaleX="1" anchorOffsetY="0" source="" visible="false"/>
+	<e:Image id="Skill3bg" width="55" height="55" x="121.95" y="0" anchorOffsetX="0" scaleX="1" anchorOffsetY="0" source="" visible="false"/>
+	<e:Group id="skillGroup" x="0" y="0" visible="false">
+		<ns1:ItemBaseFetish id="Skill0" width="86" height="86" x="-5" y="-5" scaleX="0.75" scaleY="0.75" skinName="skin.ItemBaseFetish"/>
+		<ns1:ItemBaseFetish id="Skill1" width="86" height="86" x="50" y="-5" scaleX="0.75" scaleY="0.75" skinName="skin.ItemBaseFetish"/>
+		<ns1:ItemBaseFetish id="Skill2" width="86" height="86" x="107" y="-5" scaleX="0.75" scaleY="0.75" skinName="skin.ItemBaseFetish"/>
+	</e:Group>
+	<e:Group id="partnerGroup" x="0" y="0" anchorOffsetY="0" height="90" anchorOffsetX="0" width="292">
+		<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin"/>
+		<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="102" y="0"/>
+		<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="204" y="0"/>
+		<ns1:PartnerDispatchSkin skinName="skin.PartnerDispatchSkin" x="293" y="0" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.EquipPosItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+		<e:Image id="equipBg" width="84" height="81" y="2" x="2" source="taozhuang_pic01"/>
+	<e:Image id="equipName" width="44" height="22" y="58" source="duanzao_1" horizontalCenter="0"/>
+	<e:Image id="selectSign" width="88" height="88" y="1" source="jineng_pic17" x="-3" scale9Grid="11,12,19,18" visible="false"/>
+		<e:Label id="level" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="left" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+	<e:Label id="do" text="可操作" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1ce17d"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="42" y="43" name="9005" skinName="MovieClipCtrlSkin" visible="false"/>
+</e:Skin>

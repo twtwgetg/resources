@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="partnerTalkSkin" width="640" height="153" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="ani">
+			<tween:TweenItem target="{icon}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{-320}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="backOut">
+					<tween:props>
+						<e:Object x="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{group}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-87}" x="{-1115}" scaleX="{0}" scaleY="{0}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350" ease="backOut">
+					<tween:props>
+						<e:Object x="{-230}" y="{0}" scaleX="{1}" scaleY="{1}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="group" x="-203" y="0">
+		<e:Image id="controlbg" width="1046" height="154" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/npc_talkbg.png" x="0"/>
+		<e:Label id="npcname" text="NPC名字" anchorOffsetX="0" width="160" anchorOffsetY="0" height="29" size="22" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0x2e120a" x="506" y="16"/>
+		<e:Group id="timerGroup" x="638" y="16">
+			<e:Label text="秒后自动关闭" y="0" anchorOffsetX="0" width="128" anchorOffsetY="0" height="29" size="20" textAlign="right" verticalAlign="middle" fontFamily="Microsoft YaHei" x="55" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+			<e:Label id="timeCount" text="10" y="0" anchorOffsetX="0" width="55" anchorOffsetY="0" height="29" size="20" textAlign="right" verticalAlign="middle" fontFamily="Microsoft YaHei" x="0" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Label id="content" text="对白文字: 同时拥有黑炎之主和冰主，攻击+10%" size="18" fontFamily="Microsoft YaHei" textColor="0x2e120a" anchorOffsetX="0" anchorOffsetY="0" width="357" height="72" x="471" y="63"/>
+	</e:Group>
+	<e:Group id="iconGroup" left="-60" bottom="7">
+		<e:Image id="icon" scaleX="1" scaleY="1" source=""/>
+	</e:Group>
+</e:Skin>

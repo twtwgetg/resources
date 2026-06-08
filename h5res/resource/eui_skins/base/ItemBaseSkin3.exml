@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemBaseSkin3" width="114" height="111" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="bg" width="84" height="84" y="2" x="15">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+
+
+
+	</e:Group>
+
+	<ns1:QualityBase id="quality" width="84" height="84" y="2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="15"/>
+	<e:Image id="icon" height="74" y="6" width="74" x="20"/>
+	<e:Label id="label" text="%t" x="24" y="60" size="18" height="19" anchorOffsetX="0" width="70" textAlign="right" verticalAlign="middle" anchorOffsetY="0" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+	<e:Label id="itemName" text="%t" y="83" size="18" height="28" anchorOffsetX="0" width="115" textAlign="center" verticalAlign="middle" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" x="0"/>
+	<e:Image id="selectSign" width="86" height="86" y="0" source="jineng_pic17" x="14" scale9Grid="10,12,20,18" visible="false"/>
+	<e:Group id="get" x="0" y="-10" visible="false">
+		<e:Image y="10" scale9Grid="10,12,20,18" source="wk_41" horizontalCenter="0"/>
+		<e:Image height="122" y="0" source="jineng_pic17" x="0" scale9Grid="10,12,20,18" width="114"/>
+	</e:Group>
+
+	<e:Group x="20" y="3" width="75">
+		<e:Image width="25" height="25" x="0" y="0" source="partnerfont_suipic" id="jiaobiao1"/>
+		<e:Image y="0" source="partnerfont_yingpic" id="jiaobiao2" right="0"/>
+	</e:Group>
+	<e:Image width="53" height="38" y="22" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_34" horizontalCenter="0" visible="false"/>
+	<e:Image id="duihao" width="64" height="45" verticalCenter="-14" anchorOffsetX="0" anchorOffsetY="0" source="partner_checkpic" horizontalCenter="1" visible="false"/>
+	<e:Group id="qualityfont" x="35" y="1" width="62" height="23" visible="false">
+		<e:Image id="qualitytitle0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" y="0" right="0" source="qualityfont_12"/>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

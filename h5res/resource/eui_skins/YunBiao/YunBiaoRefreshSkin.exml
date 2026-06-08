@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YunBiaoRefreshSkin" width="608" height="790" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="608" height="790">
+		<e:Group x="0" y="0" width="608" height="790">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="620">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="608">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+		<e:Label text="取经护送" y="9" fontFamily="Microsoft YaHei" size="26" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="258"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="549" y="3" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="16" y="60">
+		<e:Group id="grp_1" x="0" y="0">
+			<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiaoPic_10.png" x="0"/>
+			<e:Image width="132" height="145" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiao_bg2.png" horizontalCenter="0" verticalCenter="-8"/>
+			<e:Group x="0" y="0" anchorOffsetX="0" width="56" touchEnabled="false">
+			<e:Image x="0" y="0" touchEnabled="false" source="cz_3"/>
+			<e:Label id="moneyNUM1" text="当 前" x="2" y="26.33" size="16" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" rotation="-45" touchEnabled="false" textColor="0xF2F2E9"/>
+				<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="jineng_pic17" scale9Grid="11,12,19,19"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="grp_2" x="145.67" y="0">
+			<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiaoPic_11.png" x="0"/>
+			<e:Image width="132" height="145" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiao_bg3.png" horizontalCenter="0" verticalCenter="-8"/>
+			<e:Group x="0" y="0" anchorOffsetX="0" width="56" touchEnabled="false">
+			<e:Image x="0" y="0" touchEnabled="false" source="cz_3"/>
+			<e:Label id="moneyNUM0" text="当 前" x="2" y="26.33" size="16" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" rotation="-45" touchEnabled="false" textColor="0xF2F2E9"/>
+				<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="jineng_pic17" scale9Grid="11,12,19,19"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="grp_3" x="290.33" y="0">
+			<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiaoPic_12.png" x="0"/>
+			<e:Image width="132" height="145" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiao_bg4.png" horizontalCenter="0" verticalCenter="-8"/>
+			<e:Group x="0" y="0" anchorOffsetX="0" width="56" touchEnabled="false">
+			<e:Image x="0" y="0" touchEnabled="false" source="cz_3"/>
+			<e:Label id="moneyNUM2" text="当 前" x="2" y="26.33" size="16" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" rotation="-45" touchEnabled="false" textColor="0xF2F2E9"/>
+				<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="jineng_pic17" scale9Grid="11,12,19,19"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="grp_4" x="436" y="0">
+			<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiaoPic_13.png" x="0"/>
+			<e:Image width="132" height="145" scaleX="1" scaleY="1" anchorOffsetX="0" source="resource/assets/data/ui/bgs/YunBiao_bg5.png" horizontalCenter="0" verticalCenter="-8"/>
+			<e:Group x="0" y="0" anchorOffsetX="0" width="56" touchEnabled="false">
+				<e:Image width="140" height="189" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="jineng_pic17" scale9Grid="11,12,19,19"/>
+			<e:Image x="0" y="0" touchEnabled="false" source="cz_3"/>
+			<e:Label id="moneyNUM3" text="当 前" x="2" y="26.33" size="16" anchorOffsetX="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" rotation="-45" touchEnabled="false" textColor="0xF2F2E9"/>
+			</e:Group>
+			<e:Button id="zh" label="召 唤" width="102" height="35" scaleX="1" scaleY="1" horizontalCenter="0" y="145">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button06" source.down="com_button06"/>
+				<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button06" source.down="com_button06"/>
+				<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" stroke="1" strokeColor="0x61451a"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group y="260" horizontalCenter="0" x="33">
+		<e:Group y="0" width="580" height="364" horizontalCenter="0">
+			<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+			<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+			<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+			<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+		</e:Group>
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image width="585" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+			<e:Image width="131" height="14" x="239" y="11" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+			<e:Image width="131" height="14" x="346.67" y="11" source="com_title_line" scale9Grid="21,0,65,14"/>
+			<e:Label text="护送奖励" y="1" size="22" width="151" height="36.67" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181B" anchorOffsetX="0" x="216"/>
+			<e:Scroller id="scrollerReward" height="90" anchorOffsetX="0" y="54" width="380" x="12">
+				<e:List id="rewardList" width="0" height="0">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="10"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="grp_cast" y="55" x="410" height="36">
+				<e:Image width="120" height="31" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_num_enter" scale9Grid="16,10,18,11" x="44" verticalCenter="0.5"/>
+				<e:Image id="yuanbao" width="76" height="76" x="47" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.45" scaleY="0.45" y="1" source=""/>
+				<e:Label text="消耗:" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="0" verticalCenter="0"/>
+				<e:Label id="needMoney2" text=" %t" anchorOffsetX="0" width="80" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" y="5" x="86"/>
+			</e:Group>
+			<e:Group id="grp_free" y="55" x="438" height="36" visible="false">
+				<e:Label text="每日免费       次" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" x="0" verticalCenter="0"/>
+				<e:Label id="nums" text="3/3" anchorOffsetX="0" verticalAlign="middle" textAlign="center" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="5" x="74" width="34" textColor="0x1ce17d"/>
+			</e:Group>
+			<e:Button id="brush" label="刷新品质" y="100" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="436">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*" xmlns:ns1="*">
+					<e:Image width="66" height="48" y.down="-2" source="com_button03" source.down="com_button03"/>
+					<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+					<e:Label id="labelDisplay" text="" size="24" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group y="170" horizontalCenter="0" x="43">
+			<e:Image width="585" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+			<e:Image width="131" height="14" x="239" y="11" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+			<e:Image width="131" height="14" x="346.67" y="11" source="com_title_line" scale9Grid="21,0,65,14"/>
+			<e:Label text="我的阵容" y="1" size="22" width="151" height="36.67" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181B" anchorOffsetX="0" x="216"/>
+			<e:Group id="grp_power" y="54" horizontalCenter="0.5">
+				<e:Label text="战斗力:" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" verticalCenter="0" textColor="0xffea00"/>
+				<e:Label id="fight" text="5" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="66" textAlign="left" verticalCenter="2" textColor="0xffea00" anchorOffsetX="0" width="63" anchorOffsetY="0" height="24"/>
+			</e:Group>
+			<e:Group x="455" y="54">
+				<e:Label id="gethelp" text="求助宗派" y="0" size="20" x="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D"/>
+				<e:Image width="82" x="0" scale9Grid="1,0,1,4" y="22" anchorOffsetY="0" source="downline_B"/>
+			</e:Group>
+			<ns1:RoleGroupInfo id="battleConfig" width="340" height="90" x="12" y="88" skinName="RoleGroupInfoSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Button id="buzhen" label="前往布阵" y="108" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="436">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*" xmlns:ns1="*">
+				<e:Image width="66" height="48" y.down="-2" source="com_button03" source.down="com_button03"/>
+				<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+				<e:Label id="labelDisplay" text="" size="24" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group y="652" width="198" horizontalCenter="0">
+		<e:Group y="0" x="0">
+			<e:Label text="今日剩余护送次数:" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="0" verticalCenter="0"/>
+			<e:Label id="num" text="5" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="168" textAlign="left" width="30" verticalCenter="0"/>
+		</e:Group>
+		<e:Button id="start" label="开始护送" y="34" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*" xmlns:ns1="*">
+				<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+				<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

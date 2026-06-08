@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WingSkinView" width="640" height="1013" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="skinView" width="640" height="1013" x="0" y="0" touchEnabled="false">
+		<e:Group id="photoParent" y="290" x="315.5" scaleX="0.72" scaleY="0.72" touchChildren="false" touchEnabled="false"/>
+		<e:Group x="140" y="48">
+			<e:Image width="360" height="50" source="com_back_power" y="0" x="0"/>
+			<ns1:powerzlcomp id="powerComp" xmlns:ogre_ui="ogre_ui.*" width="223" height="30" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="179" y="452">
+			<e:Image width="283" height="38" y="0" scaleX="1" scaleY="1" source="com_back_name" scale9Grid="50,4,68,30" x="0"/>
+			<e:Image id="curName" scaleX="1" scaleY="1" source="" x="128" verticalCenter="0" visible="false"/>
+			<e:Label id="curLevel" text="%t特殊" size="22" scaleX="1" scaleY="1" textAlign="center" width="221" fontFamily="Microsoft YaHei" textColor="0x2e120a" horizontalCenter="0" y="7"/>
+		</e:Group>
+		<e:Group id="propGroup" width="600" height="140" y="520" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Group y="0" horizontalCenter="0">
+				<e:Image width="300" height="70" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+				<e:Image width="300" height="70" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="600" scaleX="-1"/>
+				<e:Image width="300" height="70" y="140" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="600" scaleX="-1" scaleY="-1"/>
+				<e:Image width="300" height="70" y="140" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+			</e:Group>
+			<e:Image width="600" height="43" y="2" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="0"/>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="540" height="70" y="47" horizontalCenter="0">
+			<e:viewport>
+				<e:List id="propList" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true" height="0" width="0">
+				<e:layout>
+					<e:TileLayout requestedRowCount="2" requestedColumnCount="3" verticalGap="12" verticalAlign="middle" horizontalGap="50"/>
+				</e:layout>
+				</e:List>
+			</e:viewport>
+			</e:Scroller>
+			<e:Label text="增加属性" size="24" scaleX="1" scaleY="1" horizontalCenter="-1.5" bold="true" verticalCenter="-47" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+			<e:Image width="84" height="14" y="15" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="104" x="10" source="com_title_line"/>
+			<e:Image width="84" height="14" y="15" scaleX="-1" scaleY="1" anchorOffsetX="0" x="235" source="com_title_line"/>
+		</e:Group>
+		<e:Group y="778" horizontalCenter="0">
+			<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="0"/>
+			<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="610" scaleX="-1"/>
+		</e:Group>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="586" height="150" y="796" horizontalCenter="0">
+			<e:viewport>
+			<e:List id="itemList" anchorOffsetX="0" x="15" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true" width="0" height="0">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<e:Button id="up" label="进 阶" y="680" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0" alpha="0" touchEnabled="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Label id="labelDisplay" text="" size="24" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="activeGroup" width="405" height="96" y="670" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" touchEnabled="false">
+			<e:Button id="activeBtn" label="激 活" y="9" width="132" height="48" x="136">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="66" height="48" y.down="-2" source="com_button03" source.up="com_button04" source.down="com_button04" source.disabled="com_button04"/>
+				<e:Image width="66" height="48" source="com_button03" x="132" y="0" scaleX="-1" source.up="com_button04" source.down="com_button04" source.disabled="com_button04" y.down="-2"/>
+				<e:Label id="labelDisplay" text.up="激 活" size.up="26" text.down="激 活" size.down="26" text="激 活" size="26" x.disabled="21" y.disabled="11" y.down="9" textAlign="center" horizontalCenter="0" horizontalCenter.down="0" verticalCenter.up="0" horizontalCenter.up="0" stroke="1" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" fontFamily.disabled="Microsoft YaHei" size.disabled="26" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<ns1:ItemBase2 id="item" width="86" height="86" x="3" y="0" skinName="skin.ItemBaseSkin2" visible="false"/>
+			<e:Label id="openDesc" text="通过%t活动获取" y="69" size="22" textColor="0x1ce17d" anchorOffsetY="0" height="22" anchorOffsetX="0" width="400" textAlign="center" horizontalCenter="-0.5" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b"/>
+			<e:Label id="needNum" text="99344" x="121" y="11.5" size="20" anchorOffsetX="0" width="143" textAlign="center" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Button id="hideBtn" label="" y="390" anchorOffsetX="0" width="114" anchorOffsetY="0" height="116" x="494">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image y.down="-2" source="shenbing_btn4" horizontalCenter="0" width.disabled="114" height.disabled="116" y="0" width="114" height="116"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="1.5" verticalCenter.down="1.5"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="showBtn" label="" y="390" anchorOffsetX="0" width="114" anchorOffsetY="0" height="116" x="494">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width.up="114" height.up="116" width.down="114" height.down="116" width.disabled="114" height.disabled="116" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="114" height="116" y="0" y.down="-2" horizontalCenter="0" source="shenbing_btn5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="1.5" verticalCenter.down="1.5"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:UpStage id="upgradeView" width="620" height="844" skinName="skin.UpStage" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

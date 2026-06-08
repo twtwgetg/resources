@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" height.up="36">
+    <e:Image width="52" height="36" alpha.disabled="0.5"
+            
+             source="com_button05" scale9Grid="23,8,17,11" source.down="com_button05"/>
+	<e:Image width="52" height="36" source="com_button05" scale9Grid="23,8,17,11" x="104" y="0" scaleX="-1"/>
+    <e:Label id="labelDisplay"
+             size="20"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" left.disabled="8" right.disabled="8" top.disabled="1" bottom.disabled="15" left.down="8" right.down="8" top.down="7" bottom.down="9" height.down="20" height="20" y="0" y.up="8" width.up="88" x.up="8" fontFamily.up="Microsoft YaHei" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

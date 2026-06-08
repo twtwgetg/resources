@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuzaiBossItemSkinSkin" width="290" height="385" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="164bce1c209" ></w:Config>
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="57.33" horizontalCenter="6">
+		<e:Image x="0" y="0" source="paiqianicon_08"/>
+		<e:Image x="213.28" y="0" source="paiqianicon_08" scaleX="-1"/>
+	</e:Group>
+	<e:Group y="3.99" horizontalCenter="0">
+		<e:Image source="zh_03" x="0" y="0"/>
+		<e:Image source="zh_03" x="282" y="0" scaleX="-1"/>
+	</e:Group>
+	<e:Group y="45.2" width="130" height="130" horizontalCenter="0">
+		<e:Image width="112" height="112" anchorOffsetX="0" source="boss_bg1" horizontalCenter="9" verticalCenter="8" scale9Grid="9,9,93,93"/>
+		<e:Image id="icon_boss" width="110" height="110" x="21" y="19" anchorOffsetX="0" anchorOffsetY="0" source="tongyong_pic24"/>
+		<e:Image width="128" height="126" y="7.98" scale9Grid="25,19,1,1" x="9.31" anchorOffsetX="0" source="boss_bg2"/>
+	</e:Group>
+	<e:Group id="select" x="0" y="0" anchorOffsetX="0" width="290" visible="false">
+		<e:Image width="128" height="126" scale9Grid="25,19,1,1" anchorOffsetX="0" source="zhuxianboss_pic17" x="89" y="52"/>
+		<e:Image width="100%" height="386" scale9Grid="25,19,1,1" anchorOffsetX="0" y="0" source="zhuxianboss_pic16" anchorOffsetY="0" x="0"/>
+	</e:Group>
+	<e:Group height="24" anchorOffsetX="0" width="250" horizontalCenter="0" top="14">
+		<e:Label id="tname" text="地孽冥蝠(1转-2转)" size="20" anchorOffsetX="0" width="100%" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181b" textAlign="center" textColor="0xfbcc90" horizontalCenter="6" verticalCenter="-2"/>
+	</e:Group>
+	<e:Group x="0" y="194" width="300" anchorOffsetY="0" height="145">
+		<e:Label text="掉 落" y="38.95" anchorOffsetX="0" size="22" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" horizontalCenter="6.5" textAlign="center" textColor="0xfbcc90"/>
+		<e:Image width="84" height="14" y="43.64" scaleX="-1" scaleY="1" anchorOffsetX="0" x="123.67" source="com_title_line"/>
+		<e:Image width="84" height="14" y="43.64" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="78" x="10" source="com_title_line"/>
+		<ns1:ItemBase6 xmlns:ns1="*" id="item_d0" width="114" height="111" x="0" y="72" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin6"/>
+		<ns1:ItemBase6 xmlns:ns1="*" id="item_d1" width="114" height="111" x="89" y="72" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin6"/>
+		<ns1:ItemBase6 xmlns:ns1="*" id="item_d2" width="114" height="111" x="178.67" y="72" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin6"/>
+	</e:Group>
+	<e:Label id="killedrecord" text="查看挑战记录" y="184.01" anchorOffsetX="0" width="130" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1ce17d" horizontalCenter="13"/>
+	<e:Image width="118" x="94" scale9Grid="1,0,1,4" y="206" anchorOffsetY="0" source="downline_B"/>
+	<e:Image id="isKill" scale9Grid="25,19,1,1" anchorOffsetX="0" anchorOffsetY="0" source="zhuxianboss_pic15" y="70" x="98" visible="false"/>
+</e:Skin>

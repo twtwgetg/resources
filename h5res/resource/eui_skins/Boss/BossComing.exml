@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossBeginSkin" width="693" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="1614c1f3caf"/>
+	<e:Group x="340" y="856" touchEnabled="false" touchChildren="false" touchThrough="true">
+		<ns1:MovieClipCtrl id="effect" width="0" height="0" skinName="MovieClipCtrlSkin" name="9031" x="0" y="0" touchChildren="false" touchEnabled="false"/>
+		<ns1:MovieClipCtrl id="xunhuan" width="0" height="0" skinName="MovieClipCtrlSkin" name="9026" x="10" y="10" touchChildren="false" touchEnabled="false" visible="false"/>
+	</e:Group>
+</e:Skin>

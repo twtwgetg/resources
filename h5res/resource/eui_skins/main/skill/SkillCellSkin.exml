@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="SkillCellSkin" width="140" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Button id="btn" label="" x="0" y="0" width="140" height="142">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/data/charactor/UI/h5_demo/wuxue/wuxuejineng/jinengyeqian_changtai.png" source.down="resource/assets/data/charactor/UI/h5_demo/wuxue/wuxuejineng/jinengyeqian_shengji.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="skillName" text="雪山剑法" x="9" y="97.14" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<ogre_ui:SkillItem id="skill" width="64" height="64" x="37" y="20" skinName="ogre_ui.skillitem"/>
+	<e:Image id="useSign" width="37" height="46" x="18.5" y="13.5" source="resource/assets/data/charactor/UI/h5_demo/wuxue/wuxuejineng/wuxuejineng_pei.png"/>
+	<e:Button id="upgradeBtn" label="升一级" x="20" y="18" visible="false"/>
+	<e:Button id="moreTimesBtn" label="升十级" x="20" y="70" visible="false"/>
+</e:Skin>

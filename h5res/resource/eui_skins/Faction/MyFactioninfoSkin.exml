@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionminfoSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="-1" skinName="CommonbackSkin" horizontalCenter="-1"/>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="117" y="1008">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="6" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:Group x="0" y="22">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="91.25" y="22">
+					<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+					<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="181.5" y="22">
+					<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+					<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="272.75" y="22">
+					<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+					<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="364" y="22">
+					<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+					<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Label text="门 派" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2"/>
+	<e:Group x="72" y="107">
+		<ns1:FactionPanel id="factionView" width="640" height="890" x="0" y="0" skinName="FactionPanelSkin"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

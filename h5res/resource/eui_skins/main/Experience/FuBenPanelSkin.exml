@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuBenPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Commonback id="commonBack" width="786" height="1136" skinName="CommonbackSkin" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label text="洪荒试炼" y="52" fontFamily="Microsoft YaHei" horizontalCenter="2" textColor="0x2E120A" size="26"/>
+	<e:Group id="titletop" x="25" y="7.5">
+	</e:Group>
+	<e:Group id="viewGroup" horizontalCenter="0" top="0">
+		<ns1:FuShiTaView id="fuShiTaView" skinName="fushitaSkin" name="fuShiTaView" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<ns1:ScrollPage id="scrollPage" width="490" height="100" x="116" y="1028" anchorOffsetY="0">
+		<ns1:skinName>
+		<e:Skin width="490" height="92">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19" x="113" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton id="mainBtn" x="0" y="0" width="86" height="86" name="fuShiTaView" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="73" height.up="78" width.down="73" height.down="78" width.disabled="73" height.disabled="78" width="86" height="86">
+					<e:Image width="68" height="69" source="com_back01" scaleX="1" scaleY="1" x="9" y="6"/>
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" x="3" y="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:Image id="fuShiTaBtn" width="86" height="86" x="0" y="0" source="fushitaicon_01" name="fuShiTaView"/>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+			<e:Group x="200.5" y="14"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="closeBtn" label="" x="657" width="56" height="56" y="49" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

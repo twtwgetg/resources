@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BottomMsgSkin" width="200" height="32" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1612c15981f" ></w:Config>
+	<e:Group x="0" y="0" anchorOffsetX="0" width="200" anchorOffsetY="0" height="32">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" width="200" height="32" x="0" alpha="1" y="0" source="itemdropbg" scale9Grid="19,14,32,4"/>
+	</e:Group>
+	<e:Label id="msgText" text="消耗主宰碎片 x 3" multiline="false" anchorOffsetX="0" size="16" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" width="200" verticalCenter="0" horizontalCenter="0" textAlign="center"/>
+</e:Skin>

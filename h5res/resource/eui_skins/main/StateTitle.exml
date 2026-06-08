@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StateTitleSkin" width="402" height="358" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1665c93f272" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" y="-823" horizontalCenter="0"/>
+	<e:Group x="0" y="0" width="402" height="358" locked="true">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group y="128" width="368" height="154" horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%" locked="true">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Image width="358" height="40" y="131.65" source="com_back_title" horizontalCenter="0"/>
+	<e:Label id="statelevel" text="1转激活" x="164" y="74.5" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0x1ce17d"/>
+	<e:Group id="titleNameGroup" y="310" horizontalCenter="0">
+		<e:Label text="下一阶段 " x="43" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xffffff"/>
+		<e:Label id="level" text="3转" x="129" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xFFFFFF"/>
+		<e:Label text="激活【" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xFFFFFF" x="167"/>
+		<e:Label id="Nexttitle" text="略有小成" x="228" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xFFFFFF"/>
+		<e:Label text="】" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xFFFFFF" x="311"/>
+	</e:Group>
+	<e:Group id="nameGroup" y="40" horizontalCenter="0">
+		<e:Label text="【" x="0" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xffef42"/>
+		<e:Label id="titleName" text="初入江湖" x="0" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xFFEF42"/>
+		<e:Label text="】" x="0" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" textAlign="center" verticalAlign="middle" textColor="0xFFEF42"/>
+	</e:Group>
+	<e:Group x="25" y="26" width="90">
+		<e:Image x="0" y="0" source="partner_synbg" scaleX="1" scaleY="1" height="90" width="45"/>
+		<e:Image y="0" source="partner_synbg" scaleX="-1" scaleY="1" right="0" width="45" height="90"/>
+		<e:Image id="title" source="zs_1" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="3" top="3" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="137.29" horizontalCenter="0">
+		<e:Image width="84" height="14" y="4.72" scaleX="1" scaleY="1" anchorOffsetX="0" x="201.67" source="com_title_line"/>
+		<e:Image width="84" height="14" y="4.72" scaleX="-1" scaleY="1" anchorOffsetX="0" x="85.67" source="com_title_line"/>
+		<e:Label text="属性加成" size="22" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:List id="propList" width="252.67" height="99.67" y="175.33" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="1" requestedRowCount="3" verticalGap="0"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.PropMidBase3" width="192" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162a91516b8" ></w:Config>
+	<e:Label id="propName" text="属性属性" size="18" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%" touchEnabled="false" textAlign="left" x="6" verticalAlign="middle" verticalCenter="0" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="propValue" text="" size="18" anchorOffsetX="0" width="80" anchorOffsetY="0" height="18" touchEnabled="false" verticalAlign="middle" textAlign="left" x="97" textColor="0x54f207" verticalCenter="0" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	<e:Label text="" x="85" size="18" textColor="0xCFCBD6" verticalAlign="middle" verticalCenter="3" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	<e:Label id="PlusProp" text="(+999)" size="18" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" verticalAlign="middle" textAlign="left" x="130" y="3" textColor="0x69EA0E" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" visible="false"/>
+</e:Skin>

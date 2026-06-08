@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StaticHtmlTextSkin" width="173" height="32" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="htmlLabel" text="&lt;u&gt;展示神装&lt;/u&gt;" x="0" y="0" width="173" height="32" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" size="20"/>
+</e:Skin>

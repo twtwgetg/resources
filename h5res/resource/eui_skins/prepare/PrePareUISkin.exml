@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PrePareUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" width="692" height="1136">
+	<w:Declarations>
+		<tween:TweenGroup id="ani">
+			<tween:TweenItem target="{middle}">
+				<tween:To duration="100" ease="cubicInOut">
+					<tween:props>
+						<e:Object rotation="{-8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100" ease="cubicInOut">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100" ease="cubicInOut">
+					<tween:props>
+						<e:Object rotation="{8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100" ease="quintIn">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{downpic}">
+				<tween:Wait duration="650"/>
+				<tween:Set/>
+				<tween:To duration="350" ease="quintIn">
+					<tween:props>
+						<e:Object y="{1136}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{uppic}">
+				<tween:Wait duration="650"/>
+				<tween:Set/>
+				<tween:To duration="350" ease="quintIn">
+					<tween:props>
+						<e:Object y="{-712}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="test">
+			<tween:TweenItem target="{downpic}">
+				<tween:Set/>
+				<tween:To duration="500" ease="quintIn">
+					<tween:props>
+						<e:Object y="{850.5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="kaichang">
+			<tween:TweenItem target="{group0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{446}" y="{709}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object x="{446}" y="{630}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object x="{446}" y="{709}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{446}" y="{709}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="kaichang2">
+			<tween:TweenItem target="{group1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{185}" y="{803}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{185}" alpha="{1}" y="{606}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{185}" alpha="{0}" y="{606}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bgMask" width="700" horizontalCenter="0" verticalCenter="-1" height="1132" alpha="1" source="mask" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="noTween" top="0" verticalCenter="0" bottom="0" left="0" horizontalCenter="0" right="0" visible="false">
+		<e:Image id="bgtex" anchorOffsetX="0" anchorOffsetY="0"  height="1132" y="0" width="693" x="0" source="pre_bg_jpg"/>
+
+
+
+		<ns1:SimpleProgressBar id="pb" y="964.92" horizontalCenter="0.5" skinName="preparepbSkin"/>
+	</e:Group>
+	<e:Group id="tween_Open" x="0" y="0" width="694" height="1136">
+		<e:Group id="uppic">
+			<e:Image id="up" anchorOffsetX="0" anchorOffsetY="0" height="569" y="569" width="694" scaleY="-1" x="694" scaleX="-1" source="Animation_png"/>
+			<e:Group id="group" rotation="0" y="422" x="200">
+				<e:Image id="middle" anchorOffsetX="146" anchorOffsetY="146.5" scaleX="1" scaleY="1" y="146" x="146" source="Animationcenter_png" width="294" height="295"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="downpic" anchorOffsetX="0" anchorOffsetY="0" height="569" y="568" width="694" source="Animation_png" x="0"/>
+	</e:Group>
+	<e:Group id="manHuaGroup" width="100%" height="100%" visible="false">
+		<e:Image scaleX="1" scaleY="1" width="100%" height="100%" source="com_mask"/>
+
+		<ns1:ManHuaComp id="manHua"/>
+		<e:Label id="crossManHua" text="跳过漫画" x="555" y="1068" fontFamily="Microsoft YaHei" size="24" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90"/>
+
+		<e:Group x="545" y="1096">
+			<e:Label text="秒后自动关闭" y="0" anchorOffsetX="0" anchorOffsetY="0" height="20" size="18" textAlign="right" verticalAlign="middle" fontFamily="Microsoft YaHei" x="16" strokeColor="0x14181B" stroke="1" textColor="0x4EDD55"/>
+			<e:Label id="leftTime" text="8" y="0" anchorOffsetX="0" anchorOffsetY="0" height="20" size="18" textAlign="right" verticalAlign="middle" fontFamily="Microsoft YaHei" x="0" stroke="1" strokeColor="0x14181B" textColor="0x4EDD55"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group0" x="446" y="709" visible="false">
+		<e:Group x="0" y="0">
+			<e:Group x="0" y="-3" width="190" height="246">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" source="kaichang02" scale9Grid="20,18,23,25"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" top="0" right="0" source="kaichang02" scale9Grid="20,21,24,22"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scaleY="-1" left="0" bottom="0" source="kaichang02" scale9Grid="19,21,23,23"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="-1" right="0" bottom="0" source="kaichang02" scale9Grid="20,18,24,25"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="-1" x="54" y="253" rotation="90" source="UIPic_511"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="41" y="60">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,15,33,85" source="XunBao_011"/>
+			<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,15,33,85" scaleX="-1" source="XunBao_011"/>
+			<e:Image x="12" y="27" anchorOffsetX="0" anchorOffsetY="0" source="kaichang01"/>
+			<e:Image x="-18" y="-36" anchorOffsetX="0" anchorOffsetY="0" source="kaichang04"/>
+		</e:Group>
+		<e:Group y="175" x="40" scaleX="0.7" scaleY="0.7">
+			<e:Image y="-4.29" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" height="30" source="XunBao_021"/>
+			<e:Image y="-4.29" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" x="152" height="30" source="XunBao_021"/>
+			<e:Image height="36" width="150" scale9Grid="44,9,131,27" x="6" y="-7" source="com_back_power1"/>
+			<e:Image x="46.28" y="0.99" scaleX="1.2" scaleY="1.2" source="kaichang03"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group1" x="185" y="803" visible="false">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,15,33,85" source="XunBao_011"/>
+		<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,15,33,85" scaleX="-1" source="XunBao_011"/>
+		<e:Image x="12" y="27" anchorOffsetX="0" anchorOffsetY="0" source="kaichang01"/>
+		<e:Image x="115" y="37" anchorOffsetX="0" anchorOffsetY="0" source="kaichang05"/>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

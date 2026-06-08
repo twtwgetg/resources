@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="DropItemSkin" width="109" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<ns1:MovieClipCtrl id="qualityEffect" name="0" skinName="MovieClipCtrlSkin" width="32" height="32" x="55" y="-27.5"/>
+
+	<e:Image id="icon" width="32" height="32" x="39" y="-42.5"/>
+
+
+
+
+	<e:Group id="nameGroup" x="-2" y="-1">
+		<e:Group y="0.5" anchorOffsetX="0" width="70" anchorOffsetY="0" height="28" x="7">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="108.6" height="26.4" x="-5.8" alpha="1" y="0" source="itemdropbg" scale9Grid="19,14,32,5"/>
+
+
+
+		</e:Group>
+		<ns1:DropItemName id="itemName" width="115" height="28" x="0" y="0" skinName="DropItemNameSkin"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="effect" x="55" y="-24.5" name="0" skinName="MovieClipCtrlSkin"/>
+
+
+
+
+
+</e:Skin>

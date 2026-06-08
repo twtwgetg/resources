@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankFieldRankingWardsViewSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Group x="101" y="90" width="582" height="860" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Image width="288" height="58" x="105" y="840" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" source="select_03" scale9Grid="35,18,217,21"/>
+	<e:Image width="288" height="58" x="681" y="840" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="select_03" scale9Grid="51,7,197,44"/>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="571" height="702" horizontalCenter="-0.5" y="142">
+		<e:List id="list" width="570" height="711" anchorOffsetY="0"/>
+	</e:Scroller>
+	<e:Label text="排名奖励" y="42" fontFamily="Microsoft YaHei" size="26" horizontalCenter="2" textColor="0x2e120a" strokeColor="0x14181b"/>
+	<e:Image width="564" height="43" y="101" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="26,5,160,34" horizontalCenter="0" source="com_back_title"/>
+	<e:Label text="我的战绩:" x="135" y="859" fontFamily="Microsoft YaHei" size="18" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="mingci" text="99" x="220" y="858" fontFamily="Microsoft YaHei" size="20" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d"/>
+	<e:Label id="weishangbang" text="未上榜" x="220" y="859" fontFamily="Microsoft YaHei" size="18" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="fenshu" text="0" x="580" y="857" fontFamily="Microsoft YaHei" size="20" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="当前荣誉值:" x="477" y="858" textColor="0xF0E6CD" fontFamily="Microsoft YaHei" size="18" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="每日0点会按照遭遇榜的排名以邮件的方式发放奖励，请注意查收！" x="115" y="903" fontFamily="Microsoft YaHei" size="19" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="遭遇战排名日结算奖励" x="304" y="110" fontFamily="Microsoft YaHei" size="20" textAlign="center" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+</e:Skin>

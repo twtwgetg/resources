@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenSysBaseSkin" width="135" height="162" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="164875e65c9" ></w:Config>
+	<e:Group y="0" width="136" height="162" horizontalCenter="0">
+		<e:Image id="bg" width="50%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="OpensysUIPic_1"/>
+		<e:Image id="bg0" width="50%" height="100%" x="136" y="0" anchorOffsetX="0" anchorOffsetY="0" source="OpensysUIPic_1" scaleX="-1"/>
+	</e:Group>
+	<e:Label id="OpenStage" text="1000关开启" y="9" size="22" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0.5"/>
+	<e:Image id="SysIcon" width="90" height="90" verticalCenter="3" horizontalCenter="0.5"/>
+	<e:Image id="over" anchorOffsetX="0" anchorOffsetY="0" source="youjian_pic7" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="7"/>
+	<e:Label id="open" text="可领取" y="130" size="18" textColor="0x3ed646" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0.5"/>
+	<e:Image id="selectSign" width="136" height="162" source="jineng_pic17" scale9Grid="8,8,25,25" anchorOffsetX="0" anchorOffsetY="0" rotation="359.99" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="Red" height="20" source="com_red" width="20" scaleX="0.9" scaleY="0.9" right="0" top="2"/>
+	<e:Image id="blackMask" left="0" right="0" top="0" bottom="0" alpha="1" source="boss_close" scale9Grid="7,7,19,12" width="136" height="162"/>
+</e:Skin>

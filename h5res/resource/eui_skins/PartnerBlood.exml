@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.PartnerBlood" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="80" height="9">
+	<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" source="UIPic_10" scale9Grid="1,1,84,11"/>
+	<e:Image id="thumb" y="1" anchorOffsetX="0" anchorOffsetY="0" x="0.5" scaleX="1" width="79.33" source="UIPic_32" height="7.17"/>
+</e:Skin>

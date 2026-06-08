@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.QualityBase" width="84" height="84" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="iconGroup" x="0" y="0" width="84" height="84" visible="false">
+		<e:Image id="qualityIcon2" width="42" height="84" x="84" y="0" fillMode="scale" scaleX="-1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="quality_0"/>
+		<e:Image id="qualityIcon1" width="42" height="84" x="0" y="0" fillMode="scale" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="quality_0"/>
+	</e:Group>
+	<e:Group id="qualityIcon" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Image id="qualityIcon3" width="58" height="58" fillMode="scale" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="UIPic_15"/>
+		<e:Image id="qualityIcon0" fillMode="scale" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_24" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

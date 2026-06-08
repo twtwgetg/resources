@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankLose" width="610" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="610" height="280" y="274" anchorOffsetX="0" source="com_back_power" scale9Grid="0,5,212,34" x="0"/>
+	<e:Group y="479.38" horizontalCenter="-4">
+		<e:Image x="0" source="wangzhe_10" y="-2"/>
+		<ns1:SimpleProgressBar id="progress" width="360" height="15" x="95" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-0.5">
+		<ns1:skinName>
+			<e:Skin width="360" height="15">
+			<e:Image width="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_barbg" scale9Grid="2,2,111,11" height="100%"/>
+			<e:Image id="thumb" width="360" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scale9Grid="2,0,82,17" source="wangzhe_11"/>
+			<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" visible="false"/>
+			<e:Label id="text" text="99999" textAlign="center" verticalCenter="0" size="18" stroke="1" fontFamily="Microsoft YaHei" horizontalCenter="0" width="130" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="171" name="9010" y="10"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:SimpleProgressBar>
+	</e:Group>
+	<e:Image id="bg" y="86" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/pic_fail.png" scaleX="0.85" scaleY="0.85" x="36"/>
+
+
+	<e:Image id="RankImage" y="299" anchorOffsetX="0" scaleX="0.7" scaleY="0.7" source="" horizontalCenter="0"/>
+	<e:Image id="icon2" y="430" anchorOffsetX="0" anchorOffsetY="0" source="" horizontalCenter="0"/>
+	<e:Group y="515" x="265">
+		<e:Label text="积分" x="0" y="0" size="20" verticalAlign="middle" textAlign="right" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x1ce17d" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="increaseNum" text="9999" x="57.34" y="0" size="20" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Button id="confirmBtn" label="" y="578" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+			<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+</e:Skin>

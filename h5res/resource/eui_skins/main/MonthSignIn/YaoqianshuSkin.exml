@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YaoqianshuSkin" width="640" height="810" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="607" height="610" x="16" y="3" source="resource/assets/data/ui/bgs/yaoqianshu_bg.png"/>
+	<e:Group y="674" width="591" horizontalCenter="0">
+		<e:Group x="1" y="-50">
+			<e:Label text="获得金币:" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" textColor="0xFBCC90" strokeColor="0x14181b" stroke="1" textAlign="left" x="6"/>
+			<e:Label id="moneyNum" text="9999999" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1CE17D" x="98"/>
+		</e:Group>
+		<e:Group x="429" y="-50">
+			<e:Label text="剩余次数:" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" textColor="0xFBCC90" strokeColor="0x14181B" stroke="1" textAlign="left" x="6"/>
+			<e:Label id="timesNum" text="27/27" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1CE17D" x="98"/>
+		</e:Group>
+		<e:Group x="210" y="-1" width="307">
+			<e:Label id="needLabel" text="本次免费" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="1" strokeColor="0x14181B" stroke="1" textAlign="center" left="40" textColor="0xfbcc90"/>
+			<e:Group id="timeGroup" x="5" y="0">
+				<e:Label text="后免费一次" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="1" strokeColor="0x14181b" stroke="1" textAlign="left" textColor="0xfbcc90" x="56"/>
+				<e:Label id="remainTime" text="12:12" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="0" stroke="1" strokeColor="0x14181b" textAlign="left" textColor="0x1ce17d" x="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="vipGroup" x="179.5" y="95" width="307">
+			<e:Label text="(提升会员可增加祈福次数        )" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="17" strokeColor="0x14181B" stroke="1" textAlign="left" left="-6" textColor="0xffea00"/>
+			<e:Image width="40" height="3" x="200" y="35" anchorOffsetX="0" anchorOffsetY="0" source="downline_B" scaleX="1" scaleY="1"/>
+			<e:Label id="showVipBtn" text="前往" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="17" stroke="1" strokeColor="0x14181B" left="201" textAlign="left" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Button id="getBtn" label="祈  福" y="29" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" horizontalCenter="-3.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="87" height="59" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="祈  福" size="24" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x071E39" verticalCenter.up="0" verticalCenter.down="-2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image id="baojinum" width="49" height="53" x="390" y="539" source="baojinum_3"/>
+	<e:Image id="daojinum" width="49" height="53" x="205" y="539" source="daojinum_3"/>
+	<e:Group id="flyStart" width="1" height="1" y="238" horizontalCenter="0"/>
+</e:Skin>

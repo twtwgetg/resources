@@ -1,0 +1,151 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankingListSkinMainSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" width="580" height="920">
+
+	<e:Image width="574" height="430" y="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/RankingList_bg.png" horizontalCenter="0"/>
+	<e:Group y="426" anchorOffsetX="0" x="3">
+		<e:Image width="288" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="0"/>
+		<e:Image width="288" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="576" scaleX="-1"/>
+	</e:Group>
+
+		<e:Group x="4" y="440" width="134" height="402" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+
+		<e:Group x="140" y="440" width="438" height="402" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label id="noPlayer" text="暂无玩家上榜" x="244" size="40" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="254" height="40" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="center" y="613" textColor="0xffffff"/>
+	<e:Group id="firstGroup" y="0" horizontalCenter="0" width="580" touchThrough="false">
+
+
+		<e:Group id="photoParent" scaleX="0.5" scaleY="0.5" y="293" x="290"/>
+
+
+
+
+
+		<e:Group id="grp_ply" x="0" y="11">
+			<e:Group x="435" y="193.03">
+				<e:Image id="gold" x="0" y="0" source="UIPic_38" width="26" height="27"/>
+				<e:Label id="goldIncome" text="178888" x="29.35" y="4" size="20" stroke="1" fontFamily="Microsoft YaHei" width="100"/>
+			</e:Group>
+			<e:Group x="435" y="164">
+				<e:Image x="0" y="0" source="Head_36"/>
+				<e:Label id="expIncome" text="178888" x="29.35" y="4" size="20" stroke="1" fontFamily="Microsoft YaHei" width="100"/>
+			</e:Group>
+			<e:Button id="goldedBtn" label="已膜拜" x="438" y="225" width="102" height="35">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button05" source.down="com_button05"/>
+					<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button05" source.down="com_button05"/>
+					<e:Label id="labelDisplay" text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071E39" y.up="0" stroke.down="1" strokeColor.down="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="goldBtn" label="膜 拜" x="438" y="225" width="102" height="35" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="52" height="35" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+					<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+					<e:Label id="labelDisplay" text="探索" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+
+
+
+			<e:Group y="304" x="0">
+				<e:Image x="0" y="-1" width="574" height="114" source="com_back_power" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="0,5,212,34"/>
+				<e:Image id="rank" width="134" height="94" anchorOffsetY="0" y="0" x="24" source="ranking_1"/>
+				<e:Label id="playerName" text="玩家名字六字" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="14" x="234"/>
+				<e:Group id="vipGroup" x="355" y="11">
+					<e:Image width="100" height="31" x="1" y="-1" source="UIPic_22"/>
+					<e:Image width="39" height="20" x="19" source="liaotian_pic14" y="5"/>
+					<ns1:NumListComp id="myvipLevel0" x="60" y="5"/>
+				</e:Group>
+				<e:Label id="playerLevel" text="一转99级" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="150" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="47" scaleX="1" scaleY="1" x="234"/>
+				<e:Label id="playerFight" text="战力:999999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="78" textColor="0xfbcc90" scaleX="1" scaleY="1" x="234"/>
+
+			</e:Group>
+			<e:Image id="click" width="204" height="297" y="7" scale9Grid="66,43,81,46" anchorOffsetY="0" x="180" anchorOffsetX="0" source="ranking_1" alpha="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="playerScroller" width="430" height="384" x="146" y="448" anchorOffsetY="0" anchorOffsetX="0">
+		<e:List id="playerList" y="3">
+			<e:layout>
+				<e:VerticalLayout paddingTop="2" gap="4" paddingBottom="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group y="838" horizontalCenter="0">
+		<e:Group y="0" x="0">
+			<e:Image width="290" height="58" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" alpha="0.4" x="0" source="select_03" scale9Grid="47,21,19,22"/>
+			<e:Image width="290" height="58" y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" source="select_03" anchorOffsetY="0" alpha="0.4" x="580" scale9Grid="42,22,25,18"/>
+		</e:Group>
+		<e:Group x="36" width="210" verticalCenter="0">
+		<e:Label id="myPos" text="1000" x="84" y="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x1ce17d"/>
+		<e:Label text="我的排名:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xfbcc90"/>
+		</e:Group>
+		<e:Group x="356" scaleX="1" scaleY="1" width="174" verticalCenter="0">
+		<e:Label id="myPower" text="99999999" x="48" y="0" size="18" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0xfbcc90"/>
+		<e:Label id="zzz" text="战力:" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0xfbcc90"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="checkScroller" width="122" height="384" x="11" y="448" anchorOffsetY="0">
+		<e:List id="checkList" anchorOffsetX="0" width="118">
+			<e:layout>
+				<e:VerticalLayout gap="8"/>
+			</e:layout>
+		</e:List>
+		
+	</e:Scroller>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

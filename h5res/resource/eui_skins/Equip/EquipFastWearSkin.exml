@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipFastWearSkin" width="250" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+	<e:Group x="0" y="0">
+		<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+		<e:Image width="50%" height="50%" x="250" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+		<e:Image width="50%" height="50%" x="250" y="348" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" x="0" y="348" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0">
+		<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+		<e:Image width="50%" height="63" x="250" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+	</e:Group>
+	<e:Image width="55" height="14" x="175" y="40" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+	<e:Image width="55" height="14" x="75" y="40" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line" scaleX="-1"/>
+	<e:Label text="获得装备" y="34" textColor="0xfbcc90" size="24" fontFamily="Microsoft YaHei" strokeColor="0x14181b" horizontalCenter="0" stroke="1"/>
+	<e:Image width="94" height="2" x="32" y="205" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline"/>
+	<e:Image width="94" height="2" x="218" y="205" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" scaleX="-1"/>
+	<e:Button id="btn" label="穿戴{0}" anchorOffsetX="0" width="134" anchorOffsetY="0" height="48" y="274" x="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" width="134" height="48">
+	<e:Image width="67" height="48" x="0" y="0" source="com_button04"/>
+	<e:Image width="67" height="48" x="134" y="0" source="com_button04" scaleX="-1"/>
+			<e:Label id="labelDisplay" text="asdads" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:ItemBase7 id="item" width="114" height="111" x="64" y="76" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin7"/>
+	<ns1:powerzlcomp id="power" width="230" height="39" x="15.35" y="222" anchorOffsetX="0" anchorOffsetY="0">
+		<ogre_ui:skinName>
+			<e:Skin width="203.5" height="38">
+			<e:Image x="18" source="UIPic_35" anchorOffsetX="0" width="66" anchorOffsetY="0" height="32" verticalCenter="0"/>
+			<e:Group id="powerGroup" x="98" scaleX="1" scaleY="1" verticalCenter="-1.5">
+				<e:Image scaleX="0.7" scaleY="0.7" x="0" y="0" source=""/>
+				<e:layout>
+					<e:HorizontalLayout gap="-1" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			</e:Skin>
+		</ogre_ui:skinName>
+	</ns1:powerzlcomp>
+</e:Skin>

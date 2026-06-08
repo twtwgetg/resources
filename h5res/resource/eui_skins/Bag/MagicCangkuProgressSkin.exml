@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicCangkuProgressSkin" width="600" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="25" y="15" name="9010" skinName="MovieClipCtrlSkin" visible="false"/>
+	<e:Image width="2" height="15" x="193" y="18" anchorOffsetY="0" source="com_mask"/>
+	<e:Image id="bg" width="504" height="15" anchorOffsetX="0" fillMode="scale" scale9Grid="2,2,82,13" x="36" source="com_barbg" anchorOffsetY="0" verticalCenter="0"/>
+	<e:Image id="thumb" height="15" width="504" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scale9Grid="43,1,1,15" x="36" source="com_bar" verticalCenter="0" y="10"/>
+	<e:Image width="49" height="17" x="65" source="com_barbg1" scaleX="-1" verticalCenter="0.5"/>
+	<e:Image width="49" height="17" x="512" source="com_barbg1" verticalCenter="0.5"/>
+</e:Skin>

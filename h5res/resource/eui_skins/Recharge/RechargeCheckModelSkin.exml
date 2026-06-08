@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeCheckModelSkin" width="124" height="178" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:ToggleButton id="btn" x="0" y="0" name="RechargeActivitiesView" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="124" height.up="178" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+			<e:Image width="124" height="178" includeIn="down,disabled" y="0" x="0" source="qiandoa_11"/>
+			<e:Image id="showIcon" scaleX="1" scaleY="1" y="28" horizontalCenter.disabled="-0.5" horizontalCenter.up="0" horizontalCenter="0.5" source="chongzhi_check01"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Image width="24" height="24" source="com_red" name="redpoint" y="34" x="82"/>
+</e:Skin>

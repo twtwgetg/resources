@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DiscountedBagSkin" width="640" height="830" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="604" height="830" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" source="fulihuidi" scale9Grid="15,14,30,32"/>
+	<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" source="resource/assets/data/ui/bgs/chongzhibg_03.png"/>
+	<e:Scroller id="scroller" y="142" anchorOffsetY="0" scaleX="1" scaleY="1" width="604" height="674" name="oneView" horizontalCenter="0">
+		<e:List id="itemList" width="0" height="674" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="225" y="102">
+		<e:Label text="活动剩余时间:" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label id="lefttimes" text="07:42:49" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="130" touchEnabled="false" textColor="0x1CE17D" width="260"/>
+	</e:Group>
+</e:Skin>

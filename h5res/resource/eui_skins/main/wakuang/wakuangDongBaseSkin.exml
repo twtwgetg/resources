@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="wakuangDongBaseSkinSkin" width="332" height="256" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1632ea88792" ></w:Config>
+	<e:Image x="0" y="39" source="wakuang_2"/>
+	<e:Image id="selected" x="0" y="39" anchorOffsetX="0" anchorOffsetY="0" source="wakuang_3"/>
+	<e:Image x="167" y="140" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" scaleX="-1" height="34" width="80" touchEnabled="false"/>
+	<e:Image width="80" height="34" x="167" y="140" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_6" touchEnabled="false"/>
+	<e:Image x="125" y="132" source="com_titletop" touchEnabled="false"/>
+	<e:Label id="layer" text="当前xx层" y="147" size="20" textAlign="center" verticalAlign="middle" touchEnabled="false" fontFamily="Microsoft YaHei" horizontalCenter="0.5" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+	<e:Group x="137" y="0" touchEnabled="false">
+		<e:Image width="57" height="141" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" rotation="0" source="wakuang_5" touchEnabled="false"/>
+		<e:Label id="DongName" text="阳原矿脉" x="20" y="20" size="20" anchorOffsetY="0" height="98" anchorOffsetX="0" width="20" fontFamily="Microsoft YaHei" textAlign="center" touchEnabled="false" textColor="0x000000" verticalAlign="middle"/>
+	</e:Group>
+	<e:Image width="24" height="24" verticalCenter="-114" horizontalCenter="18" source="com_red" name="redpoint"/>
+</e:Skin>

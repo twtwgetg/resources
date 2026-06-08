@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="fushitaSkin" width="786" height="980" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="resource/assets/data/ui/bgs/fushitaicon_04.png" top="81" horizontalCenter="0"/>
+	<e:Group x="455" y="132" height="120" width="240">
+		<e:Image x="8" y="0" source="fushitaicon_03" anchorOffsetY="0" height="120" anchorOffsetX="0" width="120"/>
+		<e:Image x="248" y="0" source="fushitaicon_03" scaleX="-1" anchorOffsetY="0" height="120" width="120"/>
+		<e:Group x="57.38" y="120" anchorOffsetX="0" width="180">
+		<e:Image x="179.6" anchorOffsetY="0" anchorOffsetX="0" rotation="180" y="2" source="fushitaicon_08" scale9Grid="24,0,16,1" width="90"/>
+		<e:Image x="0.4" anchorOffsetY="0" anchorOffsetX="0" y="1" source="fushitaicon_08" scale9Grid="10,0,10,1" width="90"/>
+			<e:Image x="104.66" anchorOffsetY="0" anchorOffsetX="0" source="fushitaicon_07" rotation="180" scale9Grid="10,5,10,5" y="14.5"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="96" y="464.53">
+		<e:Image width="172" height="63" x="5.32" y="6.65" source="fushitaicon_05"/>
+		<e:Image width="172" height="63" x="208" y="6.65" source="fushitaicon_05"/>
+		<e:Image width="172" height="63" x="412.66" y="6.65" source="fushitaicon_05"/>
+	</e:Group>
+	<e:Group y="624.04" horizontalCenter="0">
+		<e:Image x="0" y="1" source="fushitaicon_10"/>
+		<e:Image x="598" y="1.33" source="fushitaicon_10" scaleX="-1"/>
+		<e:Image id="rateBar" x="14.5" y="11.5" source="fushitaicon_09" width="566" scaleY="1" scaleX="0.5"/>
+	</e:Group>
+	<e:Group id="curItemBg" x="500" y="700">
+		<e:Group id="nameBg3" y="-152">
+		<e:Image width="84" height="43" x="9" y="2" source="fushitaicon_16"/>
+		<e:Image width="84" height="43" x="177" y="2" source="fushitaicon_16" scaleX="-1"/>
+		</e:Group>
+		<e:Group x="0" y="-20">
+		<e:Image x="200" y="-6.65" source="fushitaicon_14" scaleX="-1" scaleY="1"/>
+		<e:Image x="2" y="-6.65" source="fushitaicon_14" scaleX="1" scaleY="1"/>
+		<e:Image width="84" height="44" x="14.81" y="17" source="fushitaicon_16"/>
+		<e:Image width="84" height="44" x="182.81" y="17" source="fushitaicon_16" scaleX="-1"/>
+		<e:Image width="36" height="14" x="15.8" y="34.34" source="fushitaicon_06"/>
+		<e:Image width="36" height="14" x="187.13" y="34.06" source="fushitaicon_06" scaleX="-1"/>
+		<e:Label text="通关奖励" x="57" y="27.56" size="22" textAlign="left" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<ns1:MovieClipCtrl width="1" height="1" x="92" y="-184" name="9038" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="curLevelNum" text="第14关" y="-141" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" size="24" width="100" textAlign="center" left="49" textColor="0xf7e55c"/>
+		<e:Image id="curPoint3" x="54.65" y="-113.51" source="fushitaicon_18" scaleX="1" scaleY="1"/>
+		<e:List id="itemList3" width="174" height="88" y="58" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="3" name="itemList3">
+		<e:layout>
+			<e:TileLayout horizontalGap="2" requestedColumnCount="4"/>
+		</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group id="photoParent1" scaleX="0.8" scaleY="0.8" x="191" verticalCenter="0"/>
+	<e:Group id="photoParent2" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="itemBg1" x="100" y="700" scaleX="1" scaleY="1" width="198">
+		<e:Group id="nameBg1" x="8" y="-151">
+		<e:Image width="88" height="43" x="-7.69" y="2" source="fushitaicon_17"/>
+		<e:Image width="88" height="43" x="168.31" y="2" source="fushitaicon_17" scaleX="-1"/>
+		</e:Group>
+		<e:Image x="12" y="0" source="fushitaicon_17"/>
+		<e:Image x="188" y="0" source="fushitaicon_17" scaleX="-1"/>
+		<e:Image id="point1" x="63.74" y="-84" source="fushitaicon_20"/>
+		<e:Label id="levelNum1" text="第12关" y="-141" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" size="24" x="36.35" textAlign="center" width="100" textColor="0xfbcc90"/>
+		<e:Label text="通关奖励" x="42" y="8" size="22" textAlign="left" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90"/>
+		<e:Group y="-14.5" anchorOffsetY="0" height="14.5" x="13">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" source="fushitaicon_07" scale9Grid="10,5,10,5" y="0" horizontalCenter="0"/>
+			<e:Image x="144" anchorOffsetY="0" anchorOffsetX="0" rotation="180" y="14" source="fushitaicon_08" scale9Grid="24,0,16,1" width="72"/>
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" y="13" source="fushitaicon_08" scale9Grid="10,0,10,1" width="72" x="0"/>
+		</e:Group>
+		<e:List id="itemList1" width="174" height="88" y="58" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-3" name="itemList1">
+			<e:layout>
+			<e:TileLayout horizontalGap="2" requestedColumnCount="4"/>
+			</e:layout>
+		</e:List>
+		<e:Image id="finishSign1" width="116" x="28.49" y="-277.75" source="fushitaicon_19"/>
+	</e:Group>
+	<e:Group id="itemBg2" x="300" y="700">
+		<e:Image x="11.5" y="0.5" source="fushitaicon_17"/>
+		<e:Image x="187.5" y="0.5" source="fushitaicon_17" scaleX="-1"/>
+		<e:Group id="nameBg2" y="-152" x="-3.5">
+			<e:Image width="88" height="43" x="7" y="4" source="fushitaicon_17"/>
+			<e:Image width="88" height="43" x="183" y="4" source="fushitaicon_17" scaleX="-1"/>
+		</e:Group>
+		<e:Label text="通关奖励" y="8" size="22" textAlign="left" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90" x="52"/>
+		<e:Label id="levelNum2" text="第13关" x="47.33" y="-141" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" size="24" width="100" textAlign="center" textColor="0xfbcc90"/>
+		<e:Image id="point2" y="-82.5" source="fushitaicon_20" scaleX="1" scaleY="1" x="77"/>
+		<e:Group y="-14.5" horizontalCenter="2" width="144">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" source="fushitaicon_07" scale9Grid="10,5,10,5" y="0" horizontalCenter="0"/>
+			<e:Image x="144" anchorOffsetY="0" anchorOffsetX="0" rotation="180" y="14" source="fushitaicon_08" scale9Grid="24,0,16,1" width="72"/>
+			<e:Image x="0" anchorOffsetY="0" anchorOffsetX="0" y="13" source="fushitaicon_08" scale9Grid="10,0,10,1" width="72"/>
+		</e:Group>
+		<e:List id="itemList2" width="174" height="88" y="58" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="4" x="4" scaleX="1" scaleY="1" name="itemList2">
+			<e:layout>
+			<e:TileLayout horizontalGap="2" requestedColumnCount="4"/>
+			</e:layout>
+		</e:List>
+		<e:Image id="finishSign2" height="97" x="34.97" y="-296.41" source="fushitaicon_19"/>
+	</e:Group>
+	<e:Group id="photoParent3" x="595" y="497.02" scaleX="1" scaleY="1"/>
+	<e:Image y="92.83" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="177" scale9Grid="70,5,77,33" height="45"/>
+	<e:Image width="326" height="138" x="88.41" source="com_back_power" verticalCenter="-288" scale9Grid="78,5,76,34" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Group y="86.63" horizontalCenter="-152" anchorOffsetY="0" height="51">
+		<e:Image width="150" y="0" anchorOffsetX="0" anchorOffsetY="0" source="fushitaicon_15" scale9Grid="79,5,49,35" x="0"/>
+		<e:Image width="150" y="0" anchorOffsetX="0" anchorOffsetY="0" source="fushitaicon_15" scale9Grid="79,5,49,35" scaleX="-1" x="300"/>
+		<e:Image x="29.33" y="11" anchorOffsetX="0" anchorOffsetY="0" source="fushitaicon_21"/>
+	</e:Group>
+	<e:Group x="504.38" y="104.39">
+		<e:Label id="curLevelNum0" text="通关奖励" x="36.01" y="-2" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" size="24" width="100" textAlign="center" textColor="0xFBCC90"/>
+		<e:Image width="36" height="14" x="-5" y="3.24" source="fushitaicon_06"/>
+		<e:Image width="36" height="14" x="175" y="3.24" source="fushitaicon_06" scaleX="-1"/>
+	</e:Group>
+	<e:List id="propList" width="179.15" height="108.33" x="511.45" y="139.16" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:TileLayout verticalGap="10" horizontalGap="15" requestedRowCount="3" requestedColumnCount="1"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="rankBtn" text="查看排行" x="279.77" y="104.81" size="20" textColor="0xffffff" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image width="82" x="280" source="downline_W" scale9Grid="1,0,1,4" y="127" anchorOffsetY="0"/>
+	
+	<e:Group x="99.68" y="142" anchorOffsetX="0" width="300">
+		<e:Group id="rank1" x="0" y="1.32" anchorOffsetX="0" width="300">
+			<e:Label id="playerName1" text="名字六个字啊" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="42" textAlign="left" verticalCenter="-5.5"/>
+			<e:Label id="rankValue1" text="99900关" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" x="191" y="5"/>
+			<e:Image id="rank0" source="fushitaicon_11" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="rank2" x="0" y="41" width="300">
+			<e:Label id="playerName2" text="名字六个字啊" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="42" textAlign="left" verticalCenter="-2.5"/>
+			<e:Label id="rankValue2" text="99900关" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" x="191" y="8"/>
+			<e:Image y="0" source="fushitaicon_12" x="0"/>
+		</e:Group>
+		<e:Group id="rank3" x="0" y="81.99" width="300">
+			<e:Label id="playerName3" text="名字六个字啊" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="42" textAlign="left" verticalCenter="0"/>
+			<e:Label id="rankValue3" text="99900关" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" verticalCenter="0.5" x="191"/>
+			<e:Image x="0" source="fushitaicon_13" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="startBtn" label="" y="920.53" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:game="ogre_ui.*">
+			<e:Image width="73" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04" left="-7" scale9Grid="8,6,51,36"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="挑 战" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="挑 战" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

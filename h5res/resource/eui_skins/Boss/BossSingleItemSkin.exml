@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossSingleItemSkin" width="568" height="222" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="422.67" y="12">
+		<e:Label text="剩余次数:" x="0" y="0" anchorOffsetX="0" width="90" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="times" text="90" x="88.67" y="0" anchorOffsetX="0" width="33.99" size="20" fontFamily="Microsoft YaHei" textColor="0x1ce17d" textAlign="left" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Label id="tname" text="二十级的首领" x="17" y="12" size="20" anchorOffsetX="0" width="150" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d"/>
+	<e:Group x="10" y="66" width="130" height="130">
+		<e:Image width="112" height="112" y="8" scale9Grid="25,19,1,1" x="10" anchorOffsetX="0" source="boss_bg1"/>
+		<e:Image id="icon_boss" width="110" height="110" x="10" y="9" anchorOffsetX="0" anchorOffsetY="0" source="tongyong_pic24"/>
+		<e:Image width="128" height="126" y="0" scale9Grid="25,19,1,1" x="0" anchorOffsetX="0" source="boss_bg2"/>
+	</e:Group>
+	<e:Group x="125" y="57">
+		<e:Label text="掉 落" y="1" anchorOffsetX="0" width="48" size="20" height="20" fontFamily="Microsoft YaHei" x="148" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90"/>
+		<e:Image width="84" height="14" y="5" scaleX="-1" scaleY="1" anchorOffsetX="0" x="142" source="com_title_line"/>
+		<e:Image width="84" height="14" y="5" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="80" x="10" source="com_title_line"/>
+		<ns1:ItemBase6 id="item_d1" width="114" height="111" x="21" y="32" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin6"/>
+		<ns1:ItemBase6 id="item_d2" width="114" height="111" x="112" y="32" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin6"/>
+		<ns1:ItemBase6 id="item_d3" width="114" height="111" x="206" y="32" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin6"/>
+	</e:Group>
+	<e:Button id="btn_fight" label="" x="450" y="90" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button05" source.down="com_button05"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button05" source.down="com_button05"/>
+			<e:Label text="挑 战" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071E39" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_sd" label="" x="450" y="150" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+			<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+			<e:Label text="扫 荡" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="tj" text="" x="447" y="115" anchorOffsetX="0" width="110" size="18" anchorOffsetY="0" height="46" textColor="0xff0000" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textAlign="center"/>
+	<e:Image id="weikaiqi" width="568" height="223" x="-1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="boss_close" scale9Grid="9,8,15,11" visible="false"/>
+</e:Skin>

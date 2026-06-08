@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeContinuousModelSkin" width="590" height="165" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="162fcb2e852" ></w:Config>
+	<e:Group x="0" y="1.34" height="100%" width="100%">
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image x="0" y="0" width="295" height="165" source="fuli_2" scale9Grid="9,7,205,92"/>
+			<e:Image x="590" y="0" source="fuli_2" width="295" height="165" scaleX="-1" scale9Grid="7,7,208,87"/>
+			<e:Image source="fuli_1" x="2" y="2" scale9Grid="62,5,283,23" width="571" anchorOffsetX="0"/>
+		</e:Group>
+		<e:Label id="title" text="累计充值100000" x="17" y="14" size="18" textAlign="left" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90" fontFamily="Microsoft YaHei"/>
+		<e:Label id="rate" text="(00000/1000)" x="180" y="14" size="18" textAlign="right" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0xf11d40"/>
+		<e:Group y="50" horizontalCenter="0.5" width="535">
+			<e:Scroller id="scrollerReward" height="120" anchorOffsetX="0" y="0" x="0" width="382" anchorOffsetY="0">
+				<e:List id="rewardList">
+					<e:layout>
+						<e:TileLayout/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Button id="goto" label="前往充值" y="16" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="410" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image y.down="-2" source="com_button08" width="68" height="48" source.up="com_button08" source.down="com_button08"/>
+					<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+					<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="Receive" label="领 取" y="16" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="410">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+					<e:Image width="68" height="48" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+					<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+					<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="Received2" x="412" y="0" source="youjian_pic7" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false"/>
+			<e:Image id="com_red" width="24" height="24" source="com_red" name="redpoint" y="10" x="524" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

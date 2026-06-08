@@ -1,0 +1,23 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MsgPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<ns1:CenterMsgTemplate id="centerMsg" width="348" height="58" anchorOffsetX="0" anchorOffsetY="0" skinName="CenterMsgTemplateSkin" y="512" horizontalCenter="0"/>
+	<ns1:BottomMsgTemplate id="bottomMsg" y="894" anchorOffsetX="0" anchorOffsetY="0" skinName="BottomMsgSkin" horizontalCenter="0" width="200"/>
+	<ns1:ExpMsg id="leftMsg" width="150" height="30" skinName="ExpMsgSkin" touchEnabled="false" x="0" y="890"/>
+	<ns1:BattleMsg id="battleMsg" width="20" height="20" x="302" y="989" skinName="WordArtShowSkin"/>
+	<ns1:PowerTipsView id="powerTips" height="71" skinName="Upzhandouli" horizontalCenter="0" verticalCenter="148" width="300"/>
+	<ns1:YuanbaoTipsView id="powerTips0" width="540" height="240" skinName="Upyuanbao" horizontalCenter="0" bottom="200"/>
+	<ns1:SysMsgItem id="topItem" y="200" skinName="SysMsgSkin" horizontalCenter="0"/>
+	<e:Group id="photoParent" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.5" scaleY="1.5" x="351" y="200">
+	</e:Group>
+	<e:Group id="bigTopPosition" y="183" horizontalCenter="0" touchEnabled="false" touchThrough="true">
+		
+	</e:Group>
+	<e:Group id="danMuGroup" height="424" y="290" anchorOffsetX="0" anchorOffsetY="0" width="100%" touchEnabled="false" touchChildren="false">
+	</e:Group>
+	<ns1:tchat_single id="tchat2" width="562" height="33" anchorOffsetX="0" anchorOffsetY="0" y="104" skinName="chat_singlebig" horizontalCenter="0"/>
+	<ns1:tchat_single id="tchat1" width="562" height="33" anchorOffsetX="0" anchorOffsetY="0" y="138" skinName="chat_singlebig" horizontalCenter="0"/>
+	<ns1:tchat_single id="tchat0" width="562" height="33" anchorOffsetX="0" anchorOffsetY="0" y="169" skinName="chat_singlebig" horizontalCenter="0"/>
+	<e:Label id="leftTips" text="左侧信息" textAlign="left" multiline="false" anchorOffsetX="0" stroke="1" size="22" strokeColor="0x14181B" x="10" y="900" height="22" anchorOffsetY="0"/>  	
+  	
+
+</e:Skin>

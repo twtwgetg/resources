@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="chatListIRSkin" width="443" height="104" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" height="100%" width="100%" x="0" y="0" source="listItemBkgd_png"/>
+	<e:Label id="lbl_caption" fontFamily="微软雅黑" x="99" y="26" size="20" width="326" textAlign="center" verticalAlign="middle" textColor="0xFFFF00" anchorOffsetX="0" anchorOffsetY="0" height="60" text="{data.content}"/>
+</e:Skin>

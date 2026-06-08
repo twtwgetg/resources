@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.SkillBaseUpgradeSkin" width="67" height="67" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="down,normal" >
+	<e:Image id="bg" width="67" height="67" y.down="1.75" touchEnabled="false" verticalCenter="0" source="partner_bgpic" horizontalCenter="0"/>
+
+	<e:Image id="icon" width="65" height="65"  source="zhujiemian_pic29" x.normal="1" y.normal="7" x.down="1" y.down="5" horizontalCenter="0" verticalCenter="0"/>
+
+
+	<e:Image width="66" height="22" scale9Grid="28,0,1,1" bottom="0" horizontalCenter="0" source="EquipOrange_namebg"/>
+	<e:Label id="label" text="Lv38" size="18" touchEnabled="false" bottom="1" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="cdLabel" rotation="0.65" textColor="0xf90000" y.down="23" touchEnabled="false" verticalCenter="-0.5" horizontalCenter="15.5" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+
+	<e:Image id="selectSign" width="104" height="104" x="-6" y="-5" source="jinengshengji_pic3" visible="false"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" name="9018" skinName="MovieClipCtrlSkin" scaleX="1.2" scaleY="1.2" x="34" y="34" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

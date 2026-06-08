@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemBaseFetishSkillSkin" width="70" height="99" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down" >
+
+	<e:Image id="icon" width="65" height="65" verticalCenter="-10" horizontalCenter="-1.5" source="zhujiemian_pic29"/>
+	<e:Image id="bg" width="70" height="69" x="0" y="3.75" source="zhujiemian_pic23"/>
+	<e:Label id="nameLabel" text="38" x="23" y="78" size="18"/>
+	<e:Label id="cd" text="15" y="25" rotation="0.65" horizontalCenter="0" textColor="0xafa8a8"/>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

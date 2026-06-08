@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.TextInputSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="36" width="100">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" verticalCenter="0" bottom="0" horizontalCenter="0" right="0" source="input_png" scale9Grid="4,4,4,4"/>
+	<e:Label id="input" text="" horizontalCenter="0" backgroundColor="0x000000" background="false" verticalAlign="middle" textAlign="left" type="input" anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x000000" top="6" verticalCenter="0" bottom="0" left="1" right="8" alpha="1" blendMode="normal"/>
+</e:Skin>

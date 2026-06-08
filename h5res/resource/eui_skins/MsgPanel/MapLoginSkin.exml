@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MapLoginSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group x="29" y="26">
+		<e:Image width="84" height="198" anchorOffsetX="0" anchorOffsetY="0" source="map_namebg" horizontalCenter="2" verticalCenter="-1.5"/>
+		<e:Image id="mapName" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-4" verticalCenter="-5" source=""/>
+	</e:Group>
+	<e:Image id="line1" x="135" y="122" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+	<e:Image id="line2" x="176" y="186" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+</e:Skin>

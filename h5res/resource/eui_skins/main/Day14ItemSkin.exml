@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Day14ItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="140" height="120">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg0" y="0" x="0" anchorOffsetY="0" height="124" source="qiandoa_06" scale9Grid="0,36,71,8"/>
+		<e:Image id="bg1" y="0" source="qiandoa_06" x="142" scale9Grid="0,36,71,8" anchorOffsetY="0" height="124" scaleX="-1"/>
+	</e:Group>
+	<e:Label id="dayLabel" text="第1天" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="4" textAlign="center" horizontalCenter="1" textColor="0xf0e6cd" stroke="1" strokeColor="0x14181b"/>
+	<e:Button label="" horizontalCenter="0.5" verticalCenter="8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="qiandoa_05" source.down="qiandoa_05" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="sign" x="0" y="0">
+		<e:Image width="144" height="124" x="0" y="0" source="qiandoa_09" scale9Grid="7,7,22,22"/>
+		<e:Image source="qiandoa_03" x="40" y="40"/>
+		<e:Image width="44" height="37" x="91" y="80" anchorOffsetX="0" anchorOffsetY="0" source="rewardX2"/>
+	</e:Group>
+	<e:Image id="selectImg" source="jineng_pic17" width="144" height="124" scale9Grid="12,11,18,20" x="-1" y="-2"/>
+</e:Skin>

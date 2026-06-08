@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="tlabelskin" width="214" height="29" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="Group" x="6" y="4">
+		<e:Image width="20" height="20" x="0" y="0" source="pic_0"/>
+		<e:Image width="20" height="20" x="16" y="0" source="pic_0"/>
+		<e:Image width="20" height="20" x="30" y="0" source="pic_0"/>
+	</e:Group>
+</e:Skin>

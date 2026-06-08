@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SiShiErLeiChongSkin" width="640" height="830" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166e2b6650d" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" y="0">
+		<e:Image width="604" height="830" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="fulihuidi" scale9Grid="15,14,30,32" x="0"/>
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" x="2" source="resource/assets/data/ui/bgs/haohualichong.png"/>
+		</e:Group>
+		<e:Scroller id="scroller0" y="226" anchorOffsetY="0" scaleX="1" scaleY="1" width="592" height="586" name="oneView" x="6">
+		<e:List id="itemList" width="0" height="0">
+			<e:layout>
+			<e:TileLayout/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Group x="192" y="164">
+		<e:Label text="活动剩余时间:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label id="time_remind" text="xx天xx小时xx分" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="118" touchEnabled="false" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Group x="192" y="135">
+		<e:Label text="本日累计充值:" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0xFFF5A5"/>
+		<e:Label id="gold" text="xx元宝" y="0" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="118" touchEnabled="false" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Label text="活动期间,累计充值达到指定数额,即可领取豪礼" y="191" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="192" touchEnabled="false" textColor="0xFFF5A5"/>
+	</e:Group>
+</e:Skin>

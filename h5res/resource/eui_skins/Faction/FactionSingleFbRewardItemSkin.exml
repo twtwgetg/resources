@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionSingleFbRewardItemSkin" width="300" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="rank" text="本日第t%通关:" x="0" y="0" anchorOffsetX="0" width="132" anchorOffsetY="0" height="18" size="18" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="playerName" text="玩家名六个字[开发服]" x="125" y="0" anchorOffsetX="0" width="176.88" anchorOffsetY="0" height="18.52" size="18" fontFamily="Microsoft YaHei" textColor="0xfff5a5" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

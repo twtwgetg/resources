@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankingCheckItemRenderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<e:Image id="normal" x="0" y="0" source="com_check01" width="121" height="40"/>
+	<e:Image id="bright" x="0" y="0" source="com_check02" width="121" height="40"/>
+	<e:Label id="label" text="" horizontalCenter="0.5" size="24" verticalCenter="-0.5" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x61451a"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

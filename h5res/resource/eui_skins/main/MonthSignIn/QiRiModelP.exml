@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiRiModelPSkin" width="485" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166beddf16c" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="1.69" source="fuliwendi" scale9Grid="18,23,47,41" x="0"/>
+		<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" y="0" source="ranking_1" x="28.03"/>
+		<e:Label id="playerName" text="S388. 枕上书玉娆" y="27.61" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFBCC90" horizontalCenter="36.5"/>
+		<e:Group y="60" horizontalCenter="49.5">
+			<e:Label text="战力进度:" x="0" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xffea00"/>
+			<e:Label id="power" text="99999999" x="90" y="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xffea00"/>
+		</e:Group>
+		<e:Group id="otherGroup" x="50" verticalCenter="0">
+			<e:Label id="position" text="Label" x="1" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

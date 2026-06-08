@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankNearPlayerViewSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+		<e:Group y="88" width="582" height="860"  horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Image width="564" height="43" y="256" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="26,5,160,34" horizontalCenter="0" source="com_back_title"/>
+	<e:Group x="105" y="98">
+		<e:Image width="288" height="148" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" alpha="0.4" x="0" source="select_03" scale9Grid="33,23,18,15"/>
+		<e:Image width="288" height="148" y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" scale9Grid="33,23,18,15" anchorOffsetY="0" alpha="0.4" x="576" source="select_03"/>
+	</e:Group>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="571" height="629" horizontalCenter="7.5" y="305">
+		<e:List id="list" x="31" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Scroller>
+		<e:Group x="334" y="136" width="156" height="34" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label text="遭遇战" y="42" fontFamily="Microsoft YaHei" size="26" horizontalCenter="2" strokeColor="0x14181b" textColor="0x2e120a"/>
+	<e:Group id="role" x="134" y="129" scaleX="0.9" scaleY="0.9">
+		<e:Image width="102" height="102" x="-2" y="-4" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="1v1_Headback"/>
+		<e:Image id="rolegirl" width="93" height="93" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="RoleItem2"/>
+		<e:Image id="roleboy" width="93" height="93" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="RoleItem1" visible="false"/>
+	</e:Group>
+	<e:Label text="本日荣誉:" x="240" y="141" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" anchorOffsetY="0" height="21" strokeColor="0x14181b" stroke="1" textColor="0xfbcc90"/>
+	<e:Label text="结算奖励:" x="241" y="188" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" anchorOffsetY="0" height="21" strokeColor="0x14181b" stroke="1" textColor="0xfbcc90"/>
+	<e:Label id="ww" text="99999(100名)" x="342" y="143" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="附近玩家" y="263" anchorOffsetX="0" width="96" anchorOffsetY="0" height="26" fontFamily="Microsoft YaHei" textColor="0xfbcc90" size="24" horizontalCenter="0" strokeColor="0x14181b" stroke="1"/>
+	<ns1:RankNearFightRewardPreItem id="r1" width="115" height="30" x="347" y="182" skinName="RankNearFightRewardPreItemSkin"/>
+	<ns1:RankNearFightRewardPreItem id="r2" width="115" height="30" x="465" y="182" skinName="RankNearFightRewardPreItemSkin"/>
+	<e:Image id="guideObj" width="93" height="40" x="537" y="350" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Image width="86" height="14" x="450.35" y="269" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+	<e:Image width="86" height="14" x="335.35" y="268" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="com_title_line"/>
+</e:Skin>

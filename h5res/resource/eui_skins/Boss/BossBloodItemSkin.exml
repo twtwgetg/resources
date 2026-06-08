@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossBloodItemSkin" width="610" height="287" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bg" width="579" height="119" x="0" y="0" source="boss_newbg1"/>
+	<e:Image id="BossIcon" x="45" y="14" anchorOffsetX="0" anchorOffsetY="0" source="gerenboss2" scaleX="1.1" scaleY="1.1"/>
+	<e:Group x="152" y="55">
+		<e:Image id="bloodbg" width="427" height="23" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="boss_pic8" scale9Grid="25,0,1,15"/>
+		<e:Image id="bloodBottom" width="427" height="23" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" source="boss_pic9" scale9Grid="1,1,10,13"/>
+		<e:Image id="blood" width="427" height="23" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" source="boss_newpic7" fillMode="clip"/>
+		<e:Label id="hp" text="99.99%" size="16" textAlign="center" width="330" horizontalCenter="0" verticalCenter="-1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" verticalAlign="middle"/>
+	</e:Group>
+	<e:Image width="79" height="23" x="531" y="55" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="25,0,1,15" source="boss_newpic3"/>
+	<e:Label id="lbl_name" text="鱼找鱼虾找虾" x="157" y="27.5" size="20" fontFamily="Microsoft YaHei" textColor="0xff4b42" stroke="1"/>
+	<e:Group x="123" y="69">
+		<e:Image id="levelbg" width="41" height="41" x="0" y="0" source="boss_pic6"/>
+		<e:Label id="level" text="999" size="16" textAlign="center" width="30" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="propGroup" x="7" y="116" anchorOffsetY="0" height="130" anchorOffsetX="0" width="187">
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" anchorOffsetY="0" x="-34" height="130" width="246" scale9Grid="65,5,138,33"/>
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="-20" anchorOffsetY="0" source="fushitaicon_02"/>
+		<e:Image y="0" scaleX="-1" scaleY="1" source="fushitaicon_02" anchorOffsetX="0" x="194" anchorOffsetY="0"/>
+		<e:Label text="通关奖励" y="9" size="22" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0.5" textColor="0xfbcc90" strokeColor="0x14181b"/>
+		<e:List id="propList" width="146.15" height="85" anchorOffsetX="0" anchorOffsetY="0" y="38" horizontalCenter="0">
+			<e:layout>
+			<e:TileLayout verticalGap="4" requestedRowCount="3"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<ns1:SimpleProgressBar id="stateBar" width="423.34" height="6" x="155.33" y="51.69" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<ns1:skinName>
+		<e:Skin width="222" height="14">
+			<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_barbg" scale9Grid="2,2,111,11"/>
+			<e:Image id="thumb" width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" scale9Grid="2,0,82,17" source="com_bar"/>
+			<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" visible="false"/>
+			<e:Label id="text" text="无敌时刻：99秒" textAlign="center" verticalCenter="-15" size="18" stroke="1" fontFamily="Microsoft YaHei" horizontalCenter="146" width="130" strokeColor="0x14181b" textColor="0xf5f33f"/>
+			<ns1:MovieClipCtrl width="20" height="20" x="104" id="effect" name="9010" y="10" visible="false"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:SimpleProgressBar>
+</e:Skin>

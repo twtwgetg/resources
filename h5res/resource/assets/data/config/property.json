@@ -1,0 +1,380 @@
+[{
+   "namei18n":"攻击",
+   "desci18n":"[29cc00]攻击[-]:\n攻击值越大，对敌人造成的伤害输出就越高",
+   "valueoccrate":2674,
+   "isshow":1,
+   "rolepanelorder":2,
+   "combatratio":5.0,
+   "partnervalueoccrate":2674,
+   "type":0
+},
+{
+   "namei18n":"防御",
+   "desci18n":"[29cc00]防御[-]:\n防御值越大，受到敌人攻击时的伤害就越低",
+   "valueoccrate":1070,
+   "isshow":1,
+   "rolepanelorder":3,
+   "combatratio":5.0,
+   "partnervalueoccrate":1070,
+   "type":2
+},
+{
+   "namei18n":"生命",
+   "desci18n":"[29cc00]生命[-]:\n角色的生命最大值\n生命值为0时,角色死亡",
+   "valueoccrate":6256,
+   "isshow":1,
+   "rolepanelorder":1,
+   "combatratio":1.0,
+   "partnervalueoccrate":6256,
+   "type":6
+},
+{
+   "namei18n":"暴击",
+   "desci18n":"[29cc00]暴击[-]:\n暴击值越大，对敌人造成的伤害输出时触发额外伤害的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":6,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":8
+},
+{
+   "namei18n":"韧性",
+   "desci18n":"[29cc00]韧性[-]:\n韧性值越大，敌人对你造成的伤害输出时触发额外伤害的概率就越小",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":7,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":9
+},
+{
+   "namei18n":"暴击增伤",
+   "desci18n":"[29cc00]暴击伤害[-]:\n影响角色每次暴击伤害的值\n暴击时增加该属性的伤害",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":8,
+   "combatratio":2.5,
+   "partnervalueoccrate":0,
+   "type":10
+},
+{
+   "namei18n":"暴击减伤",
+   "desci18n":"[29cc00]暴伤减免[-]:\n影响角色减免他方暴击伤害的值\n被暴击时减少该属性的值",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":9,
+   "combatratio":2.5,
+   "partnervalueoccrate":0,
+   "type":11
+},
+{
+   "namei18n":"命中",
+   "desci18n":"[29cc00]命中[-]:\n命中值越大，对敌人造成的伤害输出时攻击越不容易落空",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":4,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":12
+},
+{
+   "namei18n":"闪避",
+   "desci18n":"[29cc00]闪避[-]:\n闪避值越大，敌人对你造成的伤害输出时攻击落空的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":5,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":13
+},
+{
+   "namei18n":"移速",
+   "desci18n":"影响角色的移动速度\n移动速度值越高,则角色移动速度越快",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":15
+},
+{
+   "namei18n":"伤害增加",
+   "desci18n":"[29cc00]伤害增加[-]:\n伤害增加越高，对敌人造成的伤害就越高",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":17
+},
+{
+   "namei18n":"当前生命",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":24
+},
+{
+   "namei18n":"法力上限",
+   "desci18n":"法力上限",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":33
+},
+{
+   "namei18n":"怒气上限",
+   "desci18n":"怒气上限",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":34
+},
+{
+   "namei18n":"当前法力",
+   "desci18n":"当前法力",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":35
+},
+{
+   "namei18n":"当前怒气",
+   "desci18n":"当前怒气",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":36
+},
+{
+   "namei18n":"击杀回复当前怒气值",
+   "desci18n":"击杀回复当前怒气值",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":37
+},
+{
+   "namei18n":"时间魔法恢复",
+   "desci18n":"每秒",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":232
+},
+{
+   "namei18n":"攻击魔法恢复",
+   "desci18n":"成功释放技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":233
+},
+{
+   "namei18n":"受击魔法恢复",
+   "desci18n":"受到技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":234
+},
+{
+   "namei18n":"时间怒气恢复",
+   "desci18n":"每秒",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":235
+},
+{
+   "namei18n":"攻击怒气恢复",
+   "desci18n":"成功释放技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":236
+},
+{
+   "namei18n":"受击怒气恢复",
+   "desci18n":"受到技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":237
+},
+{
+   "namei18n":"挂机经验",
+   "desci18n":"挂机经验加成%",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":20,
+   "combatratio":1.0,
+   "partnervalueoccrate":0,
+   "type":501
+},
+{
+   "namei18n":"奥义伤害",
+   "desci18n":"奥义伤害提高",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":16,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":502
+},
+{
+   "namei18n":"首领伤害",
+   "desci18n":"对首领伤害提高",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":21,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":503
+},
+{
+   "namei18n":"怒气恢复",
+   "desci18n":"怒气恢复",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":17,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":504
+},
+{
+   "namei18n":"竞技伤害",
+   "desci18n":"对玩家伤害增加",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":18,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":505
+},
+{
+   "namei18n":"竞技免伤",
+   "desci18n":"受玩家伤害降低",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":19,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":506
+},
+{
+   "namei18n":"命中率",
+   "desci18n":"[29cc00]命中率[-]:\n命中率越大，对敌人造成的伤害输出时攻击越不容易落空",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":10,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":507
+},
+{
+   "namei18n":"闪避率",
+   "desci18n":"[29cc00]闪避率[-]:\n闪避率越大，敌人对你造成的伤害输出时攻击落空的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":11,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":508
+},
+{
+   "namei18n":"暴击率",
+   "desci18n":"[29cc00]暴击率[-]:\n暴击率越大，对敌人造成的伤害输出时触发额外伤害的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":12,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":509
+},
+{
+   "namei18n":"免暴击率",
+   "desci18n":"[29cc00]免暴率[-]:\n免爆率越大，敌人对你造成的伤害输出时触发额外伤害的概率就越小",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":13,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":510
+},
+{
+   "namei18n":"爆伤比率",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":14,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":511
+},
+{
+   "namei18n":"爆伤减免",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":15,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":512
+},
+{
+   "namei18n":"会心一击",
+   "desci18n":"会心一击:首次攻击必定造成该属性比例的伤害（可以和暴击叠加）",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":22,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":513
+},
+{
+   "namei18n":"烈焰重生",
+   "desci18n":"烈焰重生:首次被击杀时必定复活并恢复到该属性比例的生命值",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":23,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":514
+},
+{
+   "namei18n":"伤害减免",
+   "desci18n":"[29cc00]伤害减免[-]:\n伤害减免越高，被敌人攻击时受到的伤害越少",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":24,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":518
+}]

@@ -1,0 +1,176 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MeltingSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="1"/>
+	<e:Label text="熔 炼" y="53" size="26" strokeColor="0x14181B" textColor="0x2E120A" fontFamily="Microsoft YaHei" horizontalCenter="-3"/>
+	<e:Image id="guideObj" width="171" height="58" x="308" y="928" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image width="576" height="673" x="105" y="106" source="resource/assets/data/ui/bgs/melting_bgpic.png" anchorOffsetY="0"/>
+	<e:Group x="188" y="129">
+		<e:Image width="410" height="46" source="com_back_power" y="0" x="0"/>
+		<ns1:powerzlcomp id="zhanLi" width="360" height="50" y="-1" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="102"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Button id="closeBtn" label="" x="656" y="49" width="56" height="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Group x="167" y="200">
+		<e:Group id="bg" width="84" height="84" y="1" x="0" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="bg0" width="84" height="84" y="2" x="183" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="23" y="314"/>
+		</e:Group>
+		<e:Group id="bg1" width="84" height="84" y="2" x="364" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-158" y="314"/>
+		</e:Group>
+		<e:Group id="bg2" width="84" height="84" y="183" x="1" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="205" y="132"/>
+		</e:Group>
+		<e:Group id="bg3" width="84" height="84" y="183" x="180" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="26" y="132"/>
+		</e:Group>
+		<e:Group id="bg4" width="84" height="84" y="183" x="365" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-159" y="132"/>
+		</e:Group>
+		<e:Group id="bg5" width="84" height="84" y="364" x="2" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="204" y="-51"/>
+		</e:Group>
+		<e:Group id="bg6" width="84" height="84" y="364" x="182" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="24" y="-51"/>
+		</e:Group>
+		<e:Group id="bg7" width="84" height="84" y="363" x="365" scaleX="1" scaleY="1">
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_bg"/>
+		<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_bg"/>
+		<e:Image width="36" height="36" source="melting_add" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="-159" y="-50"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+	<e:Group id="itemGroup" width="540.06" height="341.67" x="120" y="200" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:ItemBase3 width="114" height="111" x="32" y="-1" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 width="114" height="111" x="214" y="0" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 width="114" height="111" x="396" y="0" skinName="skin.ItemBaseSkin3"/>
+
+		<ns1:ItemBase3 width="114" height="111" x="33" y="181" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 width="114" height="111" x="213" y="181" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 width="114" height="111" x="397" y="181" skinName="skin.ItemBaseSkin3"/>
+
+		<ns1:ItemBase3 width="114" height="111" x="34" y="362" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 width="114" height="111" x="215" y="362" skinName="skin.ItemBaseSkin3"/>
+		<ns1:ItemBase3 width="114" height="111" x="397" y="362" skinName="skin.ItemBaseSkin3"/>
+
+
+
+	</e:Group>
+	<e:Button id="resolveBtn" width="174" height="59" verticalCenter="388.5" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" y.down="-2" source="com_button02"/>
+	<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" source="com_button02" x="174" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="一键熔炼" includeIn="down" horizontalCenter="0" size="24" y="16" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+			<e:Label text="一键熔炼" includeIn="up" size="24" verticalAlign="middle" verticalCenter="0" horizontalCenter="0" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+	<e:Button id="resolveSinglePageBtn" width="174" height="59" x="416" y="928" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" y.down="-2" source="com_button01"/>
+	<e:Image width="87" height="59" anchorOffsetX="0" anchorOffsetY="0" source="com_button01" x="174" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="熔 炼" includeIn="down" horizontalCenter="0" size="24" y="16" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+			<e:Label text="熔 炼" includeIn="up" size="24" verticalAlign="middle" horizontalCenter="0" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+	<e:Label id="lbl_backbagsize" text="80/200" y="684" anchorOffsetX="0" width="122" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" size="20" textAlign="center" horizontalCenter="0" visible="false"/>
+
+
+
+	<e:Group y="706" horizontalCenter="-3">
+		<e:Image width="466" height="44" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power" horizontalCenter="0" scale9Grid="0,5,212,34"/>
+		<e:Label text="系统自动筛选无用装备，熔炼装备可获得战斗力" anchorOffsetX="0" size="18" textColor="0xFBCC90" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="3" verticalCenter="0" stroke="1"/>
+	</e:Group>
+
+
+	<e:List id="propList" width="540" height="35.18" anchorOffsetX="0" anchorOffsetY="0" y="864" horizontalCenter="4.5">
+		<e:layout>
+		<e:TileLayout requestedRowCount="1" horizontalGap="4"/>
+		</e:layout>
+	</e:List>
+	<e:Group y="831.11" height="17" anchorOffsetX="0" x="196">
+		<e:Label text="熔炉值:" y="-2" textAlign="right" verticalAlign="middle" scaleX="1" scaleY="1" x="-70" stroke="1" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" size="18" strokeColor="0x14181b"/>
+		<e:Label id="level" text="熔炉等级:999" y="-34" textAlign="center" verticalAlign="middle" size="20" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" x="147" strokeColor="0x14181b"/>
+		<e:Image width="434" height="14" y="0.75" source="com_barbg" scale9Grid="7,0,99,15" anchorOffsetX="0" anchorOffsetY="0" x="21"/>
+		<e:Image id="progressBar" width="432" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" y="0.4" source="com_bar" fillMode="clip" x="20"/>
+		<e:Image width="49" height="15" y="1" source="com_barbg1" scaleX="-1" x="49"/>
+		<e:Image width="49" height="15" y="1" x="423" source="com_barbg1"/>
+		<ns1:MovieClipCtrl id="effect" x="209" y="7.5" name="9010" visible="false"/>
+
+
+		<e:Group y="-2" x="69">
+			<e:Label id="curRate" text="9999" y="0" size="18" scaleX="1" scaleY="1" stroke="1" textAlign="right" verticalAlign="middle" width="150" fontFamily="Microsoft YaHei" x="0" strokeColor="0x14181b"/>
+			<e:Label id="maxRate" text="9999" y="0" size="18" scaleX="1" scaleY="1" stroke="1" verticalAlign="middle" textAlign="left" width="150" fontFamily="Microsoft YaHei" x="162" strokeColor="0x14181b"/>
+			<e:Label text="/" y="0" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" x="152"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="vipGroup" x="306" y="1009" visible="false">
+		<e:Label text="会员" x="27" y="0" stroke="1" textColor="0x1ce17d" fontFamily="Microsoft YaHei" size="18" strokeColor="0x14181b"/>
+		<e:Label id="vipLbl" text="1" x="64" y="2" stroke="1" textColor="0x1ce17d" fontFamily="Microsoft YaHei" size="18" strokeColor="0x14181b"/>
+		<e:Label text="可以一键熔炼" x="76" y="1" stroke="1" textColor="0x1ce17d" fontFamily="Microsoft YaHei" size="18" strokeColor="0x14181b"/>
+
+	</e:Group>
+
+
+ 
+</e:Skin>

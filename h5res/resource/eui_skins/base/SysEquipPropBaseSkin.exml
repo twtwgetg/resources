@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="SysEquipPropBaseSkin" width="379" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+
+	
+
+	<e:Group y="0" x="0">
+		<e:Label id="svss" text="全部装备     阶        ，上阵伙伴属性增加" size="20" scaleX="1" scaleY="1" textAlign="center" fontFamily="Microsoft YaHei" y="0" textColor="0xF0E6CD" strokeColor="0x14181B" stroke="1" x="0"/>
+
+
+
+	</e:Group>
+
+
+</e:Skin>

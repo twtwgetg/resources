@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LastRankList" width="610" height="918" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="610" height="918">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="580">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group y="0" width="580" horizontalCenter="0">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Label text="四大战神" y="10" size="24" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Image width="574" height="430" y="54.51" anchorOffsetY="0" source="resource/assets/data/ui/bgs/RankingList_bg.png" horizontalCenter="0"/>
+	<e:Group id="firstGroup" y="50" horizontalCenter="0" width="580" touchThrough="false" touchEnabled="false" touchChildren="false">
+		<e:Group id="photoParent" scaleX="0.5" scaleY="0.5" y="293" x="290"/>
+		<e:Group id="grp_ply" x="0" y="11">
+		<e:Group y="304" x="0">
+			<e:Image x="0" y="-1" width="574" height="114" source="com_back_power" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="0,5,212,34"/>
+			<e:Image id="rank" width="134" height="94" anchorOffsetY="0" y="1" x="11" source="ranking_1"/>
+			<e:Image id="PVPRank" anchorOffsetY="0" source="" scaleX="0.3" scaleY="0.3" horizontalCenter="206" verticalCenter="-43.5"/>
+			<e:Image id="PVPRankName" anchorOffsetY="0" y="50" source="" horizontalCenter="206"/>
+			<e:Image id="RankWenZi" width="68.67" height="24" anchorOffsetY="0" source="" anchorOffsetX="0" horizontalCenter="208.5" verticalCenter="30.5"/>
+			<e:Group id="vipGroup" x="362" y="5">
+			<e:Image width="100" height="31" x="0" y="-1" source="UIPic_22"/>
+			<e:Image width="39" height="20" x="16" source="liaotian_pic14" y="5"/>
+			<ns1:NumListComp xmlns:ns1="*" id="myvipLevel0" x="60" y="5"/>
+			</e:Group>
+			<e:Label id="playerName" text="玩家名字六字" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="10" x="155.95"/>
+			<e:Group x="158" y="60.33333333333334">
+				<e:Label text="登顶次数：" x="1" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFFFFFF"/>
+				<e:Label id="number0" text="10" x="90" y="1" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x1CE17D"/>
+				<e:layout>
+				<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="157" y="35.66666666666667">
+				<e:Label text="等级:" x="0" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFFFFFF"/>
+				<e:Label id="playerLevel" text="一转99级" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="150" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="0" scaleX="1" scaleY="1" x="53.95"/>
+			</e:Group>
+			<e:Label text="战力:" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="87" textColor="0xFBCC90" scaleX="1" scaleY="1" x="155.95"/>
+			<e:Label id="playerFight" text="999999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="87" textColor="0xFBCC90" scaleX="1" scaleY="1" x="201.95"/>
+		</e:Group>
+		<e:Image id="click" width="204" height="297" y="7" scale9Grid="66,43,81,46" anchorOffsetY="0" x="180" anchorOffsetX="0" source="ranking_1" alpha="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="488.01" width="572" height="410" x="19">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label id="noPlayer" text="暂无玩家上榜" size="40" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="254" height="40" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="center" y="626.36" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<e:Scroller id="playerScroller" width="572" height="410" y="488.68" anchorOffsetY="0" anchorOffsetX="0" x="19">
+		<e:List id="playerList" y="1" x="-2">
+		<e:layout>
+			<e:VerticalLayout paddingTop="2" gap="4" paddingBottom="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="closeBtn" label="" y="5" width="56" height="56" scaleX="0.7" scaleY="0.7" right="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

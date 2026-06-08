@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipTeQuanItemRenderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="340">
+	<e:Label id="lbl" text="对方身份都是 师傅的说法地方的说法的商品房的说法九点十分的说法都是  " anchorOffsetX="0" width="340" anchorOffsetY="0" height="46" fontFamily="Microsoft YaHei" size="20" lineSpacing="5" strokeColor="0x14181B" stroke="1" x="0" y="0" textColor="0xd1ba7e"/>
+</e:Skin>

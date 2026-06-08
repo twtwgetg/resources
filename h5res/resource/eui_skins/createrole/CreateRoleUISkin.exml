@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CreateRoleUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<e:Image width="640" height="1136" scale9Grid="1,1,1,1" source="resource/ui/bgs/000_xiaoguotu%20.jpg.jpg" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image width="640" height="1136" source="resource/assets/data/ui/bgs/chuangjue_back.png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="roleParent1" x="310" y="597" scaleX="1" scaleY="1"/>
+	<e:Group id="roleParent2" x="320" y="607" scaleX="1" scaleY="1"/>
+	<e:Image width="400" height="42" x="125" y="766" anchorOffsetX="0" anchorOffsetY="0" source="com_back_power"/>
+	<e:Image width="12" height="471" x="72" y="167" anchorOffsetX="0" anchorOffsetY="0" source="chuangjue_line"/>
+	<e:Image width="316" height="171" x="4" y="960" anchorOffsetX="0" anchorOffsetY="0" source="chuangjue_back1"/>
+	<e:Image width="316" height="171" x="636" y="960" anchorOffsetX="0" anchorOffsetY="0" source="chuangjue_back1" scaleX="-1"/>
+	<e:Label text="◆   特别提醒:PC端、手机端均可畅玩游戏  ◆" y="1006" size="20" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" stroke="1" strokeColor="0x171d31" horizontalCenter="0"/>
+	<e:Label text="抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，" x="63" y="1050" size="19" bold="true" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x171d31" textColor="0x9eafd9"/>
+	<e:Label text="适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。" x="62" y="1081" size="19" bold="true" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x171d31" textColor="0x9eafd9"/>
+	<e:Group id="role1" x="0" y="80">
+		<e:Image id="roleImg1" width="576" height="561" x="0" y="114" source="resource/ui/createrole/chuangjue_pic7.png" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image width="93" height="353" x="524" y="-34" anchorOffsetX="0" anchorOffsetY="0" source="chuangjue_minfo"/>
+	</e:Group>
+	<e:Group id="role2" x="0" y="80">
+		<e:Image id="roleImg2" width="576" height="561" x="0" y="114" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/createrole/chuangjue_pic8.png"/>
+		<e:Image width="93" height="353" x="524" y="-34" anchorOffsetX="0" anchorOffsetY="0" source="chuangjue_winfo"/>
+	</e:Group>
+	<e:Image width="61" height="33" x="132" y="771" anchorOffsetX="0" anchorOffsetY="0" source="chuangjue_pic5"/>
+	<e:ToggleButton id="roleBtn1" label="" x="17.5" y="270">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chuangjue_btn4" source.down="chuangjue_btn5" width.up="122" height.up="122" width.down="122" height.down="122"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="47" height="58" includeIn="down" source="chuangjue_btn3" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="47" height="58" includeIn="up" source="chuangjue_btn2" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="roleBtn2" label="" x="17.5" y="419">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chuangjue_btn4" source.down="chuangjue_btn5" width.up="122" height.up="122" width.down="122" height.down="122"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="67" height="52" includeIn="down" source="chuangjue_btn6" horizontalCenter="0" y="30"/>
+	<e:Image width="67" includeIn="up" source="chuangjue_btn7" height="52" horizontalCenter="0" y="30"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Button id="randomBtn" label="" x="459" y="757" anchorOffsetX="0" width="60" height="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="60" height="60" width.up="60" height.up="60" width.down="60" height.down="60" width.disabled="60" height.disabled="60">
+	<e:Image width="35" height="35" source="chuangjue_btn8" y="13" x="13" includeIn="disabled"/>
+	<e:Image width="35" height="35" source="chuangjue_btn8" y="13" x="13" includeIn="up"/>
+			<e:Image width="35" height="35" source="chuangjue_btn8" y.down="11" horizontalCenter.up="0" verticalCenter.up="0" x.down="13" horizontalCenter.disabled="0" verticalCenter.disabled="0" x="13" includeIn="down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" y.down="13"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="enterBtn" label="11111" x="222" y="854" anchorOffsetX="0" width="198" anchorOffsetY="0" height="65">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="198" height="65">
+			<e:Image width="99" height="65" anchorOffsetX="0" anchorOffsetY="0" x="0" y="-2" y.down="-5" source="chuangjue_btn9" x.up="0" x.down="0" x.disabled="0"/>
+			<e:Image width="99" height="65" x="198" y="-2" scaleX="-1" anchorOffsetX="0" anchorOffsetY="0" y.down="-5" source="chuangjue_btn9" width.up="99" height.up="65" x.up="198" x.down="198" width.down="99" height.down="65" width.disabled="99" height.disabled="65" x.disabled="198"/>
+	<e:Label text="进入游戏" includeIn="down" y="18" horizontalCenter="0" size="26" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+	<e:Label text="进入游戏" includeIn="up" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" strokeColor="0x61451a" stroke="1" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:TTextInput id="nameInput" width="233" height="40" x="200" y="769" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:skinName>
+			<e:Skin minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt" width="274" height="40">
+			<e:Rect height="100%" width="100%" fillColor="0xffffff" visible="false"/>
+			<e:EditableText id="textDisplay" verticalCenter="-0.5" left="10" right="10" textColor.disabled="0xff0000" width="100%" height="33" size="26" anchorOffsetY="0" y.disabledWithPrompt="7" x.disabledWithPrompt="0" textAlign.disabledWithPrompt="center" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label id="promptDisplay" verticalCenter="-0.5" left="10" right="10" width="100%" height="33" size="26" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" text="请输入名称" anchorOffsetY="0" textAlign="center" y.disabledWithPrompt="7" x.disabledWithPrompt="0" height.disabledWithPrompt="33" left.disabledWithPrompt="10" right.disabledWithPrompt="10" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:TTextInput>
+</e:Skin>

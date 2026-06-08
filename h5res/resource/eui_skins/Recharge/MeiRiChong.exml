@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeiRiChongSkin" width="610" height="920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166e898553d" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" y="53">
+		<e:Group y="426" x="0">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="resource/assets/data/ui/bgs/meirichongzhi02.png" x="0" y="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="resource/assets/data/ui/bgs/meirichongzhi02.png" x="608" y="0"/>
+		</e:Group>
+		<e:Group x="0" y="0">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" y="0" source="resource/assets/data/ui/bgs/meirichongzhi01.png" width="608" x="0"/>
+			<e:Image y="1" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="partner_select" width="600" scale9Grid="17,17,106,106" height="725" x="3"/>
+		</e:Group>
+		</e:Group>
+		<e:Group y="813" x="221">
+		<e:Label text="本日已充值:" y="-2" fontFamily="Microsoft YaHei" size="22" stroke="1" strokeColor="0x14181B" x="-2" touchEnabled="false" textColor="0xFBCC90"/>
+		<e:Label text="2" y="-2" fontFamily="Microsoft YaHei" size="22" stroke="1" strokeColor="0x14181B" x="122.71" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label text="元" y="-2" fontFamily="Microsoft YaHei" size="22" stroke="1" strokeColor="0x14181B" x="142" touchEnabled="false" textColor="0xFBCC90"/>
+		</e:Group>
+		<e:Scroller y="518" anchorOffsetY="0" scaleX="1" scaleY="1" width="390" height="220" name="oneView" horizontalCenter="0">
+			<e:List width="0" height="565" x="-32" y="163" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" verticalGap="3" horizontalAlign="center" verticalAlign="middle" paddingLeft="3"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button label="领取奖励" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="228" y="861">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+			<e:Image width="75" height="52" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="75" height="52" x="150" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="22" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" verticalCenter.up="0" horizontalCenter.down="0" y.down="24" horizontalCenter.disabled="0" verticalCenter.disabled="0" horizontalCenter="0" verticalCenter="0" x.up="75"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

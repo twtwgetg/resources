@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.SkillBaseFetish" width="108" height="108" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,normal" >
+	<e:Image id="bg" width="108" height="108" touchEnabled="false" horizontalCenter="0" verticalCenter="0" source="skill01"/>
+
+	<e:Image id="icon" width="100" height="100"  horizontalCenter="0" verticalCenter="0" source="skill01" 
+		width.normal="104" height.normal="104" horizontalCenter.normal="0" 
+		verticalCenter.normal="0" horizontalCenter.down="0" 
+		verticalCenter.down="0" width.down="104" 
+		height.down="104"/>
+
+
+	<e:Image id="cdImg" width="100" height="100" touchEnabled="false" fillMode="scale" alpha="1" width.normal="104" height.normal="104" anchorOffsetY="0" width.down="104" height.down="104" source="Faction_29" horizontalCenter="0" verticalCenter="0" horizontalCenter.normal="0" verticalCenter.normal="0" horizontalCenter.down="0" verticalCenter.down="0" rotation="-90"/>
+	<e:Label id="label" text="38" size="18" touchEnabled="false" horizontalCenter="0" bottom="0" visible="false"/>
+	<e:Label id="cdLabel" rotation="0.65" textColor="0xf90000" y.down="23" touchEnabled="false" verticalCenter="0" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

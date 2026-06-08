@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="exitBtnSkin" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="640">
+	<w:Config id="162cdc84e77" ></w:Config>
+	<e:Group y="777" right="0">
+		<e:Button id="exitBtn" label="" x="0" y="0" width="98" height="90">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="98" height="90" y.down="-4" source="Faction_20" x.up="0" y.up="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="remainTime" text="00:00" y="90" size="18" x="23" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="timeGroup" y="629" horizontalCenter="0">
+		<e:Image id="timeImg" scaleX="1" scaleY="1" x="297" y="31" source="chengjiu_num_9" visible="false"/>
+		<e:Label id="labelDisplay" size="25" verticalAlign="middle" textAlign="right" text="开始倒计时：" x="60" y="54" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x70310e" width="206" visible="false"/>
+		<ns1:MovieClipCtrl id="effect_start" width="20" height="20" name="9075" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" x="321" y="413" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:MovieClipCtrl id="effect_xunhan" width="20" height="20" name="9076" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" x="331" y="423" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+</e:Skin>

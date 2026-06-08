@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PersonalRewardSkin" width="562" height="630" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" width="564" height="636" y="0" x="17">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label text="排名                门派         积分            排名奖励" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="87" y="12" textColor="0xfff5a5"/>
+	<e:Scroller width="550" height="538" y="42" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:List id="rankList" width="100%" height="100%" x="0" y="73.33" anchorOffsetY="0" scaleX="1" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout verticalGap="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="3" y="576">
+		<e:Group y="0" width="556" height="54" x="0">
+			<e:Image source="select_03" left="0" top="0" width="50%"/>
+			<e:Image source="select_03" scaleX="-1" top="0" width="50%" right="0"/>
+		</e:Group>
+		<e:Group x="39" y="20">
+			<e:Label text="我的排名:" x="0" y="0" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0xFFFFFF" stroke="1" strokeColor="0x14181B"/>
+			<e:Label id="myPos" text="未上榜" x="98" y="0" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0x1CE17D" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+		<e:Group x="308" y="20">
+			<e:Label text="我的积分:" x="0" y="0" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0xFFFFFF" stroke="1" strokeColor="0x14181B"/>
+			<e:Label id="integral" text="未上榜" x="98" y="0" size="20" rotation="359.97" fontFamily="Microsoft YaHei" textColor="0x1CE17D" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+	</e:Group>
+	<ns1:MsgReeadItemTip id="rewardTips" skinName="MsgReeardItemTipsSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

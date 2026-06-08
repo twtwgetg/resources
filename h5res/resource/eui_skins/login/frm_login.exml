@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skin.LoginUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*"  xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	  <e:Image anchorOffsetX="0" anchorOffsetY="0" height="552" source="resource/assets/data/ui/bgs/login_bg.png" width="553" y="155.5" x="42.5"/>
+	<e:Label text="账 号" x="131" y="327.27" anchorOffsetX="0" width="80" anchorOffsetY="0" height="30" rotation="0.44" fontFamily="Microsoft YaHei" size="30" stroke="1" textColor="0xFFFFFF" strokeColor="0x213b77"/>
+	<e:Label text="密 码" x="131" y="394.67" anchorOffsetX="0" width="80" anchorOffsetY="0" height="30" rotation="0.44" fontFamily="Microsoft YaHei" size="30" stroke="1" textColor="0xFFFFFF" strokeColor="0x213b77"/>
+	<e:TextInput id="txt_acc" width="320" height="47" x="205" y="319" anchorOffsetX="0" anchorOffsetY="0" skinName= "skins.TextInputSkinNoBG" rotation="0"/>
+	<e:TextInput id="txt_pwd" width="320" height="47" x="205" y="386" anchorOffsetX="0" anchorOffsetY="0" rotation="0" skinName= "skins.TextInputSkinNoBG"/>
+	<e:Button id="btn_login" label="11111" x="223" y="538" anchorOffsetX="0" width="198" anchorOffsetY="0" height="65">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="198" height="65" xmlns:game="game.*" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="99" height="65" anchorOffsetX="0" anchorOffsetY="0" x="0" y="-2" y.down="-5" source="chuangjue_btn9" x.up="0" x.down="0" x.disabled="0"/>
+			<e:Image width="99" height="65" x="198" y="-2" scaleX="-1" anchorOffsetX="0" anchorOffsetY="0" y.down="-5" source="chuangjue_btn9" width.up="99" height.up="65" x.up="198" x.down="198" width.down="99" height.down="65" width.disabled="99" height.disabled="65" x.disabled="198"/>
+			<e:Label text="登录游戏" includeIn="down" y="15" horizontalCenter="0" size="26" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+			<e:Label text="登录游戏" includeIn="up" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0" strokeColor="0x61451a" stroke="1" verticalCenter="-2.5"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="lbl_msg" text="" y="530" width="458" height="49" horizontalCenter="-6.5" backgroundColor="0x000000" background="false" verticalAlign="middle" textAlign="left" type="label" anchorOffsetX="0" anchorOffsetY="0" blendMode="add"/>
+	<e:Label text="抵制不良游戏   拒绝盗版游戏  注意自我防护  谨防受骗上当" x="60" y="981" anchorOffsetX="0" width="538" anchorOffsetY="0" height="26" rotation="0.44" fontFamily="Microsoft YaHei" size="20" stroke="1" textColor="0xffffff" strokeColor="0x213b77"/>
+	<e:Label text="适度游戏益脑   沉迷游戏伤身  合理安排时间  享受健康生活" x="60" y="1012" anchorOffsetX="0" width="538" anchorOffsetY="0" height="26" rotation="0.44" fontFamily="Microsoft YaHei" size="20" border="false" stroke="1" textColor="0xffffff" strokeColor="0x213b77"/>
+
+	
+</e:Skin>

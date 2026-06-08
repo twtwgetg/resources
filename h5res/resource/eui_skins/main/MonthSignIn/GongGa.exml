@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GongGaSkin" width="605" height="850" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166d889317b" ></w:Config>
+	<e:Group y="0" horizontalCenter="0">
+		<e:Group x="3" top="0" height="840">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" x="0" y="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" x="0" y="840"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" x="606" y="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" y="840" x="606"/>
+		</e:Group>
+		<e:Group x="0" top="4">
+		<e:Image scale9Grid="21,0,65,14" source="resource/assets/data/ui/bgs/ggpic.png" y="0" horizontalCenter="0"/>
+		<e:Label id="content" text="公告描述配置在数据表的哒哒哒哒哒撒大大挨打大大大大大多撒多撒大所大所大所大所大所多撒多撒多撒大所多撒大的翁群翁群二群大大大大大大是大大说的" y="77" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" textColor="0xF2F2E9" width="485" height="490" lineSpacing="5" x="65"/>
+		</e:Group>
+		<e:Group top="5" horizontalCenter="0.5">
+			<e:Image width="300" height="40" x="0" source="viptitle_pic" anchorOffsetX="0" top="0"/>
+			<e:Image width="300" height="40" x="600" y="0" source="viptitle_pic" anchorOffsetX="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group top="12" horizontalCenter="0">
+			<e:Image width="113" height="14" source="titleicon1" x="-2" y="4"/>
+			<e:Image width="113" height="14" x="319" y="4" source="titleicon1" scaleX="-1"/>
+			<e:Image scaleX="1" source="ggao" y="-2" x="134"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

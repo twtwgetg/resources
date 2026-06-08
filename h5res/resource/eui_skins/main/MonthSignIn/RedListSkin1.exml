@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedListSkin1" width="600" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image x="0" y="0" width="300" height="170" source="fuli_2" scale9Grid="9,7,205,92"/>
+		<e:Image x="600" y="0" source="fuli_2" width="300" height="170" scaleX="-1" scale9Grid="7,7,208,87"/>
+		<e:Image x="2" y="1" source="fuli_1"/>
+	</e:Group>
+	<e:Image id="add" source="resource/ui/bgs/qkd1.png" verticalCenter="0" horizontalCenter="-0.5" touchEnabled="false"/>
+	<e:Group id="timeing" y="12" x="222">
+		<e:Label text="进行中…" size="18" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D"/>
+	</e:Group>
+	<e:Label id="firstPlayer" text="S388. 枕上书玉娆" x="44" y="70" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+	<e:Label id="time" text="08月07日  23:59:59结束" x="44" y="113" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D" textAlign="left"/>
+	<e:Label id="end" text="活动已结束" x="44" y="113" size="20" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xf11d40" verticalAlign="justify" textAlign="left"/>
+	<e:Image id="title" x="4" y="7" scaleX="0.7" scaleY="0.7" source="qkb_01"/>
+	<e:Image id="day" x="222" y="12" source="qkb_1"/>
+	<e:Label id="NoPlayer" text="——" x="44" y="70" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xf2f2e9"/>
+	<e:Image x="479" y="127" source="qkb_0"/>
+	<e:Image x="26" y="76" source="titleicon"/>
+	<e:Image x="26" y="119" source="titleicon"/>
+	<ns1:ItemBase2 id="reward" x="480" y="40" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin2"/>
+	<e:Image id="bg0" anchorOffsetX="0" anchorOffsetY="0" width="600" height="170" source="com_mask" scale9Grid="1,1,1,1" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IntegralInfoSkin" width="556" height="630" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" width="564" height="636" y="0" x="17">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Group y="51" horizontalCenter="0" width="556" height="100">
+		<e:Group width="100%" height="100%" y="0" x="0">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg" right="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" left="0" bottom="0"/>
+		</e:Group>
+		<e:Label text="进攻方" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" scaleX="1" scaleY="1" verticalCenter="0" x="26" textColor="0xf2f2e9"/>
+		<e:Group x="175" y="24">
+			<e:Label id="faction1" text="门派名" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0"/>
+			<e:Label id="Integral1" text="999999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="220" y="0"/>
+		</e:Group>
+		<e:Group x="175" y="57">
+			<e:Label id="faction2" text="门派名" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0"/>
+			<e:Label id="Integral2" text="999999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="220" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="158" horizontalCenter="0" width="556" height="100">
+		<e:Group width="100%" height="100%" y="0" x="0">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg" right="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" left="0" bottom="0"/>
+		</e:Group>
+		<e:Label text="防守方" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" scaleX="1" scaleY="1" verticalCenter="0" x="26" textColor="0xf2f2e9"/>
+		<e:Group x="175" verticalCenter="0">
+			<e:Label id="faction3" text="门派名" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0" textColor="0xf2f2e9"/>
+			<e:Label id="Integral3" text="999999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="220" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="262" horizontalCenter="0">
+		<e:Group y="0" width="560" height="54" x="0">
+			<e:Image source="select_03" left="0" top="0" width="50%"/>
+			<e:Image source="select_03" scaleX="-1" top="0" width="50%" right="0"/>
+		</e:Group>
+		<e:Label text="我的战绩" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" scaleX="1" scaleY="1" verticalCenter="0" x="26" textColor="0xf2f2e9"/>
+		<e:Group x="150" verticalCenter="0">
+			<e:Label text="击杀:" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0" textColor="0xf2f2e9"/>
+			<e:Label id="killnum" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="49" y="0" textColor="0x1ce17d"/>
+		</e:Group>
+		<e:Group x="326" verticalCenter="0">
+			<e:Label text="我的积分:" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0"/>
+			<e:Label id="num" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="89" y="0" textColor="0x1ce17d"/>
+		</e:Group>
+	</e:Group>
+	<e:Label text="阵营                  门派                              积分" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="37" y="16" textColor="0xfff5a5"/>
+	<e:Group x="24" y="352">
+		<e:Scroller id="dayReward" height="90" anchorOffsetX="0" anchorOffsetY="0" width="400" y="0" x="124">
+			<e:List id="rewardList" width="0" height="0">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="2" horizontalAlign="center"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="累计奖励" fontFamily="Microsoft YaHei" size="24" stroke="1" strokeColor="0x14181B" scaleX="1" scaleY="1" textColor="0xFBCC90" x="0" y="31"/>
+	</e:Group>
+	<e:Group x="24" y="482">
+		<e:Label text="积分说明" fontFamily="Microsoft YaHei" size="24" stroke="1" strokeColor="0x14181B" scaleX="1" scaleY="1" textColor="0xFBCC90" x="0" y="0"/>
+		<e:Label text="1.击杀玩家，积分+ \n2.击破据点，积分+ \n3.击杀驻旗，积分+ \n4.进攻方参与攻城，积分+ \n5.攻击驻旗，积分+" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="134" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="124" y="0" width="277" lineSpacing="6"/>
+		<e:Group x="299" y="6">
+			<e:Label id="type1" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="0" y="0" width="100" lineSpacing="6"/>
+			<e:Label id="type2" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="26.25" width="100" lineSpacing="6"/>
+			<e:Label id="type3" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="52.5" width="100" lineSpacing="6"/>
+			<e:Label id="type4" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="78.75" width="100" lineSpacing="6" x="60"/>
+			<e:Label id="type5" text="999" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" y="105" lineSpacing="6"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

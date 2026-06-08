@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="CommonbackSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<e:Group id="normalGroup" x="0" y="0">
+		<e:Image y="0" anchorOffsetX="0" source="UIPic_17" width="786" scale9Grid="358,0,54,50" x="0"/>
+		<e:Image width="318" height="119" anchorOffsetX="0" anchorOffsetY="0" y="1017" source="com_downbg" x="72" scale9Grid="72,26,88,84"/>
+		<e:Image width="382" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_downback" x="390" y="1017" scale9Grid="6,0,10,119"/>
+	</e:Group>
+	<e:Group y="46" horizontalCenter="0">
+		<e:Image y="0" anchorOffsetX="0" source="resource/assets/data/ui/bgs/com_back_1.png" x="0" anchorOffsetY="0"/>
+		<e:Image y="0" anchorOffsetX="0" source="resource/assets/data/ui/bgs/com_back_1.png" x="640" anchorOffsetY="0" scaleX="-1"/>
+		<e:Image y="341" anchorOffsetX="0" source="resource/assets/data/ui/bgs/com_back_2.png" x="0" anchorOffsetY="0" width="320" height="509" scale9Grid="22,1,1,1"/>
+		<e:Image y="341" anchorOffsetX="0" source="resource/assets/data/ui/bgs/com_back_2.png" x="640" anchorOffsetY="0" width="320" height="509" scale9Grid="22,1,1,1" scaleX="-1"/>
+		<e:Image y="850" anchorOffsetX="0" x="0" anchorOffsetY="0" scale9Grid="100,0,10,0" width="320" height="149" source="resource/assets/data/ui/bgs/com_back_3.png"/>
+		<e:Image y="850" anchorOffsetX="0" x="640" anchorOffsetY="0" scale9Grid="100,0,10,0" width="320" scaleX="-1" height="149" source="resource/assets/data/ui/bgs/com_back_3.png"/>
+	</e:Group>
+	<e:Group id="topGroup" x="77" y="6">
+		<e:Group id="gold" x="305" y="0" width="155">
+			<e:Image x="18" y="3" source="UIPic_9" width="128"/>
+			<e:Button label="" x="118" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="UIPic_29" source.down="UIPic_29" y.down="-1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="0.5" verticalCenter.down="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="jinbi" x="-1" y="2" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_38" width="76" height="76" scaleX="0.45" scaleY="0.45"/>
+			<e:BitmapLabel id="lbl_money" x="31" y="11" font="white_fnt" text="666.6万" letterSpacing="0"/>
+		</e:Group>
+		<e:Group id="yuanbao" x="470" y="0" width="164">
+			<e:Image x="17" y="3" source="UIPic_9" width="128"/>
+			<e:Button label="" x="122" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="UIPic_29" source.down="UIPic_29" y.down="-1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="icon" x="4" y="2" anchorOffsetX="0" anchorOffsetY="0" source="Head_37" width="76" height="76" scaleX="0.45" scaleY="0.45"/>
+			<e:BitmapLabel id="lbl_gold" x="36" y="11" font="white_fnt" text="666.6万" letterSpacing="0"/>
+		</e:Group>
+		<ns1:powerzlcomp id="powerComp" width="223" height="30" y="1.96" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="0" scaleX="1" scaleY="1"/>
+		<e:Group id="heroexp" x="139" y="0" width="155" scaleX="1" scaleY="1" visible="false">
+			<e:Image x="18" y="3" source="UIPic_9" width="128"/>
+			<e:Button label="" x="118" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="UIPic_29" source.down="UIPic_29" y.down="-1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="0.5" verticalCenter.down="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="heroexpicon0" x="0" y="5.5" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_38" width="32" height="32"/>
+			<e:BitmapLabel id="lbl_money1" x="31" y="11" font="white_fnt" text="666.6万" letterSpacing="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="close0" label="" x="590.34" y="1017">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_return" source.down="com_return" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

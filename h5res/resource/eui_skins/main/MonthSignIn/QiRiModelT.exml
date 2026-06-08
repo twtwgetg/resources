@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiRiModelTSkin" width="602" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166beddf16c" ></w:Config>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" width="296" height="170" source="fuli_2" scale9Grid="9,7,205,92"/>
+		<e:Image x="592" y="0" source="fuli_2" width="296" height="170" scaleX="-1" scale9Grid="7,7,208,87"/>
+		<e:Image source="fuli_1" x="2" y="2"/>
+		</e:Group>
+		<e:Group id="desGroup" x="42" y="12">
+			<e:Label id="des" text="xxx" x="-15" y="0" size="20" textAlign="left" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xFFEA00"/>
+			<e:Label id="valueDes" text="(xxx)" x="144" y="0" size="20" textAlign="left" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xf11d40"/>
+		</e:Group>
+		<e:Group y="53" x="34">
+		<e:Scroller height="96" anchorOffsetX="0" y="0" x="0" width="380" anchorOffsetY="0">
+			<e:List id="itemList" width="0" height="0">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		</e:Group>
+		<e:Image id="recievedImg" x="430" source="youjian_pic7" verticalCenter="0"/>
+		<e:Button id="recieveBtn" label="领 取" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="430" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+			<e:Image y.down="-2" source="com_button08" width="68" height="48" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="upBtn" label="前往提升" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" verticalCenter="0" x="430">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+			<e:Image y.down="-2" source="com_button08" width="68" height="48" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="chongZhiBtn" label="前往充值" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="430" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+			<e:Image y.down="-2" source="com_button08" width="68" height="48" source.up="com_button08" source.down="com_button08"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

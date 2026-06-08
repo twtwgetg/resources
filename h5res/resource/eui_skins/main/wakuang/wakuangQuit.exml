@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="wakuangQuit" width="500" height="510" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" y="-821" horizontalCenter="0"/>
+	<e:Group x="0" y="0" width="500" height="510">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group x="0" y="0" width="100%">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" top="0" left="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+		<e:Group x="10" y="50" width="480" height="342" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+			<e:Group x="18" y="15" scaleX="1" scaleY="1" height="324">
+				<e:Group id="tongguan" x="2" y="0" includeInLayout="true">
+					<e:Label text="通关奖励:" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xC6D5DF" stroke="1" strokeColor="0x14181b"/>
+					<e:Scroller id="photoParent" anchorOffsetX="0" anchorOffsetY="0" width="440" height="100" y="25" x="0">
+					<e:viewport>
+						<e:List id="tongguanreward" anchorOffsetX="0" x="0" anchorOffsetY="0" y="6">
+						<e:layout>
+							<e:HorizontalLayout gap="8"/>
+						</e:layout>
+						</e:List>
+					</e:viewport>
+					</e:Scroller>
+				</e:Group>
+				<e:Group id="likai" x="0" y="-3" height="100%">
+					<e:Label text="本次寻宝获得了如下奖励:" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+					<e:Scroller id="tongguanphotoParent" anchorOffsetX="0" anchorOffsetY="0" width="440" y="35" x="2" height="80%">
+					<e:viewport>
+						<e:List id="listreward" anchorOffsetX="0" x="0" anchorOffsetY="0" y="6" height="100%">
+						<e:layout>
+							<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+						</e:layout>
+						</e:List>
+					</e:viewport>
+					</e:Scroller>
+				</e:Group>
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+	</e:Group>
+	<e:Label text="离开秘境" y="10" size="24" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="3" top="3" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="426" horizontalCenter="0">
+		<e:Button id="returntoground" label="离开秘境" y="0" width="172" height="60" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="172" height="60" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="86" height="59" y.down="-2" source="com_button01" source.down="com_button01"/>
+				<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source.up="com_button01" source="com_button01" source.down="com_button01"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" y.up="15"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="tiliTime" x="29" y="399">
+		<e:Label text="您的体力将于" x="0" y="0" size="20" textColor="0xC6D5DF" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="time" text="00:00:00" x="120" y="1" size="20" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="恢复至上限" x="201" y="0" size="20" textColor="0xC6D5DF" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

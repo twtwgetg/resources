@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="MonthRewardSkin" width="88" height="88" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:ItemBase2 id="item" width="88" height="88" x="0" y="0" skinName="skin.ItemBase2Render"/>
+	<e:Group x="-5.49" y="0.98" touchEnabled="false">
+		<e:Image width="59" height="59" x="5.76" y="0" touchEnabled="false" source="qiandoa_04"/>
+		<e:Label id="vip" text="VIP2双倍" x="0" y="36.53" size="12" height="16" anchorOffsetX="0" width="60" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" rotation="-45" touchEnabled="false" textColor="0xf0e6cd"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="can1" x="51" y="1" touchEnabled="false">
+		<e:Image width="35" height="63" x="0" y="0" anchorOffsetY="0" touchEnabled="false" source="qiandoa_02"/>
+
+	</e:Group>
+	<e:Group id="can" x="51" y="1" touchEnabled="false">
+		<e:Image width="35" height="46" x="0" y="0" touchEnabled="false" source="qiandoa_01"/>
+
+	</e:Group>
+
+
+	<e:Image id="have" width="64" height="45" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="qiandoa_03"/>
+
+
+
+
+
+
+</e:Skin>

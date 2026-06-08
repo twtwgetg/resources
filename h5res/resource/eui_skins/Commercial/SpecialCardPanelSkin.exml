@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpecialCardPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="bg" y="38" horizontalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+		<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+		<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+		<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+		<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png"/>
+		<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="91" y="260" width="606">
+		<e:Image height="716" source="resource/assets/data/ui/bgs/specard_pic6.png" left="0" top="0" scale9Grid="0,520,0,1"/>
+		<e:Image height="714" source="resource/assets/data/ui/bgs/specard_pic6.png" right="1" top="0" scaleX="-1" scale9Grid="0,520,0,1"/>
+	</e:Group>
+	<e:Group x="90" y="700" width="606" height="240">
+		<e:Image width="50%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="zizhao_04" scale9Grid="0,5,51,34" left="0" top="0"/>
+		<e:Image width="50%" height="100%" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" scale9Grid="0,5,51,34" source="zizhao_04" top="0" right="0"/>
+	</e:Group>
+	<e:Label text="特权卡" x="359" y="54" fontFamily="Microsoft YaHei" size="24" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Group y="92.2" horizontalCenter="0">
+		<e:Image x="0" y="0" source="fulifendi" scale9Grid="131,19,129,120"/>
+		<e:Image x="594" y="0" source="fulifendi" scale9Grid="131,19,129,120" scaleX="-1"/>
+		<e:Image width="300" height="43" x="-3" y="175" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic4"/>
+		<e:Image width="300" height="43" x="597" y="175" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic4" scaleX="-1"/>
+		<e:Image width="113" height="14" x="113" y="186" source="titleicon1"/>
+		<e:Image width="113" height="14" x="481" y="186" scaleX="-1" source="titleicon1"/>
+		<e:Image width="116" height="126" x="50" y="25" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic7"/>
+		<e:Image width="116" height="126" x="239" y="25" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic7"/>
+		<e:Image width="116" height="126" x="429" y="25" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic7"/>
+		<e:Image width="184" height="30" y="543" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic15" horizontalCenter="3.5"/>
+	</e:Group>
+	<e:Group id="checkGroup" x="131" y="98" anchorOffsetX="0" width="535" anchorOffsetY="0" height="145">
+		<e:Image id="imgHuangJin" width="235" height="141" x="-42.64" y="9" anchorOffsetX="0" anchorOffsetY="0" source="soecard_select"/>
+		<e:Image id="imgBoJin" width="235" height="141" x="144.68" y="9" anchorOffsetX="0" anchorOffsetY="0" source="soecard_select"/>
+		<e:Image id="imgZhiZun" width="235" height="141" x="336.67" y="9" anchorOffsetX="0" anchorOffsetY="0" source="soecard_select"/>
+		<e:ToggleButton id="pageHuangJin" y="16" anchorOffsetX="0" width="77" anchorOffsetY="0" height="117" scaleX="1" scaleY="1" enabled="true" currentState="up" x="34">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="specard_pic10"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="pageBoJin" x="223" y="15" anchorOffsetX="0" width="77" anchorOffsetY="0" height="114" scaleX="1" scaleY="1" enabled="true" currentState="down">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="specard_pic11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="pageZhiZun" x="407" y="10" anchorOffsetX="0" width="83" anchorOffsetY="0" height="122" scaleX="1" scaleY="1" enabled="true" currentState="up">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="specard_pic9"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Group x="127" y="211" touchEnabled="false" touchChildren="false">
+		<e:Image width="152" height="27" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic8"/>
+		<e:Image width="152" height="27" x="189" y="0" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic8"/>
+		<e:Image width="152" height="27" x="377" y="0" anchorOffsetX="0" anchorOffsetY="0" source="specard_pic8"/>
+		<e:Label text="黄金卡" x="47" y="3" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label text="至尊卡" x="236" y="2" fontFamily="Microsoft YaHei" size="20" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label text="传说卡" x="427" y="3" fontFamily="Microsoft YaHei" size="20" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" scaleX="1" scaleY="1" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="maskGroup" x="-80" y="156" touchEnabled="false">
+		<ns1:SpecialCardItem id="cardHuangJin" width="585" height="840" anchorOffsetY="328" skinName="SpecialCardItemSkin" anchorOffsetX="189.5" y="419" x="370"/>
+		<ns1:SpecialCardItem id="cardBoJin" width="585" height="840" y="419" anchorOffsetX="188.5" anchorOffsetY="328" skinName="SpecialCardItemSkin" x="370"/>
+		<ns1:SpecialCardItem id="cardZhiZun" width="585" height="840" y="419" anchorOffsetX="189.5" anchorOffsetY="328" skinName="SpecialCardItemSkin" x="370"/>
+		<e:Image id="posMid" x="370" y="328"/>
+		<e:Image id="posLeft" x="0" y="247" alpha="0"/>
+		<e:Image id="posRight" x="730" y="247" alpha="0"/>
+		<e:Image id="maskObj" width="588" height="469" x="178" y="137" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<ns1:SpecialCardItem id="bottomHuangJin" width="585" height="840" anchorOffsetY="419" skinName="SpecialCardItemSkin" anchorOffsetX="292.5" y="666" horizontalCenter="0.5"/>
+	<ns1:SpecialCardItem id="bottomBoJin" width="585" height="840" y="575" anchorOffsetX="188.5" anchorOffsetY="328" skinName="SpecialCardItemSkin" horizontalCenter="0.5"/>
+	<ns1:SpecialCardItem id="bottomZhiZun" width="585" height="840" y="575.33" anchorOffsetX="188.5" anchorOffsetY="328" skinName="SpecialCardItemSkin" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="leftBtn" label="" x="117" y="458" scaleX="0.9" scaleY="0.9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_pic59"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="rightBtn" label="" x="669" y="457" scaleX="-0.9" scaleY="0.9">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_pic59"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

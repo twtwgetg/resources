@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemBase" width="86" height="86" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="bg" x="0" y="0" width="100%" height="100%">
+		<e:Image id="bg1" width="42" height="84" x="0" y="0" fillMode="scale" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="quality_bg"/>
+		<e:Image id="bg2" width="42" height="84" x="84" y="0" fillMode="scale" scaleX="-1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="quality_bg"/>
+
+	</e:Group>
+
+
+
+
+
+	<e:Image id="icon" width="74" height="74" x="5" y="5" fillMode="scale" scaleX="1" scaleY="1" source="" anchorOffsetX="0" anchorOffsetY="0"/>
+
+	<e:Label id="label" text="%t" size="18" anchorOffsetX="0" width="70" anchorOffsetY="0" height="20" touchEnabled="false" textColor="0x09ea3c" textAlign="right" fontFamily="Microsoft YaHei" x="7" y="59"/>
+
+	<e:Group x="6" y="3" width="75">
+		<e:Image id="jiaobiao1" width="25" height="25" x="0" y="0" source="partnerfont_suipic"/>
+		<e:Image id="jiaobiao2" y="0" source="partnerfont_yingpic" right="0"/>
+	</e:Group>
+	<e:Group id="qualityfont" x="23" y="1" width="62" height="23" visible="false">
+		<e:Image id="qualitytitle0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" y="0" right="0" source="qualityfont_12"/>
+	</e:Group>
+</e:Skin>

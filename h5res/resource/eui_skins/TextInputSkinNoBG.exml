@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.TextInputSkinNoBG" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="36" width="100">
+	<e:Label id="input" text="" horizontalCenter="0" backgroundColor="0x000000" background="false" verticalAlign="middle" textAlign="left" type="input" anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x000000" top="6" verticalCenter="0" bottom="0" left="1" right="8" alpha="1" blendMode="normal"/>
+</e:Skin>

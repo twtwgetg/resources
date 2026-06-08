@@ -1,0 +1,199 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DressSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+
+
+
+
+
+
+
+
+
+
+	<e:Label text="时 装" y="5" fontFamily="Microsoft YaHei" horizontalCenter="2" textColor="0x2E120A" size="26"/>
+	<e:Group y="48" horizontalCenter="0">
+		<e:Image width="360" height="48" source="com_back_power" x="0" y="0"/>
+		<ns1:powerzlcomp id="zhanLi" width="223" height="30" x="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" verticalCenter="0"/>
+	</e:Group>
+
+
+	<e:Group x="386" y="52" visible="false">
+		<e:Label id="showBtn" text="展示时装" x="0" y="7" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="83" textColor="0xF2F2E9" height="31" stroke="1" strokeColor="0x14181B"/>
+		<e:Image width="82" x="0" source="downline_W" scale9Grid="1,0,1,4" y="30" anchorOffsetY="0"/>
+	</e:Group>
+
+	<e:Image id="itemName" width="86" height="203" anchorOffsetY="0" anchorOffsetX="0" source="shenzhuang_pic4" left="25" top="145"/>
+	<e:Group id="photoParent" x="280" y="610" width="0" height="0" scaleX="0.9" scaleY="0.9">
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group x="418" y="120" width="210">
+			<e:Group width="184" height="320" y="34" x="14" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Image id="propBg1" width="37" height="14" y="4" anchorOffsetY="0" x="51" anchorOffsetX="0" scaleX="-1" scaleY="1" source="com_title_line" scale9Grid="27,1,59,12"/>
+		<e:Image id="propBg2" width="37" height="14" y="4" anchorOffsetY="0" x="161" anchorOffsetX="0" scaleX="1" scaleY="1" source="com_title_line" scale9Grid="27,1,59,12"/>
+
+
+
+		<e:Label text="基础属性" y="0" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei" horizontalCenter="0" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="所有时装属性累加" x="34.47" y="367.28" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="佩戴仅改变外形" x="33.01" y="397.3" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+
+
+
+
+		
+	</e:Group>
+	<e:Group id="propGroup" x="442" y="162" anchorOffsetY="0" height="318" width="176">
+		<ns1:PropMidBaseSkin2 width="150" height="20" x="9" y="7" skinName="skin.PropMidBase2"/>
+		<ns1:PropMidBaseSkin2 width="150" height="20" x="9" y="43" skinName="skin.PropMidBase2"/>
+	</e:Group>
+	<e:Button id="upgradeBtn" label="进 阶" y="598" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="230" alpha="0" touchEnabled="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width.up="172" height.up="59">
+			<e:Image width="86" height="59" y.down="-2" source.up="com_button02" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source.disabled="com_button02" width.disabled="86" height.disabled="59" source="com_button02"/>
+			<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" width.down="86" height.down="59" x.down="172" source.up="com_button02" x.disabled="172" width.disabled="86" height.disabled="59" source.disabled="com_button02" source="com_button02"/>
+			<e:Label id="labelDisplay" text="进 阶" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0" size="30" strokeColor="0x61451a" textColor="0xf2f2e9" y.up="15" y.down="13" y="15"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="EnableBtn" label="激 活" y="598" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="230">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width.up="172" height.up="59">
+			<e:Image width="86" height="59" y.down="-2" source.up="com_button02" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source.disabled="com_button02" width.disabled="86" height.disabled="59" source="com_button02"/>
+			<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" width.down="86" height.down="59" x.down="172" source.up="com_button02" x.disabled="172" width.disabled="86" height.disabled="59" source.disabled="com_button02" source="com_button02"/>
+			<e:Label id="labelDisplay" text="进 阶" fontFamily="Microsoft YaHei" stroke="1" horizontalCenter="0" size="30" strokeColor="0x61451a" textColor="0xf2f2e9" y.up="15" y.down="13" y="15"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Label id="desc" text="会员商城兑换" y="662.3" size="20" fontFamily="Microsoft YaHei" textAlign="center" width="200" x="220" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+
+
+	<e:Button id="addPropBtn" label="" anchorOffsetX="0" width="96" anchorOffsetY="0" height="96" x="26" y="592">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+	<e:Image width="96" height="96" includeIn="down" x="0" y="0" source="shenbing_btn1"/>
+	<e:Image width="82" height="82" source="shenzhuang_btn1" includeIn="down" y="5" x="7"/>
+			<e:Image width="82" height="82" y.down="-2" source="shenzhuang_btn1" horizontalCenter="0" verticalCenter="0" includeIn="up,disabled" source.up="shenbing_btn1" width.up="96" height.up="96"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="1.5" verticalCenter.down="1.5"/>
+	<e:Image width="82" height="82" source="shenzhuang_btn1" horizontalCenter="0" verticalCenter="0" includeIn="up,disabled"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="onBtn" label="" y="576" anchorOffsetX="0" width="114" anchorOffsetY="0" height="116" x="500">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width.up="114" height.up="116" width.down="114" height.down="116" width.disabled="114" height.disabled="116">
+			<e:Image width="114" height="116" y="0" source="shenbing_btn3" y.down="-2" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="1.5" verticalCenter.down="1.5"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="offBtn" label="" y="576" anchorOffsetX="0" width="114" anchorOffsetY="0" height="116" x="500">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image y.down="-2" source="shenbing_btn4" horizontalCenter="0" width.disabled="114" height.disabled="116" y="0" width="114" height="116"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="1.5" verticalCenter.down="1.5"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="696" horizontalCenter="0">
+		<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="0" anchorOffsetX="0"/>
+		<e:Image width="305" height="181" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="610" anchorOffsetX="0" scaleX="-1"/>
+	</e:Group>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" x="8" y="713" width="624" height="222">
+		<e:viewport>
+		<e:List id="itemList" anchorOffsetX="0" x="2" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true">
+			<e:layout>
+				<e:TileLayout rowHeight="120" columnWidth="120" requestedColumnCount="5"/>
+			</e:layout>
+
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<ns1:ItemUse id="addPropView" width="466" height="550" scaleX="1" scaleY="1" skinName="skin.ItemUse" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:UpStage id="upgradeView" width="620" height="844" skinName="skin.UpStage" verticalCenter="0" horizontalCenter="0" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

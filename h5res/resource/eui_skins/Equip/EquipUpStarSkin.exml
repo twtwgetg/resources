@@ -1,0 +1,79 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skin.EquipUpStarSkin" width="640" height="950" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group x="18" y="45">
+		<e:Image width="303" height="767" x="0" y="0" scaleX="1" scaleY="1" source="resource/assets/data/ui/bgs/duanzao_pic29.png"/>
+		<e:Image width="303" height="767" x="606" y="0" scaleX="-1" scaleY="1" source="resource/assets/data/ui/bgs/duanzao_pic29.png"/>
+	</e:Group>
+	<e:Image width="305" height="120" x="16.97" y="806" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/com_back_interval.png" touchEnabled="false"/>
+	<e:Image width="305" height="120" x="626.68" y="806" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/com_back_interval.png" scaleX="-1" touchEnabled="false"/>
+	<ns1:EquipComp1 id="equipComp" width="610" height="700" y="84" skinName="EquipPosItemRoot1" horizontalCenter="0"/>
+	<ns1:ItemBase2 id="centerItem" width="86" height="86" y="195" skinName="skin.ItemBaseSkin2" horizontalCenter="0"/>
+	<e:Button id="starchain" label="" x="517" y="50" width="87" height="87">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="duanzao_32" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre="ogre.*"/>
+	<e:Group y="60" horizontalCenter="0" y.down="58" visible="false">
+		<e:Image width="64" height="24" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_num" x="0"/>
+		<e:Label id="Level" text="10阶" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="166" y="424" anchorOffsetY="0" height="158">
+		<e:Image width="163" height="136" y="145" x="154" anchorOffsetY="0" source="UIPic_6" scaleX="-1" scale9Grid="16,5,21,34"/>
+		<e:Image width="163" height="136" y="145" x="154" scaleX="1" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,27,34"/>
+		<e:Image width="56" height="87" y="177" source="com_arrow" rotation="90" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-2"/>
+	</e:Group>
+	<e:Label id="partName" text="剑" y="90" textColor="0xeec275" size="22" textAlign="center" verticalAlign="middle" horizontalCenter="0" visible="false"/>
+	<e:Group id="showgarea" y="832" anchorOffsetX="0" width="300" x="237">
+		<e:Image width="166" height="28" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,7,43,18"/>
+		<e:Label id="needNum" text="999/999" x="22" size="20" anchorOffsetX="0" width="139.83" textAlign="right" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" y="4"/>
+		<e:Image id="itemIcon" width="30" height="30" x="0" y="0" source="duanzao_pic28" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Button id="startBtn" label="升星" y="42" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" x="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" width="174" height="59">
+				<e:Image width="87" height="59" y.down="-2" source="com_button02"/>
+				<e:Image width="87" height="59" x="174" y="0" scaleX="-1" y.down="-2" source="com_button02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="升星" fontFamily="Microsoft YaHei" size="26" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="getWay" text="获取途径" x="210" y="60" anchorOffsetX="0" scaleX="1" scaleY="1" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Image width="82" x="210" source="downline_W" scale9Grid="1,0,1,4" y="82"/>
+	</e:Group>
+	<e:Group y="28" x="115">
+		<e:Image width="410" height="46" source="com_back_power" x="0" y="0"/>
+		<ns1:powerzlcomp id="power" width="223" height="36" skinName="skin.ZhanDouLiSkin" anchorOffsetX="0" anchorOffsetY="0" x="94" verticalCenter="0"/>
+	</e:Group>
+	<e:Image width="174" height="66" x="146" y="440" source="duanzao_upstarbg"/>
+	<e:Image width="174" height="66" x="494" y="440" scaleX="-1" source="duanzao_upstarbg"/>
+	<e:Group id="starGroup" y="448" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image width="35" height="35" x="0" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="34.55555555555556" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="69.11111111111111" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="103.66666666666667" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="138.22222222222223" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="172.77777777777777" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="207.33333333333331" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="241.88888888888886" y="0" source="upstar_lv2"/>
+		<e:Image width="35" height="35" x="276.4444444444444" y="0" source="upstar_lv0"/>
+		<e:Image width="35" height="35" x="311" y="0" source="upstar_lv0"/>
+	</e:Group>
+	<e:Label id="nextProp" text="攻击力+333333" y="667" anchorOffsetX="0" size="18" anchorOffsetY="0" height="18" x="223" textAlign="left" textColor="0x59fc02" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" width="209"/>
+	<e:Label id="curProp" text="当前:装备属性+999.99%" y="586" anchorOffsetX="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="28" strokeColor="0x14181b" stroke="1" textColor="0xc6d5df" horizontalCenter="0"/>
+	<e:Label text="升星成功率:" x="197" y="512" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="会员" x="421" y="512" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x1ce17d"/>
+	<e:Label id="succRate" text="30%" y="513" size="20" x="310" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0xf2f2e9"/>
+	<e:Group id="vipGroup" x="364" y="513">
+		<e:Label text="+" y="0" size="20" x="0" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+		<e:Label id="vipRatio" text="0" y="0" size="20" x="12" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+		<e:Label text="%" y="0" size="20" x="26" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="effect_cg" width="20" height="20" name="9036" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:MovieClipCtrl id="effect_sb" width="20" height="20" name="9037" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>  	
+</e:Skin>

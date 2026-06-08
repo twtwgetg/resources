@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YunBiaoInfoSkin" width="554" height="650" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="1"/>
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group id="grp_bg" y="58" width="532" height="572" horizontalCenter="0">
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" right="0" top="0" scaleX="-1"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" left="0" bottom="0" scaleY="-1"/>
+		<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="42,41,4,5" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group x="0" y="0" width="100%">
+	</e:Group>
+	<e:Group id="contentGroup" x="17" y="64">
+		<ns1:PlayerInfoModel id="playerInfo" width="520" height="186" y="0" skinName="PlayerInfoModelSkin" x="0"/>
+		<ns1:PlayerInfoModel id="helperInfo" width="520" height="186" y="190" skinName="PlayerInfoModelSkin" x="0" visible="false"/>
+		<e:Group id="robGroup" y="191" width="520" height="180" x="0">
+			<e:Group width="100%" height="100%" y="0" x="0">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+			</e:Group>
+			<e:Group bottom="4" horizontalCenter="0" width="100%" x="0" y="119">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+			</e:Group>
+			<e:Image width="520" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+			<e:Label text="掠夺奖励" y="1" size="22" width="151" height="36.67" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181B" anchorOffsetX="0" x="2"/>
+			<e:Group x="310" y="10">
+				<e:Label text="到达倒计时:" y="0" size="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181B" anchorOffsetX="0" x="0"/>
+				<e:Label id="time" text="5:59" y="0" size="18" width="96" verticalAlign="middle" textAlign="left" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" anchorOffsetX="0" x="100" textColor="0xf11d40"/>
+			</e:Group>
+			<e:Scroller id="scrollerReward" height="90" anchorOffsetX="0" y="66" width="380" x="12">
+			<e:List id="rewardList" width="0" height="0" y="-6">
+				<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="-4"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+			<e:Button id="fightBtn" label="掠 夺" x="404" width="102" height="35" scaleX="1" scaleY="1" y="96">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button06" source.down="com_button06"/>
+				<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button06" source.down="com_button06"/>
+				<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Label text="护送信息" y="10" fontFamily="Microsoft YaHei" size="26" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+	<e:Image id="p1" width="131" height="14" x="204" y="17" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Image id="p2" width="131" height="14" x="349.03" y="17" source="com_title_line" scale9Grid="21,0,65,14"/>
+	<e:Button id="closeBtn" label="" x="495" y="3" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre="ogre.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

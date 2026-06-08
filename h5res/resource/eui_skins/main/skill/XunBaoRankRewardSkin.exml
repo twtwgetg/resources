@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XunBaoRankRewardSkin" width="580" height="786" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0" width="580" height="786">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0" width="580">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group x="0" y="0" width="580">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" top="0" left="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+		<e:Group x="12" y="52" width="556" height="670" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label text="排名奖励" y="10" size="24" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	<e:Group x="77" y="57.69">
+		<e:Label text="排名" size="20" fontFamily="Microsoft YaHei" textColor="0xfff5a5" stroke="1" strokeColor="0x14181b" x="0" verticalCenter="0"/>
+		<e:Label text="积分" size="20" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B" x="113" verticalCenter="0.5"/>
+		<e:Label text="奖励" size="20" fontFamily="Microsoft YaHei" textColor="0xfff5a5" stroke="1" strokeColor="0x14181b" x="236" verticalCenter="0.5"/>
+		<e:Group x="337" y="0">
+			<e:Label text="额外奖励" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B" width="86" textAlign="center" horizontalCenter="0"/>
+			<e:Label text="达1500分可获得" y="23" size="20" fontFamily="Microsoft YaHei" textColor="0xFFF5A5" stroke="1" strokeColor="0x14181B" x="0" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller width="548" height="596" y="106" anchorOffsetX="0" anchorOffsetY="0" x="16">
+		<e:List id="list" height="552" width="0" anchorOffsetY="0"/>
+	</e:Scroller>
+	<e:Label text="每日0点邮件发放奖励" y="739.31" size="20" horizontalCenter="-15" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="noplayer" text="暂无玩家上榜" y="420" size="26" horizontalCenter="-15" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xf2f2e9"/>
+	<e:Button id="closeBtn" label="" x="536" y="5" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

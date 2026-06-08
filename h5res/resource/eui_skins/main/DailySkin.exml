@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailySkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="116" y="1028">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton x="0" y="0" width="86" height="86" name="jingjieView" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Label text="" y="49" size="20" anchorOffsetX="0" width="42" fontFamily="Microsoft YaHei" height="20" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" textAlign="center" name="title" x="22"/>
+	<e:Image width="86" height="86" y="0" source="Faction_08" scaleX="1" scaleY="1" x="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="87" y="0" width="86" height="86" name="MainView" scaleX="1" scaleY="1" anchorOffsetY="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Label text="" x="21" y="37" size="20" anchorOffsetX="0" width="42" fontFamily="Microsoft YaHei" height="43" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" textAlign="center" name="title"/>
+	<e:Image width="86" height="86" x="0" y="0" source="Faction_06"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="174" y="0" width="86" height="86" name="GangView" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Label text="" x="21" y="37" size="20" anchorOffsetX="0" width="42" fontFamily="Microsoft YaHei" height="43" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" textAlign="center" name="title"/>
+	<e:Image width="86" height="86" x="0" y="0" source="Faction_05"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="261" y="0" width="86" height="86" name="SingfbView" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Label text="" x="21" y="37" size="20" anchorOffsetX="0" width="42" fontFamily="Microsoft YaHei" height="43" stroke="1" strokeColor="0x14181B" textColor="0xF2F2E9" textAlign="center" name="title"/>
+	<e:Image width="86" height="86" x="0" y="0" source="Faction_04"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton x="348" y="0" width="86" height="86" name="FourFacePalaceView" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="98" width.down="86" height.down="98" width.disabled="86" height.disabled="98" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+	<e:Image y="5" source="sixianggbtn" horizontalCenter="0.5"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:Group x="400" y="16" scaleX="1" scaleY="1" visible="false">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="viewGroup" y="53" anchorOffsetY="0" height="950" width="636" x="75" touchEnabled="false">
+		<ns1:AchievementWindow id="jingjieView" width="640" height="960" y="0" name="jingjieView" horizontalCenter="0" skinName="skin.AchievementinfoSkin"/>
+		<ns1:FactionMission id="mainView" width="630" height="906" y="0" skinName="FactionMissionSkin" name="MainView" horizontalCenter="0" visible="false"/>
+		<ns1:Factionactivitylist id="gangView" width="630" height="940" y="0" skinName="FactionactivitylistSkin" name="GangView" horizontalCenter="0" visible="false"/>
+		<ns1:FactionSingleFuben id="singfbView" width="600" height="960" y="-3" scaleX="1" scaleY="1" skinName="FactionSingleFubenSkin" name="SingfbView" horizontalCenter="0" visible="false"/>
+		<ns1:panel_FourFacePalace id="FourFacePalaceView" width="786" height="1136" x="-76" y="-53" scaleX="1" scaleY="1" skinName="FactionForShengGpanelSkin" name="FourFacePalaceView" visible="false"/>
+	</e:Group>
+</e:Skin>

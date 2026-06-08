@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerLuckShowModelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:PartnerLuckRewardsMShow id="partnerView" width="786" height="1136" x="0" y="0" skinName="PartnerLuckRewardsMShowSkin"/>
+</e:Skin>

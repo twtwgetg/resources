@@ -1,0 +1,275 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShopSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+
+
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Label text="商 城" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="-2"/>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="116" y="1028">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:ToggleButton id="yuanbao" x="0" y="0" width="86" height="86" name="shopgood" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image height="86" alpha.disabled="0.5" width.up="86" height.up="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" y="0" source="shop_check" source.up="shop_check" source.down="shop_check" width.down="86" source.disabled="shop_check"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="qiankunling" x="87" y="0" width="86" height="86" name="qiankunlinggood" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86">
+
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shop_qiankun" source.up="shop_qiankun" source.down="shop_qiankun" x="0" source.disabled="shop_qiankun"/>
+
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="vip" x="174" y="0" width="86" height="86" name="vipGood" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+
+					<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="shop_vip" source.up="shop_vip" source.down="shop_vip" source.disabled="shop_vip"/>
+
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="shenmi" x="261" y="0" width="86" height="86" name="shenmigood" scaleX="1" scaleY="1" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" width="86" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.up="0" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0" source="shop_shenmi" source.up="shop_shenmi" source.down="shop_shenmi" source.disabled="shop_shenmi"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+
+
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="viewGroup" y="96" horizontalCenter="0">
+		<e:Group id="photoParent" x="0" y="0" visible="false">
+			<e:Group x="-1" y="-8" width="594" height="900">
+				<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+				<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+				<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+				<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+			</e:Group>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="590" y="-2" height="895" name="shopgood" x="2">
+				<e:viewport>
+				<e:List id="listgood" anchorOffsetX="0" x="0" anchorOffsetY="0" y="-1" width="0" height="0">
+					<e:layout>
+					<e:TileLayout horizontalGap="3" verticalGap="10"/>
+					</e:layout>
+				</e:List>
+				</e:viewport>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="qiankunling" x="0" y="0" visible="false">
+			<e:Group x="-1" y="-8" width="594" height="900">
+				<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+				<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+				<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+				<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+			</e:Group>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="590" y="-2" height="895" name="qiankunlinggood" x="2">
+				<e:viewport>
+				<e:List id="listqiankunling" anchorOffsetX="0" x="0" anchorOffsetY="0" y="-1" width="0" height="811">
+					<e:layout>
+					<e:TileLayout horizontalGap="3" verticalGap="10"/>
+					</e:layout>
+				</e:List>
+				</e:viewport>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="shenmishop" y="-8" name="shenmigood" anchorOffsetY="0" height="923" horizontalCenter="0" visible="false">
+			<e:Group x="0" y="0" width="594" height="824">
+				<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+				<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+				<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+				<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+			</e:Group>
+			<e:Scroller id="shenmi" anchorOffsetX="0" anchorOffsetY="0" width="591" height="643" name="shenmigood" y="174" horizontalCenter="0.5">
+				<e:viewport>
+				<e:List id="listshenmi" anchorOffsetX="0" x="-1.33" anchorOffsetY="0" y="-1" width="0" height="643">
+					<e:layout>
+					<e:TileLayout horizontalGap="3" verticalGap="3"/>
+					</e:layout>
+				</e:List>
+				</e:viewport>
+			</e:Scroller>
+			<e:Image id="huiyuanshopbg0" anchorOffsetX="0" anchorOffsetY="0" y="0" source="resource/assets/data/ui/bgs/shenmishop.png" horizontalCenter="0"/>
+			<e:Image width="131" height="30" y="126" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="210.5"/>
+			<e:Label text="次日0点自动刷新" anchorOffsetX="0" verticalAlign="middle" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" x="442" y="130" textColor="0x1CE17D" stroke="1" strokeColor="0x14181b"/>
+			<e:Group y="829.36" scaleX="1" scaleY="1" horizontalCenter="0.5">
+				<e:Group y="4" horizontalCenter="0">
+				<e:Label text="刷新消耗:" anchorOffsetX="0" verticalAlign="middle" anchorOffsetY="0" size="20" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" x="3" y="5" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+					<e:Image y="1" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_barback" x="97" scale9Grid="10,2,66,13" width="182" height="29"/>
+				<e:Image id="jinbi" x="98" y="1" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_38"/>
+				<e:Label id="moneynum0" text="100000" anchorOffsetX="0" verticalAlign="middle" textAlign="left" anchorOffsetY="0" size="20" background="false" border="false" backgroundColor="0xFFFFFF" borderColor="0xF2EDE6" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" x="166" y="5" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+
+
+				</e:Group>
+				<e:Button id="btnRecieve" label="" y="41.67" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:tween="egret.tween.*">
+					<e:Image width="68" height="48" y.down="-2" source="com_button04" source.up="com_button01" source.disabled="com_button01" source.down="com_button01"/>
+					<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button04" source.up="com_button01" source.disabled="com_button01" source.down="com_button01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label text="刷 新" size="20" textAlign="center" horizontalCenter="0" includeIn="down" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" y="12"/>
+	<e:Label text="刷 新" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" includeIn="up,disabled" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xF2F2E9"/>
+
+
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+
+
+
+		<e:Group id="vipShop" x="0" y="0" name="vipGood" visible="false">
+					<e:Group x="-1" y="-8" width="594" height="900" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+	</e:Group>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" x="3.35" width="590" y="195.02" height="688" >
+				<e:viewport>
+				<e:List id="listVipShop" anchorOffsetX="0" x="0" anchorOffsetY="0" y="-1" width="571" height="694">
+					<e:layout>
+					<e:TileLayout horizontalGap="3" verticalGap="5"/>
+					</e:layout>
+				</e:List>
+				</e:viewport>
+			</e:Scroller>
+			<e:Image id="huiyuanshopbg" width="588" height="200" anchorOffsetX="0" anchorOffsetY="0" x="1.02" y="-6.98" source="resource/assets/data/ui/bgs/vip_piclibao.png"/>
+		</e:Group>
+	</e:Group>
+
+	
+
+
+
+	<e:Button id="closeBtn" label="" x="656" width="56" height="56" top="48">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" y.down="-2" source="com_close" source.up="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:ShopItemBuy id="buy" skinName="ShopItemBuySkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

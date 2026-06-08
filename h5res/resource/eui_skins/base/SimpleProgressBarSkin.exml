@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.SimpleProgressBar" width="222" height="14" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_barbg" scale9Grid="2,2,111,11"/>
+	<e:Image id="thumb" width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="UIPic_31" fillMode="scale" scale9Grid="2,0,82,17"/>
+	<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" visible="false"/>
+	<e:Label id="text" text="99999" textAlign="center" verticalCenter="0" size="18" stroke="1" fontFamily="Microsoft YaHei" horizontalCenter="0" width="130" strokeColor="0x14181b" textColor="0xf2f2e9"/>
+	<ns1:MovieClipCtrl width="20" height="20" x="104" id="effect" name="9010" y="10" visible="false"/>
+</e:Skin>

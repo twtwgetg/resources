@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiRiQuanMingSkin" width="605" height="825" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166beb888d8" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group y="0" width="610" height="825" x="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="-1"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" right="0" y="826"/>
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" top="6" horizontalCenter="0" source="resource/assets/data/ui/bgs/qiri2.png"/>
+		</e:Group>
+		<e:Group x="28" y="24">
+		<e:Label text="剩余时间:" y="0" size="21" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" textColor="0xFBCC90" x="0"/>
+		<e:Label id="remainTimes" text="10小时20分钟" y="0" size="21" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D" textAlign="center" x="98"/>
+		<e:Label text="活动说明:" y="35" size="21" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFBCC90" textAlign="center" x="0"/>
+		<e:Label id="des" text="活动期间，全服英雄战力500人数达到指定目标，即可领取更多奖励！" y="35" size="21" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="97" width="460" textColor="0xFFEA00"/>
+		</e:Group>
+		<e:Scroller y="202" anchorOffsetY="0" scaleX="1" scaleY="1" width="602" height="615" name="oneView" horizontalCenter="0">
+		<e:List id="itemList" width="0" height="0" x="-32" y="163">
+			<e:layout>
+				<e:VerticalLayout gap="4"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

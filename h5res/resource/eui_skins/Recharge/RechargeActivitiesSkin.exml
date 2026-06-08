@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeActivitiesSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group y="38" horizontalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+		<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+		<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+		<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+		<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png"/>
+		<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scaleX="-1"/>
+	</e:Group>
+	<e:Label id="title" text="活 动" y="53" fontFamily="Microsoft YaHei" size="26" horizontalCenter="-1" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1"/>
+	<e:Group y="96" horizontalCenter="0">
+		<e:Image x="0" y="0" source="fulifendi" scale9Grid="131,19,129,120"/>
+		<e:Image x="594" y="0" source="fulifendi" scale9Grid="131,19,129,120" scaleX="-1"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="655" y="49" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="viewGroup" y="262" width="640" height="830" anchorOffsetY="0" horizontalCenter="0">
+		<ns1:RechargeAccumulative id="rechargeAccumulative" width="640" height="830" x="0" y="0" skinName="RechargeAccumulativeSkin" name="3" visible="false"/>
+		<ns1:ConsumerGift width="640" height="830" x="0" y="0" skinName="ConsumerGiftSkin" name="4" visible="false"/>
+		<ns1:SpecialBag width="640" height="830" y="0" skinName="SpecialBagSkin" name="5" visible="false"/>
+		<ns1:DiscountedBag width="640" height="830" y="0" skinName="DiscountedBagSkin" name="6" horizontalCenter="0" visible="false"/>
+		<ns1:RechargeAllPeopleBoss id="allBoss" y="0" skinName="RechargeAllPeopleBossSkin" scaleX="1" scaleY="1" horizontalCenter="0" name="7" visible="false"/>
+		<ns1:SiShiErLeiChong horizontalCenter="0" verticalCenter="0" name="11" visible="false"/>
+		<ns1:CountinueRecharge  y="0" skinName="HaoHuaSkin" scaleX="1" scaleY="1" horizontalCenter="0" name="2" visible="false"/>
+	</e:Group>
+	<ns1:ScrollPage id="scrollPage" width="602" height="155" y="95" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="1">
+		<ns1:skinName>
+		<e:Skin width="605" height="178">
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="604" height="178" y="0" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<ns1:RechargeCheckModel width="124" height="178" x="15" y="25" skinName="RechargeCheckModelSkin"/>
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" height="21" y="137" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+</e:Skin>

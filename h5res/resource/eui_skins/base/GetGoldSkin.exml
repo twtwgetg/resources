@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetGoldSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+
+	<ns1:Commonback id="commonBack" width="786" height="1136" x="0" y="0" skinName="CommonbackSkin"/>
+
+
+	<e:Label text="龙 脉" y="52" size="26" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0x2e120a"/>
+
+
+
+	<e:Image width="598" height="356" y="86" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/longtou.png" x="94"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="396" y="270" name="9015" skinName="MovieClipCtrlSkin"/>
+	<e:Group y="97" horizontalCenter="24.5">
+		<e:Image width="360" height="45" x="0" source="com_back_power" y="1"/>
+		<ns1:powerzlcomp id="zhanLi" width="360" height="50" y="-2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="106"/>
+	</e:Group>
+
+	<e:Group id="mainView" width="640" height="960" y="49" horizontalCenter="0">
+
+
+
+		<e:Group id="PropGroup" height="255" x="29" y="553" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group y="0" horizontalCenter="0" height="255" width="580">
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="41,40,4,4" left="0" top="0"/>
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" top="0" right="0"/>
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+				<e:Image width="50%" height="50%" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1" left="0" bottom="0"/>
+			</e:Group>
+			<e:Image width="580" height="43" y="1" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+			<e:Image id="p1" width="131" height="14" x="216" y="13" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+			<e:Image id="p2" width="131" height="14" x="361.03" y="13" source="com_title_line" scale9Grid="21,0,65,14"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:Label id="manji" text="已满级" x="370" y="120" size="30" textColor="0x00FF00"/>
+			<e:Label id="curLevel" text="99阶龙脉" y="8" size="24" scaleX="1" scaleY="1" textAlign="center" fontFamily="Microsoft YaHei" anchorOffsetX="0" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90" horizontalCenter="-2.5"/>
+
+
+		</e:Group>
+
+
+		<e:Group id="levelGroup" x="80" y="599">
+			<ns1:PropertyList id="levelPropList" x="-22" width="563" anchorOffsetX="0">
+				<ns1:skinName>
+				<e:Skin>
+					<e:Image id="propArrow" width="66" height="102" source="com_arrow" horizontalCenter="-7" verticalCenter="11.5"/>
+					<e:List id="leftList" width="200" height="140" x="20" y="49" anchorOffsetY="0"/>
+					<e:List id="rightList" width="231" height="140" x="325" y="49" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Label id="leftTitle" text="当前属性" x="20" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei"/>
+					<e:Label id="rightTitle" text="属性预览" x="329" y="8" textAlign="center" size="24" textColor="0xfbcc90" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:PropertyList>
+
+
+
+
+
+			<e:Group id="bottomGroup" x="304" y="152">
+				<e:Group x="0" y="0" scaleX="1" scaleY="1">
+					<e:Label text="999/999" x="90" y="1" size="18" id="goldnext" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+					<e:Label text="金币产量：" x="0" y="0" size="18" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+				</e:Group>
+				<e:Group x="0" y="25" scaleX="1" scaleY="1">
+					<e:Label text="6358975" x="90" y="0" size="18" id="storemax_next" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0x1ce17d"/>
+					<e:Label text="存储上限：" x="0" y="0" size="18" stroke="1" strokeColor="0x14181b" textColor="0xf2f2e9" fontFamily="Microsoft YaHei"/>
+				</e:Group>
+			</e:Group>
+			<e:Group x="-2" y="153" scaleX="1" scaleY="1">
+				<e:Label text="金币产量：" x="0" y="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xc6d3db"/>
+				<e:Label text="999/999" x="90" y="0" size="18" id="goldcur" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xc6d3db"/>
+			</e:Group>
+			<e:Group x="-2" y="178" scaleX="1" scaleY="1">
+				<e:Label text="存储上限：" x="0" y="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textColor="0xc6d3db"/>
+				<e:Label text="6548937" x="90" y="0" size="18" id="storemax" fontFamily="Microsoft YaHei" textColor="0xc6d3db"/>
+			</e:Group>
+
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+		<e:Group id="grp_upgrade" x="156" y="822" height="105">
+			<e:Image width="138" height="31" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_num_enter" scale9Grid="16,10,18,11" x="120" y="-1"/>
+			<e:Label text="_____" x="231" size="32" fontFamily="KaiTi_GB2312" anchorOffsetX="0" width="83" textColor="0xF2F2E9" height="36" stroke="1" strokeColor="0x14181B" verticalCenter="-41.5" verticalAlign="middle" visible="false"/>
+			<e:Label text="消耗:" y="3" width="92" size="20" textAlign="center" verticalAlign="middle" x="43" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Image id="itemIcon" width="28" height="28" x="124.99" y="1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="daojuicon_pic10"/>
+
+			<e:Label id="needNum" text=" %t" x="158" y="2" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" height="24" anchorOffsetY="0" size="20" backgroundColor="0x05131E" borderColor="0x4F4333" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+
+
+			<e:Label id="getWay" text="获取途径" x="229.34" y="3" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" visible="false"/>
+			<e:Button id="upgrade" label="" y="45" width="172" height="60" x="77" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="172" height="60">
+					<e:Image width="86" height="59" y.down="-2" source="com_button02" source.down="com_button02"/>
+					<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source="com_button02" source.up="com_button02" source.down="com_button02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label text="升 级" includeIn="down" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" textColor="0xf2f2e9"/>
+					<e:Label text="升 级" includeIn="up" horizontalCenter="0" size="26" verticalCenter="0" stroke="1" strokeColor="0x073057" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="activation" label="激 活" y="870" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="254">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="moneyGroup" x="96" y="406">
+
+			<e:ProgressBar id="progress" width="534" height="15" x="-42" y="0" rotation="0" anchorOffsetX="0" anchorOffsetY="0" value="100">
+				<e:skinName>
+					<e:Skin width="534" height="15">
+	<e:Image width="498" height="15" y="0" x="19" source="com_barbg" scale9Grid="7,0,99,15"/>
+	<e:Image id="thumb" width="498" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" x="19" y="0" source="com_bar"/>
+	<e:Image width="49" height="15" y="0" x="49" source="com_barbg1" scaleX="-1"/>
+	<e:Image width="49" height="15" y="0" x="487" source="com_barbg1"/>
+
+					<e:Label id="labelDisplay" text="999991" textAlign="center" horizontalCenter="0" verticalCenter="0" size="16" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+					</e:Skin>
+				</e:skinName>
+			</e:ProgressBar>
+
+			<e:Group x="45" y="23">
+				<e:Image width="274" height="31" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_num_enter" scale9Grid="16,10,18,11" x="84" verticalCenter="0.5"/>
+				<e:Label text="当前产量" size="20" x="0" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+				<e:Label id="time" text="5000000/6000000" size="18" textAlign="left" x="125" verticalCenter="1" width="236" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+				<e:Image id="gold" width="31" height="34" x="88.99" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="UIPic_38"/>
+			</e:Group>
+			<e:Button id="pickgold" label="" y="70" width="172" height="60" x="136" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="172" height="60">
+					<e:Image width="86" height="59" y.down="-2" source="com_button02" source.down="com_button02"/>
+					<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source="com_button02" source.up="com_button02" source.down="com_button02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label text="领 取" includeIn="down" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" textColor="0xf2f2e9"/>
+					<e:Label text="领 取" includeIn="up" horizontalCenter="0" size="26" verticalCenter="0" stroke="1" strokeColor="0x073057" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="tips" text="升级龙脉可领取大量金币， 龙脉等级越高金币越多" size="24" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="458" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="653" width="59" height="59" top="49" y="53.00000000000001" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="56" height="56">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" y.down="-2" source.up="com_close" source.down="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="118" y="1036">
+		<e:Group x="0" y="0">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="91" y="0">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="181" y="0">
+		<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+		<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="271.75" y="0">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group x="363" y="0">
+			<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+			<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

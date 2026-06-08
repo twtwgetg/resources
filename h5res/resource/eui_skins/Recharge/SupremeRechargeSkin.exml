@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SupremeRechargeSkin" width="710" height="1082" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png"/>
+		<e:Image x="702" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_01.png" scaleX="-1"/>
+		<e:Image x="36" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616"/>
+		<e:Image x="666" y="311" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_02.png" scale9Grid="8,1,1,1" width="315" height="616" scaleX="-1"/>
+		<e:Image x="16" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scale9Grid="8,1,1,1"/>
+		<e:Image x="686" y="927" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/fulibg_03.png" scale9Grid="8,1,1,1" scaleX="-1"/>
+	</e:Group>
+	<e:Label text="成就巅峰" y="16.98" fontFamily="Microsoft YaHei" size="26" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+	<e:Group y="48" horizontalCenter="0">
+		<e:Image y="5.32" anchorOffsetY="0" horizontalCenter="0" source="resource/assets/data/ui/bgs/chengjiudianfeng.png"/>
+		<e:Group y="741.32" width="456" horizontalCenter="0">
+			<e:Image y="0" anchorOffsetY="0" source="chengjiudianfeng_pic1" x="0"/>
+			<e:Image y="0" anchorOffsetY="0" source="chengjiudianfeng_pic1" scaleX="-1" x="456"/>
+			<e:Image y="4" anchorOffsetY="0" scaleX="1" x="369.33" source="chengjiudianfeng_pic2"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="44" source="zhanlibiaoshengfont" verticalCenter="0"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="177.31" verticalCenter="0" source="fight_3"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="204.64333333333335" verticalCenter="0" source="fight_1"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="231.9766666666667" verticalCenter="0" source="fight_8"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="259.31" verticalCenter="0" source="fight_0"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="286.6433333333333" verticalCenter="0" source="fight_0"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="313.97666666666663" verticalCenter="0" source="fight_0"/>
+			<e:Image anchorOffsetY="0" scaleX="1" x="341.31" verticalCenter="0.5" source="fight_0"/>
+		</e:Group>
+		<e:Button id="Receive" label="" y="874" anchorOffsetX="0" width="174" anchorOffsetY="0" height="56" scaleX="1" scaleY="1" x="235">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" width="174" height="56">
+				<e:Image width="50%" height="100%" y.down="-2" source="com_button08" source.down="com_button08" source.up="com_button08"/>
+				<e:Image width="50%" height="100%" x="174" y="0" scaleX="-1" y.down="-2" source="com_button08" source.down="com_button08" source.up="com_button08"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="提升会员" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label text="提升会员" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" top="10" x="613.97">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

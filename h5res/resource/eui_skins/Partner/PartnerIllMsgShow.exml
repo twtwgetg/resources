@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerIllMsgShow" width="366" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image width="361" height="389" y="5.5" source="tongyong_pic23" scale9Grid="30,133,1,1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" x="321" y="0" width="43" height="43">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" source.down="tongyong_btn6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="skillName" text="英雄谱" y="93" anchorOffsetX="0" size="18" textColor="0x029af9" anchorOffsetY="0" height="19" textAlign="center" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="下阶英雄谱境界" y="59" anchorOffsetX="0" width="145" size="18" anchorOffsetY="0" height="19" textColor="0xffffff" horizontalCenter="10.5" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Group id="grp_zl" y="116" anchorOffsetY="0" height="256" horizontalCenter="0">
+		<e:Label text="晋升条件" y="0" size="18" textColor="0xecc275" x="80" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="下一级效果" y="139" size="18" textColor="0xecc275" x="79" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="curDesc" text="以下条件全部达成:" x="0" y="27" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="curDesc0" text="999" x="143" y="57" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="curDesc1" text="999" x="190" y="57" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="/" x="178" y="57" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="curDesc2" text="999" x="143" y="77" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="curDesc3" text="999" x="190" y="77" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="/" x="178" y="77" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="curDesc4" text="999" x="143" y="100" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="curDesc5" text="999" x="190" y="100" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="/" x="178" y="100" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="英雄生命+" x="17" y="171" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="伙伴数量" x="10" y="56" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="伙伴总星级" x="10" y="77" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="伙伴总阶数" x="10" y="100" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="英雄攻击+" x="17" y="200" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="英雄防御+" x="17" y="230" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="nextDesc6" text="100%" x="138" y="172" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="nextDesc0" text="100%" x="138" y="201" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="nextDesc2" text="100%" x="138" y="231" size="18" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

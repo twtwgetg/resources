@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerDetailsSkillSkin" width="550" height="320" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="319" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="48,44,59,57"/>
+		<e:Image width="86" height="14" x="331.35" y="21" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+		<e:Image width="86" height="14" x="221.35" y="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="com_title_line"/>
+		<e:Label text="英雄技能" y="12" anchorOffsetX="0" width="99" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xFBCC90" strokeColor="0x14181B" x="228" fontFamily="Microsoft YaHei" stroke="1"/>
+	</e:Group>
+	<e:Group id="skillGroup" x="30" y="50">
+		<e:Label id="skillDesc" text="给大哥都是广东省打个梵蒂冈电饭锅电饭锅电饭锅电饭锅电饭锅广的非官方的鬼地方个电饭锅电饭锅电饭锅12321312dsfdsgfdgdsgsdgsdgdsgdsgdsgdsgdsgdsg东省广东省广东省暂行规定是这个都是广东省广东省广东省广东省广东省广东省到上方滚动时滚动时古代诗歌的滚动时滚动时古代诗歌都是广东省广东省广东省广东省多少个都是广东省给第三个是滚动时滚动时古代诗歌都是广东省广东省广东省广东省感受感受" x="0" y="0" anchorOffsetX="0" width="490" anchorOffsetY="0" height="241" size="20" fontFamily="Microsoft YaHei" textColor="0xc2c3e2" stroke="1" lineSpacing="10" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

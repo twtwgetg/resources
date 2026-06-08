@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpPlayerModelSkin" width="570" height="183" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		<e:Button id="gethelp" label="求 助" x="453.5" width="102" height="35" scaleX="1" scaleY="1" y="81">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button06" source.down="com_button06"/>
+				<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button06" source.down="com_button06"/>
+				<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image width="100%" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+	<e:Group bottom="4" horizontalCenter="0" width="100%" x="0" y="119">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+	</e:Group>
+	<e:Group x="21" y="42">
+		<e:Group x="0" width="134" y="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" width="50%" left="0" top="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" width="50%" right="0" top="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group width="92" height="92" horizontalCenter="0" verticalCenter="0" x="21" y="21">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" width="92" height="92" source="1v1_Headback" horizontalCenter="0" bottom="0"/>
+			<e:Image id="headIcon1" anchorOffsetX="57.18" anchorOffsetY="56.48" width="82" height="82" source="Head_3" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="player" text="玩家名字" x="30" y="10" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+	<e:Group y="10" x="368">
+		<e:Label text="战斗力:" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" verticalCenter="0" textColor="0xFFEA00"/>
+		<e:Label id="fight1" text="5" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="66" textAlign="left" verticalCenter="0" textColor="0xFFEA00" anchorOffsetX="0" width="105"/>
+	</e:Group>
+	<e:Group x="163" y="66">
+		<ns1:PartnerDispatchSkin id="p1" skinName="skin.PartnerDispatchSkin" x="0" y="0"/>
+		<ns1:PartnerDispatchSkin id="p2" skinName="skin.PartnerDispatchSkin" x="91.5" y="0"/>
+		<ns1:PartnerDispatchSkin id="p3" skinName="skin.PartnerDispatchSkin" x="183" y="0"/>
+	</e:Group>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="-5" y="-4" source="YunBiaoPic_02"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemBaseGemSkin" width="170" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+
+
+
+
+	<e:Group id="haveSignGroup" y="0" anchorOffsetX="0" horizontalCenter="1.5" width="107" anchorOffsetY="0" height="148">
+
+		<e:Label id="itemName" text="未镶嵌" size="18" anchorOffsetX="0" width="110" anchorOffsetY="0" height="19" touchEnabled="false" y="118" name="textquality_0" textAlign="center" textColor="0xd0cdb4" horizontalCenter="0.5" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+		<e:Image id="quality" width="109" height="119" y="0" anchorOffsetX="0" anchorOffsetY="0" source="gemquality_0" name="gemquality_0" horizontalCenter="0"/>
+		<e:Image id="icon" width="74" height="74" y="12" fillMode="scale" scaleX="1" scaleY="1" source="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5"/>
+	</e:Group>
+
+	<e:Image width="85" height="54" y="139" x="85" scaleX="1" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,27,34" anchorOffsetX="0"/>
+	<e:Image width="85" height="54" y="139" x="85" scaleX="-1" anchorOffsetY="0" source="UIPic_6" scale9Grid="16,5,27,34" anchorOffsetX="0"/>
+	<e:Group id="propitem" x="7" y="139" anchorOffsetX="0" width="161" anchorOffsetY="0" height="49">
+		<ns1:PropBase id="prop1" width="170" height="25.11" x="17" y="5" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.PropBaseblueWhiteSkin" scaleX="0.9" scaleY="0.9"/>
+		<ns1:PropBase id="prop2" width="170" height="24" x="17" y="25" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.PropBaseblueWhiteSkin" scaleX="0.9" scaleY="0.9"/>
+	</e:Group>
+	<e:Group id="noSignGroup" y="0" horizontalCenter="2" anchorOffsetY="0" height="149" width="110">
+		<e:Image width="109" height="120" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="gemquality_0" name="gemquality_0"/>
+		<e:Label text="未镶嵌" size="18" anchorOffsetX="0" width="106" anchorOffsetY="0" height="19" touchEnabled="false" y="157" x="2" name="textquality_0" textAlign="center" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0xf11d40"/>
+	</e:Group>
+	<e:Image id="select" width="109" height="120" x="32" y="0" anchorOffsetX="0" anchorOffsetY="0" source="gemselectpic"/>
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="90" y="47" name="9014" skinName="MovieClipCtrlSkin" visible="false"/>
+	<e:Image width="24" height="24" verticalCenter="-84" horizontalCenter="37" source="com_red" name="redpoint"/>
+
+</e:Skin>

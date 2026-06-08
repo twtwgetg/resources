@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.ItemMiniPartner" width="58" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<e:Group id="BG" x="0" y="0">
+		<e:Image id="bg" width="55" height="55" x="0" y="0" source="UIPic_15"/>
+		<e:Image id="bg0" y="13" source="UIPic_24" x="13"/>
+	</e:Group>
+	<ns1:QualityBase id="quality" width="58" height="58" skinName="skin.QualityBase" horizontalCenter="0" x="4" y="0" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image id="Wbg" width="53" height="53" x="1" y="1" source="UIPic_14"/>
+	<e:Image id="maskBG" width="47" height="47" y="4" source="UIPic_15" alpha="1" x="4"/>
+
+	<e:Image id="icon" height="55" y="0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source="" scaleX="1" scaleY="1" width="55" x="0"/>
+
+	<e:Group id="selected" x="0" y="0" anchorOffsetY="0" height="58" width="100%">
+		<e:Image id="zhezhao" y="0" source="UIPic_15" width="55" height="55" x="0" visible="false"/>
+	</e:Group>
+
+
+
+
+
+	<ns1:BarBase id="hpBar" x="0" y="58.4" skinName="skins.PartnerBlood" scaleX="0.72" anchorOffsetX="0" anchorOffsetY="0" scaleY="0.7"/>
+
+</e:Skin>

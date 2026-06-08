@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuZaiHuiSkin" width="565" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="-136" y="1">
+		<e:Group x="167" y="0">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85"/>
+			<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85" scaleX="-1"/>
+			<e:Image source="com_back_power" top="111" scale9Grid="45,5,129,34" height="30" width="135" anchorOffsetY="0" x="-11"/>
+		</e:Group>
+		<e:Group x="0" y="196">
+			<e:Image y="-84" source="paiqianicon_06" anchorOffsetX="0" width="110" anchorOffsetY="0" height="27" x="196"/>
+			<e:Image y="-84" source="paiqianicon_06" anchorOffsetX="0" width="110" anchorOffsetY="0" height="27" scaleX="-1" x="256"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="119" y="1">
+		<e:Group x="167" y="0">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85"/>
+			<e:Image x="116" y="0" anchorOffsetX="0" anchorOffsetY="0" source="XunBao_01" scale9Grid="18,15,33,85" scaleX="-1"/>
+			<e:Image source="com_back_power" top="111" scale9Grid="45,5,129,34" height="30" width="135" anchorOffsetY="0" x="-11"/>
+		</e:Group>
+		<e:Group x="0" y="196">
+			<e:Image y="-84" source="paiqianicon_06" anchorOffsetX="0" width="110" anchorOffsetY="0" height="27" x="196"/>
+			<e:Image y="-84" source="paiqianicon_06" anchorOffsetX="0" width="110" anchorOffsetY="0" height="27" scaleX="-1" x="256"/>
+		</e:Group>
+	</e:Group>
+	<e:Button label="" x="448.13" y="58.64" width="100">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+			<e:Image width="65" height="45" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06" width.up="50" height.up="35" width.down="50" height.down="35" width.disabled="50" height.disabled="35"/>
+			<e:Image width="65" height="45" source="com_button06" x="130" y="0" scaleX="-1" source.down="com_button06" y.down="-2" width.up="50" height.up="35" x.up="100" width.down="50" height.down="35" x.down="100" width.disabled="50" height.disabled="35" x.disabled="100"/>
+			<e:Label text="元宝找回" width="100%" size="20" verticalAlign="middle" textAlign="center" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" anchorOffsetY.up="0" stroke="1" strokeColor="0x14181b" text.up="回 收" text.down="回 收" text.disabled="回 收" horizontalCenter.disabled="0" verticalCenter.disabled="0" horizontalCenter.up="0" verticalCenter.up="0" horizontalCenter.down="0" verticalCenter.down="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="propArrow" width="66" height="102" source="com_arrow" y="26.8" horizontalCenter="-63.5"/>
+	<ns1:ItemBase3 id="yuanBao" horizontalCenter="60.5" skinName="skin.ItemBaseSkin3" verticalCenter="6.5"/>
+	<ns1:ItemBase3 id="item2" y="26" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="32"/>
+</e:Skin>

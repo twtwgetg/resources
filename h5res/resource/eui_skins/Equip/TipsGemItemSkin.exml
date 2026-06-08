@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.TipsGemItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<e:Label id="noSign" text="[未镶嵌]" x="0" size="18" stroke="1" strokeColor="0x14181b" textColor="0xf11d40" verticalCenter="0" visible="false"/>
+	<e:Group id="haveSign" x="0" y="0">
+		<e:Image id="icon" width="25" height="25" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/charactor/ui/itemicon/baoshi_pic60.png"/>
+		<e:Label id="itemName" text="10级红宝石" x="33" size="16" fontFamily="Microsoft YaHei" verticalCenter="0" textColor="0xf11d40" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="生命    +80000    闪避    +2000" x="152" y="5" size="16" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" visible="false"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="260" x="118" verticalCenter="-1.5" height="25">
+			<e:viewport>
+			<e:List id="propList" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true" itemRendererSkinName="skin.PropBaseSkin" width="0" height="0">
+				<e:layout>
+				<e:TileLayout requestedRowCount="1" horizontalGap="-20"/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

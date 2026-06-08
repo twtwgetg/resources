@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Giftbag1yuanSkin" width="640" height="830" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166bec91c92" ></w:Config>
+	<e:Image width="619" height="830" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-1.5" source="fulihuidi" scale9Grid="15,14,30,32"/>
+	<e:Group horizontalCenter="-0.5" verticalCenter="-333">
+		<e:Image y="0" horizontalCenter="0" source="resource/assets/data/ui/bgs/giftbag_1yuan_bg.png"/>
+		<e:Label id="desc1" text="本页为活动兑换，不计入首充、累计充值等活动" y="65" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="174" touchEnabled="false" anchorOffsetX="0" width="277" anchorOffsetY="0" height="52" textColor="0xf5eda5" lineSpacing="5"/>
+		<e:Group x="180" y="111">
+			<e:Label text="活动剩余时间:" y="9" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="-5" touchEnabled="false" textColor="0x1CE17D"/>
+			<e:Label id="time_remind" text="xx天xx小时xx分xx秒" y="8" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" x="119" touchEnabled="false" textColor="0x1CE17D"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="scroller" y="163.65" anchorOffsetY="0" scaleX="1" scaleY="1" width="599" height="639" name="oneView" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetX="0" horizontalCenter="0.5">
+		<e:List id="giftbagList" width="480" height="619" anchorOffsetX="0" y="2.67" anchorOffsetY="0">
+		<e:layout>
+			<e:TileLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="礼包中的内容每日0点刷新" y="807.34" fontFamily="Microsoft YaHei" size="18" stroke="1" strokeColor="0x14181B" touchEnabled="false" textColor="0x1CE17D" horizontalCenter="0.5"/>
+</e:Skin>

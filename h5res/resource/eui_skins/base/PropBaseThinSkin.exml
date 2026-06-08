@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.PropBaseThinSkin" width="200" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+
+	
+
+	<e:Label id="propName" text="属性:  " size="20" anchorOffsetX="0" anchorOffsetY="0" height="25" touchEnabled="false" textAlign="left" x="0" verticalAlign="middle" y="0" width="197" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="plusSign" text="+" x="46" size="18" verticalCenter="1.5" textColor="0xFFFFFF" strokeColor="0x14181b" stroke="1"/>
+	<e:Label id="propValue" text="9999999" size="20" anchorOffsetX="0" anchorOffsetY="0" height="22" touchEnabled="false" verticalAlign="middle" verticalCenter="1.5" x="58" width="100" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+
+</e:Skin>

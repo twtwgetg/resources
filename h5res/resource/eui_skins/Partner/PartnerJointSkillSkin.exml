@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerJointSkillSkin" width="693" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="card">
+			<tween:TweenItem target="{card3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{852}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{475}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{555}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="2100"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{555}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{card1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="600"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{852}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{335}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{441}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{card2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{852}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{210}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{245}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{326}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" x="{-50}" y="{153}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object alpha="{1}" x="{5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{role}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1700">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{effect_xunhuan}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{-300}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{-200}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{347}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="2560" height="2560" source="com_mask" scaleX="0.6666666666666667" scaleY="0.6666666666666667" touchEnabled="false" alpha="0.3" horizontalCenter="-1" verticalCenter="0.5"/>
+	<e:Group x="0" y="95" visible="false">
+		<e:Image width="786" height="190" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerjoinsklbg2" scale9Grid="0,67,768,3" x="0"/>
+		<e:Image width="786" height="190" y="380" anchorOffsetX="0" anchorOffsetY="0" source="partnerjoinsklbg2" scale9Grid="0,67,768,3" x="0" scaleY="-1"/>
+	</e:Group>
+	<ns1:MovieClipCtrl id="effect_xunhuan" width="0" height="0" name="50158" skinName="MovieClipCtrlSkin" y="270" x="275"/>
+	<e:Image id="image" width="115" height="36" x="5" y="153" anchorOffsetX="0" anchorOffsetY="0" source="partnerhointatk"/>
+	<e:Image id="skillMale" x="-90" y="94" anchorOffsetX="0" anchorOffsetY="0" source="jointskill_boy" scaleX="1" scaleY="1"/>
+	<e:Image id="skillFamale" x="-90" y="94" anchorOffsetX="0" anchorOffsetY="0" source="jointskill_girl" scaleX="1" scaleY="1"/>
+	<e:Group id="role" x="-90" y="94">
+		<e:Group id="boy" x="0" y="0" width="512" height="384">
+			<ns1:MovieClipCtrl id="effect_yehuo" width="1" height="1" name="50160" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="girl" x="0" y="0" width="512" height="384">
+			<ns1:MovieClipCtrl id="effect_wanren" width="1" height="1" name="50159" skinName="MovieClipCtrlSkin" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="card2" x="326" y="151">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillbg"/>
+		<e:Image id="bg2" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillbg"/>
+		<e:Group id="img2"/>
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillborder"/>
+	</e:Group>
+	<e:Group id="card1" x="441" y="151">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillbg"/>
+		<e:Image id="bg1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillbg"/>
+		<e:Group id="img1"/>
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillborder"/>
+	</e:Group>
+	<e:Group id="card3" x="555" y="151">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillbg"/>
+		<e:Image id="bg3" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillbg"/>
+		<e:Group id="img3"/>
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="partnerskillborder"/>
+	</e:Group>
+</e:Skin>

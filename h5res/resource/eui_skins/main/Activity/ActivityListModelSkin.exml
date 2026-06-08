@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.ActivityListModelSkin" width="550" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="icon" width="541" height="178" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/DaZuo_picbg.png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image width="199" height="36" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="1" y="3" alpha="1" source="paiqianicon_06"/>
+	<e:Image width="550" height="43" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="26,5,160,34" horizontalCenter="0" source="com_back_title"/>
+	<e:Label id="dailyName" text="活动名称" size="22" scaleX="1" scaleY="1" x="32" y="7" height="22" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xfbcc90" width="120"/>
+	<e:Button id="goto" label="" x="396" width="134" height="48" scaleX="1" scaleY="1" verticalCenter="23.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="67" height="48" y.down="-2" x="0" y="0" source="com_button04" source.down="com_button04"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04" source.down="com_button04"/>
+			<e:Label text="前 往" width="100%" height="29" size="22" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="8" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="10" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x61451a" verticalCenter="0" verticalCenter.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="406" y="57">
+		<e:Label text="剩余次数:" size="18" scaleX="1" scaleY="1" x="16" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xFBCC90"/>
+		<e:Label text="◆" size="20" scaleX="1" scaleY="1" x="0" y="-1" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xeef2ff" alpha="0.25"/>
+		<e:Label id="daynum" text="6" size="18" scaleX="1" scaleY="1" x="94" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1CE17D"/>
+	</e:Group>
+	<e:Group x="12" y="46">
+		<e:Label text="参与条件:" size="18" scaleX="1" scaleY="1" x="16" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xfbcc90"/>
+		<e:Label id="dailyTime" text="24" size="18" scaleX="1" scaleY="1" x="16" y="30" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1ce17d" anchorOffsetX="0" width="108"/>
+		<e:Label text="◆" size="20" scaleX="1" scaleY="1" x="0" y="-1" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xEEF2FF" alpha="0.25"/>
+	</e:Group>
+	<e:Group x="192" y="46">
+		<e:Label text="奖励预览" size="18" scaleX="1" scaleY="1" x="16" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xfbcc90"/>
+		<ns1:ItemBase2 id="item1" width="88" height="88" x="0" y="23" skinName= "skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item2" width="88" height="88" x="93" y="23" skinName= "skin.ItemBaseSkin2"/>
+		<e:Label text="◆" size="20" scaleX="1" scaleY="1" x="0" y="-1" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xEEF2FF" alpha="0.25"/>
+	</e:Group>
+	<e:Group x="12" y="133">
+		<e:Label text="◆" size="20" scaleX="1" scaleY="1" x="0" y="-1" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xEEF2FF" alpha="0.25"/>
+		<e:Label text="活动时间:" size="18" scaleX="1" scaleY="1" x="16" y="0" height="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xfbcc90"/>
+		<e:Label id="reward" text="每周六 20:20-20:30  20:20-20:30" size="18" scaleX="1" scaleY="1" x="15" y="28" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0x1ce17d" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Image id="NoOpen" width="550" height="190" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="1,1,1,1" source="com_mask" touchEnabled="false" x="0" y="0" visible="false"/>
+	<e:Image id="now" width="554" height="196" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="jineng_pic17" scale9Grid="12,14,17,14" touchEnabled="false" x="-2" y="-2" visible="false"/>
+</e:Skin>

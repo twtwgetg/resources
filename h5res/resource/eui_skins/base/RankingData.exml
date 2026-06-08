@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankingDataSkin" width="460" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="162dd05937a" ></w:Config>
+	<e:Image id="bg" width="200%" height="100%" x="0" y="0" source="zuoqi_pic7"/>
+	<e:Image id="vip" width="34" height="14" x="67" y="11" source="vip"/>
+	<e:Label id="rankNum" text="999" x="16" height="35" textAlign="center" verticalAlign="middle" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="playerName" text="s9999.玩家名字名字" x="128" height="35" textAlign="center" verticalAlign="middle" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="power" text="9999.9万" x="300" textAlign="center" verticalAlign="middle" size="18" textColor="0x48ea00" fontFamily="Microsoft YaHei" verticalCenter="0" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="rankValue" text="9999关" x="392" textAlign="center" verticalAlign="middle" size="18" fontFamily="Microsoft YaHei" verticalCenter="0" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

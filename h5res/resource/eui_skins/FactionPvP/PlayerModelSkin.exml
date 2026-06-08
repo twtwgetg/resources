@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerModelSkin" width="192" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="selectSign" x="0" y="0" width="192">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" width="50%" height="70" source="XMPic_11" left="0" top="0"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" width="50%" height="70" source="XMPic_11" scaleX="-1" top="0" right="0"/>
+	</e:Group>
+	<e:Group x="6" verticalCenter="0">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="60" height="60" source="1v1_Headback"/>
+		<e:Image id="headIcon" anchorOffsetX="0" anchorOffsetY="0" width="54" height="54" source="Head_3" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="faction" text="无极宫" fontFamily="Microsoft YaHei" stroke="1" textColor="0xF2F2E9" size="18" x="74" y="13"/>
+	<e:Label id="spriteName" text="玩家名字l六字" fontFamily="Microsoft YaHei" stroke="1" textColor="0xF2F2E9" size="18" x="74" y="39"/>
+	<e:Image width="2" height="186" y="70" source="skill_backline" rotation="90" x="189"/>
+</e:Skin>

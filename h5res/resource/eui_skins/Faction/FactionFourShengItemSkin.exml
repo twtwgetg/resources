@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionFourShengItemSkin" width="455" height="430" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="91" y="-1" anchorOffsetX="0" width="276" anchorOffsetY="0" height="364">
+		<ns1:MovieClipCtrl name="9066" skinName="MovieClipCtrlSkin" scaleX="1" scaleY="1" horizontalCenter="-1" verticalCenter="0"/>
+		<ns1:MovieClipCtrl name="9066" skinName="MovieClipCtrlSkin" scaleX="-1" horizontalCenter="0" x="127" scaleY="1" verticalCenter="0"/>
+	</e:Group>
+	<e:Image id="modelSign" width="278" height="368" y="0" anchorOffsetX="0" anchorOffsetY="0" source="file:///h%3A/H5/resource/ui/bgs/linshizhuque_icon.png" horizontalCenter="0"/>
+	<e:Group x="0" y="0" width="224" height="373" visible="false">
+		<e:Image width="39.33" height="194" x="172.33" y="31.34" anchorOffsetX="0" anchorOffsetY="0" source="partnernamebg" scale9Grid="16,53,26,21" visible="false"/>
+		<e:Label id="modelName" text="一阶一星" x="183.34" y="49.02" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="18" anchorOffsetY="0" height="141.34" textAlign="center" size="18" textColor="0xf2f2e9" strokeColor="0x071e39" stroke="1" visible="false"/>
+	</e:Group>
+	<e:Group id="starsParent" y="367.9" anchorOffsetX="0" width="401.5" horizontalCenter="-2.5" anchorOffsetY="0" height="36.5">
+		<ns1:StarBase width="41" height="40" x="-8" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="35" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="78" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="121" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="164" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="207" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="250" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="293" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="336" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+		<ns1:StarBase width="41" height="40" x="379" y="3" skinName="StarBaseSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

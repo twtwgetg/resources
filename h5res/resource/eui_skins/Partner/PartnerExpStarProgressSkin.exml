@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.PartnerExpStarProgressSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="450" height="20">
+	<ns1:MovieClipCtrl id="effect" width="20" height="20" x="0" y="0" name="9010" skinName="MovieClipCtrlSkin" visible="false"/>
+	<e:Image width="400" height="13" anchorOffsetX="0" fillMode="scale" scale9Grid="2,2,82,13" x="24" source="com_barbg" verticalCenter="-0.5" anchorOffsetY="0"/>
+	<e:Image id="thumb" height="13" width="400" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scale9Grid="43,1,1,15" x="24" source="com_bar" verticalCenter="-0.5" y="10"/>
+	<e:Label id="expLabel" text="111" size="18" width="283" textAlign="center" anchorOffsetY="0" height="21" horizontalCenter="1.5" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" verticalCenter="0.5" stroke="1" strokeColor="0x14181B" anchorOffsetX="0"/>
+	<e:Image width="49" height="15" x="53" source="com_barbg1" scaleX="-1" verticalCenter="0"/>
+	<e:Image width="49" height="15" x="394" source="com_barbg1" verticalCenter="0.5"/>
+</e:Skin>

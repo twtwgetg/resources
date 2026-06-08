@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerDetailsPropPFightSkin" width="550" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg" width="550" height="200" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="44,47,74,65"/>
+		<e:Image width="86" height="14" x="361.35" y="21" anchorOffsetX="0" anchorOffsetY="0" source="com_title_line"/>
+		<e:Image width="86" height="14" x="188.35" y="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="com_title_line"/>
+		<e:Label text="英雄战斗属性" y="12" anchorOffsetX="0" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xfbcc90" strokeColor="0x14181b" fontFamily="Microsoft YaHei" horizontalCenter="0" stroke="1"/>
+	</e:Group>
+	<e:List id="propList" width="490" height="134" x="30" y="50" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" columnWidth="245"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

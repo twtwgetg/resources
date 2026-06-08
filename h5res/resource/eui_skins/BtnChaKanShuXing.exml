@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.BtnChaKanShuXing" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" width="78" height="24">
+    <e:Label id="labelDisplay"
+             size="16"
+             verticalAlign="middle" textAlign="center" text="查看属性" width="78" height="24" verticalCenter="0" horizontalCenter="0" textColor="0x6cf709" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+</e:Skin>

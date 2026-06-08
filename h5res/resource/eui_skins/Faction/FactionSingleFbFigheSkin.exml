@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionSingleFbFigheSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="522" height="220">
+	<e:Image width="522" height="162" x="14" y="0" source="com_back_power" scale9Grid="0,5,212,34" anchorOffsetX="0"/>
+	<ns1:SkillBaseFetish id="skill_1" width="108" height="108" x="77" y="13" skinName="skin.SkillBaseFetish" scaleX="0.8" scaleY="0.8"/>
+	<ns1:SkillBaseFetish id="skill_2" width="108" height="108" x="233" y="13" skinName="skin.SkillBaseFetish" scaleX="0.8" scaleY="0.8"/>
+	<ns1:SkillBaseFetish id="skill_3" width="108" height="108" x="383" y="13" skinName="skin.SkillBaseFetish" scaleX="0.8" scaleY="0.8"/>
+	<e:Label text="鼓舞" y="88" size="22" strokeColor="0x14181b" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="-138" textColor="0xf2f2e9" stroke="1" x="82"/>
+	<e:Image width="118" height="33" y="115" anchorOffsetX="0" anchorOffsetY="0" x="64" source="com_num_enter" scale9Grid="7,5,45,22"/>
+	<e:Image width="118" height="33" y="115" anchorOffsetX="0" anchorOffsetY="0" x="218" source="com_num_enter" scale9Grid="7,5,45,22"/>
+	<e:Image width="118" height="33" y="115" anchorOffsetX="0" anchorOffsetY="0" x="366" source="com_num_enter" scale9Grid="7,5,45,22"/>
+	<e:Image width="34" height="31" x="67" y="114" anchorOffsetX="0" anchorOffsetY="0" source="duanzao_pic27"/>
+	<e:Label id="skillNeed1" text="666" x="137" y="121" size="20" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d" fontFamily="Microsoft YaHei" textAlign="right"/>
+	<e:Label text="冰冻" y="88" size="22" strokeColor="0x14181b" fontFamily="Microsoft YaHei" horizontalCenter="15" textColor="0xf2f2e9" stroke="1" x="240"/>
+	<e:Label id="skillNeed2" text="666" x="291" y="121" size="20" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d" fontFamily="Microsoft YaHei" textAlign="right"/>
+	<e:Image width="34" height="31" x="224" y="114" anchorOffsetX="0" anchorOffsetY="0" source="duanzao_pic27"/>
+	<e:Label text="修复" y="88" size="22" strokeColor="0x14181b" fontFamily="Microsoft YaHei" horizontalCenter="166" textColor="0xf2f2e9" stroke="1" x="398"/>
+	<e:Label id="skillNeed3" text="666" x="437" y="121" size="20" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d" fontFamily="Microsoft YaHei" textAlign="right"/>
+	<e:Image width="34" height="31" x="376" y="114" anchorOffsetX="0" anchorOffsetY="0" source="duanzao_pic27"/>
+	<e:Button id="descBtn" label="" anchorOffsetX="0" width="60" anchorOffsetY="0" height="60" scaleX="1" scaleY="1" horizontalCenter="-237" y="28">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_pic1" source.down="com_pic1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

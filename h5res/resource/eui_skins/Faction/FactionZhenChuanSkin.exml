@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionZhenChuanSkin" width="584" height="882" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+		<e:Image width="50%" height="50%" x="584" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+		<e:Image width="50%" height="50%" x="584" y="882" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" x="0" y="882" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0">
+		<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+		<e:Image width="50%" height="63" x="582" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+	</e:Group>
+	<e:Group y="50" horizontalCenter="0">
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="562" scaleX="-1"/>
+		<e:Image width="50%" height="50%" y="770" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="562" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" y="770" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+	</e:Group>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="582" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+		</e:Group>
+		<e:Label text="真传弟子" size="24" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" y="10" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="11" y="53">
+		<e:Image width="562" height="42" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" alpha="0.4" source="com_back_title" x="0"/>
+		<e:Label text="门派成员" x="75" y="8" fontFamily="Microsoft YaHei" size="22" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="任命弟子" x="386.09" y="8" fontFamily="Microsoft YaHei" size="22" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Label text="掌门可任命门派成员为真传弟子" y="830" anchorOffsetX="0" width="313.09" anchorOffsetY="0" height="30" size="22" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+	<e:Group y="780" horizontalCenter="0">
+		<e:Label text="还有" x="0" y="0" size="22" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="个真传弟子名额未任命" x="57.78" y="0" size="22" fontFamily="Microsoft YaHei" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="leftNum" text="3" x="44.79" y="0" size="22" fontFamily="Microsoft YaHei" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="540" height="634" y="101" horizontalCenter="-0.5">
+		<e:List id="list0" x="153" y="126" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="0" height="636.79">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="closeBtn" label="" width="56" height="56" right="4" top="4" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

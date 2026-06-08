@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerFetterIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="86" height="106">
+	<ns1:PartnerDispatchSkin id="item" skinName="skin.PartnerDispatchSkin"/>
+	<e:Label id="level" text="999级" y="86" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" horizontalCenter="0"/>
+</e:Skin>

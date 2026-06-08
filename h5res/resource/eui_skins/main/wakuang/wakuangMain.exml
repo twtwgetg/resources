@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="wakuangMain" width="606" height="1070" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="sk_1">
+			<tween:TweenItem target="{sk1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" width="{10}" height="{10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" width="{10}" height="{10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750" ease="sineIn">
+					<tween:props>
+						<e:Object alpha="{0}" width="{608}" height="{608}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image scale9Grid="1,1,11,11" anchorOffsetY="0" anchorOffsetX="0" source="resource/ui/bgs/001.jpg" width="900" height="1136" horizontalCenter="0" visible="false"/>
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0" visible="false"/>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="-1"/>
+	<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+	</e:Group>
+	<e:Image width="98" height="28" source="com_mask" horizontalCenter="0" anchorOffsetY="0" anchorOffsetX="0" y="795"/>
+	<e:Image id="potion1" width="25" height="25" x="255" y="796" source="wk_39" name="3"/>
+	<e:Image id="potion2" width="25" height="25" x="279.17" y="796" source="wk_37" name="4"/>
+	<e:Image id="potion3" width="25" height="25" x="303.08" y="796" source="wk_38" name="5"/>
+	<e:Image id="potion4" width="25" height="25" x="326.5" y="796" source="wk_40" name="6"/>
+	<e:Group x="0" y="0" width="100%">
+		<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+		<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+	</e:Group>
+	<e:Button label="" x="477" y="0" width="56" height="56" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Button id="exit" label="" width="56" height="56" scaleX="1" scaleY="1" top="5" right="5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+			<e:Group y="112" width="572" height="680"  horizontalCenter="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Label id="title" text="阳原矿脉" y="11.08" fontFamily="Microsoft YaHei" size="26" horizontalCenter="2" textColor="0xffffff"/>
+	<e:Group id="bg" y="821" width="595" horizontalCenter="0.5">
+		<e:Group y="0" anchorOffsetX="0" width="595" horizontalCenter="0">
+			<e:Group y="0" anchorOffsetX="0" width="595" x="0">
+			<e:Image width="300" height="170" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="0"/>
+			<e:Image width="300" height="170" y="0" source="resource/assets/data/ui/bgs/com_back_interval.png" x="600" scaleX="-1"/>
+			</e:Group>
+			<e:Label text="拓印技能" y="16.33" size="22" anchorOffsetY="0" height="20" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xFBCC90" horizontalCenter="0" stroke="1" strokeColor="0x14181b"/>
+			<e:Image id="p0" width="131" height="14" x="238" y="20" scaleX="-1" source="com_title_line" scale9Grid="21,0,65,14"/>
+			<e:Image id="p1" width="131" height="14" x="353.03" y="20" source="com_title_line" scale9Grid="21,0,65,14"/>
+		</e:Group>
+		<e:Group id="skill" y="54" horizontalCenter="0">
+		<e:Scroller x="0" y="0" scaleX="1" scaleY="1">
+			<e:Group anchorOffsetX="0" anchorOffsetY="0" width="442" height="100"/>
+		</e:Scroller>
+			<ns1:SkillBaseTY id="skillbase0" x="1" y="1" width="90" height="100" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin width="90" height="100" currentState="normal" states="down,normal">
+					<e:Image id="icon" width="90" height="90" touchEnabled="true" horizontalCenter="0" top="0" source="wk_18"/>
+	<e:Group id="Progressbar" x="0" y="0" width="90" height="100" touchEnabled="false">
+		<e:Image source="wk_35" scaleY="1" scaleX="-1" x="86" y="4" width="41" height="82"/>
+		<e:Image source="wk_35" scaleY="1" scaleX="1" x="4" y="4" width="41" height="82"/>
+	</e:Group>
+					<e:Image id="cdImg" touchEnabled="false" fillMode="scale" alpha="1" width.normal="90" height.normal="90" anchorOffsetY="0" width.down="104" height.down="104" source="Faction_29" horizontalCenter="0" horizontalCenter.normal="0" verticalCenter.normal="-4" horizontalCenter.down="0" verticalCenter.down="0" anchorOffsetX="0" width="90" top="1" height="90" top.normal="1" visible="false"/>
+					<e:Image touchEnabled="false" horizontalCenter="0" x="10" scaleX="1" scaleY="1" bottom="0" source="wk_42"/>
+					<e:Label id="label" text="999" stroke="1" strokeColor="0x14181B" size="14" touchEnabled="false" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="77.92" textAlign="center" verticalAlign="middle"/>
+					<e:Label id="cdLabel" rotation="0.65" stroke="1" strokeColor="0x14181B" textColor="0xf11d40" y.down="23" touchEnabled="false" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseTY>
+			<ns1:SkillBaseTY id="skillbase1" x="118" y="1" width="90" height="100" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin width="90" height="100" currentState="normal" states="down,normal">
+					<e:Image id="icon" width="90" height="90" touchEnabled="true" horizontalCenter="0" top="0" source="wk_18"/>
+					<e:Group id="Progressbar" x="0" y="0" width="90" height="100" touchEnabled="false">
+					<e:Image source="wk_35" scaleY="1" scaleX="-1" x="86" y="4" width="41" height="82"/>
+					<e:Image source="wk_35" scaleY="1" scaleX="1" x="4" y="4" width="41" height="82"/>
+					</e:Group>
+					<e:Image id="cdImg" touchEnabled="false" fillMode="scale" alpha="1" width.normal="90" height.normal="90" anchorOffsetY="0" width.down="104" height.down="104" source="Faction_29" horizontalCenter="0" horizontalCenter.normal="0" verticalCenter.normal="-4" horizontalCenter.down="0" verticalCenter.down="0" anchorOffsetX="0" width="90" top="1" height="90" top.normal="1" visible="false"/>
+					<e:Image touchEnabled="false" horizontalCenter="0" x="10" scaleX="1" scaleY="1" bottom="0" source="wk_42"/>
+					<e:Label id="label" text="999" stroke="1" strokeColor="0x14181B" size="14" touchEnabled="false" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="77.92" textAlign="center" verticalAlign="middle"/>
+					<e:Label id="cdLabel" rotation="0.65" stroke="1" strokeColor="0x14181B" textColor="0xf11d40" y.down="23" touchEnabled="false" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseTY>
+			<ns1:SkillBaseTY id="skillbase2" x="235" y="1" width="90" height="100" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin width="90" height="100" currentState="normal" states="down,normal">
+					<e:Image id="icon" width="90" height="90" touchEnabled="true" horizontalCenter="0" top="0" source="wk_18"/>
+					<e:Group id="Progressbar" x="0" y="0" width="90" height="100" touchEnabled="false">
+					<e:Image source="wk_35" scaleY="1" scaleX="-1" x="86" y="4" width="41" height="82"/>
+					<e:Image source="wk_35" scaleY="1" scaleX="1" x="4" y="4" width="41" height="82"/>
+					</e:Group>
+					<e:Image id="cdImg" touchEnabled="false" fillMode="scale" alpha="1" width.normal="90" height.normal="90" anchorOffsetY="0" width.down="104" height.down="104" source="Faction_29" horizontalCenter="0" horizontalCenter.normal="0" verticalCenter.normal="-4" horizontalCenter.down="0" verticalCenter.down="0" anchorOffsetX="0" width="90" top="1" height="90" top.normal="1" visible="false"/>
+					<e:Image touchEnabled="false" horizontalCenter="0" x="10" scaleX="1" scaleY="1" bottom="0" source="wk_42"/>
+					<e:Label id="label" text="999" stroke="1" strokeColor="0x14181B" size="14" touchEnabled="false" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="77.92" textAlign="center" verticalAlign="middle"/>
+					<e:Label id="cdLabel" rotation="0.65" stroke="1" strokeColor="0x14181B" textColor="0xf11d40" y.down="23" touchEnabled="false" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseTY>
+			<ns1:SkillBaseTY id="skillbase3" y="1" width="90" height="100" scaleX="1" scaleY="1" right="0">
+				<ns1:skinName>
+				<e:Skin width="90" height="100" currentState="normal" states="down,normal">
+					<e:Image id="icon" width="90" height="90" touchEnabled="true" horizontalCenter="0" top="0" source="wk_18"/>
+					<e:Group id="Progressbar" x="0" y="0" width="90" height="100" touchEnabled="false">
+					<e:Image source="wk_35" scaleY="1" scaleX="-1" x="86" y="4" width="41" height="82"/>
+					<e:Image source="wk_35" scaleY="1" scaleX="1" x="4" y="4" width="41" height="82"/>
+					</e:Group>
+					<e:Image id="cdImg" touchEnabled="false" fillMode="scale" alpha="1" width.normal="90" height.normal="90" anchorOffsetY="0" width.down="104" height.down="104" source="Faction_29" horizontalCenter="0" horizontalCenter.normal="0" verticalCenter.normal="-4" horizontalCenter.down="0" verticalCenter.down="0" anchorOffsetX="0" width="90" top="1" height="90" top.normal="1" visible="false"/>
+					<e:Image touchEnabled="false" horizontalCenter="0" x="10" scaleX="1" scaleY="1" bottom="0" source="wk_42"/>
+					<e:Label id="label" text="999" stroke="1" strokeColor="0x14181B" size="14" touchEnabled="false" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="77.92" textAlign="center" verticalAlign="middle"/>
+					<e:Label id="cdLabel" rotation="0.65" stroke="1" strokeColor="0x14181B" textColor="0xf11d40" y.down="23" touchEnabled="false" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:SkillBaseTY>
+		</e:Group>
+		<e:Button id="left" label="" x="28" y="74" width="52" height="48" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tongyong_pic59" source.down="tongyong_pic59" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="right" label="" x="571.66" scaleX="-1" y="76" anchorOffsetX="0" width="52" anchorOffsetY="0" height="48" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tongyong_pic59" source.down="tongyong_pic59" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="318.66" y="72">
+		<e:Label text="寻宝进度：" x="0.33" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFFFFFF"/>
+		<e:Image width="85" height="24" x="92.67" anchorOffsetY="0" anchorOffsetX="0" source="com_num_enter" scale9Grid="11,10,35,13" y="0"/>
+		<e:Image width="83" height="10" x="184.01" anchorOffsetY="0" anchorOffsetX="0" y="15.33" source="downline_B" scale9Grid="1,0,1,1"/>
+		<e:Label id="rewardLink" text="通关奖励" x="184.34" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1ce17d"/>
+		<e:Label id="layer" text="100/100" x="95.67" y="1" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xffffff"/>
+	</e:Group>
+	<e:Image id="guideObj_18" width="108" height="108" y="455.14" anchorOffsetX="0" anchorOffsetY="0" x="255.02"/>
+	<e:Image id="guideObj_13" width="108" height="108" y="344.71" anchorOffsetX="0" anchorOffsetY="0" x="255.02"/>
+	<e:Image id="guideObj_7" width="108" height="108" x="144.06" y="234.3" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="guideObj_12" width="108" height="108" x="144.06" y="344.71" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="guideObj_256" width="100" height="100" y="875.67" anchorOffsetX="0" anchorOffsetY="0" left="84" visible="false"/>
+	<e:Image id="guideObj_9" width="108" height="108" x="365.64" y="234.3" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="guideObj_1" width="108" height="108" x="33" y="124" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="guideObj_8" width="108" height="108" y="234.3" anchorOffsetX="0" anchorOffsetY="0" x="255.02"/>
+	<e:Image id="guideObj_0" width="108" height="108" y="124" anchorOffsetX="0" anchorOffsetY="0" x="33" visible="false"/>
+	<e:Group y="64" x="20" anchorOffsetX="0" width="226">
+		<ns1:SimpleProgressBar id="bar" width="182.34" height="10" x="1.35" y="29.32" anchorOffsetX="0" anchorOffsetY="0" rotation="359.87" skinName="skin.SimpleProgressBar">
+		</ns1:SimpleProgressBar>
+		<e:Image width="184" height="28" x="0" anchorOffsetY="0" anchorOffsetX="0" source="com_num_enter" scale9Grid="11,10,35,13" y="0"/>
+		<e:Image x="0" scale9Grid="1,1,11,11" anchorOffsetY="0" anchorOffsetX="0" source="wakuang_1" height="34" width="34" y="0"/>
+		<e:Label id="time" text="06:00" x="135.38" y="5.2" size="18" textAlign="left" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1ce17d"/>
+		<e:Group x="36.33" y="5.17" anchorOffsetX="0" width="94.33">
+		<e:Label id="power" text="120" x="2" y="0" size="18" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" textAlign="right" anchorOffsetX="0" width="46.5"/>
+		<e:Label text="/" x="50.72" y="-1" size="18" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+		<e:Label id="maxpower" text="120" x="60.38" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+		</e:Group>
+		<e:Button id="buypower" label="" x="11" y="0" anchorOffsetX="0" width="214" height="38">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="tongyong_btn1" source.down="tongyong_btn1" right="0"/>
+	<e:Image x="0" y="0" width="100%" height="100%" source=""/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="lingwu" x="25.73" y="796">
+		<e:Label text="古董积分：" x="1" y="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xffffff"/>
+		<e:Label id="integral" text="9999" x="96.34" y="2" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xffffff"/>
+	</e:Group>
+	<e:Label text="点击石板消耗体力" x="417.71" y="797" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFFFFFF"/>
+	<e:Label text="收集不同拓印释放拓印技能" y="984.98" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<e:Button id="tips" label="" width="56" height="56" left="2" top="2">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_pic1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="group_wb" anchorOffsetX="0" anchorOffsetY="0" width="554" height="660" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="off" y="120">
+		<e:viewport>
+		<e:List id="list_item" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-1.33" width="554" height="660">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Image id="sk1" width="108" height="108" verticalCenter="-25" horizontalCenter="7" source="com_checkbox_check" alpha="0" touchEnabled="false"/>
+	<e:Button id="closeBtn" label="" anchorOffsetX="54" width="132" anchorOffsetY="54" height="48" scaleX="1" scaleY="1" verticalCenter="485" horizontalCenter="200">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+			<e:Image width="66" height="48" y.down="-2" source="com_button03" source.down="com_button03"/>
+			<e:Image width="66" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button03" source.down="com_button03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="离开秘境" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x071E39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="离开秘境" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" stroke.up="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x071E39"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="rewardtips" y="168.8" horizontalCenter="0" visible="false">
+		<e:Image id="bgclose" width="1641" height="2560" source="com_mask" y="-820" horizontalCenter="-2"/>
+		<e:Group y="96" horizontalCenter="0.5">
+		<e:Group x="0" y="0" width="540" height="420">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="540">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="540">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+		<e:Button id="butclose" label="" width="56" height="56" right="2" top="3" scaleX="0.7" scaleY="0.7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+				<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group x="566" y="164" width="514" height="319.33" anchorOffsetY="0">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+		</e:Group>
+		<e:Label text="奖励预览" y="106" size="24" horizontalCenter="0.5" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+		<e:Label text="探索秘境可能获得：" y="176.66" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="581"/>
+		<e:Label text="通关必定获得：" y="302.3" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" x="581"/>
+		<e:Group id="maybe" y="207.34" horizontalCenter="5.5">
+			<ns1:ItemBase2 id="item0" width="86" height="86" x="214.66666666666666" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 id="item1" width="86" height="86" x="322" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item2" width="86" height="86" x="107.33333333333333" y="0" skinName="skin.ItemBaseSkin2"/>
+			<ns1:ItemBase2 id="item3" width="86" height="86" x="0" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+		<e:Group id="must" y="341.66" horizontalCenter="5.5">
+		<ns1:ItemBase2 id="item4" width="86" height="86" x="0" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item5" width="86" height="86" x="107.33333333333333" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item6" width="86" height="86" x="214.66666666666666" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item7" width="86" height="86" x="322" y="0" skinName="skin.ItemBaseSkin2"/>
+		</e:Group>
+	</e:Group>
+	<ns1:GetTreasureItem id="getitem" skinName="GetTreasureItemSkin" x="-81" visible="false"/>
+	<e:Group id="helpGroup" width="590" y="135.67" anchorOffsetY="0" horizontalCenter="0" height="795" visible="false">
+		<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="1" verticalCenter="0"/>
+		<e:Group x="0" y="0" width="590" height="798">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="590">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+			<e:Group x="19" y="52" width="552" height="724" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Label text="帮助内容" y="5" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" textColor="0xF2F2E9"/>
+		<e:Label text="1.玩法限制：" y="65" anchorOffsetY="0" strokeColor="0x14181B" size="24" anchorOffsetX="0" left="50" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Group x="50" y="95">
+		<e:Label text="每" y="0" anchorOffsetY="0" strokeColor="0x14181B" size="24" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="恢复1点体力，体力最多只能保存" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" x="93.98" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Label text="60点" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="445.84" textColor="0x1CE17D"/>
+		<e:Label text="6分钟" y="0" anchorOffsetY="0" strokeColor="0x14181B" size="24" anchorOffsetX="0" x="26.16" fontFamily="Microsoft YaHei" stroke="1" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Group x="50" y="125">
+		<e:Label text="达到上限后，不再恢复" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="3" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Label text="2.玩法规则：" y="160.44" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" left="50" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Group x="50" y="188.4">
+		<e:Label text="点击" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="进行挖掘寻找" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="169.67" textColor="0xFFFFFF"/>
+		<e:Label text="，找到钥匙后" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="362" textColor="0xFFFFFF"/>
+		<e:Label text="明亮的石板" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="47.67" textColor="0x1CE17D"/>
+		<e:Label text="钥匙" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="312.71" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Group x="50" y="217.44">
+		<e:Label text="传送门" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="144.01" textColor="0x1CE17D"/>
+		<e:Label text="，便可以通过" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF" scaleX="1" scaleY="1"/>
+		<e:Label text="进入下一层" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="216" textColor="0xFFFFFF" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label text="如果本层还有想要探索的地方，建议先探索完成后，再进入下一层" y="245.46" width="517" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Group x="50" y="298.43" height="50">
+		<e:Label text="所有层数" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="142.65" textColor="0x1CE17D"/>
+		<e:Label text="每个秘境通关" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="后可再次挑战，也可以挑" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="241.33" textColor="0xFFFFFF"/>
+		<e:Label text="战下一个秘境，新开启的秘境奖励会更好" y="26" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Label text="3.事件：" y="357.92" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" left="50" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Label text="挖掘时，会遇到各种事件：" y="383.57" width="517" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Group x="50" y="410.57" height="127" anchorOffsetY="0">
+		<e:Label text="秘境守护：" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" width="505" textColor="0x1CE17D"/>
+		<e:Label text="秘境守护看守着附近的石板，击败他才可" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="90" textColor="0xFFFFFF"/>
+		<e:Label text="以挖掘这些石板" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="侠士：" y="50" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0x1CE17D" width="505"/>
+		<e:Label text="侠士会提出一些条件，满足后可获得奖励" y="50" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="65" textColor="0xFFFFFF"/>
+		<e:Label text="宝箱：" y="75" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0x1CE17D" width="505"/>
+		<e:Label text="每次开启都可以获得里面的一样奖励，总" y="75" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="65" textColor="0xFFFFFF"/>
+		<e:Label text="共最多可以开启8次" y="101" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Label text="4.拓印技能：" y="549.66" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Group x="49" y="578.66">
+		<e:Label text="探索中可以收集到各种拓印，拓印收集到足够数量后便可以使用对应的" y="0" width="506" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF" x="0"/>
+		<e:Label text="了，合理地运用" y="24" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF" x="337"/>
+		<e:Label text="，可以使你的探索更加轻松" y="50" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF" x="97"/>
+		<e:Label text="拓印技能" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="241" textColor="0x1CE17D" scaleX="1" scaleY="1"/>
+		<e:Label text="拓印技能" y="50" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0x1CE17D" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label text="5.奖励：" y="662.84" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" left="49" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+		<e:Group x="50" y="689.32" anchorOffsetY="0" height="50">
+		<e:Label text="通过" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="会获得各种丰富的奖励，同时还有几率" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="98" textColor="0xFFFFFF"/>
+		<e:Label text="获得" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="，每周一0点还会根据古董获得的数量" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="96.33" textColor="0xFFFFFF"/>
+		<e:Label text="古董" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="50" textColor="0x1CE17D"/>
+		<e:Label text="挖掘" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="48" textColor="0x1CE17D"/>
+		<e:Label text="每日0点" y="25" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="121" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Group x="50" y="741.5">
+		<e:Label text="发放排名奖励" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="146.68" textColor="0xFFFFFF"/>
+		<e:Label text="邮件发放" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" fontFamily="Microsoft YaHei" stroke="1" x="47.66" textColor="0x1CE17D"/>
+		<e:Label text="通过" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="0" textColor="0xFFFFFF"/>
+		<e:Label text="并" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="292" textColor="0xFFFFFF" rotation="0.64"/>
+		<e:Label text="重置清零" y="0" anchorOffsetY="0" size="24" strokeColor="0x14181B" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" x="318" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Button id="closeBtn0" label="" width="56" height="56" right="0" top="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+   <ns1:panel_tl id="tili" x="63" y="193.14" skinName="wakuangbuytili" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		
+</e:Skin>

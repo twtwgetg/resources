@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerIllustrationsSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" >
+	<w:Config id="163dd7afb2e" ></w:Config>
+	<e:Image width="360" height="48" source="com_back_power" y="96.67" horizontalCenter="4"/>
+	<e:Image width="640" height="141.33" source="com_back_power" y="160.67" anchorOffsetY="0" x="76" scale9Grid="26,5,160,34"/>
+	<e:Image id="propBg" width="37" height="14" y="179" anchorOffsetY="0" anchorOffsetX="0" scaleX="-1" scaleY="1" source="com_title_line" scale9Grid="27,1,59,12" x="337"/>
+	<e:Image id="propBg0" width="37" height="14" y="179" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" source="com_title_line" scale9Grid="27,1,59,12" x="447"/>
+	<e:Group width="600" height="500" y="309" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Scroller>
+			<e:Group x="1">
+				<ns1:PartnerHeadBase id="hb0" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" y="0" x="0"/>
+				<ns1:PartnerHeadBase id="hb1" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="169.66666666666669" y="0"/>
+				<ns1:PartnerHeadBase id="hb2" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="339.33333333333337" y="0"/>
+				<ns1:PartnerHeadBase id="hb3" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="509" y="0"/>
+				<ns1:PartnerHeadBase id="hb4" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="0" y="167"/>
+				<ns1:PartnerHeadBase id="hb5" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="169.66666666666669" y="167"/>
+				<ns1:PartnerHeadBase id="hb6" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="339.33333333333337" y="167"/>
+				<ns1:PartnerHeadBase id="hb7" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="509" y="167"/>
+				<ns1:PartnerHeadBase id="hb8" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="0" y="333.51"/>
+				<ns1:PartnerHeadBase id="hb9" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="169.66666666666669" y="333.51"/>
+				<ns1:PartnerHeadBase id="hb10" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="339.33333333333337" y="333.51"/>
+				<ns1:PartnerHeadBase id="hb11" skinName="PartnerHeadBaseSkin" scaleX="1" scaleY="1" x="509" y="333.51"/>
+				<e:Image x="96" y="17" source="juese_btn5"/>
+				<e:Image x="266" y="17" source="juese_btn5"/>
+				<e:Image x="435" y="17" source="juese_btn5"/>
+				<e:Image x="96" y="351.25" source="juese_btn5"/>
+				<e:Image x="266" y="351.25" source="juese_btn5"/>
+				<e:Image x="435" y="351.25" source="juese_btn5"/>
+				<e:Image x="152.98" y="185.77" source="juese_btn5" scaleX="-1"/>
+				<e:Image x="325.98" y="185.77" source="juese_btn5" scaleX="-1"/>
+				<e:Image x="498.8" y="185.77" source="juese_btn5" scaleX="-1"/>
+				<e:Image x="586.1" y="103.35" source="juese_btn5" scaleX="1" rotation="90"/>
+				<e:Image x="77.95" y="270.92" source="juese_btn5" scaleX="1" rotation="90"/>
+				<ns1:PartnerSelectList id="selectComp" y="283.51" skinName="PartnerSelectListSkin" x="-4"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Image width="640" height="42.33" source="com_back_power" y="459" anchorOffsetY="0" x="0" scale9Grid="26,5,160,34"/>
+		<e:Button id="AllReplace" label="" y="462" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_back_name" source.down="com_back_name"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="26"/>
+				<e:Label text="一键替换" textAlign="center" fontFamily="Microsoft YaHei" verticalAlign="middle" size="22" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label fontFamily="Microsoft YaHei" text="拖拽替换英雄" y="467.04" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="408.96" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Label id="IllustrationsLevel" fontFamily="Microsoft YaHei" text="等级名称" y="175" horizontalCenter="1" textAlign="center" verticalAlign="middle" size="24" stroke="1" strokeColor="0x14181b" textColor="0xfbcc90"/>
+	<e:Label fontFamily="Microsoft YaHei" text="英雄谱加成" y="208" horizontalCenter="5" textAlign="center" verticalAlign="middle" size="24" textColor="0xc1c1c1" stroke="1" strokeColor="0x14181b"/>
+	<e:Label fontFamily="Microsoft YaHei" text="生命+" y="264" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="125" strokeColor="0x14181b" stroke="1"/>
+	<e:Label fontFamily="Microsoft YaHei" text="攻击+" y="265" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="319" stroke="1" strokeColor="0x14181b"/>
+	<e:Label fontFamily="Microsoft YaHei" text="防御+" y="265" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="512" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="xq" fontFamily="Microsoft YaHei" text="查看详情" y="172" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="586" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="prop6" fontFamily="Microsoft YaHei" text="999%" y="266" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="195" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="prop0" fontFamily="Microsoft YaHei" text="999%" y="266" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="389" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="prop2" fontFamily="Microsoft YaHei" text="999%" y="265" textAlign="center" verticalAlign="middle" size="24" textColor="0xC1C1C1" x="582" stroke="1" strokeColor="0x14181b"/>
+	<ns1:powerzlcomp id="power" width="253" height="29" x="194.67" y="103.17" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe"/>
+	<e:Label text="英雄谱" y="53" size="26" strokeColor="0x14181B" textColor="0x2E120A" scaleX="1" scaleY="1" anchorOffsetX="0" width="81" anchorOffsetY="0" height="28" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+</e:Skin>

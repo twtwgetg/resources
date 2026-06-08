@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chongzhiCommonSkin" width="485" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Image width="242.5" height="250" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="zizhao_02" scale9Grid="37,18,142,75"/>
+		<e:Image width="242.5" height="250" y="0" anchorOffsetX="0" anchorOffsetY="0" x="485" source="zizhao_02" scale9Grid="37,18,142,75" scaleX="-1"/>
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image width="113" height="14" x="-10" y="16" source="titleicon1"/>
+			<e:Image width="113" height="14" x="296" y="16" source="titleicon1" scaleX="-1"/>
+		</e:Group>
+		<e:Image width="456" height="110" y="60" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="fulihuidi" scale9Grid="12,12,39,35"/>
+		<e:Label id="title" text="提 示" y="10" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-4.5" textColor="0xf2f2e9"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="6" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="cancel" label="取 消" x="99" y="190" width="104" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="52" y.up="0" y.down="-2" height="35" source="com_button05" source.up="com_button02" source.down="com_button02" source.disabled="com_button02"/>
+	<e:Image height="35" x="104" y="0" width="52" scaleX="-1" y.down="-2" source="com_button05" source.up="com_button02" source.down="com_button02" source.disabled="com_button02"/>
+	<e:Label id="labelDisplay" text="取 消" size="20" y.down="5" stroke="1" strokeColor="0x071E39" horizontalCenter.down="0" y="8" horizontalCenter="0"  fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ok" label="确 定" x="280" y="190" width="104" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image width="52" y.up="0" y.down="-2" source="com_button06" height="35" source.up="com_button08" source.down="com_button08" source.disabled="com_button08"/>
+			<e:Image height="35" source="com_button06" x="104" y="0" width="52" scaleX="-1" y.down="-2" source.up="com_button08" source.down="com_button08" source.disabled="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="20" y.down="5" stroke="1" strokeColor="0x61451a" horizontalCenter.down="0" y="8" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt" text="是否兑换6元黄金卡？（金额计算至会员经验）（注意：特权卡计算入充值活动）" y="72" anchorOffsetX="0" width="410" anchorOffsetY="0" height="86" size="20" lineSpacing="5" horizontalCenter="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

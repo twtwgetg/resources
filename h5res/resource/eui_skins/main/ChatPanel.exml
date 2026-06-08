@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="panel.chat" width="548" height="285" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:TextInput id="txt_content" width="363" height="40" x="56.5" y="236" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btu_min" label="-" x="8" y="8" anchorOffsetX="0" width="45" anchorOffsetY="0" height="44"/>
+	<e:Button id="btu_send" label="send" x="442" y="236" anchorOffsetX="0" width="84" anchorOffsetY="0" height="39"/>
+    <e:Scroller id="sc_ller" anchorOffsetX="0" anchorOffsetY="0" x="65" width="461" y="14" height="194">
+		<e:viewport>
+			<e:List id="list_chat" height="205" anchorOffsetX="0" width="474" x="64" anchorOffsetY="0" y="30">
+				<e:layout> 
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+		<e:Skin>
+			<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+				<e:Skin>
+					<e:Image id="thumb" width="8" source="hScrollBar02_png"  scale9Grid="1,1,4,4"/>
+				</e:Skin>
+			</e:VScrollBar>
+		</e:Skin>
+	</e:Scroller>
+</e:Skin>

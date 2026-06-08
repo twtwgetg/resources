@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossRushRemindSkin" width="201" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="201" height="50" x="0" y="0" source="boss_pic5" scale9Grid="10,9,16,35"/>
+	<e:Label id="txt" text="修罗大王刷新了!" anchorOffsetX="0" width="150" size="20" anchorOffsetY="0" height="19" horizontalCenter="-9.5" fontFamily="Microsoft YaHei" verticalCenter="-0.5" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+</e:Skin>

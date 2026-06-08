@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PersonalRewardModelSkin" width="546" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" source="com_infobg" right="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" left="0" bottom="0"/>
+	</e:Group>
+	<e:Group x="0" y="63" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group x="23" y="23">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" source="UIPic_12" x="53"/>
+		<e:Label id="rank" text="1" size="26" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="75" y="20" textColor="0xfbcc90"/>
+		<e:Label id="playername" text="S9999.玩家名字六字" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="center" x="0" y="65" width="165"/>
+	</e:Group>
+	<e:Label id="faction" text="太古门" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" textColor="0xF2F2E9" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" x="212" y="55"/>
+	<e:Label id="integral" text="999999" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" height="20" stroke="1" strokeColor="0x14181B" verticalAlign="middle" textAlign="left" scaleX="1" scaleY="1" x="300" width="90" y="56" textColor="0xf2f2e9"/>
+	<e:Button id="reward" label="" x="424" scaleX="1" scaleY="1" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image y.down="-2" x="0" y="0" source="wangzhe_06" source.down="wangzhe_06"/>
+			<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="0" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

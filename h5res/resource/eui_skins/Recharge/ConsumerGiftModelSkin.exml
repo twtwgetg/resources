@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConsumerGiftModelSkin" width="596" height="148" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="162fcb2e852" ></w:Config>
+	<e:Group x="0" y="1.34" height="100%" width="100%">
+		<e:Image width="596" height="148" x="0" y="0" anchorOffsetY="0" source="fuliwendi" scale9Grid="22,24,41,38"/>
+		<e:Group x="0" y="0" anchorOffsetY="0" height="146" width="153">
+			<e:Image anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="rank_06"/>
+			<e:Label id="ranking" text="10" fontFamily="Microsoft YaHei" size="26" stroke="1" strokeColor="0x14181B" touchEnabled="false" textColor="0xF2F2E9" textAlign="left" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="rank" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="ranking_1"/>
+			<e:Image id="rank0" anchorOffsetY="0" source="Word_9" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		</e:Group>
+		<e:Label id="tname" text="玩家名字" y="49" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="145" touchEnabled="false" textAlign="left" textColor="0xfff5a5"/>
+		<e:Group x="145" y="81">
+			<e:Label text="元宝:" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0xffea00"/>
+			<e:Label id="source" text="57000" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="47" touchEnabled="false" textAlign="left" textColor="0xffea00"/>
+		</e:Group>
+		<e:Scroller id="scrollerReward" height="90" anchorOffsetX="0" x="280" width="300" anchorOffsetY="0" verticalCenter="0">
+			<e:List id="rewardList" width="0" height="0">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

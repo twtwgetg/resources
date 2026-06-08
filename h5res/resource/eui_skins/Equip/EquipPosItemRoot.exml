@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipPosItemRoot" width="610" height="550" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="itemRoot" x="0" y="0" anchorOffsetX="0" width="610" anchorOffsetY="0" height="550">
+		<ns1:ItemBase2 xmlns:ns1="*" id="item1" width="86" height="86" x="16" y="12" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item2" width="86" height="86" x="507" y="12" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item3" width="86" height="86" x="16" y="123" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item4" width="86" height="86" x="507" y="123" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item5" width="86" height="86" x="16" y="234" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item6" width="86" height="86" x="507" y="234" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item7" width="86" height="86" x="16" y="345" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item8" width="86" height="86" x="507" y="345" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item9" width="86" height="86" x="16" y="456" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 xmlns:ns1="*" id="item10" width="86" height="86" x="507" y="456" skinName="skin.ItemBaseSkin2"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.ItemGetInfoBaseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="86">
+	<e:Group id="getinfo" touchEnabled="false" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="sysname" text="" y="86" anchorOffsetX="0" width="0" verticalAlign="middle" textAlign="left" height="0" size="22" fontFamily="Microsoft YaHei" anchorOffsetY="0" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b" horizontalCenter="0"/>
+		<e:Button id="btngoto" label="" width="86" height="86" y="0" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="com_back01" horizontalCenter="0" y="9" y.down="7"/>
+				<e:Image id="sysicon" width="86" height="86" y.down="-2" source="" horizontalCenter="0"/>
+				<e:Label id="labelDisplay" text="" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0" xmlns:ns1="*"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>up>
+</e:Skin>

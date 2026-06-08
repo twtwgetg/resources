@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DispatchTaskInfoSkin" width="570" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163000de969" ></w:Config>
+	<e:Group id="bg" x="0" y="0" width="100%" height="100%" anchorOffsetX="0">
+		<e:Group x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Label id="rewardRatio" text="+20%" x="60" y="48" size="18" textColor="0x4EFF00" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image source="paiqianicon_06" x="8" y="4"/>
+	<e:Image y="6" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" scale9Grid="70,5,77,33" height="38" x="92" width="441"/>
+	<e:Image x="127" y="48" source="skill_backline" height="115"/>
+	<e:Label id="TaskName" text="任务名称" y="10" size="20" horizontalCenter="-221" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="RewardPlus" text="每个紫色以上品质都能让奖励" y="46" size="18" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" x="149" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="奖励:" y="46" size="18" anchorOffsetX="0" width="134" anchorOffsetY="0" height="21" textAlign="left" verticalAlign="middle" x="16" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="Time" text="99:99:99" x="416" y="16" size="18" width="110" anchorOffsetX="0" anchorOffsetY="0" height="20" textAlign="left" verticalAlign="middle" textColor="0x1ce17d" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label id="timeDescription" text="任务所需时间:" x="300" y="16" size="18" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Group x="23" y="77">
+		<e:List id="RewardList" width="100%" height="100%" x="0" y="0">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Group y="93" width="0" height="22" x="149">
+		<e:List id="PartnerList" x="0" y="-16" width="276" height="88">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<e:Button id="speedUpBtn" label="" x="513" y="6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source.up="paiqianicon_03" source.down="paiqianicon_03" source.disabled="paiqianicon_03" source="paiqianicon_03" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="recieveBtn" label="" x="435" y="90.5" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+			<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+			<e:Label text="领取" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="searchBtn" label="" x="435" y="91.5" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" source="com_button06" x="0" y="0" source.down="com_button06"/>
+			<e:Image width="52" height="35" source="com_button06" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2"/>
+			<e:Label text="探索" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="selectBtn" label="" x="435" y="90.5" width="102" height="35">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source.down="com_button06" source="com_button05"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" source.down="com_button06" y.down="-2" source="com_button05"/>
+			<e:Label text="一键选人" width="100%" height="35" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="35" x.up="0" height.down="35" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="-2" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="0" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="0" anchorOffsetY.up="0" x="-1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="Tasking" x="441.5" y="92.5" source="paiqianicon_04"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+[{
+   "id":1,
+   "getitem":"1000:150",
+   "guajiadd":0,
+   "questdayadd":0,
+   "cumulativeloginadd":0,
+   "ziyuanzhaohui":0,
+   "onlinerewardadd":0,
+   "worldbossadd":0
+},
+{
+   "id":2,
+   "getitem":"1000:300",
+   "guajiadd":20,
+   "questdayadd":1,
+   "cumulativeloginadd":0,
+   "ziyuanzhaohui":1,
+   "onlinerewardadd":0,
+   "worldbossadd":0
+},
+{
+   "id":3,
+   "getitem":"1000:500,1012:10",
+   "guajiadd":30,
+   "questdayadd":0,
+   "cumulativeloginadd":1,
+   "ziyuanzhaohui":0,
+   "onlinerewardadd":1,
+   "worldbossadd":2
+}]

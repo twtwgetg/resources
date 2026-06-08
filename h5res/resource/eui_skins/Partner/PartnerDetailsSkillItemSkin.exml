@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerDetailsSkillItemSkin" width="550" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="152" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="48,44,59,57"/>
+		<e:Label id="skillName" text="英雄技能" y="15" anchorOffsetX="0" width="99" anchorOffsetY="0" height="29" size="20" textAlign="center" verticalAlign="middle" textColor="0xFBCC90" strokeColor="0x14181B" x="197" fontFamily="Microsoft YaHei" stroke="1"/>
+		<e:Group x="14" y="6" height="134" width="134">
+			<e:Image width="50%" height="100%" x="0" y="0" source="partner_synbg"/>
+			<e:Image width="50%" height="100%" source="partner_synbg" scaleX="-1" right="0"/>
+		</e:Group>
+		<ns1:SkillBaseUpgrade id="item" width="128" height="128" x="17" y="8" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:skinName>
+				<e:Skin width="128" height="128" currentState="normal" states="down,normal">
+				<e:Image id="bg" width="67" height="67" y.down="1.75" touchEnabled="false" verticalCenter="0" source="partner_bgpic" horizontalCenter="0"/>
+				<e:Image id="icon" width="102" height="100" source="zhujiemian_pic29" x.normal="1" y.normal="7" x.down="1" y.down="5" horizontalCenter="0" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Image id="selectSign" width="104" height="104" x="-6" y="-5" source="jinengshengji_pic3" visible="false"/>
+				<ns1:MovieClipCtrl id="effect" width="20" height="20" x="34" y="30" name="9018" skinName="MovieClipCtrlSkin" visible="false"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:SkillBaseUpgrade>
+		<e:Label id="skillLevel" text="1" x="425" y="19" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="等级:" x="372" y="19" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="skillGroup" x="195" y="50" anchorOffsetX="0" width="325">
+		<e:Label id="skillDesc" text="火球术.lv1: 发出火球对单个敌人造成333%+200的伤害" x="0" y="0" anchorOffsetX="0" width="338" anchorOffsetY="0" height="82" size="20" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Group id="limitGroup" x="0" y="60">
+			<e:Label text="升级条件: 英雄      星" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" scaleX="1" scaleY="1"/>
+			<e:Label id="needstar" text="5" x="135" y="0" anchorOffsetX="0" anchorOffsetY="0" height="20" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" scaleX="1" scaleY="1" textAlign="center" width="26"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

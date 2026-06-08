@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShenGongMainSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+
+
+
+
+
+	<e:Group id="mainView" width="640" height="1013" x="0" y="0" touchEnabled="false">
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Group id="WingsGroup" width="640" height="270" x="0" y="212.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false">
+		<e:Image width="100%" height="100%" x="-1" y="0" visible="false"/>
+
+		<e:Group id="photoParent" y="50" scaleX="1" scaleY="1" touchEnabled="false" touchChildren="false" x="350"/>
+
+			<e:Group x="470" y="227" height="59" visible="false">
+				<e:CheckBox id="showCheck" x="0" y="0">
+				</e:CheckBox>
+				<e:Label text="隐藏神弓" x="50" size="20" verticalCenter="0.5" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			</e:Group>
+		<e:Group id="leftBtn" width="59" height="55" x="19" y="33" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button label="" y="0" anchorOffsetX="0" width="59" anchorOffsetY="0" height="55" scaleX="1" scaleY="1" x="14">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="59" height="55">
+					<e:Image width="59" height="59" y.down="-2" source="tongyong_pic59" source.down="tongyong_pic59" height.down="55" height.up="55"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" stroke="1" text.down="" text.up=""/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+
+		</e:Group>
+		<e:Group id="rightBtn" width="59" height="55" x="558" y="32" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button label="" y="0" anchorOffsetX="0" width="59" anchorOffsetY="0" height="55" scaleY="1" x="-11">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="59" height="55">
+					<e:Image width="59" height="55" y.down="-2" source="tongyong_pic59" source.down="tongyong_pic59" height.down="55" scaleX="-1" x="59"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" stroke="1" text.down="" text.up=""/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+
+		</e:Group>
+		</e:Group>
+		<e:Group y="50" horizontalCenter="0">
+			<e:Image width="360" height="45" source="com_back_power" verticalCenter="0" horizontalCenter="0"/>
+			<ns1:powerzlcomp id="powerComp" width="223" height="30" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="79" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+		</e:Group>
+		<e:Group y="452" horizontalCenter="0">
+			<e:Image width="288" height="38" y="0" x="0" scaleX="1" scaleY="1" source="com_back_name" scale9Grid="50,4,68,30"/>
+			<e:Image id="curName" scaleX="1" scaleY="1" source="" x="98" verticalCenter="0" visible="false"/>
+			<e:Label id="curLevel" text="4阶 ◆ 伏虎降魔妖兽" size="22" scaleX="1" scaleY="1" textAlign="center" fontFamily="Microsoft YaHei" y="7" textColor="0x2e120a" anchorOffsetX="0" width="221" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="PropGroup" width="640" height="200" x="0" y="522" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group y="0" horizontalCenter="0">
+				<e:Image width="294" height="100" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+				<e:Image width="294" height="100" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="588" scaleX="-1"/>
+				<e:Image width="294" height="100" y="200" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="588" scaleX="-1" scaleY="-1"/>
+				<e:Image width="294" height="100" y="200" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+			</e:Group>
+			<e:Image width="588" height="43" y="2" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" horizontalCenter="0"/>
+			<e:Label text="当前属性" x="190.48" y="10" size="18" textColor="0xEFC473" visible="false"/>
+			<e:Label text="下一星属性" x="393.27" y="10" size="18" textColor="0xEFC473" visible="false"/>
+			<e:Group x="160" y="34.34" visible="false">
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="0" y="0.66" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="0" y="26.65" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="0" y="51.99" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="0" y="77.34" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="0" y="103.33" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="232.69" y="0" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="232.69" y="25.99" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="232.69" y="51.33" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="232.69" y="76.68" skinName="skin.PropMidBase2"/>
+			<ns1:PropMidBaseSkin2 width="160" height="20" x="232.69" y="102.67" skinName="skin.PropMidBase2"/>
+			</e:Group>
+			<e:Image width="21" height="16" y="39" source="tongyong_pic56" scaleX="1.2" scaleY="1.2" x="307" visible="false"/>
+			<e:Image width="21" height="16" y="62.67" source="tongyong_pic56" scaleX="1.2" scaleY="1.2" x="307" visible="false"/>
+			<e:Image width="21" height="16" y="88.01" source="tongyong_pic56" scaleX="1.2" scaleY="1.2" x="307" visible="false"/>
+			<e:Image width="21" height="16" y="113.34" source="tongyong_pic56" scaleX="1.2" scaleY="1.2" x="307" visible="false"/>
+			<e:Image width="21" height="16" y="138.34" source="tongyong_pic56" scaleX="1.2" scaleY="1.2" x="307" visible="false"/>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="192.67" x="150" height="124.34" y="36" visible="false">
+			<e:viewport>
+				<e:List id="curProp1" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-2.67" touchEnabled="true" touchChildren="true">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+				</e:List>
+			</e:viewport>
+			</e:Scroller>
+			<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="192.67" x="386" height="124.34" y="36" visible="false">
+			<e:viewport>
+				<e:List id="nextProp1" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-2.67" touchEnabled="true" touchChildren="true">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+				</e:List>
+			</e:viewport>
+			</e:Scroller>
+		</e:Group>
+		<ns1:PropertyList id="propView" width="520" height="195" x="60" y="524" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.PropertyListSkin"/>
+
+
+
+		<e:Group id="UpStageGroup" width="640" height="181" x="0" y="754.64" anchorOffsetY="0" scaleX="1" scaleY="1">
+
+
+
+
+
+			<e:Group y="19" horizontalCenter="0">
+
+
+
+
+
+
+
+				<ns1:SimpleProgressBar id="progress" width="580" height="25" y="-9" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+					<ns1:skinName>
+					<e:Skin minWidth="30" minHeight="18" width="590" height="28">
+
+						<e:Image id="img_bg" width="542" height="17" y="10" x="20" source="blueprogressBarbg" scale9Grid="4,3,38,8"/>
+						<e:Image id="thumb" width="542" height="15" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" y="11" source="blueprogressBar" fillMode="clip" x="20"/>
+
+
+
+						<e:Image width="457" height="28" x="6" y="-1" source="blueprogressBarbgbord" scale9Grid="75,16,6,9" anchorOffsetX="0" anchorOffsetY="0"/>
+						<e:Image width="293" height="28" x="581" y="-1" source="blueprogressBarbgbord" scaleX="-1" scale9Grid="77,16,4,9" anchorOffsetX="0"/>
+	<e:Label id="text" textAlign="center" verticalAlign="middle" size="16" fontFamily="Tahoma" horizontalCenter="0.5" verticalCenter="5" text="asfdasdf" textColor="0xf2f2e9" strokeColor="0x14181B" stroke="1"/>
+	<ns1:MovieClipCtrl name="9071" id="effect" width="20" height="20" x="33" y="18" visible="false"/>
+					</e:Skin>
+					</ns1:skinName>
+				</ns1:SimpleProgressBar>
+
+			</e:Group>
+
+
+
+			<e:Button id="startBtn" label="培 养" y="114" width="172" height="60" x="358" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="172" height="60">
+					<e:Image width="86" height="59" y.down="-2" source="com_button01" source.down="com_button01"/>
+					<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source.up="com_button01" source="com_button01" source.down="com_button01"/>
+					<e:Label id="labelDisplay" text="" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" y.up="15"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="stopBtn" label="停止培养" y="114" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="103">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+					<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="autoBtn" label="自动培养" y="114" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="103">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+					<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+
+			<e:Group y="66" width="200" horizontalCenter="0">
+				<e:Image width="172" height="31" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_num_enter" scale9Grid="16,10,18,11" x="0" verticalCenter="0"/>
+				<e:Label id="needNum" text=" %t" x="43" anchorOffsetX="0" width="143" verticalAlign="middle" textAlign="left" height="27" anchorOffsetY="0" size="18" background="false" border="false" backgroundColor="0x05131E" borderColor="0x4F4333" scaleX="1" scaleY="1" verticalCenter="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+
+				<e:Image id="itemIcon" width="40" height="41" x="3.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="0" source=""/>
+				<e:Label id="getWay" text="获取途径" x="0" textColor="0x15f209" size="20" verticalCenter="-0.5" fontFamily="Microsoft YaHei" visible="false"/>
+			</e:Group>
+			<e:Group x="96" y="-14.64">
+				<e:Label text="进阶祝福值" size="20" y="0" x="0" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b"/>
+				<e:Label id="zhuFuTips" text="祝福值被清空" size="20" textAlign="left" x="112" stroke="1" fontFamily="Microsoft YaHei" y="-1" textColor="0xf2f2e9" strokeColor="0x14181b"/>
+			</e:Group>
+
+		</e:Group>
+		<e:Button id="activation" label="激 活" y="870" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="254">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+				<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="38" y="420">
+			<e:Group x="0" y="0">
+				<e:Image source="com_back02" x="0" y="0"/>
+				<e:Image source="com_back02" scaleX="-1" x="98"/>
+			</e:Group>
+			<e:Button id="addPropBtn" label="" anchorOffsetX="0" width="96" anchorOffsetY="0" height="96" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="96" height="96">
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="0.5" verticalCenter.down="-0.5"/>
+				<e:Image width="74" height="74" horizontalCenter="0" verticalCenter.disabled="0" horizontalCenter.down="0" y.down="8" y.up="10" y="10" source="shengong_01"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image width="90" height="22" y="74" source="com_back_num" horizontalCenter="0"/>
+			<e:Label id="usePropNum" text="999/999" y="77" size="18" stroke="1" horizontalCenter="0" fontFamily="Microsoft YaHei" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Button id="sysequip" label="" anchorOffsetX="0" anchorOffsetY="0" height="76" scaleX="1" scaleY="1" x="26" y="95" width="76">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" horizontalCenter.down="0.5" verticalCenter.down="-0.5"/>
+				<e:Image horizontalCenter="0" verticalCenter.disabled="0" horizontalCenter.down="0" y.down="-2" y.up="0" y="0" source="shengong_06" width="76" height="76"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<ns1:ItemUse id="addPropView" width="466" height="550" skinName="skin.ItemUse" verticalCenter="0" horizontalCenter="0" visible="false"/>
+		<ns1:CommonBlessPrompt id="zhuFuView" width="482" height="600" skinName="CommonBlessPromptSkin" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" visible="false"/>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GaiMingTipsSkin" width="450" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" y="0" width="450" height="398">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="450">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group y="0" horizontalCenter="0">
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="225"/>
+		<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="450" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="225"/>
+		</e:Group>
+		<e:Button id="closeBtn" label="" width="56" height="56" top="4" scaleX="0.7" scaleY="0.7" right="3">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:game="game.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="changeBtn" label="" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" y="308" horizontalCenter="-0.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48" xmlns:ogre_ui="ogre_ui.*" xmlns:game="game.*">
+				<e:Image width="67" height="48" y.down="-2" source="com_button04" source.down="com_button04"/>
+				<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04" source.up="com_button04" source.down="com_button04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="确 定" includeIn="down" horizontalCenter="0" size="26" y="9" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" textColor="0xf2f2e9"/>
+				<e:Label text="确 定" includeIn="up" horizontalCenter="0" size="26" verticalCenter="0" stroke="1" strokeColor="0x073057" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="91" y="380">
+		<e:Label text="更改昵称" size="22" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" y="2" textColor="0xf2f2e9" horizontalCenter="0.5"/>
+		<e:Label text="使用             可更改您的角色名称" size="18" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" y="110" x="0"/>
+		<e:Label text="改名卡" size="18" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" y="110" textColor="0xfbcc90" x="44"/>
+	</e:Group>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image height="40" source="com_num_enter" scale9Grid="3,2,51,28" width="250" verticalCenter="-2" horizontalCenter="0"/>
+		<ns1:TTextInput id="nameInput" width="233" height="40" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0">
+			<ns1:skinName>
+			<e:Skin minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt" width="274" height="40" xmlns:game="game.*" xmlns:ogre_ui="ogre_ui.*">
+				<e:Rect height="100%" width="100%" fillColor="0xffffff" visible="false"/>
+				<e:EditableText id="textDisplay" verticalCenter="-0.5" left="10" right="10" textColor.disabled="0xff0000" width="100%" height="33" size="26" anchorOffsetY="0" y.disabledWithPrompt="7" x.disabledWithPrompt="0" textAlign.disabledWithPrompt="center" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+				<e:Label id="promptDisplay" verticalCenter="-0.5" left="10" right="10" width="100%" height="33" size="26" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" text="请输入名称" anchorOffsetY="0" textAlign="center" y.disabledWithPrompt="7" x.disabledWithPrompt="0" height.disabledWithPrompt="33" left.disabledWithPrompt="10" right.disabledWithPrompt="10" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:TTextInput>
+		<e:Label text="点击输入您的新昵称" size="16" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xf2f2e9" verticalCenter="0" x="10" visible="false"/>
+	</e:Group>
+	<e:Label text="( 注:角色名称不可以多于6个字 )" size="18" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" y="615" horizontalCenter="0" textColor="0xf11d40"/>
+
+
+</e:Skin>

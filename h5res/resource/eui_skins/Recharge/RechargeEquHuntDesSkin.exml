@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.RechargeEquHuntDesSkin" width="527" height="349" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="-0.5" verticalCenter="-2.5"/>
+	<e:Group x="0" y="0" anchorOffsetY="0" height="347">
+		<e:Image width="50%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" source="zizhao_02"/>
+		<e:Image width="50%" height="100%" x="526" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="zizhao_02"/>
+		<e:Image width="113" height="14" x="77" y="20" source="titleicon1" scaleX="1" scaleY="1"/>
+		<e:Image width="113" height="14" x="421" y="20" source="titleicon1" scaleX="-1" scaleY="1"/>
+	</e:Group>
+	<e:Group y="52" horizontalCenter="0">
+		<e:Image width="468" height="224" y="0" anchorOffsetY="0" anchorOffsetX="0" source="fulihuidi" scale9Grid="17,16,28,21" horizontalCenter="1"/>
+	</e:Group>
+	<e:Label text="装备抽奖" x="189" y="13.67" size="24" strokeColor="0x071e39" anchorOffsetX="0" width="117" textAlign="center" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" stroke="1"/>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="6" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="1.使用寻宝卷，可获得积分，并且每个积分随机赠送一种奖励" x="45" y="106" anchorOffsetX="0" width="437" anchorOffsetY="0" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" lineSpacing="5" textColor="0xd1ba7e"/>
+	<e:Label text="2.积分奖励中，每页的最后一档送红装" x="45" y="161" anchorOffsetX="0" width="437" anchorOffsetY="0" height="53" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" lineSpacing="5" textColor="0xd1ba7e"/>
+</e:Skin>

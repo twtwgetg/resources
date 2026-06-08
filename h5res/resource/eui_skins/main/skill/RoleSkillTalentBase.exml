@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkillTalentBaseSkin" width="155" height="214" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16247172775" ></w:Config>
+	<e:Image id="bg1" width="75.5" height="180" x="2" y="2" source="jineng_pic3" scale9Grid="22,22,46,136" anchorOffsetX="0"/>
+	<e:Image id="bg2" width="75.5" height="180" x="153" y="2" source="jineng_pic3" scale9Grid="22,22,46,136" anchorOffsetX="0" scaleX="-1"/>
+	<e:Image id="Selected" width="155" height="183" x="0" y="0" anchorOffsetY="0" source="jineng_pic17" scale9Grid="4,4,21,20"/>
+	<e:Image id="RedDot" width="17" height="17" x="126.67" y="11.33" anchorOffsetY="0" scale9Grid="4,4,21,20" source="jineng_pic13"/>
+	<e:Image id="install" width="36" height="42" x="1.01" y="3.5" anchorOffsetY="0" scale9Grid="4,4,21,20" source="jineng_pic16"/>
+	<e:Image id="iconbg" width="90" height="90" x="32.5" y="28.33" anchorOffsetY="0" scale9Grid="4,4,21,20" source="jineng_pic4"/>
+	<e:Image id="icon" width="88" height="88" x="33.5" y="29.32" anchorOffsetY="0" source="jineng_pic4" scale9Grid="4,4,21,20"/>
+	<e:Image id="bg3" width="45" height="22" y="125" anchorOffsetY="0" scale9Grid="4,4,21,20" source="tongyong_pic7" horizontalCenter="-22.5"/>
+	<e:Image id="bg4" width="45" height="22" y="125" anchorOffsetY="0" source="tongyong_pic7" scale9Grid="4,4,21,20" horizontalCenter="22.5" scaleX="-1"/>
+	<e:Label id="TalentName" text="%t" x="39.75" y="127" size="18" textColor="0x2484c9" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="75.33"/>
+	<e:Image id="gray" width="155" height="183" x="0" y="0" anchorOffsetY="0" source="jineng_pic14" scale9Grid="3,3,16,14" visible="false"/>
+	<e:Image width="82" height="12" y="155" source="tongyong_pic19" scale9Grid="2,4,9,29" horizontalCenter="0"/>
+	<e:Image width="79.49" height="8.92" y="156.57" horizontalCenter="0" source="tongyong_pic47" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Label id="Number" text="000" y="156" size="12" textAlign="right" verticalAlign="middle" x="53" anchorOffsetX="0" width="21.5"/>
+	<e:Label id="NeedNumber" text="000" y="156" size="12" width="21.5" textAlign="left" verticalAlign="middle" x="81.5" anchorOffsetX="0"/>
+	<e:Label id="xiexian" text="/" y="155.74" size="12" width="7.5" textAlign="center" verticalAlign="middle" anchorOffsetX="0" horizontalCenter="0.5"/>
+	<e:Button id="startBtn" label="" x="84" y="183" width="64" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn2" source.down="tongyong_btn2" y.down="-2"/>
+			<e:Label id="txt" text="佩 戴" x="0" y="0" width="100%" height="100%" textAlign="center" size="18" verticalAlign="middle" y.down="-2" xmlns:game="ogre_ui.*" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="startBtn0" label="" x="6" y="183" width="64" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tongyong_btn3" source.down="tongyong_btn3"/>
+			<e:Label id="txt" text="升 级" x="0" y="0" width="100%" height="100%" textAlign="center" size="18" verticalAlign="middle" y.down="-2" xmlns:game="ogre_ui.*" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonFuHuoSkin" width="410" height="157" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="410" height="156" source="com_back_power" y="0" x="0" scale9Grid="0,5,212,34"/>
+	<e:Label id="lbl" text="%t秒后复活" y="30" anchorOffsetX="0" size="26" strokeColor="0x14181B" stroke="1" fontFamily="Microsoft YaHei" textColor="0xF11D40" horizontalCenter="0" width="330" textAlign="center"/>
+	<e:Button id="ok" label="立即复活" y="64" width="134" height="48" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="134" height="48">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+	<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+	<e:Label id="labelDisplay" size="20" textColor="0xf2f2e9" verticalAlign="middle" textAlign="center" height="20" fontFamily="Microsoft YaHei" strokeColor="0x61451a" stroke="1" horizontalCenter="0" verticalCenter="0" text="立即复活" verticalCenter.down="-2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="死亦何惧！立地逢生，天下仍有你的传说！" y="120" anchorOffsetX="0" size="20" textAlign="center" strokeColor="0x14181B" stroke="1" fontFamily="Microsoft YaHei" textColor="0xf0e6cd" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedListSkin3" width="525" height="1040" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" width="2560" height="2560" source="com_mask" scale9Grid="1,1,1,1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group y="0" x="0">
+		<e:Group y="0" horizontalCenter="0">
+			<e:Image x="-3" y="0" source="zizhao_02" scale9Grid="24,14,148,86" height="1040" width="262"/>
+			<e:Image x="521" y="0" source="zizhao_02" scale9Grid="24,14,148,86" scaleX="-1" height="1040" width="262"/>
+			<e:Image width="113" height="14" x="97" y="22" source="titleicon1"/>
+			<e:Image width="113" height="14" x="432" y="22" source="titleicon1" scaleX="-1"/>
+			<e:Label text="排行榜" y="17" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" horizontalCenter="-0.5"/>
+		</e:Group>
+			<e:Group y="57.33" width="500" height="972" horizontalCenter="-4.5">
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Group id="rankGroup" x="10" y="46">
+			<e:Group x="0" y="110.34" scaleX="1" scaleY="1" width="525">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="-98" source="fuliwendi" scale9Grid="18,23,47,41" horizontalCenter="-9"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="-99.69" source="ranking_1" x="28.03"/>
+				<e:Label id="name1" text="[ 太古门 ]S388. 枕上书玉娆" x="195" y="-72.08" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xfbcc90"/>
+				<e:Label id="power1" text="神兵战力:99999999" x="289" y="-40.08" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" textColor="0xf6ec9f"/>
+			</e:Group>
+			<e:Group x="0" y="191.03" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="-82.62" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="-75" x="52" source="ranking_2"/>
+				<e:Label id="power2" text="神兵战力:89999" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" y="-24" textColor="0xf6ec9f"/>
+				<e:Label id="name2" text="[ 往生阁 ]S388. 东伯" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" y="-53" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="174.38" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="31.75" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="39" x="60" source="ranking_3"/>
+				<e:Label id="power3" text="神兵战力:999" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="37" textColor="0xf6ec9f"/>
+				<e:Label id="name3" text="[ 往生阁 ]S388. 东伯" x="195" y="62" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="231.07" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="72.7" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="97" x="62" source="qkb_17"/>
+				<e:Label text="4" x="82" anchorOffsetX="0" size="35" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textAlign="left" verticalCenter="40" textColor="0xf2f2e9"/>
+				<e:Label id="power4" text="神兵战力:890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="55" textColor="0xf6ec9f"/>
+				<e:Label id="name4" text="[ 无极宫 ] S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" verticalCenter="18" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="310.1" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="90.32" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="110" x="62" source="qkb_17"/>
+				<e:Label text="5" x="82" anchorOffsetX="0" size="35" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="45" textColor="0xF2F2E9"/>
+				<e:Label text="神兵战力 : 890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" id="power5" verticalCenter="61.5" textColor="0xf6ec9f"/>
+				<e:Label text="[ 无极宫 ]S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" id="name5" verticalCenter="27.5" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="387.74" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="109.94" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="128.35" x="62" source="qkb_17"/>
+				<e:Label text="6" x="82" anchorOffsetX="0" size="35" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="54.5" textColor="0xF2F2E9"/>
+				<e:Label text="神兵战力 : 890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" id="power6" verticalCenter="73.5" textColor="0xf6ec9f"/>
+				<e:Label text="[ 无极宫 ]S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" id="name6" verticalCenter="37.5" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="464.09" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="129.89" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="147.02" x="62" source="qkb_17"/>
+				<e:Label text="7" x="82" anchorOffsetX="0" size="35" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="64.5" textColor="0xF2F2E9"/>
+				<e:Label text="神兵战力 : 890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" id="power7" verticalCenter="81.5" textColor="0xf6ec9f"/>
+				<e:Label text="[ 无极宫 ]S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" id="name7" verticalCenter="46.5" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="674.03" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="16.6" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="35" x="62" source="qkb_17"/>
+				<e:Label text="8" x="82" anchorOffsetX="0" size="35" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="7" textColor="0xF2F2E9"/>
+				<e:Label text="神兵战力 : 890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" id="power8" verticalCenter="26.5" textColor="0xf6ec9f"/>
+				<e:Label text="[ 无极宫 ]S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" id="name8" verticalCenter="-6.5" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="769.37" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="17.93" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="35" x="62" source="qkb_17"/>
+				<e:Label text="9" x="82" anchorOffsetX="0" size="35" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="7" textColor="0xF2F2E9"/>
+				<e:Label text="神兵战力 : 890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" id="power9" verticalCenter="30" textColor="0xf6ec9f"/>
+				<e:Label text="[ 无极宫 ]S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" id="name9" verticalCenter="-2" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group x="0" y="862.02" scaleX="1" scaleY="1">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" width="485" height="100" y="21.92" source="fuliwendi" x="11" scale9Grid="21,23,44,41"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" y="37.66" x="62" source="qkb_17"/>
+				<e:Label text="10" x="74" anchorOffsetX="0" size="32" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="7" textColor="0xF2F2E9"/>
+				<e:Label text="神兵战力 : 890" x="289" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" id="power10" verticalCenter="29" textColor="0xf6ec9f"/>
+				<e:Label text="[ 无极宫 ]S388. 太一" x="195" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" id="name10" verticalCenter="-3" textColor="0xfbcc90"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.8" scaleY="0.8" top="3" right="9">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

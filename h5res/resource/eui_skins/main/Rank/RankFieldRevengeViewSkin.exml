@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankFieldRevengeViewSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Group x="101" y="90" width="582" height="860" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Image width="288" height="58" x="105" y="99" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" source="select_03" scale9Grid="35,18,217,21"/>
+	<e:Image width="288" height="58" x="681" y="99" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" source="select_03" scale9Grid="51,7,197,44"/>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="571" height="702" horizontalCenter="-0.5" y="208">
+		<e:List id="list"/>
+	</e:Scroller>
+	<e:Image width="564" height="43" y="167" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="com_back_title"/>
+	<e:Label text="请选择要复仇的玩家" x="305" y="175" fontFamily="Microsoft YaHei" size="20" textAlign="center" textColor="0xfbcc90" strokeColor="0x14181b" stroke="1"/>
+	<e:Label text="复仇" y="42" fontFamily="Microsoft YaHei" size="26" horizontalCenter="4" textColor="0x2e120a"/>
+	<e:Group x="221" y="116">
+		<e:Label text="剩余报仇次数:" x="-93" y="2" size="20" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="buy" text="兑换次数" x="346" y="2" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d"/>
+		<e:Image width="82" x="345" scale9Grid="1,0,1,4" y="25" anchorOffsetY="0" source="downline_B"/>
+		<e:Label id="num" text="5/5" x="41" y="2" size="20" anchorOffsetX="0" width="54" anchorOffsetY="0" height="21" fontFamily="Microsoft YaHei" strokeColor="0x14181b" stroke="1" textColor="0x1ce17d"/>
+	</e:Group>
+	<e:Image id="guideObj" width="93" height="40" x="538" y="257" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

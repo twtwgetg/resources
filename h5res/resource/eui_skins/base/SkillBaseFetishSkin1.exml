@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="skin.SkillBaseFetish1" width="150" height="290" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,normal" >
+	<e:Group id="selectSign" x="0" y="0">
+		<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="0"/>
+		<e:Image width="75" height="280" y="0" anchorOffsetX="0" anchorOffsetY="0" source="skill_check" x="150" scaleX="-1"/>
+	</e:Group>
+
+	<e:Image id="icon" width="107" height="107"  x.normal="1" y.normal="7" x.down="1" y.down="5" verticalCenter="-47.5" source="skill01" horizontalCenter="1.5"/>
+
+
+
+	<e:Label id="level" text="9999级" size="18" touchEnabled="false" horizontalCenter="0.5" bottom="74" textAlign="center" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+
+	<e:Label id="nameLabel" text="技能名称" y="168" size="20" horizontalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QiRiModelGSkin" width="602" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166bee0821f" ></w:Config>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" width="296" height="170" source="fuli_2" scale9Grid="9,7,205,92"/>
+		<e:Image x="592" y="0" source="fuli_2" width="296" height="170" scaleX="-1" scale9Grid="7,7,208,87"/>
+		<e:Image source="fuli_1" x="2" y="2"/>
+		</e:Group>
+		<e:Group id="yuanJiaGroup" width="170" height="30" x="418" y="32" anchorOffsetX="0">
+		<e:Image width="170" height="30" x="0" y="0" scaleX="1" scaleY="1" alpha="1" source="com_num_enter" scale9Grid="7,4,42,24"/>
+		<e:Label text="原价" x="6" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" rotation="0.8" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" y="5" textColor="0xC6D5DF"/>
+		<e:Image id="yuanJiaIcon" width="76" height="76" x="45" scaleX="0.45" scaleY="0.45" verticalCenter="-1" source=""/>
+		<e:Label id="yuanJiaNum" text="999.9" x="90" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xC6D5DF"/>
+		<e:Image width="160" height="3" y="12" scaleX="1" scaleY="1" fillMode="scale" source="shop_line" scale9Grid="2,0,19,3" x="4"/>
+		</e:Group>
+		<e:Group x="418" y="64" height="30" width="170">
+		<e:Image width="170" height="30" x="0" y="0" source="com_num_enter" scale9Grid="7,4,42,24"/>
+		<e:Label text="现价" x="6" y="5" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" rotation="0.8" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei"/>
+		<e:Label id="curNum" text="999.9" x="89" y="5" anchorOffsetX="0" verticalAlign="middle" textAlign="left" height="18" anchorOffsetY="0" size="18" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" fontFamily="Microsoft YaHei"/>
+		<e:Image id="curIcon" width="76" height="76" x="45" y="-1" scaleX="0.45" scaleY="0.45" source=""/>
+		</e:Group>
+		<e:Label id="des" text="全民特惠" x="42" y="12" size="20" textAlign="left" stroke="1" strokeColor="0x14181B" fontFamily="Microsoft YaHei" textColor="0xFFEA00"/>
+		<e:Group id="discGroup" x="0" y="-2">
+		<e:Image width="38" height="108" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shangcheng_pic5"/>
+		<e:Image id="discNum" x="7" y="40" scaleX="1" scaleY="1" width="22" height="26" anchorOffsetX="0" anchorOffsetY="0" source="fight_8"/>
+		</e:Group>
+		<e:Group y="53" horizontalCenter="0.5" width="535">
+		<e:Scroller height="96" anchorOffsetX="0" y="0" x="0" width="380" anchorOffsetY="0">
+			<e:List id="itemList" width="0" height="0">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="buyBtn" label="兑换(10/10)" y="45" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" x="408">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+				<e:Image y.down="-2" source="com_button08" width="68" height="48" source.up="com_button08" source.down="com_button08"/>
+				<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+				<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerListModleSkin" width="480" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="480" height="90" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="19,19,115,115"/>
+	<e:Label id="playername" text="若特尔其夫斯" size="20" scaleX="1" scaleY="1" textColor="0xF2F2E9" x="48" height="20" width="230" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="0"/>
+	<e:Button id="invaiteBtn" label="邀请双修" x="303" width="134" height="48" scaleX="1" scaleY="1" y="22">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="134" height="48">
+			<e:Image width="67" height="48" y.down="-2" x="0" y="0" source="com_button04" source.down="com_button04"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04" source.down="com_button04"/>
+			<e:Label id="labelDisplay" text="" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x61451a" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="timeBtn" label="邀 请" x="303" width="134" height="48" scaleX="1" scaleY="1" touchEnabled="false" y="22">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="134" height="48">
+			<e:Image width="67" height="48" y.down="-2" x="0" y="0" source="com_button04" source.down="com_button04"/>
+			<e:Image width="67" height="48" x="134" y="0" scaleX="-1" y.down="-2" source="com_button04" source.down="com_button04"/>
+			<e:Label id="labelDisplay" text="" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.disabled="3" stroke="1" strokeColor="0x61451a" horizontalCenter.down="0" verticalCenter.down="-2" verticalCenter="0" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

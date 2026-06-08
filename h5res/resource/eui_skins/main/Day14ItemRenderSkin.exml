@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Day14ItemRenderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="140" height="120">
+	<ns1:Day14Item id="item" skinName="Day14ItemSkin" x="0" y="0"/>
+	<e:Group id="teQuanOpen" x="71" bottom="0">
+		<e:Image x="0" source="fulix2" bottom="5"/>
+	</e:Group>
+</e:Skin>

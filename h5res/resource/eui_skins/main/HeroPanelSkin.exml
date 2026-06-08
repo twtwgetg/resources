@@ -1,0 +1,471 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeroPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+	<e:Image width="606" height="636" y="80" anchorOffsetY="0" source="resource/assets/data/ui/bgs/juese_peopleback.png" horizontalCenter="0"/>
+
+
+
+	<e:Group id="photoParent" scaleX="0.7" scaleY="0.7" left="388" y="570">
+	</e:Group>
+	<e:Group id="diban" y="141" width="572" height="524" horizontalCenter="0">
+
+
+		<e:Group x="-9" y="-2">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic01"/>
+		</e:Group>
+		<e:Group x="-9" y="110">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic03"/>
+		</e:Group>
+		<e:Group x="-9" y="222">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic05"/>
+		</e:Group>
+		<e:Group x="-9" y="334">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic07"/>
+		</e:Group>
+		<e:Group x="-9" y="444">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic09"/>
+		</e:Group>
+		<e:Group x="498" y="-2">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic02"/>
+		</e:Group>
+		<e:Group x="498" y="110">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic04"/>
+		</e:Group>
+		<e:Group x="498" y="222">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic06"/>
+		</e:Group>
+		<e:Group x="498" y="334">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic08"/>
+		</e:Group>
+		<e:Group x="498" y="444">
+			<e:Image width="42" height="84" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="84" x="0" y="0" scaleX="1" source="taozhuang_pic10"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	</e:Group>
+	<e:Group y="139" horizontalCenter="4">
+		<ns1:ItemBase3 id="item1" width="114" height="111" y="-2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="-7"/>
+		<ns1:ItemBase3 id="item2" width="114" height="111" y="-2" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="500"/>
+		<ns1:ItemBase3 id="item3" width="114" height="111" y="109" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="-7"/>
+		<ns1:ItemBase3 id="item4" width="114" height="111" y="110" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="500"/>
+		<ns1:ItemBase3 id="item5" width="114" height="111" y="222" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="-7"/>
+		<ns1:ItemBase3 id="item6" width="114" height="111" y="222" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="500"/>
+		<ns1:ItemBase3 id="item7" width="114" height="111" y="334" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="-7"/>
+		<ns1:ItemBase3 id="item8" width="114" height="111" y="334" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="500"/>
+		<ns1:ItemBase3 id="item9" width="114" height="111" y="445" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="-7"/>
+		<ns1:ItemBase3 id="item10" width="114" height="111" y="445" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin3" x="500"/>
+	</e:Group>
+
+
+
+
+
+
+	<e:Group id="propGroup" x="180" y="190">
+	</e:Group>
+	<e:Group id="grp_tool" x="116" y="1028">
+		
+
+		<ns1:ScrollPage id="scrollPage" width="483" height="99" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:skinName>
+				<e:Skin>
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0.5" verticalCenter="-3"/>
+		</e:Group>
+	</e:Group>
+				<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="482">
+					<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5">
+					<e:Button id="skillBtn" label="" x="0" y="0" width="86" height="86" name="skill">
+						<e:skinName>
+						<e:Skin states="up,down,disabled" width.down="86" height.down="86" width="86" height="86">
+
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+
+							<e:Image width="100%" height="100%" source="juese_btn1" width.down="86" height.down="86" width.up="86" height.up="86" horizontalCenter.down="0" horizontalCenter.up="0" y.up="0" y.down="0" width.disabled="86" height.disabled="86" horizontalCenter.disabled="0" y.disabled="0"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Button id="lingmaiBtn" label="" x="87" y="0" width="86" height="86" name="lingMai">
+						<e:skinName>
+						<e:Skin states="up,down,disabled" width="86" height="86">
+
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="4"/>
+
+							<e:Image y.down="0" y.up="0" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" y.disabled="0" source="lingmai_pic6" y="0" width="86" height="86"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Button id="mountBtn" label="" x="174" y="0" height="86" scaleX="1" scaleY="1" width="86" name="mountBtn">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="4"/>
+							<e:Image width="86" height="86" source="juese_btn8" y.down="0" y.up="0" x="0" y="0" y.disabled="0"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:Button id="wingBtn" label="" x="261" y="0" width="86" height="86" scaleX="1" scaleY="1" name="wingBtn">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="4"/>
+							<e:Image width="86" height="86" source="juese_btn7" y="0" y.down="0" width.up="86" height.up="86" y.up="0" width.down="100%" height.down="100%"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+						<e:Button id="shengongBtn" label="" x="348" y="0" width="86" height="86" scaleX="1" scaleY="1" name="shengongBtn">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="4"/>
+								<e:Image width="86" height="86" y="0" y.down="0" width.up="86" height.up="86" y.up="0" width.down="100%" height.down="100%" source="juese_btn9"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:Button>
+
+						<e:Button id="title" label="" x="364" y="2" width="68" height="84" scaleX="1" scaleY="1" name="chengHao" visible="false">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="juese_btn7" y="0" y.down="6" width.up="68" height.up="84" y.up="8" width.down="68" height.down="84"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:Button>
+
+
+					</e:Group>
+				</e:Scroller>
+				<e:List id="pointList" width="90" height="21" y="90" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="46">
+					<e:layout>
+					<e:HorizontalLayout/>
+					</e:layout>
+				</e:List>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:ScrollPage>
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<e:Button id="autoEquipBtn" label="" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" y="625" x="307">
+	<e:skinName>
+		<e:Skin states="up,down,disabled">
+		<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" width.down="86" height.down="59" source="com_button02" source.up="com_button02" source.down="com_button02"/>
+	    <e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02" source.down="com_button02"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label text="一键换装" includeIn="down" horizontalCenter="0" y="15" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" size="26"  textColor="0xf2f2e9"/>
+	<e:Label text="一键换装" includeIn="up" stroke="1" strokeColor="0x61451a"  fontFamily="Microsoft YaHei" horizontalCenter="0" verticalCenter="0" size="26" textColor="0xf2f2e9"/>
+	<ns1:MovieClipCtrl id="dressEffect" name="9025" horizontalCenter="0" verticalCenter="0"/>
+
+		</e:Skin>
+	</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="bottomGroup" y="712" x="98">
+		<e:Group y="0" x="72">
+			<e:Image y="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/juese_peopleback1.png" x="0"/>
+			<e:Image y="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/juese_peopleback1.png" x="446" scaleX="-1"/>
+		</e:Group>
+		<e:Group x="0" y="6">
+			<e:Group id="longLin" width="84" height="84" y="0" x="0">
+			<e:Group id="longLinpic" x="0" y="0">
+
+				<e:Group id="qualityGroup1" x="0" y="0">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_7"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_7"/>
+				</e:Group>
+				<e:Image width="74" height="74" source="longling" x="5" y="4"/>
+			</e:Group>
+			</e:Group>
+			<ns1:QualityBase id="quality1" width="84" height="84" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="0" visible="false"/>
+			<e:Label id="longLinName" text="玄 器" fontFamily="Microsoft YaHei" width="56" size="18" textAlign="center" height="20" y="86" anchorOffsetY="0" horizontalCenter="0" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="level1" text="12阶" y="59" x="36" fontFamily="Microsoft YaHei" size="20" textAlign="right" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d" width="44"/>
+		</e:Group>
+		<e:Group x="506" y="6">
+			<e:Group id="longWen" x="0" y="0">
+			<e:Group id="longWenpic" x="0" y="0">
+				<e:Group id="qualityGroup2" x="0" y="0">
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_7"/>
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_7"/>
+				</e:Group>
+				<ns1:QualityBase id="quality2" width="84" height="84" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="0" visible="false"/>
+				<e:Image width="74" height="74" source="longwen" y="4" x="5"/>
+			</e:Group>
+			</e:Group>
+			<e:Label id="longWenName" text="符 印" fontFamily="Microsoft YaHei" width="56" size="18" textAlign="center" height="20" y="86" anchorOffsetY="0" horizontalCenter="0" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+			<e:Label id="level2" text="2阶" y="59" x="36" fontFamily="Microsoft YaHei" size="20" textAlign="right" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d" width="44"/>
+		</e:Group>
+		<e:Group x="0" y="122">
+			<e:Group id="longHun" x="0" y="0">
+			<e:Group id="longHunpic" x="0" y="0">
+				<e:Group id="qualityGroup3" x="0" y="0">
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_7"/>
+				<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_7"/>
+				</e:Group>
+				<e:Image width="74" height="74" source="longhun" y="4" x="5"/>
+			</e:Group>
+			</e:Group>
+			<ns1:QualityBase id="quality3" width="84" height="84" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="0"/>
+			<e:Label id="longHunName" text="魔 珠" fontFamily="Microsoft YaHei" width="56" size="18" textAlign="center" height="20" y="86" anchorOffsetY="0" horizontalCenter="0" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+			<e:Label id="level3" text="2阶" y="59" x="36" fontFamily="Microsoft YaHei" size="20" textAlign="right" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d" width="44"/>
+		</e:Group>
+
+
+		<e:Group x="506" y="122">
+			<e:Group id="JinDing" x="0" y="0">
+			<e:Group id="JinDingpic" x="0" y="0">
+
+				<e:Group id="qualityGroup4" x="0" y="0">
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_7"/>
+					<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_7"/>
+				</e:Group>
+				<e:Image width="74" height="74" y="4" x="5" source="daojuicon_pic33"/>
+			</e:Group>
+			</e:Group>
+			<ns1:QualityBase id="quality4" width="84" height="84" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.QualityBase" x="0"/>
+			<e:Label id="jinDingName" text="权 杖" fontFamily="Microsoft YaHei" width="56" size="18" textAlign="center" height="20" y="86" anchorOffsetY="0" horizontalCenter="0" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+			<e:Label id="level4" text="2阶" y="59" x="36" fontFamily="Microsoft YaHei" size="20" textAlign="right" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d" width="44"/>
+		</e:Group>
+		<e:Group id="zhuZai1" x="110" y="25">
+			<e:Group id="bg" width="84" height="84" y="0" x="0">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_9"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_9"/>
+			</e:Group>
+			<e:Image id="icon_MianJia" height="84" y="0" width="84" x="0" source=""/>
+			<e:Label id="lblMianJia" text="3转开启" y="89" fontFamily="Microsoft YaHei" size="18" textAlign="center" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="zhuZai1Lbl" text="+99" x="5" y="55" width="71" size="22" textAlign="right" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group id="zhuZai2" x="204.83333333333334" y="25">
+			<e:Group id="bg0" width="84" height="84" y="0" x="0">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_9"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_9"/>
+			</e:Group>
+			<e:Image id="icon_HuJian" height="84" y="0" width="84" x="0" source=""/>
+			<e:Label id="lblHuJian" text="7转开启" y="89" fontFamily="Microsoft YaHei" size="18" textAlign="center" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="zhuZai2Lbl" text="+99" x="5" y="55" width="71" size="22" textAlign="right" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group id="zhuZai3" x="300.1666666666667" y="25">
+			<e:Group id="bg1" width="84" height="84" y="0" x="0">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_9"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_9"/>
+			</e:Group>
+			<e:Image id="icon_HuXi" height="84" y="0" width="84" x="0" source=""/>
+			<e:Label id="lblHuXi" text="11转开启" y="89" fontFamily="Microsoft YaHei" size="18" textAlign="center" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="zhuZai3Lbl" text="+99" x="5" y="55" width="71" size="22" textAlign="right" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Group id="zhuZai4" x="396" y="25">
+			<e:Group id="bg2" width="84" height="84" y="0" x="0">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_9"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_9"/>
+			</e:Group>
+			<e:Image id="icon_DiaoZhui" height="84" y="0" width="84" x="0" source=""/>
+			<e:Label id="lblDiaoZhui" text="15转开启" y="89" fontFamily="Microsoft YaHei" size="18" textAlign="center" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="zhuZai4Lbl" text="+99" x="5" y="55" width="71" size="22" textAlign="right" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="860" x="206">
+		<e:Button id="dressBtn" label="" x="0" y="0" width="86" height="86">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="86" height="86">
+			<e:Image width="86" height="86" source="juese_btn3" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="zhuansheng" label="" x="191" y="0" width="86" height="86">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="86" height="86">
+				<e:Image width="86" height="86" source="zhujiemian_btn21" y.down="-2" source.up="zhuanicon" source.down="zhuanicon" source.disabled="zhuanicon"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_ogreequip" label="" x="96" y="0" width="86" height="86">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" y.down="-2" source="juese_btn6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="title" label="称号" x="287" y="0" scaleX="1" scaleY="1" name="chengHao" height="86" width="86">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height.up="86">
+				<e:Image id="labelDisplay" y="0" y.down="-2" width.up="100%" height.up="100%" y.up="0" source="chenghao" source.disabled="chenghao" source.down="chenghao"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="ranklook" x="248" y="624" touchEnabled="false" visible="false">
+		<ns1:PartnerDispatchSkin width="86" height="86" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.PartnerDispatchSkin"/>
+		<ns1:PartnerDispatchSkin width="86" height="86" x="99" y="1" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.PartnerDispatchSkin"/>
+		<ns1:PartnerDispatchSkin width="86" height="86" x="197" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.PartnerDispatchSkin"/>
+
+	</e:Group>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Image id="chenghao" width="240" height="85" y="148" source="resource/ui/chenghao/chenghao_pic1.png" horizontalCenter="0" visible="false"/>
+	<ogre_ui:HeroPropLook id="propView" width="350" height="480" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-50" horizontalCenter="0" skinName="skin.HeroPropLook" visible="false"/>
+
+	<e:Group y="95" horizontalCenter="0">
+		<e:Image width="410" height="46" x="0" source="com_back_power" verticalCenter="0"/>
+		<ns1:powerzlcomp id="zhanLi" width="360" height="50" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="33"/>
+		<e:Image width="82" x="296" source="downline_W" scale9Grid="1,0,1,4" y="36"/>
+		<ns1:StaticHtmlText id="propBtn" width="86" height="32" x="296" y="14">
+			<ns1:skinName>
+				<e:Skin width="90" height="32">
+				<e:Label id="htmlLabel" text="查看属性" x="0" y="0" width="86" height="32" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei" size="20"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:StaticHtmlText>
+
+
+
+	</e:Group>
+	<e:Label id="titleName" text="角 色" y="52" textAlign="center" horizontalCenter="2" fontFamily="Microsoft YaHei" size="26" textColor="0x2e120a"/>
+	<e:Button id="closeBtn" label="" x="656" y="49">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_close" source.down="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</e:Skin>

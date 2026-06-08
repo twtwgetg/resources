@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionSingleFbRewardSkin" width="540" height="540" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0">
+			<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+			<e:Image width="50%" height="50%" x="540" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+			<e:Image width="50%" height="50%" x="540" y="540" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" x="0" y="540" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0">
+			<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+			<e:Image width="50%" height="63" x="540" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+		</e:Group>
+		<e:Group x="0" y="0">
+			<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+			<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="540" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+		</e:Group>
+		<e:Group y="49" horizontalCenter="0">
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+			<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="514" scaleX="-1"/>
+			<e:Image width="50%" height="50%" y="478" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="514" scaleX="-1" scaleY="-1"/>
+			<e:Image width="50%" height="50%" y="478" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+		</e:Group>
+		<e:Label text="奖 励" y="10" fontFamily="Microsoft YaHei" size="26" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" x="242"/>
+		<e:Button id="closeBtn" label="" width="56" height="56" right="2" top="4" scaleX="0.7" scaleY="0.7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="100%" height="100%" source="com_close" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="14" y="52">
+		<e:Image width="514" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+		<e:Image width="84" height="14" y="13" scaleX="1" scaleY="1" anchorOffsetX="0" x="317" source="com_title_line"/>
+		<e:Image width="84" height="14" y="13" scaleX="-1" scaleY="1" anchorOffsetX="0" x="191" source="com_title_line"/>
+		<e:Label text="今日通关" size="24" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="6" x="207" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group x="14" y="334">
+		<e:Image width="514" height="43" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_title" x="0"/>
+		<e:Image width="84" height="14" y="13" scaleX="1" scaleY="1" anchorOffsetX="0" x="317" source="com_title_line"/>
+		<e:Image width="84" height="14" y="13" scaleX="-1" scaleY="1" anchorOffsetX="0" x="191" source="com_title_line"/>
+		<e:Label text="全民奖励" size="24" scaleX="1" scaleY="1" textColor="0xFBCC90" fontFamily="Microsoft YaHei" y="6" x="207" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group x="108" y="382">
+		<e:Button id="oneItem" label="" x="0" y="0" width="106" height="106" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="106" height="106" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" y.down="-2" source="treasurebox_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="76" anchorOffsetX="0" anchorOffsetY="0" x="0" width="106" height="40" source="com_back_power" scale9Grid="0,5,212,34"/>
+		<e:Label text="1人通关" y="85" size="20" fontFamily="Microsoft YaHei" horizontalCenter="1" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group x="320" y="382">
+		<e:Button id="moreItem" label="" x="0" y="0" width="106" height="106" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="106" height="106" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" y.down="-2" source="treasurebox_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" text="" bold="true" size="30" y="53" textColor="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="76" anchorOffsetX="0" anchorOffsetY="0" x="0" width="106" height="40" source="com_back_power" scale9Grid="0,5,212,34"/>
+		<e:Label id="moreTips" text="t%人通关" y="86" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Scroller id="partnerScroller0" anchorOffsetX="0" anchorOffsetY="0" width="318" height="217" y="108" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:List id="finishList" x="222" y="58" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="0" height="215">
+			<e:layout>
+				<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ns1:FactionSingleFbRewardItem width="300" height="20" x="119" y="278" anchorOffsetX="0" anchorOffsetY="0" skinName="FactionSingleFbRewardItemSkin" visible="false"/>
+</e:Skin>

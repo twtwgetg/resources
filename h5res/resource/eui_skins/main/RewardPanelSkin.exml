@@ -1,0 +1,114 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RewardPanelSkin" width="500" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="panelTween">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{34}" x="{215}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{0}" width="{250}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{36}" x="{285}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object width="{250}" x="{500}" y="{50}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="bgGroup" y="0" width="500" touchEnabled="false" touchThrough="true">
+		<e:Image id="image" width="250" height="150" x="0" y="50" source="beibao_pic7" scale9Grid="29,50,31,100" touchEnabled="false"/>
+		<e:Image id="image0" width="250" height="150" x="500" y="50" source="beibao_pic7" scale9Grid="29,50,31,100" scaleX="-1" touchEnabled="false"/>
+		<e:Image id="image1" width="490" height="72" y="0" source="beibao_pic8" x="4"/>
+	</e:Group>
+	<e:Group id="itemGroup" y="80" x="89" touchEnabled="false" touchThrough="true">
+		<ns1:ItemBase2 id="item1" width="80" height="80" x="0" y="1" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="item3" width="80" height="80" x="240" y="0" scaleX="1" scaleY="1" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="80" height="80" x="120" y="0" scaleX="1" scaleY="1" id="item2" skinName="skin.ItemBaseSkin2"/>
+	</e:Group>
+	<e:Image width="134" height="7" x="345.4" y="183.4" source="beibao_pic6" touchEnabled="false"/>
+ 
+</e:Skin>

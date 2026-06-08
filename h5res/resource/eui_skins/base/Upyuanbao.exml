@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Upyuanbao" width="540" height="240" xmlns:e="http://ns.egret.com/eui" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="535" height="117" y="1" anchorOffsetX="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/get_fmoney.png" horizontalCenter="0"/>
+	<e:Group x="2" y="115" anchorOffsetX="0" width="540" anchorOffsetY="0" height="125">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="270" height="125" width="270" source="UIPic_6" scaleX="1" scaleY="1" scale9Grid="0,5,131,34"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="270" source="UIPic_6" height="125" width="270" scaleX="-1" scaleY="1" scale9Grid="0,5,131,34"/>
+	</e:Group>
+	<ns1:ItemBase2 id="item" width="88" height="88" x="104" y="137" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2">
+	</ns1:ItemBase2>
+	<e:Scroller width="163" height="58" y="154" anchorOffsetY="0" anchorOffsetX="0" x="258" throwSpeed="0">
+		<e:Group anchorOffsetX="0" width="215" anchorOffsetY="0" height="71">
+			<ns1:NumListComp id="numList" y="-1" x="0" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin>
+					<w:Config id="161d0fa9dd5"/>
+					<e:Group id="group" horizontalCenter="0">
+					<e:layout>
+						<e:HorizontalLayout gap="-4"/>
+					</e:layout>
+					</e:Group>
+	<e:Group id="rollGroup" y="2"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:NumListComp>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

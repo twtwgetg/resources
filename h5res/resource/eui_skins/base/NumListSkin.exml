@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NumListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="161d0fa9dd5" ></w:Config>
+	<e:Group id="group">
+		<e:layout>
+			<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="rollGroup"/>
+</e:Skin>

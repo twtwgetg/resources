@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LiaotianSysMsgSkin" width="556" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" minHeight="120" minWidth="460">
+	<e:Image id="iconImg" width="58" height="32" x="14" y="2" anchorOffsetX="0" anchorOffsetY="0" source="xitongpic"/>
+	<e:Group id="grp" width="468" height="44" x="82" y="5" anchorOffsetX="0" anchorOffsetY="0"/>
+<e:Label id="lbl_content" x="82" y="4" anchorOffsetX="0" anchorOffsetY="0" size="18" text="" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b" lineSpacing="5"/>
+</e:Skin>

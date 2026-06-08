@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.ItemGemTips" width="398" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Image width="50%" height="50%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15"/>
+		<e:Image width="50%" height="50%" x="398" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1"/>
+		<e:Image width="50%" height="50%" x="398" y="544" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" x="0" y="544" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1"/>
+	</e:Group>
+	<e:Group x="14" y="160">
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="370" scaleX="-1"/>
+		<e:Image width="50%" height="50%" y="364" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="370" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" y="364" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+	</e:Group>
+	<e:Group bottom="4" horizontalCenter="0">
+		<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+		<e:Image width="50%" height="63" x="398" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleY="0.7" scaleX="0.7" right="4" top="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Group x="165" y="50">
+		<e:Label id="ItemName" text="物品图标名称" x="0" y="0" anchorOffsetX="0" width="167" size="22" textColor="0xed76e1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="使用等级:" x="0" y="30" anchorOffsetX="0" width="96" size="18" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label id="level" text="99999" x="80" y="30" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+		<e:Label text="拥有数量:" x="0" y="60" anchorOffsetX="0" width="107" size="18" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label id="num" text="111" x="80" y="60" size="18" width="51" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Label text="物品描述" x="50" y="290" anchorOffsetX="0" width="167" textColor="0xEEC275" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Label text="物品来源" x="50" y="388" anchorOffsetX="0" width="167" textColor="0xEEC275" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Group x="50" y="291" anchorOffsetY="0" height="79">
+		<e:Label id="desc" text="物品描述物品描述物" x="1" y="21" width="294" anchorOffsetY="0" height="124" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+
+	<e:Image width="40" height="80" x="50" y="50" source="tongyong_pic26"/>
+	<e:Image width="40" height="80" x="130" y="50" source="tongyong_pic26" scaleX="-1"/>
+	<ns1:ItemBase2 id="ItemItem" width="86" height="86" x="50" y="50" skinName="skin.ItemBaseSkin2"/>
+	<e:Group x="50" y="392.5">
+
+
+
+
+		<e:Label id="sourcedesc" text="江湖" x="0" y="22.5" width="300" height="54" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Image width="271" height="8" x="45" y="302" source="tongyong_pic39"/>
+	<e:Label text="基础属性" x="50" y="169" anchorOffsetX="0" width="167" textColor="0xEEC275" size="18" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image width="271" height="8" x="45" y="181" source="tongyong_pic39"/>
+	<e:Image width="271" height="8" x="45" y="402" source="tongyong_pic39"/>
+	<e:Group id="basePropGroup" x="50" y="155" anchorOffsetY="0" height="103" width="300">
+		<ns1:PropBase id="baseProp0" width="258" height="25" y="20" skinName="skin.PropBaseSkin" anchorOffsetX="0" anchorOffsetY="0" x="0" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

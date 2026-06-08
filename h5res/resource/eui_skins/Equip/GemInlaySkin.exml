@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skin.GemInlaySkin" width="610" height="850" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="300" height="850" x="0" y="10" source="tongyong_pic22" scale9Grid="35,74,1,1"/>
+	<e:Image width="300" height="850" x="600" y="10" source="tongyong_pic22" scale9Grid="35,74,1,1" scaleX="-1"/>
+	<e:Button id="closeBtn" label="" x="565" y="2" width="43" height="43">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="宝  石" x="281" y="22" size="20" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	<e:Image width="570" height="400" x="16" y="65" scale9Grid="15,17,3,3" source="beibao_pic2"/>
+	<e:Label text="注:两个相同宝石合成下一级宝石" y="805" anchorOffsetX="0" size="18" textColor="0x8ef707" anchorOffsetY="0" stroke="1" strokeColor="0x14181b" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Group id="noGemGroup" x="158" y="601">
+		<e:Label text="暂无可镶嵌的宝石" y="0" anchorOffsetX="0" width="287" size="18" anchorOffsetY="0" height="30" textColor="0xffffff" textAlign="center" x="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="512.67" x="45" height="352.34" y="91">
+		<e:viewport>
+		<e:List id="gemList" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="5" horizontalGap="3"/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Group x="47" y="93" anchorOffsetY="0" height="350" anchorOffsetX="0" width="510" visible="false">
+		<ns1:ItemBase2 width="86" height="111" x="0" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="106" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="212" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="318" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="424" y="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="0" y="120" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="106" y="120" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="212" y="120" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="318" y="120" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="424" y="120" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="0" y="240" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="106" y="240" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="212" y="240" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="318" y="240" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 width="86" height="111" x="424" y="240" skinName="skin.ItemBaseSkin2"/>
+	</e:Group>
+	<e:Group id="nowGroup" x="55" y="490" anchorOffsetX="0" width="503" anchorOffsetY="0" height="115">
+		<e:Image width="570" height="155" x="-39" y="-20" scale9Grid="15,17,3,3" source="beibao_pic2" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase4 id="curItem" width="100" height="111" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin4"/>
+		<e:Label id="curName" text="10级敏捷宝石" x="105" y="0" size="18" textColor="0xe51616" bold="true" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label id="curPower" text="战力:33333" x="105" y="28" size="18" textColor="0xecc275" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Button id="dressBtn" label="" x="380" y="50" width="105" height="41" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" y.up="0" y.down="-2" source="tongyong_btn14"/>
+				<e:Label text="镶    嵌" includeIn="up" size="20" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+				<e:Label text="镶    嵌" includeIn="down" size="20" horizontalCenter="0" y="8" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="takeOffBtn" label="" x="380" y="50" width="105" height="41" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tongyong_btn13" y.down="-2"/>
+				<e:Label text="拆    除" includeIn="up" size="20" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Label text="拆    除" includeIn="down" size="20" horizontalCenter="0" y="9" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="236.67" x="109" height="60.34" y="55">
+			<e:viewport>
+			<e:List id="curProp" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true">
+				<e:layout>
+				<e:TileLayout requestedColumnCount="1" horizontalGap="6"/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+
+	</e:Group>
+	<e:Group id="nextGroup" x="55" y="649" anchorOffsetX="0" width="504" anchorOffsetY="0" height="117">
+		<e:Image width="570" height="155" x="-39" y="-19" scale9Grid="15,17,3,3" source="beibao_pic2" scaleX="1" scaleY="1"/>
+		<ns1:ItemBase4 id="nextItem" width="100" height="111" x="0" y="1" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin4"/>
+		<e:Label id="nextName" text="10级敏捷宝石" x="105" y="0" size="18" textColor="0xE51616" bold="true" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<e:Label id="nextPower" text="战力:66666" x="105" y="25" size="18" textColor="0xECC275" strokeColor="0x14181b" stroke="1" fontFamily="Microsoft YaHei"/>
+
+		<e:Button id="upgradeBtn" label="" x="380" y="11" width="105" height="41">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tongyong_btn13" y.up="0" y.down="-2"/>
+				<e:Label text="合    成" includeIn="up" size="20" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+				<e:Label text="合    成" includeIn="down" size="20" horizontalCenter="0" y="8" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="allUpgradeBtn" label="" x="380" y="66" width="105" height="41">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tongyong_btn14" y.down="-2"/>
+				<e:Label text="一键合成" includeIn="up" size="20" horizontalCenter="0" y="10" fontFamily="Microsoft YaHei"/>
+				<e:Label text="一键合成" includeIn="down" size="20" horizontalCenter="0" y="8" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" width="236.67" x="109" height="60.34" y="50">
+			<e:viewport>
+			<e:List id="nextProp" anchorOffsetX="0" x="-1" anchorOffsetY="0" y="-5" touchEnabled="true" touchChildren="true">
+				<e:layout>
+				<e:TileLayout requestedColumnCount="1" horizontalGap="6"/>
+				</e:layout>
+			</e:List>
+			</e:viewport>
+		</e:Scroller>
+		<e:Group x="108" y="47" anchorOffsetY="0" height="59" visible="false">
+			<ns1:PropMidBaseSkin2 width="133" height="25" x="0" y="0" skinName="skin.PropMidBase2" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="noNextGemSign" text="当前已达最高等级" y="679" size="18" horizontalCenter="0" textColor="0xf70231" bold="true" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+</e:Skin>

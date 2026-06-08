@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShenGongSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:Commonback id="commonBack" width="786" height="1136" x="0" y="0" skinName="CommonbackSkin"/>
+	<e:Image width="638" height="446" y="80" source="resource/assets/data/ui/bgs/zuoqi_pic6.png" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	<e:Label text="神 弓" y="51" fontFamily="Microsoft YaHei" horizontalCenter="2" textColor="0x2E120A" size="26"/>
+	<e:Group id="viewGroup" y="48" horizontalCenter="0" height="960" touchEnabled="false">
+		<ns1:ShenGongMain id="mainView" width="640" height="960" y="0" name="MainView" skinName="ShenGongMainSkin" horizontalCenter="0"/>
+		<ns1:ShenGongView id="skinView" width="640" height="960" x="0" y="0" name="skinView" skinName="ShenGongViewSkin" visible="false"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="656" width="56" height="56" top="48" y="53.00000000000001" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" source="tongyong_btn6" y.down="-2" source.up="com_close" source.down="com_close" source.disabled="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="116" y="1028">
+		<ns1:skinName>
+			<e:Skin width="490" height="110">
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+			<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" x="0" y="0" height="110">
+				<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5">
+					<e:ToggleButton id="mainBtn" x="0" y="0" width="86" height="86" name="MainView" scaleX="1" scaleY="1">
+						<e:skinName>
+						<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86" height="86">
+							<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+							<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" source.disabled="win_culture" y="0" source="shengong_07" source.up="shengong_07" source.down="shengong_07"/>
+						</e:Skin>
+						</e:skinName>
+					</e:ToggleButton>
+					<e:ToggleButton id="skinBtn" x="87" y="0" width="86" height="86" name="SkinView" scaleX="1" scaleY="1" visible="false">
+						<e:skinName>
+						<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86" height="86">
+							<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+							<e:Image width="86" height="86" alpha.disabled="0.5" width.up="86" height.up="86" width.down="86" height.down="86" width.disabled="86" height.disabled="86" source.disabled="win_skin" y="0" source="shengong_08" source.up="shengong_08" source.down="shengong_08"/>
+						</e:Skin>
+						</e:skinName>
+					</e:ToggleButton>
+				</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="97.5" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="47">
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+
+	
+	
+</e:Skin>

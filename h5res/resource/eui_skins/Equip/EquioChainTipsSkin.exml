@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquioChainTipsSkin" width="506" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="-1"/>
+	<e:Group x="0" y="290" height="570" width="506">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" right="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+	</e:Group>
+	<e:Group y="794" width="100%" horizontalCenter="0">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+	</e:Group>
+	<e:Group x="14" y="449.42">
+		<e:Image width="235" height="155" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+		<e:Image width="235" height="155" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="470" scaleX="-1"/>
+		<e:Image width="235" height="155" y="310" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="470" scaleX="-1" scaleY="-1"/>
+		<e:Image width="235" height="155" y="310" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+	</e:Group>
+
+	<e:Group x="26" y="305.42">
+		<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" source="partner_synbg" y="0"/>
+		<e:Image x="134" anchorOffsetY="0" source="partner_synbg" anchorOffsetX="0" scaleX="-1"/>
+		<e:Image id="icon" width="87" height="87" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="56" height="56" scaleX="0.7" scaleY="0.7" right="11" top="296">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="176" y="333.42">
+		<e:Label id="chainName" text="名字" x="0" y="0" anchorOffsetX="0" size="22" textColor="0xf2f2e9" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+
+
+		<e:Label text="战力:" x="0" y="33" anchorOffsetX="0" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+		<e:Label id="fight" text="111" x="44" y="33" size="18" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+
+
+
+	<e:Group id="curGroup" x="30" y="464.42">
+		<e:Group x="0" y="0">
+			<e:Label text="◆" anchorOffsetX="0" size="22" fontFamily="Microsoft YaHei" textColor="0x8C8C8C" strokeColor="0x14181B" y="0" x="0"/>
+			<e:Label text="当前阶段" x="24" y="1" anchorOffsetX="0" width="167" size="20" fontFamily="Microsoft YaHei" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+
+			<e:Label id="curLevel" text="全身强化+100" x="118" y="0" anchorOffsetY="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" lineSpacing="10" stroke="1" strokeColor="0x14181B"/>
+
+		</e:Group>
+		<e:Group id="PropGroup" x="40" y="38" anchorOffsetY="0" height="96" width="382">
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:List id="curProp" width="380" height="89" x="41" y="39" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="2" columnWidth="245"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+
+
+
+
+	<e:Group id="nextGroup" x="30" y="607.42">
+		<e:Group x="0" y="0">
+			<e:Label text="◆" anchorOffsetX="0" size="22" fontFamily="Microsoft YaHei" textColor="0x8C8C8C" strokeColor="0x14181B" y="0" x="0"/>
+			<e:Label text="下一阶段" x="24" y="1" anchorOffsetX="0" width="167" size="20" fontFamily="Microsoft YaHei" textColor="0xFBCC90" stroke="1" strokeColor="0x14181b"/>
+			<e:Label id="nextLevel" text="全身强化+100" x="118" y="0" anchorOffsetY="0" anchorOffsetX="0" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" lineSpacing="10" stroke="1" strokeColor="0x14181B"/>
+
+		</e:Group>
+		<e:Group id="NextPropGroup" x="40" y="38" anchorOffsetY="0" height="96" width="382">
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:List id="nextProp" width="380" height="89" x="41" y="39" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="2" columnWidth="245"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+
+
+	<e:Button id="upgradeBtn" label="升 阶" y="777.42" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source="com_button04" source.down="com_button04"/>
+			<e:Label id="labelDisplay" text="" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="10"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="maxSign" text="已满阶" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0x1CE17D" y="793" horizontalCenter="0"/>
+
+
+
+
+
+
+</e:Skin>

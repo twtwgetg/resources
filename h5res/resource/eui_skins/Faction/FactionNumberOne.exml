@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FactionNumberOneSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="-1" skinName="CommonbackSkin" horizontalCenter="-1"/>
+	<e:Label text="掌门挑战赛" y="52" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2"/>
+	<e:Image width="606" height="622" y="85" scaleX="1" scaleY="1" anchorOffsetX="0" scale9Grid="50,12,100,82" horizontalCenter="0" anchorOffsetY="0" source="resource/assets/data/ui/bgs/factionback_03.png"/>
+	<e:Group id="playerGroup" y="190" x="87" touchEnabled="false">
+		<ns1:FactionRole id="player1" width="270" height="376" y="0" skinName="FactionRoleSkin" x="168"/>
+		<ns1:FactionRole id="player2" width="270" height="376" x="3" y="140" skinName="FactionRoleSkin"/>
+		<ns1:FactionRole id="player3" width="270" height="376" x="336" y="140" skinName="FactionRoleSkin"/>
+	</e:Group>
+	<e:Group x="543" y="110">
+		<e:Group x="0" y="0" width="148">
+			<e:Group id="rankGroup" x="0" y="0">
+				<e:Label text="我的排名:" x="0" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xc6d5df"/>
+				<e:Label id="myRank" text="1000" x="86" y="0" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0xfbcc90"/>
+			</e:Group>
+			<e:Group id="worshipGroup" x="0" y="0">
+				<e:Label text="膜拜次数:" x="0" y="0" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xc6d5df"/>
+				<e:Label id="worshipTimes" text="1000" x="86" y="0" size="20" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0xfbcc90"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="rankBtn" label="" y="29" width="71" height="82" x="69">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="71" height="82" y.down="-2" x="0" y="0" source="Faction_02" source.down="Faction_02"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="chenghao" x="102" y="725">
+		<e:Group x="0" y="0" width="580" height="126" scaleX="1" scaleY="1">
+			<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" left="0" bottom="0"/>
+			<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" top="0" right="0"/>
+			<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" width="50%" bottom="0" right="0"/>
+		</e:Group>
+		<e:Image width="2" height="538" y="44" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" horizontalCenter="0"/>
+		<e:Group id="chengHaoGroup" x="31" y="20" anchorOffsetX="0" width="126" anchorOffsetY="0" height="119">
+			<ns1:MovieClipCtrl id="chenghao1" width="20" height="20" skinName="MovieClipCtrlSkin" x="65" y="23" scaleX="0.6" scaleY="0.6" name="9120"/>
+			<ns1:MovieClipCtrl id="chenghao2" width="20" height="20" skinName="MovieClipCtrlSkin" x="65" y="64" scaleX="0.6" scaleY="0.6"/>
+			<ns1:MovieClipCtrl id="chenghao3" width="20" height="20" skinName="MovieClipCtrlSkin" x="65" y="105" scaleX="0.6" scaleY="0.6"/>
+		</e:Group>
+		<e:Group x="190" y="14">
+			<e:Group x="0" y="0">
+				<e:Label text="◆" y="0" size="20" textAlign="left" fontFamily="Microsoft YaHei" width="20" height="18" x="0" scaleX="1" scaleY="1" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+				<e:Label text="战力+20000" y="2" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="114" height="18" x="45" scaleX="1" scaleY="1" textColor="0xfbcc90" stroke="1" strokeColor="0x14181b"/>
+				<e:Label text="野外挂机经验" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="118" height="18" x="182" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+				<e:Label text="+20%" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="60" height="18" x="298" y="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181b" textColor="0x1ce17d"/>
+			</e:Group>
+			<e:Group x="0" y="62">
+				<e:Label text="◆" y="0" size="20" textAlign="left" fontFamily="Microsoft YaHei" width="20" height="18" x="0" scaleX="1" scaleY="1" textColor="0xC6D5DF"/>
+				<e:Label text="战力+12000" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="114" height="18" x="44" textColor="0xfbcc90"/>
+				<e:Label text="野外挂机经验" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="118" height="21" x="182" anchorOffsetX="0" anchorOffsetY="0" y="0" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+				<e:Label text="+10%" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="60" height="19" x="298" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" y="0" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="contendGroup" y="874.5" x="190" anchorOffsetY="0" height="118">
+		<e:Group x="303" y="6">
+			<e:Image width="104" height="30" x="49" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_num_enter" scale9Grid="8,8,42,19"/>
+			<e:Label id="timesTitle" text="次数:" x="0" y="2.04" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textColor="0xc6d5df"/>
+			<e:Label id="times" text="10/10" x="59" y="3" size="20" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textAlign="right" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B"/>
+			<e:Button id="buyBtn" label="" x="152.67" y="-5" width="39" height="39">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="39" height="39">
+				<e:Image width="39" height="39" source="tongyong_btn1" source.down="tongyong_btn1" y.down="-2"/>
+				<e:Label id="txt" text="" x="0" y="0" width="100" height="38" textAlign="center" size="18" verticalAlign="middle" y.down="-2" xmlns:game="ogre_ui.*"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="recoverGroup" x="301" y="42">
+			<e:Label id="recoverTime" text="60:50" x="0" y="0" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" width="54" height="18" textColor="0x1ce17d" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="后回复   次" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" width="90" height="18" x="48" textColor="0xc6d5df" stroke="1" strokeColor="0x14181b"/>
+			<e:Label text="1" y="0" size="18" textAlign="left" fontFamily="Microsoft YaHei" height="18" x="104" textColor="0x1ce17d" width="15" stroke="1" strokeColor="0x14181b"/>
+		</e:Group>
+		<e:Button id="startBtn" label="" width="172" height="59" y="0" x="115">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image width="86" height="59" y.down="-2" source="com_button02"/>
+				<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source="com_button02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="同门挑战" includeIn="down" size="22" horizontalCenter="0" y="17" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+				<e:Label text="同门挑战" includeIn="up" size="22" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x61451a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="finishCountDown" text="掌门争夺战还有3小时48分结束" y="98" size="20" textAlign="center" fontFamily="Microsoft YaHei" width="300" height="20" x="46" textColor="0xf11d40" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="showstep" x="240" y="732">
+		<e:Button id="zhenchuan" label="" x="0" y="0" anchorOffsetX="0" width="87" anchorOffsetY="0" height="95" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bangzcdzbtn" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="sanjie" label="" x="200" y="0" anchorOffsetX="0" width="87" anchorOffsetY="0" height="95" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bangsjdzbtn" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<ns1:ScrollPage id="scrollPage" width="490" height="120" x="117" y="1008">
+		<ns1:skinName>
+		<e:Skin width="490" height="110">
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="490" height="111" y="6" x="0">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5" y="-8">
+				<e:Group x="0" y="22">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="91.25" y="22">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="181.5" y="22">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="272.75" y="22">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="364" y="22">
+				<e:Image width="68" height="69" x="0" y="0" source="com_back01"/>
+				<e:Image width="35" height="42" scaleX="1" source="com_skill_close" horizontalCenter="0" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="92" anchorOffsetX="0" anchorOffsetY="0" name="5" x="244">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Label id="startCountDown" text="下一轮掌门争夺战1天20小时后开启" y="909" size="20" textAlign="center" fontFamily="Microsoft YaHei" height="26" textColor="0xF11D40" stroke="1" strokeColor="0x14181B" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" x="655" y="47" width="56" height="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:RankList id="rankView" width="584" height="884" y="87" skinName="RankListSkin" horizontalCenter="0" visible="false"/>
+</e:Skin>

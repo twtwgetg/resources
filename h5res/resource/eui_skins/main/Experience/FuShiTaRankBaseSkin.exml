@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuShiTaRankBaseSkin" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="300">
+	<w:Config id="162d82bfef0" ></w:Config>
+	<e:Label id="playerName" text="s999.名字六个字啊" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" x="48" top="8" textAlign="left"/>
+	<e:Label id="rankValue" text="999关" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181b" top="8" right="0" fontFamily="Microsoft YaHei"/>
+	<e:Label id="playerName0" text="s999.名字六个字啊" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="48" textAlign="left" verticalCenter="-3.5"/>
+	<e:Label id="rankValue0" text="999关" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181B" verticalCenter="-3.5" fontFamily="Microsoft YaHei" right="0"/>
+	<e:Label id="playerName1" text="s999.名字六个字啊" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="48" textAlign="left" bottom="16"/>
+	<e:Label id="rankValue1" text="999关" size="20" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" stroke="1" strokeColor="0x14181B" bottom="16" fontFamily="Microsoft YaHei" right="0"/>
+	<e:Image id="rank" source="fushitaicon_11" top="0"/>
+	<e:Image top="47" y="10" left="0" source="fushitaicon_12"/>
+	<e:Image left="0" x="10" bottom="0" source="fushitaicon_13"/>
+</e:Skin>

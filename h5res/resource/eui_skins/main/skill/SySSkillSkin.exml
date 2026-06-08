@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SySEquipSkin" width="590" height="608" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="1" visible="false"/>
+	<e:Group x="0" y="1" width="100%" height="100%">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" right="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+	</e:Group>
+	<e:Group bottom="3" horizontalCenter="0">
+		<e:Image width="50%" height="63" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63"/>
+		<e:Image width="50%" height="63" x="590" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1"/>
+	</e:Group>
+	<e:Group x="0" y="1">
+		<e:Image y="0" scaleX="1" scaleY="1" anchorOffsetX="0" x="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+		<e:Image y="0" scaleX="-1" scaleY="1" anchorOffsetX="0" x="590" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%"/>
+	</e:Group>
+	<e:Group y="58" horizontalCenter="0">
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" anchorOffsetX="0" x="0" scale9Grid="41,40,4,4"/>
+		<e:Image width="50%" height="50%" y="0" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="552" scaleX="-1"/>
+		<e:Image width="50%" height="50%" y="520" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" x="552" scaleX="-1" scaleY="-1"/>
+		<e:Image width="50%" height="50%" y="520" source="com_back_down" anchorOffsetY="0" scale9Grid="41,40,4,4" anchorOffsetX="0" scaleX="1" scaleY="-1"/>
+	</e:Group>
+	<e:Label text="坐骑技能" y="8" anchorOffsetX="0" width="152" anchorOffsetY="0" height="29" size="24" textAlign="center" verticalAlign="middle" horizontalCenter="0" textColor="0xF2F2E9" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1"/>
+	<e:Button id="closeBtn" label="" x="545" y="4" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="100%" height="100%" source="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre_ui="ogre_ui.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="552" height="510" y="60" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:List width="100%" height="100%" x="0" y="73.33" anchorOffsetY="0" scaleX="1" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout verticalGap="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

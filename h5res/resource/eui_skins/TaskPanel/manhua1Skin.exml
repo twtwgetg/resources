@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="manhua1Skin" width="694" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="ani">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{127}" x="{-725}" scaleX="{0.5}" scaleY="{0.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="400">
+					<tween:props>
+						<e:Object x="{68}" y="{110}" scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" y="{650}" x="{-310}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1250">
+					<tween:props>
+						<e:Object alpha="{0}" x="{-310}" y="{650}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object x="{68}" y="{294}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{742}" y="{-326}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2500">
+					<tween:props>
+						<e:Object alpha="{0}" x="{742}" y="{-326}" scaleX="{0.3}" scaleY="{0.3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="800">
+					<tween:props>
+						<e:Object x="{347}" y="{110}" alpha="{1}" scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" x="{788}" y="{792}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="4500">
+					<tween:props>
+						<e:Object alpha="{0}" y="{792}" x="{788}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{1}" x="{68}" y="{434}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{219}" y="{434}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="4750">
+					<tween:props>
+						<e:Object x="{219}" y="{434}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1250">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image5}">
+				<tween:Set>
+					<tween:props>
+						<e:Object height="{339}" x="{347}" alpha="{-1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="6000">
+					<tween:props>
+						<e:Object alpha="{0}" height="{339}" x="{347}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object x="{68}" y="{681}" alpha="{1}" width="{555}" height="{339}" scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="image0" horizontalCenter="0" verticalCenter="0" width="2560" height="2560" source="beibao_pic5" scale9Grid="1,1,11,11"/>
+	<e:Image id="image" x="68" y="110" source="resource/assets/data/ui/cartoon/01.png"/>
+	<e:Image id="image1" x="68" y="294" source="resource/assets/data/ui/cartoon/02.png"/>
+	<e:Image id="image2" x="347" y="110" source="resource/assets/data/ui/cartoon/03.png"/>
+	<e:Image id="image3" x="68" y="434" source="resource/assets/data/ui/cartoon/04.png"/>
+	<e:Image id="image4" x="219" y="434" source="resource/assets/data/ui/cartoon/05.png"/>
+	<e:Image id="image5" x="68" y="681" source="resource/assets/data/ui/cartoon/06.png"/>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InvitationListModleSkin" width="530" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="530" height="90" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="19,19,115,115"/>
+	<e:Label id="playername" text="若特尔其夫斯  邀请你双修" size="18" scaleX="1" scaleY="1" x="21" height="20" width="230" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="0" textColor="0xf2f2e9"/>
+	<e:Button id="Agree" label="" x="281" width="102" height="35" scaleX="1" scaleY="1" verticalCenter="0.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button06" source.down="com_button06"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button06" source.down="com_button06"/>
+			<e:Label text="同 意" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x61451a" y.up="3" stroke.down="1" strokeColor.down="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x61451a" text.up="同 意"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="refuse" label="" x="401" width="102" height="35" scaleX="1" scaleY="1" verticalCenter="0.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="52" height="35" y.down="-2" x="0" y="0" source="com_button05" source.down="com_button05"/>
+			<e:Image width="52" height="35" x="104" y="0" scaleX="-1" y.down="-2" source="com_button05" source.down="com_button05"/>
+			<e:Label text="拒 绝" width="100%" height="29" size="18" verticalAlign="middle" textAlign="center" horizontalCenter.disabled="-1.5" verticalCenter.disabled="-1" height.up="29" x.up="0" height.down="29" x.down="0" textColor.up="0xf2f2e9" fontFamily.up="Microsoft YaHei" y.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf2f2e9" fontFamily.disabled="Microsoft YaHei" textColor.disabled="0xf2f2e9" stroke.up="1" strokeColor.up="0x071e39" y.up="3" stroke.down="1" strokeColor.down="0x071e39" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y="3" stroke="1" strokeColor="0x071e39" text.up="拒 绝"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

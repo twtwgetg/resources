@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankFieldPanelSkin" width="786" height="1014" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="582.33" height="859.34" y="89" anchorOffsetX="0" anchorOffsetY="0" source="partner_select" scale9Grid="70,70,2,2" horizontalCenter="0"/>
+	<e:Group id="viewGroup" x="0" y="-1" height="1014" touchEnabled="false">
+		<ns1:RankNearPlayerView id="ranknearplayerview" width="786" height="1136" x="-1" y="1" skinName="RankNearPlayerViewSkin" name="ranknearplayerview" touchEnabled="false"/>
+		<ns1:RankFieldFightRecordView id="rankfieldfightrecordview" width="786" height="1136" x="0.34" y="0" skinName="RankFieldFightRecordViewSkin" name="rankfieldfightrecordview" touchEnabled="false" visible="false"/>
+		<ns1:RankFieldRankingWardsView id="rankfieldrankingwardsview" width="786" height="1136" x="0" y="0" skinName="RankFieldRankingWardsViewSkin" name="rankfieldrankingwardsview" touchEnabled="false" visible="false"/>
+		<ns1:RankFieldRevengeView id="rankfieldrrevengeview" width="786" height="1014" x="0" y="0" skinName="RankFieldRevengeViewSkin" name="rankfieldrrevengeview" touchEnabled="false" visible="false"/>
+	</e:Group>
+	<e:Group id="checkGroup" y="957.36" anchorOffsetX="0" width="562.67" anchorOffsetY="0" height="55.33" x="112">
+		<e:ToggleButton id="tb_ranknearplayerview" label="狭路高手" name="ranknearplayerview" scaleY="1" y="-9" width="117" height="52">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="117" height="53" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="53" y.down="52"/>
+				<e:Label id="labelDisplay" text="狭路高手" fontFamily="Microsoft YaHei" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" y="14" x="11" textColor="0xf2f2e9" strokeColor="0x14181B" stroke="1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="战斗记录" name="rankfieldfightrecordview" scaleY="1" y="-9" width="117" height="52" x="145">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="117" height="53" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="53" y.down="52"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="战斗记录" fontFamily="Microsoft YaHei" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="排名奖励" name="rankfieldrankingwardsview" scaleY="1" y="-9" width="117" height="52" x="289">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="117" height="52" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="52" y.down="52" height.down="53"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="排名奖励" fontFamily="Microsoft YaHei" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton label="复仇" name="rankfieldrrevengeview" scaleY="1" y="-9" width="117" height="52" x="431">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="117" height="52" source="partner_page_out" source.down="partner_page_in" scaleY="-1" y="52" y.down="52" height.down="53"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="野外玩家" fontFamily="Microsoft YaHei" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" scaleY="1" size="24" strokeColor="0x14181B" stroke="1" textColor="0xf2f2e9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Image id="guideObj" width="93" height="40" x="538" y="244" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+</e:Skin>

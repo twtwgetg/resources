@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XunBaoRankRewardModelSkin" width="546" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="118">
+	<e:Image width="546" height="118" x="0" y="0" source="com_twobg2" scale9Grid="26,27,101,97" anchorOffsetY="0"/>
+	<e:Label id="rank" text="10" y="39.59" size="22" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-198" x="25" textColor="0xf0e6cd"/>
+	<e:Label id="jifen" text="15000" size="22" height="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="168" textColor="0xf2f2e9" verticalCenter="0"/>
+	<e:Label id="player" text="玩家名字六字" y="63.59" size="20" height="20" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" x="17" width="120" textColor="0xf2f2e9"/>
+	<e:List id="list" width="180" height="90" x="250" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="2"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="box1" height="76" y="20" anchorOffsetX="0" anchorOffsetY="0" source="Faction_34" horizontalCenter="210" width="76"/>
+    
+</e:Skin>

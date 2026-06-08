@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Youjianitem" width="554" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg1" x="0" y="0" width="100%" height="100%">
+		<e:Group width="100%" height="100%" y="0" x="0">
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_infobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="-1" source="com_infobg" top="0" right="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleX="1" scaleY="-1" source="com_infobg" bottom="0" left="0"/>
+		<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="23,21,12,15" scaleY="-1" source="com_infobg" bottom="0" right="0" scaleX="-1"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="100%">
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+		<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" top="0" right="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Image x="408" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="youjian_pic1" verticalCenter="0"/>
+	<e:Group x="114" y="36" touchThrough="false" touchEnabled="false">
+		<e:Label id="txt_title" text="超级VIP月卡每日奖励" x="0" y="0" anchorOffsetX="0" width="348" size="22" rotation="359.95" textColor="0xeec275" touchEnabled="false" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" anchorOffsetY="0" height="52.01"/>
+		<e:Label id="txt_date" text="2018-01-29    00:00:00" x="0" y="64" anchorOffsetX="0" width="280" size="18" rotation="359.95" touchEnabled="false" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group x="20" y="5" touchThrough="false" touchEnabled="false">
+		<e:Group x="-2" y="27" touchEnabled="false" touchChildren="false">
+			<e:Image x="0" y="0" anchorOffsetY="0" touchEnabled="false" source="youjian_pic5"/>
+			<e:Image id="state_notread" source="youjian_pic3" anchorOffsetY="0" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="state_read" source="youjian_pic2" anchorOffsetX="0" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="fujian" x="429" y="4" source="youjian_pic4" anchorOffsetX="0" touchEnabled="false"/>
+		<e:Group id="fujianlingqu" x="-20" y="-4" touchEnabled="false" visible="false">
+			<e:Image id="zhezhao" x="0" y="-1" anchorOffsetY="0" touchEnabled="false" source="qiandoa_09" scale9Grid="5,5,26,26" width="554" height="148"/>
+			<e:Image id="ylq" x="430" anchorOffsetX="0" source="youjian_pic7" y="35" touchEnabled="false"/>
+			<e:Image id="wufujianread" x="430" anchorOffsetX="0" y="35" touchEnabled="false" source="youjian_pic8"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

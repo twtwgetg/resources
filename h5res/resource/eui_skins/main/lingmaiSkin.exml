@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="lingmaiSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<e:Label text="女 神" y="53" fontFamily="Microsoft YaHei" horizontalCenter="2" textColor="0x2e120a" size="26"/>
+	<e:Group x="116" y="1028">
+		<ns1:ScrollPage id="scrollPage" width="483" height="99" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:skinName>
+			<e:Skin>
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19" x="113" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="482">
+				<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5">
+					<e:ToggleButton id="Page1Btn" x="0" y="0" width="86" height="86" name="mainView" scaleX="1" scaleY="1">
+						<e:skinName>
+						<e:Skin states="up,down,disabled" minHeight="50" minWidth="100" width="86" height="86">
+							<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" horizontalCenter="0" y="0"/>
+							<e:Image width="68" height="79" alpha.disabled="0.5" width.up="68" height.up="79" width.down="68" height.down="79" width.disabled="86" height.disabled="98" source.disabled="win_culture" source="lingmai_pic6" horizontalCenter="0" y="10" source.up="lingmai_pic6" source.down="lingmai_pic6"/>
+						</e:Skin>
+						</e:skinName>
+					</e:ToggleButton>
+				</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="90" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="46">
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:ScrollPage>
+	</e:Group>
+	<e:Group id="viewGroup" width="640" height="900" x="73" y="89" touchEnabled="false">
+		<ns1:LingMaiMainView id="mainView" width="640" height="900" skinName="lingmaiSkinMainViewSkin" scaleX="1" scaleY="1" name="mainView" x="0" touchEnabled="false"/>
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="656.34" y="49">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_close" source.down="com_close" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

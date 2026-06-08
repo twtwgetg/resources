@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpecialBagSkin" width="640" height="830" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="610" height="660" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="fulihuidi" scale9Grid="15,14,30,32" horizontalCenter="0"/>
+	<e:Group id="btns" y="2" horizontalCenter="1.5">
+		<e:ToggleButton id="signIn1" label="" x="-3" y="0" name="0" scaleX="1.3" scaleY="1.3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image x.disabled="0" x.up="0" y.down="0" source="chongzhi_01" source.down="chongzhi_01"/>
+	<e:Image x="0" y="0" includeIn="down" source="jineng_pic17" scale9Grid="11,11,20,20" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn2" label="" x="149" y="0" name="2" scaleX="1.3" scaleY="1.3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image x.disabled="0" x.up="0" source="chongzhi_02" source.down="chongzhi_02"/>
+	<e:Image x="0" y="0" includeIn="down" source="jineng_pic17" scale9Grid="11,11,20,20" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn3" label="" x="301" y="0" name="3" scaleX="1.3" scaleY="1.3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image y.disabled="0" y.up="0" x.disabled="0" x.up="0" source="chongzhi_04" source.down="chongzhi_04"/>
+	<e:Image x="0" y="0" includeIn="down" source="jineng_pic17" scale9Grid="11,11,20,20" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="signIn4" label="" x="453" y="0" name="0" scaleX="1.3" scaleY="1.3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+				<e:Image y.disabled="0" y.up="0" x.disabled="0" x.up="0" source="chongzhi_03" source.down="chongzhi_03"/>
+	<e:Image x="0" y="0" includeIn="down" source="jineng_pic17" scale9Grid="11,11,20,20" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Scroller id="scrollerReward" height="90" anchorOffsetX="0" anchorOffsetY="0" width="450" horizontalCenter="0" verticalCenter="36">
+		<e:List id="rewardList" width="0" height="0">
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="2" horizontalAlign="center"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group horizontalCenter="0.5" verticalCenter="-44">
+		<e:Label id="desc3" text="消耗          元宝可兑换" y="0" fontFamily="Microsoft YaHei" size="30" stroke="1" strokeColor="0x14181B" touchEnabled="false" textColor="0xd1ba7e" x="0"/>
+		<e:Group x="60" y="0" width="90">
+			<e:Label id="price" text="8888" y="0" fontFamily="Microsoft YaHei" size="30" stroke="1" strokeColor="0x14181B" touchEnabled="false" textColor="0xffea00" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label id="giftName" text="材料礼包" y="0" fontFamily="Microsoft YaHei" size="30" stroke="1" strokeColor="0x14181B" touchEnabled="false" x="304.64" textColor="0xffea00"/>
+	</e:Group>
+	<e:Group y="615" horizontalCenter="0.5" visible="false">
+		<e:Label text="活动剩余时间:" y="0" fontFamily="Microsoft YaHei" size="24" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label id="rmtimes" text="06:50:21" y="0" fontFamily="Microsoft YaHei" size="24" stroke="1" strokeColor="0x14181B" x="155" touchEnabled="false" textColor="0x1CE17D"/>
+	</e:Group>
+	<e:Group y="708.96" horizontalCenter="0">
+		<e:Label id="desc1" text="剩余兑换次数:" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="0" touchEnabled="false" textColor="0x1CE17D"/>
+		<e:Label id="lefttimes" text="20" y="0" fontFamily="Microsoft YaHei" size="20" stroke="1" strokeColor="0x14181B" x="127" touchEnabled="false" textColor="0x1CE17D"/>
+	</e:Group>
+	<e:Group x="12" y="5" scaleX="1" scaleY="1">
+		<e:Image width="38" height="108" x="8" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shangcheng_pic5"/>
+		<e:Image id="sale1" x="15" y="40" scaleX="1" scaleY="1" width="22" height="26" anchorOffsetX="0" anchorOffsetY="0" source="fight_8"/>
+	</e:Group>
+	<e:Group x="164" y="5">
+		<e:Image width="38" height="108" x="8" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shangcheng_pic5"/>
+		<e:Image id="sale2" x="15" y="40" scaleX="1" scaleY="1" width="22" height="26" anchorOffsetX="0" anchorOffsetY="0" source="fight_8"/>
+	</e:Group>
+	<e:Group x="316" y="5">
+		<e:Image width="38" height="108" x="8" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shangcheng_pic5"/>
+		<e:Image id="sale3" x="15" y="40" scaleX="1" scaleY="1" width="22" height="26" anchorOffsetX="0" anchorOffsetY="0" source="fight_8"/>
+	</e:Group>
+	<e:Group x="468" y="5">
+		<e:Image width="38" height="108" x="8" y="0" anchorOffsetX="0" anchorOffsetY="0" source="shangcheng_pic5"/>
+		<e:Image id="sale4" x="15" y="40" scaleX="1" scaleY="1" width="22" height="26" anchorOffsetX="0" anchorOffsetY="0" source="fight_8"/>
+	</e:Group>
+	<e:Group y="540.94" width="456" horizontalCenter="0">
+		<e:Image y="0" anchorOffsetY="0" source="chengjiudianfeng_pic1" x="0"/>
+		<e:Image y="0" anchorOffsetY="0" source="chengjiudianfeng_pic1" scaleX="-1" x="456"/>
+		<e:Image id="upIcon" y="4" anchorOffsetY="0" scaleX="1" x="185" source="chengjiudianfeng_pic2"/>
+		<e:Image anchorOffsetY="0" scaleX="1" x="44" source="zhanlibiaoshengfont" verticalCenter="0"/>
+		<ns1:NumListComp id="power" skinName="NumListSkin" y="8" x="178"/>
+	</e:Group>
+	<e:Button id="autoBtn" label="兑 换" y="737" anchorOffsetX="0" width="174" anchorOffsetY="0" height="59" scaleX="1" scaleY="1" x="233">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*">
+			<e:Image y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Image x="174" y="0" scaleX="-1" y.down="-2" source="com_button08" source.up="com_button08" source.down="com_button08"/>
+			<e:Label id="labelDisplay" text="" size="24" horizontalCenter="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" y.down="16" y="18"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

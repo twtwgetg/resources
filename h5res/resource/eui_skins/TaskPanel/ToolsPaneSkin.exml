@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToolsPaneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Button label="刷怪" x="11" y="128"/>
+	<e:Group id="AllPonit" x="120" y="120" anchorOffsetY="0" height="523" anchorOffsetX="0" width="237">
+		<e:Button id="addBtn" label="新建" x="15.5" y="47" anchorOffsetY="0" height="34"/>
+		<e:Button id="deleteBtn" label="删除" x="125.5" y="47" anchorOffsetY="0" height="34"/>
+		<e:List id="itemList" width="206" height="333" x="15.5" y="95" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="MonsterPointItemSkin">
+		</e:List>
+		<e:Label id="title" text="刷怪点" x="65.5" y="8" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+	<e:Group id="CurPoint" x="374" y="120" anchorOffsetY="0" height="523" anchorOffsetX="0" width="237">
+		<e:Button id="addMonster" label="新建" x="15.5" y="47" anchorOffsetY="0" height="34"/>
+		<e:Button id="deleteMonster" label="删除" x="125.5" y="47" anchorOffsetY="0" height="34"/>
+		<e:List id="monsterList" width="206" height="333" x="15.5" y="95" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="MonsterPointItemSkin"/>
+		<e:Label text="刷怪点" x="65.5" y="8" id="title0" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b"/>
+	</e:Group>
+</e:Skin>

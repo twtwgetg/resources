@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankFieldRankingWardsItemSkin" width="570" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="569" height="129" x="-1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="49,48,60,61"/>
+		<e:Label id="mingci" text="1" x="23" italic="true" verticalCenter="0"/>
+		<e:Label id="pm" text="野战排名第t%名" x="108" size="20" bold="true" verticalCenter="0" stroke="1" strokeColor="0x14181b" fontFamily="Microsoft YaHei"/>
+		<ns1:ItemBase2 id="r1" width="86" height="86" x="310" y="22" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<ns1:ItemBase2 id="r2" width="86" height="86" x="415" y="22" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ItemBaseSkin2"/>
+		<e:Image id="dangwei" width="36" height="41" x="19" anchorOffsetX="0" anchorOffsetY="0" source="dangwei_3" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

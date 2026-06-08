@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XunBaoJFrewardSkin" width="524" height="344" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="163c0604ae6" ></w:Config>
+	<e:Image width="2560" height="2560" source="com_mask" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group x="0" y="0">
+		<e:Group x="0" y="0" width="524" height="344">
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" left="0" top="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" top="0" right="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleY="-1" left="0" bottom="0"/>
+			<e:Image width="50%" height="50%" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg" scale9Grid="23,21,12,15" scaleX="-1" scaleY="-1" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group bottom="4" horizontalCenter="0" width="524">
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg3" scale9Grid="95,0,17,63" left="0" top="0"/>
+			<e:Image width="50%" height="63" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="95,0,17,63" source="com_twobg3" scaleX="-1" right="0" top="0"/>
+		</e:Group>
+		<e:Group x="0" y="0" width="100%">
+			<e:Image scaleX="1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" left="0" top="0"/>
+			<e:Image scaleX="-1" scaleY="1" anchorOffsetX="0" source="com_twotitlebg1" scale9Grid="7,0,126,78" width="50%" right="0" top="0"/>
+		</e:Group>
+			<e:Group x="18" y="59" width="490" height="190" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+		<e:Label id="title" text="次数奖励" y="11" size="24" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" horizontalCenter="-3" textColor="0xF2F2E9"/>
+	</e:Group>
+	<e:Group y="80" horizontalCenter="0.5">
+		<e:Label text="抽奖达到            次,可领取" textAlign="left" verticalAlign="middle" size="18" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" x="-2" y="0"/>
+		<e:Label id="now" text="(1000/1000)" verticalAlign="middle" size="18" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" x="228" y="0" width="110"/>
+		<e:Label id="num" text="1000" textAlign="center" size="18" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" x="80" y="0" width="45" height="18"/>
+	</e:Group>
+	<e:Scroller id="scrollerReward" height="112" anchorOffsetX="0" y="116" width="400" horizontalCenter="0">
+		<e:List id="rewardList" width="0" height="0" x="90" y="-1">
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="-4" horizontalAlign="center"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="des" text="满足条件后可领取" textAlign="left" verticalAlign="middle" size="20" scaleX="1" scaleY="1" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x14181B" y="282" horizontalCenter="0" textColor="0xf11d40"/>
+	<e:Button id="closeBtn" label="" x="480" y="4" width="56" height="56" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*">
+			<e:Image width="56" height="56" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnRecieve" label="" y="269" anchorOffsetX="0" width="132" anchorOffsetY="0" height="48" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ogre_ui="ogre_ui.*" xmlns:tween="egret.tween.*">
+			<e:Image width="68" height="48" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Image width="68" height="48" x="132" y="0" scaleX="-1" y.down="-2" source.up="com_button04" source.down="com_button02" source="com_button04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="领 取" includeIn="down" size="20" horizontalCenter="0" y="12" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+			<e:Label text="领 取" size="20" textAlign="center" horizontalCenter="0" verticalCenter="0" y.down="17" includeIn="up,disabled" verticalCenter.up="0" stroke="1" strokeColor="0x61451a" fontFamily="Microsoft YaHei" textColor="0xf2f2e9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="Received" y="256" source="youjian_pic7" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" width="94" height="73" horizontalCenter="0"/>
+</e:Skin>

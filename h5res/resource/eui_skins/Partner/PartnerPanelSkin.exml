@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerPanelSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ogre_ui="ogre_ui.*" xmlns:ns1="*">
+	<ns1:Commonback id="commonBack" width="786" height="1136" y="0" skinName="CommonbackSkin" horizontalCenter="0"/>
+	<e:Image width="900" height="1136" y="0" anchorOffsetX="0" anchorOffsetY="0" source="resource/ui/bgs/testbg01.jpg" horizontalCenter="0" visible="false"/>
+	<e:Group x="101" y="1025">
+	</e:Group>
+	<e:Image width="900" height="1136" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="resource/ui/bgs/testbg.jpg" visible="false"/>
+	<ns1:ScrollPage id="scrollPage" width="481" height="99" x="116" y="1028" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:skinName>
+		<e:Skin>
+	<e:Group x="0" y="0" scaleX="1" scaleY="1">
+		<e:Group x="0" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="87" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group x="174" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="261" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		</e:Group>
+		<e:Group x="348" y="0" width="86" height="86">
+		<e:Image width="68" height="69" x="9" y="6" source="com_back01"/>
+		<e:Image width="35" height="42" source="com_skill_close" horizontalCenter="0" y="19"/>
+		</e:Group>
+	</e:Group>
+			<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="482">
+			<e:Group id="checkGroup" anchorOffsetX="0" anchorOffsetY="0" x="-898.5">
+				<e:ToggleButton id="partnerView" label="" x="0" y="0" width="86" height="86" name="partnerView">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="86" height="86">
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="100%" height="100%" source="partnerbtn_pic" x="0" y="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="configView" label="" x="87" y="0" width="86" height="86" name="configView">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="86" height="86">
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image width="86" height="86" source="partner_tobattle" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="0" y="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton id="relationView" label="" x="174" y="0" height="86" scaleX="1" scaleY="1" width="86" name="relationView">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" height="86">
+	<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+					<e:Image height="100%" source="partner_yuanbtn" y="0" width="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:ToggleButton label="" x="261" y="0" height="86" scaleX="1" scaleY="1" width="86" name="HeJiView">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" height="86">
+						<e:Image width="80" height="80" includeIn="down" source="com_checkbox_check" y="0" x="3"/>
+						<e:Image y="0" source="HJ_06" width="100%" height="100%"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+			</e:Group>
+			</e:Scroller>
+			<e:List id="pointList" width="90" height="21" y="90" anchorOffsetX="0" anchorOffsetY="0" name="5" horizontalCenter="46">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:ScrollPage>
+	<e:Button id="closeBtn" label="" x="656" width="56" height="56" y="48" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" y.down="-2" source="com_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+	<e:Group id="viewGroup" x="0" y="0" touchEnabled="false">
+		<ns1:PartnerShangzhen width="786" height="1136" skinName="PartnerShangzhenSkin" name="configView" x="0" y="0" touchEnabled="false" visible="false"/>
+		<ns1:PartnerUpgradePanel width="786" height="1136" x="0" y="0" skinName="PartnerUpgradePanelSkin" name="partnerView" visible="false"/>
+		<ns1:PartnerFetterViewSkin skinName="PartnerFetterViewSkinSkin" name="relationView" visible="false"/>
+		<ns1:HeJiSkill width="786" height="1136" x="0" y="0" skinName="HeJiSkillSkin" name="HeJiView"/>
+	</e:Group>
+</e:Skin>

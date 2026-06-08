@@ -1,0 +1,156 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="zhulingSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:game="ogre_ui.*" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="601" height="655" y="130" horizontalCenter="0" source="resource/assets/data/ui/bgs/duanzao_zhulingbg.png"/>
+	<e:Group y="47" horizontalCenter="0">
+		<e:Image width="390" height="50" source="com_back_power" verticalCenter="0" horizontalCenter="0"/>
+		<ns1:powerzlcomp id="power" xmlns:ogre_ui="ogre_ui.*" width="223" height="30" anchorOffsetX="0" anchorOffsetY="0" skinName="skin.ZhanDouLiJueSe" x="78" scaleX="1" scaleY="1" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="itemRoot" y="121" anchorOffsetX="0" width="610" anchorOffsetY="0" height="550" x="14">
+		<e:Group id="item1" x="262" y="484">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Label id="do1" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic01"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" source="duanzao_1" horizontalCenter="0"/>
+			<e:Label id="level1" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item2" x="398" y="444">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic02"/>
+			<e:Label id="do2" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_2"/>
+			<e:Label id="level2" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item3" x="494" y="332">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic03"/>
+			<e:Label id="do3" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_3"/>
+			<e:Label id="level3" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item4" x="494" y="171">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic04"/>
+			<e:Label id="do4" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_4"/>
+			<e:Label id="level4" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item5" x="399" y="55">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic05"/>
+			<e:Label id="do5" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_5"/>
+			<e:Label id="level5" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item6" x="262" y="22">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic06"/>
+			<e:Label id="do6" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_6"/>
+			<e:Label id="level6" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item7" x="123" y="60">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic07"/>
+			<e:Label id="do7" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_7"/>
+			<e:Label id="level7" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item8" x="28" y="171">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic08"/>
+			<e:Label id="do8" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_8"/>
+			<e:Label id="level8" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item9" x="28" y="333">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic09"/>
+			<e:Label id="do9" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_9"/>
+			<e:Label id="level9" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+		</e:Group>
+		<e:Group id="item10" x="123" y="445">
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="quality_0"/>
+			<e:Image width="42" height="84" anchorOffsetX="0" anchorOffsetY="0" x="84" y="0" scaleX="-1" source="quality_0"/>
+			<e:Image width="84" height="81" y="2" x="2" source="taozhuang_pic10"/>
+			<e:Image width="66" height="22" y="58" source="com_back_num" horizontalCenter="0"/>
+			<e:Image width="44" height="22" y="58" horizontalCenter="0" source="duanzao_10"/>
+			<e:Label id="level10" text="%t" x="4" y="6" size="18" height="20" anchorOffsetX="0" width="74" textAlign="right" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" textColor="0x5eabfb"/>
+			<e:Label id="do10" text="可注灵" size="18" height="20" anchorOffsetX="0" width="74" textAlign="center" verticalAlign="middle" anchorOffsetY="0" fontFamily="Microsoft YaHei" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0x1CE17D"/>
+		</e:Group>
+		<e:Image id="selectSign" width="88" height="88" y="482" source="jineng_pic17" x="259.5" scale9Grid="10,10,22,22"/>
+		<e:Group id="propertyCon" x="60" y="260" anchorOffsetY="0" height="73" anchorOffsetX="0" width="491">
+			<e:Image id="propArrow" width="66" height="102" source="com_arrow" horizontalCenter="0.5" verticalCenter="0.5"/>
+			<e:Group id="propertysRoot" x="-53" y="15">
+				<e:Group id="property0" x="0" y="0">
+					<e:Label id="curProp0" text="生命  +12345678" x="0" y="0" anchorOffsetX="0" width="265" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" textAlign="right"/>
+					<e:Label id="nextProp0" text="382000" x="341" y="0" anchorOffsetX="0" width="195" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0x1CE17D" stroke="1" strokeColor="0x14181B" textAlign="left"/>
+				</e:Group>
+				<e:Group id="property1" x="0" y="28">
+					<e:Label id="curProp1" text="生命  +12345678" x="0" y="0" anchorOffsetX="0" width="265" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" stroke="1" strokeColor="0x14181B" textAlign="right"/>
+					<e:Label id="nextProp1" text="382000" x="341" y="0" anchorOffsetX="0" width="195" size="18" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" textColor="0x1CE17D" stroke="1" strokeColor="0x14181B" textAlign="left"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="showarea" x="84" y="818">
+		<e:Group y="6" horizontalCenter="0">
+			<e:Image width="170" height="30" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0" source="com_num_enter" scale9Grid="7,5,45,22"/>
+			<e:Label id="needNum" text="999/999" x="42" y="4" size="20" anchorOffsetX="0" width="126" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" stroke="1" strokeColor="0x071e39"/>
+			<e:Image id="itemIcon" width="32" height="32" x="8" y="-2" source="duanzao_pic27"/>
+		</e:Group>
+		<e:Button id="allBtn" label="一键注灵" y="52" anchorOffsetX="0" width="172" anchorOffsetY="0" height="60" x="18">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ogre="ogre.*">
+				<e:Image width="86" height="60" y.down="-2" width.up="86" height.up="59" source.down="com_button02" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+				<e:Image width="86" height="60" x="172" y="0" scaleX="-1" y.down="-2" width.up="86" height.up="59" x.up="172" source.down="com_button02" x.down="172" width.down="86" height.down="59" source="com_button02" source.up="com_button02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="1" strokeColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter.down="0" verticalCenter.down="-2" textColor="0xf2f2e9" size="26"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="startBtn" label="注 灵" y="52" width="172" height="60" x="284" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="172" height="60" xmlns:ogre="ogre.*">
+				<e:Image width="86" height="59" y.down="-2" source="com_button01" source.down="com_button01"/>
+				<e:Image width="86" height="59" x="172" y="0" scaleX="-1" y.down="-2" source.up="com_button01" source="com_button01" source.down="com_button01"/>
+				<e:Label id="labelDisplay" text="" horizontalCenter="0" size="26" y="13" stroke="1" fontFamily="Microsoft YaHei" strokeColor="0x073057" y.up="15"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="getWay" text="获取途径" x="279" y="35" anchorOffsetX="0" width="142" scaleX="1" scaleY="1" textColor="0x59FC02" size="18" fontFamily="Microsoft YaHei" visible="false"/>
+	</e:Group>
+	<e:Button id="zhulingchain" label="" x="516" y="100" width="87" height="87">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="duanzao_33" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ogre="ogre.*"/>
+	<e:Group y="60" horizontalCenter="0" y.down="58" visible="false">
+		<e:Image width="64" height="24" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" source="com_back_num" x="0"/>
+		<e:Label id="Level" text="10阶" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181B" stroke="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>  	
+</e:Skin>

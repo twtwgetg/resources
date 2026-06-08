@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankFieldFightRecordViewSkin" width="786" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="101" y="90" width="582" height="860" >
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" top="0"/>
+		<e:Image width="50%" height="50%" scaleX="1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" left="0" bottom="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" top="0" right="0"/>
+		<e:Image height="50%" scaleX="-1" scaleY="-1" source="com_back_down" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="40,40,5,5" width="50%" bottom="0" right="0"/>
+	</e:Group>
+	<e:Scroller id="partnerScroller" anchorOffsetX="0" anchorOffsetY="0" width="578" height="839" horizontalCenter="0" y="95">
+		<e:List id="list" x="153" y="126" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="576" height="834"/>
+	</e:Scroller>
+	<e:Label text="战斗记录" y="42" fontFamily="Microsoft YaHei" textColor="0x2E120A" size="26" horizontalCenter="2" strokeColor="0x14181b"/>
+	<e:Label id="noRecord" text="暂无战斗记录" y="385" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1" visible="false"/>
+</e:Skin>

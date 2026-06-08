@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankNearPalyerItemSkin" width="550" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:ogre_ui="ogre_ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image id="controlbg0" width="550" height="152" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="com_twobg2" scale9Grid="49,48,60,61"/>
+	</e:Group>
+	<e:Group id="tiaozhan" x="13" y="25">
+		<e:Group id="role" x="0" y="3" scaleX="0.9" scaleY="0.9">
+			<e:Image width="102" height="102" x="-2" y="-4" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="1v1_Headback"/>
+			<e:Image id="rolegirl1" width="93" height="93" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="RoleItem2" visible="false"/>
+			<e:Image id="roleboy1" width="93" height="93" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="RoleItem1"/>
+		</e:Group>
+		<e:Label id="level" text="3转" x="264" y="0" anchorOffsetX="0" width="122" size="20" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xf2f2e9" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="plyname" text="玩家名六个字" x="125" y="0" anchorOffsetX="0" width="122" size="20" fontFamily="Microsoft YaHei" textColor="0xfefe95" strokeColor="0x14181b" stroke="1"/>
+		<e:Button id="fightbtn" label="挑战" y="0" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" x="376">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48">
+				<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+				<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="挑战" fontFamily="Microsoft YaHei" size="24" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:RankNearFightRewardPreItem id="r1" width="111" height="30" x="104" y="69" skinName="RankNearFightRewardPreItemSkin" anchorOffsetX="0"/>
+		<ns1:RankNearFightRewardPreItem id="r2" width="115" height="30" x="218" y="69" skinName="RankNearFightRewardPreItemSkin"/>
+		<ns1:RankNearFightRewardPreItem id="r3" width="115" height="30" x="333" y="69" skinName="RankNearFightRewardPreItemSkin"/>
+		<ns1:RankNearFightRewardPreItem id="r4" width="115" height="30" x="449" y="69" skinName="RankNearFightRewardPreItemSkin" visible="false"/>
+	</e:Group>
+	<e:Group id="xundi" x="0" y="0">
+		<e:Label id="lbl_time" text="29分29秒" x="32" y="66" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="213" textAlign="right" textColor="0xf11d40" strokeColor="0x14181b" stroke="1"/>
+		<e:Label id="lbl_ms" text="后敌人出现" x="246" y="65" size="20" fontFamily="Microsoft YaHei" textColor="0xF2F2E9" strokeColor="0x14181b" stroke="1"/>
+		<e:Button id="findenemybtn0" label="寻敌" y="50" width="134" height="48" anchorOffsetX="0" anchorOffsetY="0" x="389">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="48">
+			<e:Image width="67" height="48" y.down="-2" source="com_button04"/>
+			<e:Image width="67" height="48" source="com_button04" x="134" y="0" scaleX="-1" y.down="-2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="寻敌" size="24" fontFamily="Microsoft YaHei" textColor="0xf2f2e9" strokeColor="0x61451a" stroke="1" verticalCenter.down="-2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

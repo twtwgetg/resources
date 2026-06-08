@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankListdataSkin" width="548" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="2" height="538" y="50" anchorOffsetX="0" anchorOffsetY="0" source="skill_backline" rotation="90" horizontalCenter="0"/>
+	<e:Label id="rank" text="1" size="20" scaleX="1" scaleY="1" textColor="0xF2F2E9" height="20" width="36" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181b" textAlign="left" horizontalCenter="-202" x="77" verticalCenter="0"/>
+	<e:Label id="playerName" text="玩家名字六字" size="20" scaleX="1" scaleY="1" textColor="0xF2F2E9" x="180" height="20" width="190" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" verticalCenter="0" textAlign="center"/>
+	<e:Label id="winTimes" text="999" size="20" scaleX="1" scaleY="1" textColor="0xF2F2E9" x="450" height="20" width="88" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="left" verticalCenter="0"/>
+	<e:Label id="positon" text="仙界掌门" size="20" scaleX="1" scaleY="1" textColor="0xF2F2E9" x="331" height="20" width="110" fontFamily="Microsoft YaHei" stroke="1" strokeColor="0x14181B" textAlign="center" verticalCenter="0" visible="false"/>
+</e:Skin>
