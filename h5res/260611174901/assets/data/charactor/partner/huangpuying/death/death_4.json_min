@@ -1,1 +1,0 @@
-{	"mc":{		"moban":{			"frameRate":8,			"labels":[{"name":"death_4","frame":1,"end":8}],			"events":[],			"frames":[				{"res":"death_40000","x":-51,"y":-34}]		}	},		"res":{			"death_40000":{"x":1,"y":1,"w":99,"h":59}		}}

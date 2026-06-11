@@ -1,1 +1,0 @@
-{	"mc":{		"moban":{			"frameRate":8,			"labels":[{"name":"injured_7","frame":1,"end":8}],			"events":[],			"frames":[				{"res":"injured_70000","x":-70,"y":-160},				{"res":"injured_70001","x":-120,"y":-128}]		}	},		"res":{			"injured_70000":{"x":0,"y":0,"w":206,"h":253},			"injured_70001":{"x":0,"y":255,"w":230,"h":221}		}}
