@@ -1,0 +1,9 @@
+{"file":"mapinfoAtlas.png","frames":{
+"map_namebg":{"x":236,"y":1,"w":84,"h":198,"offX":0,"offY":0,"sourceW":84,"sourceH":198},
+"map01":{"x":181,"y":1,"w":51,"h":351,"offX":0,"offY":0,"sourceW":51,"sourceH":351},
+"map02":{"x":63,"y":1,"w":55,"h":470,"offX":0,"offY":0,"sourceW":55,"sourceH":470},
+"map03":{"x":122,"y":1,"w":55,"h":353,"offX":0,"offY":0,"sourceW":55,"sourceH":353},
+"map04":{"x":1,"y":1,"w":58,"h":471,"offX":0,"offY":0,"sourceW":58,"sourceH":471},
+"door_02":{"x":236,"y":203,"w":50,"h":227,"offX":0,"offY":0,"sourceW":50,"sourceH":227},
+"door_01":{"x":290,"y":203,"w":50,"h":227,"offX":0,"offY":0,"sourceW":50,"sourceH":227},
+"map_close":{"x":122,"y":434,"w":164,"h":42,"offX":0,"offY":0,"sourceW":164,"sourceH":42}}}

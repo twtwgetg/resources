@@ -1,0 +1,624 @@
+[{
+   "itemid":7001,
+   "consume":"7000:10"
+},
+{
+   "itemid":7002,
+   "consume":"7000:10"
+},
+{
+   "itemid":7003,
+   "consume":"7000:10"
+},
+{
+   "itemid":7004,
+   "consume":"7000:10"
+},
+{
+   "itemid":7005,
+   "consume":"7001:3"
+},
+{
+   "itemid":7006,
+   "consume":"7002:3"
+},
+{
+   "itemid":7007,
+   "consume":"7003:3"
+},
+{
+   "itemid":7008,
+   "consume":"7004:3"
+},
+{
+   "itemid":7009,
+   "consume":"7005:3"
+},
+{
+   "itemid":7010,
+   "consume":"7006:3"
+},
+{
+   "itemid":7011,
+   "consume":"7007:3"
+},
+{
+   "itemid":7012,
+   "consume":"7008:3"
+},
+{
+   "itemid":7013,
+   "consume":"7009:3"
+},
+{
+   "itemid":7014,
+   "consume":"7010:3"
+},
+{
+   "itemid":7015,
+   "consume":"7011:3"
+},
+{
+   "itemid":7016,
+   "consume":"7012:3"
+},
+{
+   "itemid":7017,
+   "consume":"7013:3"
+},
+{
+   "itemid":7018,
+   "consume":"7014:3"
+},
+{
+   "itemid":7019,
+   "consume":"7015:3"
+},
+{
+   "itemid":7020,
+   "consume":"7016:3"
+},
+{
+   "itemid":7021,
+   "consume":"7017:3"
+},
+{
+   "itemid":7022,
+   "consume":"7018:3"
+},
+{
+   "itemid":7023,
+   "consume":"7019:3"
+},
+{
+   "itemid":7024,
+   "consume":"7020:3"
+},
+{
+   "itemid":7025,
+   "consume":"7021:3"
+},
+{
+   "itemid":7026,
+   "consume":"7022:3"
+},
+{
+   "itemid":7027,
+   "consume":"7023:3"
+},
+{
+   "itemid":7028,
+   "consume":"7024:3"
+},
+{
+   "itemid":7029,
+   "consume":"7025:3"
+},
+{
+   "itemid":7030,
+   "consume":"7026:3"
+},
+{
+   "itemid":7031,
+   "consume":"7027:3"
+},
+{
+   "itemid":7032,
+   "consume":"7028:3"
+},
+{
+   "itemid":7101,
+   "consume":"7100:10"
+},
+{
+   "itemid":7102,
+   "consume":"7100:10"
+},
+{
+   "itemid":7103,
+   "consume":"7100:10"
+},
+{
+   "itemid":7104,
+   "consume":"7100:10"
+},
+{
+   "itemid":7105,
+   "consume":"7101:3"
+},
+{
+   "itemid":7106,
+   "consume":"7102:3"
+},
+{
+   "itemid":7107,
+   "consume":"7103:3"
+},
+{
+   "itemid":7108,
+   "consume":"7104:3"
+},
+{
+   "itemid":7109,
+   "consume":"7105:3"
+},
+{
+   "itemid":7110,
+   "consume":"7106:3"
+},
+{
+   "itemid":7111,
+   "consume":"7107:3"
+},
+{
+   "itemid":7112,
+   "consume":"7108:3"
+},
+{
+   "itemid":7113,
+   "consume":"7109:3"
+},
+{
+   "itemid":7114,
+   "consume":"7110:3"
+},
+{
+   "itemid":7115,
+   "consume":"7111:3"
+},
+{
+   "itemid":7116,
+   "consume":"7112:3"
+},
+{
+   "itemid":7117,
+   "consume":"7113:3"
+},
+{
+   "itemid":7118,
+   "consume":"7114:3"
+},
+{
+   "itemid":7119,
+   "consume":"7115:3"
+},
+{
+   "itemid":7120,
+   "consume":"7116:3"
+},
+{
+   "itemid":7121,
+   "consume":"7117:3"
+},
+{
+   "itemid":7122,
+   "consume":"7118:3"
+},
+{
+   "itemid":7123,
+   "consume":"7119:3"
+},
+{
+   "itemid":7124,
+   "consume":"7120:3"
+},
+{
+   "itemid":7125,
+   "consume":"7121:3"
+},
+{
+   "itemid":7126,
+   "consume":"7122:3"
+},
+{
+   "itemid":7127,
+   "consume":"7123:3"
+},
+{
+   "itemid":7128,
+   "consume":"7124:3"
+},
+{
+   "itemid":7129,
+   "consume":"7125:3"
+},
+{
+   "itemid":7130,
+   "consume":"7126:3"
+},
+{
+   "itemid":7131,
+   "consume":"7127:3"
+},
+{
+   "itemid":7132,
+   "consume":"7128:3"
+},
+{
+   "itemid":7201,
+   "consume":"7200:10"
+},
+{
+   "itemid":7202,
+   "consume":"7200:10"
+},
+{
+   "itemid":7203,
+   "consume":"7200:10"
+},
+{
+   "itemid":7204,
+   "consume":"7200:10"
+},
+{
+   "itemid":7205,
+   "consume":"7201:3"
+},
+{
+   "itemid":7206,
+   "consume":"7202:3"
+},
+{
+   "itemid":7207,
+   "consume":"7203:3"
+},
+{
+   "itemid":7208,
+   "consume":"7204:3"
+},
+{
+   "itemid":7209,
+   "consume":"7205:3"
+},
+{
+   "itemid":7210,
+   "consume":"7206:3"
+},
+{
+   "itemid":7211,
+   "consume":"7207:3"
+},
+{
+   "itemid":7212,
+   "consume":"7208:3"
+},
+{
+   "itemid":7213,
+   "consume":"7209:3"
+},
+{
+   "itemid":7214,
+   "consume":"7210:3"
+},
+{
+   "itemid":7215,
+   "consume":"7211:3"
+},
+{
+   "itemid":7216,
+   "consume":"7212:3"
+},
+{
+   "itemid":7217,
+   "consume":"7213:3"
+},
+{
+   "itemid":7218,
+   "consume":"7214:3"
+},
+{
+   "itemid":7219,
+   "consume":"7215:3"
+},
+{
+   "itemid":7220,
+   "consume":"7216:3"
+},
+{
+   "itemid":7221,
+   "consume":"7217:3"
+},
+{
+   "itemid":7222,
+   "consume":"7218:3"
+},
+{
+   "itemid":7223,
+   "consume":"7219:3"
+},
+{
+   "itemid":7224,
+   "consume":"7220:3"
+},
+{
+   "itemid":7225,
+   "consume":"7221:3"
+},
+{
+   "itemid":7226,
+   "consume":"7222:3"
+},
+{
+   "itemid":7227,
+   "consume":"7223:3"
+},
+{
+   "itemid":7228,
+   "consume":"7224:3"
+},
+{
+   "itemid":7229,
+   "consume":"7225:3"
+},
+{
+   "itemid":7230,
+   "consume":"7226:3"
+},
+{
+   "itemid":7231,
+   "consume":"7227:3"
+},
+{
+   "itemid":7232,
+   "consume":"7228:3"
+},
+{
+   "itemid":8001,
+   "consume":"2201:10"
+},
+{
+   "itemid":8002,
+   "consume":"2202:10"
+},
+{
+   "itemid":8003,
+   "consume":"2203:10"
+},
+{
+   "itemid":8004,
+   "consume":"2204:10"
+},
+{
+   "itemid":8005,
+   "consume":"2205:10"
+},
+{
+   "itemid":8006,
+   "consume":"2206:10"
+},
+{
+   "itemid":8007,
+   "consume":"2201:20"
+},
+{
+   "itemid":8008,
+   "consume":"2202:20"
+},
+{
+   "itemid":8009,
+   "consume":"2203:20"
+},
+{
+   "itemid":8010,
+   "consume":"2204:20"
+},
+{
+   "itemid":8011,
+   "consume":"2205:20"
+},
+{
+   "itemid":8012,
+   "consume":"2206:20"
+},
+{
+   "itemid":8013,
+   "consume":"2201:30"
+},
+{
+   "itemid":8014,
+   "consume":"2202:30"
+},
+{
+   "itemid":8015,
+   "consume":"2203:30"
+},
+{
+   "itemid":8016,
+   "consume":"2204:30"
+},
+{
+   "itemid":8017,
+   "consume":"2205:30"
+},
+{
+   "itemid":8018,
+   "consume":"2206:30"
+},
+{
+   "itemid":8019,
+   "consume":"2201:40"
+},
+{
+   "itemid":8020,
+   "consume":"2202:40"
+},
+{
+   "itemid":8021,
+   "consume":"2203:40"
+},
+{
+   "itemid":8022,
+   "consume":"2204:40"
+},
+{
+   "itemid":8023,
+   "consume":"2205:40"
+},
+{
+   "itemid":8024,
+   "consume":"2206:40"
+},
+{
+   "itemid":8025,
+   "consume":"2201:50"
+},
+{
+   "itemid":8026,
+   "consume":"2202:50"
+},
+{
+   "itemid":8027,
+   "consume":"2203:50"
+},
+{
+   "itemid":8028,
+   "consume":"2204:50"
+},
+{
+   "itemid":8029,
+   "consume":"2205:50"
+},
+{
+   "itemid":8030,
+   "consume":"2206:50"
+},
+{
+   "itemid":8031,
+   "consume":"2201:60"
+},
+{
+   "itemid":8032,
+   "consume":"2202:60"
+},
+{
+   "itemid":8033,
+   "consume":"2203:60"
+},
+{
+   "itemid":8034,
+   "consume":"2204:60"
+},
+{
+   "itemid":8035,
+   "consume":"2205:60"
+},
+{
+   "itemid":8036,
+   "consume":"2206:60"
+},
+{
+   "itemid":8037,
+   "consume":"2201:70"
+},
+{
+   "itemid":8038,
+   "consume":"2202:70"
+},
+{
+   "itemid":8039,
+   "consume":"2203:70"
+},
+{
+   "itemid":8040,
+   "consume":"2204:70"
+},
+{
+   "itemid":8041,
+   "consume":"2205:70"
+},
+{
+   "itemid":8042,
+   "consume":"2206:70"
+},
+{
+   "itemid":8043,
+   "consume":"2201:80"
+},
+{
+   "itemid":8044,
+   "consume":"2202:80"
+},
+{
+   "itemid":8045,
+   "consume":"2203:80"
+},
+{
+   "itemid":8046,
+   "consume":"2204:80"
+},
+{
+   "itemid":8047,
+   "consume":"2205:80"
+},
+{
+   "itemid":8048,
+   "consume":"2206:80"
+},
+{
+   "itemid":8049,
+   "consume":"2201:90"
+},
+{
+   "itemid":8050,
+   "consume":"2202:90"
+},
+{
+   "itemid":8051,
+   "consume":"2203:90"
+},
+{
+   "itemid":8052,
+   "consume":"2204:90"
+},
+{
+   "itemid":8053,
+   "consume":"2205:90"
+},
+{
+   "itemid":8054,
+   "consume":"2206:90"
+},
+{
+   "itemid":8055,
+   "consume":"2201:100"
+},
+{
+   "itemid":8056,
+   "consume":"2202:100"
+},
+{
+   "itemid":8057,
+   "consume":"2203:100"
+},
+{
+   "itemid":8058,
+   "consume":"2204:100"
+},
+{
+   "itemid":8059,
+   "consume":"2205:100"
+},
+{
+   "itemid":8060,
+   "consume":"2206:100"
+}]

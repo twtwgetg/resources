@@ -1,0 +1,5000 @@
+[{
+   "cost":250,
+   "needrolelevel":1,
+   "level":1
+},
+{
+   "cost":500,
+   "needrolelevel":1,
+   "level":2
+},
+{
+   "cost":750,
+   "needrolelevel":1,
+   "level":3
+},
+{
+   "cost":1000,
+   "needrolelevel":1,
+   "level":4
+},
+{
+   "cost":1250,
+   "needrolelevel":1,
+   "level":5
+},
+{
+   "cost":1500,
+   "needrolelevel":1,
+   "level":6
+},
+{
+   "cost":1750,
+   "needrolelevel":1,
+   "level":7
+},
+{
+   "cost":2000,
+   "needrolelevel":1,
+   "level":8
+},
+{
+   "cost":2250,
+   "needrolelevel":1,
+   "level":9
+},
+{
+   "cost":2500,
+   "needrolelevel":11,
+   "level":10
+},
+{
+   "cost":2750,
+   "needrolelevel":12,
+   "level":11
+},
+{
+   "cost":3000,
+   "needrolelevel":13,
+   "level":12
+},
+{
+   "cost":3250,
+   "needrolelevel":14,
+   "level":13
+},
+{
+   "cost":3500,
+   "needrolelevel":15,
+   "level":14
+},
+{
+   "cost":3750,
+   "needrolelevel":16,
+   "level":15
+},
+{
+   "cost":4000,
+   "needrolelevel":17,
+   "level":16
+},
+{
+   "cost":4250,
+   "needrolelevel":18,
+   "level":17
+},
+{
+   "cost":4500,
+   "needrolelevel":19,
+   "level":18
+},
+{
+   "cost":4750,
+   "needrolelevel":20,
+   "level":19
+},
+{
+   "cost":5000,
+   "needrolelevel":21,
+   "level":20
+},
+{
+   "cost":5250,
+   "needrolelevel":22,
+   "level":21
+},
+{
+   "cost":5500,
+   "needrolelevel":23,
+   "level":22
+},
+{
+   "cost":5750,
+   "needrolelevel":24,
+   "level":23
+},
+{
+   "cost":6000,
+   "needrolelevel":25,
+   "level":24
+},
+{
+   "cost":6250,
+   "needrolelevel":26,
+   "level":25
+},
+{
+   "cost":6500,
+   "needrolelevel":27,
+   "level":26
+},
+{
+   "cost":6750,
+   "needrolelevel":28,
+   "level":27
+},
+{
+   "cost":7000,
+   "needrolelevel":29,
+   "level":28
+},
+{
+   "cost":7250,
+   "needrolelevel":30,
+   "level":29
+},
+{
+   "cost":7500,
+   "needrolelevel":31,
+   "level":30
+},
+{
+   "cost":7750,
+   "needrolelevel":32,
+   "level":31
+},
+{
+   "cost":8000,
+   "needrolelevel":33,
+   "level":32
+},
+{
+   "cost":8250,
+   "needrolelevel":34,
+   "level":33
+},
+{
+   "cost":8500,
+   "needrolelevel":35,
+   "level":34
+},
+{
+   "cost":8750,
+   "needrolelevel":36,
+   "level":35
+},
+{
+   "cost":9000,
+   "needrolelevel":37,
+   "level":36
+},
+{
+   "cost":9250,
+   "needrolelevel":38,
+   "level":37
+},
+{
+   "cost":9500,
+   "needrolelevel":39,
+   "level":38
+},
+{
+   "cost":9750,
+   "needrolelevel":40,
+   "level":39
+},
+{
+   "cost":10000,
+   "needrolelevel":41,
+   "level":40
+},
+{
+   "cost":10250,
+   "needrolelevel":42,
+   "level":41
+},
+{
+   "cost":10500,
+   "needrolelevel":43,
+   "level":42
+},
+{
+   "cost":10750,
+   "needrolelevel":44,
+   "level":43
+},
+{
+   "cost":11000,
+   "needrolelevel":45,
+   "level":44
+},
+{
+   "cost":11250,
+   "needrolelevel":46,
+   "level":45
+},
+{
+   "cost":11500,
+   "needrolelevel":47,
+   "level":46
+},
+{
+   "cost":11750,
+   "needrolelevel":48,
+   "level":47
+},
+{
+   "cost":12000,
+   "needrolelevel":49,
+   "level":48
+},
+{
+   "cost":12250,
+   "needrolelevel":50,
+   "level":49
+},
+{
+   "cost":12500,
+   "needrolelevel":51,
+   "level":50
+},
+{
+   "cost":12750,
+   "needrolelevel":52,
+   "level":51
+},
+{
+   "cost":13000,
+   "needrolelevel":53,
+   "level":52
+},
+{
+   "cost":13250,
+   "needrolelevel":54,
+   "level":53
+},
+{
+   "cost":13500,
+   "needrolelevel":55,
+   "level":54
+},
+{
+   "cost":13750,
+   "needrolelevel":56,
+   "level":55
+},
+{
+   "cost":14000,
+   "needrolelevel":57,
+   "level":56
+},
+{
+   "cost":14250,
+   "needrolelevel":58,
+   "level":57
+},
+{
+   "cost":14500,
+   "needrolelevel":59,
+   "level":58
+},
+{
+   "cost":14750,
+   "needrolelevel":60,
+   "level":59
+},
+{
+   "cost":15000,
+   "needrolelevel":61,
+   "level":60
+},
+{
+   "cost":15250,
+   "needrolelevel":62,
+   "level":61
+},
+{
+   "cost":15500,
+   "needrolelevel":63,
+   "level":62
+},
+{
+   "cost":15750,
+   "needrolelevel":64,
+   "level":63
+},
+{
+   "cost":16000,
+   "needrolelevel":65,
+   "level":64
+},
+{
+   "cost":16250,
+   "needrolelevel":66,
+   "level":65
+},
+{
+   "cost":16500,
+   "needrolelevel":67,
+   "level":66
+},
+{
+   "cost":16750,
+   "needrolelevel":68,
+   "level":67
+},
+{
+   "cost":17000,
+   "needrolelevel":69,
+   "level":68
+},
+{
+   "cost":17250,
+   "needrolelevel":70,
+   "level":69
+},
+{
+   "cost":17500,
+   "needrolelevel":71,
+   "level":70
+},
+{
+   "cost":17750,
+   "needrolelevel":72,
+   "level":71
+},
+{
+   "cost":18000,
+   "needrolelevel":73,
+   "level":72
+},
+{
+   "cost":18250,
+   "needrolelevel":74,
+   "level":73
+},
+{
+   "cost":18500,
+   "needrolelevel":75,
+   "level":74
+},
+{
+   "cost":18750,
+   "needrolelevel":76,
+   "level":75
+},
+{
+   "cost":19000,
+   "needrolelevel":77,
+   "level":76
+},
+{
+   "cost":19250,
+   "needrolelevel":78,
+   "level":77
+},
+{
+   "cost":19500,
+   "needrolelevel":79,
+   "level":78
+},
+{
+   "cost":19750,
+   "needrolelevel":80,
+   "level":79
+},
+{
+   "cost":20000,
+   "needrolelevel":81,
+   "level":80
+},
+{
+   "cost":20250,
+   "needrolelevel":82,
+   "level":81
+},
+{
+   "cost":20500,
+   "needrolelevel":83,
+   "level":82
+},
+{
+   "cost":20750,
+   "needrolelevel":84,
+   "level":83
+},
+{
+   "cost":21000,
+   "needrolelevel":85,
+   "level":84
+},
+{
+   "cost":21250,
+   "needrolelevel":86,
+   "level":85
+},
+{
+   "cost":21500,
+   "needrolelevel":87,
+   "level":86
+},
+{
+   "cost":21750,
+   "needrolelevel":88,
+   "level":87
+},
+{
+   "cost":22000,
+   "needrolelevel":89,
+   "level":88
+},
+{
+   "cost":22250,
+   "needrolelevel":90,
+   "level":89
+},
+{
+   "cost":22500,
+   "needrolelevel":91,
+   "level":90
+},
+{
+   "cost":22750,
+   "needrolelevel":92,
+   "level":91
+},
+{
+   "cost":23000,
+   "needrolelevel":93,
+   "level":92
+},
+{
+   "cost":23250,
+   "needrolelevel":94,
+   "level":93
+},
+{
+   "cost":23500,
+   "needrolelevel":95,
+   "level":94
+},
+{
+   "cost":23750,
+   "needrolelevel":96,
+   "level":95
+},
+{
+   "cost":24000,
+   "needrolelevel":97,
+   "level":96
+},
+{
+   "cost":24250,
+   "needrolelevel":98,
+   "level":97
+},
+{
+   "cost":24500,
+   "needrolelevel":99,
+   "level":98
+},
+{
+   "cost":24750,
+   "needrolelevel":100,
+   "level":99
+},
+{
+   "cost":25000,
+   "needrolelevel":101,
+   "level":100
+},
+{
+   "cost":25250,
+   "needrolelevel":102,
+   "level":101
+},
+{
+   "cost":25500,
+   "needrolelevel":103,
+   "level":102
+},
+{
+   "cost":25750,
+   "needrolelevel":104,
+   "level":103
+},
+{
+   "cost":26000,
+   "needrolelevel":105,
+   "level":104
+},
+{
+   "cost":26250,
+   "needrolelevel":106,
+   "level":105
+},
+{
+   "cost":26500,
+   "needrolelevel":107,
+   "level":106
+},
+{
+   "cost":26750,
+   "needrolelevel":108,
+   "level":107
+},
+{
+   "cost":27000,
+   "needrolelevel":109,
+   "level":108
+},
+{
+   "cost":27250,
+   "needrolelevel":110,
+   "level":109
+},
+{
+   "cost":27500,
+   "needrolelevel":111,
+   "level":110
+},
+{
+   "cost":27750,
+   "needrolelevel":112,
+   "level":111
+},
+{
+   "cost":28000,
+   "needrolelevel":113,
+   "level":112
+},
+{
+   "cost":28250,
+   "needrolelevel":114,
+   "level":113
+},
+{
+   "cost":28500,
+   "needrolelevel":115,
+   "level":114
+},
+{
+   "cost":28750,
+   "needrolelevel":116,
+   "level":115
+},
+{
+   "cost":29000,
+   "needrolelevel":117,
+   "level":116
+},
+{
+   "cost":29250,
+   "needrolelevel":118,
+   "level":117
+},
+{
+   "cost":29500,
+   "needrolelevel":119,
+   "level":118
+},
+{
+   "cost":29750,
+   "needrolelevel":120,
+   "level":119
+},
+{
+   "cost":30000,
+   "needrolelevel":121,
+   "level":120
+},
+{
+   "cost":30250,
+   "needrolelevel":122,
+   "level":121
+},
+{
+   "cost":30500,
+   "needrolelevel":123,
+   "level":122
+},
+{
+   "cost":30750,
+   "needrolelevel":124,
+   "level":123
+},
+{
+   "cost":31000,
+   "needrolelevel":125,
+   "level":124
+},
+{
+   "cost":31250,
+   "needrolelevel":126,
+   "level":125
+},
+{
+   "cost":31500,
+   "needrolelevel":127,
+   "level":126
+},
+{
+   "cost":31750,
+   "needrolelevel":128,
+   "level":127
+},
+{
+   "cost":32000,
+   "needrolelevel":129,
+   "level":128
+},
+{
+   "cost":32250,
+   "needrolelevel":130,
+   "level":129
+},
+{
+   "cost":32500,
+   "needrolelevel":131,
+   "level":130
+},
+{
+   "cost":32750,
+   "needrolelevel":132,
+   "level":131
+},
+{
+   "cost":33000,
+   "needrolelevel":133,
+   "level":132
+},
+{
+   "cost":33250,
+   "needrolelevel":134,
+   "level":133
+},
+{
+   "cost":33500,
+   "needrolelevel":135,
+   "level":134
+},
+{
+   "cost":33750,
+   "needrolelevel":136,
+   "level":135
+},
+{
+   "cost":34000,
+   "needrolelevel":137,
+   "level":136
+},
+{
+   "cost":34250,
+   "needrolelevel":138,
+   "level":137
+},
+{
+   "cost":34500,
+   "needrolelevel":139,
+   "level":138
+},
+{
+   "cost":34750,
+   "needrolelevel":140,
+   "level":139
+},
+{
+   "cost":35000,
+   "needrolelevel":141,
+   "level":140
+},
+{
+   "cost":35250,
+   "needrolelevel":142,
+   "level":141
+},
+{
+   "cost":35500,
+   "needrolelevel":143,
+   "level":142
+},
+{
+   "cost":35750,
+   "needrolelevel":144,
+   "level":143
+},
+{
+   "cost":36000,
+   "needrolelevel":145,
+   "level":144
+},
+{
+   "cost":36250,
+   "needrolelevel":146,
+   "level":145
+},
+{
+   "cost":36500,
+   "needrolelevel":147,
+   "level":146
+},
+{
+   "cost":36750,
+   "needrolelevel":148,
+   "level":147
+},
+{
+   "cost":37000,
+   "needrolelevel":149,
+   "level":148
+},
+{
+   "cost":37250,
+   "needrolelevel":150,
+   "level":149
+},
+{
+   "cost":37500,
+   "needrolelevel":151,
+   "level":150
+},
+{
+   "cost":37750,
+   "needrolelevel":152,
+   "level":151
+},
+{
+   "cost":38000,
+   "needrolelevel":153,
+   "level":152
+},
+{
+   "cost":38250,
+   "needrolelevel":154,
+   "level":153
+},
+{
+   "cost":38500,
+   "needrolelevel":155,
+   "level":154
+},
+{
+   "cost":38750,
+   "needrolelevel":156,
+   "level":155
+},
+{
+   "cost":39000,
+   "needrolelevel":157,
+   "level":156
+},
+{
+   "cost":39250,
+   "needrolelevel":158,
+   "level":157
+},
+{
+   "cost":39500,
+   "needrolelevel":159,
+   "level":158
+},
+{
+   "cost":39750,
+   "needrolelevel":160,
+   "level":159
+},
+{
+   "cost":40000,
+   "needrolelevel":161,
+   "level":160
+},
+{
+   "cost":40250,
+   "needrolelevel":162,
+   "level":161
+},
+{
+   "cost":40500,
+   "needrolelevel":163,
+   "level":162
+},
+{
+   "cost":40750,
+   "needrolelevel":164,
+   "level":163
+},
+{
+   "cost":41000,
+   "needrolelevel":165,
+   "level":164
+},
+{
+   "cost":41250,
+   "needrolelevel":166,
+   "level":165
+},
+{
+   "cost":41500,
+   "needrolelevel":167,
+   "level":166
+},
+{
+   "cost":41750,
+   "needrolelevel":168,
+   "level":167
+},
+{
+   "cost":42000,
+   "needrolelevel":169,
+   "level":168
+},
+{
+   "cost":42250,
+   "needrolelevel":170,
+   "level":169
+},
+{
+   "cost":42500,
+   "needrolelevel":171,
+   "level":170
+},
+{
+   "cost":42750,
+   "needrolelevel":172,
+   "level":171
+},
+{
+   "cost":43000,
+   "needrolelevel":173,
+   "level":172
+},
+{
+   "cost":43250,
+   "needrolelevel":174,
+   "level":173
+},
+{
+   "cost":43500,
+   "needrolelevel":175,
+   "level":174
+},
+{
+   "cost":43750,
+   "needrolelevel":176,
+   "level":175
+},
+{
+   "cost":44000,
+   "needrolelevel":177,
+   "level":176
+},
+{
+   "cost":44250,
+   "needrolelevel":178,
+   "level":177
+},
+{
+   "cost":44500,
+   "needrolelevel":179,
+   "level":178
+},
+{
+   "cost":44750,
+   "needrolelevel":180,
+   "level":179
+},
+{
+   "cost":45000,
+   "needrolelevel":181,
+   "level":180
+},
+{
+   "cost":45250,
+   "needrolelevel":182,
+   "level":181
+},
+{
+   "cost":45500,
+   "needrolelevel":183,
+   "level":182
+},
+{
+   "cost":45750,
+   "needrolelevel":184,
+   "level":183
+},
+{
+   "cost":46000,
+   "needrolelevel":185,
+   "level":184
+},
+{
+   "cost":46250,
+   "needrolelevel":186,
+   "level":185
+},
+{
+   "cost":46500,
+   "needrolelevel":187,
+   "level":186
+},
+{
+   "cost":46750,
+   "needrolelevel":188,
+   "level":187
+},
+{
+   "cost":47000,
+   "needrolelevel":189,
+   "level":188
+},
+{
+   "cost":47250,
+   "needrolelevel":190,
+   "level":189
+},
+{
+   "cost":47500,
+   "needrolelevel":191,
+   "level":190
+},
+{
+   "cost":47750,
+   "needrolelevel":192,
+   "level":191
+},
+{
+   "cost":48000,
+   "needrolelevel":193,
+   "level":192
+},
+{
+   "cost":48250,
+   "needrolelevel":194,
+   "level":193
+},
+{
+   "cost":48500,
+   "needrolelevel":195,
+   "level":194
+},
+{
+   "cost":48750,
+   "needrolelevel":196,
+   "level":195
+},
+{
+   "cost":49000,
+   "needrolelevel":197,
+   "level":196
+},
+{
+   "cost":49250,
+   "needrolelevel":198,
+   "level":197
+},
+{
+   "cost":49500,
+   "needrolelevel":199,
+   "level":198
+},
+{
+   "cost":49750,
+   "needrolelevel":200,
+   "level":199
+},
+{
+   "cost":50000,
+   "needrolelevel":201,
+   "level":200
+},
+{
+   "cost":50500,
+   "needrolelevel":202,
+   "level":201
+},
+{
+   "cost":51000,
+   "needrolelevel":203,
+   "level":202
+},
+{
+   "cost":51500,
+   "needrolelevel":204,
+   "level":203
+},
+{
+   "cost":52000,
+   "needrolelevel":205,
+   "level":204
+},
+{
+   "cost":52500,
+   "needrolelevel":206,
+   "level":205
+},
+{
+   "cost":53000,
+   "needrolelevel":207,
+   "level":206
+},
+{
+   "cost":53500,
+   "needrolelevel":208,
+   "level":207
+},
+{
+   "cost":54000,
+   "needrolelevel":209,
+   "level":208
+},
+{
+   "cost":54500,
+   "needrolelevel":210,
+   "level":209
+},
+{
+   "cost":55000,
+   "needrolelevel":211,
+   "level":210
+},
+{
+   "cost":55500,
+   "needrolelevel":212,
+   "level":211
+},
+{
+   "cost":56000,
+   "needrolelevel":213,
+   "level":212
+},
+{
+   "cost":56500,
+   "needrolelevel":214,
+   "level":213
+},
+{
+   "cost":57000,
+   "needrolelevel":215,
+   "level":214
+},
+{
+   "cost":57500,
+   "needrolelevel":216,
+   "level":215
+},
+{
+   "cost":58000,
+   "needrolelevel":217,
+   "level":216
+},
+{
+   "cost":58500,
+   "needrolelevel":218,
+   "level":217
+},
+{
+   "cost":59000,
+   "needrolelevel":219,
+   "level":218
+},
+{
+   "cost":59500,
+   "needrolelevel":220,
+   "level":219
+},
+{
+   "cost":60000,
+   "needrolelevel":221,
+   "level":220
+},
+{
+   "cost":60500,
+   "needrolelevel":222,
+   "level":221
+},
+{
+   "cost":61000,
+   "needrolelevel":223,
+   "level":222
+},
+{
+   "cost":61500,
+   "needrolelevel":224,
+   "level":223
+},
+{
+   "cost":62000,
+   "needrolelevel":225,
+   "level":224
+},
+{
+   "cost":62500,
+   "needrolelevel":226,
+   "level":225
+},
+{
+   "cost":63000,
+   "needrolelevel":227,
+   "level":226
+},
+{
+   "cost":63500,
+   "needrolelevel":228,
+   "level":227
+},
+{
+   "cost":64000,
+   "needrolelevel":229,
+   "level":228
+},
+{
+   "cost":64500,
+   "needrolelevel":230,
+   "level":229
+},
+{
+   "cost":65000,
+   "needrolelevel":231,
+   "level":230
+},
+{
+   "cost":65500,
+   "needrolelevel":232,
+   "level":231
+},
+{
+   "cost":66000,
+   "needrolelevel":233,
+   "level":232
+},
+{
+   "cost":66500,
+   "needrolelevel":234,
+   "level":233
+},
+{
+   "cost":67000,
+   "needrolelevel":235,
+   "level":234
+},
+{
+   "cost":67500,
+   "needrolelevel":236,
+   "level":235
+},
+{
+   "cost":68000,
+   "needrolelevel":237,
+   "level":236
+},
+{
+   "cost":68500,
+   "needrolelevel":238,
+   "level":237
+},
+{
+   "cost":69000,
+   "needrolelevel":239,
+   "level":238
+},
+{
+   "cost":69500,
+   "needrolelevel":240,
+   "level":239
+},
+{
+   "cost":70000,
+   "needrolelevel":241,
+   "level":240
+},
+{
+   "cost":70500,
+   "needrolelevel":242,
+   "level":241
+},
+{
+   "cost":71000,
+   "needrolelevel":243,
+   "level":242
+},
+{
+   "cost":71500,
+   "needrolelevel":244,
+   "level":243
+},
+{
+   "cost":72000,
+   "needrolelevel":245,
+   "level":244
+},
+{
+   "cost":72500,
+   "needrolelevel":246,
+   "level":245
+},
+{
+   "cost":73000,
+   "needrolelevel":247,
+   "level":246
+},
+{
+   "cost":73500,
+   "needrolelevel":248,
+   "level":247
+},
+{
+   "cost":74000,
+   "needrolelevel":249,
+   "level":248
+},
+{
+   "cost":74500,
+   "needrolelevel":250,
+   "level":249
+},
+{
+   "cost":75000,
+   "needrolelevel":251,
+   "level":250
+},
+{
+   "cost":75500,
+   "needrolelevel":252,
+   "level":251
+},
+{
+   "cost":76000,
+   "needrolelevel":253,
+   "level":252
+},
+{
+   "cost":76500,
+   "needrolelevel":254,
+   "level":253
+},
+{
+   "cost":77000,
+   "needrolelevel":255,
+   "level":254
+},
+{
+   "cost":77500,
+   "needrolelevel":256,
+   "level":255
+},
+{
+   "cost":78000,
+   "needrolelevel":257,
+   "level":256
+},
+{
+   "cost":78500,
+   "needrolelevel":258,
+   "level":257
+},
+{
+   "cost":79000,
+   "needrolelevel":259,
+   "level":258
+},
+{
+   "cost":79500,
+   "needrolelevel":260,
+   "level":259
+},
+{
+   "cost":80000,
+   "needrolelevel":261,
+   "level":260
+},
+{
+   "cost":80500,
+   "needrolelevel":262,
+   "level":261
+},
+{
+   "cost":81000,
+   "needrolelevel":263,
+   "level":262
+},
+{
+   "cost":81500,
+   "needrolelevel":264,
+   "level":263
+},
+{
+   "cost":82000,
+   "needrolelevel":265,
+   "level":264
+},
+{
+   "cost":82500,
+   "needrolelevel":266,
+   "level":265
+},
+{
+   "cost":83000,
+   "needrolelevel":267,
+   "level":266
+},
+{
+   "cost":83500,
+   "needrolelevel":268,
+   "level":267
+},
+{
+   "cost":84000,
+   "needrolelevel":269,
+   "level":268
+},
+{
+   "cost":84500,
+   "needrolelevel":270,
+   "level":269
+},
+{
+   "cost":85000,
+   "needrolelevel":271,
+   "level":270
+},
+{
+   "cost":85500,
+   "needrolelevel":272,
+   "level":271
+},
+{
+   "cost":86000,
+   "needrolelevel":273,
+   "level":272
+},
+{
+   "cost":86500,
+   "needrolelevel":274,
+   "level":273
+},
+{
+   "cost":87000,
+   "needrolelevel":275,
+   "level":274
+},
+{
+   "cost":87500,
+   "needrolelevel":276,
+   "level":275
+},
+{
+   "cost":88000,
+   "needrolelevel":277,
+   "level":276
+},
+{
+   "cost":88500,
+   "needrolelevel":278,
+   "level":277
+},
+{
+   "cost":89000,
+   "needrolelevel":279,
+   "level":278
+},
+{
+   "cost":89500,
+   "needrolelevel":280,
+   "level":279
+},
+{
+   "cost":90000,
+   "needrolelevel":281,
+   "level":280
+},
+{
+   "cost":90500,
+   "needrolelevel":282,
+   "level":281
+},
+{
+   "cost":91000,
+   "needrolelevel":283,
+   "level":282
+},
+{
+   "cost":91500,
+   "needrolelevel":284,
+   "level":283
+},
+{
+   "cost":92000,
+   "needrolelevel":285,
+   "level":284
+},
+{
+   "cost":92500,
+   "needrolelevel":286,
+   "level":285
+},
+{
+   "cost":93000,
+   "needrolelevel":287,
+   "level":286
+},
+{
+   "cost":93500,
+   "needrolelevel":288,
+   "level":287
+},
+{
+   "cost":94000,
+   "needrolelevel":289,
+   "level":288
+},
+{
+   "cost":94500,
+   "needrolelevel":290,
+   "level":289
+},
+{
+   "cost":95000,
+   "needrolelevel":291,
+   "level":290
+},
+{
+   "cost":95500,
+   "needrolelevel":292,
+   "level":291
+},
+{
+   "cost":96000,
+   "needrolelevel":293,
+   "level":292
+},
+{
+   "cost":96500,
+   "needrolelevel":294,
+   "level":293
+},
+{
+   "cost":97000,
+   "needrolelevel":295,
+   "level":294
+},
+{
+   "cost":97500,
+   "needrolelevel":296,
+   "level":295
+},
+{
+   "cost":98000,
+   "needrolelevel":297,
+   "level":296
+},
+{
+   "cost":98500,
+   "needrolelevel":298,
+   "level":297
+},
+{
+   "cost":99000,
+   "needrolelevel":299,
+   "level":298
+},
+{
+   "cost":99500,
+   "needrolelevel":300,
+   "level":299
+},
+{
+   "cost":100000,
+   "needrolelevel":301,
+   "level":300
+},
+{
+   "cost":100500,
+   "needrolelevel":302,
+   "level":301
+},
+{
+   "cost":101000,
+   "needrolelevel":303,
+   "level":302
+},
+{
+   "cost":101500,
+   "needrolelevel":304,
+   "level":303
+},
+{
+   "cost":102000,
+   "needrolelevel":305,
+   "level":304
+},
+{
+   "cost":102500,
+   "needrolelevel":306,
+   "level":305
+},
+{
+   "cost":103000,
+   "needrolelevel":307,
+   "level":306
+},
+{
+   "cost":103500,
+   "needrolelevel":308,
+   "level":307
+},
+{
+   "cost":104000,
+   "needrolelevel":309,
+   "level":308
+},
+{
+   "cost":104500,
+   "needrolelevel":310,
+   "level":309
+},
+{
+   "cost":105000,
+   "needrolelevel":311,
+   "level":310
+},
+{
+   "cost":105500,
+   "needrolelevel":312,
+   "level":311
+},
+{
+   "cost":106000,
+   "needrolelevel":313,
+   "level":312
+},
+{
+   "cost":106500,
+   "needrolelevel":314,
+   "level":313
+},
+{
+   "cost":107000,
+   "needrolelevel":315,
+   "level":314
+},
+{
+   "cost":107500,
+   "needrolelevel":316,
+   "level":315
+},
+{
+   "cost":108000,
+   "needrolelevel":317,
+   "level":316
+},
+{
+   "cost":108500,
+   "needrolelevel":318,
+   "level":317
+},
+{
+   "cost":109000,
+   "needrolelevel":319,
+   "level":318
+},
+{
+   "cost":109500,
+   "needrolelevel":320,
+   "level":319
+},
+{
+   "cost":110000,
+   "needrolelevel":321,
+   "level":320
+},
+{
+   "cost":110500,
+   "needrolelevel":322,
+   "level":321
+},
+{
+   "cost":111000,
+   "needrolelevel":323,
+   "level":322
+},
+{
+   "cost":111500,
+   "needrolelevel":324,
+   "level":323
+},
+{
+   "cost":112000,
+   "needrolelevel":325,
+   "level":324
+},
+{
+   "cost":112500,
+   "needrolelevel":326,
+   "level":325
+},
+{
+   "cost":113000,
+   "needrolelevel":327,
+   "level":326
+},
+{
+   "cost":113500,
+   "needrolelevel":328,
+   "level":327
+},
+{
+   "cost":114000,
+   "needrolelevel":329,
+   "level":328
+},
+{
+   "cost":114500,
+   "needrolelevel":330,
+   "level":329
+},
+{
+   "cost":115000,
+   "needrolelevel":331,
+   "level":330
+},
+{
+   "cost":115500,
+   "needrolelevel":332,
+   "level":331
+},
+{
+   "cost":116000,
+   "needrolelevel":333,
+   "level":332
+},
+{
+   "cost":116500,
+   "needrolelevel":334,
+   "level":333
+},
+{
+   "cost":117000,
+   "needrolelevel":335,
+   "level":334
+},
+{
+   "cost":117500,
+   "needrolelevel":336,
+   "level":335
+},
+{
+   "cost":118000,
+   "needrolelevel":337,
+   "level":336
+},
+{
+   "cost":118500,
+   "needrolelevel":338,
+   "level":337
+},
+{
+   "cost":119000,
+   "needrolelevel":339,
+   "level":338
+},
+{
+   "cost":119500,
+   "needrolelevel":340,
+   "level":339
+},
+{
+   "cost":120000,
+   "needrolelevel":341,
+   "level":340
+},
+{
+   "cost":120500,
+   "needrolelevel":342,
+   "level":341
+},
+{
+   "cost":121000,
+   "needrolelevel":343,
+   "level":342
+},
+{
+   "cost":121500,
+   "needrolelevel":344,
+   "level":343
+},
+{
+   "cost":122000,
+   "needrolelevel":345,
+   "level":344
+},
+{
+   "cost":122500,
+   "needrolelevel":346,
+   "level":345
+},
+{
+   "cost":123000,
+   "needrolelevel":347,
+   "level":346
+},
+{
+   "cost":123500,
+   "needrolelevel":348,
+   "level":347
+},
+{
+   "cost":124000,
+   "needrolelevel":349,
+   "level":348
+},
+{
+   "cost":124500,
+   "needrolelevel":350,
+   "level":349
+},
+{
+   "cost":125000,
+   "needrolelevel":351,
+   "level":350
+},
+{
+   "cost":125500,
+   "needrolelevel":352,
+   "level":351
+},
+{
+   "cost":126000,
+   "needrolelevel":353,
+   "level":352
+},
+{
+   "cost":126500,
+   "needrolelevel":354,
+   "level":353
+},
+{
+   "cost":127000,
+   "needrolelevel":355,
+   "level":354
+},
+{
+   "cost":127500,
+   "needrolelevel":356,
+   "level":355
+},
+{
+   "cost":128000,
+   "needrolelevel":357,
+   "level":356
+},
+{
+   "cost":128500,
+   "needrolelevel":358,
+   "level":357
+},
+{
+   "cost":129000,
+   "needrolelevel":359,
+   "level":358
+},
+{
+   "cost":129500,
+   "needrolelevel":360,
+   "level":359
+},
+{
+   "cost":130000,
+   "needrolelevel":361,
+   "level":360
+},
+{
+   "cost":130500,
+   "needrolelevel":362,
+   "level":361
+},
+{
+   "cost":131000,
+   "needrolelevel":363,
+   "level":362
+},
+{
+   "cost":131500,
+   "needrolelevel":364,
+   "level":363
+},
+{
+   "cost":132000,
+   "needrolelevel":365,
+   "level":364
+},
+{
+   "cost":132500,
+   "needrolelevel":366,
+   "level":365
+},
+{
+   "cost":133000,
+   "needrolelevel":367,
+   "level":366
+},
+{
+   "cost":133500,
+   "needrolelevel":368,
+   "level":367
+},
+{
+   "cost":134000,
+   "needrolelevel":369,
+   "level":368
+},
+{
+   "cost":134500,
+   "needrolelevel":370,
+   "level":369
+},
+{
+   "cost":135000,
+   "needrolelevel":371,
+   "level":370
+},
+{
+   "cost":135500,
+   "needrolelevel":372,
+   "level":371
+},
+{
+   "cost":136000,
+   "needrolelevel":373,
+   "level":372
+},
+{
+   "cost":136500,
+   "needrolelevel":374,
+   "level":373
+},
+{
+   "cost":137000,
+   "needrolelevel":375,
+   "level":374
+},
+{
+   "cost":137500,
+   "needrolelevel":376,
+   "level":375
+},
+{
+   "cost":138000,
+   "needrolelevel":377,
+   "level":376
+},
+{
+   "cost":138500,
+   "needrolelevel":378,
+   "level":377
+},
+{
+   "cost":139000,
+   "needrolelevel":379,
+   "level":378
+},
+{
+   "cost":139500,
+   "needrolelevel":380,
+   "level":379
+},
+{
+   "cost":140000,
+   "needrolelevel":381,
+   "level":380
+},
+{
+   "cost":140500,
+   "needrolelevel":382,
+   "level":381
+},
+{
+   "cost":141000,
+   "needrolelevel":383,
+   "level":382
+},
+{
+   "cost":141500,
+   "needrolelevel":384,
+   "level":383
+},
+{
+   "cost":142000,
+   "needrolelevel":385,
+   "level":384
+},
+{
+   "cost":142500,
+   "needrolelevel":386,
+   "level":385
+},
+{
+   "cost":143000,
+   "needrolelevel":387,
+   "level":386
+},
+{
+   "cost":143500,
+   "needrolelevel":388,
+   "level":387
+},
+{
+   "cost":144000,
+   "needrolelevel":389,
+   "level":388
+},
+{
+   "cost":144500,
+   "needrolelevel":390,
+   "level":389
+},
+{
+   "cost":145000,
+   "needrolelevel":391,
+   "level":390
+},
+{
+   "cost":145500,
+   "needrolelevel":392,
+   "level":391
+},
+{
+   "cost":146000,
+   "needrolelevel":393,
+   "level":392
+},
+{
+   "cost":146500,
+   "needrolelevel":394,
+   "level":393
+},
+{
+   "cost":147000,
+   "needrolelevel":395,
+   "level":394
+},
+{
+   "cost":147500,
+   "needrolelevel":396,
+   "level":395
+},
+{
+   "cost":148000,
+   "needrolelevel":397,
+   "level":396
+},
+{
+   "cost":148500,
+   "needrolelevel":398,
+   "level":397
+},
+{
+   "cost":149000,
+   "needrolelevel":399,
+   "level":398
+},
+{
+   "cost":149500,
+   "needrolelevel":400,
+   "level":399
+},
+{
+   "cost":150000,
+   "needrolelevel":401,
+   "level":400
+},
+{
+   "cost":151000,
+   "needrolelevel":402,
+   "level":401
+},
+{
+   "cost":152000,
+   "needrolelevel":403,
+   "level":402
+},
+{
+   "cost":153000,
+   "needrolelevel":404,
+   "level":403
+},
+{
+   "cost":154000,
+   "needrolelevel":405,
+   "level":404
+},
+{
+   "cost":155000,
+   "needrolelevel":406,
+   "level":405
+},
+{
+   "cost":156000,
+   "needrolelevel":407,
+   "level":406
+},
+{
+   "cost":157000,
+   "needrolelevel":408,
+   "level":407
+},
+{
+   "cost":158000,
+   "needrolelevel":409,
+   "level":408
+},
+{
+   "cost":159000,
+   "needrolelevel":410,
+   "level":409
+},
+{
+   "cost":160000,
+   "needrolelevel":411,
+   "level":410
+},
+{
+   "cost":161000,
+   "needrolelevel":412,
+   "level":411
+},
+{
+   "cost":162000,
+   "needrolelevel":413,
+   "level":412
+},
+{
+   "cost":163000,
+   "needrolelevel":414,
+   "level":413
+},
+{
+   "cost":164000,
+   "needrolelevel":415,
+   "level":414
+},
+{
+   "cost":165000,
+   "needrolelevel":416,
+   "level":415
+},
+{
+   "cost":166000,
+   "needrolelevel":417,
+   "level":416
+},
+{
+   "cost":167000,
+   "needrolelevel":418,
+   "level":417
+},
+{
+   "cost":168000,
+   "needrolelevel":419,
+   "level":418
+},
+{
+   "cost":169000,
+   "needrolelevel":420,
+   "level":419
+},
+{
+   "cost":170000,
+   "needrolelevel":421,
+   "level":420
+},
+{
+   "cost":171000,
+   "needrolelevel":422,
+   "level":421
+},
+{
+   "cost":172000,
+   "needrolelevel":423,
+   "level":422
+},
+{
+   "cost":173000,
+   "needrolelevel":424,
+   "level":423
+},
+{
+   "cost":174000,
+   "needrolelevel":425,
+   "level":424
+},
+{
+   "cost":175000,
+   "needrolelevel":426,
+   "level":425
+},
+{
+   "cost":176000,
+   "needrolelevel":427,
+   "level":426
+},
+{
+   "cost":177000,
+   "needrolelevel":428,
+   "level":427
+},
+{
+   "cost":178000,
+   "needrolelevel":429,
+   "level":428
+},
+{
+   "cost":179000,
+   "needrolelevel":430,
+   "level":429
+},
+{
+   "cost":180000,
+   "needrolelevel":431,
+   "level":430
+},
+{
+   "cost":181000,
+   "needrolelevel":432,
+   "level":431
+},
+{
+   "cost":182000,
+   "needrolelevel":433,
+   "level":432
+},
+{
+   "cost":183000,
+   "needrolelevel":434,
+   "level":433
+},
+{
+   "cost":184000,
+   "needrolelevel":435,
+   "level":434
+},
+{
+   "cost":185000,
+   "needrolelevel":436,
+   "level":435
+},
+{
+   "cost":186000,
+   "needrolelevel":437,
+   "level":436
+},
+{
+   "cost":187000,
+   "needrolelevel":438,
+   "level":437
+},
+{
+   "cost":188000,
+   "needrolelevel":439,
+   "level":438
+},
+{
+   "cost":189000,
+   "needrolelevel":440,
+   "level":439
+},
+{
+   "cost":190000,
+   "needrolelevel":441,
+   "level":440
+},
+{
+   "cost":191000,
+   "needrolelevel":442,
+   "level":441
+},
+{
+   "cost":192000,
+   "needrolelevel":443,
+   "level":442
+},
+{
+   "cost":193000,
+   "needrolelevel":444,
+   "level":443
+},
+{
+   "cost":194000,
+   "needrolelevel":445,
+   "level":444
+},
+{
+   "cost":195000,
+   "needrolelevel":446,
+   "level":445
+},
+{
+   "cost":196000,
+   "needrolelevel":447,
+   "level":446
+},
+{
+   "cost":197000,
+   "needrolelevel":448,
+   "level":447
+},
+{
+   "cost":198000,
+   "needrolelevel":449,
+   "level":448
+},
+{
+   "cost":199000,
+   "needrolelevel":450,
+   "level":449
+},
+{
+   "cost":200000,
+   "needrolelevel":451,
+   "level":450
+},
+{
+   "cost":201000,
+   "needrolelevel":452,
+   "level":451
+},
+{
+   "cost":202000,
+   "needrolelevel":453,
+   "level":452
+},
+{
+   "cost":203000,
+   "needrolelevel":454,
+   "level":453
+},
+{
+   "cost":204000,
+   "needrolelevel":455,
+   "level":454
+},
+{
+   "cost":205000,
+   "needrolelevel":456,
+   "level":455
+},
+{
+   "cost":206000,
+   "needrolelevel":457,
+   "level":456
+},
+{
+   "cost":207000,
+   "needrolelevel":458,
+   "level":457
+},
+{
+   "cost":208000,
+   "needrolelevel":459,
+   "level":458
+},
+{
+   "cost":209000,
+   "needrolelevel":460,
+   "level":459
+},
+{
+   "cost":210000,
+   "needrolelevel":461,
+   "level":460
+},
+{
+   "cost":211000,
+   "needrolelevel":462,
+   "level":461
+},
+{
+   "cost":212000,
+   "needrolelevel":463,
+   "level":462
+},
+{
+   "cost":213000,
+   "needrolelevel":464,
+   "level":463
+},
+{
+   "cost":214000,
+   "needrolelevel":465,
+   "level":464
+},
+{
+   "cost":215000,
+   "needrolelevel":466,
+   "level":465
+},
+{
+   "cost":216000,
+   "needrolelevel":467,
+   "level":466
+},
+{
+   "cost":217000,
+   "needrolelevel":468,
+   "level":467
+},
+{
+   "cost":218000,
+   "needrolelevel":469,
+   "level":468
+},
+{
+   "cost":219000,
+   "needrolelevel":470,
+   "level":469
+},
+{
+   "cost":220000,
+   "needrolelevel":471,
+   "level":470
+},
+{
+   "cost":221000,
+   "needrolelevel":472,
+   "level":471
+},
+{
+   "cost":222000,
+   "needrolelevel":473,
+   "level":472
+},
+{
+   "cost":223000,
+   "needrolelevel":474,
+   "level":473
+},
+{
+   "cost":224000,
+   "needrolelevel":475,
+   "level":474
+},
+{
+   "cost":225000,
+   "needrolelevel":476,
+   "level":475
+},
+{
+   "cost":226000,
+   "needrolelevel":477,
+   "level":476
+},
+{
+   "cost":227000,
+   "needrolelevel":478,
+   "level":477
+},
+{
+   "cost":228000,
+   "needrolelevel":479,
+   "level":478
+},
+{
+   "cost":229000,
+   "needrolelevel":480,
+   "level":479
+},
+{
+   "cost":230000,
+   "needrolelevel":481,
+   "level":480
+},
+{
+   "cost":231000,
+   "needrolelevel":482,
+   "level":481
+},
+{
+   "cost":232000,
+   "needrolelevel":483,
+   "level":482
+},
+{
+   "cost":233000,
+   "needrolelevel":484,
+   "level":483
+},
+{
+   "cost":234000,
+   "needrolelevel":485,
+   "level":484
+},
+{
+   "cost":235000,
+   "needrolelevel":486,
+   "level":485
+},
+{
+   "cost":236000,
+   "needrolelevel":487,
+   "level":486
+},
+{
+   "cost":237000,
+   "needrolelevel":488,
+   "level":487
+},
+{
+   "cost":238000,
+   "needrolelevel":489,
+   "level":488
+},
+{
+   "cost":239000,
+   "needrolelevel":490,
+   "level":489
+},
+{
+   "cost":240000,
+   "needrolelevel":491,
+   "level":490
+},
+{
+   "cost":241000,
+   "needrolelevel":492,
+   "level":491
+},
+{
+   "cost":242000,
+   "needrolelevel":493,
+   "level":492
+},
+{
+   "cost":243000,
+   "needrolelevel":494,
+   "level":493
+},
+{
+   "cost":244000,
+   "needrolelevel":495,
+   "level":494
+},
+{
+   "cost":245000,
+   "needrolelevel":496,
+   "level":495
+},
+{
+   "cost":246000,
+   "needrolelevel":497,
+   "level":496
+},
+{
+   "cost":247000,
+   "needrolelevel":498,
+   "level":497
+},
+{
+   "cost":248000,
+   "needrolelevel":499,
+   "level":498
+},
+{
+   "cost":249000,
+   "needrolelevel":500,
+   "level":499
+},
+{
+   "cost":250000,
+   "needrolelevel":501,
+   "level":500
+},
+{
+   "cost":251000,
+   "needrolelevel":502,
+   "level":501
+},
+{
+   "cost":252000,
+   "needrolelevel":503,
+   "level":502
+},
+{
+   "cost":253000,
+   "needrolelevel":504,
+   "level":503
+},
+{
+   "cost":254000,
+   "needrolelevel":505,
+   "level":504
+},
+{
+   "cost":255000,
+   "needrolelevel":506,
+   "level":505
+},
+{
+   "cost":256000,
+   "needrolelevel":507,
+   "level":506
+},
+{
+   "cost":257000,
+   "needrolelevel":508,
+   "level":507
+},
+{
+   "cost":258000,
+   "needrolelevel":509,
+   "level":508
+},
+{
+   "cost":259000,
+   "needrolelevel":510,
+   "level":509
+},
+{
+   "cost":260000,
+   "needrolelevel":511,
+   "level":510
+},
+{
+   "cost":261000,
+   "needrolelevel":512,
+   "level":511
+},
+{
+   "cost":262000,
+   "needrolelevel":513,
+   "level":512
+},
+{
+   "cost":263000,
+   "needrolelevel":514,
+   "level":513
+},
+{
+   "cost":264000,
+   "needrolelevel":515,
+   "level":514
+},
+{
+   "cost":265000,
+   "needrolelevel":516,
+   "level":515
+},
+{
+   "cost":266000,
+   "needrolelevel":517,
+   "level":516
+},
+{
+   "cost":267000,
+   "needrolelevel":518,
+   "level":517
+},
+{
+   "cost":268000,
+   "needrolelevel":519,
+   "level":518
+},
+{
+   "cost":269000,
+   "needrolelevel":520,
+   "level":519
+},
+{
+   "cost":270000,
+   "needrolelevel":521,
+   "level":520
+},
+{
+   "cost":271000,
+   "needrolelevel":522,
+   "level":521
+},
+{
+   "cost":272000,
+   "needrolelevel":523,
+   "level":522
+},
+{
+   "cost":273000,
+   "needrolelevel":524,
+   "level":523
+},
+{
+   "cost":274000,
+   "needrolelevel":525,
+   "level":524
+},
+{
+   "cost":275000,
+   "needrolelevel":526,
+   "level":525
+},
+{
+   "cost":276000,
+   "needrolelevel":527,
+   "level":526
+},
+{
+   "cost":277000,
+   "needrolelevel":528,
+   "level":527
+},
+{
+   "cost":278000,
+   "needrolelevel":529,
+   "level":528
+},
+{
+   "cost":279000,
+   "needrolelevel":530,
+   "level":529
+},
+{
+   "cost":280000,
+   "needrolelevel":531,
+   "level":530
+},
+{
+   "cost":281000,
+   "needrolelevel":532,
+   "level":531
+},
+{
+   "cost":282000,
+   "needrolelevel":533,
+   "level":532
+},
+{
+   "cost":283000,
+   "needrolelevel":534,
+   "level":533
+},
+{
+   "cost":284000,
+   "needrolelevel":535,
+   "level":534
+},
+{
+   "cost":285000,
+   "needrolelevel":536,
+   "level":535
+},
+{
+   "cost":286000,
+   "needrolelevel":537,
+   "level":536
+},
+{
+   "cost":287000,
+   "needrolelevel":538,
+   "level":537
+},
+{
+   "cost":288000,
+   "needrolelevel":539,
+   "level":538
+},
+{
+   "cost":289000,
+   "needrolelevel":540,
+   "level":539
+},
+{
+   "cost":290000,
+   "needrolelevel":541,
+   "level":540
+},
+{
+   "cost":291000,
+   "needrolelevel":542,
+   "level":541
+},
+{
+   "cost":292000,
+   "needrolelevel":543,
+   "level":542
+},
+{
+   "cost":293000,
+   "needrolelevel":544,
+   "level":543
+},
+{
+   "cost":294000,
+   "needrolelevel":545,
+   "level":544
+},
+{
+   "cost":295000,
+   "needrolelevel":546,
+   "level":545
+},
+{
+   "cost":296000,
+   "needrolelevel":547,
+   "level":546
+},
+{
+   "cost":297000,
+   "needrolelevel":548,
+   "level":547
+},
+{
+   "cost":298000,
+   "needrolelevel":549,
+   "level":548
+},
+{
+   "cost":299000,
+   "needrolelevel":550,
+   "level":549
+},
+{
+   "cost":300000,
+   "needrolelevel":551,
+   "level":550
+},
+{
+   "cost":301000,
+   "needrolelevel":552,
+   "level":551
+},
+{
+   "cost":302000,
+   "needrolelevel":553,
+   "level":552
+},
+{
+   "cost":303000,
+   "needrolelevel":554,
+   "level":553
+},
+{
+   "cost":304000,
+   "needrolelevel":555,
+   "level":554
+},
+{
+   "cost":305000,
+   "needrolelevel":556,
+   "level":555
+},
+{
+   "cost":306000,
+   "needrolelevel":557,
+   "level":556
+},
+{
+   "cost":307000,
+   "needrolelevel":558,
+   "level":557
+},
+{
+   "cost":308000,
+   "needrolelevel":559,
+   "level":558
+},
+{
+   "cost":309000,
+   "needrolelevel":560,
+   "level":559
+},
+{
+   "cost":310000,
+   "needrolelevel":561,
+   "level":560
+},
+{
+   "cost":311000,
+   "needrolelevel":562,
+   "level":561
+},
+{
+   "cost":312000,
+   "needrolelevel":563,
+   "level":562
+},
+{
+   "cost":313000,
+   "needrolelevel":564,
+   "level":563
+},
+{
+   "cost":314000,
+   "needrolelevel":565,
+   "level":564
+},
+{
+   "cost":315000,
+   "needrolelevel":566,
+   "level":565
+},
+{
+   "cost":316000,
+   "needrolelevel":567,
+   "level":566
+},
+{
+   "cost":317000,
+   "needrolelevel":568,
+   "level":567
+},
+{
+   "cost":318000,
+   "needrolelevel":569,
+   "level":568
+},
+{
+   "cost":319000,
+   "needrolelevel":570,
+   "level":569
+},
+{
+   "cost":320000,
+   "needrolelevel":571,
+   "level":570
+},
+{
+   "cost":321000,
+   "needrolelevel":572,
+   "level":571
+},
+{
+   "cost":322000,
+   "needrolelevel":573,
+   "level":572
+},
+{
+   "cost":323000,
+   "needrolelevel":574,
+   "level":573
+},
+{
+   "cost":324000,
+   "needrolelevel":575,
+   "level":574
+},
+{
+   "cost":325000,
+   "needrolelevel":576,
+   "level":575
+},
+{
+   "cost":326000,
+   "needrolelevel":577,
+   "level":576
+},
+{
+   "cost":327000,
+   "needrolelevel":578,
+   "level":577
+},
+{
+   "cost":328000,
+   "needrolelevel":579,
+   "level":578
+},
+{
+   "cost":329000,
+   "needrolelevel":580,
+   "level":579
+},
+{
+   "cost":330000,
+   "needrolelevel":581,
+   "level":580
+},
+{
+   "cost":331000,
+   "needrolelevel":582,
+   "level":581
+},
+{
+   "cost":332000,
+   "needrolelevel":583,
+   "level":582
+},
+{
+   "cost":333000,
+   "needrolelevel":584,
+   "level":583
+},
+{
+   "cost":334000,
+   "needrolelevel":585,
+   "level":584
+},
+{
+   "cost":335000,
+   "needrolelevel":586,
+   "level":585
+},
+{
+   "cost":336000,
+   "needrolelevel":587,
+   "level":586
+},
+{
+   "cost":337000,
+   "needrolelevel":588,
+   "level":587
+},
+{
+   "cost":338000,
+   "needrolelevel":589,
+   "level":588
+},
+{
+   "cost":339000,
+   "needrolelevel":590,
+   "level":589
+},
+{
+   "cost":340000,
+   "needrolelevel":591,
+   "level":590
+},
+{
+   "cost":341000,
+   "needrolelevel":592,
+   "level":591
+},
+{
+   "cost":342000,
+   "needrolelevel":593,
+   "level":592
+},
+{
+   "cost":343000,
+   "needrolelevel":594,
+   "level":593
+},
+{
+   "cost":344000,
+   "needrolelevel":595,
+   "level":594
+},
+{
+   "cost":345000,
+   "needrolelevel":596,
+   "level":595
+},
+{
+   "cost":346000,
+   "needrolelevel":597,
+   "level":596
+},
+{
+   "cost":347000,
+   "needrolelevel":598,
+   "level":597
+},
+{
+   "cost":348000,
+   "needrolelevel":599,
+   "level":598
+},
+{
+   "cost":349000,
+   "needrolelevel":600,
+   "level":599
+},
+{
+   "cost":350000,
+   "needrolelevel":601,
+   "level":600
+},
+{
+   "cost":351000,
+   "needrolelevel":602,
+   "level":601
+},
+{
+   "cost":352000,
+   "needrolelevel":603,
+   "level":602
+},
+{
+   "cost":353000,
+   "needrolelevel":604,
+   "level":603
+},
+{
+   "cost":354000,
+   "needrolelevel":605,
+   "level":604
+},
+{
+   "cost":355000,
+   "needrolelevel":606,
+   "level":605
+},
+{
+   "cost":356000,
+   "needrolelevel":607,
+   "level":606
+},
+{
+   "cost":357000,
+   "needrolelevel":608,
+   "level":607
+},
+{
+   "cost":358000,
+   "needrolelevel":609,
+   "level":608
+},
+{
+   "cost":359000,
+   "needrolelevel":610,
+   "level":609
+},
+{
+   "cost":360000,
+   "needrolelevel":611,
+   "level":610
+},
+{
+   "cost":361000,
+   "needrolelevel":612,
+   "level":611
+},
+{
+   "cost":362000,
+   "needrolelevel":613,
+   "level":612
+},
+{
+   "cost":363000,
+   "needrolelevel":614,
+   "level":613
+},
+{
+   "cost":364000,
+   "needrolelevel":615,
+   "level":614
+},
+{
+   "cost":365000,
+   "needrolelevel":616,
+   "level":615
+},
+{
+   "cost":366000,
+   "needrolelevel":617,
+   "level":616
+},
+{
+   "cost":367000,
+   "needrolelevel":618,
+   "level":617
+},
+{
+   "cost":368000,
+   "needrolelevel":619,
+   "level":618
+},
+{
+   "cost":369000,
+   "needrolelevel":620,
+   "level":619
+},
+{
+   "cost":370000,
+   "needrolelevel":621,
+   "level":620
+},
+{
+   "cost":371000,
+   "needrolelevel":622,
+   "level":621
+},
+{
+   "cost":372000,
+   "needrolelevel":623,
+   "level":622
+},
+{
+   "cost":373000,
+   "needrolelevel":624,
+   "level":623
+},
+{
+   "cost":374000,
+   "needrolelevel":625,
+   "level":624
+},
+{
+   "cost":375000,
+   "needrolelevel":626,
+   "level":625
+},
+{
+   "cost":376000,
+   "needrolelevel":627,
+   "level":626
+},
+{
+   "cost":377000,
+   "needrolelevel":628,
+   "level":627
+},
+{
+   "cost":378000,
+   "needrolelevel":629,
+   "level":628
+},
+{
+   "cost":379000,
+   "needrolelevel":630,
+   "level":629
+},
+{
+   "cost":380000,
+   "needrolelevel":631,
+   "level":630
+},
+{
+   "cost":381000,
+   "needrolelevel":632,
+   "level":631
+},
+{
+   "cost":382000,
+   "needrolelevel":633,
+   "level":632
+},
+{
+   "cost":383000,
+   "needrolelevel":634,
+   "level":633
+},
+{
+   "cost":384000,
+   "needrolelevel":635,
+   "level":634
+},
+{
+   "cost":385000,
+   "needrolelevel":636,
+   "level":635
+},
+{
+   "cost":386000,
+   "needrolelevel":637,
+   "level":636
+},
+{
+   "cost":387000,
+   "needrolelevel":638,
+   "level":637
+},
+{
+   "cost":388000,
+   "needrolelevel":639,
+   "level":638
+},
+{
+   "cost":389000,
+   "needrolelevel":640,
+   "level":639
+},
+{
+   "cost":390000,
+   "needrolelevel":641,
+   "level":640
+},
+{
+   "cost":391000,
+   "needrolelevel":642,
+   "level":641
+},
+{
+   "cost":392000,
+   "needrolelevel":643,
+   "level":642
+},
+{
+   "cost":393000,
+   "needrolelevel":644,
+   "level":643
+},
+{
+   "cost":394000,
+   "needrolelevel":645,
+   "level":644
+},
+{
+   "cost":395000,
+   "needrolelevel":646,
+   "level":645
+},
+{
+   "cost":396000,
+   "needrolelevel":647,
+   "level":646
+},
+{
+   "cost":397000,
+   "needrolelevel":648,
+   "level":647
+},
+{
+   "cost":398000,
+   "needrolelevel":649,
+   "level":648
+},
+{
+   "cost":399000,
+   "needrolelevel":650,
+   "level":649
+},
+{
+   "cost":400000,
+   "needrolelevel":651,
+   "level":650
+},
+{
+   "cost":401000,
+   "needrolelevel":652,
+   "level":651
+},
+{
+   "cost":402000,
+   "needrolelevel":653,
+   "level":652
+},
+{
+   "cost":403000,
+   "needrolelevel":654,
+   "level":653
+},
+{
+   "cost":404000,
+   "needrolelevel":655,
+   "level":654
+},
+{
+   "cost":405000,
+   "needrolelevel":656,
+   "level":655
+},
+{
+   "cost":406000,
+   "needrolelevel":657,
+   "level":656
+},
+{
+   "cost":407000,
+   "needrolelevel":658,
+   "level":657
+},
+{
+   "cost":408000,
+   "needrolelevel":659,
+   "level":658
+},
+{
+   "cost":409000,
+   "needrolelevel":660,
+   "level":659
+},
+{
+   "cost":410000,
+   "needrolelevel":661,
+   "level":660
+},
+{
+   "cost":411000,
+   "needrolelevel":662,
+   "level":661
+},
+{
+   "cost":412000,
+   "needrolelevel":663,
+   "level":662
+},
+{
+   "cost":413000,
+   "needrolelevel":664,
+   "level":663
+},
+{
+   "cost":414000,
+   "needrolelevel":665,
+   "level":664
+},
+{
+   "cost":415000,
+   "needrolelevel":666,
+   "level":665
+},
+{
+   "cost":416000,
+   "needrolelevel":667,
+   "level":666
+},
+{
+   "cost":417000,
+   "needrolelevel":668,
+   "level":667
+},
+{
+   "cost":418000,
+   "needrolelevel":669,
+   "level":668
+},
+{
+   "cost":419000,
+   "needrolelevel":670,
+   "level":669
+},
+{
+   "cost":420000,
+   "needrolelevel":671,
+   "level":670
+},
+{
+   "cost":421000,
+   "needrolelevel":672,
+   "level":671
+},
+{
+   "cost":422000,
+   "needrolelevel":673,
+   "level":672
+},
+{
+   "cost":423000,
+   "needrolelevel":674,
+   "level":673
+},
+{
+   "cost":424000,
+   "needrolelevel":675,
+   "level":674
+},
+{
+   "cost":425000,
+   "needrolelevel":676,
+   "level":675
+},
+{
+   "cost":426000,
+   "needrolelevel":677,
+   "level":676
+},
+{
+   "cost":427000,
+   "needrolelevel":678,
+   "level":677
+},
+{
+   "cost":428000,
+   "needrolelevel":679,
+   "level":678
+},
+{
+   "cost":429000,
+   "needrolelevel":680,
+   "level":679
+},
+{
+   "cost":430000,
+   "needrolelevel":681,
+   "level":680
+},
+{
+   "cost":431000,
+   "needrolelevel":682,
+   "level":681
+},
+{
+   "cost":432000,
+   "needrolelevel":683,
+   "level":682
+},
+{
+   "cost":433000,
+   "needrolelevel":684,
+   "level":683
+},
+{
+   "cost":434000,
+   "needrolelevel":685,
+   "level":684
+},
+{
+   "cost":435000,
+   "needrolelevel":686,
+   "level":685
+},
+{
+   "cost":436000,
+   "needrolelevel":687,
+   "level":686
+},
+{
+   "cost":437000,
+   "needrolelevel":688,
+   "level":687
+},
+{
+   "cost":438000,
+   "needrolelevel":689,
+   "level":688
+},
+{
+   "cost":439000,
+   "needrolelevel":690,
+   "level":689
+},
+{
+   "cost":440000,
+   "needrolelevel":691,
+   "level":690
+},
+{
+   "cost":441000,
+   "needrolelevel":692,
+   "level":691
+},
+{
+   "cost":442000,
+   "needrolelevel":693,
+   "level":692
+},
+{
+   "cost":443000,
+   "needrolelevel":694,
+   "level":693
+},
+{
+   "cost":444000,
+   "needrolelevel":695,
+   "level":694
+},
+{
+   "cost":445000,
+   "needrolelevel":696,
+   "level":695
+},
+{
+   "cost":446000,
+   "needrolelevel":697,
+   "level":696
+},
+{
+   "cost":447000,
+   "needrolelevel":698,
+   "level":697
+},
+{
+   "cost":448000,
+   "needrolelevel":699,
+   "level":698
+},
+{
+   "cost":449000,
+   "needrolelevel":700,
+   "level":699
+},
+{
+   "cost":450000,
+   "needrolelevel":701,
+   "level":700
+},
+{
+   "cost":451000,
+   "needrolelevel":702,
+   "level":701
+},
+{
+   "cost":452000,
+   "needrolelevel":703,
+   "level":702
+},
+{
+   "cost":453000,
+   "needrolelevel":704,
+   "level":703
+},
+{
+   "cost":454000,
+   "needrolelevel":705,
+   "level":704
+},
+{
+   "cost":455000,
+   "needrolelevel":706,
+   "level":705
+},
+{
+   "cost":456000,
+   "needrolelevel":707,
+   "level":706
+},
+{
+   "cost":457000,
+   "needrolelevel":708,
+   "level":707
+},
+{
+   "cost":458000,
+   "needrolelevel":709,
+   "level":708
+},
+{
+   "cost":459000,
+   "needrolelevel":710,
+   "level":709
+},
+{
+   "cost":460000,
+   "needrolelevel":711,
+   "level":710
+},
+{
+   "cost":461000,
+   "needrolelevel":712,
+   "level":711
+},
+{
+   "cost":462000,
+   "needrolelevel":713,
+   "level":712
+},
+{
+   "cost":463000,
+   "needrolelevel":714,
+   "level":713
+},
+{
+   "cost":464000,
+   "needrolelevel":715,
+   "level":714
+},
+{
+   "cost":465000,
+   "needrolelevel":716,
+   "level":715
+},
+{
+   "cost":466000,
+   "needrolelevel":717,
+   "level":716
+},
+{
+   "cost":467000,
+   "needrolelevel":718,
+   "level":717
+},
+{
+   "cost":468000,
+   "needrolelevel":719,
+   "level":718
+},
+{
+   "cost":469000,
+   "needrolelevel":720,
+   "level":719
+},
+{
+   "cost":470000,
+   "needrolelevel":721,
+   "level":720
+},
+{
+   "cost":471000,
+   "needrolelevel":722,
+   "level":721
+},
+{
+   "cost":472000,
+   "needrolelevel":723,
+   "level":722
+},
+{
+   "cost":473000,
+   "needrolelevel":724,
+   "level":723
+},
+{
+   "cost":474000,
+   "needrolelevel":725,
+   "level":724
+},
+{
+   "cost":475000,
+   "needrolelevel":726,
+   "level":725
+},
+{
+   "cost":476000,
+   "needrolelevel":727,
+   "level":726
+},
+{
+   "cost":477000,
+   "needrolelevel":728,
+   "level":727
+},
+{
+   "cost":478000,
+   "needrolelevel":729,
+   "level":728
+},
+{
+   "cost":479000,
+   "needrolelevel":730,
+   "level":729
+},
+{
+   "cost":480000,
+   "needrolelevel":731,
+   "level":730
+},
+{
+   "cost":481000,
+   "needrolelevel":732,
+   "level":731
+},
+{
+   "cost":482000,
+   "needrolelevel":733,
+   "level":732
+},
+{
+   "cost":483000,
+   "needrolelevel":734,
+   "level":733
+},
+{
+   "cost":484000,
+   "needrolelevel":735,
+   "level":734
+},
+{
+   "cost":485000,
+   "needrolelevel":736,
+   "level":735
+},
+{
+   "cost":486000,
+   "needrolelevel":737,
+   "level":736
+},
+{
+   "cost":487000,
+   "needrolelevel":738,
+   "level":737
+},
+{
+   "cost":488000,
+   "needrolelevel":739,
+   "level":738
+},
+{
+   "cost":489000,
+   "needrolelevel":740,
+   "level":739
+},
+{
+   "cost":490000,
+   "needrolelevel":741,
+   "level":740
+},
+{
+   "cost":491000,
+   "needrolelevel":742,
+   "level":741
+},
+{
+   "cost":492000,
+   "needrolelevel":743,
+   "level":742
+},
+{
+   "cost":493000,
+   "needrolelevel":744,
+   "level":743
+},
+{
+   "cost":494000,
+   "needrolelevel":745,
+   "level":744
+},
+{
+   "cost":495000,
+   "needrolelevel":746,
+   "level":745
+},
+{
+   "cost":496000,
+   "needrolelevel":747,
+   "level":746
+},
+{
+   "cost":497000,
+   "needrolelevel":748,
+   "level":747
+},
+{
+   "cost":498000,
+   "needrolelevel":749,
+   "level":748
+},
+{
+   "cost":499000,
+   "needrolelevel":750,
+   "level":749
+},
+{
+   "cost":500000,
+   "needrolelevel":751,
+   "level":750
+},
+{
+   "cost":501000,
+   "needrolelevel":752,
+   "level":751
+},
+{
+   "cost":502000,
+   "needrolelevel":753,
+   "level":752
+},
+{
+   "cost":503000,
+   "needrolelevel":754,
+   "level":753
+},
+{
+   "cost":504000,
+   "needrolelevel":755,
+   "level":754
+},
+{
+   "cost":505000,
+   "needrolelevel":756,
+   "level":755
+},
+{
+   "cost":506000,
+   "needrolelevel":757,
+   "level":756
+},
+{
+   "cost":507000,
+   "needrolelevel":758,
+   "level":757
+},
+{
+   "cost":508000,
+   "needrolelevel":759,
+   "level":758
+},
+{
+   "cost":509000,
+   "needrolelevel":760,
+   "level":759
+},
+{
+   "cost":510000,
+   "needrolelevel":761,
+   "level":760
+},
+{
+   "cost":511000,
+   "needrolelevel":762,
+   "level":761
+},
+{
+   "cost":512000,
+   "needrolelevel":763,
+   "level":762
+},
+{
+   "cost":513000,
+   "needrolelevel":764,
+   "level":763
+},
+{
+   "cost":514000,
+   "needrolelevel":765,
+   "level":764
+},
+{
+   "cost":515000,
+   "needrolelevel":766,
+   "level":765
+},
+{
+   "cost":516000,
+   "needrolelevel":767,
+   "level":766
+},
+{
+   "cost":517000,
+   "needrolelevel":768,
+   "level":767
+},
+{
+   "cost":518000,
+   "needrolelevel":769,
+   "level":768
+},
+{
+   "cost":519000,
+   "needrolelevel":770,
+   "level":769
+},
+{
+   "cost":520000,
+   "needrolelevel":771,
+   "level":770
+},
+{
+   "cost":521000,
+   "needrolelevel":772,
+   "level":771
+},
+{
+   "cost":522000,
+   "needrolelevel":773,
+   "level":772
+},
+{
+   "cost":523000,
+   "needrolelevel":774,
+   "level":773
+},
+{
+   "cost":524000,
+   "needrolelevel":775,
+   "level":774
+},
+{
+   "cost":525000,
+   "needrolelevel":776,
+   "level":775
+},
+{
+   "cost":526000,
+   "needrolelevel":777,
+   "level":776
+},
+{
+   "cost":527000,
+   "needrolelevel":778,
+   "level":777
+},
+{
+   "cost":528000,
+   "needrolelevel":779,
+   "level":778
+},
+{
+   "cost":529000,
+   "needrolelevel":780,
+   "level":779
+},
+{
+   "cost":530000,
+   "needrolelevel":781,
+   "level":780
+},
+{
+   "cost":531000,
+   "needrolelevel":782,
+   "level":781
+},
+{
+   "cost":532000,
+   "needrolelevel":783,
+   "level":782
+},
+{
+   "cost":533000,
+   "needrolelevel":784,
+   "level":783
+},
+{
+   "cost":534000,
+   "needrolelevel":785,
+   "level":784
+},
+{
+   "cost":535000,
+   "needrolelevel":786,
+   "level":785
+},
+{
+   "cost":536000,
+   "needrolelevel":787,
+   "level":786
+},
+{
+   "cost":537000,
+   "needrolelevel":788,
+   "level":787
+},
+{
+   "cost":538000,
+   "needrolelevel":789,
+   "level":788
+},
+{
+   "cost":539000,
+   "needrolelevel":790,
+   "level":789
+},
+{
+   "cost":540000,
+   "needrolelevel":791,
+   "level":790
+},
+{
+   "cost":541000,
+   "needrolelevel":792,
+   "level":791
+},
+{
+   "cost":542000,
+   "needrolelevel":793,
+   "level":792
+},
+{
+   "cost":543000,
+   "needrolelevel":794,
+   "level":793
+},
+{
+   "cost":544000,
+   "needrolelevel":795,
+   "level":794
+},
+{
+   "cost":545000,
+   "needrolelevel":796,
+   "level":795
+},
+{
+   "cost":546000,
+   "needrolelevel":797,
+   "level":796
+},
+{
+   "cost":547000,
+   "needrolelevel":798,
+   "level":797
+},
+{
+   "cost":548000,
+   "needrolelevel":799,
+   "level":798
+},
+{
+   "cost":549000,
+   "needrolelevel":800,
+   "level":799
+},
+{
+   "cost":550000,
+   "needrolelevel":801,
+   "level":800
+},
+{
+   "cost":551000,
+   "needrolelevel":802,
+   "level":801
+},
+{
+   "cost":552000,
+   "needrolelevel":803,
+   "level":802
+},
+{
+   "cost":553000,
+   "needrolelevel":804,
+   "level":803
+},
+{
+   "cost":554000,
+   "needrolelevel":805,
+   "level":804
+},
+{
+   "cost":555000,
+   "needrolelevel":806,
+   "level":805
+},
+{
+   "cost":556000,
+   "needrolelevel":807,
+   "level":806
+},
+{
+   "cost":557000,
+   "needrolelevel":808,
+   "level":807
+},
+{
+   "cost":558000,
+   "needrolelevel":809,
+   "level":808
+},
+{
+   "cost":559000,
+   "needrolelevel":810,
+   "level":809
+},
+{
+   "cost":560000,
+   "needrolelevel":811,
+   "level":810
+},
+{
+   "cost":561000,
+   "needrolelevel":812,
+   "level":811
+},
+{
+   "cost":562000,
+   "needrolelevel":813,
+   "level":812
+},
+{
+   "cost":563000,
+   "needrolelevel":814,
+   "level":813
+},
+{
+   "cost":564000,
+   "needrolelevel":815,
+   "level":814
+},
+{
+   "cost":565000,
+   "needrolelevel":816,
+   "level":815
+},
+{
+   "cost":566000,
+   "needrolelevel":817,
+   "level":816
+},
+{
+   "cost":567000,
+   "needrolelevel":818,
+   "level":817
+},
+{
+   "cost":568000,
+   "needrolelevel":819,
+   "level":818
+},
+{
+   "cost":569000,
+   "needrolelevel":820,
+   "level":819
+},
+{
+   "cost":570000,
+   "needrolelevel":821,
+   "level":820
+},
+{
+   "cost":571000,
+   "needrolelevel":822,
+   "level":821
+},
+{
+   "cost":572000,
+   "needrolelevel":823,
+   "level":822
+},
+{
+   "cost":573000,
+   "needrolelevel":824,
+   "level":823
+},
+{
+   "cost":574000,
+   "needrolelevel":825,
+   "level":824
+},
+{
+   "cost":575000,
+   "needrolelevel":826,
+   "level":825
+},
+{
+   "cost":576000,
+   "needrolelevel":827,
+   "level":826
+},
+{
+   "cost":577000,
+   "needrolelevel":828,
+   "level":827
+},
+{
+   "cost":578000,
+   "needrolelevel":829,
+   "level":828
+},
+{
+   "cost":579000,
+   "needrolelevel":830,
+   "level":829
+},
+{
+   "cost":580000,
+   "needrolelevel":831,
+   "level":830
+},
+{
+   "cost":581000,
+   "needrolelevel":832,
+   "level":831
+},
+{
+   "cost":582000,
+   "needrolelevel":833,
+   "level":832
+},
+{
+   "cost":583000,
+   "needrolelevel":834,
+   "level":833
+},
+{
+   "cost":584000,
+   "needrolelevel":835,
+   "level":834
+},
+{
+   "cost":585000,
+   "needrolelevel":836,
+   "level":835
+},
+{
+   "cost":586000,
+   "needrolelevel":837,
+   "level":836
+},
+{
+   "cost":587000,
+   "needrolelevel":838,
+   "level":837
+},
+{
+   "cost":588000,
+   "needrolelevel":839,
+   "level":838
+},
+{
+   "cost":589000,
+   "needrolelevel":840,
+   "level":839
+},
+{
+   "cost":590000,
+   "needrolelevel":841,
+   "level":840
+},
+{
+   "cost":591000,
+   "needrolelevel":842,
+   "level":841
+},
+{
+   "cost":592000,
+   "needrolelevel":843,
+   "level":842
+},
+{
+   "cost":593000,
+   "needrolelevel":844,
+   "level":843
+},
+{
+   "cost":594000,
+   "needrolelevel":845,
+   "level":844
+},
+{
+   "cost":595000,
+   "needrolelevel":846,
+   "level":845
+},
+{
+   "cost":596000,
+   "needrolelevel":847,
+   "level":846
+},
+{
+   "cost":597000,
+   "needrolelevel":848,
+   "level":847
+},
+{
+   "cost":598000,
+   "needrolelevel":849,
+   "level":848
+},
+{
+   "cost":599000,
+   "needrolelevel":850,
+   "level":849
+},
+{
+   "cost":600000,
+   "needrolelevel":851,
+   "level":850
+},
+{
+   "cost":601000,
+   "needrolelevel":852,
+   "level":851
+},
+{
+   "cost":602000,
+   "needrolelevel":853,
+   "level":852
+},
+{
+   "cost":603000,
+   "needrolelevel":854,
+   "level":853
+},
+{
+   "cost":604000,
+   "needrolelevel":855,
+   "level":854
+},
+{
+   "cost":605000,
+   "needrolelevel":856,
+   "level":855
+},
+{
+   "cost":606000,
+   "needrolelevel":857,
+   "level":856
+},
+{
+   "cost":607000,
+   "needrolelevel":858,
+   "level":857
+},
+{
+   "cost":608000,
+   "needrolelevel":859,
+   "level":858
+},
+{
+   "cost":609000,
+   "needrolelevel":860,
+   "level":859
+},
+{
+   "cost":610000,
+   "needrolelevel":861,
+   "level":860
+},
+{
+   "cost":611000,
+   "needrolelevel":862,
+   "level":861
+},
+{
+   "cost":612000,
+   "needrolelevel":863,
+   "level":862
+},
+{
+   "cost":613000,
+   "needrolelevel":864,
+   "level":863
+},
+{
+   "cost":614000,
+   "needrolelevel":865,
+   "level":864
+},
+{
+   "cost":615000,
+   "needrolelevel":866,
+   "level":865
+},
+{
+   "cost":616000,
+   "needrolelevel":867,
+   "level":866
+},
+{
+   "cost":617000,
+   "needrolelevel":868,
+   "level":867
+},
+{
+   "cost":618000,
+   "needrolelevel":869,
+   "level":868
+},
+{
+   "cost":619000,
+   "needrolelevel":870,
+   "level":869
+},
+{
+   "cost":620000,
+   "needrolelevel":871,
+   "level":870
+},
+{
+   "cost":621000,
+   "needrolelevel":872,
+   "level":871
+},
+{
+   "cost":622000,
+   "needrolelevel":873,
+   "level":872
+},
+{
+   "cost":623000,
+   "needrolelevel":874,
+   "level":873
+},
+{
+   "cost":624000,
+   "needrolelevel":875,
+   "level":874
+},
+{
+   "cost":625000,
+   "needrolelevel":876,
+   "level":875
+},
+{
+   "cost":626000,
+   "needrolelevel":877,
+   "level":876
+},
+{
+   "cost":627000,
+   "needrolelevel":878,
+   "level":877
+},
+{
+   "cost":628000,
+   "needrolelevel":879,
+   "level":878
+},
+{
+   "cost":629000,
+   "needrolelevel":880,
+   "level":879
+},
+{
+   "cost":630000,
+   "needrolelevel":881,
+   "level":880
+},
+{
+   "cost":631000,
+   "needrolelevel":882,
+   "level":881
+},
+{
+   "cost":632000,
+   "needrolelevel":883,
+   "level":882
+},
+{
+   "cost":633000,
+   "needrolelevel":884,
+   "level":883
+},
+{
+   "cost":634000,
+   "needrolelevel":885,
+   "level":884
+},
+{
+   "cost":635000,
+   "needrolelevel":886,
+   "level":885
+},
+{
+   "cost":636000,
+   "needrolelevel":887,
+   "level":886
+},
+{
+   "cost":637000,
+   "needrolelevel":888,
+   "level":887
+},
+{
+   "cost":638000,
+   "needrolelevel":889,
+   "level":888
+},
+{
+   "cost":639000,
+   "needrolelevel":890,
+   "level":889
+},
+{
+   "cost":640000,
+   "needrolelevel":891,
+   "level":890
+},
+{
+   "cost":641000,
+   "needrolelevel":892,
+   "level":891
+},
+{
+   "cost":642000,
+   "needrolelevel":893,
+   "level":892
+},
+{
+   "cost":643000,
+   "needrolelevel":894,
+   "level":893
+},
+{
+   "cost":644000,
+   "needrolelevel":895,
+   "level":894
+},
+{
+   "cost":645000,
+   "needrolelevel":896,
+   "level":895
+},
+{
+   "cost":646000,
+   "needrolelevel":897,
+   "level":896
+},
+{
+   "cost":647000,
+   "needrolelevel":898,
+   "level":897
+},
+{
+   "cost":648000,
+   "needrolelevel":899,
+   "level":898
+},
+{
+   "cost":649000,
+   "needrolelevel":900,
+   "level":899
+},
+{
+   "cost":650000,
+   "needrolelevel":901,
+   "level":900
+},
+{
+   "cost":651000,
+   "needrolelevel":902,
+   "level":901
+},
+{
+   "cost":652000,
+   "needrolelevel":903,
+   "level":902
+},
+{
+   "cost":653000,
+   "needrolelevel":904,
+   "level":903
+},
+{
+   "cost":654000,
+   "needrolelevel":905,
+   "level":904
+},
+{
+   "cost":655000,
+   "needrolelevel":906,
+   "level":905
+},
+{
+   "cost":656000,
+   "needrolelevel":907,
+   "level":906
+},
+{
+   "cost":657000,
+   "needrolelevel":908,
+   "level":907
+},
+{
+   "cost":658000,
+   "needrolelevel":909,
+   "level":908
+},
+{
+   "cost":659000,
+   "needrolelevel":910,
+   "level":909
+},
+{
+   "cost":660000,
+   "needrolelevel":911,
+   "level":910
+},
+{
+   "cost":661000,
+   "needrolelevel":912,
+   "level":911
+},
+{
+   "cost":662000,
+   "needrolelevel":913,
+   "level":912
+},
+{
+   "cost":663000,
+   "needrolelevel":914,
+   "level":913
+},
+{
+   "cost":664000,
+   "needrolelevel":915,
+   "level":914
+},
+{
+   "cost":665000,
+   "needrolelevel":916,
+   "level":915
+},
+{
+   "cost":666000,
+   "needrolelevel":917,
+   "level":916
+},
+{
+   "cost":667000,
+   "needrolelevel":918,
+   "level":917
+},
+{
+   "cost":668000,
+   "needrolelevel":919,
+   "level":918
+},
+{
+   "cost":669000,
+   "needrolelevel":920,
+   "level":919
+},
+{
+   "cost":670000,
+   "needrolelevel":921,
+   "level":920
+},
+{
+   "cost":671000,
+   "needrolelevel":922,
+   "level":921
+},
+{
+   "cost":672000,
+   "needrolelevel":923,
+   "level":922
+},
+{
+   "cost":673000,
+   "needrolelevel":924,
+   "level":923
+},
+{
+   "cost":674000,
+   "needrolelevel":925,
+   "level":924
+},
+{
+   "cost":675000,
+   "needrolelevel":926,
+   "level":925
+},
+{
+   "cost":676000,
+   "needrolelevel":927,
+   "level":926
+},
+{
+   "cost":677000,
+   "needrolelevel":928,
+   "level":927
+},
+{
+   "cost":678000,
+   "needrolelevel":929,
+   "level":928
+},
+{
+   "cost":679000,
+   "needrolelevel":930,
+   "level":929
+},
+{
+   "cost":680000,
+   "needrolelevel":931,
+   "level":930
+},
+{
+   "cost":681000,
+   "needrolelevel":932,
+   "level":931
+},
+{
+   "cost":682000,
+   "needrolelevel":933,
+   "level":932
+},
+{
+   "cost":683000,
+   "needrolelevel":934,
+   "level":933
+},
+{
+   "cost":684000,
+   "needrolelevel":935,
+   "level":934
+},
+{
+   "cost":685000,
+   "needrolelevel":936,
+   "level":935
+},
+{
+   "cost":686000,
+   "needrolelevel":937,
+   "level":936
+},
+{
+   "cost":687000,
+   "needrolelevel":938,
+   "level":937
+},
+{
+   "cost":688000,
+   "needrolelevel":939,
+   "level":938
+},
+{
+   "cost":689000,
+   "needrolelevel":940,
+   "level":939
+},
+{
+   "cost":690000,
+   "needrolelevel":941,
+   "level":940
+},
+{
+   "cost":691000,
+   "needrolelevel":942,
+   "level":941
+},
+{
+   "cost":692000,
+   "needrolelevel":943,
+   "level":942
+},
+{
+   "cost":693000,
+   "needrolelevel":944,
+   "level":943
+},
+{
+   "cost":694000,
+   "needrolelevel":945,
+   "level":944
+},
+{
+   "cost":695000,
+   "needrolelevel":946,
+   "level":945
+},
+{
+   "cost":696000,
+   "needrolelevel":947,
+   "level":946
+},
+{
+   "cost":697000,
+   "needrolelevel":948,
+   "level":947
+},
+{
+   "cost":698000,
+   "needrolelevel":949,
+   "level":948
+},
+{
+   "cost":699000,
+   "needrolelevel":950,
+   "level":949
+},
+{
+   "cost":700000,
+   "needrolelevel":951,
+   "level":950
+},
+{
+   "cost":701000,
+   "needrolelevel":952,
+   "level":951
+},
+{
+   "cost":702000,
+   "needrolelevel":953,
+   "level":952
+},
+{
+   "cost":703000,
+   "needrolelevel":954,
+   "level":953
+},
+{
+   "cost":704000,
+   "needrolelevel":955,
+   "level":954
+},
+{
+   "cost":705000,
+   "needrolelevel":956,
+   "level":955
+},
+{
+   "cost":706000,
+   "needrolelevel":957,
+   "level":956
+},
+{
+   "cost":707000,
+   "needrolelevel":958,
+   "level":957
+},
+{
+   "cost":708000,
+   "needrolelevel":959,
+   "level":958
+},
+{
+   "cost":709000,
+   "needrolelevel":960,
+   "level":959
+},
+{
+   "cost":710000,
+   "needrolelevel":961,
+   "level":960
+},
+{
+   "cost":711000,
+   "needrolelevel":962,
+   "level":961
+},
+{
+   "cost":712000,
+   "needrolelevel":963,
+   "level":962
+},
+{
+   "cost":713000,
+   "needrolelevel":964,
+   "level":963
+},
+{
+   "cost":714000,
+   "needrolelevel":965,
+   "level":964
+},
+{
+   "cost":715000,
+   "needrolelevel":966,
+   "level":965
+},
+{
+   "cost":716000,
+   "needrolelevel":967,
+   "level":966
+},
+{
+   "cost":717000,
+   "needrolelevel":968,
+   "level":967
+},
+{
+   "cost":718000,
+   "needrolelevel":969,
+   "level":968
+},
+{
+   "cost":719000,
+   "needrolelevel":970,
+   "level":969
+},
+{
+   "cost":720000,
+   "needrolelevel":971,
+   "level":970
+},
+{
+   "cost":721000,
+   "needrolelevel":972,
+   "level":971
+},
+{
+   "cost":722000,
+   "needrolelevel":973,
+   "level":972
+},
+{
+   "cost":723000,
+   "needrolelevel":974,
+   "level":973
+},
+{
+   "cost":724000,
+   "needrolelevel":975,
+   "level":974
+},
+{
+   "cost":725000,
+   "needrolelevel":976,
+   "level":975
+},
+{
+   "cost":726000,
+   "needrolelevel":977,
+   "level":976
+},
+{
+   "cost":727000,
+   "needrolelevel":978,
+   "level":977
+},
+{
+   "cost":728000,
+   "needrolelevel":979,
+   "level":978
+},
+{
+   "cost":729000,
+   "needrolelevel":980,
+   "level":979
+},
+{
+   "cost":730000,
+   "needrolelevel":981,
+   "level":980
+},
+{
+   "cost":731000,
+   "needrolelevel":982,
+   "level":981
+},
+{
+   "cost":732000,
+   "needrolelevel":983,
+   "level":982
+},
+{
+   "cost":733000,
+   "needrolelevel":984,
+   "level":983
+},
+{
+   "cost":734000,
+   "needrolelevel":985,
+   "level":984
+},
+{
+   "cost":735000,
+   "needrolelevel":986,
+   "level":985
+},
+{
+   "cost":736000,
+   "needrolelevel":987,
+   "level":986
+},
+{
+   "cost":737000,
+   "needrolelevel":988,
+   "level":987
+},
+{
+   "cost":738000,
+   "needrolelevel":989,
+   "level":988
+},
+{
+   "cost":739000,
+   "needrolelevel":990,
+   "level":989
+},
+{
+   "cost":740000,
+   "needrolelevel":991,
+   "level":990
+},
+{
+   "cost":741000,
+   "needrolelevel":992,
+   "level":991
+},
+{
+   "cost":742000,
+   "needrolelevel":993,
+   "level":992
+},
+{
+   "cost":743000,
+   "needrolelevel":994,
+   "level":993
+},
+{
+   "cost":744000,
+   "needrolelevel":995,
+   "level":994
+},
+{
+   "cost":745000,
+   "needrolelevel":996,
+   "level":995
+},
+{
+   "cost":746000,
+   "needrolelevel":997,
+   "level":996
+},
+{
+   "cost":747000,
+   "needrolelevel":998,
+   "level":997
+},
+{
+   "cost":748000,
+   "needrolelevel":999,
+   "level":998
+},
+{
+   "cost":749000,
+   "needrolelevel":1000,
+   "level":999
+},
+{
+   "cost":750000,
+   "needrolelevel":1001,
+   "level":1000
+}]

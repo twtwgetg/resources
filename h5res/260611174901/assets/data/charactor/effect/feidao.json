@@ -1,0 +1,22 @@
+{"mc":{
+	"moban":{
+		"frameRate":8,
+		"labels":[
+			{"name":"stand_0","frame":1,"end":1}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"feidao",
+			"x":-4,
+			"y":-14
+			}
+			]
+}},
+	"res":{
+		"feidao":{"x":1,"y":1,"w":9,"h":42}
+	}}

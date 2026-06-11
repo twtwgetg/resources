@@ -1,0 +1,22 @@
+{"mc":{
+	"moban":{
+		"frameRate":6,
+		"labels":[
+			{"name":"jm_0","frame":1,"end":1}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"jiemian(65)",
+			"x":-93,
+			"y":-469
+			}
+			]
+}},
+	"res":{
+		"jiemian(65)":{"x":1,"y":1,"w":173,"h":503}
+	}}

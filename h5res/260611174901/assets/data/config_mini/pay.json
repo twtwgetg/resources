@@ -1,0 +1,90 @@
+[{
+   "order":1,
+   "multiplenum":null,
+   "multiple":null,
+   "paylimit":null,
+   "desc":"立享300\n每日领取150\n领取豪华首充礼包",
+   "iconid":null,
+   "rmblimit":6,
+   "type":1
+},
+{
+   "order":2,
+   "multiplenum":null,
+   "multiple":null,
+   "paylimit":null,
+   "desc":"立享1500\n每日领取300\n铜钱经验收益+20%",
+   "iconid":null,
+   "rmblimit":30,
+   "type":1
+},
+{
+   "order":3,
+   "multiplenum":null,
+   "multiple":null,
+   "paylimit":null,
+   "desc":"立享9900\n每日领取500\n铜钱经验收益+30%",
+   "iconid":null,
+   "rmblimit":198,
+   "type":1
+},
+{
+   "order":4,
+   "multiplenum":1,
+   "multiple":5,
+   "paylimit":60,
+   "desc":"",
+   "iconid":9002,
+   "rmblimit":6,
+   "type":2
+},
+{
+   "order":5,
+   "multiplenum":1,
+   "multiple":5,
+   "paylimit":450,
+   "desc":"",
+   "iconid":9004,
+   "rmblimit":45,
+   "type":2
+},
+{
+   "order":6,
+   "multiplenum":1,
+   "multiple":5,
+   "paylimit":980,
+   "desc":"",
+   "iconid":9005,
+   "rmblimit":98,
+   "type":2
+},
+{
+   "order":7,
+   "multiplenum":1,
+   "multiple":5,
+   "paylimit":1980,
+   "desc":"",
+   "iconid":9006,
+   "rmblimit":198,
+   "type":2
+},
+{
+   "order":8,
+   "multiplenum":1,
+   "multiple":1,
+   "paylimit":3280,
+   "desc":"",
+   "iconid":9008,
+   "rmblimit":328,
+   "type":2
+},
+{
+   "order":9,
+   "multiplenum":1,
+   "multiple":1,
+   "paylimit":6480,
+   "desc":"",
+   "iconid":9009,
+   "rmblimit":648,
+   "type":2
+}]
