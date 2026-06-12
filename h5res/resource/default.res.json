@@ -428,27 +428,27 @@
 			"subkeys": "UIPic_511,XunBao_011,XunBao_021,com_back_power1,kaichang01,kaichang02,kaichang03,kaichang04,kaichang05,kaichang06,kaichang07,kaichang08"
 		},
 		{
-			"url": "assets/data/charactor/ui/itemicon/daoju_linghu.png",
+			"url": "assets/data/character/ui/itemicon/daoju_linghu.png",
 			"type": "image",
 			"name": "daoju_linghu_png"
 		},
 		{
-			"url": "assets/data/charactor/ui/itemicon/daoju_chibang2.png",
+			"url": "assets/data/character/ui/itemicon/daoju_chibang2.png",
 			"type": "image",
 			"name": "daoju_chibang2_png"
 		},
 		{
-			"url": "assets/data/charactor/ui/itemicon/daoju_chibang3.png",
+			"url": "assets/data/character/ui/itemicon/daoju_chibang3.png",
 			"type": "image",
 			"name": "daoju_chibang3_png"
 		},
 		{
-			"url": "assets/data/charactor/ui/itemicon/daojuicon_pic34.png",
+			"url": "assets/data/character/ui/itemicon/daojuicon_pic34.png",
 			"type": "image",
 			"name": "daojuicon_pic34_png"
 		},
 		{
-			"url": "assets/data/charactor/ui/itemicon/daojuicon_pic35.png",
+			"url": "assets/data/character/ui/itemicon/daojuicon_pic35.png",
 			"type": "image",
 			"name": "daojuicon_pic35_png"
 		},

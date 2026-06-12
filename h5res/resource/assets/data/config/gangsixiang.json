@@ -1,6 +1,6 @@
 [{
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:0,12:0",
    "jiecount":1,
    "needitems":"1048:12",
@@ -10,7 +10,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:198,12:197",
    "jiecount":1,
    "needitems":"1048:12",
@@ -20,7 +20,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:396,12:394",
    "jiecount":1,
    "needitems":"1048:12",
@@ -30,7 +30,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:594,12:591",
    "jiecount":1,
    "needitems":"1048:12",
@@ -40,7 +40,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:792,12:788",
    "jiecount":1,
    "needitems":"1048:12",
@@ -50,7 +50,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:990,12:985",
    "jiecount":1,
    "needitems":"1048:15",
@@ -60,7 +60,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:1238,12:1233",
    "jiecount":1,
    "needitems":"1048:15",
@@ -70,7 +70,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:1486,12:1481",
    "jiecount":1,
    "needitems":"1048:15",
@@ -80,7 +80,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:1734,12:1729",
    "jiecount":1,
    "needitems":"1048:15",
@@ -90,7 +90,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:1982,12:1977",
    "jiecount":1,
    "needitems":"1048:15",
@@ -100,7 +100,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:2230,12:2225",
    "jiecount":1,
    "needitems":"1048:20",
@@ -110,7 +110,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:2561,12:2555",
    "jiecount":2,
    "needitems":"1048:20",
@@ -120,7 +120,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:2892,12:2885",
    "jiecount":2,
    "needitems":"1048:20",
@@ -130,7 +130,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:3223,12:3215",
    "jiecount":2,
    "needitems":"1048:20",
@@ -140,7 +140,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:3554,12:3545",
    "jiecount":2,
    "needitems":"1048:20",
@@ -150,7 +150,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:3885,12:3875",
    "jiecount":2,
    "needitems":"1048:25",
@@ -160,7 +160,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:4298,12:4287",
    "jiecount":2,
    "needitems":"1048:25",
@@ -170,7 +170,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:4711,12:4699",
    "jiecount":2,
    "needitems":"1048:25",
@@ -180,7 +180,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:5124,12:5111",
    "jiecount":2,
    "needitems":"1048:25",
@@ -190,7 +190,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:5537,12:5523",
    "jiecount":2,
    "needitems":"1048:25",
@@ -200,7 +200,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:5950,12:5935",
    "jiecount":2,
    "needitems":"1048:30",
@@ -210,7 +210,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:6446,12:6431",
    "jiecount":3,
    "needitems":"1048:30",
@@ -220,7 +220,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:6942,12:6927",
    "jiecount":3,
    "needitems":"1048:30",
@@ -230,7 +230,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:7438,12:7423",
    "jiecount":3,
    "needitems":"1048:30",
@@ -240,7 +240,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:7934,12:7919",
    "jiecount":3,
    "needitems":"1048:30",
@@ -250,7 +250,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:8430,12:8415",
    "jiecount":3,
    "needitems":"1048:35",
@@ -260,7 +260,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:9008,12:8992",
    "jiecount":3,
    "needitems":"1048:35",
@@ -270,7 +270,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:9586,12:9569",
    "jiecount":3,
    "needitems":"1048:35",
@@ -280,7 +280,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:10164,12:10146",
    "jiecount":3,
    "needitems":"1048:35",
@@ -290,7 +290,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:10742,12:10723",
    "jiecount":3,
    "needitems":"1048:35",
@@ -300,7 +300,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:11320,12:11300",
    "jiecount":3,
    "needitems":"1048:40",
@@ -310,7 +310,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:11981,12:11960",
    "jiecount":4,
    "needitems":"1048:40",
@@ -320,7 +320,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:12642,12:12620",
    "jiecount":4,
    "needitems":"1048:40",
@@ -330,7 +330,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:13303,12:13280",
    "jiecount":4,
    "needitems":"1048:40",
@@ -340,7 +340,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:13964,12:13940",
    "jiecount":4,
    "needitems":"1048:40",
@@ -350,7 +350,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:14625,12:14600",
    "jiecount":4,
    "needitems":"1048:40",
@@ -360,7 +360,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:15286,12:15260",
    "jiecount":4,
    "needitems":"1048:40",
@@ -370,7 +370,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:15947,12:15920",
    "jiecount":4,
    "needitems":"1048:40",
@@ -380,7 +380,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:16608,12:16580",
    "jiecount":4,
    "needitems":"1048:40",
@@ -390,7 +390,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:17269,12:17240",
    "jiecount":4,
    "needitems":"1048:40",
@@ -400,7 +400,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:17930,12:17900",
    "jiecount":4,
    "needitems":"1048:50",
@@ -410,7 +410,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:18756,12:18726",
    "jiecount":5,
    "needitems":"1048:50",
@@ -420,7 +420,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:19582,12:19552",
    "jiecount":5,
    "needitems":"1048:50",
@@ -430,7 +430,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:20408,12:20378",
    "jiecount":5,
    "needitems":"1048:50",
@@ -440,7 +440,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:21234,12:21204",
    "jiecount":5,
    "needitems":"1048:50",
@@ -450,7 +450,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:22060,12:22030",
    "jiecount":5,
    "needitems":"1048:50",
@@ -460,7 +460,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:22886,12:22856",
    "jiecount":5,
    "needitems":"1048:50",
@@ -470,7 +470,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:23712,12:23682",
    "jiecount":5,
    "needitems":"1048:50",
@@ -480,7 +480,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:24538,12:24508",
    "jiecount":5,
    "needitems":"1048:50",
@@ -490,7 +490,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:25364,12:25334",
    "jiecount":5,
    "needitems":"1048:50",
@@ -500,7 +500,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:26190,12:26160",
    "jiecount":5,
    "needitems":"1048:60",
@@ -510,7 +510,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:27182,12:27152",
    "jiecount":6,
    "needitems":"1048:60",
@@ -520,7 +520,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:28174,12:28144",
    "jiecount":6,
    "needitems":"1048:60",
@@ -530,7 +530,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:29166,12:29136",
    "jiecount":6,
    "needitems":"1048:60",
@@ -540,7 +540,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:30158,12:30128",
    "jiecount":6,
    "needitems":"1048:60",
@@ -550,7 +550,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:31150,12:31120",
    "jiecount":6,
    "needitems":"1048:60",
@@ -560,7 +560,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:32142,12:32112",
    "jiecount":6,
    "needitems":"1048:60",
@@ -570,7 +570,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:33134,12:33104",
    "jiecount":6,
    "needitems":"1048:60",
@@ -580,7 +580,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:34126,12:34096",
    "jiecount":6,
    "needitems":"1048:60",
@@ -590,7 +590,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:35118,12:35088",
    "jiecount":6,
    "needitems":"1048:60",
@@ -600,7 +600,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:36110,12:36080",
    "jiecount":6,
    "needitems":"1048:60",
@@ -610,7 +610,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:37102,12:37072",
    "jiecount":7,
    "needitems":"1048:70",
@@ -620,7 +620,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:38259,12:38228",
    "jiecount":7,
    "needitems":"1048:70",
@@ -630,7 +630,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:39416,12:39384",
    "jiecount":7,
    "needitems":"1048:70",
@@ -640,7 +640,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:40573,12:40540",
    "jiecount":7,
    "needitems":"1048:70",
@@ -650,7 +650,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:41730,12:41696",
    "jiecount":7,
    "needitems":"1048:70",
@@ -660,7 +660,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:42887,12:42852",
    "jiecount":7,
    "needitems":"1048:70",
@@ -670,7 +670,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:44044,12:44008",
    "jiecount":7,
    "needitems":"1048:70",
@@ -680,7 +680,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:45201,12:45164",
    "jiecount":7,
    "needitems":"1048:70",
@@ -690,7 +690,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:46358,12:46320",
    "jiecount":7,
    "needitems":"1048:70",
@@ -700,7 +700,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:47515,12:47476",
    "jiecount":7,
    "needitems":"1048:80",
@@ -710,7 +710,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:48837,12:48798",
    "jiecount":8,
    "needitems":"1048:80",
@@ -720,7 +720,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:50159,12:50120",
    "jiecount":8,
    "needitems":"1048:80",
@@ -730,7 +730,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:51481,12:51442",
    "jiecount":8,
    "needitems":"1048:80",
@@ -740,7 +740,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:52803,12:52764",
    "jiecount":8,
    "needitems":"1048:80",
@@ -750,7 +750,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:54125,12:54086",
    "jiecount":8,
    "needitems":"1048:80",
@@ -760,7 +760,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:55447,12:55408",
    "jiecount":8,
    "needitems":"1048:80",
@@ -770,7 +770,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:56769,12:56730",
    "jiecount":8,
    "needitems":"1048:80",
@@ -780,7 +780,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:58091,12:58052",
    "jiecount":8,
    "needitems":"1048:80",
@@ -790,7 +790,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:59413,12:59374",
    "jiecount":8,
    "needitems":"1048:80",
@@ -800,7 +800,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:60735,12:60696",
    "jiecount":8,
    "needitems":"1048:90",
@@ -810,7 +810,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:62222,12:62182",
    "jiecount":9,
    "needitems":"1048:90",
@@ -820,7 +820,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:63709,12:63668",
    "jiecount":9,
    "needitems":"1048:90",
@@ -830,7 +830,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:65196,12:65154",
    "jiecount":9,
    "needitems":"1048:90",
@@ -840,7 +840,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:66683,12:66640",
    "jiecount":9,
    "needitems":"1048:90",
@@ -850,7 +850,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:68170,12:68126",
    "jiecount":9,
    "needitems":"1048:90",
@@ -860,7 +860,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:69657,12:69612",
    "jiecount":9,
    "needitems":"1048:90",
@@ -870,7 +870,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:71144,12:71098",
    "jiecount":9,
    "needitems":"1048:90",
@@ -880,7 +880,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:72631,12:72584",
    "jiecount":9,
    "needitems":"1048:90",
@@ -890,7 +890,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:74118,12:74070",
    "jiecount":9,
    "needitems":"1048:90",
@@ -900,7 +900,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:75605,12:75556",
    "jiecount":9,
    "needitems":"1048:100",
@@ -910,7 +910,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:77258,12:77209",
    "jiecount":10,
    "needitems":"1048:100",
@@ -920,7 +920,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:78911,12:78862",
    "jiecount":10,
    "needitems":"1048:100",
@@ -930,7 +930,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:80564,12:80515",
    "jiecount":10,
    "needitems":"1048:100",
@@ -940,7 +940,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:82217,12:82168",
    "jiecount":10,
    "needitems":"1048:100",
@@ -950,7 +950,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:83870,12:83821",
    "jiecount":10,
    "needitems":"1048:100",
@@ -960,7 +960,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:85523,12:85474",
    "jiecount":10,
    "needitems":"1048:100",
@@ -970,7 +970,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:87176,12:87127",
    "jiecount":10,
    "needitems":"1048:100",
@@ -980,7 +980,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:88829,12:88780",
    "jiecount":10,
    "needitems":"1048:100",
@@ -990,7 +990,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:90482,12:90433",
    "jiecount":10,
    "needitems":"1048:100",
@@ -1000,7 +1000,7 @@
 },
 {
    "id":1,
-   "icon":"charactor/ui/sixiang/qinglong_icon.png",
+   "icon":"character/ui/sixiang/qinglong_icon.png",
    "prop":"0:92135,12:92086",
    "jiecount":10,
    "needitems":"",
@@ -1010,7 +1010,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:0,13:0",
    "jiecount":1,
    "needitems":"1049:12",
@@ -1020,7 +1020,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:992,13:197",
    "jiecount":1,
    "needitems":"1049:12",
@@ -1030,7 +1030,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:1984,13:394",
    "jiecount":1,
    "needitems":"1049:12",
@@ -1040,7 +1040,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:2976,13:591",
    "jiecount":1,
    "needitems":"1049:12",
@@ -1050,7 +1050,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:3968,13:788",
    "jiecount":1,
    "needitems":"1049:12",
@@ -1060,7 +1060,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:4960,13:985",
    "jiecount":1,
    "needitems":"1049:15",
@@ -1070,7 +1070,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:6200,13:1233",
    "jiecount":1,
    "needitems":"1049:15",
@@ -1080,7 +1080,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:7440,13:1481",
    "jiecount":1,
    "needitems":"1049:15",
@@ -1090,7 +1090,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:8680,13:1729",
    "jiecount":1,
    "needitems":"1049:15",
@@ -1100,7 +1100,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:9920,13:1977",
    "jiecount":1,
    "needitems":"1049:15",
@@ -1110,7 +1110,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:11160,13:2225",
    "jiecount":1,
    "needitems":"1049:20",
@@ -1120,7 +1120,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:12813,13:2555",
    "jiecount":2,
    "needitems":"1049:20",
@@ -1130,7 +1130,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:14466,13:2885",
    "jiecount":2,
    "needitems":"1049:20",
@@ -1140,7 +1140,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:16119,13:3215",
    "jiecount":2,
    "needitems":"1049:20",
@@ -1150,7 +1150,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:17772,13:3545",
    "jiecount":2,
    "needitems":"1049:20",
@@ -1160,7 +1160,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:19425,13:3875",
    "jiecount":2,
    "needitems":"1049:25",
@@ -1170,7 +1170,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:21491,13:4287",
    "jiecount":2,
    "needitems":"1049:25",
@@ -1180,7 +1180,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:23557,13:4699",
    "jiecount":2,
    "needitems":"1049:25",
@@ -1190,7 +1190,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:25623,13:5111",
    "jiecount":2,
    "needitems":"1049:25",
@@ -1200,7 +1200,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:27689,13:5523",
    "jiecount":2,
    "needitems":"1049:25",
@@ -1210,7 +1210,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:29755,13:5935",
    "jiecount":2,
    "needitems":"1049:30",
@@ -1220,7 +1220,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:32234,13:6431",
    "jiecount":3,
    "needitems":"1049:30",
@@ -1230,7 +1230,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:34713,13:6927",
    "jiecount":3,
    "needitems":"1049:30",
@@ -1240,7 +1240,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:37192,13:7423",
    "jiecount":3,
    "needitems":"1049:30",
@@ -1250,7 +1250,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:39671,13:7919",
    "jiecount":3,
    "needitems":"1049:30",
@@ -1260,7 +1260,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:42150,13:8415",
    "jiecount":3,
    "needitems":"1049:35",
@@ -1270,7 +1270,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:45042,13:8992",
    "jiecount":3,
    "needitems":"1049:35",
@@ -1280,7 +1280,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:47934,13:9569",
    "jiecount":3,
    "needitems":"1049:35",
@@ -1290,7 +1290,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:50826,13:10146",
    "jiecount":3,
    "needitems":"1049:35",
@@ -1300,7 +1300,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:53718,13:10723",
    "jiecount":3,
    "needitems":"1049:35",
@@ -1310,7 +1310,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:56610,13:11300",
    "jiecount":3,
    "needitems":"1049:40",
@@ -1320,7 +1320,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:59915,13:11960",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1330,7 +1330,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:63220,13:12620",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1340,7 +1340,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:66525,13:13280",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1350,7 +1350,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:69830,13:13940",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1360,7 +1360,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:73135,13:14600",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1370,7 +1370,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:76440,13:15260",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1380,7 +1380,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:79745,13:15920",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1390,7 +1390,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:83050,13:16580",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1400,7 +1400,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:86355,13:17240",
    "jiecount":4,
    "needitems":"1049:40",
@@ -1410,7 +1410,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:89660,13:17900",
    "jiecount":4,
    "needitems":"1049:50",
@@ -1420,7 +1420,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:93791,13:18726",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1430,7 +1430,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:97922,13:19552",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1440,7 +1440,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:102053,13:20378",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1450,7 +1450,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:106184,13:21204",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1460,7 +1460,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:110315,13:22030",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1470,7 +1470,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:114446,13:22856",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1480,7 +1480,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:118577,13:23682",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1490,7 +1490,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:122708,13:24508",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1500,7 +1500,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:126839,13:25334",
    "jiecount":5,
    "needitems":"1049:50",
@@ -1510,7 +1510,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:130970,13:26160",
    "jiecount":5,
    "needitems":"1049:60",
@@ -1520,7 +1520,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:135928,13:27152",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1530,7 +1530,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:140886,13:28144",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1540,7 +1540,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:145844,13:29136",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1550,7 +1550,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:150802,13:30128",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1560,7 +1560,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:155760,13:31120",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1570,7 +1570,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:160718,13:32112",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1580,7 +1580,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:165676,13:33104",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1590,7 +1590,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:170634,13:34096",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1600,7 +1600,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:175592,13:35088",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1610,7 +1610,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:180550,13:36080",
    "jiecount":6,
    "needitems":"1049:60",
@@ -1620,7 +1620,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:185508,13:37072",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1630,7 +1630,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:191292,13:38228",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1640,7 +1640,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:197076,13:39384",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1650,7 +1650,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:202860,13:40540",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1660,7 +1660,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:208644,13:41696",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1670,7 +1670,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:214428,13:42852",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1680,7 +1680,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:220212,13:44008",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1690,7 +1690,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:225996,13:45164",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1700,7 +1700,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:231780,13:46320",
    "jiecount":7,
    "needitems":"1049:70",
@@ -1710,7 +1710,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:237564,13:47476",
    "jiecount":7,
    "needitems":"1049:80",
@@ -1720,7 +1720,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:244174,13:48798",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1730,7 +1730,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:250784,13:50120",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1740,7 +1740,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:257394,13:51442",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1750,7 +1750,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:264004,13:52764",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1760,7 +1760,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:270614,13:54086",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1770,7 +1770,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:277224,13:55408",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1780,7 +1780,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:283834,13:56730",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1790,7 +1790,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:290444,13:58052",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1800,7 +1800,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:297054,13:59374",
    "jiecount":8,
    "needitems":"1049:80",
@@ -1810,7 +1810,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:303664,13:60696",
    "jiecount":8,
    "needitems":"1049:90",
@@ -1820,7 +1820,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:311100,13:62182",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1830,7 +1830,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:318536,13:63668",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1840,7 +1840,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:325972,13:65154",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1850,7 +1850,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:333408,13:66640",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1860,7 +1860,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:340844,13:68126",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1870,7 +1870,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:348280,13:69612",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1880,7 +1880,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:355716,13:71098",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1890,7 +1890,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:363152,13:72584",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1900,7 +1900,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:370588,13:74070",
    "jiecount":9,
    "needitems":"1049:90",
@@ -1910,7 +1910,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:378024,13:75556",
    "jiecount":9,
    "needitems":"1049:100",
@@ -1920,7 +1920,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:386287,13:77209",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1930,7 +1930,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:394550,13:78862",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1940,7 +1940,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:402813,13:80515",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1950,7 +1950,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:411076,13:82168",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1960,7 +1960,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:419339,13:83821",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1970,7 +1970,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:427602,13:85474",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1980,7 +1980,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:435865,13:87127",
    "jiecount":10,
    "needitems":"1049:100",
@@ -1990,7 +1990,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:444128,13:88780",
    "jiecount":10,
    "needitems":"1049:100",
@@ -2000,7 +2000,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:452391,13:90433",
    "jiecount":10,
    "needitems":"1049:100",
@@ -2010,7 +2010,7 @@
 },
 {
    "id":2,
-   "icon":"charactor/ui/sixiang/baihu_icon.png",
+   "icon":"character/ui/sixiang/baihu_icon.png",
    "prop":"6:460654,13:92086",
    "jiecount":10,
    "needitems":"",
@@ -2020,7 +2020,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:0,8:0",
    "jiecount":1,
    "needitems":"1050:12",
@@ -2030,7 +2030,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:398,8:197",
    "jiecount":1,
    "needitems":"1050:12",
@@ -2040,7 +2040,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:796,8:394",
    "jiecount":1,
    "needitems":"1050:12",
@@ -2050,7 +2050,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:1194,8:591",
    "jiecount":1,
    "needitems":"1050:12",
@@ -2060,7 +2060,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:1592,8:788",
    "jiecount":1,
    "needitems":"1050:12",
@@ -2070,7 +2070,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:1990,8:985",
    "jiecount":1,
    "needitems":"1050:15",
@@ -2080,7 +2080,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:2486,8:1233",
    "jiecount":1,
    "needitems":"1050:15",
@@ -2090,7 +2090,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:2982,8:1481",
    "jiecount":1,
    "needitems":"1050:15",
@@ -2100,7 +2100,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:3478,8:1729",
    "jiecount":1,
    "needitems":"1050:15",
@@ -2110,7 +2110,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:3974,8:1977",
    "jiecount":1,
    "needitems":"1050:15",
@@ -2120,7 +2120,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:4470,8:2225",
    "jiecount":1,
    "needitems":"1050:20",
@@ -2130,7 +2130,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:5131,8:2555",
    "jiecount":2,
    "needitems":"1050:20",
@@ -2140,7 +2140,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:5792,8:2885",
    "jiecount":2,
    "needitems":"1050:20",
@@ -2150,7 +2150,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:6453,8:3215",
    "jiecount":2,
    "needitems":"1050:20",
@@ -2160,7 +2160,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:7114,8:3545",
    "jiecount":2,
    "needitems":"1050:20",
@@ -2170,7 +2170,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:7775,8:3875",
    "jiecount":2,
    "needitems":"1050:25",
@@ -2180,7 +2180,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:8602,8:4287",
    "jiecount":2,
    "needitems":"1050:25",
@@ -2190,7 +2190,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:9429,8:4699",
    "jiecount":2,
    "needitems":"1050:25",
@@ -2200,7 +2200,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:10256,8:5111",
    "jiecount":2,
    "needitems":"1050:25",
@@ -2210,7 +2210,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:11083,8:5523",
    "jiecount":2,
    "needitems":"1050:25",
@@ -2220,7 +2220,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:11910,8:5935",
    "jiecount":2,
    "needitems":"1050:30",
@@ -2230,7 +2230,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:12901,8:6431",
    "jiecount":3,
    "needitems":"1050:30",
@@ -2240,7 +2240,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:13892,8:6927",
    "jiecount":3,
    "needitems":"1050:30",
@@ -2250,7 +2250,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:14883,8:7423",
    "jiecount":3,
    "needitems":"1050:30",
@@ -2260,7 +2260,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:15874,8:7919",
    "jiecount":3,
    "needitems":"1050:30",
@@ -2270,7 +2270,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:16865,8:8415",
    "jiecount":3,
    "needitems":"1050:35",
@@ -2280,7 +2280,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:18022,8:8992",
    "jiecount":3,
    "needitems":"1050:35",
@@ -2290,7 +2290,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:19179,8:9569",
    "jiecount":3,
    "needitems":"1050:35",
@@ -2300,7 +2300,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:20336,8:10146",
    "jiecount":3,
    "needitems":"1050:35",
@@ -2310,7 +2310,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:21493,8:10723",
    "jiecount":3,
    "needitems":"1050:35",
@@ -2320,7 +2320,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:22650,8:11300",
    "jiecount":3,
    "needitems":"1050:40",
@@ -2330,7 +2330,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:23973,8:11960",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2340,7 +2340,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:25296,8:12620",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2350,7 +2350,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:26619,8:13280",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2360,7 +2360,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:27942,8:13940",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2370,7 +2370,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:29265,8:14600",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2380,7 +2380,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:30588,8:15260",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2390,7 +2390,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:31911,8:15920",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2400,7 +2400,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:33234,8:16580",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2410,7 +2410,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:34557,8:17240",
    "jiecount":4,
    "needitems":"1050:40",
@@ -2420,7 +2420,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:35880,8:17900",
    "jiecount":4,
    "needitems":"1050:50",
@@ -2430,7 +2430,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:37532,8:18726",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2440,7 +2440,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:39184,8:19552",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2450,7 +2450,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:40836,8:20378",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2460,7 +2460,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:42488,8:21204",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2470,7 +2470,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:44140,8:22030",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2480,7 +2480,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:45792,8:22856",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2490,7 +2490,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:47444,8:23682",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2500,7 +2500,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:49096,8:24508",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2510,7 +2510,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:50748,8:25334",
    "jiecount":5,
    "needitems":"1050:50",
@@ -2520,7 +2520,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:52400,8:26160",
    "jiecount":5,
    "needitems":"1050:60",
@@ -2530,7 +2530,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:54384,8:27151",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2540,7 +2540,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:56368,8:28142",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2550,7 +2550,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:58352,8:29133",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2560,7 +2560,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:60336,8:30124",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2570,7 +2570,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:62320,8:31115",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2580,7 +2580,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:64304,8:32106",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2590,7 +2590,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:66288,8:33097",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2600,7 +2600,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:68272,8:34088",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2610,7 +2610,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:70256,8:35079",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2620,7 +2620,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:72240,8:36070",
    "jiecount":6,
    "needitems":"1050:60",
@@ -2630,7 +2630,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:74224,8:37061",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2640,7 +2640,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:76537,8:38217",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2650,7 +2650,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:78850,8:39373",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2660,7 +2660,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:81163,8:40529",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2670,7 +2670,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:83476,8:41685",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2680,7 +2680,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:85789,8:42841",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2690,7 +2690,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:88102,8:43997",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2700,7 +2700,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:90415,8:45153",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2710,7 +2710,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:92728,8:46309",
    "jiecount":7,
    "needitems":"1050:70",
@@ -2720,7 +2720,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:95041,8:47465",
    "jiecount":7,
    "needitems":"1050:80",
@@ -2730,7 +2730,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:97685,8:48787",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2740,7 +2740,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:100329,8:50109",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2750,7 +2750,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:102973,8:51431",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2760,7 +2760,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:105617,8:52753",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2770,7 +2770,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:108261,8:54075",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2780,7 +2780,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:110905,8:55397",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2790,7 +2790,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:113549,8:56719",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2800,7 +2800,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:116193,8:58041",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2810,7 +2810,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:118837,8:59363",
    "jiecount":8,
    "needitems":"1050:80",
@@ -2820,7 +2820,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:121481,8:60685",
    "jiecount":8,
    "needitems":"1050:90",
@@ -2830,7 +2830,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:124456,8:62171",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2840,7 +2840,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:127431,8:63657",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2850,7 +2850,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:130406,8:65143",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2860,7 +2860,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:133381,8:66629",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2870,7 +2870,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:136356,8:68115",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2880,7 +2880,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:139331,8:69601",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2890,7 +2890,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:142306,8:71087",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2900,7 +2900,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:145281,8:72573",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2910,7 +2910,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:148256,8:74059",
    "jiecount":9,
    "needitems":"1050:90",
@@ -2920,7 +2920,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:151231,8:75545",
    "jiecount":9,
    "needitems":"1050:100",
@@ -2930,7 +2930,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:154536,8:77198",
    "jiecount":10,
    "needitems":"1050:100",
@@ -2940,7 +2940,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:157841,8:78851",
    "jiecount":10,
    "needitems":"1050:100",
@@ -2950,7 +2950,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:161146,8:80504",
    "jiecount":10,
    "needitems":"1050:100",
@@ -2960,7 +2960,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:164451,8:82157",
    "jiecount":10,
    "needitems":"1050:100",
@@ -2970,7 +2970,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:167756,8:83810",
    "jiecount":10,
    "needitems":"1050:100",
@@ -2980,7 +2980,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:171061,8:85463",
    "jiecount":10,
    "needitems":"1050:100",
@@ -2990,7 +2990,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:174366,8:87116",
    "jiecount":10,
    "needitems":"1050:100",
@@ -3000,7 +3000,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:177671,8:88769",
    "jiecount":10,
    "needitems":"1050:100",
@@ -3010,7 +3010,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:180976,8:90422",
    "jiecount":10,
    "needitems":"1050:100",
@@ -3020,7 +3020,7 @@
 },
 {
    "id":3,
-   "icon":"charactor/ui/sixiang/zhuque_icon.png",
+   "icon":"character/ui/sixiang/zhuque_icon.png",
    "prop":"10:184281,8:92075",
    "jiecount":10,
    "needitems":"",
@@ -3030,1011 +3030,1011 @@
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:0,9:0",
    "jiecount":1,
    "needitems":"1051:12",
    "starcount":0,
    "level":0,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:198,9:197",
    "jiecount":1,
    "needitems":"1051:12",
    "starcount":1,
    "level":1,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:396,9:394",
    "jiecount":1,
    "needitems":"1051:12",
    "starcount":2,
    "level":2,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:594,9:591",
    "jiecount":1,
    "needitems":"1051:12",
    "starcount":3,
    "level":3,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:792,9:788",
    "jiecount":1,
    "needitems":"1051:12",
    "starcount":4,
    "level":4,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:990,9:985",
    "jiecount":1,
    "needitems":"1051:15",
    "starcount":5,
    "level":5,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:1238,9:1233",
    "jiecount":1,
    "needitems":"1051:15",
    "starcount":6,
    "level":6,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:1486,9:1481",
    "jiecount":1,
    "needitems":"1051:15",
    "starcount":7,
    "level":7,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:1734,9:1729",
    "jiecount":1,
    "needitems":"1051:15",
    "starcount":8,
    "level":8,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:1982,9:1977",
    "jiecount":1,
    "needitems":"1051:15",
    "starcount":9,
    "level":9,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:2230,9:2225",
    "jiecount":1,
    "needitems":"1051:20",
    "starcount":10,
    "level":10,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:2561,9:2555",
    "jiecount":2,
    "needitems":"1051:20",
    "starcount":1,
    "level":11,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:2892,9:2885",
    "jiecount":2,
    "needitems":"1051:20",
    "starcount":2,
    "level":12,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:3223,9:3215",
    "jiecount":2,
    "needitems":"1051:20",
    "starcount":3,
    "level":13,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:3554,9:3545",
    "jiecount":2,
    "needitems":"1051:20",
    "starcount":4,
    "level":14,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:3885,9:3875",
    "jiecount":2,
    "needitems":"1051:25",
    "starcount":5,
    "level":15,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:4298,9:4287",
    "jiecount":2,
    "needitems":"1051:25",
    "starcount":6,
    "level":16,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:4711,9:4699",
    "jiecount":2,
    "needitems":"1051:25",
    "starcount":7,
    "level":17,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:5124,9:5111",
    "jiecount":2,
    "needitems":"1051:25",
    "starcount":8,
    "level":18,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:5537,9:5523",
    "jiecount":2,
    "needitems":"1051:25",
    "starcount":0,
    "level":19,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:5950,9:5935",
    "jiecount":2,
    "needitems":"1051:30",
    "starcount":10,
    "level":20,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:6446,9:6431",
    "jiecount":3,
    "needitems":"1051:30",
    "starcount":1,
    "level":21,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:6942,9:6927",
    "jiecount":3,
    "needitems":"1051:30",
    "starcount":2,
    "level":22,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:7438,9:7423",
    "jiecount":3,
    "needitems":"1051:30",
    "starcount":3,
    "level":23,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:7934,9:7919",
    "jiecount":3,
    "needitems":"1051:30",
    "starcount":4,
    "level":24,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:8430,9:8415",
    "jiecount":3,
    "needitems":"1051:35",
    "starcount":5,
    "level":25,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:9008,9:8992",
    "jiecount":3,
    "needitems":"1051:35",
    "starcount":6,
    "level":26,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:9586,9:9569",
    "jiecount":3,
    "needitems":"1051:35",
    "starcount":7,
    "level":27,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:10164,9:10146",
    "jiecount":3,
    "needitems":"1051:35",
    "starcount":8,
    "level":28,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:10742,9:10723",
    "jiecount":3,
    "needitems":"1051:35",
    "starcount":9,
    "level":29,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:11320,9:11300",
    "jiecount":3,
    "needitems":"1051:40",
    "starcount":10,
    "level":30,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:11981,9:11960",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":1,
    "level":31,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:12642,9:12620",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":2,
    "level":32,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:13303,9:13280",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":3,
    "level":33,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:13964,9:13940",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":4,
    "level":34,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:14625,9:14600",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":5,
    "level":35,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:15286,9:15260",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":6,
    "level":36,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:15947,9:15920",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":7,
    "level":37,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:16608,9:16580",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":8,
    "level":38,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:17269,9:17240",
    "jiecount":4,
    "needitems":"1051:40",
    "starcount":9,
    "level":39,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:17930,9:17900",
    "jiecount":4,
    "needitems":"1051:50",
    "starcount":10,
    "level":40,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:18756,9:18726",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":1,
    "level":41,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:19582,9:19552",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":2,
    "level":42,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:20408,9:20378",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":3,
    "level":43,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:21234,9:21204",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":4,
    "level":44,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:22060,9:22030",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":5,
    "level":45,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:22886,9:22856",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":6,
    "level":46,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:23712,9:23682",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":7,
    "level":47,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:24538,9:24508",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":8,
    "level":48,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:25364,9:25334",
    "jiecount":5,
    "needitems":"1051:50",
    "starcount":9,
    "level":49,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:26190,9:26160",
    "jiecount":5,
    "needitems":"1051:60",
    "starcount":10,
    "level":50,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:27182,9:27152",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":1,
    "level":51,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:28174,9:28144",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":2,
    "level":52,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:29166,9:29136",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":3,
    "level":53,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:30158,9:30128",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":4,
    "level":54,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:31150,9:31120",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":5,
    "level":55,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:32142,9:32112",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":6,
    "level":56,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:33134,9:33104",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":7,
    "level":57,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:34126,9:34096",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":8,
    "level":58,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:35118,9:35088",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":9,
    "level":59,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:36110,9:36080",
    "jiecount":6,
    "needitems":"1051:60",
    "starcount":10,
    "level":60,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:37102,9:37072",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":1,
    "level":61,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:38259,9:38228",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":2,
    "level":62,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:39416,9:39384",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":3,
    "level":63,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:40573,9:40540",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":4,
    "level":64,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:41730,9:41696",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":5,
    "level":65,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:42887,9:42852",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":6,
    "level":66,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:44044,9:44008",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":7,
    "level":67,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:45201,9:45164",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":8,
    "level":68,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:46358,9:46320",
    "jiecount":7,
    "needitems":"1051:70",
    "starcount":9,
    "level":69,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:47515,9:47476",
    "jiecount":7,
    "needitems":"1051:80",
    "starcount":10,
    "level":70,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:48837,9:48798",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":1,
    "level":71,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:50159,9:50120",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":2,
    "level":72,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:51481,9:51442",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":3,
    "level":73,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:52803,9:52764",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":4,
    "level":74,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:54125,9:54086",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":5,
    "level":75,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:55447,9:55408",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":6,
    "level":76,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:56769,9:56730",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":7,
    "level":77,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:58091,9:58052",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":8,
    "level":78,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:59413,9:59374",
    "jiecount":8,
    "needitems":"1051:80",
    "starcount":9,
    "level":79,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:60735,9:60696",
    "jiecount":8,
    "needitems":"1051:90",
    "starcount":10,
    "level":80,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:62222,9:62182",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":1,
    "level":81,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:63709,9:63668",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":2,
    "level":82,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:65196,9:65154",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":3,
    "level":83,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:66683,9:66640",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":4,
    "level":84,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:68170,9:68126",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":5,
    "level":85,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:69657,9:69612",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":6,
    "level":86,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:71144,9:71098",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":7,
    "level":87,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:72631,9:72584",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":8,
    "level":88,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:74118,9:74070",
    "jiecount":9,
    "needitems":"1051:90",
    "starcount":9,
    "level":89,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:75605,9:75556",
    "jiecount":9,
    "needitems":"1051:100",
    "starcount":10,
    "level":90,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:77258,9:77209",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":1,
    "level":91,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:78911,9:78862",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":2,
    "level":92,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:80564,9:80515",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":3,
    "level":93,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:82217,9:82168",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":4,
    "level":94,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:83870,9:83821",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":5,
    "level":95,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:85523,9:85474",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":6,
    "level":96,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:87176,9:87127",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":7,
    "level":97,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:88829,9:88780",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":8,
    "level":98,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:90482,9:90433",
    "jiecount":10,
    "needitems":"1051:100",
    "starcount":9,
    "level":99,
-   "name":"玄武"
+   "name":"玄�"
 },
 {
    "id":4,
-   "icon":"charactor/ui/sixiang/xuanwu_icon.png",
+   "icon":"character/ui/sixiang/xuanwu_icon.png",
    "prop":"2:92135,9:92086",
    "jiecount":10,
    "needitems":"",
    "starcount":10,
    "level":100,
-   "name":"玄武"
+   "name":"玄�"
 }]
