@@ -1,0 +1,270 @@
+[{
+   "index":1,
+   "desc":"登录1天可领取",
+   "desci18n":"登录1天可领取",
+   "perbindyb":"1000:60,1000:60,1000:100",
+   "useyb":25,
+   "hasneed":1,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":2,
+   "desc":"登录2天可领取",
+   "desci18n":"登录2天可领取",
+   "perbindyb":"1000:100,1000:100,1000:150",
+   "useyb":25,
+   "hasneed":2,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":3,
+   "desc":"登录3天可领取",
+   "desci18n":"登录3天可领取",
+   "perbindyb":"1000:100,1000:200,1000:220",
+   "useyb":25,
+   "hasneed":3,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":4,
+   "desc":"登录4天可领取",
+   "desci18n":"登录4天可领取",
+   "perbindyb":"1000:120,1000:200,1000:280",
+   "useyb":25,
+   "hasneed":4,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":5,
+   "desc":"登录5天可领取",
+   "desci18n":"登录5天可领取",
+   "perbindyb":"1000:200,1000:250,1000:350",
+   "useyb":25,
+   "hasneed":5,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":6,
+   "desc":"登录6天可领取",
+   "desci18n":"登录6天可领取",
+   "perbindyb":"1000:250,1000:300,1000:450",
+   "useyb":25,
+   "hasneed":6,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":7,
+   "desc":"登录7天可领取",
+   "desci18n":"登录7天可领取",
+   "perbindyb":"1000:350,1000:450,1000:600",
+   "useyb":25,
+   "hasneed":7,
+   "freereward":"",
+   "type":1
+},
+{
+   "index":1,
+   "desc":"30级可领取",
+   "desci18n":"30级可领取",
+   "perbindyb":"1000:100",
+   "useyb":88,
+   "hasneed":30,
+   "freereward":"1020:5,1003:100",
+   "type":2
+},
+{
+   "index":2,
+   "desc":"60级可领取",
+   "desci18n":"60级可领取",
+   "perbindyb":"1000:100,1000:200",
+   "useyb":88,
+   "hasneed":60,
+   "freereward":"1020:5,1003:100",
+   "type":2
+},
+{
+   "index":3,
+   "desc":"80级可领取",
+   "desci18n":"80级可领取",
+   "perbindyb":"1000:100,1000:200,1000:200",
+   "useyb":88,
+   "hasneed":80,
+   "freereward":"1020:7,1003:100",
+   "type":2
+},
+{
+   "index":4,
+   "desc":"1转可领取",
+   "desci18n":"1转可领取",
+   "perbindyb":"1000:100,1000:300,1000:300",
+   "useyb":88,
+   "hasneed":150,
+   "freereward":"1020:7,1003:100",
+   "type":2
+},
+{
+   "index":5,
+   "desc":"2转可领取",
+   "desci18n":"2转可领取",
+   "perbindyb":"1000:300,1000:300,1000:300",
+   "useyb":88,
+   "hasneed":200,
+   "freereward":"1020:10,1003:100",
+   "type":2
+},
+{
+   "index":6,
+   "desc":"3转可领取",
+   "desci18n":"3转可领取",
+   "perbindyb":"1000:300,1000:400,1000:400",
+   "useyb":88,
+   "hasneed":250,
+   "freereward":"1020:10,1003:100",
+   "type":2
+},
+{
+   "index":7,
+   "desc":"4转可领取",
+   "desci18n":"4转可领取",
+   "perbindyb":"1000:400,1000:400,1000:500",
+   "useyb":88,
+   "hasneed":280,
+   "freereward":"1020:15,1003:100",
+   "type":2
+},
+{
+   "index":8,
+   "desc":"5转可领取",
+   "desci18n":"5转可领取",
+   "perbindyb":"1000:500,1000:500,1000:500",
+   "useyb":88,
+   "hasneed":300,
+   "freereward":"1020:15,1003:100",
+   "type":2
+},
+{
+   "index":9,
+   "desc":"6转可领取",
+   "desci18n":"6转可领取",
+   "perbindyb":"1000:500,1000:500,1000:600",
+   "useyb":88,
+   "hasneed":310,
+   "freereward":"1020:20,1003:100",
+   "type":2
+},
+{
+   "index":10,
+   "desc":"7转可领取",
+   "desci18n":"7转可领取",
+   "perbindyb":"1000:600,1000:600,1000:600",
+   "useyb":88,
+   "hasneed":320,
+   "freereward":"1020:20,1003:100",
+   "type":2
+},
+{
+   "index":11,
+   "desc":"8转可领取",
+   "desci18n":"8转可领取",
+   "perbindyb":"1000:600,1000:700,1000:700",
+   "useyb":88,
+   "hasneed":330,
+   "freereward":"1020:30,1003:100",
+   "type":2
+},
+{
+   "index":12,
+   "desc":"9转可领取",
+   "desci18n":"9转可领取",
+   "perbindyb":"1000:700,1000:700,1000:700",
+   "useyb":88,
+   "hasneed":340,
+   "freereward":"1020:30,1003:100",
+   "type":2
+},
+{
+   "index":13,
+   "desc":"10转可领取",
+   "desci18n":"10转可领取",
+   "perbindyb":"1000:700,1000:700,1000:800",
+   "useyb":88,
+   "hasneed":350,
+   "freereward":"1020:40,1003:100",
+   "type":2
+},
+{
+   "index":14,
+   "desc":"11转可领取",
+   "desci18n":"11转可领取",
+   "perbindyb":"1000:800,1000:800,1000:800",
+   "useyb":88,
+   "hasneed":360,
+   "freereward":"1020:40,1003:100",
+   "type":2
+},
+{
+   "index":15,
+   "desc":"12转可领取",
+   "desci18n":"12转可领取",
+   "perbindyb":"1000:800,1000:900,1000:900",
+   "useyb":88,
+   "hasneed":370,
+   "freereward":"1020:50,1003:100",
+   "type":2
+},
+{
+   "index":1,
+   "desc":"本服购买10可领取",
+   "desci18n":"本服购买10可领取",
+   "perbindyb":"1000:50,1001:100000",
+   "useyb":0,
+   "hasneed":10,
+   "freereward":"",
+   "type":3
+},
+{
+   "index":2,
+   "desc":"本服购买30可领取",
+   "desci18n":"本服购买30可领取",
+   "perbindyb":"1000:100,1001:150000",
+   "useyb":0,
+   "hasneed":30,
+   "freereward":"",
+   "type":3
+},
+{
+   "index":3,
+   "desc":"本服购买50可领取",
+   "desci18n":"本服购买50可领取",
+   "perbindyb":"1000:200,1001:200000",
+   "useyb":0,
+   "hasneed":50,
+   "freereward":"",
+   "type":3
+},
+{
+   "index":4,
+   "desc":"本服购买70可领取",
+   "desci18n":"本服购买70可领取",
+   "perbindyb":"1000:500,1001:250000",
+   "useyb":0,
+   "hasneed":70,
+   "freereward":"",
+   "type":3
+},
+{
+   "index":5,
+   "desc":"本服购买100可领取",
+   "desci18n":"本服购买100可领取",
+   "perbindyb":"1000:800,1001:350000",
+   "useyb":0,
+   "hasneed":100,
+   "freereward":"",
+   "type":3
+}]

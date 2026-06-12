@@ -1,0 +1,770 @@
+[{
+   "count":0,
+   "groupid":1,
+   "needlevel":0,
+   "consumes":"8001:1,8002:1,8003:1,8004:1,8005:1,8006:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":1,
+   "needlevel":20,
+   "consumes":"8007:1,8008:1,8009:1,8010:1,8011:1,8012:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":1,
+   "needlevel":40,
+   "consumes":"8013:1,8014:1,8015:1,8016:1,8017:1,8018:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":1,
+   "needlevel":60,
+   "consumes":"8019:1,8020:1,8021:1,8022:1,8023:1,8024:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":1,
+   "needlevel":80,
+   "consumes":"8025:1,8026:1,8027:1,8028:1,8029:1,8030:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":1,
+   "needlevel":100,
+   "consumes":"8031:1,8032:1,8033:1,8034:1,8035:1,8036:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":1,
+   "needlevel":120,
+   "consumes":"8037:1,8038:1,8039:1,8040:1,8041:1,8042:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":1,
+   "needlevel":140,
+   "consumes":"8043:1,8044:1,8045:1,8046:1,8047:1,8048:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":1,
+   "needlevel":160,
+   "consumes":"8049:1,8050:1,8051:1,8052:1,8053:1,8054:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":1,
+   "needlevel":180,
+   "consumes":"8055:1,8056:1,8057:1,8058:1,8059:1,8060:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":1,
+   "needlevel":0,
+   "consumes":"",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":2,
+   "needlevel":0,
+   "consumes":"8101:1,8102:1,8103:1,8104:1,8105:1,8106:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":2,
+   "needlevel":20,
+   "consumes":"8107:1,8108:1,8109:1,8110:1,8111:1,8112:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":2,
+   "needlevel":40,
+   "consumes":"8113:1,8114:1,8115:1,8116:1,8117:1,8118:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":2,
+   "needlevel":60,
+   "consumes":"8119:1,8120:1,8121:1,8122:1,8123:1,8124:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":2,
+   "needlevel":80,
+   "consumes":"8125:1,8126:1,8127:1,8128:1,8129:1,8130:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":2,
+   "needlevel":100,
+   "consumes":"8131:1,8132:1,8133:1,8134:1,8135:1,8136:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":2,
+   "needlevel":120,
+   "consumes":"8137:1,8138:1,8139:1,8140:1,8141:1,8142:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":2,
+   "needlevel":140,
+   "consumes":"8143:1,8144:1,8145:1,8146:1,8147:1,8148:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":2,
+   "needlevel":160,
+   "consumes":"8149:1,8150:1,8151:1,8152:1,8153:1,8154:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":2,
+   "needlevel":180,
+   "consumes":"8155:1,8156:1,8157:1,8158:1,8159:1,8160:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":2,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":3,
+   "needlevel":0,
+   "consumes":"8201:1,8202:1,8203:1,8204:1,8205:1,8206:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":3,
+   "needlevel":20,
+   "consumes":"8207:1,8208:1,8209:1,8210:1,8211:1,8212:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":3,
+   "needlevel":40,
+   "consumes":"8213:1,8214:1,8215:1,8216:1,8217:1,8218:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":3,
+   "needlevel":60,
+   "consumes":"8219:1,8220:1,8221:1,8222:1,8223:1,8224:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":3,
+   "needlevel":80,
+   "consumes":"8225:1,8226:1,8227:1,8228:1,8229:1,8230:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":3,
+   "needlevel":100,
+   "consumes":"8231:1,8232:1,8233:1,8234:1,8235:1,8236:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":3,
+   "needlevel":120,
+   "consumes":"8237:1,8238:1,8239:1,8240:1,8241:1,8242:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":3,
+   "needlevel":140,
+   "consumes":"8243:1,8244:1,8245:1,8246:1,8247:1,8248:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":3,
+   "needlevel":160,
+   "consumes":"8249:1,8250:1,8251:1,8252:1,8253:1,8254:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":3,
+   "needlevel":180,
+   "consumes":"8255:1,8256:1,8257:1,8258:1,8259:1,8260:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":3,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":4,
+   "needlevel":0,
+   "consumes":"8301:1,8302:1,8303:1,8304:1,8305:1,8306:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":4,
+   "needlevel":20,
+   "consumes":"8307:1,8308:1,8309:1,8310:1,8311:1,8312:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":4,
+   "needlevel":40,
+   "consumes":"8313:1,8314:1,8315:1,8316:1,8317:1,8318:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":4,
+   "needlevel":60,
+   "consumes":"8319:1,8320:1,8321:1,8322:1,8323:1,8324:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":4,
+   "needlevel":80,
+   "consumes":"8325:1,8326:1,8327:1,8328:1,8329:1,8330:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":4,
+   "needlevel":100,
+   "consumes":"8331:1,8332:1,8333:1,8334:1,8335:1,8336:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":4,
+   "needlevel":120,
+   "consumes":"8337:1,8338:1,8339:1,8340:1,8341:1,8342:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":4,
+   "needlevel":140,
+   "consumes":"8343:1,8344:1,8345:1,8346:1,8347:1,8348:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":4,
+   "needlevel":160,
+   "consumes":"8349:1,8350:1,8351:1,8352:1,8353:1,8354:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":4,
+   "needlevel":180,
+   "consumes":"8355:1,8356:1,8357:1,8358:1,8359:1,8360:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":4,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":5,
+   "needlevel":0,
+   "consumes":"8401:1,8402:1,8403:1,8404:1,8405:1,8406:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":5,
+   "needlevel":20,
+   "consumes":"8407:1,8408:1,8409:1,8410:1,8411:1,8412:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":5,
+   "needlevel":40,
+   "consumes":"8413:1,8414:1,8415:1,8416:1,8417:1,8418:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":5,
+   "needlevel":60,
+   "consumes":"8419:1,8420:1,8421:1,8422:1,8423:1,8424:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":5,
+   "needlevel":80,
+   "consumes":"8425:1,8426:1,8427:1,8428:1,8429:1,8430:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":5,
+   "needlevel":100,
+   "consumes":"8431:1,8432:1,8433:1,8434:1,8435:1,8436:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":5,
+   "needlevel":120,
+   "consumes":"8437:1,8438:1,8439:1,8440:1,8441:1,8442:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":5,
+   "needlevel":140,
+   "consumes":"8443:1,8444:1,8445:1,8446:1,8447:1,8448:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":5,
+   "needlevel":160,
+   "consumes":"8449:1,8450:1,8451:1,8452:1,8453:1,8454:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":5,
+   "needlevel":180,
+   "consumes":"8455:1,8456:1,8457:1,8458:1,8459:1,8460:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":5,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":6,
+   "needlevel":0,
+   "consumes":"8501:1,8502:1,8503:1,8504:1,8505:1,8506:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":6,
+   "needlevel":20,
+   "consumes":"8507:1,8508:1,8509:1,8510:1,8511:1,8512:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":6,
+   "needlevel":40,
+   "consumes":"8513:1,8514:1,8515:1,8516:1,8517:1,8518:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":6,
+   "needlevel":60,
+   "consumes":"8519:1,8520:1,8521:1,8522:1,8523:1,8524:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":6,
+   "needlevel":80,
+   "consumes":"8525:1,8526:1,8527:1,8528:1,8529:1,8530:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":6,
+   "needlevel":100,
+   "consumes":"8531:1,8532:1,8533:1,8534:1,8535:1,8536:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":6,
+   "needlevel":120,
+   "consumes":"8537:1,8538:1,8539:1,8540:1,8541:1,8542:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":6,
+   "needlevel":140,
+   "consumes":"8543:1,8544:1,8545:1,8546:1,8547:1,8548:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":6,
+   "needlevel":160,
+   "consumes":"8549:1,8550:1,8551:1,8552:1,8553:1,8554:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":6,
+   "needlevel":180,
+   "consumes":"8555:1,8556:1,8557:1,8558:1,8559:1,8560:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":6,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":7,
+   "needlevel":0,
+   "consumes":"8601:1,8602:1,8603:1,8604:1,8605:1,8606:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":7,
+   "needlevel":20,
+   "consumes":"8607:1,8608:1,8609:1,8610:1,8611:1,8612:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":7,
+   "needlevel":40,
+   "consumes":"8613:1,8614:1,8615:1,8616:1,8617:1,8618:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":7,
+   "needlevel":60,
+   "consumes":"8619:1,8620:1,8621:1,8622:1,8623:1,8624:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":7,
+   "needlevel":80,
+   "consumes":"8625:1,8626:1,8627:1,8628:1,8629:1,8630:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":7,
+   "needlevel":100,
+   "consumes":"8631:1,8632:1,8633:1,8634:1,8635:1,8636:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":7,
+   "needlevel":120,
+   "consumes":"8637:1,8638:1,8639:1,8640:1,8641:1,8642:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":7,
+   "needlevel":140,
+   "consumes":"8643:1,8644:1,8645:1,8646:1,8647:1,8648:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":7,
+   "needlevel":160,
+   "consumes":"8649:1,8650:1,8651:1,8652:1,8653:1,8654:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":7,
+   "needlevel":180,
+   "consumes":"8655:1,8656:1,8657:1,8658:1,8659:1,8660:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":7,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":8,
+   "needlevel":0,
+   "consumes":"8701:1,8702:1,8703:1,8704:1,8705:1,8706:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":8,
+   "needlevel":20,
+   "consumes":"8707:1,8708:1,8709:1,8710:1,8711:1,8712:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":8,
+   "needlevel":40,
+   "consumes":"8713:1,8714:1,8715:1,8716:1,8717:1,8718:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":8,
+   "needlevel":60,
+   "consumes":"8719:1,8720:1,8721:1,8722:1,8723:1,8724:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":8,
+   "needlevel":80,
+   "consumes":"8725:1,8726:1,8727:1,8728:1,8729:1,8730:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":8,
+   "needlevel":100,
+   "consumes":"8731:1,8732:1,8733:1,8734:1,8735:1,8736:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":8,
+   "needlevel":120,
+   "consumes":"8737:1,8738:1,8739:1,8740:1,8741:1,8742:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":8,
+   "needlevel":140,
+   "consumes":"8743:1,8744:1,8745:1,8746:1,8747:1,8748:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":8,
+   "needlevel":160,
+   "consumes":"8749:1,8750:1,8751:1,8752:1,8753:1,8754:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":8,
+   "needlevel":180,
+   "consumes":"8755:1,8756:1,8757:1,8758:1,8759:1,8760:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":8,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":9,
+   "needlevel":0,
+   "consumes":"8801:1,8802:1,8803:1,8804:1,8805:1,8806:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":9,
+   "needlevel":20,
+   "consumes":"8807:1,8808:1,8809:1,8810:1,8811:1,8812:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":9,
+   "needlevel":40,
+   "consumes":"8813:1,8814:1,8815:1,8816:1,8817:1,8818:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":9,
+   "needlevel":60,
+   "consumes":"8819:1,8820:1,8821:1,8822:1,8823:1,8824:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":9,
+   "needlevel":80,
+   "consumes":"8825:1,8826:1,8827:1,8828:1,8829:1,8830:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":9,
+   "needlevel":100,
+   "consumes":"8831:1,8832:1,8833:1,8834:1,8835:1,8836:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":9,
+   "needlevel":120,
+   "consumes":"8837:1,8838:1,8839:1,8840:1,8841:1,8842:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":9,
+   "needlevel":140,
+   "consumes":"8843:1,8844:1,8845:1,8846:1,8847:1,8848:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":9,
+   "needlevel":160,
+   "consumes":"8849:1,8850:1,8851:1,8852:1,8853:1,8854:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":9,
+   "needlevel":180,
+   "consumes":"8855:1,8856:1,8857:1,8858:1,8859:1,8860:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":9,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+},
+{
+   "count":0,
+   "groupid":10,
+   "needlevel":0,
+   "consumes":"8901:1,8902:1,8903:1,8904:1,8905:1,8906:1",
+   "needcopper":0
+},
+{
+   "count":1,
+   "groupid":10,
+   "needlevel":20,
+   "consumes":"8907:1,8908:1,8909:1,8910:1,8911:1,8912:1",
+   "needcopper":0
+},
+{
+   "count":2,
+   "groupid":10,
+   "needlevel":40,
+   "consumes":"8913:1,8914:1,8915:1,8916:1,8917:1,8918:1",
+   "needcopper":0
+},
+{
+   "count":3,
+   "groupid":10,
+   "needlevel":60,
+   "consumes":"8919:1,8920:1,8921:1,8922:1,8923:1,8924:1",
+   "needcopper":0
+},
+{
+   "count":4,
+   "groupid":10,
+   "needlevel":80,
+   "consumes":"8925:1,8926:1,8927:1,8928:1,8929:1,8930:1",
+   "needcopper":0
+},
+{
+   "count":5,
+   "groupid":10,
+   "needlevel":100,
+   "consumes":"8931:1,8932:1,8933:1,8934:1,8935:1,8936:1",
+   "needcopper":0
+},
+{
+   "count":6,
+   "groupid":10,
+   "needlevel":120,
+   "consumes":"8937:1,8938:1,8939:1,8940:1,8941:1,8942:1",
+   "needcopper":0
+},
+{
+   "count":7,
+   "groupid":10,
+   "needlevel":140,
+   "consumes":"8943:1,8944:1,8945:1,8946:1,8947:1,8948:1",
+   "needcopper":0
+},
+{
+   "count":8,
+   "groupid":10,
+   "needlevel":160,
+   "consumes":"8949:1,8950:1,8951:1,8952:1,8953:1,8954:1",
+   "needcopper":0
+},
+{
+   "count":9,
+   "groupid":10,
+   "needlevel":180,
+   "consumes":"8955:1,8956:1,8957:1,8958:1,8959:1,8960:1",
+   "needcopper":0
+},
+{
+   "count":10,
+   "groupid":10,
+   "needlevel":0,
+   "consumes":"0.0",
+   "needcopper":0
+}]

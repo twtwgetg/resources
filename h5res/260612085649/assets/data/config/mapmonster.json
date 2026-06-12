@@ -1,0 +1,5509 @@
+[{
+   "id":1,
+   "monstergroup":800703,
+   "x":59,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":2,
+   "monstergroup":800703,
+   "x":59,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":3,
+   "monstergroup":800703,
+   "x":62,
+   "y":66,
+   "questmonster":1
+},
+{
+   "id":4,
+   "monstergroup":800703,
+   "x":65,
+   "y":64,
+   "questmonster":2
+},
+{
+   "id":5,
+   "monstergroup":800703,
+   "x":65,
+   "y":68,
+   "questmonster":2
+},
+{
+   "id":6,
+   "monstergroup":800703,
+   "x":42,
+   "y":60,
+   "questmonster":1
+},
+{
+   "id":7,
+   "monstergroup":800703,
+   "x":48,
+   "y":58,
+   "questmonster":1
+},
+{
+   "id":8,
+   "monstergroup":800703,
+   "x":45,
+   "y":57,
+   "questmonster":1
+},
+{
+   "id":9,
+   "monstergroup":800703,
+   "x":42,
+   "y":56,
+   "questmonster":2
+},
+{
+   "id":10,
+   "monstergroup":800703,
+   "x":48,
+   "y":54,
+   "questmonster":2
+},
+{
+   "id":11,
+   "monstergroup":800706,
+   "x":71,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":12,
+   "monstergroup":800706,
+   "x":75,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":13,
+   "monstergroup":800706,
+   "x":75,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":14,
+   "monstergroup":800706,
+   "x":75,
+   "y":28,
+   "questmonster":2
+},
+{
+   "id":15,
+   "monstergroup":800706,
+   "x":79,
+   "y":32,
+   "questmonster":2
+},
+{
+   "id":16,
+   "monstergroup":800709,
+   "x":25,
+   "y":17,
+   "questmonster":1
+},
+{
+   "id":17,
+   "monstergroup":800709,
+   "x":27,
+   "y":13,
+   "questmonster":1
+},
+{
+   "id":18,
+   "monstergroup":800709,
+   "x":23,
+   "y":14,
+   "questmonster":1
+},
+{
+   "id":19,
+   "monstergroup":800709,
+   "x":21,
+   "y":11,
+   "questmonster":2
+},
+{
+   "id":20,
+   "monstergroup":800709,
+   "x":19,
+   "y":15,
+   "questmonster":2
+},
+{
+   "id":21,
+   "monstergroup":800714,
+   "x":25,
+   "y":81,
+   "questmonster":1
+},
+{
+   "id":22,
+   "monstergroup":800714,
+   "x":21,
+   "y":85,
+   "questmonster":1
+},
+{
+   "id":23,
+   "monstergroup":800714,
+   "x":25,
+   "y":85,
+   "questmonster":1
+},
+{
+   "id":24,
+   "monstergroup":800714,
+   "x":29,
+   "y":85,
+   "questmonster":2
+},
+{
+   "id":25,
+   "monstergroup":800714,
+   "x":25,
+   "y":89,
+   "questmonster":2
+},
+{
+   "id":26,
+   "monstergroup":800901,
+   "x":47,
+   "y":45,
+   "questmonster":2
+},
+{
+   "id":27,
+   "monstergroup":800901,
+   "x":45,
+   "y":47,
+   "questmonster":2
+},
+{
+   "id":28,
+   "monstergroup":800901,
+   "x":47,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":29,
+   "monstergroup":800901,
+   "x":49,
+   "y":43,
+   "questmonster":2
+},
+{
+   "id":30,
+   "monstergroup":800901,
+   "x":49,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":31,
+   "monstergroup":800901,
+   "x":49,
+   "y":51,
+   "questmonster":1
+},
+{
+   "id":32,
+   "monstergroup":800901,
+   "x":51,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":33,
+   "monstergroup":800901,
+   "x":51,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":34,
+   "monstergroup":800901,
+   "x":53,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":35,
+   "monstergroup":800902,
+   "x":21,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":36,
+   "monstergroup":800902,
+   "x":23,
+   "y":33,
+   "questmonster":2
+},
+{
+   "id":37,
+   "monstergroup":800902,
+   "x":23,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":38,
+   "monstergroup":800902,
+   "x":25,
+   "y":31,
+   "questmonster":2
+},
+{
+   "id":39,
+   "monstergroup":800902,
+   "x":25,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":40,
+   "monstergroup":800902,
+   "x":25,
+   "y":39,
+   "questmonster":1
+},
+{
+   "id":41,
+   "monstergroup":800902,
+   "x":27,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":42,
+   "monstergroup":800902,
+   "x":27,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":43,
+   "monstergroup":800902,
+   "x":29,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":44,
+   "monstergroup":800903,
+   "x":107,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":45,
+   "monstergroup":800903,
+   "x":109,
+   "y":30,
+   "questmonster":1
+},
+{
+   "id":46,
+   "monstergroup":800903,
+   "x":109,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":47,
+   "monstergroup":800903,
+   "x":111,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":48,
+   "monstergroup":800903,
+   "x":111,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":49,
+   "monstergroup":800903,
+   "x":111,
+   "y":36,
+   "questmonster":2
+},
+{
+   "id":50,
+   "monstergroup":800903,
+   "x":113,
+   "y":30,
+   "questmonster":1
+},
+{
+   "id":51,
+   "monstergroup":800903,
+   "x":113,
+   "y":34,
+   "questmonster":2
+},
+{
+   "id":52,
+   "monstergroup":800903,
+   "x":115,
+   "y":32,
+   "questmonster":2
+},
+{
+   "id":53,
+   "monstergroup":800904,
+   "x":88,
+   "y":52,
+   "questmonster":2
+},
+{
+   "id":54,
+   "monstergroup":800904,
+   "x":90,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":55,
+   "monstergroup":800904,
+   "x":90,
+   "y":54,
+   "questmonster":2
+},
+{
+   "id":56,
+   "monstergroup":800904,
+   "x":92,
+   "y":48,
+   "questmonster":1
+},
+{
+   "id":57,
+   "monstergroup":800904,
+   "x":92,
+   "y":52,
+   "questmonster":1
+},
+{
+   "id":58,
+   "monstergroup":800904,
+   "x":92,
+   "y":56,
+   "questmonster":2
+},
+{
+   "id":59,
+   "monstergroup":800904,
+   "x":94,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":60,
+   "monstergroup":800904,
+   "x":94,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":61,
+   "monstergroup":800904,
+   "x":96,
+   "y":52,
+   "questmonster":1
+},
+{
+   "id":62,
+   "monstergroup":800905,
+   "x":106,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":63,
+   "monstergroup":800905,
+   "x":110,
+   "y":32,
+   "questmonster":2
+},
+{
+   "id":64,
+   "monstergroup":800905,
+   "x":112,
+   "y":30,
+   "questmonster":1
+},
+{
+   "id":65,
+   "monstergroup":800905,
+   "x":108,
+   "y":26,
+   "questmonster":2
+},
+{
+   "id":66,
+   "monstergroup":800202,
+   "x":71,
+   "y":92,
+   "questmonster":1
+},
+{
+   "id":67,
+   "monstergroup":800202,
+   "x":77,
+   "y":92,
+   "questmonster":1
+},
+{
+   "id":68,
+   "monstergroup":800202,
+   "x":74,
+   "y":94,
+   "questmonster":2
+},
+{
+   "id":69,
+   "monstergroup":800202,
+   "x":71,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":70,
+   "monstergroup":800202,
+   "x":77,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":71,
+   "monstergroup":800205,
+   "x":31,
+   "y":92,
+   "questmonster":1
+},
+{
+   "id":72,
+   "monstergroup":800205,
+   "x":31,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":73,
+   "monstergroup":800205,
+   "x":34,
+   "y":94,
+   "questmonster":2
+},
+{
+   "id":74,
+   "monstergroup":800205,
+   "x":37,
+   "y":92,
+   "questmonster":1
+},
+{
+   "id":75,
+   "monstergroup":800205,
+   "x":37,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":76,
+   "monstergroup":800209,
+   "x":5,
+   "y":65,
+   "questmonster":1
+},
+{
+   "id":77,
+   "monstergroup":800209,
+   "x":5,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":78,
+   "monstergroup":800209,
+   "x":8,
+   "y":67,
+   "questmonster":2
+},
+{
+   "id":79,
+   "monstergroup":800209,
+   "x":11,
+   "y":65,
+   "questmonster":1
+},
+{
+   "id":80,
+   "monstergroup":800209,
+   "x":11,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":81,
+   "monstergroup":800209,
+   "x":28,
+   "y":58,
+   "questmonster":1
+},
+{
+   "id":82,
+   "monstergroup":800209,
+   "x":28,
+   "y":62,
+   "questmonster":1
+},
+{
+   "id":83,
+   "monstergroup":800209,
+   "x":31,
+   "y":60,
+   "questmonster":2
+},
+{
+   "id":84,
+   "monstergroup":800209,
+   "x":34,
+   "y":58,
+   "questmonster":1
+},
+{
+   "id":85,
+   "monstergroup":800209,
+   "x":34,
+   "y":62,
+   "questmonster":1
+},
+{
+   "id":86,
+   "monstergroup":800213,
+   "x":4,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":87,
+   "monstergroup":800213,
+   "x":4,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":88,
+   "monstergroup":800213,
+   "x":7,
+   "y":14,
+   "questmonster":2
+},
+{
+   "id":89,
+   "monstergroup":800213,
+   "x":10,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":90,
+   "monstergroup":800213,
+   "x":10,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":91,
+   "monstergroup":800213,
+   "x":21,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":92,
+   "monstergroup":800213,
+   "x":21,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":93,
+   "monstergroup":800213,
+   "x":24,
+   "y":14,
+   "questmonster":2
+},
+{
+   "id":94,
+   "monstergroup":800213,
+   "x":27,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":95,
+   "monstergroup":800213,
+   "x":27,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":96,
+   "monstergroup":800217,
+   "x":64,
+   "y":23,
+   "questmonster":1
+},
+{
+   "id":97,
+   "monstergroup":800217,
+   "x":64,
+   "y":27,
+   "questmonster":1
+},
+{
+   "id":98,
+   "monstergroup":800217,
+   "x":62,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":99,
+   "monstergroup":800217,
+   "x":62,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":100,
+   "monstergroup":800217,
+   "x":65,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":101,
+   "monstergroup":800217,
+   "x":67,
+   "y":25,
+   "questmonster":2
+},
+{
+   "id":102,
+   "monstergroup":800217,
+   "x":68,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":103,
+   "monstergroup":800217,
+   "x":68,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":104,
+   "monstergroup":800217,
+   "x":70,
+   "y":23,
+   "questmonster":1
+},
+{
+   "id":105,
+   "monstergroup":800217,
+   "x":70,
+   "y":27,
+   "questmonster":1
+},
+{
+   "id":106,
+   "monstergroup":800302,
+   "x":53,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":107,
+   "monstergroup":800302,
+   "x":57,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":108,
+   "monstergroup":800302,
+   "x":57,
+   "y":83,
+   "questmonster":2
+},
+{
+   "id":109,
+   "monstergroup":800302,
+   "x":57,
+   "y":87,
+   "questmonster":1
+},
+{
+   "id":110,
+   "monstergroup":800302,
+   "x":61,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":111,
+   "monstergroup":800302,
+   "x":73,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":112,
+   "monstergroup":800302,
+   "x":77,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":113,
+   "monstergroup":800302,
+   "x":77,
+   "y":83,
+   "questmonster":2
+},
+{
+   "id":114,
+   "monstergroup":800302,
+   "x":77,
+   "y":87,
+   "questmonster":1
+},
+{
+   "id":115,
+   "monstergroup":800302,
+   "x":81,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":116,
+   "monstergroup":800304,
+   "x":74,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":117,
+   "monstergroup":800304,
+   "x":78,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":118,
+   "monstergroup":800304,
+   "x":78,
+   "y":50,
+   "questmonster":2
+},
+{
+   "id":119,
+   "monstergroup":800304,
+   "x":78,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":120,
+   "monstergroup":800304,
+   "x":82,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":121,
+   "monstergroup":800304,
+   "x":87,
+   "y":53,
+   "questmonster":1
+},
+{
+   "id":122,
+   "monstergroup":800304,
+   "x":91,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":123,
+   "monstergroup":800304,
+   "x":91,
+   "y":53,
+   "questmonster":2
+},
+{
+   "id":124,
+   "monstergroup":800304,
+   "x":91,
+   "y":57,
+   "questmonster":1
+},
+{
+   "id":125,
+   "monstergroup":800304,
+   "x":95,
+   "y":53,
+   "questmonster":1
+},
+{
+   "id":126,
+   "monstergroup":800306,
+   "x":62,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":127,
+   "monstergroup":800306,
+   "x":66,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":128,
+   "monstergroup":800306,
+   "x":66,
+   "y":29,
+   "questmonster":2
+},
+{
+   "id":129,
+   "monstergroup":800306,
+   "x":66,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":130,
+   "monstergroup":800306,
+   "x":70,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":131,
+   "monstergroup":800306,
+   "x":86,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":132,
+   "monstergroup":800306,
+   "x":90,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":133,
+   "monstergroup":800306,
+   "x":90,
+   "y":33,
+   "questmonster":2
+},
+{
+   "id":134,
+   "monstergroup":800306,
+   "x":90,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":135,
+   "monstergroup":800306,
+   "x":94,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":136,
+   "monstergroup":800312,
+   "x":9,
+   "y":102,
+   "questmonster":1
+},
+{
+   "id":137,
+   "monstergroup":800312,
+   "x":13,
+   "y":98,
+   "questmonster":1
+},
+{
+   "id":138,
+   "monstergroup":800312,
+   "x":13,
+   "y":102,
+   "questmonster":2
+},
+{
+   "id":139,
+   "monstergroup":800312,
+   "x":13,
+   "y":106,
+   "questmonster":1
+},
+{
+   "id":140,
+   "monstergroup":800312,
+   "x":17,
+   "y":102,
+   "questmonster":1
+},
+{
+   "id":141,
+   "monstergroup":800314,
+   "x":51,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":142,
+   "monstergroup":800314,
+   "x":53,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":145,
+   "monstergroup":800314,
+   "x":55,
+   "y":92,
+   "questmonster":1
+},
+{
+   "id":146,
+   "monstergroup":800314,
+   "x":55,
+   "y":96,
+   "questmonster":2
+},
+{
+   "id":147,
+   "monstergroup":800314,
+   "x":55,
+   "y":100,
+   "questmonster":1
+},
+{
+   "id":148,
+   "monstergroup":800314,
+   "x":57,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":149,
+   "monstergroup":800314,
+   "x":57,
+   "y":83,
+   "questmonster":2
+},
+{
+   "id":150,
+   "monstergroup":800314,
+   "x":57,
+   "y":87,
+   "questmonster":1
+},
+{
+   "id":153,
+   "monstergroup":800314,
+   "x":59,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":154,
+   "monstergroup":800314,
+   "x":61,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":155,
+   "monstergroup":910103,
+   "x":24,
+   "y":17,
+   "questmonster":1
+},
+{
+   "id":156,
+   "monstergroup":910103,
+   "x":23,
+   "y":20,
+   "questmonster":2
+},
+{
+   "id":157,
+   "monstergroup":910103,
+   "x":24,
+   "y":23,
+   "questmonster":3
+},
+{
+   "id":158,
+   "monstergroup":910103,
+   "x":27,
+   "y":16,
+   "questmonster":4
+},
+{
+   "id":159,
+   "monstergroup":910103,
+   "x":27,
+   "y":20,
+   "questmonster":5
+},
+{
+   "id":160,
+   "monstergroup":910103,
+   "x":27,
+   "y":24,
+   "questmonster":6
+},
+{
+   "id":161,
+   "monstergroup":910103,
+   "x":30,
+   "y":17,
+   "questmonster":7
+},
+{
+   "id":162,
+   "monstergroup":910103,
+   "x":30,
+   "y":23,
+   "questmonster":8
+},
+{
+   "id":163,
+   "monstergroup":910103,
+   "x":31,
+   "y":20,
+   "questmonster":9
+},
+{
+   "id":164,
+   "monstergroup":800316,
+   "x":67,
+   "y":102,
+   "questmonster":1
+},
+{
+   "id":165,
+   "monstergroup":800316,
+   "x":71,
+   "y":98,
+   "questmonster":1
+},
+{
+   "id":166,
+   "monstergroup":800316,
+   "x":71,
+   "y":102,
+   "questmonster":2
+},
+{
+   "id":167,
+   "monstergroup":800316,
+   "x":71,
+   "y":106,
+   "questmonster":1
+},
+{
+   "id":168,
+   "monstergroup":800316,
+   "x":75,
+   "y":102,
+   "questmonster":1
+},
+{
+   "id":169,
+   "monstergroup":800402,
+   "x":63,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":170,
+   "monstergroup":800402,
+   "x":66,
+   "y":39,
+   "questmonster":2
+},
+{
+   "id":171,
+   "monstergroup":800402,
+   "x":63,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":172,
+   "monstergroup":800402,
+   "x":69,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":173,
+   "monstergroup":800402,
+   "x":69,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":174,
+   "monstergroup":800406,
+   "x":34,
+   "y":31,
+   "questmonster":1
+},
+{
+   "id":175,
+   "monstergroup":800406,
+   "x":37,
+   "y":33,
+   "questmonster":2
+},
+{
+   "id":176,
+   "monstergroup":800406,
+   "x":40,
+   "y":31,
+   "questmonster":1
+},
+{
+   "id":177,
+   "monstergroup":800406,
+   "x":40,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":178,
+   "monstergroup":800406,
+   "x":34,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":179,
+   "monstergroup":800406,
+   "x":39,
+   "y":49,
+   "questmonster":2
+},
+{
+   "id":180,
+   "monstergroup":800406,
+   "x":42,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":181,
+   "monstergroup":800406,
+   "x":36,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":182,
+   "monstergroup":800406,
+   "x":42,
+   "y":51,
+   "questmonster":1
+},
+{
+   "id":183,
+   "monstergroup":800406,
+   "x":36,
+   "y":51,
+   "questmonster":1
+},
+{
+   "id":184,
+   "monstergroup":800410,
+   "x":13,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":185,
+   "monstergroup":800410,
+   "x":16,
+   "y":36,
+   "questmonster":2
+},
+{
+   "id":186,
+   "monstergroup":800410,
+   "x":19,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":187,
+   "monstergroup":800410,
+   "x":19,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":188,
+   "monstergroup":800410,
+   "x":13,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":189,
+   "monstergroup":800415,
+   "x":39,
+   "y":4,
+   "questmonster":1
+},
+{
+   "id":190,
+   "monstergroup":800415,
+   "x":45,
+   "y":4,
+   "questmonster":1
+},
+{
+   "id":191,
+   "monstergroup":800415,
+   "x":42,
+   "y":6,
+   "questmonster":2
+},
+{
+   "id":192,
+   "monstergroup":800415,
+   "x":45,
+   "y":8,
+   "questmonster":1
+},
+{
+   "id":193,
+   "monstergroup":800415,
+   "x":39,
+   "y":8,
+   "questmonster":1
+},
+{
+   "id":194,
+   "monstergroup":800421,
+   "x":93,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":195,
+   "monstergroup":800421,
+   "x":96,
+   "y":43,
+   "questmonster":2
+},
+{
+   "id":196,
+   "monstergroup":800421,
+   "x":99,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":197,
+   "monstergroup":800421,
+   "x":99,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":198,
+   "monstergroup":800421,
+   "x":93,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":199,
+   "monstergroup":800421,
+   "x":105,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":200,
+   "monstergroup":800421,
+   "x":105,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":201,
+   "monstergroup":800421,
+   "x":108,
+   "y":47,
+   "questmonster":2
+},
+{
+   "id":202,
+   "monstergroup":800421,
+   "x":111,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":203,
+   "monstergroup":800421,
+   "x":111,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":204,
+   "monstergroup":100101,
+   "x":75,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":205,
+   "monstergroup":100101,
+   "x":78,
+   "y":11,
+   "questmonster":2
+},
+{
+   "id":206,
+   "monstergroup":100101,
+   "x":78,
+   "y":21,
+   "questmonster":3
+},
+{
+   "id":207,
+   "monstergroup":100101,
+   "x":10,
+   "y":57,
+   "questmonster":4
+},
+{
+   "id":208,
+   "monstergroup":100101,
+   "x":22,
+   "y":56,
+   "questmonster":5
+},
+{
+   "id":209,
+   "monstergroup":100101,
+   "x":7,
+   "y":54,
+   "questmonster":6
+},
+{
+   "id":210,
+   "monstergroup":100101,
+   "x":12,
+   "y":50,
+   "questmonster":7
+},
+{
+   "id":211,
+   "monstergroup":100101,
+   "x":15,
+   "y":53,
+   "questmonster":8
+},
+{
+   "id":212,
+   "monstergroup":100101,
+   "x":80,
+   "y":14,
+   "questmonster":9
+},
+{
+   "id":213,
+   "monstergroup":100201,
+   "x":65,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":214,
+   "monstergroup":100201,
+   "x":63,
+   "y":17,
+   "questmonster":2
+},
+{
+   "id":215,
+   "monstergroup":100201,
+   "x":61,
+   "y":15,
+   "questmonster":3
+},
+{
+   "id":216,
+   "monstergroup":100201,
+   "x":67,
+   "y":17,
+   "questmonster":4
+},
+{
+   "id":217,
+   "monstergroup":100201,
+   "x":65,
+   "y":15,
+   "questmonster":5
+},
+{
+   "id":218,
+   "monstergroup":100201,
+   "x":63,
+   "y":13,
+   "questmonster":6
+},
+{
+   "id":219,
+   "monstergroup":100201,
+   "x":69,
+   "y":15,
+   "questmonster":7
+},
+{
+   "id":220,
+   "monstergroup":100201,
+   "x":67,
+   "y":13,
+   "questmonster":8
+},
+{
+   "id":221,
+   "monstergroup":100201,
+   "x":65,
+   "y":11,
+   "questmonster":9
+},
+{
+   "id":222,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":1
+},
+{
+   "id":223,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":2
+},
+{
+   "id":224,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":3
+},
+{
+   "id":225,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":4
+},
+{
+   "id":226,
+   "monstergroup":100301,
+   "x":49,
+   "y":26,
+   "questmonster":5
+},
+{
+   "id":227,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":6
+},
+{
+   "id":228,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":7
+},
+{
+   "id":229,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":8
+},
+{
+   "id":230,
+   "monstergroup":100301,
+   "x":0,
+   "y":0,
+   "questmonster":9
+},
+{
+   "id":231,
+   "monstergroup":100501,
+   "x":12,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":232,
+   "monstergroup":100501,
+   "x":25,
+   "y":7,
+   "questmonster":2
+},
+{
+   "id":233,
+   "monstergroup":100501,
+   "x":38,
+   "y":6,
+   "questmonster":3
+},
+{
+   "id":234,
+   "monstergroup":100501,
+   "x":45,
+   "y":9,
+   "questmonster":4
+},
+{
+   "id":235,
+   "monstergroup":100501,
+   "x":54,
+   "y":31,
+   "questmonster":5
+},
+{
+   "id":236,
+   "monstergroup":100501,
+   "x":59,
+   "y":42,
+   "questmonster":6
+},
+{
+   "id":237,
+   "monstergroup":100501,
+   "x":59,
+   "y":49,
+   "questmonster":7
+},
+{
+   "id":238,
+   "monstergroup":100501,
+   "x":56,
+   "y":56,
+   "questmonster":8
+},
+{
+   "id":239,
+   "monstergroup":100501,
+   "x":54,
+   "y":21,
+   "questmonster":9
+},
+{
+   "id":240,
+   "monstergroup":100601,
+   "x":56,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":241,
+   "monstergroup":100601,
+   "x":59,
+   "y":38,
+   "questmonster":2
+},
+{
+   "id":242,
+   "monstergroup":100601,
+   "x":56,
+   "y":40,
+   "questmonster":3
+},
+{
+   "id":243,
+   "monstergroup":100601,
+   "x":54,
+   "y":41,
+   "questmonster":4
+},
+{
+   "id":244,
+   "monstergroup":100601,
+   "x":58,
+   "y":41,
+   "questmonster":5
+},
+{
+   "id":245,
+   "monstergroup":100601,
+   "x":57,
+   "y":43,
+   "questmonster":6
+},
+{
+   "id":246,
+   "monstergroup":100601,
+   "x":54,
+   "y":44,
+   "questmonster":7
+},
+{
+   "id":247,
+   "monstergroup":100601,
+   "x":59,
+   "y":44,
+   "questmonster":8
+},
+{
+   "id":248,
+   "monstergroup":100601,
+   "x":56,
+   "y":46,
+   "questmonster":9
+},
+{
+   "id":249,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":1
+},
+{
+   "id":250,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":2
+},
+{
+   "id":251,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":3
+},
+{
+   "id":252,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":4
+},
+{
+   "id":253,
+   "monstergroup":101101,
+   "x":49,
+   "y":26,
+   "questmonster":5
+},
+{
+   "id":254,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":6
+},
+{
+   "id":255,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":7
+},
+{
+   "id":256,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":8
+},
+{
+   "id":257,
+   "monstergroup":101101,
+   "x":0,
+   "y":0,
+   "questmonster":9
+},
+{
+   "id":258,
+   "monstergroup":300001,
+   "x":40,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":259,
+   "monstergroup":300001,
+   "x":42,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":260,
+   "monstergroup":300001,
+   "x":43,
+   "y":44,
+   "questmonster":2
+},
+{
+   "id":261,
+   "monstergroup":300001,
+   "x":43,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":262,
+   "monstergroup":300001,
+   "x":45,
+   "y":49,
+   "questmonster":2
+},
+{
+   "id":263,
+   "monstergroup":300002,
+   "x":41,
+   "y":74,
+   "questmonster":1
+},
+{
+   "id":264,
+   "monstergroup":300002,
+   "x":42,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":265,
+   "monstergroup":300002,
+   "x":42,
+   "y":77,
+   "questmonster":1
+},
+{
+   "id":266,
+   "monstergroup":300002,
+   "x":45,
+   "y":70,
+   "questmonster":1
+},
+{
+   "id":267,
+   "monstergroup":300002,
+   "x":45,
+   "y":74,
+   "questmonster":1
+},
+{
+   "id":268,
+   "monstergroup":300002,
+   "x":45,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":269,
+   "monstergroup":300002,
+   "x":48,
+   "y":71,
+   "questmonster":2
+},
+{
+   "id":270,
+   "monstergroup":300002,
+   "x":49,
+   "y":74,
+   "questmonster":2
+},
+{
+   "id":271,
+   "monstergroup":300002,
+   "x":48,
+   "y":77,
+   "questmonster":2
+},
+{
+   "id":272,
+   "monstergroup":300003,
+   "x":85,
+   "y":82,
+   "questmonster":1
+},
+{
+   "id":273,
+   "monstergroup":300003,
+   "x":86,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":274,
+   "monstergroup":300003,
+   "x":86,
+   "y":85,
+   "questmonster":1
+},
+{
+   "id":275,
+   "monstergroup":300003,
+   "x":89,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":276,
+   "monstergroup":300003,
+   "x":89,
+   "y":82,
+   "questmonster":1
+},
+{
+   "id":277,
+   "monstergroup":300003,
+   "x":89,
+   "y":86,
+   "questmonster":1
+},
+{
+   "id":278,
+   "monstergroup":300003,
+   "x":92,
+   "y":79,
+   "questmonster":2
+},
+{
+   "id":279,
+   "monstergroup":300003,
+   "x":92,
+   "y":85,
+   "questmonster":2
+},
+{
+   "id":280,
+   "monstergroup":300003,
+   "x":93,
+   "y":82,
+   "questmonster":2
+},
+{
+   "id":281,
+   "monstergroup":300004,
+   "x":89,
+   "y":48,
+   "questmonster":1
+},
+{
+   "id":282,
+   "monstergroup":300004,
+   "x":90,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":283,
+   "monstergroup":300004,
+   "x":90,
+   "y":51,
+   "questmonster":1
+},
+{
+   "id":284,
+   "monstergroup":300004,
+   "x":93,
+   "y":44,
+   "questmonster":1
+},
+{
+   "id":285,
+   "monstergroup":300004,
+   "x":93,
+   "y":48,
+   "questmonster":1
+},
+{
+   "id":286,
+   "monstergroup":300004,
+   "x":93,
+   "y":52,
+   "questmonster":1
+},
+{
+   "id":287,
+   "monstergroup":300004,
+   "x":96,
+   "y":45,
+   "questmonster":2
+},
+{
+   "id":288,
+   "monstergroup":300004,
+   "x":96,
+   "y":51,
+   "questmonster":2
+},
+{
+   "id":289,
+   "monstergroup":300004,
+   "x":97,
+   "y":48,
+   "questmonster":2
+},
+{
+   "id":290,
+   "monstergroup":300005,
+   "x":60,
+   "y":17,
+   "questmonster":2
+},
+{
+   "id":291,
+   "monstergroup":300005,
+   "x":61,
+   "y":20,
+   "questmonster":1
+},
+{
+   "id":292,
+   "monstergroup":300005,
+   "x":63,
+   "y":18,
+   "questmonster":1
+},
+{
+   "id":293,
+   "monstergroup":300005,
+   "x":63,
+   "y":23,
+   "questmonster":2
+},
+{
+   "id":294,
+   "monstergroup":300005,
+   "x":64,
+   "y":21,
+   "questmonster":1
+},
+{
+   "id":295,
+   "monstergroup":300005,
+   "x":73,
+   "y":14,
+   "questmonster":1
+},
+{
+   "id":296,
+   "monstergroup":300005,
+   "x":74,
+   "y":17,
+   "questmonster":1
+},
+{
+   "id":297,
+   "monstergroup":300005,
+   "x":76,
+   "y":20,
+   "questmonster":1
+},
+{
+   "id":298,
+   "monstergroup":300005,
+   "x":76,
+   "y":15,
+   "questmonster":2
+},
+{
+   "id":299,
+   "monstergroup":300005,
+   "x":77,
+   "y":18,
+   "questmonster":2
+},
+{
+   "id":300,
+   "monstergroup":300101,
+   "x":39,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":301,
+   "monstergroup":300101,
+   "x":38,
+   "y":22,
+   "questmonster":2
+},
+{
+   "id":302,
+   "monstergroup":300101,
+   "x":39,
+   "y":25,
+   "questmonster":2
+},
+{
+   "id":303,
+   "monstergroup":300101,
+   "x":42,
+   "y":18,
+   "questmonster":1
+},
+{
+   "id":304,
+   "monstergroup":300101,
+   "x":42,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":305,
+   "monstergroup":300101,
+   "x":42,
+   "y":26,
+   "questmonster":2
+},
+{
+   "id":306,
+   "monstergroup":300101,
+   "x":45,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":307,
+   "monstergroup":300101,
+   "x":45,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":308,
+   "monstergroup":300101,
+   "x":46,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":309,
+   "monstergroup":300102,
+   "x":20,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":310,
+   "monstergroup":300102,
+   "x":19,
+   "y":32,
+   "questmonster":2
+},
+{
+   "id":311,
+   "monstergroup":300102,
+   "x":20,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":312,
+   "monstergroup":300102,
+   "x":23,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":313,
+   "monstergroup":300102,
+   "x":23,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":314,
+   "monstergroup":300102,
+   "x":23,
+   "y":36,
+   "questmonster":2
+},
+{
+   "id":315,
+   "monstergroup":300102,
+   "x":26,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":316,
+   "monstergroup":300102,
+   "x":26,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":317,
+   "monstergroup":300102,
+   "x":27,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":318,
+   "monstergroup":300103,
+   "x":28,
+   "y":61,
+   "questmonster":1
+},
+{
+   "id":319,
+   "monstergroup":300103,
+   "x":27,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":320,
+   "monstergroup":300103,
+   "x":28,
+   "y":67,
+   "questmonster":1
+},
+{
+   "id":321,
+   "monstergroup":300103,
+   "x":31,
+   "y":60,
+   "questmonster":1
+},
+{
+   "id":322,
+   "monstergroup":300103,
+   "x":31,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":323,
+   "monstergroup":300103,
+   "x":31,
+   "y":68,
+   "questmonster":2
+},
+{
+   "id":324,
+   "monstergroup":300103,
+   "x":34,
+   "y":61,
+   "questmonster":1
+},
+{
+   "id":325,
+   "monstergroup":300103,
+   "x":34,
+   "y":67,
+   "questmonster":2
+},
+{
+   "id":326,
+   "monstergroup":300103,
+   "x":35,
+   "y":64,
+   "questmonster":2
+},
+{
+   "id":327,
+   "monstergroup":300104,
+   "x":82,
+   "y":66,
+   "questmonster":1
+},
+{
+   "id":328,
+   "monstergroup":300104,
+   "x":81,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":329,
+   "monstergroup":300104,
+   "x":82,
+   "y":72,
+   "questmonster":1
+},
+{
+   "id":330,
+   "monstergroup":300104,
+   "x":85,
+   "y":65,
+   "questmonster":1
+},
+{
+   "id":331,
+   "monstergroup":300104,
+   "x":85,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":332,
+   "monstergroup":300104,
+   "x":85,
+   "y":73,
+   "questmonster":1
+},
+{
+   "id":333,
+   "monstergroup":300104,
+   "x":88,
+   "y":66,
+   "questmonster":2
+},
+{
+   "id":334,
+   "monstergroup":300104,
+   "x":88,
+   "y":72,
+   "questmonster":2
+},
+{
+   "id":335,
+   "monstergroup":300104,
+   "x":89,
+   "y":69,
+   "questmonster":2
+},
+{
+   "id":336,
+   "monstergroup":300105,
+   "x":70,
+   "y":33,
+   "questmonster":2
+},
+{
+   "id":337,
+   "monstergroup":300105,
+   "x":69,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":338,
+   "monstergroup":300105,
+   "x":70,
+   "y":39,
+   "questmonster":1
+},
+{
+   "id":339,
+   "monstergroup":300105,
+   "x":73,
+   "y":32,
+   "questmonster":2
+},
+{
+   "id":340,
+   "monstergroup":300105,
+   "x":73,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":341,
+   "monstergroup":300105,
+   "x":73,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":342,
+   "monstergroup":300105,
+   "x":76,
+   "y":33,
+   "questmonster":2
+},
+{
+   "id":343,
+   "monstergroup":300105,
+   "x":76,
+   "y":39,
+   "questmonster":1
+},
+{
+   "id":344,
+   "monstergroup":300105,
+   "x":77,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":345,
+   "monstergroup":300201,
+   "x":35,
+   "y":9,
+   "questmonster":1
+},
+{
+   "id":346,
+   "monstergroup":300201,
+   "x":34,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":347,
+   "monstergroup":300201,
+   "x":35,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":348,
+   "monstergroup":300201,
+   "x":38,
+   "y":8,
+   "questmonster":1
+},
+{
+   "id":349,
+   "monstergroup":300201,
+   "x":38,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":350,
+   "monstergroup":300201,
+   "x":38,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":351,
+   "monstergroup":300201,
+   "x":41,
+   "y":9,
+   "questmonster":2
+},
+{
+   "id":352,
+   "monstergroup":300201,
+   "x":41,
+   "y":15,
+   "questmonster":2
+},
+{
+   "id":353,
+   "monstergroup":300201,
+   "x":42,
+   "y":12,
+   "questmonster":2
+},
+{
+   "id":354,
+   "monstergroup":300202,
+   "x":68,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":355,
+   "monstergroup":300202,
+   "x":67,
+   "y":40,
+   "questmonster":2
+},
+{
+   "id":356,
+   "monstergroup":300202,
+   "x":68,
+   "y":43,
+   "questmonster":2
+},
+{
+   "id":357,
+   "monstergroup":300202,
+   "x":71,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":358,
+   "monstergroup":300202,
+   "x":71,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":359,
+   "monstergroup":300202,
+   "x":71,
+   "y":44,
+   "questmonster":2
+},
+{
+   "id":360,
+   "monstergroup":300202,
+   "x":74,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":361,
+   "monstergroup":300202,
+   "x":74,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":362,
+   "monstergroup":300202,
+   "x":75,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":363,
+   "monstergroup":300203,
+   "x":66,
+   "y":75,
+   "questmonster":1
+},
+{
+   "id":364,
+   "monstergroup":300203,
+   "x":65,
+   "y":78,
+   "questmonster":2
+},
+{
+   "id":365,
+   "monstergroup":300203,
+   "x":66,
+   "y":81,
+   "questmonster":2
+},
+{
+   "id":366,
+   "monstergroup":300203,
+   "x":69,
+   "y":74,
+   "questmonster":1
+},
+{
+   "id":367,
+   "monstergroup":300203,
+   "x":69,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":368,
+   "monstergroup":300203,
+   "x":69,
+   "y":82,
+   "questmonster":2
+},
+{
+   "id":369,
+   "monstergroup":300203,
+   "x":72,
+   "y":75,
+   "questmonster":1
+},
+{
+   "id":370,
+   "monstergroup":300203,
+   "x":72,
+   "y":81,
+   "questmonster":1
+},
+{
+   "id":371,
+   "monstergroup":300203,
+   "x":73,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":372,
+   "monstergroup":300204,
+   "x":21,
+   "y":69,
+   "questmonster":2
+},
+{
+   "id":373,
+   "monstergroup":300204,
+   "x":20,
+   "y":72,
+   "questmonster":2
+},
+{
+   "id":374,
+   "monstergroup":300204,
+   "x":22,
+   "y":74,
+   "questmonster":1
+},
+{
+   "id":375,
+   "monstergroup":300204,
+   "x":23,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":376,
+   "monstergroup":300204,
+   "x":24,
+   "y":68,
+   "questmonster":2
+},
+{
+   "id":377,
+   "monstergroup":300204,
+   "x":25,
+   "y":73,
+   "questmonster":1
+},
+{
+   "id":378,
+   "monstergroup":300204,
+   "x":26,
+   "y":70,
+   "questmonster":1
+},
+{
+   "id":379,
+   "monstergroup":300204,
+   "x":27,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":380,
+   "monstergroup":300204,
+   "x":28,
+   "y":72,
+   "questmonster":1
+},
+{
+   "id":381,
+   "monstergroup":300205,
+   "x":21,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":382,
+   "monstergroup":300205,
+   "x":20,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":383,
+   "monstergroup":300205,
+   "x":21,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":384,
+   "monstergroup":300205,
+   "x":24,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":385,
+   "monstergroup":300205,
+   "x":24,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":386,
+   "monstergroup":300205,
+   "x":36,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":387,
+   "monstergroup":300205,
+   "x":37,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":388,
+   "monstergroup":300205,
+   "x":39,
+   "y":30,
+   "questmonster":1
+},
+{
+   "id":389,
+   "monstergroup":300205,
+   "x":40,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":390,
+   "monstergroup":300301,
+   "x":54,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":391,
+   "monstergroup":300301,
+   "x":53,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":392,
+   "monstergroup":300301,
+   "x":54,
+   "y":35,
+   "questmonster":1
+},
+{
+   "id":393,
+   "monstergroup":300301,
+   "x":57,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":394,
+   "monstergroup":300301,
+   "x":57,
+   "y":32,
+   "questmonster":1
+},
+{
+   "id":395,
+   "monstergroup":300301,
+   "x":57,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":396,
+   "monstergroup":300301,
+   "x":60,
+   "y":29,
+   "questmonster":2
+},
+{
+   "id":397,
+   "monstergroup":300301,
+   "x":60,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":398,
+   "monstergroup":300301,
+   "x":61,
+   "y":32,
+   "questmonster":2
+},
+{
+   "id":399,
+   "monstergroup":300302,
+   "x":7,
+   "y":40,
+   "questmonster":2
+},
+{
+   "id":400,
+   "monstergroup":300302,
+   "x":6,
+   "y":43,
+   "questmonster":2
+},
+{
+   "id":401,
+   "monstergroup":300302,
+   "x":7,
+   "y":46,
+   "questmonster":2
+},
+{
+   "id":402,
+   "monstergroup":300302,
+   "x":10,
+   "y":39,
+   "questmonster":1
+},
+{
+   "id":403,
+   "monstergroup":300302,
+   "x":10,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":404,
+   "monstergroup":300302,
+   "x":10,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":405,
+   "monstergroup":300302,
+   "x":13,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":406,
+   "monstergroup":300302,
+   "x":13,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":407,
+   "monstergroup":300302,
+   "x":14,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":408,
+   "monstergroup":300303,
+   "x":7,
+   "y":72,
+   "questmonster":2
+},
+{
+   "id":409,
+   "monstergroup":300303,
+   "x":6,
+   "y":75,
+   "questmonster":2
+},
+{
+   "id":410,
+   "monstergroup":300303,
+   "x":7,
+   "y":78,
+   "questmonster":2
+},
+{
+   "id":411,
+   "monstergroup":300303,
+   "x":10,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":412,
+   "monstergroup":300303,
+   "x":10,
+   "y":75,
+   "questmonster":1
+},
+{
+   "id":413,
+   "monstergroup":300303,
+   "x":10,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":414,
+   "monstergroup":300303,
+   "x":13,
+   "y":72,
+   "questmonster":1
+},
+{
+   "id":415,
+   "monstergroup":300303,
+   "x":13,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":416,
+   "monstergroup":300303,
+   "x":14,
+   "y":75,
+   "questmonster":1
+},
+{
+   "id":417,
+   "monstergroup":300304,
+   "x":86,
+   "y":39,
+   "questmonster":1
+},
+{
+   "id":418,
+   "monstergroup":300304,
+   "x":85,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":419,
+   "monstergroup":300304,
+   "x":86,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":420,
+   "monstergroup":300304,
+   "x":89,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":421,
+   "monstergroup":300304,
+   "x":89,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":422,
+   "monstergroup":300304,
+   "x":89,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":423,
+   "monstergroup":300304,
+   "x":92,
+   "y":39,
+   "questmonster":2
+},
+{
+   "id":424,
+   "monstergroup":300304,
+   "x":92,
+   "y":45,
+   "questmonster":2
+},
+{
+   "id":425,
+   "monstergroup":300304,
+   "x":93,
+   "y":42,
+   "questmonster":2
+},
+{
+   "id":426,
+   "monstergroup":300305,
+   "x":82,
+   "y":13,
+   "questmonster":1
+},
+{
+   "id":427,
+   "monstergroup":300305,
+   "x":81,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":428,
+   "monstergroup":300305,
+   "x":82,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":429,
+   "monstergroup":300305,
+   "x":85,
+   "y":12,
+   "questmonster":2
+},
+{
+   "id":430,
+   "monstergroup":300305,
+   "x":85,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":431,
+   "monstergroup":300305,
+   "x":85,
+   "y":20,
+   "questmonster":1
+},
+{
+   "id":432,
+   "monstergroup":300305,
+   "x":88,
+   "y":13,
+   "questmonster":2
+},
+{
+   "id":433,
+   "monstergroup":300305,
+   "x":88,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":434,
+   "monstergroup":300305,
+   "x":89,
+   "y":16,
+   "questmonster":2
+},
+{
+   "id":435,
+   "monstergroup":300401,
+   "x":65,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":436,
+   "monstergroup":300401,
+   "x":64,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":437,
+   "monstergroup":300401,
+   "x":65,
+   "y":53,
+   "questmonster":1
+},
+{
+   "id":438,
+   "monstergroup":300401,
+   "x":68,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":439,
+   "monstergroup":300401,
+   "x":68,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":440,
+   "monstergroup":300401,
+   "x":68,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":441,
+   "monstergroup":300401,
+   "x":71,
+   "y":47,
+   "questmonster":2
+},
+{
+   "id":442,
+   "monstergroup":300401,
+   "x":71,
+   "y":53,
+   "questmonster":2
+},
+{
+   "id":443,
+   "monstergroup":300401,
+   "x":72,
+   "y":50,
+   "questmonster":2
+},
+{
+   "id":444,
+   "monstergroup":300402,
+   "x":91,
+   "y":59,
+   "questmonster":1
+},
+{
+   "id":445,
+   "monstergroup":300402,
+   "x":90,
+   "y":62,
+   "questmonster":1
+},
+{
+   "id":446,
+   "monstergroup":300402,
+   "x":91,
+   "y":65,
+   "questmonster":1
+},
+{
+   "id":447,
+   "monstergroup":300402,
+   "x":94,
+   "y":58,
+   "questmonster":1
+},
+{
+   "id":448,
+   "monstergroup":300402,
+   "x":94,
+   "y":62,
+   "questmonster":1
+},
+{
+   "id":449,
+   "monstergroup":300402,
+   "x":94,
+   "y":66,
+   "questmonster":1
+},
+{
+   "id":450,
+   "monstergroup":300402,
+   "x":97,
+   "y":59,
+   "questmonster":2
+},
+{
+   "id":451,
+   "monstergroup":300402,
+   "x":97,
+   "y":65,
+   "questmonster":2
+},
+{
+   "id":452,
+   "monstergroup":300402,
+   "x":98,
+   "y":62,
+   "questmonster":2
+},
+{
+   "id":453,
+   "monstergroup":300403,
+   "x":20,
+   "y":77,
+   "questmonster":2
+},
+{
+   "id":454,
+   "monstergroup":300403,
+   "x":19,
+   "y":80,
+   "questmonster":2
+},
+{
+   "id":455,
+   "monstergroup":300403,
+   "x":20,
+   "y":83,
+   "questmonster":2
+},
+{
+   "id":456,
+   "monstergroup":300403,
+   "x":23,
+   "y":76,
+   "questmonster":1
+},
+{
+   "id":457,
+   "monstergroup":300403,
+   "x":23,
+   "y":80,
+   "questmonster":1
+},
+{
+   "id":458,
+   "monstergroup":300403,
+   "x":23,
+   "y":84,
+   "questmonster":1
+},
+{
+   "id":459,
+   "monstergroup":300403,
+   "x":26,
+   "y":77,
+   "questmonster":1
+},
+{
+   "id":460,
+   "monstergroup":300403,
+   "x":26,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":461,
+   "monstergroup":300403,
+   "x":27,
+   "y":80,
+   "questmonster":1
+},
+{
+   "id":462,
+   "monstergroup":300404,
+   "x":10,
+   "y":46,
+   "questmonster":2
+},
+{
+   "id":463,
+   "monstergroup":300404,
+   "x":9,
+   "y":49,
+   "questmonster":2
+},
+{
+   "id":464,
+   "monstergroup":300404,
+   "x":10,
+   "y":52,
+   "questmonster":2
+},
+{
+   "id":465,
+   "monstergroup":300404,
+   "x":13,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":466,
+   "monstergroup":300404,
+   "x":13,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":467,
+   "monstergroup":300404,
+   "x":13,
+   "y":53,
+   "questmonster":1
+},
+{
+   "id":468,
+   "monstergroup":300404,
+   "x":16,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":469,
+   "monstergroup":300404,
+   "x":16,
+   "y":52,
+   "questmonster":1
+},
+{
+   "id":470,
+   "monstergroup":300404,
+   "x":17,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":471,
+   "monstergroup":300405,
+   "x":32,
+   "y":12,
+   "questmonster":2
+},
+{
+   "id":472,
+   "monstergroup":300405,
+   "x":31,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":473,
+   "monstergroup":300405,
+   "x":32,
+   "y":18,
+   "questmonster":1
+},
+{
+   "id":474,
+   "monstergroup":300405,
+   "x":35,
+   "y":11,
+   "questmonster":2
+},
+{
+   "id":475,
+   "monstergroup":300405,
+   "x":35,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":476,
+   "monstergroup":300405,
+   "x":35,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":477,
+   "monstergroup":300405,
+   "x":38,
+   "y":12,
+   "questmonster":2
+},
+{
+   "id":478,
+   "monstergroup":300405,
+   "x":38,
+   "y":18,
+   "questmonster":1
+},
+{
+   "id":479,
+   "monstergroup":300405,
+   "x":39,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":480,
+   "monstergroup":300406,
+   "x":79,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":481,
+   "monstergroup":300406,
+   "x":78,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":482,
+   "monstergroup":300406,
+   "x":79,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":483,
+   "monstergroup":300406,
+   "x":82,
+   "y":18,
+   "questmonster":1
+},
+{
+   "id":484,
+   "monstergroup":300406,
+   "x":82,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":485,
+   "monstergroup":300406,
+   "x":82,
+   "y":26,
+   "questmonster":1
+},
+{
+   "id":486,
+   "monstergroup":300406,
+   "x":85,
+   "y":25,
+   "questmonster":2
+},
+{
+   "id":487,
+   "monstergroup":300406,
+   "x":85,
+   "y":19,
+   "questmonster":2
+},
+{
+   "id":488,
+   "monstergroup":300406,
+   "x":86,
+   "y":22,
+   "questmonster":2
+},
+{
+   "id":489,
+   "monstergroup":300501,
+   "x":37,
+   "y":77,
+   "questmonster":1
+},
+{
+   "id":490,
+   "monstergroup":300501,
+   "x":36,
+   "y":80,
+   "questmonster":1
+},
+{
+   "id":491,
+   "monstergroup":300501,
+   "x":37,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":492,
+   "monstergroup":300501,
+   "x":40,
+   "y":76,
+   "questmonster":2
+},
+{
+   "id":493,
+   "monstergroup":300501,
+   "x":40,
+   "y":80,
+   "questmonster":1
+},
+{
+   "id":494,
+   "monstergroup":300501,
+   "x":40,
+   "y":84,
+   "questmonster":1
+},
+{
+   "id":495,
+   "monstergroup":300501,
+   "x":43,
+   "y":77,
+   "questmonster":2
+},
+{
+   "id":496,
+   "monstergroup":300501,
+   "x":43,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":497,
+   "monstergroup":300501,
+   "x":44,
+   "y":80,
+   "questmonster":2
+},
+{
+   "id":498,
+   "monstergroup":300502,
+   "x":59,
+   "y":63,
+   "questmonster":1
+},
+{
+   "id":499,
+   "monstergroup":300502,
+   "x":58,
+   "y":66,
+   "questmonster":1
+},
+{
+   "id":500,
+   "monstergroup":300502,
+   "x":59,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":501,
+   "monstergroup":300502,
+   "x":62,
+   "y":62,
+   "questmonster":2
+},
+{
+   "id":502,
+   "monstergroup":300502,
+   "x":62,
+   "y":66,
+   "questmonster":1
+},
+{
+   "id":503,
+   "monstergroup":300502,
+   "x":62,
+   "y":70,
+   "questmonster":1
+},
+{
+   "id":504,
+   "monstergroup":300502,
+   "x":65,
+   "y":63,
+   "questmonster":2
+},
+{
+   "id":505,
+   "monstergroup":300502,
+   "x":65,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":506,
+   "monstergroup":300502,
+   "x":66,
+   "y":66,
+   "questmonster":2
+},
+{
+   "id":507,
+   "monstergroup":300503,
+   "x":84,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":508,
+   "monstergroup":300503,
+   "x":83,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":509,
+   "monstergroup":300503,
+   "x":84,
+   "y":52,
+   "questmonster":1
+},
+{
+   "id":510,
+   "monstergroup":300503,
+   "x":87,
+   "y":45,
+   "questmonster":2
+},
+{
+   "id":511,
+   "monstergroup":300503,
+   "x":87,
+   "y":49,
+   "questmonster":1
+},
+{
+   "id":512,
+   "monstergroup":300503,
+   "x":87,
+   "y":53,
+   "questmonster":1
+},
+{
+   "id":513,
+   "monstergroup":300503,
+   "x":90,
+   "y":46,
+   "questmonster":2
+},
+{
+   "id":514,
+   "monstergroup":300503,
+   "x":90,
+   "y":52,
+   "questmonster":1
+},
+{
+   "id":515,
+   "monstergroup":300503,
+   "x":91,
+   "y":49,
+   "questmonster":2
+},
+{
+   "id":516,
+   "monstergroup":300504,
+   "x":73,
+   "y":21,
+   "questmonster":1
+},
+{
+   "id":517,
+   "monstergroup":300504,
+   "x":72,
+   "y":24,
+   "questmonster":1
+},
+{
+   "id":518,
+   "monstergroup":300504,
+   "x":73,
+   "y":27,
+   "questmonster":1
+},
+{
+   "id":519,
+   "monstergroup":300504,
+   "x":76,
+   "y":20,
+   "questmonster":2
+},
+{
+   "id":520,
+   "monstergroup":300504,
+   "x":76,
+   "y":24,
+   "questmonster":1
+},
+{
+   "id":521,
+   "monstergroup":300504,
+   "x":76,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":522,
+   "monstergroup":300504,
+   "x":79,
+   "y":21,
+   "questmonster":2
+},
+{
+   "id":523,
+   "monstergroup":300504,
+   "x":79,
+   "y":27,
+   "questmonster":1
+},
+{
+   "id":524,
+   "monstergroup":300504,
+   "x":80,
+   "y":24,
+   "questmonster":2
+},
+{
+   "id":525,
+   "monstergroup":300505,
+   "x":22,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":526,
+   "monstergroup":300505,
+   "x":21,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":527,
+   "monstergroup":300505,
+   "x":21,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":528,
+   "monstergroup":300505,
+   "x":18,
+   "y":21,
+   "questmonster":2
+},
+{
+   "id":529,
+   "monstergroup":300505,
+   "x":18,
+   "y":25,
+   "questmonster":2
+},
+{
+   "id":530,
+   "monstergroup":300505,
+   "x":18,
+   "y":29,
+   "questmonster":2
+},
+{
+   "id":531,
+   "monstergroup":300505,
+   "x":24,
+   "y":20,
+   "questmonster":1
+},
+{
+   "id":532,
+   "monstergroup":300505,
+   "x":22,
+   "y":31,
+   "questmonster":1
+},
+{
+   "id":533,
+   "monstergroup":300505,
+   "x":24,
+   "y":23,
+   "questmonster":1
+},
+{
+   "id":534,
+   "monstergroup":300506,
+   "x":10,
+   "y":44,
+   "questmonster":2
+},
+{
+   "id":535,
+   "monstergroup":300506,
+   "x":9,
+   "y":47,
+   "questmonster":2
+},
+{
+   "id":536,
+   "monstergroup":300506,
+   "x":10,
+   "y":50,
+   "questmonster":2
+},
+{
+   "id":537,
+   "monstergroup":300506,
+   "x":13,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":538,
+   "monstergroup":300506,
+   "x":13,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":539,
+   "monstergroup":300506,
+   "x":13,
+   "y":51,
+   "questmonster":1
+},
+{
+   "id":540,
+   "monstergroup":300506,
+   "x":16,
+   "y":44,
+   "questmonster":1
+},
+{
+   "id":541,
+   "monstergroup":300506,
+   "x":16,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":542,
+   "monstergroup":300506,
+   "x":17,
+   "y":47,
+   "questmonster":1
+},
+{
+   "id":543,
+   "monstergroup":300601,
+   "x":42,
+   "y":13,
+   "questmonster":1
+},
+{
+   "id":544,
+   "monstergroup":300601,
+   "x":41,
+   "y":16,
+   "questmonster":2
+},
+{
+   "id":545,
+   "monstergroup":300601,
+   "x":42,
+   "y":19,
+   "questmonster":2
+},
+{
+   "id":546,
+   "monstergroup":300601,
+   "x":45,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":547,
+   "monstergroup":300601,
+   "x":45,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":548,
+   "monstergroup":300601,
+   "x":45,
+   "y":20,
+   "questmonster":2
+},
+{
+   "id":549,
+   "monstergroup":300601,
+   "x":48,
+   "y":13,
+   "questmonster":1
+},
+{
+   "id":550,
+   "monstergroup":300601,
+   "x":48,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":551,
+   "monstergroup":300601,
+   "x":49,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":552,
+   "monstergroup":300602,
+   "x":20,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":553,
+   "monstergroup":300602,
+   "x":19,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":554,
+   "monstergroup":300602,
+   "x":20,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":555,
+   "monstergroup":300602,
+   "x":23,
+   "y":33,
+   "questmonster":1
+},
+{
+   "id":556,
+   "monstergroup":300602,
+   "x":23,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":557,
+   "monstergroup":300602,
+   "x":23,
+   "y":41,
+   "questmonster":2
+},
+{
+   "id":558,
+   "monstergroup":300602,
+   "x":26,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":559,
+   "monstergroup":300602,
+   "x":26,
+   "y":40,
+   "questmonster":2
+},
+{
+   "id":560,
+   "monstergroup":300602,
+   "x":27,
+   "y":37,
+   "questmonster":2
+},
+{
+   "id":561,
+   "monstergroup":300603,
+   "x":19,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":562,
+   "monstergroup":300603,
+   "x":18,
+   "y":81,
+   "questmonster":1
+},
+{
+   "id":563,
+   "monstergroup":300603,
+   "x":19,
+   "y":84,
+   "questmonster":1
+},
+{
+   "id":564,
+   "monstergroup":300603,
+   "x":22,
+   "y":77,
+   "questmonster":1
+},
+{
+   "id":565,
+   "monstergroup":300603,
+   "x":22,
+   "y":81,
+   "questmonster":1
+},
+{
+   "id":566,
+   "monstergroup":300603,
+   "x":22,
+   "y":85,
+   "questmonster":2
+},
+{
+   "id":567,
+   "monstergroup":300603,
+   "x":25,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":568,
+   "monstergroup":300603,
+   "x":25,
+   "y":84,
+   "questmonster":2
+},
+{
+   "id":569,
+   "monstergroup":300603,
+   "x":26,
+   "y":81,
+   "questmonster":2
+},
+{
+   "id":570,
+   "monstergroup":300604,
+   "x":69,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":571,
+   "monstergroup":300604,
+   "x":68,
+   "y":74,
+   "questmonster":1
+},
+{
+   "id":572,
+   "monstergroup":300604,
+   "x":69,
+   "y":77,
+   "questmonster":1
+},
+{
+   "id":573,
+   "monstergroup":300604,
+   "x":72,
+   "y":70,
+   "questmonster":2
+},
+{
+   "id":574,
+   "monstergroup":300604,
+   "x":72,
+   "y":74,
+   "questmonster":1
+},
+{
+   "id":575,
+   "monstergroup":300604,
+   "x":72,
+   "y":78,
+   "questmonster":1
+},
+{
+   "id":576,
+   "monstergroup":300604,
+   "x":75,
+   "y":71,
+   "questmonster":2
+},
+{
+   "id":577,
+   "monstergroup":300604,
+   "x":75,
+   "y":77,
+   "questmonster":1
+},
+{
+   "id":578,
+   "monstergroup":300604,
+   "x":76,
+   "y":74,
+   "questmonster":2
+},
+{
+   "id":579,
+   "monstergroup":300605,
+   "x":73,
+   "y":22,
+   "questmonster":2
+},
+{
+   "id":580,
+   "monstergroup":300605,
+   "x":72,
+   "y":25,
+   "questmonster":2
+},
+{
+   "id":581,
+   "monstergroup":300605,
+   "x":73,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":582,
+   "monstergroup":300605,
+   "x":76,
+   "y":21,
+   "questmonster":2
+},
+{
+   "id":583,
+   "monstergroup":300605,
+   "x":76,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":584,
+   "monstergroup":300605,
+   "x":76,
+   "y":29,
+   "questmonster":1
+},
+{
+   "id":585,
+   "monstergroup":300605,
+   "x":79,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":586,
+   "monstergroup":300605,
+   "x":79,
+   "y":28,
+   "questmonster":1
+},
+{
+   "id":587,
+   "monstergroup":300605,
+   "x":80,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":588,
+   "monstergroup":300701,
+   "x":13,
+   "y":64,
+   "questmonster":2
+},
+{
+   "id":589,
+   "monstergroup":300701,
+   "x":12,
+   "y":67,
+   "questmonster":2
+},
+{
+   "id":590,
+   "monstergroup":300701,
+   "x":13,
+   "y":70,
+   "questmonster":1
+},
+{
+   "id":591,
+   "monstergroup":300701,
+   "x":16,
+   "y":63,
+   "questmonster":2
+},
+{
+   "id":592,
+   "monstergroup":300701,
+   "x":16,
+   "y":67,
+   "questmonster":1
+},
+{
+   "id":593,
+   "monstergroup":300701,
+   "x":16,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":594,
+   "monstergroup":300701,
+   "x":19,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":595,
+   "monstergroup":300701,
+   "x":19,
+   "y":70,
+   "questmonster":1
+},
+{
+   "id":596,
+   "monstergroup":300701,
+   "x":20,
+   "y":67,
+   "questmonster":1
+},
+{
+   "id":597,
+   "monstergroup":300702,
+   "x":45,
+   "y":51,
+   "questmonster":1
+},
+{
+   "id":598,
+   "monstergroup":300702,
+   "x":44,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":599,
+   "monstergroup":300702,
+   "x":45,
+   "y":57,
+   "questmonster":1
+},
+{
+   "id":600,
+   "monstergroup":300702,
+   "x":48,
+   "y":50,
+   "questmonster":1
+},
+{
+   "id":601,
+   "monstergroup":300702,
+   "x":48,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":602,
+   "monstergroup":300702,
+   "x":48,
+   "y":58,
+   "questmonster":1
+},
+{
+   "id":603,
+   "monstergroup":300702,
+   "x":51,
+   "y":51,
+   "questmonster":2
+},
+{
+   "id":604,
+   "monstergroup":300702,
+   "x":51,
+   "y":57,
+   "questmonster":2
+},
+{
+   "id":605,
+   "monstergroup":300702,
+   "x":52,
+   "y":54,
+   "questmonster":2
+},
+{
+   "id":606,
+   "monstergroup":300703,
+   "x":75,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":607,
+   "monstergroup":300703,
+   "x":74,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":608,
+   "monstergroup":300703,
+   "x":75,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":609,
+   "monstergroup":300703,
+   "x":78,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":610,
+   "monstergroup":300703,
+   "x":78,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":611,
+   "monstergroup":300703,
+   "x":78,
+   "y":23,
+   "questmonster":2
+},
+{
+   "id":612,
+   "monstergroup":300703,
+   "x":81,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":613,
+   "monstergroup":300703,
+   "x":81,
+   "y":22,
+   "questmonster":2
+},
+{
+   "id":614,
+   "monstergroup":300703,
+   "x":82,
+   "y":19,
+   "questmonster":2
+},
+{
+   "id":615,
+   "monstergroup":300704,
+   "x":78,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":616,
+   "monstergroup":300704,
+   "x":77,
+   "y":38,
+   "questmonster":2
+},
+{
+   "id":617,
+   "monstergroup":300704,
+   "x":84,
+   "y":46,
+   "questmonster":2
+},
+{
+   "id":618,
+   "monstergroup":300704,
+   "x":80,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":619,
+   "monstergroup":300704,
+   "x":81,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":620,
+   "monstergroup":300704,
+   "x":83,
+   "y":36,
+   "questmonster":1
+},
+{
+   "id":621,
+   "monstergroup":300704,
+   "x":87,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":622,
+   "monstergroup":300704,
+   "x":87,
+   "y":47,
+   "questmonster":2
+},
+{
+   "id":623,
+   "monstergroup":300704,
+   "x":90,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":624,
+   "monstergroup":300704,
+   "x":91,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":625,
+   "monstergroup":300705,
+   "x":90,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":626,
+   "monstergroup":300705,
+   "x":89,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":627,
+   "monstergroup":300705,
+   "x":90,
+   "y":74,
+   "questmonster":2
+},
+{
+   "id":628,
+   "monstergroup":300705,
+   "x":93,
+   "y":67,
+   "questmonster":1
+},
+{
+   "id":629,
+   "monstergroup":300705,
+   "x":93,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":630,
+   "monstergroup":300705,
+   "x":93,
+   "y":75,
+   "questmonster":2
+},
+{
+   "id":631,
+   "monstergroup":300705,
+   "x":96,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":632,
+   "monstergroup":300705,
+   "x":96,
+   "y":74,
+   "questmonster":2
+},
+{
+   "id":633,
+   "monstergroup":300705,
+   "x":97,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":634,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":1
+},
+{
+   "id":635,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":2
+},
+{
+   "id":636,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":3
+},
+{
+   "id":637,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":4
+},
+{
+   "id":638,
+   "monstergroup":100401,
+   "x":52,
+   "y":23,
+   "questmonster":5
+},
+{
+   "id":639,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":6
+},
+{
+   "id":640,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":7
+},
+{
+   "id":641,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":8
+},
+{
+   "id":642,
+   "monstergroup":100401,
+   "x":0,
+   "y":0,
+   "questmonster":9
+},
+{
+   "id":643,
+   "monstergroup":802001,
+   "x":103,
+   "y":39,
+   "questmonster":2
+},
+{
+   "id":644,
+   "monstergroup":802001,
+   "x":102,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":645,
+   "monstergroup":802001,
+   "x":103,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":646,
+   "monstergroup":802001,
+   "x":106,
+   "y":38,
+   "questmonster":2
+},
+{
+   "id":647,
+   "monstergroup":802001,
+   "x":106,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":648,
+   "monstergroup":802001,
+   "x":106,
+   "y":46,
+   "questmonster":1
+},
+{
+   "id":649,
+   "monstergroup":802001,
+   "x":109,
+   "y":39,
+   "questmonster":2
+},
+{
+   "id":650,
+   "monstergroup":802001,
+   "x":109,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":651,
+   "monstergroup":802001,
+   "x":110,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":652,
+   "monstergroup":802002,
+   "x":100,
+   "y":19,
+   "questmonster":2
+},
+{
+   "id":653,
+   "monstergroup":802002,
+   "x":99,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":654,
+   "monstergroup":802002,
+   "x":100,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":655,
+   "monstergroup":802002,
+   "x":103,
+   "y":18,
+   "questmonster":2
+},
+{
+   "id":656,
+   "monstergroup":802002,
+   "x":103,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":657,
+   "monstergroup":802002,
+   "x":103,
+   "y":26,
+   "questmonster":1
+},
+{
+   "id":658,
+   "monstergroup":802002,
+   "x":106,
+   "y":19,
+   "questmonster":2
+},
+{
+   "id":659,
+   "monstergroup":802002,
+   "x":106,
+   "y":25,
+   "questmonster":1
+},
+{
+   "id":660,
+   "monstergroup":802002,
+   "x":107,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":661,
+   "monstergroup":802003,
+   "x":54,
+   "y":16,
+   "questmonster":2
+},
+{
+   "id":662,
+   "monstergroup":802003,
+   "x":53,
+   "y":19,
+   "questmonster":2
+},
+{
+   "id":663,
+   "monstergroup":802003,
+   "x":54,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":664,
+   "monstergroup":802003,
+   "x":57,
+   "y":15,
+   "questmonster":2
+},
+{
+   "id":665,
+   "monstergroup":802003,
+   "x":57,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":666,
+   "monstergroup":802003,
+   "x":57,
+   "y":23,
+   "questmonster":1
+},
+{
+   "id":667,
+   "monstergroup":802003,
+   "x":60,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":668,
+   "monstergroup":802003,
+   "x":60,
+   "y":22,
+   "questmonster":1
+},
+{
+   "id":669,
+   "monstergroup":802003,
+   "x":61,
+   "y":19,
+   "questmonster":1
+},
+{
+   "id":670,
+   "monstergroup":802004,
+   "x":39,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":671,
+   "monstergroup":802004,
+   "x":38,
+   "y":72,
+   "questmonster":1
+},
+{
+   "id":672,
+   "monstergroup":802004,
+   "x":39,
+   "y":75,
+   "questmonster":1
+},
+{
+   "id":673,
+   "monstergroup":802004,
+   "x":42,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":674,
+   "monstergroup":802004,
+   "x":42,
+   "y":72,
+   "questmonster":1
+},
+{
+   "id":675,
+   "monstergroup":802004,
+   "x":42,
+   "y":76,
+   "questmonster":2
+},
+{
+   "id":676,
+   "monstergroup":802004,
+   "x":45,
+   "y":69,
+   "questmonster":1
+},
+{
+   "id":677,
+   "monstergroup":802004,
+   "x":45,
+   "y":75,
+   "questmonster":2
+},
+{
+   "id":678,
+   "monstergroup":802004,
+   "x":46,
+   "y":72,
+   "questmonster":2
+},
+{
+   "id":679,
+   "monstergroup":802005,
+   "x":24,
+   "y":97,
+   "questmonster":1
+},
+{
+   "id":680,
+   "monstergroup":802005,
+   "x":23,
+   "y":100,
+   "questmonster":1
+},
+{
+   "id":681,
+   "monstergroup":802005,
+   "x":24,
+   "y":103,
+   "questmonster":1
+},
+{
+   "id":682,
+   "monstergroup":802005,
+   "x":27,
+   "y":96,
+   "questmonster":1
+},
+{
+   "id":683,
+   "monstergroup":802005,
+   "x":27,
+   "y":100,
+   "questmonster":1
+},
+{
+   "id":684,
+   "monstergroup":802005,
+   "x":27,
+   "y":104,
+   "questmonster":2
+},
+{
+   "id":685,
+   "monstergroup":802005,
+   "x":30,
+   "y":97,
+   "questmonster":1
+},
+{
+   "id":686,
+   "monstergroup":802005,
+   "x":30,
+   "y":103,
+   "questmonster":2
+},
+{
+   "id":687,
+   "monstergroup":802005,
+   "x":31,
+   "y":100,
+   "questmonster":2
+},
+{
+   "id":688,
+   "monstergroup":802101,
+   "x":111,
+   "y":76,
+   "questmonster":1
+},
+{
+   "id":689,
+   "monstergroup":802101,
+   "x":110,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":690,
+   "monstergroup":802101,
+   "x":111,
+   "y":82,
+   "questmonster":1
+},
+{
+   "id":691,
+   "monstergroup":802101,
+   "x":114,
+   "y":75,
+   "questmonster":2
+},
+{
+   "id":692,
+   "monstergroup":802101,
+   "x":114,
+   "y":79,
+   "questmonster":1
+},
+{
+   "id":693,
+   "monstergroup":802101,
+   "x":114,
+   "y":83,
+   "questmonster":1
+},
+{
+   "id":694,
+   "monstergroup":802101,
+   "x":117,
+   "y":76,
+   "questmonster":2
+},
+{
+   "id":695,
+   "monstergroup":802101,
+   "x":117,
+   "y":82,
+   "questmonster":1
+},
+{
+   "id":696,
+   "monstergroup":802101,
+   "x":118,
+   "y":79,
+   "questmonster":2
+},
+{
+   "id":697,
+   "monstergroup":802102,
+   "x":86,
+   "y":56,
+   "questmonster":1
+},
+{
+   "id":698,
+   "monstergroup":802102,
+   "x":85,
+   "y":59,
+   "questmonster":1
+},
+{
+   "id":699,
+   "monstergroup":802102,
+   "x":89,
+   "y":55,
+   "questmonster":1
+},
+{
+   "id":700,
+   "monstergroup":802102,
+   "x":89,
+   "y":59,
+   "questmonster":1
+},
+{
+   "id":701,
+   "monstergroup":802102,
+   "x":92,
+   "y":56,
+   "questmonster":1
+},
+{
+   "id":702,
+   "monstergroup":802102,
+   "x":83,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":703,
+   "monstergroup":802102,
+   "x":84,
+   "y":67,
+   "questmonster":1
+},
+{
+   "id":704,
+   "monstergroup":802102,
+   "x":87,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":705,
+   "monstergroup":802102,
+   "x":87,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":706,
+   "monstergroup":802102,
+   "x":90,
+   "y":67,
+   "questmonster":1
+},
+{
+   "id":707,
+   "monstergroup":802103,
+   "x":94,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":708,
+   "monstergroup":802103,
+   "x":93,
+   "y":38,
+   "questmonster":2
+},
+{
+   "id":709,
+   "monstergroup":802103,
+   "x":97,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":710,
+   "monstergroup":802103,
+   "x":97,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":711,
+   "monstergroup":802103,
+   "x":97,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":712,
+   "monstergroup":802103,
+   "x":109,
+   "y":34,
+   "questmonster":1
+},
+{
+   "id":713,
+   "monstergroup":802103,
+   "x":109,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":714,
+   "monstergroup":802103,
+   "x":112,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":715,
+   "monstergroup":802103,
+   "x":112,
+   "y":41,
+   "questmonster":2
+},
+{
+   "id":716,
+   "monstergroup":802103,
+   "x":113,
+   "y":38,
+   "questmonster":2
+},
+{
+   "id":717,
+   "monstergroup":802104,
+   "x":49,
+   "y":56,
+   "questmonster":2
+},
+{
+   "id":718,
+   "monstergroup":802104,
+   "x":48,
+   "y":59,
+   "questmonster":2
+},
+{
+   "id":719,
+   "monstergroup":802104,
+   "x":49,
+   "y":62,
+   "questmonster":1
+},
+{
+   "id":720,
+   "monstergroup":802104,
+   "x":52,
+   "y":55,
+   "questmonster":2
+},
+{
+   "id":721,
+   "monstergroup":802104,
+   "x":52,
+   "y":59,
+   "questmonster":1
+},
+{
+   "id":722,
+   "monstergroup":802104,
+   "x":52,
+   "y":63,
+   "questmonster":1
+},
+{
+   "id":723,
+   "monstergroup":802104,
+   "x":55,
+   "y":56,
+   "questmonster":1
+},
+{
+   "id":724,
+   "monstergroup":802104,
+   "x":55,
+   "y":62,
+   "questmonster":1
+},
+{
+   "id":725,
+   "monstergroup":802104,
+   "x":56,
+   "y":59,
+   "questmonster":1
+},
+{
+   "id":726,
+   "monstergroup":802105,
+   "x":22,
+   "y":37,
+   "questmonster":2
+},
+{
+   "id":727,
+   "monstergroup":802105,
+   "x":21,
+   "y":40,
+   "questmonster":2
+},
+{
+   "id":728,
+   "monstergroup":802105,
+   "x":22,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":729,
+   "monstergroup":802105,
+   "x":25,
+   "y":36,
+   "questmonster":2
+},
+{
+   "id":730,
+   "monstergroup":802105,
+   "x":25,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":731,
+   "monstergroup":802105,
+   "x":25,
+   "y":44,
+   "questmonster":1
+},
+{
+   "id":732,
+   "monstergroup":802105,
+   "x":28,
+   "y":37,
+   "questmonster":1
+},
+{
+   "id":733,
+   "monstergroup":802105,
+   "x":28,
+   "y":43,
+   "questmonster":1
+},
+{
+   "id":734,
+   "monstergroup":802105,
+   "x":29,
+   "y":40,
+   "questmonster":1
+},
+{
+   "id":735,
+   "monstergroup":802106,
+   "x":8,
+   "y":12,
+   "questmonster":2
+},
+{
+   "id":736,
+   "monstergroup":802106,
+   "x":7,
+   "y":15,
+   "questmonster":2
+},
+{
+   "id":737,
+   "monstergroup":802106,
+   "x":8,
+   "y":18,
+   "questmonster":1
+},
+{
+   "id":738,
+   "monstergroup":802106,
+   "x":11,
+   "y":11,
+   "questmonster":2
+},
+{
+   "id":739,
+   "monstergroup":802106,
+   "x":11,
+   "y":15,
+   "questmonster":1
+},
+{
+   "id":740,
+   "monstergroup":802106,
+   "x":14,
+   "y":11,
+   "questmonster":1
+},
+{
+   "id":741,
+   "monstergroup":802201,
+   "x":49,
+   "y":17,
+   "questmonster":2
+},
+{
+   "id":742,
+   "monstergroup":802201,
+   "x":48,
+   "y":20,
+   "questmonster":2
+},
+{
+   "id":743,
+   "monstergroup":802201,
+   "x":49,
+   "y":23,
+   "questmonster":2
+},
+{
+   "id":744,
+   "monstergroup":802201,
+   "x":52,
+   "y":16,
+   "questmonster":1
+},
+{
+   "id":745,
+   "monstergroup":802201,
+   "x":52,
+   "y":20,
+   "questmonster":1
+},
+{
+   "id":746,
+   "monstergroup":802201,
+   "x":52,
+   "y":24,
+   "questmonster":1
+},
+{
+   "id":747,
+   "monstergroup":802201,
+   "x":55,
+   "y":17,
+   "questmonster":1
+},
+{
+   "id":748,
+   "monstergroup":802201,
+   "x":55,
+   "y":23,
+   "questmonster":1
+},
+{
+   "id":749,
+   "monstergroup":802201,
+   "x":56,
+   "y":20,
+   "questmonster":1
+},
+{
+   "id":750,
+   "monstergroup":802202,
+   "x":18,
+   "y":6,
+   "questmonster":2
+},
+{
+   "id":751,
+   "monstergroup":802202,
+   "x":17,
+   "y":9,
+   "questmonster":2
+},
+{
+   "id":752,
+   "monstergroup":802202,
+   "x":18,
+   "y":12,
+   "questmonster":2
+},
+{
+   "id":753,
+   "monstergroup":802202,
+   "x":21,
+   "y":5,
+   "questmonster":1
+},
+{
+   "id":754,
+   "monstergroup":802202,
+   "x":21,
+   "y":9,
+   "questmonster":1
+},
+{
+   "id":755,
+   "monstergroup":802202,
+   "x":21,
+   "y":13,
+   "questmonster":1
+},
+{
+   "id":756,
+   "monstergroup":802202,
+   "x":24,
+   "y":6,
+   "questmonster":1
+},
+{
+   "id":757,
+   "monstergroup":802202,
+   "x":24,
+   "y":12,
+   "questmonster":1
+},
+{
+   "id":758,
+   "monstergroup":802202,
+   "x":25,
+   "y":9,
+   "questmonster":1
+},
+{
+   "id":759,
+   "monstergroup":802203,
+   "x":18,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":760,
+   "monstergroup":802203,
+   "x":17,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":761,
+   "monstergroup":802203,
+   "x":18,
+   "y":48,
+   "questmonster":1
+},
+{
+   "id":762,
+   "monstergroup":802203,
+   "x":21,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":763,
+   "monstergroup":802203,
+   "x":21,
+   "y":45,
+   "questmonster":1
+},
+{
+   "id":764,
+   "monstergroup":802203,
+   "x":21,
+   "y":49,
+   "questmonster":2
+},
+{
+   "id":765,
+   "monstergroup":802203,
+   "x":24,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":766,
+   "monstergroup":802203,
+   "x":24,
+   "y":48,
+   "questmonster":2
+},
+{
+   "id":767,
+   "monstergroup":802203,
+   "x":25,
+   "y":45,
+   "questmonster":2
+},
+{
+   "id":768,
+   "monstergroup":802203,
+   "x":22,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":769,
+   "monstergroup":802203,
+   "x":24,
+   "y":57,
+   "questmonster":1
+},
+{
+   "id":770,
+   "monstergroup":802203,
+   "x":26,
+   "y":54,
+   "questmonster":1
+},
+{
+   "id":771,
+   "monstergroup":802203,
+   "x":26,
+   "y":60,
+   "questmonster":1
+},
+{
+   "id":772,
+   "monstergroup":802203,
+   "x":31,
+   "y":58,
+   "questmonster":1
+},
+{
+   "id":773,
+   "monstergroup":802203,
+   "x":29,
+   "y":56,
+   "questmonster":1
+},
+{
+   "id":774,
+   "monstergroup":802204,
+   "x":52,
+   "y":65,
+   "questmonster":1
+},
+{
+   "id":775,
+   "monstergroup":802204,
+   "x":51,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":776,
+   "monstergroup":802204,
+   "x":52,
+   "y":71,
+   "questmonster":1
+},
+{
+   "id":777,
+   "monstergroup":802204,
+   "x":55,
+   "y":64,
+   "questmonster":1
+},
+{
+   "id":778,
+   "monstergroup":802204,
+   "x":55,
+   "y":68,
+   "questmonster":1
+},
+{
+   "id":779,
+   "monstergroup":802204,
+   "x":55,
+   "y":72,
+   "questmonster":1
+},
+{
+   "id":780,
+   "monstergroup":802204,
+   "x":58,
+   "y":65,
+   "questmonster":2
+},
+{
+   "id":781,
+   "monstergroup":802204,
+   "x":58,
+   "y":71,
+   "questmonster":2
+},
+{
+   "id":782,
+   "monstergroup":802204,
+   "x":59,
+   "y":68,
+   "questmonster":2
+},
+{
+   "id":783,
+   "monstergroup":802205,
+   "x":84,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":784,
+   "monstergroup":802205,
+   "x":83,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":785,
+   "monstergroup":802205,
+   "x":84,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":786,
+   "monstergroup":802205,
+   "x":87,
+   "y":34,
+   "questmonster":2
+},
+{
+   "id":787,
+   "monstergroup":802205,
+   "x":87,
+   "y":38,
+   "questmonster":1
+},
+{
+   "id":788,
+   "monstergroup":802205,
+   "x":87,
+   "y":42,
+   "questmonster":1
+},
+{
+   "id":789,
+   "monstergroup":802205,
+   "x":90,
+   "y":35,
+   "questmonster":2
+},
+{
+   "id":790,
+   "monstergroup":802205,
+   "x":90,
+   "y":41,
+   "questmonster":1
+},
+{
+   "id":791,
+   "monstergroup":802205,
+   "x":91,
+   "y":38,
+   "questmonster":1
+}]

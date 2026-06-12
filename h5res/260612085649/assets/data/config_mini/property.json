@@ -1,0 +1,1100 @@
+[{
+   "namei18n":"攻击",
+   "desci18n":"[29cc00]攻击[-]:\n攻击值越大，对敌人造成的伤害输出就越高",
+   "valueoccrate":2674,
+   "isshow":1,
+   "rolepanelorder":2,
+   "combatratio":5.0,
+   "partnervalueoccrate":2674,
+   "type":0
+},
+{
+   "namei18n":"技能攻击（废弃）",
+   "desci18n":"[29cc00]技能攻击[-]:\n技能攻击越高使用[29cc00]武学技能（快捷键QWER）[-]所造成的伤害越高",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":1
+},
+{
+   "namei18n":"防御",
+   "desci18n":"[29cc00]防御[-]:\n防御值越大，受到敌人攻击时的伤害就越低",
+   "valueoccrate":1070,
+   "isshow":1,
+   "rolepanelorder":3,
+   "combatratio":5.0,
+   "partnervalueoccrate":1070,
+   "type":2
+},
+{
+   "namei18n":"精神防御（废弃）",
+   "desci18n":"[29cc00]精神防御[-]:\n精神防御越高,被[29cc00]精神武学[-]攻击所受到的伤害越少",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":3
+},
+{
+   "namei18n":"体力上限",
+   "desci18n":"使用技能消耗的能量,法力值不足时,无法使用技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":4
+},
+{
+   "namei18n":"精神力",
+   "desci18n":"[29cc00]精神力[-]:\n释放神物技能消耗精神力\n精神力不足时,无法使用神物技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":5
+},
+{
+   "namei18n":"生命",
+   "desci18n":"[29cc00]生命[-]:\n角色的生命最大值\n生命值为0时,角色死亡",
+   "valueoccrate":6256,
+   "isshow":1,
+   "rolepanelorder":1,
+   "combatratio":1.0,
+   "partnervalueoccrate":6256,
+   "type":6
+},
+{
+   "namei18n":"灵气上限（废弃）",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":7
+},
+{
+   "namei18n":"暴击",
+   "desci18n":"[29cc00]暴击[-]:\n暴击值越大，对敌人造成的伤害输出时触发额外伤害的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":6,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":8
+},
+{
+   "namei18n":"韧性",
+   "desci18n":"[29cc00]韧性[-]:\n韧性值越大，敌人对你造成的伤害输出时触发额外伤害的概率就越小",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":7,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":9
+},
+{
+   "namei18n":"暴击增伤",
+   "desci18n":"[29cc00]暴击伤害[-]:\n影响角色每次暴击伤害的值\n暴击时增加该属性的伤害",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":8,
+   "combatratio":2.5,
+   "partnervalueoccrate":0,
+   "type":10
+},
+{
+   "namei18n":"暴伤减伤",
+   "desci18n":"[29cc00]暴伤减免[-]:\n影响角色减免他方暴击伤害的值\n被暴击时减少该属性的值",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":9,
+   "combatratio":2.5,
+   "partnervalueoccrate":0,
+   "type":11
+},
+{
+   "namei18n":"命中",
+   "desci18n":"[29cc00]命中[-]:\n命中值越大，对敌人造成的伤害输出时攻击越不容易落空",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":4,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":12
+},
+{
+   "namei18n":"闪避",
+   "desci18n":"[29cc00]闪避[-]:\n闪避值越大，敌人对你造成的伤害输出时攻击落空的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":5,
+   "combatratio":5.0,
+   "partnervalueoccrate":0,
+   "type":13
+},
+{
+   "namei18n":"攻击速度",
+   "desci18n":"影响角色的[29cc00]普通攻击技能\n[-]攻击速率,攻击速度值越高,则角色[29cc00]普通攻击技能[-]攻击速度越快",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":14
+},
+{
+   "namei18n":"移速",
+   "desci18n":"影响角色的移动速度\n移动速度值越高,则角色移动速度越快",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":15
+},
+{
+   "namei18n":"骑乘速度",
+   "desci18n":"骑乘坐骑时增加的移送速度",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":16
+},
+{
+   "namei18n":"伤害改变固定值",
+   "desci18n":"[29cc00]伤害增加[-]:\n伤害增加越高，对敌人造成的伤害就越高",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":17
+},
+{
+   "namei18n":"受到伤害改变万分比 ",
+   "desci18n":"[29cc00]伤害减免[-]:\n伤害减免越高，被敌人攻击时受到的伤害越少",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":18
+},
+{
+   "namei18n":"命中率",
+   "desci18n":"[29cc00]命中率[-]:\n命中率越大，对敌人造成的伤害输出时攻击越不容易落空",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":19
+},
+{
+   "namei18n":"闪避率",
+   "desci18n":"[29cc00]闪避率[-]:\n闪避率越大，敌人对你造成的伤害输出时攻击落空的概率就越大",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":20
+},
+{
+   "namei18n":"暴击率",
+   "desci18n":"[29cc00]暴击率[-]:\n暴击率越大，对敌人造成的伤害输出时触发额外伤害的概率就越大",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":21
+},
+{
+   "namei18n":"免暴击率",
+   "desci18n":"[29cc00]免暴率[-]:\n免爆率越大，敌人对你造成的伤害输出时触发额外伤害的概率就越小",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":22
+},
+{
+   "namei18n":"神物伤害提升",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":23
+},
+{
+   "namei18n":"当前生命",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":24
+},
+{
+   "namei18n":"当前法力(废弃)",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":25
+},
+{
+   "namei18n":"当前精神",
+   "desci18n":"当前法力值,法力值不足时,无法使用技能.",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":26
+},
+{
+   "namei18n":"当前天地之力",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":27
+},
+{
+   "namei18n":"三连服战场积分",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":28
+},
+{
+   "namei18n":"万分比获得经验",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":29
+},
+{
+   "namei18n":"技能伤害比例",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":30
+},
+{
+   "namei18n":"武魂值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":32
+},
+{
+   "namei18n":"法力上限",
+   "desci18n":"法力上限",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":33
+},
+{
+   "namei18n":"怒气上限",
+   "desci18n":"怒气上限",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":34
+},
+{
+   "namei18n":"当前法力",
+   "desci18n":"当前法力",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":35
+},
+{
+   "namei18n":"当前怒气",
+   "desci18n":"当前怒气",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":36
+},
+{
+   "namei18n":"击杀回复当前怒气值",
+   "desci18n":"击杀回复当前怒气值",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":37
+},
+{
+   "namei18n":"减速效果",
+   "desci18n":"[29cc00]减速效果[-]:\n提高造成减速效果的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":50
+},
+{
+   "namei18n":"减速抗性",
+   "desci18n":"[29cc00]减速抗性[-]:\n降低受到减速效果时的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":51
+},
+{
+   "namei18n":"失明效果",
+   "desci18n":"[29cc00]失明效果[-]:\n提高造成失明效果的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":52
+},
+{
+   "namei18n":"失明抗性",
+   "desci18n":"[29cc00]失明抗性[-]:\n降低受到失明效果时的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":53
+},
+{
+   "namei18n":"眩晕效果",
+   "desci18n":"[29cc00]眩晕效果[-]:\n提高造成眩晕效果的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":58
+},
+{
+   "namei18n":"眩晕抗性",
+   "desci18n":"[29cc00]眩晕抗性[-]:\n降低受到眩晕效果时的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":59
+},
+{
+   "namei18n":"冰冻效果",
+   "desci18n":"[29cc00]冰冻效果[-]:\n提高造成冰冻效果的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":66
+},
+{
+   "namei18n":"冰冻抗性",
+   "desci18n":"[29cc00]冰冻抗性[-]:\n降低受到冰冻效果时的成功率和持续时间",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":15.0,
+   "partnervalueoccrate":0,
+   "type":67
+},
+{
+   "namei18n":"对怪物伤害增益百分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":101
+},
+{
+   "namei18n":"对怪物伤害增加固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":102
+},
+{
+   "namei18n":"对角色伤害增益百分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":103
+},
+{
+   "namei18n":"对角色伤害增加固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":104
+},
+{
+   "namei18n":"治疗效果 血万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":105
+},
+{
+   "namei18n":"治疗效果 血固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":106
+},
+{
+   "namei18n":"治疗效果 元力万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":107
+},
+{
+   "namei18n":"治疗效果 元力固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":108
+},
+{
+   "namei18n":"治疗效果 精神万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":109
+},
+{
+   "namei18n":"治疗效果 精神固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":110
+},
+{
+   "namei18n":"忽视目标元力防御万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":111
+},
+{
+   "namei18n":"忽视目标元力防御固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":112
+},
+{
+   "namei18n":"忽视目标精神防御万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":113
+},
+{
+   "namei18n":"对boss的额外伤害万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":114
+},
+{
+   "namei18n":"减少受到玩家造成的伤害（万分比）",
+   "desci18n":"减少受到玩家造成的伤害（万分比）",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":115
+},
+{
+   "namei18n":"技能暴击率",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":116
+},
+{
+   "namei18n":"增加对玩家造成的伤害（万分比）",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":117
+},
+{
+   "namei18n":"吸血万分比",
+   "desci18n":"对单次伤害的万分比进行回血",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":118
+},
+{
+   "namei18n":"技能闪避率（万分比）",
+   "desci18n":"配置万分比",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":119
+},
+{
+   "namei18n":"技能加成",
+   "desci18n":"[29cc00]技能加成[-]:\n技能加成越高，使用技能攻击敌人时造成的伤害越高",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":120
+},
+{
+   "namei18n":"技能减免",
+   "desci18n":"[29cc00]技能减免[-]:\n技能减免越高，受到技能攻击时产生的伤害越低",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":121
+},
+{
+   "namei18n":"神物加成",
+   "desci18n":"[29cc00]神物加成[-]:\n神物加成越高，使用神物攻击敌人时造成的伤害越高",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":122
+},
+{
+   "namei18n":"神物减免",
+   "desci18n":"[29cc00]神物减免[-]:\n神物减免越高，受到神物攻击时产生的伤害越低",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":123
+},
+{
+   "namei18n":"格挡",
+   "desci18n":"[29cc00]格挡[-]:\n被敌人攻击时有概率抵挡一部分伤害",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":7.5,
+   "partnervalueoccrate":0,
+   "type":124
+},
+{
+   "namei18n":"穿刺",
+   "desci18n":"[29cc00]穿刺[-]:\n攻击敌人时降低敌人的格挡概率",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":7.5,
+   "partnervalueoccrate":0,
+   "type":125
+},
+{
+   "namei18n":"破甲",
+   "desci18n":"[29cc00]破甲[-]:\n攻击时，无视敌人一部分护甲",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":7.5,
+   "partnervalueoccrate":0,
+   "type":126
+},
+{
+   "namei18n":"护甲抗性",
+   "desci18n":"[29cc00]护甲抗性[-]:\n被攻击时，降低敌人的破甲效果",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":7.5,
+   "partnervalueoccrate":0,
+   "type":127
+},
+{
+   "namei18n":"神圣伤害",
+   "desci18n":"[29cc00]神圣伤害[-]:\n无视防御的直接伤害",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":128
+},
+{
+   "namei18n":"神圣精通",
+   "desci18n":"[29cc00]神圣精通[-]:\n提升攻击时神圣伤害的效果",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":129
+},
+{
+   "namei18n":"神圣抗性",
+   "desci18n":"[29cc00]神圣抗性[-]:\n被攻击时，降低敌人神圣伤害的效果",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":3.75,
+   "partnervalueoccrate":0,
+   "type":130
+},
+{
+   "namei18n":"卓越一击",
+   "desci18n":"[29cc00]卓越一击[-]:\n攻击时有概率无视敌人的防御",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":7.5,
+   "partnervalueoccrate":0,
+   "type":131
+},
+{
+   "namei18n":"卓越抗性",
+   "desci18n":"[29cc00]卓越抗性[-]:\n被攻击时，降低自己被卓越一击的概率",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":7.5,
+   "partnervalueoccrate":0,
+   "type":132
+},
+{
+   "namei18n":"角色战斗力",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":201
+},
+{
+   "namei18n":"等级",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":202
+},
+{
+   "namei18n":"经验",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":203
+},
+{
+   "namei18n":"当前等级 升至下一级所需经验值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":204
+},
+{
+   "namei18n":"杀怪经验",
+   "desci18n":"杀怪经验加成%",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":205
+},
+{
+   "namei18n":"获得经验加成固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":206
+},
+{
+   "namei18n":"获得天地之力加成%",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":207
+},
+{
+   "namei18n":"获得天地之力加成固定值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":208
+},
+{
+   "namei18n":"金币加成",
+   "desci18n":"打野怪获得金币加成%",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":209
+},
+{
+   "namei18n":"活力上线",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":210
+},
+{
+   "namei18n":"坐骑战斗力",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":211
+},
+{
+   "namei18n":"红名值",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":212
+},
+{
+   "namei18n":"精神力回复万分比",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":231
+},
+{
+   "namei18n":"时间魔法恢复",
+   "desci18n":"每秒",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":232
+},
+{
+   "namei18n":"攻击魔法恢复",
+   "desci18n":"成功释放技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":233
+},
+{
+   "namei18n":"受击魔法恢复",
+   "desci18n":"受到技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":234
+},
+{
+   "namei18n":"时间怒气恢复",
+   "desci18n":"每秒",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":235
+},
+{
+   "namei18n":"攻击怒气恢复",
+   "desci18n":"成功释放技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":236
+},
+{
+   "namei18n":"受击怒气恢复",
+   "desci18n":"受到技能",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":237
+},
+{
+   "namei18n":"生命恢复",
+   "desci18n":"生命恢复",
+   "valueoccrate":0,
+   "isshow":0,
+   "rolepanelorder":-1,
+   "combatratio":0.0,
+   "partnervalueoccrate":0,
+   "type":300
+},
+{
+   "namei18n":"挂机经验",
+   "desci18n":"挂机经验加成%",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":20,
+   "combatratio":1.0,
+   "partnervalueoccrate":0,
+   "type":501
+},
+{
+   "namei18n":"奥义伤害",
+   "desci18n":"奥义伤害提高",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":16,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":502
+},
+{
+   "namei18n":"首领伤害",
+   "desci18n":"对首领伤害提高",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":21,
+   "combatratio":1.0,
+   "partnervalueoccrate":0,
+   "type":503
+},
+{
+   "namei18n":"怒气恢复",
+   "desci18n":"怒气恢复",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":17,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":504
+},
+{
+   "namei18n":"竞技伤害",
+   "desci18n":"对玩家伤害增加",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":18,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":505
+},
+{
+   "namei18n":"竞技免伤",
+   "desci18n":"受玩家伤害降低",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":19,
+   "combatratio":50.0,
+   "partnervalueoccrate":0,
+   "type":506
+},
+{
+   "namei18n":"命中率",
+   "desci18n":"[29cc00]命中率[-]:\n命中率越大，对敌人造成的伤害输出时攻击越不容易落空",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":10,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":507
+},
+{
+   "namei18n":"闪避率",
+   "desci18n":"[29cc00]闪避率[-]:\n闪避率越大，敌人对你造成的伤害输出时攻击落空的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":11,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":508
+},
+{
+   "namei18n":"暴击率",
+   "desci18n":"[29cc00]暴击率[-]:\n暴击率越大，对敌人造成的伤害输出时触发额外伤害的概率就越大",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":12,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":509
+},
+{
+   "namei18n":"免暴击率",
+   "desci18n":"[29cc00]免暴率[-]:\n免爆率越大，敌人对你造成的伤害输出时触发额外伤害的概率就越小",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":13,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":510
+},
+{
+   "namei18n":"爆伤比率",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":14,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":511
+},
+{
+   "namei18n":"爆伤减免",
+   "desci18n":"描述",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":15,
+   "combatratio":100.0,
+   "partnervalueoccrate":0,
+   "type":512
+},
+{
+   "namei18n":"会心一击",
+   "desci18n":"会心一击:对手满血时必定暴击",
+   "valueoccrate":0,
+   "isshow":1,
+   "rolepanelorder":16,
+   "combatratio":1.0,
+   "partnervalueoccrate":0,
+   "type":513
+}]
