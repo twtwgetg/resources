@@ -1,0 +1,9 @@
+{"file":"shenbingPanelAtlas.png","frames":{
+"shenbing_btn5":{"x":1,"y":121,"w":114,"h":116,"offX":0,"offY":0,"sourceW":114,"sourceH":116},
+"shenbing_btn4":{"x":119,"y":1,"w":114,"h":116,"offX":0,"offY":0,"sourceW":114,"sourceH":116},
+"shenbing_btn3":{"x":1,"y":1,"w":114,"h":116,"offX":0,"offY":0,"sourceW":114,"sourceH":116},
+"shenbing_btn2":{"x":140,"y":306,"w":65,"h":69,"offX":0,"offY":0,"sourceW":65,"sourceH":69},
+"shenbing_btn1":{"x":119,"y":121,"w":96,"h":96,"offX":0,"offY":0,"sourceW":96,"sourceH":96},
+"shenzhuang_check":{"x":71,"y":306,"w":65,"h":80,"offX":11,"offY":6,"sourceW":86,"sourceH":86},
+"shenzhuang_btn1":{"x":119,"y":221,"w":73,"h":81,"offX":0,"offY":0,"sourceW":73,"sourceH":81},
+"shenbing_check":{"x":1,"y":241,"w":66,"h":82,"offX":10,"offY":4,"sourceW":86,"sourceH":86}}}

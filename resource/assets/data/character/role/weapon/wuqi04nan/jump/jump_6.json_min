@@ -1,0 +1,1 @@
+{	"mc":{		"moban":{			"frameRate":8,			"labels":[{"name":"jump_6","frame":1,"end":8}],			"events":[],			"frames":[				{"res":"jump_60000","x":-29,"y":-63}]		}	},		"res":{			"jump_60000":{"x":0,"y":0,"w":40,"h":73}		}}

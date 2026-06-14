@@ -1,0 +1,552 @@
+[
+  {
+    "name": "TaskPanel",
+    "desc": "任务导航",
+    "x": "0",
+    "y": "0",
+    "sysId": "0",
+    "type": "full",
+    "layer": "main"
+  },
+  {
+    "name": "HeroPanelSkin",
+    "desc": "角色界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+    "isNeedClose": 0
+  },
+  {
+    "name": "RewardPanel",
+    "desc": "奖励界面",
+    "x": "-1",
+    "y": "650",
+    "sysId": "0",
+    "type": "base",
+    "layer": "effect"
+  },
+  {
+    "name": "BackpackPanel",
+    "desc": "背包",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "PartnerPanelSkin",
+    "desc": "伙伴界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	  "isNeedClose": 0
+  },
+  {
+    "name": "MessageBox",
+    "desc": "确认框",
+    "x": "-1",
+    "y": "600",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "BossFailedPanel",
+    "desc": "boss失败",
+    "x": "-1",
+    "y": "-1",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "AvatarSettingPanel",
+    "desc": "外观设置",
+    "x": "-1",
+    "y": "125",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "BossRewardSkin",
+    "desc": "boss胜利",
+    "x": "-1",
+    "y": "-1",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "OfflinePanel_Skin",
+    "desc": "离线收益面板",
+    "x": "-1",
+    "y": "-1",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "EquipPanelSkin",
+    "desc": "锻造界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "MeltingSkin",
+    "desc": "熔炼界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "SuperWeapons",
+    "desc": "神兵界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "DressSkin",
+    "desc": "神装界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "DalyFb",
+    "desc": "材料副本",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "LilianList",
+    "desc": "历练玩法",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "EquipOrangeStepSkin",
+    "desc": "橙装界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "lingmaiSkin",
+    "desc": "灵脉界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "HorseSkin",
+    "desc": "坐骑",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "WingSkin",
+    "desc": "翅膀",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "SkillPanelSkin",
+    "desc": "技能升级面板",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "npctalkSkin",
+    "desc": "npc对话面板",
+    "x": "0",
+    "y": "988",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+    "offsetX": 0,
+    "offsetY": 0
+  },
+  {
+    "name": "MapLoginSkin",
+    "desc": "地图信息展示面板",
+    "x": "30",
+    "y": "240",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "partnerTalkSkin",
+    "desc": "伙伴对话面板",
+    "x": "0",
+    "y": "200",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "EquipFastWearSkin",
+    "desc": "快速穿戴面板",
+    "x": "400",
+    "y": "700",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "exitBtn",
+    "desc": "退出皮肤",
+    "x": "0",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "PartnerLuckShowModelSkin",
+    "desc": "新手展示皮肤",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "SystemOpenUISkin",
+    "desc": "功能开启界面",
+    "x": "0",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "opensys"
+  },
+  {
+    "name": "StateSkin",
+    "desc": "转生",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  }, 
+  {
+    "name": "SysEquipSkin",
+    "desc": "升阶系统装备",
+    "x": "-1",
+    "y": "200",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  }, 
+  {
+    "name": "SysEquipSynthesisSkin",
+    "desc": "升阶系统装备合成",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  }, 
+  {
+    "name": "EquipPanelSkin",
+    "desc": "装备锻造",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  }, 
+  {
+    "name": "skin.ItemCanUseTips",
+    "desc": "宝箱使用界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  }, 
+  {
+    "name": "skin.ItemUse",
+    "desc": "神兵/神装资质丹使用",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "MainUISkin",
+    "desc": "主界面",
+    "x": "0",
+    "y": "0",
+    "sysId": "0",
+    "type": "full",
+    "layer": "main"
+  },
+  {
+    "name": "PartnerJointSkillSkin",
+    "desc": "奖励界面",
+    "x": "-1",
+    "y": "600",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main"
+  },
+  {
+    "name": "SceneInfoSkin",
+    "desc": "神魔大战",
+    "x": "0",
+    "y": "0",
+    "sysId": "0",
+    "type": "full",
+    "layer": "main"
+  }, 
+   {
+    "name": "CommonFuHuoSkin",
+    "desc": "复活界面",
+    "x": "-1",
+    "y": "-1",
+    "sysId": "0",
+    "type": "base",
+    "layer": "panel"
+  }, 
+  {
+    "name": "DragonScaleSkin",
+    "desc": "玄器符印权杖魔珠",
+    "x": "-1",
+    "y": "-1",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "ShopSkin",
+    "desc": "商城",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "PartnerLuckDrasPanelSkin",
+    "desc": "伙伴招募",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "Day14Skin",
+    "desc": "14日登入",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "SpecialCardPanelSkin",
+    "desc": "特权卡",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "QiRiSkin",
+    "desc": "开服活动",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "TouZiFanLiSkin",
+    "desc": "投资返利",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "FirstFlushSkin",
+    "desc": "首冲",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "MeiRiShouChongSkin",
+    "desc": "每日首冲",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "OpenSysSkin",
+    "desc": "功能预览",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "GiftbagActivitiesSkin",
+    "desc": "一元礼包",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "XunBaoSkin",
+    "desc": "寻宝界面",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "BackpackSkin",
+    "desc": "背包",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "RechargeEquipHuntingSkin",
+    "desc": "装备抽奖",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "RechargeEquipHuntingSkin",
+    "desc": "装备抽奖",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "GetGoldSkin",
+    "desc": "龙脉",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "ZhuanPanSkin",
+    "desc": "转盘",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "DispatchTask",
+    "desc": "派遣",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  },
+  {
+    "name": "RankingListSkin",
+    "desc": "排行榜",
+    "x": "-1",
+    "y": "0",
+    "sysId": "0",
+    "type": "base",
+    "layer": "main",
+	"isNeedClose": 0
+  }
+]

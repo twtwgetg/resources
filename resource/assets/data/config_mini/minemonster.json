@@ -1,0 +1,1476 @@
+[{
+   "id":1,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7007
+},
+{
+   "id":2,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7008
+},
+{
+   "id":3,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7009
+},
+{
+   "id":4,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7010
+},
+{
+   "id":5,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7011
+},
+{
+   "id":6,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7012
+},
+{
+   "id":7,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7007
+},
+{
+   "id":8,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7008
+},
+{
+   "id":9,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7009
+},
+{
+   "id":10,
+   "durability":1,
+   "reward":-5000,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7010
+},
+{
+   "id":11,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7011
+},
+{
+   "id":12,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7012
+},
+{
+   "id":13,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7013
+},
+{
+   "id":14,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7014
+},
+{
+   "id":15,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7015
+},
+{
+   "id":16,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7016
+},
+{
+   "id":17,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7017
+},
+{
+   "id":18,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7018
+},
+{
+   "id":19,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7019
+},
+{
+   "id":20,
+   "durability":1,
+   "reward":-5001,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7020
+},
+{
+   "id":21,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7021
+},
+{
+   "id":22,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7022
+},
+{
+   "id":23,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7023
+},
+{
+   "id":24,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7024
+},
+{
+   "id":25,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7025
+},
+{
+   "id":26,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7026
+},
+{
+   "id":27,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7027
+},
+{
+   "id":28,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7028
+},
+{
+   "id":29,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7029
+},
+{
+   "id":30,
+   "durability":1,
+   "reward":-5002,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7030
+},
+{
+   "id":31,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7031
+},
+{
+   "id":32,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7032
+},
+{
+   "id":33,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7033
+},
+{
+   "id":34,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7034
+},
+{
+   "id":35,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7035
+},
+{
+   "id":36,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7036
+},
+{
+   "id":37,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7037
+},
+{
+   "id":38,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7038
+},
+{
+   "id":39,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7039
+},
+{
+   "id":40,
+   "durability":1,
+   "reward":-5003,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7040
+},
+{
+   "id":41,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7041
+},
+{
+   "id":42,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7042
+},
+{
+   "id":43,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7043
+},
+{
+   "id":44,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7044
+},
+{
+   "id":45,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7045
+},
+{
+   "id":46,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7046
+},
+{
+   "id":47,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7047
+},
+{
+   "id":48,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7048
+},
+{
+   "id":49,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7049
+},
+{
+   "id":50,
+   "durability":1,
+   "reward":-5004,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7050
+},
+{
+   "id":51,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7051
+},
+{
+   "id":52,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7052
+},
+{
+   "id":53,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7053
+},
+{
+   "id":54,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7054
+},
+{
+   "id":55,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7055
+},
+{
+   "id":56,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7056
+},
+{
+   "id":57,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7057
+},
+{
+   "id":58,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7058
+},
+{
+   "id":59,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7059
+},
+{
+   "id":60,
+   "durability":1,
+   "reward":-5005,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7060
+},
+{
+   "id":61,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7061
+},
+{
+   "id":62,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7062
+},
+{
+   "id":63,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7063
+},
+{
+   "id":64,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7064
+},
+{
+   "id":65,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7065
+},
+{
+   "id":66,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7066
+},
+{
+   "id":67,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7067
+},
+{
+   "id":68,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7068
+},
+{
+   "id":69,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7069
+},
+{
+   "id":70,
+   "durability":1,
+   "reward":-5006,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7070
+},
+{
+   "id":71,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7071
+},
+{
+   "id":72,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7072
+},
+{
+   "id":73,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7073
+},
+{
+   "id":74,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7074
+},
+{
+   "id":75,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7075
+},
+{
+   "id":76,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7076
+},
+{
+   "id":77,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7077
+},
+{
+   "id":78,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7078
+},
+{
+   "id":79,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7079
+},
+{
+   "id":80,
+   "durability":1,
+   "reward":-5007,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7080
+},
+{
+   "id":81,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7081
+},
+{
+   "id":82,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7082
+},
+{
+   "id":83,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7083
+},
+{
+   "id":84,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7084
+},
+{
+   "id":85,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7085
+},
+{
+   "id":86,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7086
+},
+{
+   "id":87,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7087
+},
+{
+   "id":88,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7088
+},
+{
+   "id":89,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7089
+},
+{
+   "id":90,
+   "durability":1,
+   "reward":-5008,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7090
+},
+{
+   "id":91,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7091
+},
+{
+   "id":92,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7092
+},
+{
+   "id":93,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7093
+},
+{
+   "id":94,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7094
+},
+{
+   "id":95,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7095
+},
+{
+   "id":96,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7096
+},
+{
+   "id":97,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7097
+},
+{
+   "id":98,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7098
+},
+{
+   "id":99,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7099
+},
+{
+   "id":100,
+   "durability":1,
+   "reward":-5009,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7100
+},
+{
+   "id":101,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7101
+},
+{
+   "id":102,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7102
+},
+{
+   "id":103,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7103
+},
+{
+   "id":104,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7104
+},
+{
+   "id":105,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7105
+},
+{
+   "id":106,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7106
+},
+{
+   "id":107,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7107
+},
+{
+   "id":108,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7108
+},
+{
+   "id":109,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7109
+},
+{
+   "id":110,
+   "durability":1,
+   "reward":-5010,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7110
+},
+{
+   "id":111,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7111
+},
+{
+   "id":112,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7112
+},
+{
+   "id":113,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7113
+},
+{
+   "id":114,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7114
+},
+{
+   "id":115,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7115
+},
+{
+   "id":116,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7116
+},
+{
+   "id":117,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7117
+},
+{
+   "id":118,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7118
+},
+{
+   "id":119,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7119
+},
+{
+   "id":120,
+   "durability":1,
+   "reward":-5011,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7120
+},
+{
+   "id":121,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7121
+},
+{
+   "id":122,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7122
+},
+{
+   "id":123,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7123
+},
+{
+   "id":124,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7124
+},
+{
+   "id":125,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7125
+},
+{
+   "id":126,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7126
+},
+{
+   "id":127,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7127
+},
+{
+   "id":128,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7128
+},
+{
+   "id":129,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7129
+},
+{
+   "id":130,
+   "durability":1,
+   "reward":-5012,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7130
+},
+{
+   "id":131,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7131
+},
+{
+   "id":132,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7132
+},
+{
+   "id":133,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7133
+},
+{
+   "id":134,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7134
+},
+{
+   "id":135,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7135
+},
+{
+   "id":136,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7136
+},
+{
+   "id":137,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7137
+},
+{
+   "id":138,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7138
+},
+{
+   "id":139,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7139
+},
+{
+   "id":140,
+   "durability":1,
+   "reward":-5013,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7140
+},
+{
+   "id":141,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7141
+},
+{
+   "id":142,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7142
+},
+{
+   "id":143,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7143
+},
+{
+   "id":144,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7144
+},
+{
+   "id":145,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7145
+},
+{
+   "id":146,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7146
+},
+{
+   "id":147,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7147
+},
+{
+   "id":148,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7148
+},
+{
+   "id":149,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7149
+},
+{
+   "id":150,
+   "durability":1,
+   "reward":-5014,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7150
+},
+{
+   "id":151,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7151
+},
+{
+   "id":152,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7152
+},
+{
+   "id":153,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7153
+},
+{
+   "id":154,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7154
+},
+{
+   "id":155,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7011_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7155
+},
+{
+   "id":156,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7012_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7156
+},
+{
+   "id":157,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7007_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7157
+},
+{
+   "id":158,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7005_0_0_7008_0_7006_0_7001",
+   "maxtime":60,
+   "bossid":7158
+},
+{
+   "id":159,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7006_0_0_7009_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7159
+},
+{
+   "id":160,
+   "durability":1,
+   "reward":-5015,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7010_0_7004_0_7004",
+   "maxtime":60,
+   "bossid":7160
+},
+{
+   "id":161,
+   "durability":1,
+   "reward":-5100,
+   "mapid":1009,
+   "monsterinfo":"0_7001_0_0_7007_0_7002_0_7003",
+   "maxtime":60,
+   "bossid":7152
+},
+{
+   "id":162,
+   "durability":1,
+   "reward":-5104,
+   "mapid":1009,
+   "monsterinfo":"0_7002_0_0_7008_0_7003_0_7004",
+   "maxtime":60,
+   "bossid":7155
+},
+{
+   "id":163,
+   "durability":1,
+   "reward":-5108,
+   "mapid":1009,
+   "monsterinfo":"0_7003_0_0_7009_0_7004_0_7005",
+   "maxtime":60,
+   "bossid":7156
+},
+{
+   "id":164,
+   "durability":1,
+   "reward":-5112,
+   "mapid":1009,
+   "monsterinfo":"0_7004_0_0_7010_0_7005_0_7006",
+   "maxtime":60,
+   "bossid":7158
+}]

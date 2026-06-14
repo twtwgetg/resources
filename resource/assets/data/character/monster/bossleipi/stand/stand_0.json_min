@@ -1,0 +1,1 @@
+{	"mc":{		"moban":{			"frameRate":8,			"labels":[{"name":"stand_0","frame":1,"end":8}],			"events":[],			"frames":[				{"res":"stand_00000","x":-32,"y":-107},				{"res":"stand_00001","x":-32,"y":-104}]		}	},		"res":{			"stand_00000":{"x":0,"y":0,"w":57,"h":130},			"stand_00001":{"x":58,"y":0,"w":58,"h":126}		}}

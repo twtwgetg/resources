@@ -1,0 +1,70 @@
+[{
+   "id":0,
+   "exp":50,
+   "addpercentage":0
+},
+{
+   "id":1,
+   "exp":50,
+   "addpercentage":500
+},
+{
+   "id":2,
+   "exp":50,
+   "addpercentage":800
+},
+{
+   "id":3,
+   "exp":100,
+   "addpercentage":1000
+},
+{
+   "id":4,
+   "exp":100,
+   "addpercentage":1100
+},
+{
+   "id":5,
+   "exp":100,
+   "addpercentage":1200
+},
+{
+   "id":6,
+   "exp":150,
+   "addpercentage":1300
+},
+{
+   "id":7,
+   "exp":200,
+   "addpercentage":1400
+},
+{
+   "id":8,
+   "exp":200,
+   "addpercentage":1500
+},
+{
+   "id":9,
+   "exp":300,
+   "addpercentage":1600
+},
+{
+   "id":10,
+   "exp":300,
+   "addpercentage":1700
+},
+{
+   "id":11,
+   "exp":400,
+   "addpercentage":1800
+},
+{
+   "id":12,
+   "exp":400,
+   "addpercentage":1900
+},
+{
+   "id":13,
+   "exp":0,
+   "addpercentage":2000
+}]

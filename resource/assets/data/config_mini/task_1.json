@@ -1,0 +1,13 @@
+{
+  "talk":[
+    {
+      "key":"stepinfo",
+      "value":"对话"
+    },
+    {
+      "key":"talkFile",
+      "value":"talk_1",
+      "des":"对话文件"
+    }
+  ]
+}

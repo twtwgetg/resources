@@ -1,0 +1,10080 @@
+[{
+   "itemid":1010001,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010002,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010003,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010004,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010005,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010006,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010007,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010008,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010009,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010010,
+   "outmoney":50,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010101,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010102,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010103,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010104,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010105,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010106,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010107,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010108,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010109,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010110,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1010301,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010302,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010303,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010304,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010305,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010306,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010307,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010308,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010309,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010310,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1010501,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010502,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010503,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010504,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010505,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010506,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010507,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010508,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010509,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010510,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1010701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1010901,
+   "outmoney":250,
+   "outitem":1004,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010902,
+   "outmoney":250,
+   "outitem":1005,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010903,
+   "outmoney":250,
+   "outitem":1006,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010904,
+   "outmoney":250,
+   "outitem":1007,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010905,
+   "outmoney":250,
+   "outitem":1008,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010906,
+   "outmoney":250,
+   "outitem":1009,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010907,
+   "outmoney":250,
+   "outitem":1010,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010908,
+   "outmoney":250,
+   "outitem":1011,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010909,
+   "outmoney":250,
+   "outitem":1012,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1010910,
+   "outmoney":250,
+   "outitem":1013,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020001,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020002,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020003,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020004,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020005,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020006,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020007,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020008,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020009,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020010,
+   "outmoney":100,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020101,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020102,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020103,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020104,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020105,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020106,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020107,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020108,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020109,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020110,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1020301,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020302,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020303,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020304,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020305,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020306,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020307,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020308,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020309,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020310,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1020501,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020502,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020503,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020504,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020505,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020506,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020507,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020508,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020509,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020510,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1020701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1020901,
+   "outmoney":500,
+   "outitem":1014,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020902,
+   "outmoney":500,
+   "outitem":1015,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020903,
+   "outmoney":500,
+   "outitem":1016,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020904,
+   "outmoney":500,
+   "outitem":1017,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020905,
+   "outmoney":500,
+   "outitem":1018,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020906,
+   "outmoney":500,
+   "outitem":1019,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020907,
+   "outmoney":500,
+   "outitem":1020,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020908,
+   "outmoney":500,
+   "outitem":1021,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020909,
+   "outmoney":500,
+   "outitem":1022,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1020910,
+   "outmoney":500,
+   "outitem":1023,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030001,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030002,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030003,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030004,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030005,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030006,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030007,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030008,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030009,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030010,
+   "outmoney":150,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030101,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030102,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030103,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030104,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030105,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030106,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030107,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030108,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030109,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030110,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1030301,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030302,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030303,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030304,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030305,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030306,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030307,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030308,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030309,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030310,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1030501,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030502,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030503,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030504,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030505,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030506,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030507,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030508,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030509,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030510,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1030701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1030901,
+   "outmoney":750,
+   "outitem":1024,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030902,
+   "outmoney":750,
+   "outitem":1025,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030903,
+   "outmoney":750,
+   "outitem":1026,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030904,
+   "outmoney":750,
+   "outitem":1027,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030905,
+   "outmoney":750,
+   "outitem":1028,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030906,
+   "outmoney":750,
+   "outitem":1029,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030907,
+   "outmoney":750,
+   "outitem":1030,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030908,
+   "outmoney":750,
+   "outitem":1031,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030909,
+   "outmoney":750,
+   "outitem":1032,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1030910,
+   "outmoney":750,
+   "outitem":1033,
+   "outcount":5,
+   "deexp":5
+},
+{
+   "itemid":1040001,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040002,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040003,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040004,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040005,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040006,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040007,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040008,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040009,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040010,
+   "outmoney":200,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1040101,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040102,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040103,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040104,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040105,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040106,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040107,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040108,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040109,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040110,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1040301,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040302,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040303,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040304,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040305,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040306,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040307,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040308,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040309,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040310,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1040501,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040502,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040503,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040504,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040505,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040506,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040507,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040508,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040509,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040510,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1040701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1040901,
+   "outmoney":1000,
+   "outitem":1034,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040902,
+   "outmoney":1000,
+   "outitem":1035,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040903,
+   "outmoney":1000,
+   "outitem":1036,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040904,
+   "outmoney":1000,
+   "outitem":1037,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040905,
+   "outmoney":1000,
+   "outitem":1038,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040906,
+   "outmoney":1000,
+   "outitem":1039,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040907,
+   "outmoney":1000,
+   "outitem":1040,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040908,
+   "outmoney":1000,
+   "outitem":1041,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040909,
+   "outmoney":1000,
+   "outitem":1042,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1040910,
+   "outmoney":1000,
+   "outitem":1043,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050001,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050002,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050003,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050004,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050005,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050006,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050007,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050008,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050009,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050010,
+   "outmoney":250,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1050101,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050102,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050103,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050104,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050105,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050106,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050107,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050108,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050109,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050110,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1050301,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050302,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050303,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050304,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050305,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050306,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050307,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050308,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050309,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050310,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1050501,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050502,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050503,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050504,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050505,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050506,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050507,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050508,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050509,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050510,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1050701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1050901,
+   "outmoney":1250,
+   "outitem":1044,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050902,
+   "outmoney":1250,
+   "outitem":1045,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050903,
+   "outmoney":1250,
+   "outitem":1046,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050904,
+   "outmoney":1250,
+   "outitem":1047,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050905,
+   "outmoney":1250,
+   "outitem":1048,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050906,
+   "outmoney":1250,
+   "outitem":1049,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050907,
+   "outmoney":1250,
+   "outitem":1050,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050908,
+   "outmoney":1250,
+   "outitem":1051,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050909,
+   "outmoney":1250,
+   "outitem":1052,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1050910,
+   "outmoney":1250,
+   "outitem":1053,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060001,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060002,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060003,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060004,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060005,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060006,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060007,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060008,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060009,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060010,
+   "outmoney":300,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1060101,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060102,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060103,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060104,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060105,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060106,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060107,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060108,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060109,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060110,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1060301,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060302,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060303,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060304,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060305,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060306,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060307,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060308,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060309,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060310,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1060501,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060502,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060503,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060504,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060505,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060506,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060507,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060508,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060509,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060510,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1060701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1060901,
+   "outmoney":1500,
+   "outitem":1054,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060902,
+   "outmoney":1500,
+   "outitem":1055,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060903,
+   "outmoney":1500,
+   "outitem":1056,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060904,
+   "outmoney":1500,
+   "outitem":1057,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060905,
+   "outmoney":1500,
+   "outitem":1058,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060906,
+   "outmoney":1500,
+   "outitem":1059,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060907,
+   "outmoney":1500,
+   "outitem":1060,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060908,
+   "outmoney":1500,
+   "outitem":1061,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060909,
+   "outmoney":1500,
+   "outitem":1062,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1060910,
+   "outmoney":1500,
+   "outitem":1063,
+   "outcount":10,
+   "deexp":10
+},
+{
+   "itemid":1070001,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070002,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070003,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070004,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070005,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070006,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070007,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070008,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070009,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070010,
+   "outmoney":350,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1070101,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070102,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070103,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070104,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070105,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070106,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070107,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070108,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070109,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070110,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1070301,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070302,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070303,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070304,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070305,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070306,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070307,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070308,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070309,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070310,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1070501,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070502,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070503,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070504,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070505,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070506,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070507,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070508,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070509,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070510,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1070701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1070901,
+   "outmoney":1750,
+   "outitem":1064,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070902,
+   "outmoney":1750,
+   "outitem":1065,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070903,
+   "outmoney":1750,
+   "outitem":1066,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070904,
+   "outmoney":1750,
+   "outitem":1067,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070905,
+   "outmoney":1750,
+   "outitem":1068,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070906,
+   "outmoney":1750,
+   "outitem":1069,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070907,
+   "outmoney":1750,
+   "outitem":1070,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070908,
+   "outmoney":1750,
+   "outitem":1071,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070909,
+   "outmoney":1750,
+   "outitem":1072,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1070910,
+   "outmoney":1750,
+   "outitem":1073,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080001,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080002,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080003,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080004,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080005,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080006,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080007,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080008,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080009,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080010,
+   "outmoney":400,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1080101,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080102,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080103,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080104,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080105,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080106,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080107,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080108,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080109,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080110,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1080301,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080302,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080303,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080304,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080305,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080306,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080307,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080308,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080309,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080310,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1080501,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080502,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080503,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080504,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080505,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080506,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080507,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080508,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080509,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080510,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1080701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1080901,
+   "outmoney":2000,
+   "outitem":1074,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080902,
+   "outmoney":2000,
+   "outitem":1075,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080903,
+   "outmoney":2000,
+   "outitem":1076,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080904,
+   "outmoney":2000,
+   "outitem":1077,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080905,
+   "outmoney":2000,
+   "outitem":1078,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080906,
+   "outmoney":2000,
+   "outitem":1079,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080907,
+   "outmoney":2000,
+   "outitem":1080,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080908,
+   "outmoney":2000,
+   "outitem":1081,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080909,
+   "outmoney":2000,
+   "outitem":1082,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1080910,
+   "outmoney":2000,
+   "outitem":1083,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090001,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090002,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090003,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090004,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090005,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090006,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090007,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090008,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090009,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090010,
+   "outmoney":450,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1090101,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090102,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090103,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090104,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090105,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090106,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090107,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090108,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090109,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090110,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1090301,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090302,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090303,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090304,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090305,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090306,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090307,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090308,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090309,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090310,
+   "outmoney":1350,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1090501,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090502,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090503,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090504,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090505,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090506,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090507,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090508,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090509,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090510,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1090701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1090901,
+   "outmoney":2250,
+   "outitem":1084,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090902,
+   "outmoney":2250,
+   "outitem":1085,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090903,
+   "outmoney":2250,
+   "outitem":1086,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090904,
+   "outmoney":2250,
+   "outitem":1087,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090905,
+   "outmoney":2250,
+   "outitem":1088,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090906,
+   "outmoney":2250,
+   "outitem":1089,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090907,
+   "outmoney":2250,
+   "outitem":1090,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090908,
+   "outmoney":2250,
+   "outitem":1091,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090909,
+   "outmoney":2250,
+   "outitem":1092,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1090910,
+   "outmoney":2250,
+   "outitem":1093,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100001,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100002,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100003,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100004,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100005,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100006,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100007,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100008,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100009,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100010,
+   "outmoney":500,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1100101,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100102,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100103,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100104,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100105,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100106,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100107,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100108,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100109,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100110,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1100301,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100302,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100303,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100304,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100305,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100306,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100307,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100308,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100309,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100310,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1100501,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100502,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100503,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100504,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100505,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100506,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100507,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100508,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100509,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100510,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1100701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1100901,
+   "outmoney":2500,
+   "outitem":1094,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100902,
+   "outmoney":2500,
+   "outitem":1095,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100903,
+   "outmoney":2500,
+   "outitem":1096,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100904,
+   "outmoney":2500,
+   "outitem":1097,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100905,
+   "outmoney":2500,
+   "outitem":1098,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100906,
+   "outmoney":2500,
+   "outitem":1099,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100907,
+   "outmoney":2500,
+   "outitem":1100,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100908,
+   "outmoney":2500,
+   "outitem":1101,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100909,
+   "outmoney":2500,
+   "outitem":1102,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1100910,
+   "outmoney":2500,
+   "outitem":1103,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110001,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110002,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110003,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110004,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110005,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110006,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110007,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110008,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110009,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110010,
+   "outmoney":550,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1110101,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110102,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110103,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110104,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110105,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110106,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110107,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110108,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110109,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110110,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1110301,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110302,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110303,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110304,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110305,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110306,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110307,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110308,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110309,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110310,
+   "outmoney":1650,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1110501,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110502,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110503,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110504,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110505,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110506,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110507,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110508,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110509,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110510,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1110701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1110901,
+   "outmoney":2750,
+   "outitem":1104,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110902,
+   "outmoney":2750,
+   "outitem":1105,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110903,
+   "outmoney":2750,
+   "outitem":1106,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110904,
+   "outmoney":2750,
+   "outitem":1107,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110905,
+   "outmoney":2750,
+   "outitem":1108,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110906,
+   "outmoney":2750,
+   "outitem":1109,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110907,
+   "outmoney":2750,
+   "outitem":1110,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110908,
+   "outmoney":2750,
+   "outitem":1111,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110909,
+   "outmoney":2750,
+   "outitem":1112,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1110910,
+   "outmoney":2750,
+   "outitem":1113,
+   "outcount":15,
+   "deexp":15
+},
+{
+   "itemid":1120001,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120002,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120003,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120004,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120005,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120006,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120007,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120008,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120009,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120010,
+   "outmoney":600,
+   "outitem":1003,
+   "outcount":2,
+   "deexp":2
+},
+{
+   "itemid":1120101,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120102,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120103,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120104,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120105,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120106,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120107,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120108,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120109,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120110,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1120301,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120302,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120303,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120304,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120305,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120306,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120307,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120308,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120309,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120310,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1120501,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120502,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120503,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120504,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120505,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120506,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120507,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120508,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120509,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120510,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1120701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1120901,
+   "outmoney":3000,
+   "outitem":1114,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120902,
+   "outmoney":3000,
+   "outitem":1115,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120903,
+   "outmoney":3000,
+   "outitem":1116,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120904,
+   "outmoney":3000,
+   "outitem":1117,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120905,
+   "outmoney":3000,
+   "outitem":1118,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120906,
+   "outmoney":3000,
+   "outitem":1119,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120907,
+   "outmoney":3000,
+   "outitem":1120,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120908,
+   "outmoney":3000,
+   "outitem":1121,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120909,
+   "outmoney":3000,
+   "outitem":1122,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1120910,
+   "outmoney":3000,
+   "outitem":1123,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130001,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130002,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130003,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130004,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130005,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130006,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130007,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130008,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130009,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130010,
+   "outmoney":650,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1130101,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130102,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130103,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130104,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130105,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130106,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130107,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130108,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130109,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130110,
+   "outmoney":1300,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1130301,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130302,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130303,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130304,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130305,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130306,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130307,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130308,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130309,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130310,
+   "outmoney":1950,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1130501,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130502,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130503,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130504,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130505,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130506,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130507,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130508,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130509,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130510,
+   "outmoney":2600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1130701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1130901,
+   "outmoney":3250,
+   "outitem":1124,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130902,
+   "outmoney":3250,
+   "outitem":1125,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130903,
+   "outmoney":3250,
+   "outitem":1126,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130904,
+   "outmoney":3250,
+   "outitem":1127,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130905,
+   "outmoney":3250,
+   "outitem":1128,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130906,
+   "outmoney":3250,
+   "outitem":1129,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130907,
+   "outmoney":3250,
+   "outitem":1130,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130908,
+   "outmoney":3250,
+   "outitem":1131,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130909,
+   "outmoney":3250,
+   "outitem":1132,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1130910,
+   "outmoney":3250,
+   "outitem":1133,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140001,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140002,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140003,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140004,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140005,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140006,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140007,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140008,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140009,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140010,
+   "outmoney":700,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1140101,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140102,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140103,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140104,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140105,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140106,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140107,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140108,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140109,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140110,
+   "outmoney":1400,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1140301,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140302,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140303,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140304,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140305,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140306,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140307,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140308,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140309,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140310,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1140501,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140502,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140503,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140504,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140505,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140506,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140507,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140508,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140509,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140510,
+   "outmoney":2800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1140701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1140901,
+   "outmoney":3500,
+   "outitem":1134,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140902,
+   "outmoney":3500,
+   "outitem":1135,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140903,
+   "outmoney":3500,
+   "outitem":1136,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140904,
+   "outmoney":3500,
+   "outitem":1137,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140905,
+   "outmoney":3500,
+   "outitem":1138,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140906,
+   "outmoney":3500,
+   "outitem":1139,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140907,
+   "outmoney":3500,
+   "outitem":1140,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140908,
+   "outmoney":3500,
+   "outitem":1141,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140909,
+   "outmoney":3500,
+   "outitem":1142,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1140910,
+   "outmoney":3500,
+   "outitem":1143,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150001,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150002,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150003,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150004,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150005,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150006,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150007,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150008,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150009,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150010,
+   "outmoney":750,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1150101,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150102,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150103,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150104,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150105,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150106,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150107,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150108,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150109,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150110,
+   "outmoney":1500,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1150301,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150302,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150303,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150304,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150305,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150306,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150307,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150308,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150309,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150310,
+   "outmoney":2250,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1150501,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150502,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150503,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150504,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150505,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150506,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150507,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150508,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150509,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150510,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1150701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1150901,
+   "outmoney":3750,
+   "outitem":1144,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150902,
+   "outmoney":3750,
+   "outitem":1145,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150903,
+   "outmoney":3750,
+   "outitem":1146,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150904,
+   "outmoney":3750,
+   "outitem":1147,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150905,
+   "outmoney":3750,
+   "outitem":1148,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150906,
+   "outmoney":3750,
+   "outitem":1149,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150907,
+   "outmoney":3750,
+   "outitem":1150,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150908,
+   "outmoney":3750,
+   "outitem":1151,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150909,
+   "outmoney":3750,
+   "outitem":1152,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1150910,
+   "outmoney":3750,
+   "outitem":1153,
+   "outcount":20,
+   "deexp":20
+},
+{
+   "itemid":1160001,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160002,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160003,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160004,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160005,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160006,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160007,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160008,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160009,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160010,
+   "outmoney":800,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1160101,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160102,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160103,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160104,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160105,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160106,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160107,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160108,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160109,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160110,
+   "outmoney":1600,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1160301,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160302,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160303,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160304,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160305,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160306,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160307,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160308,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160309,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160310,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1160501,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160502,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160503,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160504,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160505,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160506,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160507,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160508,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160509,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160510,
+   "outmoney":3200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1160701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1160901,
+   "outmoney":4000,
+   "outitem":1154,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160902,
+   "outmoney":4000,
+   "outitem":1155,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160903,
+   "outmoney":4000,
+   "outitem":1156,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160904,
+   "outmoney":4000,
+   "outitem":1157,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160905,
+   "outmoney":4000,
+   "outitem":1158,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160906,
+   "outmoney":4000,
+   "outitem":1159,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160907,
+   "outmoney":4000,
+   "outitem":1160,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160908,
+   "outmoney":4000,
+   "outitem":1161,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160909,
+   "outmoney":4000,
+   "outitem":1162,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1160910,
+   "outmoney":4000,
+   "outitem":1163,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170001,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170002,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170003,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170004,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170005,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170006,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170007,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170008,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170009,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170010,
+   "outmoney":850,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1170101,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170102,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170103,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170104,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170105,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170106,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170107,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170108,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170109,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170110,
+   "outmoney":1700,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1170301,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170302,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170303,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170304,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170305,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170306,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170307,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170308,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170309,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170310,
+   "outmoney":2550,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1170501,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170502,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170503,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170504,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170505,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170506,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170507,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170508,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170509,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170510,
+   "outmoney":3400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1170701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1170901,
+   "outmoney":4250,
+   "outitem":1164,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170902,
+   "outmoney":4250,
+   "outitem":1165,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170903,
+   "outmoney":4250,
+   "outitem":1166,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170904,
+   "outmoney":4250,
+   "outitem":1167,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170905,
+   "outmoney":4250,
+   "outitem":1168,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170906,
+   "outmoney":4250,
+   "outitem":1169,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170907,
+   "outmoney":4250,
+   "outitem":1170,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170908,
+   "outmoney":4250,
+   "outitem":1171,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170909,
+   "outmoney":4250,
+   "outitem":1172,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1170910,
+   "outmoney":4250,
+   "outitem":1173,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180001,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180002,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180003,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180004,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180005,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180006,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180007,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180008,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180009,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180010,
+   "outmoney":900,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1180101,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180102,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180103,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180104,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180105,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180106,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180107,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180108,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180109,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180110,
+   "outmoney":1800,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1180301,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180302,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180303,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180304,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180305,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180306,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180307,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180308,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180309,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180310,
+   "outmoney":2700,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1180501,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180502,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180503,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180504,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180505,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180506,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180507,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180508,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180509,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180510,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1180701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1180901,
+   "outmoney":4500,
+   "outitem":1174,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180902,
+   "outmoney":4500,
+   "outitem":1175,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180903,
+   "outmoney":4500,
+   "outitem":1176,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180904,
+   "outmoney":4500,
+   "outitem":1177,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180905,
+   "outmoney":4500,
+   "outitem":1178,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180906,
+   "outmoney":4500,
+   "outitem":1179,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180907,
+   "outmoney":4500,
+   "outitem":1180,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180908,
+   "outmoney":4500,
+   "outitem":1181,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180909,
+   "outmoney":4500,
+   "outitem":1182,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1180910,
+   "outmoney":4500,
+   "outitem":1183,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190001,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190002,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190003,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190004,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190005,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190006,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190007,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190008,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190009,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190010,
+   "outmoney":950,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1190101,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190102,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190103,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190104,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190105,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190106,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190107,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190108,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190109,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190110,
+   "outmoney":1900,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1190301,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190302,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190303,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190304,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190305,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190306,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190307,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190308,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190309,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190310,
+   "outmoney":2850,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1190501,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190502,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190503,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190504,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190505,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190506,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190507,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190508,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190509,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190510,
+   "outmoney":3800,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1190701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1190901,
+   "outmoney":4750,
+   "outitem":1184,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190902,
+   "outmoney":4750,
+   "outitem":1185,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190903,
+   "outmoney":4750,
+   "outitem":1186,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190904,
+   "outmoney":4750,
+   "outitem":1187,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190905,
+   "outmoney":4750,
+   "outitem":1188,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190906,
+   "outmoney":4750,
+   "outitem":1189,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190907,
+   "outmoney":4750,
+   "outitem":1190,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190908,
+   "outmoney":4750,
+   "outitem":1191,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190909,
+   "outmoney":4750,
+   "outitem":1192,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1190910,
+   "outmoney":4750,
+   "outitem":1193,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200001,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200002,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200003,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200004,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200005,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200006,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200007,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200008,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200009,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200010,
+   "outmoney":1000,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1200101,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200102,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200103,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200104,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200105,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200106,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200107,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200108,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200109,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200110,
+   "outmoney":2000,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1200301,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200302,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200303,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200304,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200305,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200306,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200307,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200308,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200309,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200310,
+   "outmoney":3000,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1200501,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200502,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200503,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200504,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200505,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200506,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200507,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200508,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200509,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200510,
+   "outmoney":4000,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1200701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1200901,
+   "outmoney":5000,
+   "outitem":1194,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200902,
+   "outmoney":5000,
+   "outitem":1195,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200903,
+   "outmoney":5000,
+   "outitem":1196,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200904,
+   "outmoney":5000,
+   "outitem":1197,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200905,
+   "outmoney":5000,
+   "outitem":1198,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200906,
+   "outmoney":5000,
+   "outitem":1199,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200907,
+   "outmoney":5000,
+   "outitem":1200,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200908,
+   "outmoney":5000,
+   "outitem":1201,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200909,
+   "outmoney":5000,
+   "outitem":1202,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1200910,
+   "outmoney":5000,
+   "outitem":1203,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210001,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210002,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210003,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210004,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210005,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210006,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210007,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210008,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210009,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210010,
+   "outmoney":1050,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1210101,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210102,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210103,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210104,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210105,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210106,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210107,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210108,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210109,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210110,
+   "outmoney":2100,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1210301,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210302,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210303,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210304,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210305,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210306,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210307,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210308,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210309,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210310,
+   "outmoney":3150,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1210501,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210502,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210503,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210504,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210505,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210506,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210507,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210508,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210509,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210510,
+   "outmoney":4200,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1210701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1210901,
+   "outmoney":5250,
+   "outitem":1204,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210902,
+   "outmoney":5250,
+   "outitem":1205,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210903,
+   "outmoney":5250,
+   "outitem":1206,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210904,
+   "outmoney":5250,
+   "outitem":1207,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210905,
+   "outmoney":5250,
+   "outitem":1208,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210906,
+   "outmoney":5250,
+   "outitem":1209,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210907,
+   "outmoney":5250,
+   "outitem":1210,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210908,
+   "outmoney":5250,
+   "outitem":1211,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210909,
+   "outmoney":5250,
+   "outitem":1212,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1210910,
+   "outmoney":5250,
+   "outitem":1213,
+   "outcount":25,
+   "deexp":25
+},
+{
+   "itemid":1220001,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220002,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220003,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220004,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220005,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220006,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220007,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220008,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220009,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220010,
+   "outmoney":1100,
+   "outitem":1003,
+   "outcount":3,
+   "deexp":3
+},
+{
+   "itemid":1220101,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220102,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220103,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220104,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220105,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220106,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220107,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220108,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220109,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220110,
+   "outmoney":2200,
+   "outitem":1003,
+   "outcount":6,
+   "deexp":6
+},
+{
+   "itemid":1220301,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220302,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220303,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220304,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220305,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220306,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220307,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220308,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220309,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220310,
+   "outmoney":3300,
+   "outitem":1003,
+   "outcount":9,
+   "deexp":9
+},
+{
+   "itemid":1220501,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220502,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220503,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220504,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220505,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220506,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220507,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220508,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220509,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220510,
+   "outmoney":4400,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1220701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1220901,
+   "outmoney":5500,
+   "outitem":1214,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220902,
+   "outmoney":5500,
+   "outitem":1215,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220903,
+   "outmoney":5500,
+   "outitem":1216,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220904,
+   "outmoney":5500,
+   "outitem":1217,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220905,
+   "outmoney":5500,
+   "outitem":1218,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220906,
+   "outmoney":5500,
+   "outitem":1219,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220907,
+   "outmoney":5500,
+   "outitem":1220,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220908,
+   "outmoney":5500,
+   "outitem":1221,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220909,
+   "outmoney":5500,
+   "outitem":1222,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1220910,
+   "outmoney":5500,
+   "outitem":1223,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230001,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230002,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230003,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230004,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230005,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230006,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230007,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230008,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230009,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230010,
+   "outmoney":1150,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1230101,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230102,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230103,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230104,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230105,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230106,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230107,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230108,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230109,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230110,
+   "outmoney":2300,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1230301,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230302,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230303,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230304,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230305,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230306,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230307,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230308,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230309,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230310,
+   "outmoney":3450,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1230501,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230502,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230503,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230504,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230505,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230506,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230507,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230508,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230509,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230510,
+   "outmoney":4600,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1230701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1230901,
+   "outmoney":5750,
+   "outitem":1224,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230902,
+   "outmoney":5750,
+   "outitem":1225,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230903,
+   "outmoney":5750,
+   "outitem":1226,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230904,
+   "outmoney":5750,
+   "outitem":1227,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230905,
+   "outmoney":5750,
+   "outitem":1228,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230906,
+   "outmoney":5750,
+   "outitem":1229,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230907,
+   "outmoney":5750,
+   "outitem":1230,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230908,
+   "outmoney":5750,
+   "outitem":1231,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230909,
+   "outmoney":5750,
+   "outitem":1232,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1230910,
+   "outmoney":5750,
+   "outitem":1233,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240001,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240002,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240003,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240004,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240005,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240006,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240007,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240008,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240009,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240010,
+   "outmoney":1200,
+   "outitem":1003,
+   "outcount":4,
+   "deexp":4
+},
+{
+   "itemid":1240101,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240102,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240103,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240104,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240105,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240106,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240107,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240108,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240109,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240110,
+   "outmoney":2400,
+   "outitem":1003,
+   "outcount":8,
+   "deexp":8
+},
+{
+   "itemid":1240301,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240302,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240303,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240304,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240305,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240306,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240307,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240308,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240309,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240310,
+   "outmoney":3600,
+   "outitem":1003,
+   "outcount":12,
+   "deexp":12
+},
+{
+   "itemid":1240501,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240502,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240503,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240504,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240505,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240506,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240507,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240508,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240509,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240510,
+   "outmoney":4800,
+   "outitem":1003,
+   "outcount":16,
+   "deexp":16
+},
+{
+   "itemid":1240701,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240702,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240703,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240704,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240705,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240706,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240707,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240708,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240709,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240710,
+   "outmoney":1,
+   "outitem":1003,
+   "outcount":1,
+   "deexp":1
+},
+{
+   "itemid":1240901,
+   "outmoney":6000,
+   "outitem":1234,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240902,
+   "outmoney":6000,
+   "outitem":1235,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240903,
+   "outmoney":6000,
+   "outitem":1236,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240904,
+   "outmoney":6000,
+   "outitem":1237,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240905,
+   "outmoney":6000,
+   "outitem":1238,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240906,
+   "outmoney":6000,
+   "outitem":1239,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240907,
+   "outmoney":6000,
+   "outitem":1240,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240908,
+   "outmoney":6000,
+   "outitem":1241,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240909,
+   "outmoney":6000,
+   "outitem":1242,
+   "outcount":30,
+   "deexp":30
+},
+{
+   "itemid":1240910,
+   "outmoney":6000,
+   "outitem":1243,
+   "outcount":30,
+   "deexp":30
+}]

@@ -1,0 +1,15 @@
+[
+  {
+    "key":3020,
+    "manModelIds":"1010,3070",
+    "womanModelIds":"2030,4050",
+    "modelIds": "50113,50041,50109,50114",
+    "monsterIds":"1100,3014",
+    "wingIds":"4",
+    "manSkillIds":"101,102,104,105,106",
+    "womanSkillIds":"108,109,111,112,113",
+    "skillIds":"",
+    "partnerIds":"997,998,999",
+    "includeDirs":"0"
+  }
+]

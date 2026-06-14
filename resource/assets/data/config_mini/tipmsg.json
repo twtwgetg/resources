@@ -1,0 +1,2510 @@
+[{
+   "id":101,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>成功合成了至强装备<font color=\"#ff974b\">$2</font>-<font color=\"#ff974b\">$3</font>级，江湖注定要不太平了。"
+},
+{
+   "id":102,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>成功合成了至强装备<font color=\"#ff974b\">$2</font>-<font color=\"#ff974b\">$3</font>转，江湖注定要不太平了。"
+},
+{
+   "id":201,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>激活了<font color=\"#ff974b\">$2</font>-<font color=\"#ff974b\">$3</font>，真是羡慕嫉妒恨！"
+},
+{
+   "id":301,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>激活了<font color=\"#ff974b\">$2</font>-<font color=\"#ff974b\">$3</font>，真是羡慕嫉妒恨！"
+},
+{
+   "id":401,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>击败了<font color=\"#ff974b\">$2</font>,获得了<font color=\"#ff974b\">$3</font>（$4级）"
+},
+{
+   "id":402,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>击败了<font color=\"#ff974b\">$2</font>,获得了<font color=\"#ff974b\">$3</font>（$4转）"
+},
+{
+   "id":501,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>在酒馆偶遇<font color=\"#e175e4\">$2</font>,气运逆天。"
+},
+{
+   "id":502,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>成功的激活了<font color=\"#e175e4\">$2</font>，实力大增！"
+},
+{
+   "id":503,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>在酒馆偶遇<font color=\"#ff974b\">$2</font>,气运逆天。"
+},
+{
+   "id":504,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>成功的激活了<font color=\"#ff974b\">$2</font>，实力大增！"
+},
+{
+   "id":505,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>在酒馆偶遇<font color=\"#ff4b42\">$2</font>,气运逆天。"
+},
+{
+   "id":506,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>成功的激活了<font color=\"#ff4b42\">$2</font>，实力大增！"
+},
+{
+   "id":601,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>在玄天寻宝中获得<font color=\"#ff974b\">$2</font>,羡煞旁人。"
+},
+{
+   "id":602,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>成功的激活法宝<font color=\"#ff974b\">$2</font>，战力大涨！"
+},
+{
+   "id":603,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>在玄天寻宝中获得<font color=\"#ff4b42\">$2</font>,羡煞旁人。"
+},
+{
+   "id":604,
+   "channeltype":2,
+   "valuei18n":"^1<font color=\"#5eabfb\">$1</font>成功的激活法宝<font color=\"#ff4b42\">$2</font>，战力大涨！"
+},
+{
+   "id":701,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#f11d40\">$1</font>的守护者<font color=\"#f11d40\">$2</font>牛叉哄哄的出现了，大家快去消灭他抢了他的宝贝，消灭他的气焰。"
+},
+{
+   "id":702,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#f11d40\">$1</font>还剩余95%的生命值，实力也不过如此。"
+},
+{
+   "id":703,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#f11d40\">$1</font>的守护者<font color=\"#f11d40\">$2</font>已被击杀，下次会出现更厉害的<font color=\"#f11d40\">$3</font>宫守护者，打了小的会出来老的！"
+},
+{
+   "id":704,
+   "channeltype":1,
+   "valuei18n":"^1<font color=\"#19ccff\">[$1]</font><font color=\"#1ce17d\">$2</font>在<font color=\"#f11d40\">$3</font>活动中，完成最后一击，获得最后一击奖励，一波肥。"
+},
+{
+   "id":705,
+   "channeltype":1,
+   "valuei18n":"^1<font color=\"#19ccff\">[$1]</font><font color=\"#1ce17d\">$2</font>在击杀<font color=\"#f11d40\">$3</font>活动中，个人伤害第<font color=\"#ff974b\">$4</font>，获得丰厚奖励，羡煞旁人。"
+},
+{
+   "id":706,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#1ce17d\">[$1]</font>在<font color=\"#f11d40\">$2</font>活动中，对<font color=\"#f11d40\">$3</font>造成的伤害最多，整体表现最佳，获得阵营专属标识奖励，并获得大量的财宝"
+},
+{
+   "id":707,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#f11d40\">$1</font>的守护者离开了，下次一定不能让他逃脱"
+},
+{
+   "id":801,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#5eabfb\">主宰首领</font>正在大肆破坏这个世界，让我们速速前去阻止吧"
+},
+{
+   "id":802,
+   "channeltype":1,
+   "valuei18n":"主宰首领<font color=\"#5eabfb\">$1</font>已经被<font color=\"#5eabfb\">$2</font>带领的英雄们驱赶回虚空了，让我们迎接胜利的果实吧"
+},
+{
+   "id":803,
+   "channeltype":0,
+   "valuei18n":"在一阵破坏后，<font color=\"#5eabfb\">主宰首领</font>已经精疲力尽的返回虚空了。"
+},
+{
+   "id":10000,
+   "channeltype":0,
+   "valuei18n":"服务器要被小朋友们挤爆了!"
+},
+{
+   "id":10002,
+   "channeltype":0,
+   "valuei18n":"账号错误，请确认后重新输入"
+},
+{
+   "id":10003,
+   "channeltype":0,
+   "valuei18n":"密码错误，请确认后重新输入"
+},
+{
+   "id":10005,
+   "channeltype":0,
+   "valuei18n":"角色已经被封停,请重新选择角色"
+},
+{
+   "id":10006,
+   "channeltype":0,
+   "valuei18n":"账号已经被封停,请联系客服"
+},
+{
+   "id":10007,
+   "channeltype":0,
+   "valuei18n":"角色在游戏中，不能删除"
+},
+{
+   "id":10010,
+   "channeltype":0,
+   "valuei18n":"10秒后自动返回角色列表"
+},
+{
+   "id":10011,
+   "channeltype":0,
+   "valuei18n":"正在退出游戏倒计时中"
+},
+{
+   "id":10014,
+   "channeltype":0,
+   "valuei18n":"恭喜，改名成功！"
+},
+{
+   "id":10015,
+   "channeltype":0,
+   "valuei18n":"创建角色失败,角色数量大于1"
+},
+{
+   "id":10016,
+   "channeltype":0,
+   "valuei18n":"角色名已存在！"
+},
+{
+   "id":10017,
+   "channeltype":0,
+   "valuei18n":"角色名不可以多于6个字！"
+},
+{
+   "id":10018,
+   "channeltype":0,
+   "valuei18n":"角色名不可以少于2个字！"
+},
+{
+   "id":10019,
+   "channeltype":0,
+   "valuei18n":"角色名含有非法字符！"
+},
+{
+   "id":10020,
+   "channeltype":0,
+   "valuei18n":"角色名含有非法字符！"
+},
+{
+   "id":10021,
+   "channeltype":0,
+   "valuei18n":"您已经连续游戏超过6小时，系统将在10秒后强制帮您下线，5小时后才能再次登录"
+},
+{
+   "id":10022,
+   "channeltype":0,
+   "valuei18n":"服务器维护中"
+},
+{
+   "id":10023,
+   "channeltype":0,
+   "valuei18n":"战斗中不能操作"
+},
+{
+   "id":10028,
+   "channeltype":0,
+   "valuei18n":"账号未激活,请激活"
+},
+{
+   "id":10029,
+   "channeltype":0,
+   "valuei18n":"serverid error"
+},
+{
+   "id":10030,
+   "channeltype":0,
+   "valuei18n":"token error"
+},
+{
+   "id":10031,
+   "channeltype":0,
+   "valuei18n":"您的账号从别处登陆了"
+},
+{
+   "id":10032,
+   "channeltype":0,
+   "valuei18n":"角色数据保存中，请稍后操作"
+},
+{
+   "id":10033,
+   "channeltype":0,
+   "valuei18n":"角色小于30级，10分钟之内只能和一个人私聊"
+},
+{
+   "id":10034,
+   "channeltype":0,
+   "valuei18n":"对方开启了聊天等级屏蔽，您目前等级在对方屏蔽范围之内"
+},
+{
+   "id":10035,
+   "channeltype":0,
+   "valuei18n":"【$1】级以前在公共频道说话需要消耗1点活力值，当前活力值不足，VIP用户不消耗活力值"
+},
+{
+   "id":10036,
+   "channeltype":0,
+   "valuei18n":"地图不存在"
+},
+{
+   "id":10037,
+   "channeltype":0,
+   "valuei18n":"地图数据错误"
+},
+{
+   "id":11018,
+   "channeltype":0,
+   "valuei18n":"小兄弟，去过才能飞过"
+},
+{
+   "id":12001,
+   "channeltype":0,
+   "valuei18n":"你发言过快"
+},
+{
+   "id":12003,
+   "channeltype":0,
+   "valuei18n":"不能和自己私聊"
+},
+{
+   "id":12004,
+   "channeltype":0,
+   "valuei18n":"不存在该玩家，请确认后发送"
+},
+{
+   "id":12006,
+   "channeltype":0,
+   "valuei18n":"你发言过快,将被禁言$1分钟"
+},
+{
+   "id":12007,
+   "channeltype":0,
+   "valuei18n":"1转或会员等级3可以在世界频道发言"
+},
+{
+   "id":12008,
+   "channeltype":0,
+   "valuei18n":"重复发言"
+},
+{
+   "id":12010,
+   "channeltype":0,
+   "valuei18n":"你还没有加入队伍"
+},
+{
+   "id":12011,
+   "channeltype":0,
+   "valuei18n":"发言内容不能为空"
+},
+{
+   "id":12012,
+   "channeltype":0,
+   "valuei18n":"您输入的内容过长"
+},
+{
+   "id":12013,
+   "channeltype":0,
+   "valuei18n":"你已被禁言，等待$1秒"
+},
+{
+   "id":12014,
+   "channeltype":0,
+   "valuei18n":"对方不想理你"
+},
+{
+   "id":12015,
+   "channeltype":0,
+   "valuei18n":"很抱歉,对方设置了禁止其他人发送私聊的操作"
+},
+{
+   "id":12017,
+   "channeltype":0,
+   "valuei18n":"发言间隔不能低于5秒"
+},
+{
+   "id":12018,
+   "channeltype":0,
+   "valuei18n":"需要加入门派"
+},
+{
+   "id":12019,
+   "channeltype":0,
+   "valuei18n":"只有等级大于10的玩家才能在喇叭频道发言"
+},
+{
+   "id":12020,
+   "channeltype":0,
+   "valuei18n":"封停角色成功"
+},
+{
+   "id":12021,
+   "channeltype":0,
+   "valuei18n":"禁言角色成功"
+},
+{
+   "id":12022,
+   "channeltype":0,
+   "valuei18n":"1转或会员等级3可以在门派频道发言"
+},
+{
+   "id":13080,
+   "channeltype":0,
+   "valuei18n":"对不起，需要【$1】金币才可打开"
+},
+{
+   "id":13081,
+   "channeltype":0,
+   "valuei18n":"对不起，需要【$1】元宝才可打开"
+},
+{
+   "id":13082,
+   "channeltype":0,
+   "valuei18n":"对不起，需要【$1】礼金才可打开"
+},
+{
+   "id":13084,
+   "channeltype":0,
+   "valuei18n":"对不起，需要【$1】个【$2】才可打开"
+},
+{
+   "id":14003,
+   "channeltype":0,
+   "valuei18n":"对不起，没有复活点!"
+},
+{
+   "id":14004,
+   "channeltype":0,
+   "valuei18n":"复活中，请稍后再试"
+},
+{
+   "id":15000,
+   "channeltype":0,
+   "valuei18n":"对不起,您的当前经验已经达到最大限制,不能再获得经验!"
+},
+{
+   "id":15011,
+   "channeltype":0,
+   "valuei18n":"对不起,物品不存在"
+},
+{
+   "id":15020,
+   "channeltype":0,
+   "valuei18n":"您升到了$1级！"
+},
+{
+   "id":15021,
+   "channeltype":0,
+   "valuei18n":"此玩家不存在或不在线"
+},
+{
+   "id":15026,
+   "channeltype":0,
+   "valuei18n":"[ff0000]已被禁止移动[-]"
+},
+{
+   "id":15027,
+   "channeltype":0,
+   "valuei18n":"[ff0000]现在还不能进行这个操作[-]"
+},
+{
+   "id":16000,
+   "channeltype":0,
+   "valuei18n":"非绑定物品【$1】数量不足$2"
+},
+{
+   "id":16001,
+   "channeltype":0,
+   "valuei18n":"物品【$1】数量不足$2"
+},
+{
+   "id":16002,
+   "channeltype":0,
+   "valuei18n":"元宝不足$1，请充值"
+},
+{
+   "id":16003,
+   "channeltype":0,
+   "valuei18n":"金币不足$1"
+},
+{
+   "id":16004,
+   "channeltype":0,
+   "valuei18n":"真气不足$1"
+},
+{
+   "id":16005,
+   "channeltype":0,
+   "valuei18n":"乾坤令不足$1"
+},
+{
+   "id":16010,
+   "channeltype":0,
+   "valuei18n":"英雄经验不足"
+},
+{
+   "id":16020,
+   "channeltype":0,
+   "valuei18n":"包裹空间不足,请清理后再进行操作"
+},
+{
+   "id":16021,
+   "channeltype":0,
+   "valuei18n":"您携带的金币已经达到上限"
+},
+{
+   "id":16022,
+   "channeltype":0,
+   "valuei18n":"物品锁定，禁止操作"
+},
+{
+   "id":16023,
+   "channeltype":0,
+   "valuei18n":"背包中有正在交易的物品，无法整理"
+},
+{
+   "id":16024,
+   "channeltype":0,
+   "valuei18n":"物品正在交易，无法删除"
+},
+{
+   "id":16025,
+   "channeltype":0,
+   "valuei18n":"物品正在交易，不能移动"
+},
+{
+   "id":16034,
+   "channeltype":0,
+   "valuei18n":"背包已满，请整理包裹"
+},
+{
+   "id":16035,
+   "channeltype":0,
+   "valuei18n":"很遗憾，您被怪物杀死，您身上的【$1】耐久度下降了5%"
+},
+{
+   "id":16039,
+   "channeltype":0,
+   "valuei18n":"物品超过有效时间，无法使用"
+},
+{
+   "id":16048,
+   "channeltype":0,
+   "valuei18n":"对不起，您的角色无法使用此装备"
+},
+{
+   "id":16055,
+   "channeltype":0,
+   "valuei18n":"您身上有耐久度为零的装备"
+},
+{
+   "id":16056,
+   "channeltype":0,
+   "valuei18n":"该装备耐久度过低请先在商店修理"
+},
+{
+   "id":16061,
+   "channeltype":0,
+   "valuei18n":"等级不足无法使用此物品"
+},
+{
+   "id":16074,
+   "channeltype":0,
+   "valuei18n":"地级魂石数量不足$1，可以用选择自动兑换材料用元宝兑换地级魂石"
+},
+{
+   "id":16075,
+   "channeltype":0,
+   "valuei18n":"地级魂石数量达到最大值"
+},
+{
+   "id":16076,
+   "channeltype":0,
+   "valuei18n":"获得地级魂石$1"
+},
+{
+   "id":16077,
+   "channeltype":0,
+   "valuei18n":"消耗地级魂石$1"
+},
+{
+   "id":16078,
+   "channeltype":0,
+   "valuei18n":"天级魂石数量不足$1，可以用选择自动兑换材料用元宝兑换天级魂石"
+},
+{
+   "id":16079,
+   "channeltype":0,
+   "valuei18n":"天级魂石数量达到最大值"
+},
+{
+   "id":16080,
+   "channeltype":0,
+   "valuei18n":"获得天级魂石$1"
+},
+{
+   "id":16081,
+   "channeltype":0,
+   "valuei18n":"消耗天级魂石$1"
+},
+{
+   "id":16084,
+   "channeltype":0,
+   "valuei18n":"对不起，您整理的次数过于频繁，请稍后再试"
+},
+{
+   "id":16091,
+   "channeltype":0,
+   "valuei18n":"此物品不可被销毁"
+},
+{
+   "id":16100,
+   "channeltype":0,
+   "valuei18n":"此物品不可出售"
+},
+{
+   "id":16101,
+   "channeltype":0,
+   "valuei18n":"您被玩家$1杀死,当前全身耐久度下降了$2%"
+},
+{
+   "id":16102,
+   "channeltype":0,
+   "valuei18n":"很遗憾，您被怪物杀死，当前全身耐久度下降了$1%"
+},
+{
+   "id":16113,
+   "channeltype":0,
+   "valuei18n":"该物品只有您的伴侣可以使用"
+},
+{
+   "id":16115,
+   "channeltype":0,
+   "valuei18n":"当前地图不允许使用此物品"
+},
+{
+   "id":16116,
+   "channeltype":0,
+   "valuei18n":"这是一件被封印的物品，你需要在线等待【$1分钟】后，封印才会散去，你才能使用它！"
+},
+{
+   "id":16123,
+   "channeltype":0,
+   "valuei18n":"乾坤令不足$1"
+},
+{
+   "id":17005,
+   "channeltype":0,
+   "valuei18n":"技能$1CD中，请稍后"
+},
+{
+   "id":17007,
+   "channeltype":0,
+   "valuei18n":"没有足够的法力"
+},
+{
+   "id":17009,
+   "channeltype":0,
+   "valuei18n":"您当前所在的地图禁止PK"
+},
+{
+   "id":17013,
+   "channeltype":0,
+   "valuei18n":"已经学习该技能，无法重新学习"
+},
+{
+   "id":17014,
+   "channeltype":0,
+   "valuei18n":"抱歉，您当前的PK模式为$1，无法对目标造成伤害"
+},
+{
+   "id":17015,
+   "channeltype":0,
+   "valuei18n":"当前地图禁止差别为30级的角色PK"
+},
+{
+   "id":17016,
+   "channeltype":0,
+   "valuei18n":"您进入了战斗状态"
+},
+{
+   "id":17017,
+   "channeltype":0,
+   "valuei18n":"您退出了战斗状态"
+},
+{
+   "id":17025,
+   "channeltype":0,
+   "valuei18n":"【$1】连斩状态时间已过期，加成效果消失了"
+},
+{
+   "id":17026,
+   "channeltype":0,
+   "valuei18n":"【$1】连杀状态时间已过期，加成效果消失了"
+},
+{
+   "id":17029,
+   "channeltype":0,
+   "valuei18n":"挂机时，只能是和平模式"
+},
+{
+   "id":17030,
+   "channeltype":0,
+   "valuei18n":"怒气值不足，无法释放此技能"
+},
+{
+   "id":17033,
+   "channeltype":0,
+   "valuei18n":"当前技能已经提升到最高级"
+},
+{
+   "id":17034,
+   "channeltype":0,
+   "valuei18n":"操作过于频繁"
+},
+{
+   "id":17035,
+   "channeltype":0,
+   "valuei18n":"[ff0000]已经被禁止释放技能[-]"
+},
+{
+   "id":17036,
+   "channeltype":0,
+   "valuei18n":"[ff0000]已经被禁止使用物品[-]"
+},
+{
+   "id":17040,
+   "channeltype":0,
+   "valuei18n":"【$1】物品冷却中，不能使用"
+},
+{
+   "id":17045,
+   "channeltype":0,
+   "valuei18n":"切换技能冷却时间中不能使用技能"
+},
+{
+   "id":19010,
+   "channeltype":0,
+   "valuei18n":"骚年，死了就别折腾了。"
+},
+{
+   "id":19058,
+   "channeltype":0,
+   "valuei18n":"对不起，系统尚未开启"
+},
+{
+   "id":20004,
+   "channeltype":0,
+   "valuei18n":"有位玩家对您十分感兴趣，正在查看您的信息"
+},
+{
+   "id":20007,
+   "channeltype":0,
+   "valuei18n":"您的等级不允许进入该地图"
+},
+{
+   "id":20009,
+   "channeltype":0,
+   "valuei18n":"只有在和平模式下才能进行切磋。"
+},
+{
+   "id":20010,
+   "channeltype":0,
+   "valuei18n":"对方不在和平模式下无法进行切磋。"
+},
+{
+   "id":20011,
+   "channeltype":0,
+   "valuei18n":"对不起，您邀请的人已经在切磋。"
+},
+{
+   "id":20013,
+   "channeltype":0,
+   "valuei18n":"对方与您不在同一张地图，切磋中止。"
+},
+{
+   "id":20015,
+   "channeltype":0,
+   "valuei18n":"对方已经下线，退出切磋。"
+},
+{
+   "id":20016,
+   "channeltype":0,
+   "valuei18n":"$1在切磋战斗中击败了$2"
+},
+{
+   "id":20017,
+   "channeltype":0,
+   "valuei18n":"需要双方都在20级以上，才能切磋"
+},
+{
+   "id":20018,
+   "channeltype":0,
+   "valuei18n":"您已经在切磋状态了"
+},
+{
+   "id":20019,
+   "channeltype":0,
+   "valuei18n":"您退出了切磋状态"
+},
+{
+   "id":20020,
+   "channeltype":0,
+   "valuei18n":"对方拒绝了您的切磋邀请"
+},
+{
+   "id":20022,
+   "channeltype":0,
+   "valuei18n":"您进入了切磋状态"
+},
+{
+   "id":20026,
+   "channeltype":0,
+   "valuei18n":"成就点+ $1"
+},
+{
+   "id":20027,
+   "channeltype":0,
+   "valuei18n":"您的包裹已满，请尽快整理包裹后进行ROLL点。"
+},
+{
+   "id":20028,
+   "channeltype":0,
+   "valuei18n":"对物品【$1】，您掷出 $2 （1-100）"
+},
+{
+   "id":20029,
+   "channeltype":0,
+   "valuei18n":"玩家【$1】Roll出了$2点, 获得了【$3】, 您Roll出了$4点"
+},
+{
+   "id":20030,
+   "channeltype":0,
+   "valuei18n":"玩家【$1】放弃了获得【$2】"
+},
+{
+   "id":20031,
+   "channeltype":0,
+   "valuei18n":"玩家【$1】获得了物品【$2】"
+},
+{
+   "id":20032,
+   "channeltype":0,
+   "valuei18n":"您获得了物品【$1】"
+},
+{
+   "id":20036,
+   "channeltype":0,
+   "valuei18n":"很抱歉，对方处于和平保护状态下，无法对其发起攻击"
+},
+{
+   "id":20037,
+   "channeltype":0,
+   "valuei18n":"很抱歉，对方处于新手保护状态，无法对其发起攻击"
+},
+{
+   "id":20038,
+   "channeltype":0,
+   "valuei18n":"很抱歉，您的级别不足25级，无法对其他玩家发起攻击"
+},
+{
+   "id":20039,
+   "channeltype":0,
+   "valuei18n":"您已经切换到【和平模式】，你只能反击敌人"
+},
+{
+   "id":20042,
+   "channeltype":0,
+   "valuei18n":"您已经切换到【杀戮模式】，可以攻击所有玩家"
+},
+{
+   "id":20044,
+   "channeltype":0,
+   "valuei18n":"您无需使用此药"
+},
+{
+   "id":20045,
+   "channeltype":0,
+   "valuei18n":"抱歉您输入的内容中含有敏感字体，请重新输入"
+},
+{
+   "id":20047,
+   "channeltype":0,
+   "valuei18n":"该物品链接的拥有者已离线"
+},
+{
+   "id":20048,
+   "channeltype":0,
+   "valuei18n":"您要查看的物品不存在"
+},
+{
+   "id":20049,
+   "channeltype":0,
+   "valuei18n":"您拒绝了$1的组队邀请"
+},
+{
+   "id":20050,
+   "channeltype":0,
+   "valuei18n":"该物品暂时无法拾取"
+},
+{
+   "id":20053,
+   "channeltype":0,
+   "valuei18n":"消耗$1 x $2"
+},
+{
+   "id":20054,
+   "channeltype":0,
+   "valuei18n":"金币 +$1"
+},
+{
+   "id":20055,
+   "channeltype":0,
+   "valuei18n":"消耗金币: $1"
+},
+{
+   "id":20058,
+   "channeltype":0,
+   "valuei18n":"获得元宝: $1"
+},
+{
+   "id":20059,
+   "channeltype":0,
+   "valuei18n":"消耗元宝: $1"
+},
+{
+   "id":20060,
+   "channeltype":0,
+   "valuei18n":"副本中不允许切线"
+},
+{
+   "id":20061,
+   "channeltype":0,
+   "valuei18n":"战斗中不允许切线"
+},
+{
+   "id":20067,
+   "channeltype":0,
+   "valuei18n":"在切磋过程中对方改变了PK模式，系统自动终止了切磋关系"
+},
+{
+   "id":20070,
+   "channeltype":0,
+   "valuei18n":"消耗礼金: $1"
+},
+{
+   "id":20071,
+   "channeltype":0,
+   "valuei18n":"切线失败！"
+},
+{
+   "id":20073,
+   "channeltype":0,
+   "valuei18n":"您向【$1】发出切磋申请"
+},
+{
+   "id":20076,
+   "channeltype":0,
+   "valuei18n":"对不起，模式切换需要等级30级才能开启。"
+},
+{
+   "id":20079,
+   "channeltype":0,
+   "valuei18n":"成功装配$1"
+},
+{
+   "id":20080,
+   "channeltype":0,
+   "valuei18n":"成功卸下$1"
+},
+{
+   "id":20081,
+   "channeltype":0,
+   "valuei18n":"离传送点太远了$1"
+},
+{
+   "id":20082,
+   "channeltype":0,
+   "valuei18n":"您无需使用此物品"
+},
+{
+   "id":20083,
+   "channeltype":0,
+   "valuei18n":"灵气 +$1"
+},
+{
+   "id":20086,
+   "channeltype":0,
+   "valuei18n":"战斗状态不能回城"
+},
+{
+   "id":20088,
+   "channeltype":0,
+   "valuei18n":"跳跃状态不能回城"
+},
+{
+   "id":20090,
+   "channeltype":0,
+   "valuei18n":"无效操作"
+},
+{
+   "id":20091,
+   "channeltype":0,
+   "valuei18n":"获得绑定元宝: $1"
+},
+{
+   "id":20092,
+   "channeltype":0,
+   "valuei18n":"消耗绑定元宝: $1"
+},
+{
+   "id":20096,
+   "channeltype":0,
+   "valuei18n":"战斗中不能切换为和平模式!"
+},
+{
+   "id":20097,
+   "channeltype":0,
+   "valuei18n":"消耗灵气: $1"
+},
+{
+   "id":20196,
+   "channeltype":0,
+   "valuei18n":"杀戮值超过300不能切换为其它模式"
+},
+{
+   "id":20198,
+   "channeltype":0,
+   "valuei18n":"您已经切换到【队伍模式】，可以攻击除队友之外的所有玩家"
+},
+{
+   "id":21000,
+   "channeltype":0,
+   "valuei18n":"对方不在线"
+},
+{
+   "id":22000,
+   "channeltype":0,
+   "valuei18n":"您当前的状态无法进行申请交易"
+},
+{
+   "id":22001,
+   "channeltype":0,
+   "valuei18n":"对方当前状态无法接受交易邀请"
+},
+{
+   "id":22005,
+   "channeltype":0,
+   "valuei18n":"很抱歉，对方已经离线了，交易无法建立"
+},
+{
+   "id":22006,
+   "channeltype":0,
+   "valuei18n":"很抱歉，对方正处于另一桩交易中，请稍后再试"
+},
+{
+   "id":22007,
+   "channeltype":0,
+   "valuei18n":"对不起，在开始新的交易请求前，请先终结已建立的交易"
+},
+{
+   "id":22013,
+   "channeltype":0,
+   "valuei18n":"很抱歉，对方与您的距离过远，本次交易失败了"
+},
+{
+   "id":22014,
+   "channeltype":0,
+   "valuei18n":"很抱歉，对方的包裹过满，放不下过多物品，本次交易失败了"
+},
+{
+   "id":22017,
+   "channeltype":0,
+   "valuei18n":"很抱歉，您的包裹过满，放不下过多物品，本次交易失败了"
+},
+{
+   "id":22020,
+   "channeltype":0,
+   "valuei18n":"很抱歉，交易的金币数超过了对方包裹的负荷，本次交易失败了"
+},
+{
+   "id":22022,
+   "channeltype":0,
+   "valuei18n":"很抱歉，您的包裹携带的金币数过多，本次交易失败了"
+},
+{
+   "id":22024,
+   "channeltype":0,
+   "valuei18n":"对不起，交易的货品状态异常，交易中断，请重新尝试交易"
+},
+{
+   "id":22025,
+   "channeltype":0,
+   "valuei18n":"您与玩家【$1】本次交易成功。"
+},
+{
+   "id":22029,
+   "channeltype":0,
+   "valuei18n":"您已经点击交易按钮，交易栏无法放入物品"
+},
+{
+   "id":22032,
+   "channeltype":0,
+   "valuei18n":"绑定物品，禁止交易"
+},
+{
+   "id":22037,
+   "channeltype":0,
+   "valuei18n":"非交易状态，禁止任何和交易有关的操作，操作码：$1"
+},
+{
+   "id":22038,
+   "channeltype":0,
+   "valuei18n":"您所携带的金币数量已达到最大上限"
+},
+{
+   "id":22039,
+   "channeltype":0,
+   "valuei18n":"您仓库的金币数量已达最大上限，存储失败"
+},
+{
+   "id":22040,
+   "channeltype":0,
+   "valuei18n":"您所携带的礼金数已达到最大上限，礼金获取失败"
+},
+{
+   "id":22041,
+   "channeltype":0,
+   "valuei18n":"您所携带的元宝数已达到最高上限，元宝获取失败"
+},
+{
+   "id":22052,
+   "channeltype":0,
+   "valuei18n":"很抱歉，您输入的金币或元宝数有误"
+},
+{
+   "id":22063,
+   "channeltype":0,
+   "valuei18n":"很抱歉,对方设置了禁止他人发出交易申请的操作"
+},
+{
+   "id":22065,
+   "channeltype":0,
+   "valuei18n":"玩家【$1】交易给玩家【$2】$3个$4"
+},
+{
+   "id":22069,
+   "channeltype":0,
+   "valuei18n":"新人，$1级之前不能出售物品呢，练级才是最重要的哦~"
+},
+{
+   "id":22072,
+   "channeltype":0,
+   "valuei18n":"您所携带的绑定元宝数已达到最大上限，绑定元宝获取失败"
+},
+{
+   "id":22073,
+   "channeltype":0,
+   "valuei18n":"很抱歉,您已被禁止交易"
+},
+{
+   "id":22074,
+   "channeltype":0,
+   "valuei18n":"很抱歉,对方已被禁止交易"
+},
+{
+   "id":22075,
+   "channeltype":0,
+   "valuei18n":"您所携带的灵气数量已达到最大上限"
+},
+{
+   "id":24003,
+   "channeltype":0,
+   "valuei18n":"今日进入入此副本的次数已达到上限"
+},
+{
+   "id":24012,
+   "channeltype":0,
+   "valuei18n":"队伍内的成员〖$1〗，今日进入副本的次数已满，请稍后再尝试开启副本吧"
+},
+{
+   "id":24014,
+   "channeltype":0,
+   "valuei18n":"队伍内的成员〖$1〗，已经在其它副本中，请稍后再尝试开启副本吧"
+},
+{
+   "id":24015,
+   "channeltype":0,
+   "valuei18n":"您不在队伍中!"
+},
+{
+   "id":24016,
+   "channeltype":0,
+   "valuei18n":"您不是队长!"
+},
+{
+   "id":24024,
+   "channeltype":0,
+   "valuei18n":"副本中不允许创建队伍!"
+},
+{
+   "id":24025,
+   "channeltype":0,
+   "valuei18n":"副本中不允许离队!"
+},
+{
+   "id":24026,
+   "channeltype":0,
+   "valuei18n":"副本中不允许踢人!"
+},
+{
+   "id":24027,
+   "channeltype":0,
+   "valuei18n":"副本中不允许解散队伍!"
+},
+{
+   "id":24028,
+   "channeltype":0,
+   "valuei18n":"副本中不允许添加其他玩家!"
+},
+{
+   "id":24030,
+   "channeltype":0,
+   "valuei18n":"您所申请的副本不存在。"
+},
+{
+   "id":24031,
+   "channeltype":0,
+   "valuei18n":"这位大侠，此副本不宜$1级以上人士进入。"
+},
+{
+   "id":24032,
+   "channeltype":0,
+   "valuei18n":"这位小友，此副本不宜$1级以下人士进入。"
+},
+{
+   "id":24033,
+   "channeltype":0,
+   "valuei18n":"此副本只允许单人进行试炼，像你这样拉帮结派还组队的富二代就别进去了。"
+},
+{
+   "id":24034,
+   "channeltype":0,
+   "valuei18n":"此副本只允许组队进行试炼。"
+},
+{
+   "id":24035,
+   "channeltype":0,
+   "valuei18n":"您已经在副本中，请出去副本再申请。"
+},
+{
+   "id":24037,
+   "channeltype":0,
+   "valuei18n":"副本即将开启，在规定时间连斩，可获得连斩BUFF。"
+},
+{
+   "id":24040,
+   "channeltype":0,
+   "valuei18n":"您已完成过报名，请勿重复报名"
+},
+{
+   "id":24043,
+   "channeltype":0,
+   "valuei18n":"战场已结束，请关注下次开启时间"
+},
+{
+   "id":24065,
+   "channeltype":0,
+   "valuei18n":"连斩中断后，将停止刷新小怪"
+},
+{
+   "id":24066,
+   "channeltype":0,
+   "valuei18n":"请尽快到场中央找到兽兽，让它尝尝你的厉害"
+},
+{
+   "id":24067,
+   "channeltype":0,
+   "valuei18n":"全力出击吧！1分钟内打的分越高，奖励越高"
+},
+{
+   "id":24069,
+   "channeltype":0,
+   "valuei18n":"您今天进入【$1】的次数已达上限$2次。"
+},
+{
+   "id":24070,
+   "channeltype":0,
+   "valuei18n":"您本周进入【$1】的次数已达上限$2次。"
+},
+{
+   "id":24081,
+   "channeltype":0,
+   "valuei18n":"$1战力不足，无法进入当前副本"
+},
+{
+   "id":24086,
+   "channeltype":0,
+   "valuei18n":"有队友不在线。请稍后再尝试开启副本吧"
+},
+{
+   "id":24087,
+   "channeltype":0,
+   "valuei18n":"队伍内的成员〖$1〗，和您不在同一条线，请稍后再尝试开启副本吧"
+},
+{
+   "id":24089,
+   "channeltype":0,
+   "valuei18n":"队伍内的成员〖$1〗，处于死亡状态，请稍后再尝试开启副本吧"
+},
+{
+   "id":24090,
+   "channeltype":0,
+   "valuei18n":"队伍内的成员〖$1〗，不同意进入，请稍后再尝试开启副本吧"
+},
+{
+   "id":24091,
+   "channeltype":0,
+   "valuei18n":"队伍内的成员〖$1〗，久久没有同意进入，请稍后再尝试开启副本吧"
+},
+{
+   "id":24092,
+   "channeltype":0,
+   "valuei18n":"队伍成员变更，请稍后再尝试开启副本吧"
+},
+{
+   "id":24093,
+   "channeltype":0,
+   "valuei18n":"队伍正在申请其他副本，请稍后再尝试开启副本吧"
+},
+{
+   "id":24114,
+   "channeltype":0,
+   "valuei18n":"在副本中无法进行重置操作，请离开副本后重试吧"
+},
+{
+   "id":24115,
+   "channeltype":0,
+   "valuei18n":"副本进度为空，不需要重置"
+},
+{
+   "id":24126,
+   "channeltype":0,
+   "valuei18n":"由于您已通关，本次重置不消耗您的重置次数哦"
+},
+{
+   "id":24128,
+   "channeltype":0,
+   "valuei18n":"请先完成此副本的前置副本【$1】"
+},
+{
+   "id":24129,
+   "channeltype":0,
+   "valuei18n":"队伍内【$1】还未完成此副本的前置副本【$2】"
+},
+{
+   "id":24131,
+   "channeltype":0,
+   "valuei18n":"需要通关一次才可扫荡"
+},
+{
+   "id":24132,
+   "channeltype":0,
+   "valuei18n":"本副本没有可找回的次数。"
+},
+{
+   "id":24133,
+   "channeltype":0,
+   "valuei18n":"小盆友，您还有扫荡的奖励木有领取呢，快去洗洗手把奖励领取了再扫荡吧~"
+},
+{
+   "id":24134,
+   "channeltype":0,
+   "valuei18n":"小盆友，您还有找回的奖励木有领取呢，快去剪剪手指甲把奖励领取了再找回吧~"
+},
+{
+   "id":24135,
+   "channeltype":0,
+   "valuei18n":"队伍内成员【$1】不满足进入该副本条件。开启失败。"
+},
+{
+   "id":24136,
+   "channeltype":0,
+   "valuei18n":"此副本暂未开放。"
+},
+{
+   "id":24139,
+   "channeltype":0,
+   "valuei18n":"本次进入该副本需要【$1】，【$2】所需的物品不足。"
+},
+{
+   "id":24140,
+   "channeltype":0,
+   "valuei18n":"本次进入该副本需要【$1】，【$2】兑换物品所需的元宝不足。"
+},
+{
+   "id":24141,
+   "channeltype":0,
+   "valuei18n":"【$1】兑换增加副本次数的物品所需元宝不足。"
+},
+{
+   "id":24144,
+   "channeltype":0,
+   "valuei18n":"队长等级不足【$1】级，无法开启副本"
+},
+{
+   "id":24145,
+   "channeltype":0,
+   "valuei18n":"队伍成员【$1】等级高于【$2】级，已经不需要在此试炼了"
+},
+{
+   "id":24146,
+   "channeltype":0,
+   "valuei18n":"队伍成员【$1】等级低于【$2】级，请先升级再尝试进入吧"
+},
+{
+   "id":29000,
+   "channeltype":0,
+   "valuei18n":"只能上阵两名近战英雄哦!"
+},
+{
+   "id":29001,
+   "channeltype":0,
+   "valuei18n":"只能上阵两名远程英雄哦!"
+},
+{
+   "id":29002,
+   "channeltype":0,
+   "valuei18n":"只能佩戴三个神物出战哦!"
+},
+{
+   "id":29003,
+   "channeltype":0,
+   "valuei18n":"不能再出战更多的英雄了哦！"
+},
+{
+   "id":29004,
+   "channeltype":0,
+   "valuei18n":"英雄等级不能大于角色等级"
+},
+{
+   "id":30026,
+   "channeltype":0,
+   "valuei18n":"亲爱的玩家：\n 您好，由于您的背包已满，首充礼包奖励通过该邮件发送，请您尽快提取！"
+},
+{
+   "id":30029,
+   "channeltype":0,
+   "valuei18n":"您今天累计在线时间已达$1小时!"
+},
+{
+   "id":30030,
+   "channeltype":0,
+   "valuei18n":"您今天累计在线时间已满3小时，请您下线休息，做适当身体活动。"
+},
+{
+   "id":30031,
+   "channeltype":0,
+   "valuei18n":"您已经进入疲劳游戏时间，您的游戏收益将降为正常值的50%，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。"
+},
+{
+   "id":30032,
+   "channeltype":0,
+   "valuei18n":"您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常"
+},
+{
+   "id":30033,
+   "channeltype":0,
+   "valuei18n":"您当前没有进行防沉迷认证，请尽快认证以免影响您的游戏体验"
+},
+{
+   "id":51002,
+   "channeltype":0,
+   "valuei18n":"镜像场景内不可以使用传送功能！"
+},
+{
+   "id":51005,
+   "channeltype":0,
+   "valuei18n":"副本内不可以使用传送功能！"
+},
+{
+   "id":61002,
+   "channeltype":0,
+   "valuei18n":"您当前的元宝不足！"
+},
+{
+   "id":65023,
+   "channeltype":0,
+   "valuei18n":"您离NPC太远，请到NPC身边"
+},
+{
+   "id":68000,
+   "channeltype":0,
+   "valuei18n":"您已经在队伍中"
+},
+{
+   "id":68001,
+   "channeltype":0,
+   "valuei18n":"您没在队伍中"
+},
+{
+   "id":68002,
+   "channeltype":0,
+   "valuei18n":"您不是队长，不能操作"
+},
+{
+   "id":68003,
+   "channeltype":0,
+   "valuei18n":"不在同一队伍中"
+},
+{
+   "id":68005,
+   "channeltype":0,
+   "valuei18n":"您的队伍已经满员"
+},
+{
+   "id":68006,
+   "channeltype":0,
+   "valuei18n":"您所邀请的小英雄已经下线了或者和您不在同一条线"
+},
+{
+   "id":68007,
+   "channeltype":0,
+   "valuei18n":"【$1】 婉拒了您的邀请，试试和别的玩家组队吧"
+},
+{
+   "id":68008,
+   "channeltype":0,
+   "valuei18n":"【$1】拒绝您的组队申请"
+},
+{
+   "id":68009,
+   "channeltype":0,
+   "valuei18n":"对方拒绝当队长"
+},
+{
+   "id":68011,
+   "channeltype":0,
+   "valuei18n":"自己不能对自己操作"
+},
+{
+   "id":68020,
+   "channeltype":0,
+   "valuei18n":"$1已经离开了队伍。"
+},
+{
+   "id":68021,
+   "channeltype":0,
+   "valuei18n":"您已经退出队伍"
+},
+{
+   "id":68022,
+   "channeltype":0,
+   "valuei18n":"$1成为了您所在队伍的新队长"
+},
+{
+   "id":68023,
+   "channeltype":0,
+   "valuei18n":"您所邀请的人员已经在队伍了"
+},
+{
+   "id":68024,
+   "channeltype":0,
+   "valuei18n":"您已经将$1请离队伍"
+},
+{
+   "id":68025,
+   "channeltype":0,
+   "valuei18n":"您已经被$1请离队伍"
+},
+{
+   "id":68026,
+   "channeltype":0,
+   "valuei18n":"恭喜您，您已经将$1加入队伍"
+},
+{
+   "id":68027,
+   "channeltype":0,
+   "valuei18n":"您已经加入了$1建立的队伍。"
+},
+{
+   "id":68029,
+   "channeltype":0,
+   "valuei18n":"您已经向$1发出组队邀请"
+},
+{
+   "id":68030,
+   "channeltype":0,
+   "valuei18n":"该操作已经过时"
+},
+{
+   "id":68031,
+   "channeltype":0,
+   "valuei18n":"对方已有队伍"
+},
+{
+   "id":68032,
+   "channeltype":0,
+   "valuei18n":"对不起，该玩家不在当前地图"
+},
+{
+   "id":68034,
+   "channeltype":0,
+   "valuei18n":"不在同一副本,不能组队"
+},
+{
+   "id":68035,
+   "channeltype":0,
+   "valuei18n":"您成为了队伍的新队长"
+},
+{
+   "id":68036,
+   "channeltype":0,
+   "valuei18n":"您已经向$1发送了入队申请"
+},
+{
+   "id":68037,
+   "channeltype":0,
+   "valuei18n":"您在副本中呐~不能邀请副本外的小英雄们加入您的队伍"
+},
+{
+   "id":68038,
+   "channeltype":0,
+   "valuei18n":"您所邀请的的小英雄在耍副本呢，不能加入您的队伍"
+},
+{
+   "id":68039,
+   "channeltype":0,
+   "valuei18n":"组队或加入队伍需要的最低角色等级为15级"
+},
+{
+   "id":68040,
+   "channeltype":0,
+   "valuei18n":"该队伍申请列表已满"
+},
+{
+   "id":68041,
+   "channeltype":0,
+   "valuei18n":"您已经邀请过该玩家，请稍后再试!"
+},
+{
+   "id":68042,
+   "channeltype":0,
+   "valuei18n":"玩家正在被邀请，请稍后再试!"
+},
+{
+   "id":68043,
+   "channeltype":0,
+   "valuei18n":"你已经申请过该队伍，请稍后再试！"
+},
+{
+   "id":68044,
+   "channeltype":0,
+   "valuei18n":"队伍信息发生变化，请刷新后重试"
+},
+{
+   "id":70000,
+   "channeltype":0,
+   "valuei18n":"对不起，您已领取过此礼包"
+},
+{
+   "id":70002,
+   "channeltype":0,
+   "valuei18n":"激活码不存在"
+},
+{
+   "id":70003,
+   "channeltype":0,
+   "valuei18n":"激活码已过期"
+},
+{
+   "id":70004,
+   "channeltype":0,
+   "valuei18n":"该激活码已经被使用过"
+},
+{
+   "id":70005,
+   "channeltype":0,
+   "valuei18n":"该激活码使用时间未到，稍后再试"
+},
+{
+   "id":70006,
+   "channeltype":0,
+   "valuei18n":"该激活码本区不可使用"
+},
+{
+   "id":70007,
+   "channeltype":0,
+   "valuei18n":"该激活码最小使用等级为【$1】级"
+},
+{
+   "id":70008,
+   "channeltype":0,
+   "valuei18n":"该激活码最大使用等级为【$1】级"
+},
+{
+   "id":70009,
+   "channeltype":0,
+   "valuei18n":"您已经参加过此活动"
+},
+{
+   "id":70050,
+   "channeltype":0,
+   "valuei18n":"恭喜您，成功领取首充礼包！"
+},
+{
+   "id":70051,
+   "channeltype":0,
+   "valuei18n":"已经将首充礼包发送到您的邮箱，请注意查收。"
+},
+{
+   "id":80011,
+   "channeltype":0,
+   "valuei18n":"邮件附件提取成功"
+},
+{
+   "id":80012,
+   "channeltype":0,
+   "valuei18n":"邮件删除成功"
+},
+{
+   "id":90008,
+   "channeltype":0,
+   "valuei18n":"您的背包已满，请整理背包再进行抽奖"
+},
+{
+   "id":91001,
+   "channeltype":0,
+   "valuei18n":"您已经获得此称号"
+},
+{
+   "id":93001,
+   "channeltype":0,
+   "valuei18n":"已满阶"
+},
+{
+   "id":93002,
+   "channeltype":0,
+   "valuei18n":"激活成功"
+},
+{
+   "id":93003,
+   "channeltype":0,
+   "valuei18n":"升级成功"
+},
+{
+   "id":93004,
+   "channeltype":0,
+   "valuei18n":"已达上限"
+},
+{
+   "id":93005,
+   "channeltype":0,
+   "valuei18n":"当前已达最大星级"
+},
+{
+   "id":93006,
+   "channeltype":0,
+   "valuei18n":"灵力点数不足"
+},
+{
+   "id":93007,
+   "channeltype":0,
+   "valuei18n":"暂无可镶嵌的宝石"
+},
+{
+   "id":93008,
+   "channeltype":0,
+   "valuei18n":"宝石数量不足"
+},
+{
+   "id":93009,
+   "channeltype":0,
+   "valuei18n":"技能等级达到上限，请提高角色等级"
+},
+{
+   "id":93011,
+   "channeltype":0,
+   "valuei18n":"等级不足无法合成"
+},
+{
+   "id":93012,
+   "channeltype":0,
+   "valuei18n":"上阵位置已满"
+},
+{
+   "id":93013,
+   "channeltype":0,
+   "valuei18n":"当前上阵位置尚未开启"
+},
+{
+   "id":93014,
+   "channeltype":0,
+   "valuei18n":"操作过于频繁，请稍后~"
+},
+{
+   "id":93015,
+   "channeltype":0,
+   "valuei18n":"王者争霸排名奖励："
+},
+{
+   "id":93016,
+   "channeltype":0,
+   "valuei18n":"恭喜您本周获得王者争霸排名第$1的成绩，这是您的奖励："
+},
+{
+   "id":94001,
+   "channeltype":0,
+   "valuei18n":"金币兑换次数不足"
+},
+{
+   "id":94002,
+   "channeltype":0,
+   "valuei18n":"使用次数不足"
+},
+{
+   "id":94005,
+   "channeltype":0,
+   "valuei18n":"前10名才可以挑战"
+},
+{
+   "id":94006,
+   "channeltype":0,
+   "valuei18n":"巅峰对决每日奖励"
+},
+{
+   "id":94007,
+   "channeltype":0,
+   "valuei18n":"活跃值增加:$1点"
+},
+{
+   "id":94010,
+   "channeltype":0,
+   "valuei18n":"体力兑换次数不足"
+},
+{
+   "id":94011,
+   "channeltype":0,
+   "valuei18n":"拓印数量不足"
+},
+{
+   "id":94012,
+   "channeltype":0,
+   "valuei18n":"体力不足"
+},
+{
+   "id":94013,
+   "channeltype":0,
+   "valuei18n":"秘境灵物积分奖励"
+},
+{
+   "id":94014,
+   "channeltype":0,
+   "valuei18n":"恭喜您在秘境寻宝中搜寻到许多秘境古董，并获得了排名榜第$1名，这是您的奖励："
+},
+{
+   "id":94015,
+   "channeltype":0,
+   "valuei18n":"攻击力属性提高<font color=\"#5eabfb\">$1%</font>，持续本层"
+},
+{
+   "id":94016,
+   "channeltype":0,
+   "valuei18n":"生命属性提高<font color=\"#5eabfb\">$1%</font>，持续本层"
+},
+{
+   "id":94017,
+   "channeltype":0,
+   "valuei18n":"防御属性提高<font color=\"#5eabfb\">$1%</font>，持续本层"
+},
+{
+   "id":94018,
+   "channeltype":0,
+   "valuei18n":"所有属性提高<font color=\"#5eabfb\">$1%</font>，持续本层"
+},
+{
+   "id":94019,
+   "channeltype":0,
+   "valuei18n":"没有达到升阶条件"
+},
+{
+   "id":94020,
+   "channeltype":0,
+   "valuei18n":"龙脉提升到$1级"
+},
+{
+   "id":94030,
+   "channeltype":0,
+   "valuei18n":"白银英雄令不足"
+},
+{
+   "id":94031,
+   "channeltype":0,
+   "valuei18n":"黄金英雄令不足"
+},
+{
+   "id":94040,
+   "channeltype":0,
+   "valuei18n":"累计天数不足"
+},
+{
+   "id":94100,
+   "channeltype":0,
+   "valuei18n":"剩余次数不足"
+},
+{
+   "id":94101,
+   "channeltype":0,
+   "valuei18n":"贡献点数不足"
+},
+{
+   "id":94102,
+   "channeltype":0,
+   "valuei18n":"剩余元宝不足"
+},
+{
+   "id":94103,
+   "channeltype":0,
+   "valuei18n":"倒计时尚未结束"
+},
+{
+   "id":94200,
+   "channeltype":0,
+   "valuei18n":"恭喜晋级"
+},
+{
+   "id":94201,
+   "channeltype":0,
+   "valuei18n":"恭喜您晋级到%s段位您将获得如下段位奖励："
+},
+{
+   "id":94300,
+   "channeltype":0,
+   "valuei18n":"会员$1可获得补签次数"
+},
+{
+   "id":94301,
+   "channeltype":0,
+   "valuei18n":"补签次数不足"
+},
+{
+   "id":94400,
+   "channeltype":0,
+   "valuei18n":"不在活动开启时间"
+},
+{
+   "id":94500,
+   "channeltype":0,
+   "valuei18n":"穿戴条件过高，需要$1升至$2"
+},
+{
+   "id":94600,
+   "channeltype":0,
+   "valuei18n":"遭遇战获得第$1名奖励"
+},
+{
+   "id":94601,
+   "channeltype":0,
+   "valuei18n":"您在今日野战中获得荣誉$1排名第$2名，获得奖励见附件"
+},
+{
+   "id":94602,
+   "channeltype":0,
+   "valuei18n":"今日已达兑换次数上限"
+},
+{
+   "id":94700,
+   "channeltype":0,
+   "valuei18n":"真传弟子名额已满"
+},
+{
+   "id":94701,
+   "channeltype":0,
+   "valuei18n":"只有门派掌门才有权限任命真传弟子"
+},
+{
+   "id":94702,
+   "channeltype":0,
+   "valuei18n":"当前没有可以扫荡的关卡"
+},
+{
+   "id":94703,
+   "channeltype":0,
+   "valuei18n":"当前无人可以助威"
+},
+{
+   "id":94704,
+   "channeltype":0,
+   "valuei18n":"门派争夺战获得第$1名"
+},
+{
+   "id":94705,
+   "channeltype":0,
+   "valuei18n":"您在本次掌门争夺战中获得第$1名，现奖励已发放至您的账号中"
+},
+{
+   "id":94706,
+   "channeltype":0,
+   "valuei18n":"真传弟子任命"
+},
+{
+   "id":94707,
+   "channeltype":0,
+   "valuei18n":"您被掌门任命为真传弟子，直至此次活动结束"
+},
+{
+   "id":94708,
+   "channeltype":0,
+   "valuei18n":"掌门争夺战奖励回收"
+},
+{
+   "id":94709,
+   "channeltype":0,
+   "valuei18n":"新一任掌门争夺战已结束，现回收全部称号奖励"
+},
+{
+   "id":94710,
+   "channeltype":1,
+   "valuei18n":"恭喜<font color=\"#5eabfb\">$1</font>获得三大掌门第一名，被封为天下第一掌门，大家快去主城瞻仰他的王者风姿。"
+},
+{
+   "id":94711,
+   "channeltype":1,
+   "valuei18n":"恭喜<font color=\"#5eabfb\">$1</font>在<font color=\"#5eabfb\">$2</font>掌门争夺战中傲视群雄最终夺得掌门之位，被封为<font color=\"#ff974b\">$3掌门</font>，并获得三界主宰第<font color=\"#ff974b\">$4</font>名"
+},
+{
+   "id":94712,
+   "channeltype":0,
+   "valuei18n":"$1秒之后可以再次进入"
+},
+{
+   "id":94801,
+   "channeltype":0,
+   "valuei18n":"升级成功"
+},
+{
+   "id":94802,
+   "channeltype":0,
+   "valuei18n":"升级失败"
+},
+{
+   "id":94803,
+   "channeltype":0,
+   "valuei18n":"进阶成功"
+},
+{
+   "id":94804,
+   "channeltype":0,
+   "valuei18n":"进阶失败"
+},
+{
+   "id":94805,
+   "channeltype":0,
+   "valuei18n":"激活失败，转生等级不足"
+},
+{
+   "id":94900,
+   "channeltype":0,
+   "valuei18n":"主宰首领已经被击杀"
+},
+{
+   "id":94901,
+   "channeltype":0,
+   "valuei18n":"活动将于每日21时开启"
+},
+{
+   "id":94902,
+   "channeltype":0,
+   "valuei18n":"每日只能参与一次此活动"
+},
+{
+   "id":94903,
+   "channeltype":0,
+   "valuei18n":"主宰首领奖励邮件"
+},
+{
+   "id":94904,
+   "channeltype":0,
+   "valuei18n":"恭喜您在$1首领争夺中获得了第$2的名次，获得了如下奖励："
+},
+{
+   "id":94905,
+   "channeltype":0,
+   "valuei18n":"恭喜您在$1首领争夺中获得了归属权，获得了如下奖励："
+},
+{
+   "id":94906,
+   "channeltype":0,
+   "valuei18n":"恭喜您在$1首领争夺中获得了幸运奖，获得了如下奖励："
+},
+{
+   "id":95000,
+   "channeltype":0,
+   "valuei18n":"会员$1 可兑换"
+},
+{
+   "id":95001,
+   "channeltype":0,
+   "valuei18n":"会员等级不足"
+},
+{
+   "id":95101,
+   "channeltype":0,
+   "valuei18n":"四象宫活动全民奖励"
+},
+{
+   "id":95102,
+   "channeltype":0,
+   "valuei18n":"恭喜，您在本次击杀$1守护者的时候，表现优异，获得如下奖励："
+},
+{
+   "id":95103,
+   "channeltype":0,
+   "valuei18n":"四象宫活动最强势力"
+},
+{
+   "id":95104,
+   "channeltype":0,
+   "valuei18n":"恭喜，您所在阵营$1在本次$2活动中战绩最佳，现$3全体参与成员获得额外奖励如下："
+},
+{
+   "id":95105,
+   "channeltype":0,
+   "valuei18n":"四象宫活动伤害第$1奖励"
+},
+{
+   "id":95106,
+   "channeltype":0,
+   "valuei18n":"恭喜，您在本次$1活动中，个人伤害排名第$2，现发放奖励如下："
+},
+{
+   "id":95107,
+   "channeltype":0,
+   "valuei18n":"四象宫活动最后一击"
+},
+{
+   "id":95108,
+   "channeltype":0,
+   "valuei18n":"恭喜，您在本次$1活动中完成了最后一击，成功的干掉了守护者$2，现获得奖励如下："
+},
+{
+   "id":95200,
+   "channeltype":0,
+   "valuei18n":"开服冲榜最佳排行"
+},
+{
+   "id":95201,
+   "channeltype":0,
+   "valuei18n":"恭喜您在乾坤榜活动中获得最佳排行奖励"
+},
+{
+   "id":95300,
+   "channeltype":0,
+   "valuei18n":"消费排行榜排名奖励"
+},
+{
+   "id":95301,
+   "channeltype":0,
+   "valuei18n":"亲爱的玩家：恭喜您在本期消费活动中,个人消费排名第$1，现发放奖励如下："
+},
+{
+   "id":95302,
+   "channeltype":0,
+   "valuei18n":"双修中不能进行此操作"
+},
+{
+   "id":95303,
+   "channeltype":0,
+   "valuei18n":"该玩家双修功能未开启"
+},
+{
+   "id":95304,
+   "channeltype":0,
+   "valuei18n":"该玩家活动剩余次数不足"
+},
+{
+   "id":95305,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>拒绝了你的邀请"
+},
+{
+   "id":95306,
+   "channeltype":0,
+   "valuei18n":"对方正在双修，可选择其他对象"
+},
+{
+   "id":95307,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#1ce17d\">双修</font>活动将在2分钟后开启，请大家积极参与"
+},
+{
+   "id":95308,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#1ce17d\">双修</font>活动开启了，请大家立刻前往主城参与"
+},
+{
+   "id":95309,
+   "channeltype":0,
+   "valuei18n":"目标已经离开主城，请选择其他对象"
+},
+{
+   "id":95310,
+   "channeltype":0,
+   "valuei18n":"<font color=\"#5eabfb\">$1</font>邀请你双修"
+},
+{
+   "id":95311,
+   "channeltype":0,
+   "valuei18n":"今日双修次数已用完"
+},
+{
+   "id":95312,
+   "channeltype":0,
+   "valuei18n":"已经到达活动地图"
+},
+{
+   "id":95313,
+   "channeltype":0,
+   "valuei18n":"活动暂未开启"
+},
+{
+   "id":95400,
+   "channeltype":0,
+   "valuei18n":"请先激活至尊特权"
+},
+{
+   "id":95500,
+   "channeltype":0,
+   "valuei18n":"玄天寻宝积分排行奖励"
+},
+{
+   "id":95501,
+   "channeltype":0,
+   "valuei18n":"恭喜您在玄天寻宝中排名第$1名，这是您的奖励："
+},
+{
+   "id":95601,
+   "channeltype":3,
+   "valuei18n":"<font color=\"#1ce17d\">$1</font>榜首<font color=\"#5eabfb\">$2</font>上线了，快去膜拜他的英姿吧！"
+},
+{
+   "id":100001,
+   "channeltype":0,
+   "valuei18n":"每派遣一名近战英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100002,
+   "channeltype":0,
+   "valuei18n":"每派遣一名远程英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100003,
+   "channeltype":0,
+   "valuei18n":"每派遣一名蓝色或更高品质英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100004,
+   "channeltype":0,
+   "valuei18n":"每派遣一名紫色或更高品质英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100005,
+   "channeltype":0,
+   "valuei18n":"每派遣一名橙色或更高品质英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100006,
+   "channeltype":0,
+   "valuei18n":"每派遣一名2星或更高英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100007,
+   "channeltype":0,
+   "valuei18n":"每派遣一名3星或更高英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100008,
+   "channeltype":0,
+   "valuei18n":"每派遣一名4星或更高英雄时奖励+<font color=\"#1ce17d\">10%</font>"
+},
+{
+   "id":100009,
+   "channeltype":0,
+   "valuei18n":"点击任意区域继续($1秒)"
+},
+{
+   "id":100034,
+   "channeltype":0,
+   "valuei18n":"物品数量不足，请重新确认!"
+},
+{
+   "id":100037,
+   "channeltype":0,
+   "valuei18n":"物品数据异常，请重试!"
+},
+{
+   "id":180001,
+   "channeltype":0,
+   "valuei18n":"百连斩！已连续击杀100只怪！"
+},
+{
+   "id":180002,
+   "channeltype":0,
+   "valuei18n":"杀人如麻！已连续击杀200只怪！"
+},
+{
+   "id":180003,
+   "channeltype":0,
+   "valuei18n":"浴血厮杀！已连续击杀300只怪！"
+},
+{
+   "id":180004,
+   "channeltype":0,
+   "valuei18n":"暴走！已连续击杀400只怪！"
+},
+{
+   "id":180005,
+   "channeltype":0,
+   "valuei18n":"群魔乱舞！已连续击杀500只怪！"
+},
+{
+   "id":180006,
+   "channeltype":0,
+   "valuei18n":"横扫千军！已连续击杀600只怪！"
+},
+{
+   "id":180007,
+   "channeltype":0,
+   "valuei18n":"妖孽般杀戮！已连续击杀700只怪！"
+},
+{
+   "id":180008,
+   "channeltype":0,
+   "valuei18n":"修罗附体！已连续击杀800只怪！"
+},
+{
+   "id":180009,
+   "channeltype":0,
+   "valuei18n":"嗜杀成魔！已连续击杀900只怪！"
+},
+{
+   "id":180010,
+   "channeltype":0,
+   "valuei18n":"超越神的杀戮！已连续击杀1000只怪！"
+},
+{
+   "id":190106,
+   "channeltype":0,
+   "valuei18n":"你超过【$1】点的杀戮值，散发出犹如实质般的杀意，使空间变得极其不稳定，无法使用传送符！"
+},
+{
+   "id":190108,
+   "channeltype":0,
+   "valuei18n":"你超过【$1】点的杀戮值，使周围的人被你震慑，难以接近你，无法与人交易！"
+},
+{
+   "id":190110,
+   "channeltype":0,
+   "valuei18n":"你超过【$1】点的杀戮值，使灵力大陆的邮政局人员根本不敢跟你联系，无法使用邮件！"
+},
+{
+   "id":190112,
+   "channeltype":0,
+   "valuei18n":"监狱的守卫不同意你进行这项操作！"
+},
+{
+   "id":210009,
+   "channeltype":0,
+   "valuei18n":"金币不足"
+},
+{
+   "id":210010,
+   "channeltype":0,
+   "valuei18n":"$1级"
+},
+{
+   "id":210011,
+   "channeltype":0,
+   "valuei18n":"$1关"
+},
+{
+   "id":210012,
+   "channeltype":0,
+   "valuei18n":"$1转"
+},
+{
+   "id":210013,
+   "channeltype":0,
+   "valuei18n":"会员$1"
+},
+{
+   "id":210014,
+   "channeltype":0,
+   "valuei18n":"需要达成成就$1"
+},
+{
+   "id":210015,
+   "channeltype":0,
+   "valuei18n":"开启"
+},
+{
+   "id":210016,
+   "channeltype":0,
+   "valuei18n":"并且"
+},
+{
+   "id":210017,
+   "channeltype":0,
+   "valuei18n":"或"
+},
+{
+   "id":211001,
+   "channeltype":0,
+   "valuei18n":"$1：哈哈哈！老夫在这$2闭关许久，不知这江湖上是否有后起之辈值得老夫出手！"
+},
+{
+   "id":220010,
+   "channeltype":0,
+   "valuei18n":"兑换次数已达上限"
+},
+{
+   "id":220011,
+   "channeltype":0,
+   "valuei18n":"队友发生变化,请重新匹配"
+},
+{
+   "id":230001,
+   "channeltype":0,
+   "valuei18n":"获得绑定金币: $1"
+},
+{
+   "id":230002,
+   "channeltype":0,
+   "valuei18n":"消耗绑定金币: $1"
+},
+{
+   "id":250001,
+   "channeltype":0,
+   "valuei18n":"使用黄晶卡或紫晶卡即可开启随身仓库功能"
+},
+{
+   "id":253012,
+   "channeltype":0,
+   "valuei18n":"您队伍中还有人没准备好征战！"
+},
+{
+   "id":255010,
+   "channeltype":0,
+   "valuei18n":"进入次数不足！"
+},
+{
+   "id":255011,
+   "channeltype":0,
+   "valuei18n":"该镖车正在被掠夺"
+},
+{
+   "id":255012,
+   "channeltype":0,
+   "valuei18n":"该镖车已被掠夺一空"
+},
+{
+   "id":255013,
+   "channeltype":0,
+   "valuei18n":"今日掠夺次数已用"
+},
+{
+   "id":255014,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#1ce17d\">西天取经</font>活动将在2分钟后开启，请大家积极参与"
+},
+{
+   "id":255015,
+   "channeltype":1,
+   "valuei18n":"<font color=\"#1ce17d\">西天取经</font>活动开启了，请大家立刻前往主城参与"
+},
+{
+   "id":260001,
+   "channeltype":2,
+   "valuei18n":"【$1】已将你击杀"
+},
+{
+   "id":260002,
+   "channeltype":2,
+   "valuei18n":"【$1】已经无人能档"
+},
+{
+   "id":260003,
+   "channeltype":2,
+   "valuei18n":"【$1】正在大杀特杀"
+},
+{
+   "id":260004,
+   "channeltype":2,
+   "valuei18n":"【$1】正在主宰仙魔大战"
+},
+{
+   "id":260005,
+   "channeltype":2,
+   "valuei18n":"【$1】据点被已被【$2】击破"
+},
+{
+   "id":260006,
+   "channeltype":2,
+   "valuei18n":"【$1】驻旗正在被攻击，血量不足【$2】，请尽快前往防守"
+},
+{
+   "id":261001,
+   "channeltype":0,
+   "valuei18n":"仙魔大战胜方宗门奖励"
+},
+{
+   "id":261002,
+   "channeltype":0,
+   "valuei18n":"恭喜，您的宗门取得了本次仙魔大战活动的胜利，获得如下奖励："
+},
+{
+   "id":261003,
+   "channeltype":0,
+   "valuei18n":"仙魔大战败方宗门奖励"
+},
+{
+   "id":261004,
+   "channeltype":0,
+   "valuei18n":"很遗憾，您的宗门未夺得本次仙魔大战的胜利，请再接再厉，获得如下奖励："
+},
+{
+   "id":261005,
+   "channeltype":0,
+   "valuei18n":"积分排名奖励"
+},
+{
+   "id":261006,
+   "channeltype":0,
+   "valuei18n":"恭喜，您在本次仙魔大战活动中，个人积分排名第$1，现发放奖励如下："
+},
+{
+   "id":261007,
+   "channeltype":0,
+   "valuei18n":"胜方宗门掌门奖励"
+},
+{
+   "id":261008,
+   "channeltype":0,
+   "valuei18n":"恭喜，您所率领的宗门在本次仙魔大战活动中取得胜利，现发放奖励如下："
+}]

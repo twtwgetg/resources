@@ -1,0 +1,2530 @@
+[{
+   "id":1,
+   "next":2,
+   "obj":"taskGroup",
+   "panel":"TaskPanelSkin",
+   "showpos":"60,0",
+   "desc":"封魔神器魔气蔓延，可进入封魔狱除魔啦！",
+   "type":0,
+   "group":-1
+},
+{
+   "id":2,
+   "next":0,
+   "obj":"startBtn",
+   "panel":"SelectBossSkin",
+   "showpos":"-250,10",
+   "desc":"进入封魔狱，荡涤魔气。",
+   "type":0,
+   "group":0
+},
+{
+   "id":11,
+   "next":12,
+   "obj":"taskGroup",
+   "panel":"TaskPanelSkin",
+   "showpos":"60,0",
+   "desc":"封魔神器魔气蔓延，可进入封魔狱除魔啦！",
+   "type":0,
+   "group":-1
+},
+{
+   "id":12,
+   "next":0,
+   "obj":"startBtn",
+   "panel":"SelectBossSkin",
+   "showpos":"-250,10",
+   "desc":"进入封魔狱，荡涤魔气。",
+   "type":0,
+   "group":0
+},
+{
+   "id":21,
+   "next":22,
+   "obj":"taskGroup",
+   "panel":"TaskPanelSkin",
+   "showpos":"60,0",
+   "desc":"封魔神器魔气蔓延，可进入封魔狱除魔啦！",
+   "type":0,
+   "group":-1
+},
+{
+   "id":22,
+   "next":0,
+   "obj":"startBtn",
+   "panel":"SelectBossSkin",
+   "showpos":"-250,10",
+   "desc":"进入封魔狱，荡涤魔气。",
+   "type":0,
+   "group":0
+},
+{
+   "id":301,
+   "next":302,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，为自己换套新装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":302,
+   "next":303,
+   "obj":"autoEquipBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-250,10",
+   "desc":"点击一键换装，成就不一样的自己！",
+   "type":0,
+   "group":0
+},
+{
+   "id":303,
+   "next":0,
+   "obj":"commonBack.close0",
+   "panel":"HeroPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":311,
+   "next":312,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，为自己换套新装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":312,
+   "next":313,
+   "obj":"autoEquipBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-250,10",
+   "desc":"点击一键换装，成就不一样的自己！",
+   "type":0,
+   "group":0
+},
+{
+   "id":313,
+   "next":0,
+   "obj":"commonBack.close0",
+   "panel":"HeroPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":321,
+   "next":322,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，为自己换套新装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":322,
+   "next":323,
+   "obj":"autoEquipBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-250,10",
+   "desc":"点击一键换装，成就不一样的自己！",
+   "type":0,
+   "group":0
+},
+{
+   "id":323,
+   "next":0,
+   "obj":"commonBack.close0",
+   "panel":"HeroPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":331,
+   "next":332,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，为自己换套新装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":332,
+   "next":333,
+   "obj":"autoEquipBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-250,10",
+   "desc":"点击一键换装，成就不一样的自己！",
+   "type":0,
+   "group":0
+},
+{
+   "id":333,
+   "next":0,
+   "obj":"commonBack.close0",
+   "panel":"HeroPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":401,
+   "next":402,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，去提升技能吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":402,
+   "next":403,
+   "obj":"scrollPage.skillBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"50,-250",
+   "desc":"技能秘籍，是提升自身实力的法门呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":403,
+   "next":404,
+   "obj":"roleSkillView.upgradeAllBtn",
+   "panel":"SkillPanelSkin",
+   "showpos":"60,0",
+   "desc":"全部升级，快让自己技高一筹吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":404,
+   "next":405,
+   "obj":"commonBack.close0",
+   "panel":"SkillPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":405,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":411,
+   "next":412,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，去提升技能吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":412,
+   "next":413,
+   "obj":"scrollPage.skillBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"50,-250",
+   "desc":"技能秘籍，是提升自身实力的法门呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":413,
+   "next":0,
+   "obj":"roleSkillView.upgradeAllBtn",
+   "panel":"SkillPanelSkin",
+   "showpos":"60,0",
+   "desc":"全部升级，快让自己技高一筹吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":421,
+   "next":422,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，去提升技能吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":422,
+   "next":423,
+   "obj":"scrollPage.skillBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"50,-250",
+   "desc":"技能秘籍，是提升自身实力的法门呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":423,
+   "next":0,
+   "obj":"roleSkillView.upgradeAllBtn",
+   "panel":"SkillPanelSkin",
+   "showpos":"60,0",
+   "desc":"全部升级，快让自己技高一筹吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":431,
+   "next":432,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,-250",
+   "desc":"点这里，去提升技能吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":432,
+   "next":433,
+   "obj":"scrollPage.skillBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"50,-250",
+   "desc":"技能秘籍，是提升自身实力的法门呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":433,
+   "next":0,
+   "obj":"roleSkillView.upgradeAllBtn",
+   "panel":"SkillPanelSkin",
+   "showpos":"60,0",
+   "desc":"全部升级，快让自己技高一筹吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":501,
+   "next":502,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-45,-250",
+   "desc":"点这里，去强化装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":502,
+   "next":503,
+   "obj":"qiangHuaView.allBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"50,0",
+   "desc":"一键强化，装备精良全靠它！",
+   "type":0,
+   "group":0
+},
+{
+   "id":503,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":511,
+   "next":512,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-45,-250",
+   "desc":"点这里，去强化装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":512,
+   "next":0,
+   "obj":"qiangHuaView.allBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"50,0",
+   "desc":"一键强化，装备精良全靠它！",
+   "type":0,
+   "group":0
+},
+{
+   "id":521,
+   "next":522,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-45,-250",
+   "desc":"点这里，去强化装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":522,
+   "next":0,
+   "obj":"qiangHuaView.allBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"50,0",
+   "desc":"一键强化，装备精良全靠它！",
+   "type":0,
+   "group":0
+},
+{
+   "id":601,
+   "next":602,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去激活英雄吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":602,
+   "next":603,
+   "obj":"partnerView.activeBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-250,10",
+   "desc":"激活英雄，组团开黑，佳友相随。",
+   "type":0,
+   "group":0
+},
+{
+   "id":603,
+   "next":0,
+   "obj":"commonBack.close0",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":611,
+   "next":612,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去激活英雄吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":612,
+   "next":613,
+   "obj":"partnerView.activeBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-250,10",
+   "desc":"激活英雄，组团开黑，佳友相随。",
+   "type":0,
+   "group":0
+},
+{
+   "id":613,
+   "next":614,
+   "obj":"scrollPage.configView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"50,0",
+   "desc":"邀请伙伴，组成阵法。",
+   "type":0,
+   "group":0
+},
+{
+   "id":614,
+   "next":615,
+   "obj":"configView.guideObj",
+   "panel":"PartnerPanelSkin",
+   "showpos":"50,0",
+   "desc":"选择上阵英雄，伴君左右。",
+   "type":0,
+   "group":0
+},
+{
+   "id":615,
+   "next":616,
+   "obj":"configView.upBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"伙伴上阵，乘风破浪，一路开挂！",
+   "type":0,
+   "group":0
+},
+{
+   "id":616,
+   "next":0,
+   "obj":"commonBack.close0",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-380,-240",
+   "desc":"戳这里，可返回乾坤大陆哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":701,
+   "next":702,
+   "obj":"activtyBar.lotteryBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,30",
+   "desc":"点这里，招募英雄！",
+   "type":0,
+   "group":999
+},
+{
+   "id":702,
+   "next":0,
+   "obj":"silver.freeBtn",
+   "panel":"PartnerLuckDrasPanelSkin",
+   "showpos":"50,30",
+   "desc":"悬赏招募，万千英豪收入麾下。",
+   "type":0,
+   "group":0
+},
+{
+   "id":711,
+   "next":712,
+   "obj":"activtyBar.lotteryBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,30",
+   "desc":"点这里，招募英雄！",
+   "type":0,
+   "group":999
+},
+{
+   "id":712,
+   "next":0,
+   "obj":"silver.freeBtn",
+   "panel":"PartnerLuckDrasPanelSkin",
+   "showpos":"50,30",
+   "desc":"悬赏招募，万千英豪收入麾下。",
+   "type":0,
+   "group":0
+},
+{
+   "id":751,
+   "next":752,
+   "obj":"activtyBar.lotteryBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,30",
+   "desc":"点这里，招募英雄！",
+   "type":0,
+   "group":999
+},
+{
+   "id":752,
+   "next":0,
+   "obj":"gold.freeBtn",
+   "panel":"PartnerLuckDrasPanelSkin",
+   "showpos":"50,30",
+   "desc":"悬赏招募，万千英豪收入麾下。",
+   "type":0,
+   "group":0
+},
+{
+   "id":761,
+   "next":762,
+   "obj":"activtyBar.lotteryBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,30",
+   "desc":"点这里，招募英雄！",
+   "type":0,
+   "group":999
+},
+{
+   "id":762,
+   "next":0,
+   "obj":"gold.freeBtn",
+   "panel":"PartnerLuckDrasPanelSkin",
+   "showpos":"50,30",
+   "desc":"悬赏招募，万千英豪收入麾下。",
+   "type":0,
+   "group":0
+},
+{
+   "id":771,
+   "next":772,
+   "obj":"activtyBar.lotteryBtn",
+   "panel":"MainUISkin",
+   "showpos":"50,30",
+   "desc":"点这里，招募英雄！",
+   "type":0,
+   "group":999
+},
+{
+   "id":772,
+   "next":0,
+   "obj":"gold.freeBtn",
+   "panel":"PartnerLuckDrasPanelSkin",
+   "showpos":"50,30",
+   "desc":"悬赏招募，万千英豪收入麾下。",
+   "type":0,
+   "group":0
+},
+{
+   "id":801,
+   "next":802,
+   "obj":"functionBar.longmaiBtn",
+   "panel":"MainUISkin",
+   "showpos":"-380,-240",
+   "desc":"挖掘龙脉，积蓄财富。",
+   "type":0,
+   "group":999
+},
+{
+   "id":802,
+   "next":803,
+   "obj":"activation",
+   "panel":"GetGoldSkin",
+   "showpos":"-250,0",
+   "desc":"激活龙脉，打开财路！",
+   "type":0,
+   "group":0
+},
+{
+   "id":803,
+   "next":804,
+   "obj":"pickgold",
+   "panel":"GetGoldSkin",
+   "showpos":"-250,0",
+   "desc":"收取金币，拥有第一桶金！",
+   "type":0,
+   "group":0
+},
+{
+   "id":804,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"GetGoldSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":811,
+   "next":812,
+   "obj":"functionBar.longmaiBtn",
+   "panel":"MainUISkin",
+   "showpos":"-250,10",
+   "desc":"挖掘龙脉，积蓄财富。",
+   "type":0,
+   "group":999
+},
+{
+   "id":812,
+   "next":813,
+   "obj":"pickgold",
+   "panel":"GetGoldSkin",
+   "showpos":"-250,10",
+   "desc":"收取金币，拥有财富！",
+   "type":0,
+   "group":0
+},
+{
+   "id":813,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"GetGoldSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":821,
+   "next":822,
+   "obj":"functionBar.longmaiBtn",
+   "panel":"MainUISkin",
+   "showpos":"-250,10",
+   "desc":"挖掘龙脉，积蓄财富。",
+   "type":0,
+   "group":999
+},
+{
+   "id":822,
+   "next":823,
+   "obj":"pickgold",
+   "panel":"GetGoldSkin",
+   "showpos":"-250,10",
+   "desc":"收取金币，拥有财富！",
+   "type":0,
+   "group":0
+},
+{
+   "id":823,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"GetGoldSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":831,
+   "next":832,
+   "obj":"functionBar.longmaiBtn",
+   "panel":"MainUISkin",
+   "showpos":"-250,10",
+   "desc":"挖掘龙脉，积蓄财富。",
+   "type":0,
+   "group":999
+},
+{
+   "id":832,
+   "next":833,
+   "obj":"pickgold",
+   "panel":"GetGoldSkin",
+   "showpos":"-250,10",
+   "desc":"收取金币，拥有财富！",
+   "type":0,
+   "group":0
+},
+{
+   "id":833,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"GetGoldSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":901,
+   "next":902,
+   "obj":"functionBar.bagBtn",
+   "panel":"MainUISkin",
+   "showpos":"-130,-250",
+   "desc":"点这里，去熔炼装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":902,
+   "next":903,
+   "obj":"page1",
+   "panel":"BackpackSkin",
+   "showpos":"-250,10",
+   "desc":"选择装备背包，进入熔炼。",
+   "type":0,
+   "group":0
+},
+{
+   "id":903,
+   "next":904,
+   "obj":"resolveBtn",
+   "panel":"BackpackSkin",
+   "showpos":"-350,-35",
+   "desc":"点击熔炼，进入熔炼界面。",
+   "type":0,
+   "group":0
+},
+{
+   "id":904,
+   "next":905,
+   "obj":"resolveBtn",
+   "panel":"MeltingSkin",
+   "showpos":"-330,-25",
+   "desc":"熔炼装备",
+   "type":0,
+   "group":0
+},
+{
+   "id":905,
+   "next":906,
+   "obj":"closeBtn",
+   "panel":"MeltingSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":906,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"BackpackSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":911,
+   "next":912,
+   "obj":"functionBar.bagBtn",
+   "panel":"MainUISkin",
+   "showpos":"-130,-250",
+   "desc":"点这里，去熔炼装备吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":912,
+   "next":913,
+   "obj":"page1",
+   "panel":"BackpackSkin",
+   "showpos":"-250,10",
+   "desc":"选择装备背包，进入熔炼。",
+   "type":0,
+   "group":0
+},
+{
+   "id":913,
+   "next":914,
+   "obj":"resolveBtn",
+   "panel":"BackpackSkin",
+   "showpos":"-350,-35",
+   "desc":"点击熔炼，进入熔炼界面。",
+   "type":0,
+   "group":0
+},
+{
+   "id":914,
+   "next":0,
+   "obj":"resolveBtn",
+   "panel":"MeltingSkin",
+   "showpos":"-330,-25",
+   "desc":"熔炼装备",
+   "type":0,
+   "group":0
+},
+{
+   "id":1001,
+   "next":1002,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"-250,10",
+   "desc":"点这里，去激活坐骑吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1002,
+   "next":1003,
+   "obj":"scrollPage.mountBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"40,-250",
+   "desc":"万相坐骑，一键打开！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1003,
+   "next":1004,
+   "obj":"mainView.activation",
+   "panel":"HorseSkin",
+   "showpos":"0,-250",
+   "desc":"一键激活，坐骑任您选！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1004,
+   "next":1005,
+   "obj":"mainView.goldBtn",
+   "panel":"HorseSkin",
+   "showpos":"-250,10",
+   "desc":"称心良骑，风驰天下。一路保养，拉风全场。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1005,
+   "next":1006,
+   "obj":"closeBtn",
+   "panel":"HorseSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1006,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1011,
+   "next":1012,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"-250,10",
+   "desc":"点这里，去培养坐骑吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1012,
+   "next":1013,
+   "obj":"scrollPage.mountBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"40,-250",
+   "desc":"万相坐骑，选择培养。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1013,
+   "next":0,
+   "obj":"mainView.goldBtn",
+   "panel":"HorseSkin",
+   "showpos":"0,-250",
+   "desc":"称心良骑，风驰天下。一路保养，拉风全场。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1021,
+   "next":1022,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"-250,10",
+   "desc":"点这里，去培养坐骑吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1022,
+   "next":1023,
+   "obj":"scrollPage.mountBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"40,-250",
+   "desc":"万相坐骑，选择培养。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1023,
+   "next":0,
+   "obj":"mainView.goldBtn",
+   "panel":"HorseSkin",
+   "showpos":"0,-250",
+   "desc":"称心良骑，风驰天下。一路保养，拉风全场。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1101,
+   "next":1102,
+   "obj":"rightBar.targetBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入首领禁地。",
+   "type":0,
+   "group":999
+},
+{
+   "id":1102,
+   "next":0,
+   "obj":"guideObj",
+   "panel":"BossPanelSkin",
+   "showpos":"-230,0",
+   "desc":"挑战首领，惩戒一方恶霸！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1111,
+   "next":1112,
+   "obj":"rightBar.targetBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入首领禁地。",
+   "type":0,
+   "group":999
+},
+{
+   "id":1112,
+   "next":0,
+   "obj":"guideObj",
+   "panel":"BossPanelSkin",
+   "showpos":"-230,0",
+   "desc":"挑战首领，惩戒一方恶霸！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1201,
+   "next":1202,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入刷宝之地。",
+   "type":0,
+   "group":999
+},
+{
+   "id":1202,
+   "next":1203,
+   "obj":"richangBtn1",
+   "panel":"LilianList",
+   "showpos":"50,50",
+   "desc":"选择材料副本，开启淘宝之路。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1203,
+   "next":0,
+   "obj":"guideObj",
+   "panel":"DalyFb",
+   "showpos":"-250,0",
+   "desc":"刷宝副本，助你获取更多宝贵材料哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1301,
+   "next":1302,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-45,-250",
+   "desc":"点这里，去升级宝石吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1302,
+   "next":1303,
+   "obj":"scrollPage.gemBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"40,-250",
+   "desc":"宝石升级，是飙升战力的不错选择哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1303,
+   "next":1304,
+   "obj":"gemView.allBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"50,-30",
+   "desc":"一键升级！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1304,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1311,
+   "next":1312,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-45,-250",
+   "desc":"点这里，去升级宝石吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1312,
+   "next":0,
+   "obj":"scrollPage.gemBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"40,-250",
+   "desc":"宝石升级，是飙升战力的不错选择哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1401,
+   "next":1402,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去邂逅众多女神吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1402,
+   "next":1403,
+   "obj":"scrollPage.lingmaiBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择女神，拥有女神，夫复何求！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1403,
+   "next":1404,
+   "obj":"mainView.BtnUpdate",
+   "panel":"lingmaiSkin",
+   "showpos":"-320,-20",
+   "desc":"对女神进行一次宠爱吧，让她芳心萌动！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1404,
+   "next":1405,
+   "obj":"closeBtn",
+   "panel":"lingmaiSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1405,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1411,
+   "next":1412,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去邂逅众多女神吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1412,
+   "next":1413,
+   "obj":"scrollPage.lingmaiBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择女神，拥有女神，夫复何求！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1413,
+   "next":0,
+   "obj":"mainView.BtnUpdate",
+   "panel":"lingmaiSkin",
+   "showpos":"-320,-20",
+   "desc":"对女神进行一次宠爱吧，让她芳心萌动！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1421,
+   "next":1422,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去邂逅众多女神吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1422,
+   "next":1423,
+   "obj":"scrollPage.lingmaiBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择女神，拥有女神，夫复何求！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1423,
+   "next":0,
+   "obj":"mainView.BtnUpdate",
+   "panel":"lingmaiSkin",
+   "showpos":"-320,-20",
+   "desc":"对女神进行一次宠爱吧，让她芳心萌动！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1501,
+   "next":1502,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去为英雄升级哦！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1502,
+   "next":1503,
+   "obj":"scrollPage.partnerView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择英雄，为英雄提升战力。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1503,
+   "next":1504,
+   "obj":"partnerView.levelBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-220,0",
+   "desc":"为英雄升级，增强团队实力！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1504,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1511,
+   "next":1512,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去为英雄升级哦！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1512,
+   "next":1513,
+   "obj":"scrollPage.partnerView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择英雄，为英雄提升战力。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1513,
+   "next":0,
+   "obj":"partnerView.levelBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-220,0",
+   "desc":"为英雄升级，增强团队实力！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1521,
+   "next":1522,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去为英雄升级哦！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1522,
+   "next":1523,
+   "obj":"scrollPage.partnerView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择英雄，为英雄提升战力。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1523,
+   "next":0,
+   "obj":"partnerView.levelBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-220,0",
+   "desc":"为英雄升级，增强团队实力！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1531,
+   "next":1532,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去为英雄升级哦！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1532,
+   "next":1533,
+   "obj":"scrollPage.partnerView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择英雄，为英雄提升战力。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1533,
+   "next":0,
+   "obj":"partnerView.levelBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-220,0",
+   "desc":"为英雄升级，增强团队实力！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1601,
+   "next":1602,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去为英雄进阶吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1602,
+   "next":1603,
+   "obj":"scrollPage.partnerView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择英雄，为英雄提升等阶。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1603,
+   "next":1604,
+   "obj":"partnerView.gradeCheck",
+   "panel":"PartnerPanelSkin",
+   "showpos":"50,30",
+   "desc":"英雄进阶，实力倍增。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1604,
+   "next":1605,
+   "obj":"partnerView.syntheticBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"50,30",
+   "desc":"英雄进阶，实力倍增。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1605,
+   "next":1606,
+   "obj":"partnerView.gradeBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-250,0",
+   "desc":"英雄进阶，实力倍增。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1606,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1701,
+   "next":1702,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入历练新征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1702,
+   "next":1703,
+   "obj":"fuShiTaBtn1",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"洪荒试炼，从这里开始哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1703,
+   "next":0,
+   "obj":"fuShiTaView.startBtn",
+   "panel":"FuBenPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"进入洪荒塔，挑战各路妖邪，邂逅各类奇遇。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1711,
+   "next":1712,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入历练新征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1712,
+   "next":1713,
+   "obj":"fuShiTaBtn1",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"洪荒试炼，从这里开始哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1713,
+   "next":0,
+   "obj":"fuShiTaView.startBtn",
+   "panel":"FuBenPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"进入洪荒塔，挑战各路妖邪，邂逅各类奇遇。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1721,
+   "next":1722,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入历练新征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1722,
+   "next":1723,
+   "obj":"fuShiTaBtn1",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"洪荒试炼，从这里开始哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1723,
+   "next":0,
+   "obj":"fuShiTaView.startBtn",
+   "panel":"FuBenPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"进入洪荒塔，挑战各路妖邪，邂逅各类奇遇。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1731,
+   "next":1732,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入历练新征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1732,
+   "next":1733,
+   "obj":"fuShiTaBtn1",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"洪荒试炼，从这里开始哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1733,
+   "next":0,
+   "obj":"fuShiTaView.startBtn",
+   "panel":"FuBenPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"进入洪荒塔，挑战各路妖邪，邂逅各类奇遇。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1741,
+   "next":1742,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入历练新征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1742,
+   "next":1743,
+   "obj":"fuShiTaBtn1",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"洪荒试炼，从这里开始哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1743,
+   "next":0,
+   "obj":"fuShiTaView.startBtn",
+   "panel":"FuBenPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"进入洪荒塔，挑战各路妖邪，邂逅各类奇遇。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1751,
+   "next":1752,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入历练新征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1752,
+   "next":1753,
+   "obj":"fuShiTaBtn1",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"洪荒试炼，从这里开始哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1753,
+   "next":0,
+   "obj":"fuShiTaView.startBtn",
+   "panel":"FuBenPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"进入洪荒塔，挑战各路妖邪，邂逅各类奇遇。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1801,
+   "next":1802,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去激活玄器吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1802,
+   "next":1803,
+   "obj":"longLin",
+   "panel":"HeroPanelSkin",
+   "showpos":"50,20",
+   "desc":"点这里，即可打开玄器哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1803,
+   "next":1804,
+   "obj":"activation",
+   "panel":"DragonScaleSkin",
+   "showpos":"-250,0",
+   "desc":"激活玄器，实力倍增！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1804,
+   "next":1805,
+   "obj":"upgradeBtn",
+   "panel":"DragonScaleSkin",
+   "showpos":"-250,0",
+   "desc":"升级玄器！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1805,
+   "next":1806,
+   "obj":"closeBtn",
+   "panel":"DragonScaleSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1806,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":1901,
+   "next":1902,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去激活符印吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":1902,
+   "next":1903,
+   "obj":"longWen",
+   "panel":"HeroPanelSkin",
+   "showpos":"-300,10",
+   "desc":"点这里，即可打开符印哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1903,
+   "next":1904,
+   "obj":"activation",
+   "panel":"DragonScaleSkin",
+   "showpos":"-250,0",
+   "desc":"激活符印，实力倍增！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1904,
+   "next":1905,
+   "obj":"upgradeBtn",
+   "panel":"DragonScaleSkin",
+   "showpos":"-250,0",
+   "desc":"升级符印！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1905,
+   "next":1906,
+   "obj":"closeBtn",
+   "panel":"DragonScaleSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":1906,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2001,
+   "next":2002,
+   "obj":"functionBar.partnerBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去为英雄升星吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2002,
+   "next":2003,
+   "obj":"scrollPage.partnerView",
+   "panel":"PartnerPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择英雄，准备升星。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2003,
+   "next":2004,
+   "obj":"partnerView.starCheck",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-250,0",
+   "desc":"升星就戳这里哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2004,
+   "next":2005,
+   "obj":"partnerView.starBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-250,0",
+   "desc":"英雄升星，潜力提升！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2005,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"PartnerPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2101,
+   "next":2102,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，开启历练征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2102,
+   "next":2103,
+   "obj":"dispatchBtn1",
+   "panel":"LilianList",
+   "showpos":"-250,10",
+   "desc":"派遣任务，从这里发出呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2103,
+   "next":2104,
+   "obj":"guideObj",
+   "panel":"DispatchTask",
+   "showpos":"-250,10",
+   "desc":"开始您的派遣任务吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2104,
+   "next":2105,
+   "obj":"guideObj0",
+   "panel":"DispatchTask",
+   "showpos":"-250,10",
+   "desc":"派遣任务一旦开始，等待一段时间后，再回来可以领取更多奖励哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2105,
+   "next":2106,
+   "obj":"closeBtn",
+   "panel":"DispatchTask",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2106,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"LilianList",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2111,
+   "next":2112,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，开启历练征程！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2112,
+   "next":2113,
+   "obj":"dispatchBtn1",
+   "panel":"LilianList",
+   "showpos":"-250,10",
+   "desc":"派遣任务，从这里发出呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2113,
+   "next":2114,
+   "obj":"guideObj",
+   "panel":"DispatchTask",
+   "showpos":"-250,10",
+   "desc":"开始您的派遣任务吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2114,
+   "next":0,
+   "obj":"guideObj0",
+   "panel":"DispatchTask",
+   "showpos":"-250,10",
+   "desc":"派遣任务一旦开始，等待一段时间后，再回来可以领取更多奖励哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2201,
+   "next":2202,
+   "obj":"rightBar.targetBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入世界首领禁地。",
+   "type":0,
+   "group":999
+},
+{
+   "id":2202,
+   "next":2203,
+   "obj":"scrollPage.page0",
+   "panel":"BossPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择世界首领，直捣魔穴。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2203,
+   "next":0,
+   "obj":"guideObj0",
+   "panel":"BossPanelSkin",
+   "showpos":"-250,0",
+   "desc":"挑战世界首领，可除恶八荒，扬名四海哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2211,
+   "next":2212,
+   "obj":"rightBar.targetBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入世界首领禁地。",
+   "type":0,
+   "group":999
+},
+{
+   "id":2212,
+   "next":2213,
+   "obj":"scrollPage.page0",
+   "panel":"BossPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择世界首领，直捣魔穴。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2213,
+   "next":0,
+   "obj":"guideObj0",
+   "panel":"BossPanelSkin",
+   "showpos":"-250,0",
+   "desc":"挑战世界首领，可除恶八荒，扬名四海哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2301,
+   "next":0,
+   "obj":"rightBar.banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"门派何其多，立足不败，选择门派。",
+   "type":0,
+   "group":999
+},
+{
+   "id":2401,
+   "next":2402,
+   "obj":"leftFunction.banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入门派吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2402,
+   "next":2403,
+   "obj":"donateBtn",
+   "panel":"MyFactionPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"门派捐献，戳这里哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2403,
+   "next":0,
+   "obj":"donateView.goldBtn",
+   "panel":"MyFactionPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"为门派捐献，献出一分力量，留下一份荣耀。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2501,
+   "next":2502,
+   "obj":"functionBar.achieveBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去领取境界奖励吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2502,
+   "next":0,
+   "obj":"guideObj",
+   "panel":"AchievementSkin",
+   "showpos":"-350,-35",
+   "desc":"领取境界奖励，积蓄元宝。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2511,
+   "next":2512,
+   "obj":"functionBar.achieveBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去领取境界奖励吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2512,
+   "next":0,
+   "obj":"guideObj",
+   "panel":"AchievementSkin",
+   "showpos":"-350,-35",
+   "desc":"领取境界奖励，积蓄元宝。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2521,
+   "next":2522,
+   "obj":"functionBar.achieveBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去领取境界奖励吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2522,
+   "next":0,
+   "obj":"guideObj",
+   "panel":"AchievementSkin",
+   "showpos":"-350,-35",
+   "desc":"领取境界奖励，积蓄元宝。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2601,
+   "next":2602,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，进入刷宝之地。",
+   "type":0,
+   "group":999
+},
+{
+   "id":2602,
+   "next":2603,
+   "obj":"richangBtn1",
+   "panel":"LilianList",
+   "showpos":"50,0",
+   "desc":"选择材料副本，开启淘宝之路。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2603,
+   "next":0,
+   "obj":"guideObj3",
+   "panel":"DalyFb",
+   "showpos":"50,0",
+   "desc":"刷宝副本，助你获取更多宝贵材料哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2701,
+   "next":2702,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，去激活神翼吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2702,
+   "next":2703,
+   "obj":"scrollPage.wingBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-30,-250",
+   "desc":"选择神翼，激活从这里开始。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2703,
+   "next":2704,
+   "obj":"mainView.activation",
+   "panel":"WingSkin",
+   "showpos":"-250,0",
+   "desc":"一键激活，将神翼收入囊中吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2704,
+   "next":2705,
+   "obj":"mainView.startBtn",
+   "panel":"WingSkin",
+   "showpos":"-250,0",
+   "desc":"培养神翼，将属性提升新高度！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2705,
+   "next":2706,
+   "obj":"closeBtn",
+   "panel":"WingSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2706,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":2801,
+   "next":2802,
+   "obj":"rightBar.offlinePkBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，前往竞技场吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2802,
+   "next":0,
+   "obj":"offlinepvp.player5.startBtn",
+   "panel":"ArenaSkin",
+   "showpos":"50,30",
+   "desc":"狭路相逢勇者胜，实力碾压，一路开挂！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2901,
+   "next":2902,
+   "obj":"rightBar.btn_banghui",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，开始历练征程吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":2902,
+   "next":2903,
+   "obj":"digtreasureBtn1",
+   "panel":"LilianList",
+   "showpos":"-250,0",
+   "desc":"进入秘境挖宝，可挖到各类宝贝哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2903,
+   "next":2904,
+   "obj":"d1",
+   "panel":"wakuangSelect",
+   "showpos":"50,60",
+   "desc":"选择一个秘境吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2904,
+   "next":2905,
+   "obj":"tansuo",
+   "panel":"wakuangSelect",
+   "showpos":"-250,10",
+   "desc":"开启探索之旅！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2905,
+   "next":2906,
+   "obj":"guideObj_13",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"点击石板进行探索，挖掘宝贝吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2906,
+   "next":2907,
+   "obj":"guideObj_18",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"再次点击石板进行挖掘！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2907,
+   "next":2908,
+   "obj":"guideObj_18",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"不好啦，偶遇盗贼了。盗贼会锁定周围石板，我们必须击败他才能挖掘周围石板呢！",
+   "type":1,
+   "group":0
+},
+{
+   "id":2908,
+   "next":2909,
+   "obj":"guideObj_7",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"我们换个地方挖掘吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2909,
+   "next":2910,
+   "obj":"guideObj_7",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"雷管可以击碎周围8格的石板，也能炸死盗贼呢！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2910,
+   "next":2911,
+   "obj":"guideObj_12",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"收集拓印可以释放拓印技能哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2911,
+   "next":2912,
+   "obj":"guideObj_256",
+   "panel":"wakuangMain",
+   "showpos":"60,-10",
+   "desc":"点击释放拓印技能吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2912,
+   "next":2913,
+   "obj":"guideObj_9",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"拓印技能成功释放啦，可以发现隐藏在石板下的盗贼啦！",
+   "type":1,
+   "group":0
+},
+{
+   "id":2913,
+   "next":2914,
+   "obj":"guideObj_1",
+   "panel":"wakuangMain",
+   "showpos":"60,-10",
+   "desc":"获得钥匙，即可进入下一层继续开采哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":2914,
+   "next":0,
+   "obj":"guideObj_8",
+   "panel":"wakuangMain",
+   "showpos":"-250,10",
+   "desc":"戳传送门进入下一层吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3001,
+   "next":3002,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-40,-250",
+   "desc":"点这里，去为装备注灵吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3002,
+   "next":3003,
+   "obj":"scrollPage.zhulingBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择注灵，进入注灵界面哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3003,
+   "next":0,
+   "obj":"zhuLingView.allBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"50,-10",
+   "desc":"一键注灵，提升装备灵力。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3004,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3011,
+   "next":3012,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-40,-250",
+   "desc":"点这里，去为装备注灵吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3012,
+   "next":3013,
+   "obj":"scrollPage.zhulingBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"40,-250",
+   "desc":"选择注灵，进入注灵界面哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3013,
+   "next":0,
+   "obj":"zhuLingView.allBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"50,-10",
+   "desc":"一键注灵，提升装备灵力。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3101,
+   "next":3102,
+   "obj":"rightBar.offlinePkBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，前往竞技场吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3102,
+   "next":3103,
+   "obj":"scrollPage.engagement",
+   "panel":"ArenaSkin",
+   "showpos":"40,-250",
+   "desc":"选择遭遇战，准备挑战更多劲敌吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3103,
+   "next":0,
+   "obj":"engagement.ranknearplayerview.guideObj",
+   "panel":"ArenaSkin",
+   "showpos":"-250,0",
+   "desc":"挑战对手，用实力打败他！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3111,
+   "next":3112,
+   "obj":"rightBar.offlinePkBtn",
+   "panel":"MainUISkin",
+   "showpos":"-350,-35",
+   "desc":"点这里，前往竞技场吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3112,
+   "next":3113,
+   "obj":"scrollPage.engagement",
+   "panel":"ArenaSkin",
+   "showpos":"40,-250",
+   "desc":"选择遭遇战，准备挑战更多劲敌吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3113,
+   "next":0,
+   "obj":"engagement.ranknearplayerview.guideObj",
+   "panel":"ArenaSkin",
+   "showpos":"-250,0",
+   "desc":"挑战对手，用实力打败他！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3201,
+   "next":3202,
+   "obj":"activtyBar.fabao",
+   "panel":"MainUISkin",
+   "showpos":"30,20",
+   "desc":"点这里，去寻找隐藏在大陆的各类法宝吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3202,
+   "next":3203,
+   "obj":"oneBtn",
+   "panel":"XunBaoSkin",
+   "showpos":"-250,0",
+   "desc":"开始寻宝，把各类法宝收入囊中吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3203,
+   "next":0,
+   "obj":"oneBtn",
+   "panel":"XunBaoSkin",
+   "showpos":"-10,-250",
+   "desc":"开始寻宝，把各类法宝收入囊中吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3211,
+   "next":0,
+   "obj":"activtyBar.fabao",
+   "panel":"MainUISkin",
+   "showpos":"30,20",
+   "desc":"点这里，去寻找隐藏在大陆的各类法宝吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3301,
+   "next":3302,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-30,-250",
+   "desc":"点这里，为装备进行升星吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3302,
+   "next":3303,
+   "obj":"scrollPage.upstarBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-30,-250",
+   "desc":"戳这里，选择升星哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3303,
+   "next":3304,
+   "obj":"upstarView.startBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-350,-20",
+   "desc":"点击升星，提升装备更多属性。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3304,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3311,
+   "next":3312,
+   "obj":"functionBar.equipBtn",
+   "panel":"MainUISkin",
+   "showpos":"-30,-250",
+   "desc":"点这里，为装备进行升星吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3312,
+   "next":3313,
+   "obj":"scrollPage.upstarBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-30,-250",
+   "desc":"戳这里，选择升星哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3313,
+   "next":0,
+   "obj":"upstarView.startBtn",
+   "panel":"EquipPanelSkin",
+   "showpos":"-350,-20",
+   "desc":"点击升星，提升装备更多属性。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3401,
+   "next":3402,
+   "obj":"functionBar.roleBtn",
+   "panel":"MainUISkin",
+   "showpos":"40,-250",
+   "desc":"点这里，为转生获取更多修为吧！",
+   "type":0,
+   "group":999
+},
+{
+   "id":3402,
+   "next":3403,
+   "obj":"zhuansheng",
+   "panel":"HeroPanelSkin",
+   "showpos":"-250,0",
+   "desc":"戳这里，即可打开转生面板哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3403,
+   "next":3404,
+   "obj":"getxw",
+   "panel":"StateSkin",
+   "showpos":"-250,20",
+   "desc":"获取修为，从这里开始。",
+   "type":0,
+   "group":0
+},
+{
+   "id":3404,
+   "next":3405,
+   "obj":"guideObj",
+   "panel":"StateUseItem",
+   "showpos":"-250,20",
+   "desc":"金币和元宝可兑换修为，进行兑换吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3405,
+   "next":3406,
+   "obj":"btn_ext",
+   "panel":"StateUseItem",
+   "showpos":"-250,20",
+   "desc":"只有修为足够时，才可以转生哦！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3406,
+   "next":3407,
+   "obj":"closeBtn",
+   "panel":"StateSkin",
+   "showpos":"-350,-35",
+   "desc":"点这里返回主界面吧！",
+   "type":0,
+   "group":0
+},
+{
+   "id":3407,
+   "next":0,
+   "obj":"closeBtn",
+   "panel":"HeroPanelSkin",
+   "showpos":"-350,-35",
+   "desc":"戳这里，返回乾坤大陆。",
+   "type":0,
+   "group":0
+}]

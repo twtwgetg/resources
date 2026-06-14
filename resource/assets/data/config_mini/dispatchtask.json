@@ -1,0 +1,132 @@
+[{
+   "id":1,
+   "reward":"10004:50",
+   "quality":1,
+   "additionrate":10,
+   "partnernum":1,
+   "additionalreward":"1_2",
+   "time":120,
+   "condition":1,
+   "name":"收集草药"
+},
+{
+   "id":2,
+   "reward":"10004:100",
+   "quality":1,
+   "additionrate":10,
+   "partnernum":1,
+   "additionalreward":"1_2",
+   "time":240,
+   "condition":1,
+   "name":"开采矿石"
+},
+{
+   "id":3,
+   "reward":"10004:150",
+   "quality":1,
+   "additionrate":10,
+   "partnernum":1,
+   "additionalreward":"1_2",
+   "time":360,
+   "condition":1,
+   "name":"丛林狩猎"
+},
+{
+   "id":4,
+   "reward":"10004:200",
+   "quality":1,
+   "additionrate":10,
+   "partnernum":1,
+   "additionalreward":"1_2",
+   "time":480,
+   "condition":1,
+   "name":"击杀巨兽"
+},
+{
+   "id":5,
+   "reward":"10005:50",
+   "quality":3,
+   "additionrate":10,
+   "partnernum":2,
+   "additionalreward":"1_2_3_4_6",
+   "time":120,
+   "condition":1,
+   "name":"探索古墓"
+},
+{
+   "id":6,
+   "reward":"10005:100",
+   "quality":3,
+   "additionrate":10,
+   "partnernum":2,
+   "additionalreward":"1_2_3_4_6",
+   "time":240,
+   "condition":1,
+   "name":"海底采宝"
+},
+{
+   "id":7,
+   "reward":"10005:150",
+   "quality":3,
+   "additionrate":10,
+   "partnernum":2,
+   "additionalreward":"1_2_3_4_6",
+   "time":360,
+   "condition":1,
+   "name":"荒野寻藏"
+},
+{
+   "id":8,
+   "reward":"10005:200",
+   "quality":3,
+   "additionrate":10,
+   "partnernum":2,
+   "additionalreward":"1_2_3_4_6",
+   "time":480,
+   "condition":1,
+   "name":"雪山探秘"
+},
+{
+   "id":9,
+   "reward":"10006:50",
+   "quality":5,
+   "additionrate":10,
+   "partnernum":3,
+   "additionalreward":"5_7_8",
+   "time":120,
+   "condition":7,
+   "name":"护送千金"
+},
+{
+   "id":10,
+   "reward":"10006:100",
+   "quality":5,
+   "additionrate":10,
+   "partnernum":3,
+   "additionalreward":"5_7_8",
+   "time":240,
+   "condition":7,
+   "name":"捉拿缉犯"
+},
+{
+   "id":11,
+   "reward":"10006:150",
+   "quality":5,
+   "additionrate":10,
+   "partnernum":3,
+   "additionalreward":"5_7_8",
+   "time":360,
+   "condition":7,
+   "name":"暗杀要员"
+},
+{
+   "id":12,
+   "reward":"10006:200",
+   "quality":5,
+   "additionrate":10,
+   "partnernum":3,
+   "additionalreward":"5_7_8",
+   "time":480,
+   "condition":7,
+   "name":"航海探险"
+}]
